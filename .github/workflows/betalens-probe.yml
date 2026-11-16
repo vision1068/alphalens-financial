@@ -2,7 +2,7 @@ name: BetaLens probe
 on:
   push:
     branches: [betalens-financial]
-    paths: ['betalens-financial/probe/urls.txt']
+    paths: ['betalens-financial/probe/urls.txt', 'betalens-financial/probe/probe.py']
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,17 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch pages
-        run: |
-          cd betalens-financial/probe
-          mkdir -p out
-          i=0
-          while read -r name url; do
-            [ -z "$name" ] && continue
-            code=$(curl -sS -L -m 60 -A "Mozilla/5.0 (X11; Linux x86_64) BetaLens/0.1" -o "out/$name" -w "%{http_code}" "$url" || echo ERR)
-            echo "$name $code $(wc -c < "out/$name" 2>/dev/null)" | tee -a out/_status.txt
-            sleep 2
-          done < urls.txt
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q psxdata
+      - name: Fetch endpoints
+        run: python betalens-financial/probe/probe.py
       - name: Commit results
         run: |
           git config user.name "betalens-bot"
