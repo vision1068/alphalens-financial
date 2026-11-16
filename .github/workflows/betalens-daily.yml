@@ -30,6 +30,12 @@ jobs:
       - run: pip install -q -r requirements.txt
       - run: python -m pytest -q
       - run: python -m betalens.pipeline --backtest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+          PORTFOLIO_SYMBOLS: ${{ secrets.PORTFOLIO_SYMBOLS }}
       - name: Commit results
         run: |
           git config user.name "betalens-bot"
@@ -38,6 +44,6 @@ jobs:
           # only the data. An earlier run may have pushed data since this run's checkout.
           git fetch -q origin "$GITHUB_REF_NAME"
           git reset -q --mixed FETCH_HEAD
-          git add data/latest data/backtest data/signal_log.csv
+          git add data/latest data/backtest data/signal_log.csv data/alert_state.json
           git commit -m "data: daily scores" || exit 0
           git push origin "HEAD:$GITHUB_REF_NAME"

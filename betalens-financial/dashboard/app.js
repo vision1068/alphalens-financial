@@ -109,6 +109,16 @@ function showDetail(k) {
     bar(f.score),
     el("ul", {}, f.reasons.map((r) => el("li", { text: r }))),
   ]));
+  const note = (state.notes || {})[k.symbol];
+  if (note) {
+    const list = (title, items) => (items && items.length)
+      ? [el("b", { text: title }), el("ul", {}, items.map((i) => el("li", { text: i })))] : [];
+    blocks.unshift(el("div", { class: "note" }, [
+      el("b", { text: "Analyst note" }), el("p", { text: note.summary }),
+      ...list("Strengths", note.strengths), ...list("Risks", note.risks), ...list("Check before acting", note.checks),
+      el("p", { class: "muted small", text: "Written by an AI model from the figures above. It does not change the score." }),
+    ]));
+  }
   if (k.red_flags && k.red_flags.length) {
     blocks.unshift(el("p", { class: "error", text: `Red flags: ${k.red_flags.join("; ")}` }));
   }
@@ -309,6 +319,7 @@ async function main() {
     $("fSector").append(...sectors.map((s) => el("option", { value: s, text: s })));
     $("symbolList").append(...scores.scores.map((k) => el("option", { value: k.symbol })));
     try { state.agent = await getJson("latest/dividend_agent.json"); } catch { state.agent = null; }
+    try { state.notes = await getJson("latest/analyst_notes.json"); } catch { state.notes = {}; }
     renderTiles(); renderScores(); renderHoldings(); renderDividends();
   } catch (err) {
     $("updated").textContent = "Data could not be loaded.";

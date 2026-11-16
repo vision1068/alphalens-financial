@@ -57,6 +57,36 @@ def append_signal_log(cards: list[dict], today: date, path: Path) -> int:
     return len(new)
 
 
+def run_analyst_and_alerts(cards: list[dict], companies: list[CompanyData], upcoming: list[dict]) -> dict:
+    """Write AI notes for companies whose picture changed, then email any new alerts. Returns the notes."""
+    import os
+
+    import yaml
+
+    from betalens import alerts, analyst
+
+    acfg = yaml.safe_load((OUT.parents[1] / "config" / "alerts.yaml").read_text())
+    notes_path, state_path = OUT / "analyst_notes.json", OUT.parent / "alert_state.json"
+    cache = json.loads(notes_path.read_text()) if notes_path.exists() else {}
+    notes, written = analyst.write_notes(cards, {c.symbol: c for c in companies}, cache,
+                                         acfg["analyst_model"], acfg["analyst_notes_per_run"])
+    print(f"AI analyst wrote {written} note(s); {len(notes)} on file")
+    state = json.loads(state_path.read_text()) if state_path.exists() else {}
+    holdings = {s.strip().upper() for s in os.environ.get("PORTFOLIO_SYMBOLS", "").split(",") if s.strip()}
+    pending, new_state = alerts.find_alerts(cards, upcoming, state, acfg, holdings)
+    if not pending:
+        state_path.write_text(json.dumps(new_state, indent=1))
+        print("No new alerts")
+    else:
+        try:
+            if alerts.send(*alerts.compose(pending, notes, acfg.get("dashboard_url") or "")):
+                state_path.write_text(json.dumps(new_state, indent=1))
+                print(f"Sent {len(pending)} alert(s)")
+        except Exception as e:  # scores must still be saved; the alert is retried on the next run
+            print(f"Email alert failed, will retry next run: {type(e).__name__}: {e}", file=sys.stderr)
+    return notes
+
+
 def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     from betalens.data.portal import Portal  # imported here so tests need no network stack
 
@@ -91,6 +121,8 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     from betalens.dividends import run_agent
     agent = run_agent(companies, {k["symbol"]: k for k in cards}, today)
     (OUT / "dividend_agent.json").write_text(json.dumps({"meta": meta, **agent}, indent=1, default=str))
+    notes = run_analyst_and_alerts(cards, companies, agent["upcoming"])
+    (OUT / "analyst_notes.json").write_text(json.dumps(notes, indent=1))
     append_signal_log(cards, today, OUT.parent / "signal_log.csv")
     print(f"Scored {len(cards)} companies, {len(errors)} failed")
     if backtest:

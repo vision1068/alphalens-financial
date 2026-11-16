@@ -82,6 +82,13 @@ def parse_company_page(html: str, symbol: str) -> CompanyData:
     if head and head.parent.find_next_sibling():
         c.fiscal_year_end_month = MONTHS.get(head.parent.find_next_sibling().get_text(strip=True).lower(), 6)
 
+    section = soup.find(id="announcements")
+    for table in section.find_all("table") if section else []:
+        for tr in table.find_all("tr")[1:4]:
+            cells = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
+            if len(cells) >= 2:
+                c.announcements.append(f"{cells[0]}: {cells[1]}"[:160])
+
     by_year: dict[int, YearFigures] = {}
     for headers, rows in _year_tables(soup.find(id="financials")):
         revenue = next((rows[k] for k in rows if k in REVENUE_LABELS), None)

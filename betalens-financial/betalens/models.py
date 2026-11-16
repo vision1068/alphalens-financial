@@ -48,6 +48,7 @@ class CompanyData:
     face_value: float | None = None
     payouts: list[dict] = field(default_factory=list)        # newest first, see parsers.parse_payouts
     red_flags: list[str] = field(default_factory=list)
+    announcements: list[str] = field(default_factory=list)   # recent announcement titles, newest first
 
 
 @dataclass

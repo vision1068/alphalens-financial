@@ -60,6 +60,21 @@ final merge, and update the branch name in `dashboard/config.js`), base director
 `betalens-financial/dashboard`, no build command. `netlify.toml` skips deploys when the dashboard folder
 has not changed.
 
+## AI analyst and email alerts
+
+Both run inside the daily job and need GitHub Actions secrets (repository Settings, Secrets and variables,
+Actions). Nothing secret is stored in this repository.
+
+| Secret | Purpose |
+|---|---|
+| `ANTHROPIC_API_KEY` | Lets the AI analyst write a short note per company. Notes are cached and rewritten only when a company's signal or reported figures change |
+| `SMTP_USERNAME`, `SMTP_PASSWORD` | Gmail address and app password the alerts are sent from |
+| `ALERT_EMAIL_TO` | Where alerts go |
+| `PORTFOLIO_SYMBOLS` (optional) | Comma-separated symbols you hold, e.g. `PSO,HBL`; these also alert when they turn Sell |
+
+An email goes out once when a company becomes Strong Buy or Strong Sell, or when an upcoming dividend is
+judged worth a look. Settings are in `config/alerts.yaml`.
+
 ## Run the tests
 
     pip install -r requirements.txt
