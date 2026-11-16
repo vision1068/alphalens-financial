@@ -1,0 +1,39 @@
+name: BetaLens daily scores
+on:
+  schedule:
+    - cron: '17 12 * * 1-5'   # 17:17 Pakistan time, after the PSX close. Runs only from the default branch.
+  workflow_dispatch:
+  push:
+    branches: [betalens-financial]
+    paths:
+      - 'betalens-financial/betalens/**'
+      - 'betalens-financial/config/**'
+      - 'betalens-financial/data/manual_statements.csv'
+permissions:
+  contents: write
+concurrency:
+  group: betalens-daily
+  cancel-in-progress: false
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: betalens-financial
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q -r requirements.txt
+      - run: python -m pytest -q
+      - run: python -m betalens.pipeline
+      - name: Commit results
+        run: |
+          git config user.name "betalens-bot"
+          git config user.email "betalens-bot@users.noreply.github.com"
+          git add data/latest
+          git commit -m "data: daily scores" || exit 0
+          git pull --rebase -q
+          git push

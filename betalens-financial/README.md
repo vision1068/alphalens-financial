@@ -11,7 +11,10 @@ Decision support only. It never places trades and is not financial advice.
 | `betalens/scoring/` | The ten factors and the engine that combines them |
 | `betalens/data/parsers.py` | Parsers for PSX Data Portal pages |
 | `tests/` | Unit tests, including real portal pages as fixtures |
-| `probe/` | Lists portal URLs for the probe workflow to fetch when page layouts need checking |
+| `betalens/pipeline.py` | Daily run: fetch, score, write `data/latest/*.json` |
+| `data/manual_statements.csv` | Your own entries for the four statement-based factors |
+| `data/latest/` | Latest scores and dividend records (written by the daily job) |
+| `probe/` | One-off script that saves raw portal responses when a page layout needs checking |
 
 ## How scoring works
 
@@ -21,6 +24,28 @@ No Buy/Sell signal is issued below `min_coverage`.
 
 The free portal page supplies sales, profit, EPS, margins, P/E and prices. Cash flow, debt, liquidity and
 cash-cycle factors need figures from the full financial statements.
+
+## Entering statement figures by hand
+
+The free portal has no balance sheet or cash flow data, so four factors (cash flow quality, cash
+conversion cycle, debt, liquidity) stay empty until figures are supplied. Add one row per company per
+fiscal year to `data/manual_statements.csv`. Money columns are in thousands of rupees, as printed in the
+company's annual report; `dividend_per_share` is in rupees. Leave unknown cells blank. Saving the file on
+GitHub re-runs the scoring.
+
+| Column | Where to find it in the annual report |
+|---|---|
+| `equity` | Statement of financial position: total equity |
+| `total_debt` | Long-term financing plus short-term borrowings |
+| `ebit` | Profit before tax plus finance cost |
+| `interest_expense` | Finance cost |
+| `operating_cash_flow` | Cash flow statement: net cash from operating activities |
+| `capex` | Cash flow statement: purchase of property, plant and equipment |
+| `current_assets`, `current_liabilities` | Statement of financial position totals |
+| `receivables` | Trade debts |
+| `inventory` | Stock-in-trade |
+| `payables` | Trade and other payables |
+| `cost_of_sales` | Profit and loss: cost of sales |
 
 ## Run the tests
 

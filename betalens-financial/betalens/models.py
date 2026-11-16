@@ -41,7 +41,10 @@ class CompanyData:
     years: list[YearFigures] = field(default_factory=list)   # newest first
     closes: list[float] = field(default_factory=list)        # daily closes, oldest first
     index_closes: list[float] = field(default_factory=list)  # KSE-100, same dates
-    dividend_years_paid: int | None = None                   # of the last 5 fiscal years
+    dividend_years_paid: int | None = None                   # fiscal years with a cash dividend, of the last `dividend_window`
+    dividend_window: int = 5
+    face_value: float | None = None
+    payouts: list[dict] = field(default_factory=list)        # newest first, see parsers.parse_payouts
     red_flags: list[str] = field(default_factory=list)
 
 

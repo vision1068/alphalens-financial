@@ -151,8 +151,9 @@ def dividend(c: CompanyData, period_years: int) -> Result:
         parts.append((curve(c.dividend_yield_pct, [(0, 0), (3, 50), (6, 75), (10, 100)]), 0.5))
         reasons.append(f"Dividend yield {c.dividend_yield_pct:.1f}%")
     if c.dividend_years_paid is not None:
-        parts.append((100 * min(c.dividend_years_paid, 5) / 5, 0.3))
-        reasons.append(f"Paid a dividend in {c.dividend_years_paid} of the last 5 years")
+        window = max(c.dividend_window, 1)
+        parts.append((100 * min(c.dividend_years_paid, window) / window, 0.3))
+        reasons.append(f"Paid a cash dividend in {c.dividend_years_paid} of the last {window} fiscal years on record")
     y = c.years[0] if c.years else None
     if y and y.dividend_per_share is not None and y.eps and y.eps > 0:
         payout = y.dividend_per_share / y.eps
