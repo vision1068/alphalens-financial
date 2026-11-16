@@ -61,9 +61,8 @@ book (needs `equity`) and, for banks, asset quality (`npl_ratio_pct`) and capita
 GitHub at page load, so daily data updates never redeploy the site. Holdings entered under "My portfolio"
 are stored in the browser only.
 
-Deploy on Netlify: import this repository, deploy branch `betalens-financial` (change to `main` after the
-final merge, and update the branch name in `dashboard/config.js`), base directory
-`betalens-financial/dashboard`, no build command. `netlify.toml` skips deploys when the dashboard folder
+Live at https://betalens.netlify.app/. Netlify deploys branch `main`, base directory
+`betalens-financial/dashboard`, no build command. `dashboard/config.js` names the branch the data is read from. `netlify.toml` skips deploys when the dashboard folder
 has not changed.
 
 ## AI analyst and email alerts

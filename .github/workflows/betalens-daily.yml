@@ -4,7 +4,7 @@ on:
     - cron: '17 12 * * 1-5'   # 17:17 Pakistan time, after the PSX close. Runs only from the default branch.
   workflow_dispatch:
   push:
-    branches: [betalens-financial]
+    branches: [main, betalens-financial]
     paths:
       - 'betalens-financial/betalens/**'
       - 'betalens-financial/config/**'

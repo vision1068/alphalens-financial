@@ -1,7 +1,7 @@
 name: BetaLens tests
 on:
   push:
-    branches: [betalens-financial]
+    branches: [main, betalens-financial]
     paths: ['betalens-financial/**', '!betalens-financial/probe/**']
   pull_request:
     paths: ['betalens-financial/**']
