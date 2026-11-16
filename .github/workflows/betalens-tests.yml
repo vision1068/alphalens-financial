@@ -1,0 +1,20 @@
+name: BetaLens tests
+on:
+  push:
+    branches: [betalens-financial]
+    paths: ['betalens-financial/**', '!betalens-financial/probe/**']
+  pull_request:
+    paths: ['betalens-financial/**']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: betalens-financial
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q

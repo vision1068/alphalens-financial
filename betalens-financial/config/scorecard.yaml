@@ -1,0 +1,22 @@
+# BetaLens scorecard. Edit weights and thresholds here; weights should total 100.
+period_years: 3          # 1 or 3: look-back for growth factors
+min_coverage: 60         # % of total weight that must have data before any Buy/Sell signal is issued
+signals:                 # lower bound of each band, on the 0-100 score
+  strong_buy: 75
+  buy: 60
+  hold: 40
+  sell: 25               # below this: strong_sell
+weights:
+  revenue_growth: 10
+  earnings_growth: 12
+  profitability: 12
+  cash_flow_quality: 12
+  cash_conversion_cycle: 8
+  debt: 12
+  liquidity: 6
+  valuation: 12
+  dividend: 8
+  price_trend: 8
+# Sectors scored without the working-capital and leverage factors (their balance sheets work differently).
+financial_sectors: ["COMMERCIAL BANKS", "INSURANCE", "INV. BANKS / INV. COS. / SECURITIES COS.", "LEASING COMPANIES", "MODARABAS"]
+financial_excluded_factors: [cash_flow_quality, cash_conversion_cycle, debt, liquidity]
