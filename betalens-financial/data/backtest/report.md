@@ -1,8 +1,8 @@
 # BetaLens back-test
 
-4582 company-month observations, 1190 with enough data for a signal, from 2022-09-30 to 2026-07-31. Look-back setting: 3 year(s).
+4628 company-month observations, 1190 with enough data for a signal, from 2022-09-30 to 2026-07-31. Look-back setting: 3 year(s).
 
-Read this as indicative, not proof. Only today's KSE-100 members are tested, the window is about two years, returns exclude dividends, and monthly samples overlap.
+Read this as indicative, not proof. Only today's KSE-100 members are tested, the window is a few years, and monthly samples overlap. Share returns here exclude dividends while the KSE-100 is a total-return index, so out-performance is understated by roughly each share's dividend yield.
 
 ## 3m after the signal
 
@@ -15,7 +15,7 @@ Read this as indicative, not proof. Only today's KSE-100 members are tested, the
 | HOLD | 272 | 8.23 | 1.04 | 40.1 | 55.5 |
 | SELL | 133 | 5.82 | -2.1 | 34.6 | 48.1 |
 | STRONG_SELL | 76 | 9.06 | -1.82 | 35.5 | 56.6 |
-| INSUFFICIENT_DATA | 3392 | 10.26 | -1.58 | 36.7 | 61.0 |
+| INSUFFICIENT_DATA | 3438 | 10.29 | -1.53 | 36.6 | 61.0 |
 
 ### By score rank each month (Q1 = top fifth)
 
@@ -44,11 +44,11 @@ Overall score rank correlation with later out-performance: 0.138 (positive in 77
 | Factor | Rank correlation | Months | Months positive % |
 |---|---|---|---|
 | dividend | 0.113 | 10 | 60.0 |
-| revenue_growth | 0.075 | 29 | 75.9 |
+| revenue_growth | 0.074 | 29 | 75.9 |
 | valuation | 0.069 | 41 | 80.5 |
-| price_trend | 0.008 | 47 | 46.8 |
+| price_trend | 0.008 | 47 | 48.9 |
 | earnings_growth | 0.007 | 29 | 44.8 |
-| profitability | -0.024 | 41 | 41.5 |
+| profitability | -0.024 | 41 | 39.0 |
 
 ## 6m after the signal
 
@@ -61,7 +61,7 @@ Overall score rank correlation with later out-performance: 0.138 (positive in 77
 | HOLD | 209 | 21.55 | 3.81 | 38.3 | 59.8 |
 | SELL | 109 | 10.39 | -9.16 | 33.0 | 54.1 |
 | STRONG_SELL | 69 | 18.88 | -4.29 | 44.9 | 59.4 |
-| INSUFFICIENT_DATA | 3316 | 24.7 | -2.24 | 35.6 | 70.1 |
+| INSUFFICIENT_DATA | 3359 | 24.83 | -2.1 | 35.5 | 70.1 |
 
 ### By score rank each month (Q1 = top fifth)
 
@@ -92,9 +92,25 @@ Overall score rank correlation with later out-performance: 0.169 (positive in 62
 | valuation | 0.097 | 38 | 92.1 |
 | revenue_growth | 0.065 | 26 | 65.4 |
 | dividend | 0.042 | 7 | 42.9 |
-| price_trend | -0.01 | 44 | 47.7 |
+| price_trend | -0.01 | 44 | 50.0 |
 | earnings_growth | -0.023 | 26 | 34.6 |
-| profitability | -0.031 | 38 | 42.1 |
+| profitability | -0.03 | 38 | 44.7 |
+
+## Alternative factor weightings
+
+Top fifth and bottom fifth of scores each month, average return vs the KSE-100.
+
+| Weighting | Horizon | Top fifth % | Bottom fifth % | Spread % | Top fifth beat index % | Rank correlation |
+|---|---|---|---|---|---|---|
+| current | 3m | -0.68 | -1.27 | 0.59 | 46.6 | 0.138 |
+| current | 6m | -1.2 | -4.69 | 3.49 | 36.3 | 0.169 |
+| value_tilt | 3m | 2.25 | -2.46 | 4.71 | 47.9 | 0.193 |
+| value_tilt | 6m | 9.02 | -7.81 | 16.83 | 42.5 | 0.212 |
+| equal | 3m | 1.1 | -1.25 | 2.35 | 44.9 | 0.129 |
+| equal | 6m | 3.76 | -4.67 | 8.43 | 37.8 | 0.16 |
+
+- `value_tilt`: valuation 20, revenue_growth 12, dividend 10, earnings_growth 8, profitability 6, price_trend 6
+- `equal`: valuation 10, revenue_growth 10, dividend 10, earnings_growth 10, profitability 11, price_trend 11
 
 ## Suggested thresholds
 
