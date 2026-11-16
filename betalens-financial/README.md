@@ -68,6 +68,7 @@ Actions). Nothing secret is stored in this repository.
 | Secret | Purpose |
 |---|---|
 | `ANTHROPIC_API_KEY` | Lets the AI analyst write a short note per company. Notes are cached and rewritten only when a company's signal or reported figures change |
+| `ANTHROPIC_WORKSPACE_ID` (optional) | Only needed when the API key is not scoped to a workspace |
 | `SMTP_USERNAME`, `SMTP_PASSWORD` | Gmail address and app password the alerts are sent from |
 | `ALERT_EMAIL_TO` | Where alerts go |
 | `PORTFOLIO_SYMBOLS` (optional) | Comma-separated symbols you hold, e.g. `PSO,HBL`; these also alert when they turn Sell |

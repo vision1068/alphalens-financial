@@ -130,3 +130,11 @@ def test_announcement_titles_are_parsed():
     assert c.announcements and any("Quarterly Report" in a for a in c.announcements)
     f = analyst.facts({"score": 1, "signal": "HOLD", "coverage_pct": 1, "factors": []}, c)
     assert f["recent_announcement_titles"] == c.announcements[:8] and f["symbol"] == "PSO"
+
+
+def test_analyst_stops_after_repeated_failures():
+    cards = [card(f"S{i}", "BUY") for i in range(6)]
+    companies = {k["symbol"]: company(k["symbol"]) for k in cards}
+    client = FakeClient([RuntimeError("400")] * 6)
+    notes, written = analyst.write_notes(cards, companies, {}, "m", 30, client)
+    assert written == 0 and notes == {} and len(client.calls) == 3

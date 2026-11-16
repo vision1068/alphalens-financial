@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 
 from betalens.models import CompanyData
 
+MAX_CONSECUTIVE_FAILURES = 3
 PRIORITY = ["STRONG_BUY", "STRONG_SELL", "BUY", "SELL", "HOLD"]
 FIELDS = ("summary", "strengths", "risks", "checks")
 SYSTEM = (
@@ -87,9 +88,10 @@ def write_notes(cards: list[dict], companies: dict[str, CompanyData], cache: dic
             print("AI analyst skipped: ANTHROPIC_API_KEY is not set")
             return cache, 0
         import anthropic
-        client = anthropic.Anthropic()
+        workspace = os.environ.get("ANTHROPIC_WORKSPACE_ID", "").strip()
+        client = anthropic.Anthropic(default_headers={"anthropic-workspace-id": workspace} if workspace else None)
     notes = {s: n for s, n in cache.items() if s in companies}
-    written = 0
+    written = failures = 0
     for card in select(cards, companies, notes, limit):
         c = companies[card["symbol"]]
         try:
@@ -99,9 +101,12 @@ def write_notes(cards: list[dict], companies: dict[str, CompanyData], cache: dic
             note = parse_note("".join(b.text for b in reply.content if getattr(b, "type", "") == "text"))
         except Exception as e:  # an API failure must not stop scoring or alerts; the note is retried next run
             print(f"AI analyst failed for {c.symbol}: {type(e).__name__}: {e}")
-            if type(e).__name__ in ("AuthenticationError", "PermissionDeniedError"):
+            failures += 1
+            if failures >= MAX_CONSECUTIVE_FAILURES or type(e).__name__ in ("AuthenticationError", "PermissionDeniedError"):
+                print("AI analyst stopped for this run after repeated failures")
                 break
             continue
+        failures = 0
         if note is None:
             print(f"AI analyst reply for {c.symbol} was not usable; skipped")
             continue
