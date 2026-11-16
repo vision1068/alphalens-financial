@@ -70,7 +70,7 @@ def test_observations_and_analysis_reward_the_better_company():
     assert q["Q1"]["avg_excess_pct"] > q["Q5"]["avg_excess_pct"]
     assert report["horizons"]["3m"]["score_ic"]["mean_ic"] > 0.5
     w = report["weightings"]
-    assert set(w) == {"current", "value_tilt", "equal"} and w["current"]["3m"]["spread_pct"] > 0
+    assert set(w) == {"current", "original", "equal"} and w["current"]["3m"]["spread_pct"] > 0
     md = bt.to_markdown(report, CFG)
     assert "Alternative factor weightings" in md
     assert "By signal (current thresholds)" in md and "Which factors predicted" in md

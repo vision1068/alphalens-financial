@@ -71,7 +71,7 @@ def test_missing_statement_data_lowers_coverage_not_score():
 
 def test_below_min_coverage_gives_no_signal():
     card = score_company(CompanyData("THIN", pe_ratio=8), CFG)
-    assert card.signal == "INSUFFICIENT_DATA" and card.coverage_pct == 12
+    assert card.signal == "INSUFFICIENT_DATA" and card.coverage_pct == 20
 
 
 def test_banks_skip_working_capital_and_leverage_factors():

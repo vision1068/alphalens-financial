@@ -26,8 +26,8 @@ RESULTS_LAG_DAYS = 90              # annual results assumed public this long aft
 # Alternative weightings of the six portal-data factors, compared in the report. Statement factors keep
 # their configured weights. Each set totals 62, the same as the configured weights for these six.
 VARIANTS = {
-    "value_tilt": {"valuation": 20, "revenue_growth": 12, "dividend": 10, "earnings_growth": 8,
-                   "profitability": 6, "price_trend": 6},
+    "original": {"valuation": 12, "revenue_growth": 10, "dividend": 8, "earnings_growth": 12,
+                 "profitability": 12, "price_trend": 8},
     "equal": {"valuation": 10, "revenue_growth": 10, "dividend": 10, "earnings_growth": 10,
               "profitability": 11, "price_trend": 11},
 }

@@ -72,3 +72,15 @@ def test_build_company_end_to_end_reaches_signal_on_free_data():
     scored = {f.name for f in card.factors if f.score is not None}
     assert scored == {"revenue_growth", "earnings_growth", "profitability", "valuation", "dividend", "price_trend"}
     assert card.coverage_pct == 62 and card.signal != "INSUFFICIENT_DATA"
+
+
+def test_signal_log_appends_once_per_day(tmp_path):
+    from betalens.pipeline import append_signal_log
+    log = tmp_path / "signal_log.csv"
+    cards = [{"symbol": "PSO", "score": 71.2, "coverage_pct": 62.0, "signal": "BUY", "price": 368.01},
+             {"symbol": "NIL", "score": None, "coverage_pct": 0.0, "signal": "INSUFFICIENT_DATA", "price": 1.0}]
+    assert append_signal_log(cards, date(2026, 11, 16), log) == 1
+    assert append_signal_log(cards, date(2026, 11, 16), log) == 0
+    assert append_signal_log(cards, date(2026, 11, 17), log) == 1
+    lines = log.read_text().splitlines()
+    assert lines[0].startswith("date,symbol") and lines[1] == "2026-11-16,PSO,71.2,62.0,BUY,368.01" and len(lines) == 3

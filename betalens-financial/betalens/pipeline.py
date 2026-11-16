@@ -42,6 +42,18 @@ def build_company(symbol: str, page_html: str, payouts_html: str, eod_text: str,
     return c
 
 
+def append_signal_log(cards: list[dict], today: date, path: Path) -> int:
+    """Append today's score, signal and price per company, once per day. This is the live track record."""
+    day = today.isoformat()
+    existing = path.read_text().splitlines() if path.exists() else ["date,symbol,score,coverage_pct,signal,price"]
+    if any(line.startswith(day + ",") for line in existing):
+        return 0
+    new = [f"{day},{k['symbol']},{k['score']},{k['coverage_pct']},{k['signal']},{k['price']}"
+           for k in cards if k["score"] is not None]
+    path.write_text("\n".join(existing + new) + "\n")
+    return len(new)
+
+
 def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     from betalens.data.portal import Portal  # imported here so tests need no network stack
 
@@ -73,6 +85,7 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "scores.json").write_text(json.dumps({"meta": meta, "scores": cards}, indent=1, default=str))
     (OUT / "dividends.json").write_text(json.dumps({"meta": meta, "payouts": dividends}, indent=1, default=str))
+    append_signal_log(cards, today, OUT.parent / "signal_log.csv")
     print(f"Scored {len(cards)} companies, {len(errors)} failed")
     if backtest:
         from betalens.backtest import write_report

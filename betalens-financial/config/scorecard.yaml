@@ -6,17 +6,18 @@ signals:                 # lower bound of each band, on the 0-100 score
   buy: 60
   hold: 40
   sell: 25               # below this: strong_sell
+# Value-tilt weights adopted 2026-11-16 after the first back-test (see data/backtest/report.md).
 weights:
-  revenue_growth: 10
-  earnings_growth: 12
-  profitability: 12
+  revenue_growth: 12
+  earnings_growth: 8
+  profitability: 6
   cash_flow_quality: 12
   cash_conversion_cycle: 8
   debt: 12
   liquidity: 6
-  valuation: 12
-  dividend: 8
-  price_trend: 8
+  valuation: 20
+  dividend: 10
+  price_trend: 6
 # Sectors scored without the working-capital and leverage factors (their balance sheets work differently).
 financial_sectors: ["COMMERCIAL BANKS", "INSURANCE", "INV. BANKS / INV. COS. / SECURITIES COS.", "LEASING COMPANIES", "MODARABAS"]
 financial_excluded_factors: [cash_flow_quality, cash_conversion_cycle, debt, liquidity]
