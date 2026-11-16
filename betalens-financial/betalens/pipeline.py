@@ -88,6 +88,9 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "scores.json").write_text(json.dumps({"meta": meta, "scores": cards}, indent=1, default=str))
     (OUT / "dividends.json").write_text(json.dumps({"meta": meta, "payouts": dividends}, indent=1, default=str))
+    from betalens.dividends import run_agent
+    agent = run_agent(companies, {k["symbol"]: k for k in cards}, today)
+    (OUT / "dividend_agent.json").write_text(json.dumps({"meta": meta, **agent}, indent=1, default=str))
     append_signal_log(cards, today, OUT.parent / "signal_log.csv")
     print(f"Scored {len(cards)} companies, {len(errors)} failed")
     if backtest:
