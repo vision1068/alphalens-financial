@@ -98,3 +98,32 @@ def test_extreme_valuation_raises_red_flag_and_name_markers_are_stripped():
     c3 = build_company("PSO", read("company_PSO.html"), read("payouts_PSO.html"), read("eod_PSO.json"), {},
                        {"PSO": {"sector_code": "1", "pe_ratio": 5.5, "dividend_yield_pct": 2.7}}, {}, {}, date(2026, 11, 16))
     assert not any("Unusually" in f for f in c3.red_flags)
+
+
+def test_portal_waits_and_retries_when_rate_limited(monkeypatch):
+    from psxdata.exceptions import PSXRateLimitError
+
+    from betalens.data import portal
+
+    waits, calls = [], []
+
+    class Reply:
+        text = "ok"
+
+    def fake_request(method, url, **kwargs):
+        calls.append(url)
+        if len(calls) < 3:
+            raise PSXRateLimitError("429")
+        return Reply()
+
+    monkeypatch.setattr(portal.time, "sleep", waits.append)
+    p = portal.Portal()
+    monkeypatch.setattr(p._s, "_request", fake_request)
+    assert p.company_page("PSO") == "ok" and waits == [20, 60] and len(calls) == 3
+
+    def always_limited(method, url, **kwargs):
+        raise PSXRateLimitError("429")
+
+    monkeypatch.setattr(p._s, "_request", always_limited)
+    with pytest.raises(PSXRateLimitError):
+        p.screener()

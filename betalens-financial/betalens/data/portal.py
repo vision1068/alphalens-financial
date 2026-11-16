@@ -1,8 +1,13 @@
 """HTTP access to the PSX Data Portal. Uses psxdata's session for retries, rate limiting and the request token."""
 from __future__ import annotations
 
+import time
+
 from psxdata.constants import BASE_URL
+from psxdata.exceptions import PSXRateLimitError
 from psxdata.scrapers.base import BaseScraper
+
+RATE_LIMIT_WAITS = (20, 60, 120)   # seconds to wait after each "too many requests" reply before retrying
 
 
 class Portal:
@@ -11,7 +16,13 @@ class Portal:
 
     def _text(self, method: str, path: str, data: dict | None = None) -> str:
         kwargs = {"data": data} if data else {}
-        return self._s._request(method, BASE_URL + path, **kwargs).text
+        for wait in (*RATE_LIMIT_WAITS, None):
+            try:
+                return self._s._request(method, BASE_URL + path, **kwargs).text
+            except PSXRateLimitError:
+                if wait is None:
+                    raise
+                time.sleep(wait)
 
     def company_page(self, symbol: str) -> str:
         return self._text("GET", f"/company/{symbol}")
