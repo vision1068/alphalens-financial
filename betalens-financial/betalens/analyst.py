@@ -96,7 +96,7 @@ def write_notes(cards: list[dict], companies: dict[str, CompanyData], cache: dic
         c = companies[card["symbol"]]
         try:
             reply = client.messages.create(
-                model=model, max_tokens=700, system=SYSTEM,
+                model=model, max_tokens=1500, system=SYSTEM,
                 messages=[{"role": "user", "content": json.dumps(facts(card, c), default=str)}])
             note = parse_note("".join(b.text for b in reply.content if getattr(b, "type", "") == "text"))
         except Exception as e:  # an API failure must not stop scoring or alerts; the note is retried next run
