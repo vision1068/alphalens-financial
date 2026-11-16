@@ -40,6 +40,8 @@ class CompanyData:
     dividend_yield_pct: float | None = None
     years: list[YearFigures] = field(default_factory=list)   # newest first
     closes: list[float] = field(default_factory=list)        # daily closes, oldest first
+    price_dates: list = field(default_factory=list)          # dates matching `closes`
+    fiscal_year_end_month: int = 6
     index_closes: list[float] = field(default_factory=list)  # KSE-100, same dates
     dividend_years_paid: int | None = None                   # fiscal years with a cash dividend, of the last `dividend_window`
     dividend_window: int = 5

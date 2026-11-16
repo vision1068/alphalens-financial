@@ -36,12 +36,13 @@ def build_company(symbol: str, page_html: str, payouts_html: str, eod_text: str,
     prices = [p for p in parsers.parse_eod(eod_text) if p["date"] in index_by_date] if index_by_date \
         else parsers.parse_eod(eod_text)
     c.closes = [p["close"] for p in prices]
+    c.price_dates = [p["date"] for p in prices]
     c.index_closes = [index_by_date[p["date"]] for p in prices] if index_by_date else []
     apply_manual(c, manual)
     return c
 
 
-def run(symbols: list[str] | None = None) -> int:
+def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     from betalens.data.portal import Portal  # imported here so tests need no network stack
 
     portal, cfg, manual, today = Portal(), load_config(), load_manual(), date.today()
@@ -52,11 +53,12 @@ def run(symbols: list[str] | None = None) -> int:
     medians = parsers.sector_pe_medians(screener)
     index_by_date = {p["date"]: p["close"] for p in parsers.parse_eod(portal.eod("KSE100"))}
 
-    cards, dividends, errors = [], [], {}
+    cards, dividends, errors, companies = [], [], {}, []
     for symbol in symbols:
         try:
             c = build_company(symbol, portal.company_page(symbol), portal.payouts(symbol), portal.eod(symbol),
                               index_by_date, screener, medians, manual, today)
+            companies.append(c)
             card = asdict(score_company(c, cfg))
             card.update(name=c.name or names.get(symbol, ""), sector=c.sector, price=c.price)
             cards.append(card)
@@ -72,11 +74,15 @@ def run(symbols: list[str] | None = None) -> int:
     (OUT / "scores.json").write_text(json.dumps({"meta": meta, "scores": cards}, indent=1, default=str))
     (OUT / "dividends.json").write_text(json.dumps({"meta": meta, "payouts": dividends}, indent=1, default=str))
     print(f"Scored {len(cards)} companies, {len(errors)} failed")
+    if backtest:
+        from betalens.backtest import write_report
+        write_report(companies, cfg, OUT.parent / "backtest")
     return 1 if len(errors) > MAX_FAILURE_SHARE * len(symbols) else 0
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--symbols", help="comma-separated symbols; default is all KSE-100")
+    ap.add_argument("--backtest", action="store_true", help="also write data/backtest/report.md and report.json")
     args = ap.parse_args()
-    sys.exit(run([s.strip().upper() for s in args.symbols.split(",")] if args.symbols else None))
+    sys.exit(run([s.strip().upper() for s in args.symbols.split(",")] if args.symbols else None, args.backtest))

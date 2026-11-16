@@ -12,6 +12,8 @@ from bs4 import BeautifulSoup
 
 from betalens.models import CompanyData, YearFigures
 
+MONTHS = {m: i for i, m in enumerate(("january", "february", "march", "april", "may", "june", "july", "august",
+                                    "september", "october", "november", "december"), start=1)}
 REVENUE_LABELS = ("sales", "total income", "revenue", "net premium")
 
 
@@ -74,6 +76,10 @@ def parse_company_page(html: str, symbol: str) -> CompanyData:
             c.pe_ratio = to_number(value.get_text(strip=True)) or None  # 0.00 means no earnings
         elif key == "face value":
             c.face_value = to_number(value.get_text(strip=True))
+
+    head = soup.find(string=re.compile(r"Fiscal Year End"))
+    if head and head.parent.find_next_sibling():
+        c.fiscal_year_end_month = MONTHS.get(head.parent.find_next_sibling().get_text(strip=True).lower(), 6)
 
     by_year: dict[int, YearFigures] = {}
     for headers, rows in _year_tables(soup.find(id="financials")):
