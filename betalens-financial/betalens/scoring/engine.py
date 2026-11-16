@@ -13,7 +13,8 @@ DEFAULT_CONFIG = Path(__file__).resolve().parents[2] / "config" / "scorecard.yam
 
 def load_config(path: Path | str = DEFAULT_CONFIG) -> dict:
     cfg = yaml.safe_load(Path(path).read_text())
-    unknown = set(cfg["weights"]) - set(FACTORS)
+    unknown = (set(cfg["weights"]) | set(cfg.get("financial_extra_weights") or {})
+               | set(cfg.get("bank_extra_weights") or {})) - set(FACTORS)
     if unknown:
         raise ValueError(f"Unknown factors in config: {sorted(unknown)}")
     if cfg["period_years"] not in (1, 3):
@@ -35,9 +36,13 @@ def signal_for(score: float, bands: dict) -> str:
 
 def score_company(c: CompanyData, cfg: dict) -> Scorecard:
     weights = dict(cfg["weights"])
-    if c.sector.upper() in {s.upper() for s in cfg.get("financial_sectors", [])}:
+    sector = c.sector.upper()
+    if sector in {s.upper() for s in cfg.get("financial_sectors", [])}:
         for name in cfg.get("financial_excluded_factors", []):
             weights.pop(name, None)
+        weights.update(cfg.get("financial_extra_weights") or {})
+        if sector in {s.upper() for s in cfg.get("bank_sectors", [])}:
+            weights.update(cfg.get("bank_extra_weights") or {})
     total_weight = sum(weights.values())
     results: list[FactorResult] = []
     for name, weight in weights.items():

@@ -75,6 +75,8 @@ def parse_company_page(html: str, symbol: str) -> CompanyData:
         key = label.get_text(strip=True).lower()
         if key.startswith("p/e ratio") and c.pe_ratio is None:
             c.pe_ratio = to_number(value.get_text(strip=True)) or None  # 0.00 means no earnings
+        elif key == "shares":
+            c.shares_outstanding = to_number(value.get_text(strip=True))
         elif key == "face value":
             c.face_value = to_number(value.get_text(strip=True))
 

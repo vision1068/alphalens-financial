@@ -74,13 +74,30 @@ def test_below_min_coverage_gives_no_signal():
     assert card.signal == "INSUFFICIENT_DATA" and card.coverage_pct == 20
 
 
-def test_banks_skip_working_capital_and_leverage_factors():
+def test_banks_swap_working_capital_factors_for_bank_factors():
     c = strong_company()
     c.sector = "Commercial Banks"
     card = score_company(c, CFG)
     names = {f.name for f in card.factors}
     assert not names & {"cash_flow_quality", "cash_conversion_cycle", "debt", "liquidity"}
-    assert card.coverage_pct == 100
+    assert {"price_to_book", "asset_quality", "capital_adequacy"} <= names
+    assert sum(f.weight for f in card.factors) == 100
+    assert card.coverage_pct == 62 and card.signal != "INSUFFICIENT_DATA"     # bank figures not entered yet
+    c.shares_outstanding = 500                  # price 152 x 500 shares / (equity 100 x 1000) -> P/B 0.76
+    c.years[0].npl_ratio_pct, c.years[0].capital_adequacy_pct = 4.0, 18.0
+    full = score_company(c, CFG)
+    by = {f.name: f for f in full.factors}
+    assert full.coverage_pct == 100 and by["price_to_book"].score == pytest.approx(81.8, abs=0.1)
+    assert by["asset_quality"].score == pytest.approx(83.3, abs=0.1) and by["capital_adequacy"].score == 87.5
+    c.years[0].npl_ratio_pct, c.years[0].capital_adequacy_pct = 18.0, 11.0
+    assert score_company(c, CFG).score < full.score
+
+
+def test_non_bank_financials_get_price_to_book_only():
+    c = strong_company()
+    c.sector = "INSURANCE"
+    names = {f.name for f in score_company(c, CFG).factors}
+    assert "price_to_book" in names and not names & {"asset_quality", "capital_adequacy", "debt"}
 
 
 def test_real_portal_page_scores_end_to_end():

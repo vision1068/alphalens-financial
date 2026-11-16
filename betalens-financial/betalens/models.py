@@ -27,6 +27,9 @@ class YearFigures:
     payables: float | None = None
     cost_of_sales: float | None = None
     dividend_per_share: float | None = None
+    # Banks only, from the annual report:
+    npl_ratio_pct: float | None = None          # non-performing loans as % of gross advances
+    capital_adequacy_pct: float | None = None   # capital adequacy ratio
 
 
 @dataclass
@@ -46,6 +49,7 @@ class CompanyData:
     dividend_years_paid: int | None = None                   # fiscal years with a cash dividend, of the last `dividend_window`
     dividend_window: int = 5
     face_value: float | None = None
+    shares_outstanding: float | None = None
     payouts: list[dict] = field(default_factory=list)        # newest first, see parsers.parse_payouts
     red_flags: list[str] = field(default_factory=list)
     announcements: list[str] = field(default_factory=list)   # recent announcement titles, newest first

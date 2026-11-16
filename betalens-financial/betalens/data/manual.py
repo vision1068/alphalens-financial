@@ -1,7 +1,8 @@
 """Manually entered statement figures for the four factors the free portal cannot supply.
 
 Edit data/manual_statements.csv: one row per company per fiscal year. Money columns are in
-thousands of rupees (the unit the PSX portal uses); dividend_per_share is in rupees.
+thousands of rupees (the unit the PSX portal uses); dividend_per_share is in rupees; npl_ratio_pct and
+capital_adequacy_pct (banks only) are percentages.
 Leave a cell blank when you do not have the figure.
 """
 from __future__ import annotations
@@ -14,7 +15,7 @@ from betalens.models import CompanyData, YearFigures
 DEFAULT_PATH = Path(__file__).resolve().parents[2] / "data" / "manual_statements.csv"
 FIELDS = ("equity", "total_debt", "ebit", "interest_expense", "operating_cash_flow", "capex",
           "current_assets", "current_liabilities", "receivables", "inventory", "payables",
-          "cost_of_sales", "dividend_per_share")
+          "cost_of_sales", "dividend_per_share", "npl_ratio_pct", "capital_adequacy_pct")
 
 
 def load_manual(path: Path | str = DEFAULT_PATH) -> dict[tuple[str, int], dict[str, float]]:

@@ -17,6 +17,7 @@ def test_to_number():
 def test_company_page_pso():
     c = parse_company_page((FIX / "company_PSO.html").read_text(encoding="utf-8"), "pso")
     assert c.symbol == "PSO" and c.price == 368.01 and c.pe_ratio == 5.53
+    assert c.shares_outstanding == 469473300
     assert [y.year for y in c.years] == [2026, 2025, 2024, 2023]
     latest = c.years[0]
     assert latest.sales == 3050025916 and latest.profit_after_tax == 15067770 and latest.eps == 32.10

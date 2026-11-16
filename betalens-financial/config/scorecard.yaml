@@ -22,3 +22,11 @@ weights:
 # Sectors scored without the working-capital and leverage factors (their balance sheets work differently).
 financial_sectors: ["COMMERCIAL BANKS", "INSURANCE", "INV. BANKS / INV. COS. / SECURITIES COS.", "LEASING COMPANIES", "MODARABAS"]
 financial_excluded_factors: [cash_flow_quality, cash_conversion_cycle, debt, liquidity]
+# Factors added for financial companies in place of the excluded ones. They need figures entered in
+# data/manual_statements.csv (equity for price-to-book; NPL and capital ratios for banks).
+financial_extra_weights:
+  price_to_book: 12
+bank_sectors: ["COMMERCIAL BANKS"]
+bank_extra_weights:
+  asset_quality: 14
+  capital_adequacy: 12

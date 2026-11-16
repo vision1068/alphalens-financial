@@ -48,6 +48,12 @@ GitHub re-runs the scoring.
 | `inventory` | Stock-in-trade |
 | `payables` | Trade and other payables |
 | `cost_of_sales` | Profit and loss: cost of sales |
+| `npl_ratio_pct` | Banks: non-performing loans as % of gross advances (often called the infection ratio) |
+| `capital_adequacy_pct` | Banks: capital adequacy ratio, from the capital adequacy note |
+
+Banks and other financial companies skip the four factors above. They are scored instead on price to
+book (needs `equity`) and, for banks, asset quality (`npl_ratio_pct`) and capital adequacy
+(`capital_adequacy_pct`). Until those are entered, their data coverage shows 62% like other companies.
 
 ## Dashboard
 

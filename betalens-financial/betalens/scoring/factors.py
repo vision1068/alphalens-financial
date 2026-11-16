@@ -181,6 +181,39 @@ def price_trend(c: CompanyData, period_years: int) -> Result:
     return trend, reasons
 
 
+def _latest_with(c: CompanyData, attr: str):
+    return next((y for y in c.years if getattr(y, attr) is not None), None)
+
+
+def price_to_book(c: CompanyData, period_years: int) -> Result:
+    """Financial companies: market value against book equity (equity entered by hand, in Rs thousands)."""
+    y = _latest_with(c, "equity")
+    if not y or not c.price or not c.shares_outstanding:
+        return None, ["Needs equity from the annual report (manual entry)"]
+    if y.equity <= 0:
+        return 0.0, ["Negative equity"]
+    pb = c.price * c.shares_outstanding / (y.equity * 1000)
+    return curve(pb, [(0.5, 100), (1.0, 65), (1.5, 40), (2.5, 10), (3.5, 0)]), [f"Price is {pb:.2f}x book value ({y.year})"]
+
+
+def asset_quality(c: CompanyData, period_years: int) -> Result:
+    """Banks: non-performing loans as a share of gross advances. Lower is better."""
+    y = _latest_with(c, "npl_ratio_pct")
+    if not y:
+        return None, ["Needs the non-performing loan ratio from the annual report (manual entry)"]
+    return curve(y.npl_ratio_pct, [(2, 100), (5, 75), (10, 40), (15, 15), (20, 0)]), \
+        [f"Non-performing loans {y.npl_ratio_pct:.1f}% of advances ({y.year})"]
+
+
+def capital_adequacy(c: CompanyData, period_years: int) -> Result:
+    """Banks: capital adequacy ratio. The regulatory minimum in Pakistan is roughly 11.5% including buffers."""
+    y = _latest_with(c, "capital_adequacy_pct")
+    if not y:
+        return None, ["Needs the capital adequacy ratio from the annual report (manual entry)"]
+    return curve(y.capital_adequacy_pct, [(11.5, 0), (13, 40), (16, 75), (20, 100)]), \
+        [f"Capital adequacy ratio {y.capital_adequacy_pct:.1f}% ({y.year})"]
+
+
 FACTORS = {
     "revenue_growth": revenue_growth,
     "earnings_growth": earnings_growth,
@@ -192,4 +225,7 @@ FACTORS = {
     "valuation": valuation,
     "dividend": dividend,
     "price_trend": price_trend,
+    "price_to_book": price_to_book,
+    "asset_quality": asset_quality,
+    "capital_adequacy": capital_adequacy,
 }

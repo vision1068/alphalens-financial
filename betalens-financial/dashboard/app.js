@@ -11,10 +11,13 @@ const FACTOR_LABEL = {
   revenue_growth: "Revenue growth", earnings_growth: "Earnings growth", profitability: "Profitability",
   cash_flow_quality: "Cash flow quality", cash_conversion_cycle: "Cash conversion cycle", debt: "Debt",
   liquidity: "Liquidity", valuation: "Valuation", dividend: "Dividend", price_trend: "Price trend",
+  price_to_book: "Price to book", asset_quality: "Asset quality", capital_adequacy: "Capital adequacy",
 };
 const MANUAL_FIELDS = ["equity", "total_debt", "ebit", "interest_expense", "operating_cash_flow", "capex",
   "current_assets", "current_liabilities", "receivables", "inventory", "payables", "cost_of_sales",
-  "dividend_per_share"];
+  "dividend_per_share", "npl_ratio_pct", "capital_adequacy_pct"];
+const MANUAL_LABEL = { dividend_per_share: "Dividend per share (Rs)", npl_ratio_pct: "Banks: non-performing loans (% of advances)",
+  capital_adequacy_pct: "Banks: capital adequacy ratio (%)" };
 const HOLD_KEY = "betalens.holdings.v1";
 
 const $ = (id) => document.getElementById(id);
@@ -239,8 +242,8 @@ function renderManualForm() {
   $("manualForm").replaceChildren(
     field("symbol", "Symbol", { list: "symbolList", required: "", placeholder: "e.g. PSO" }),
     field("year", "Fiscal year", { type: "number", min: "2015", max: "2100", placeholder: "e.g. 2026" }),
-    ...MANUAL_FIELDS.map((f) => field(f, f === "dividend_per_share" ? "Dividend per share (Rs)"
-      : `${f.replace(/_/g, " ")} (Rs 000)`, { type: "number", step: "any" })));
+    ...MANUAL_FIELDS.map((f) => field(f, MANUAL_LABEL[f] || `${f.replace(/_/g, " ")} (Rs 000)`,
+      { type: "number", step: "any" })));
   $("openFile").href = CFG.manualFileUrl;
   const build = () => {
     const symbol = $("m_symbol").value.trim().toUpperCase();

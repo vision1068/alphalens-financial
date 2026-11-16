@@ -13,7 +13,8 @@ from email.message import EmailMessage
 LABEL = {"STRONG_BUY": "Strong Buy", "BUY": "Buy", "HOLD": "Hold", "SELL": "Sell", "STRONG_SELL": "Strong Sell"}
 FACTOR = {"revenue_growth": "Revenue growth", "earnings_growth": "Earnings growth", "profitability": "Profitability",
           "cash_flow_quality": "Cash flow quality", "cash_conversion_cycle": "Cash conversion cycle", "debt": "Debt",
-          "liquidity": "Liquidity", "valuation": "Valuation", "dividend": "Dividend", "price_trend": "Price trend"}
+          "liquidity": "Liquidity", "valuation": "Valuation", "dividend": "Dividend", "price_trend": "Price trend",
+          "price_to_book": "Price to book", "asset_quality": "Asset quality", "capital_adequacy": "Capital adequacy"}
 DISCLAIMER = "Decision support only, not financial advice. BetaLens never places trades. Check before acting."
 
 
