@@ -36,7 +36,7 @@ def test_curve_and_cagr():
 
 def test_weights_total_100_and_bands():
     assert sum(CFG["weights"].values()) == 100
-    assert [signal_for(s, CFG["signals"]) for s in (80, 65, 50, 30, 10)] == \
+    assert [signal_for(s, CFG["signals"]) for s in (90, 80, 60, 30, 10)] == \
         ["STRONG_BUY", "BUY", "HOLD", "SELL", "STRONG_SELL"]
 
 

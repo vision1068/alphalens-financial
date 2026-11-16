@@ -1,11 +1,12 @@
 # BetaLens scorecard. Edit weights and thresholds here; weights should total 100.
 period_years: 3          # 1 or 3: look-back for growth factors
 min_coverage: 60         # % of total weight that must have data before any Buy/Sell signal is issued
+# Thresholds calibrated 2026-11-16 so about 10% of back-test scores are Strong Buy and 10% Strong Sell.
 signals:                 # lower bound of each band, on the 0-100 score
-  strong_buy: 75
-  buy: 60
-  hold: 40
-  sell: 25               # below this: strong_sell
+  strong_buy: 87
+  buy: 76
+  hold: 49
+  sell: 24               # below this: strong_sell
 # Value-tilt weights adopted 2026-11-16 after the first back-test (see data/backtest/report.md).
 weights:
   revenue_growth: 12
