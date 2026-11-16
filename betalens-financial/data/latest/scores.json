@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-16T17:42:52+00:00",
+  "generated_at": "2026-11-16T17:49:13+00:00",
   "period_years": 3,
   "companies": 100,
   "errors": {}
@@ -73,7 +73,7 @@
    "symbol": "SAZEW",
    "score": 85.8,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -168,7 +168,7 @@
    "symbol": "GHNI",
    "score": 85.0,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -263,7 +263,7 @@
    "symbol": "FFC",
    "score": 84.0,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -358,7 +358,7 @@
    "symbol": "NBP",
    "score": 83.9,
    "coverage_pct": 100.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -421,7 +421,7 @@
    "symbol": "MUREB",
    "score": 82.4,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -516,7 +516,7 @@
    "symbol": "INDU",
    "score": 81.2,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -611,7 +611,7 @@
    "symbol": "AKBL",
    "score": 80.6,
    "coverage_pct": 100.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -768,7 +768,7 @@
    "symbol": "FABL",
    "score": 79.8,
    "coverage_pct": 100.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -831,7 +831,7 @@
    "symbol": "BOP",
    "score": 79.5,
    "coverage_pct": 100.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -894,7 +894,7 @@
    "symbol": "APL",
    "score": 78.9,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -989,7 +989,7 @@
    "symbol": "FHAM",
    "score": 78.3,
    "coverage_pct": 100.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1050,7 +1050,7 @@
    "symbol": "HBL",
    "score": 78.1,
    "coverage_pct": 100.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1113,7 +1113,7 @@
    "symbol": "HMB",
    "score": 78.1,
    "coverage_pct": 100.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1176,7 +1176,7 @@
    "symbol": "JDWS",
    "score": 77.8,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1271,7 +1271,7 @@
    "symbol": "THALL",
    "score": 77.3,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1461,7 +1461,7 @@
    "symbol": "UBL",
    "score": 76.9,
    "coverage_pct": 100.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1524,7 +1524,7 @@
    "symbol": "GAL",
    "score": 76.3,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1620,7 +1620,7 @@
    "symbol": "BAHL",
    "score": 76.1,
    "coverage_pct": 100.0,
-   "signal": "STRONG_BUY",
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1683,7 +1683,7 @@
    "symbol": "FCCL",
    "score": 75.8,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1778,7 +1778,7 @@
    "symbol": "ATLH",
    "score": 75.4,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1873,7 +1873,7 @@
    "symbol": "GLAXO",
    "score": 75.4,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -1968,7 +1968,7 @@
    "symbol": "GHGL",
    "score": 75.1,
    "coverage_pct": 62.0,
-   "signal": "STRONG_BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2063,7 +2063,7 @@
    "symbol": "ABOT",
    "score": 75.0,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2158,7 +2158,7 @@
    "symbol": "ABL",
    "score": 74.7,
    "coverage_pct": 100.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2221,7 +2221,7 @@
    "symbol": "AICL",
    "score": 74.7,
    "coverage_pct": 80.6,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2284,7 +2284,7 @@
    "symbol": "IMAGE",
    "score": 74.6,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2379,7 +2379,7 @@
    "symbol": "HCAR",
    "score": 72.7,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2474,7 +2474,7 @@
    "symbol": "MEBL",
    "score": 71.8,
    "coverage_pct": 100.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2537,7 +2537,7 @@
    "symbol": "PAKT",
    "score": 71.7,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2632,7 +2632,7 @@
    "symbol": "EFERT",
    "score": 71.1,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2727,7 +2727,7 @@
    "symbol": "GADT",
    "score": 70.6,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2822,7 +2822,7 @@
    "symbol": "SSOM",
    "score": 70.2,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -2918,7 +2918,7 @@
    "symbol": "MCB",
    "score": 69.0,
    "coverage_pct": 100.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -3076,7 +3076,7 @@
    "symbol": "ISL",
    "score": 68.9,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -3171,7 +3171,7 @@
    "symbol": "AIRLINK",
    "score": 68.1,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -3266,7 +3266,7 @@
    "symbol": "HALEON",
    "score": 67.9,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -3456,7 +3456,7 @@
    "symbol": "HINOON",
    "score": 66.2,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -3551,7 +3551,7 @@
    "symbol": "NATF",
    "score": 66.1,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -3646,7 +3646,7 @@
    "symbol": "OGDC",
    "score": 66.1,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -3741,7 +3741,7 @@
    "symbol": "DCR",
    "score": 65.6,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -3836,7 +3836,7 @@
    "symbol": "BWCL",
    "score": 65.5,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -3931,7 +3931,7 @@
    "symbol": "POL",
    "score": 65.3,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4026,7 +4026,7 @@
    "symbol": "CNERGY",
    "score": 65.1,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4121,7 +4121,7 @@
    "symbol": "PIBTL",
    "score": 64.7,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4216,7 +4216,7 @@
    "symbol": "COLG",
    "score": 64.1,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4311,7 +4311,7 @@
    "symbol": "PIOC",
    "score": 63.8,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4406,7 +4406,7 @@
    "symbol": "DGKC",
    "score": 63.5,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4502,7 +4502,7 @@
    "symbol": "SRVI",
    "score": 63.5,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4597,7 +4597,7 @@
    "symbol": "CHCC",
    "score": 63.3,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4692,7 +4692,7 @@
    "symbol": "PAEL",
    "score": 62.0,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4786,7 +4786,7 @@
    "symbol": "PSO",
    "score": 61.5,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4881,7 +4881,7 @@
    "symbol": "POWER",
    "score": 60.7,
    "coverage_pct": 62.0,
-   "signal": "BUY",
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
@@ -6908,7 +6908,7 @@
    "symbol": "LOTCHEM",
    "score": 48.2,
    "coverage_pct": 62.0,
-   "signal": "HOLD",
+   "signal": "SELL",
    "factors": [
     {
      "name": "revenue_growth",
@@ -7003,7 +7003,7 @@
    "symbol": "KOHC",
    "score": 47.5,
    "coverage_pct": 62.0,
-   "signal": "HOLD",
+   "signal": "SELL",
    "factors": [
     {
      "name": "revenue_growth",
@@ -7190,7 +7190,7 @@
    "symbol": "MLCF",
    "score": 44.9,
    "coverage_pct": 62.0,
-   "signal": "HOLD",
+   "signal": "SELL",
    "factors": [
     {
      "name": "revenue_growth",
@@ -7284,7 +7284,7 @@
    "symbol": "KTML",
    "score": 44.4,
    "coverage_pct": 62.0,
-   "signal": "HOLD",
+   "signal": "SELL",
    "factors": [
     {
      "name": "revenue_growth",
@@ -7379,7 +7379,7 @@
    "symbol": "INIL",
    "score": 43.6,
    "coverage_pct": 62.0,
-   "signal": "HOLD",
+   "signal": "SELL",
    "factors": [
     {
      "name": "revenue_growth",
@@ -7474,7 +7474,7 @@
    "symbol": "PSEL",
    "score": 41.9,
    "coverage_pct": 62.0,
-   "signal": "HOLD",
+   "signal": "SELL",
    "factors": [
     {
      "name": "revenue_growth",
@@ -7569,7 +7569,7 @@
    "symbol": "CPHL",
    "score": 40.5,
    "coverage_pct": 62.0,
-   "signal": "HOLD",
+   "signal": "SELL",
    "factors": [
     {
      "name": "revenue_growth",
@@ -8485,7 +8485,7 @@
    "symbol": "BML",
    "score": 24.7,
    "coverage_pct": 80.6,
-   "signal": "STRONG_SELL",
+   "signal": "SELL",
    "factors": [
     {
      "name": "revenue_growth",

@@ -10,11 +10,11 @@ Read this as indicative, not proof. Only today's KSE-100 members are tested, the
 
 | Signal | Observations | Avg return % | Avg vs KSE-100 % | Beat index % | Rose % |
 |---|---|---|---|---|---|
-| STRONG_BUY | 375 | 12.48 | 2.86 | 51.7 | 66.4 |
-| BUY | 251 | 7.15 | -0.18 | 42.2 | 53.4 |
-| HOLD | 308 | 6.11 | -1.66 | 34.7 | 50.6 |
-| SELL | 129 | 8.38 | 1.54 | 44.2 | 56.6 |
-| STRONG_SELL | 119 | 8.59 | -2.03 | 35.3 | 53.8 |
+| STRONG_BUY | 114 | 12.44 | 4.6 | 51.8 | 60.5 |
+| BUY | 242 | 12.98 | 2.29 | 51.2 | 69.0 |
+| HOLD | 471 | 6.69 | -0.61 | 39.9 | 52.9 |
+| SELL | 239 | 7.26 | -0.37 | 39.3 | 54.0 |
+| STRONG_SELL | 116 | 8.72 | -1.98 | 35.3 | 53.4 |
 | INSUFFICIENT_DATA | 3446 | 10.27 | -1.53 | 36.7 | 60.9 |
 
 ### By score rank each month (Q1 = top fifth)
@@ -56,11 +56,11 @@ Overall score rank correlation with later out-performance: 0.194 (positive in 82
 
 | Signal | Observations | Avg return % | Avg vs KSE-100 % | Beat index % | Rose % |
 |---|---|---|---|---|---|
-| STRONG_BUY | 330 | 28.39 | 5.78 | 44.2 | 76.1 |
-| BUY | 186 | 21.09 | 1.53 | 40.3 | 70.4 |
-| HOLD | 239 | 19.59 | 0.09 | 34.3 | 58.6 |
-| SELL | 105 | 11.99 | -4.63 | 39.0 | 58.1 |
-| STRONG_SELL | 104 | 17.06 | -5.74 | 40.4 | 57.7 |
+| STRONG_BUY | 106 | 31.67 | 12.69 | 46.2 | 67.0 |
+| BUY | 209 | 27.63 | 3.09 | 45.0 | 80.4 |
+| HOLD | 350 | 20.05 | 0.89 | 36.6 | 65.7 |
+| SELL | 197 | 15.59 | -3.05 | 37.1 | 57.9 |
+| STRONG_SELL | 102 | 17.53 | -5.61 | 41.2 | 58.8 |
 | INSUFFICIENT_DATA | 3364 | 24.79 | -2.11 | 35.4 | 70.1 |
 
 ### By score rank each month (Q1 = top fifth)
@@ -118,7 +118,7 @@ Set so that about 10% of scores are Strong Buy, 20% Buy, 40% Hold, 20% Sell, 10%
 
 | Band | Current | Suggested |
 |---|---|---|
-| strong_buy | 75 | 87 |
-| buy | 60 | 76 |
-| hold | 40 | 49 |
-| sell | 25 | 24 |
+| strong_buy | 87 | 87 |
+| buy | 76 | 76 |
+| hold | 49 | 49 |
+| sell | 24 | 24 |
