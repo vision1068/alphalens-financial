@@ -1,15 +1,15 @@
 {
  "meta": {
-  "generated_at": "2026-11-16T20:05:59+00:00",
+  "generated_at": "2026-11-16T20:24:20+00:00",
   "period_years": 3,
   "companies": 100,
   "errors": {}
  },
  "summary": {
-  "events": 337,
-  "median_drop_ratio": 0.94,
+  "events": 334,
+  "median_drop_ratio": 0.95,
   "quick_recovery_share": 0.64,
-  "median_recovery_days": 5.5
+  "median_recovery_days": 5.0
  },
  "upcoming": [
   {
@@ -236,53 +236,6 @@
      "capture_5d_pct": 1.31,
      "capture_10d_pct": 6.65,
      "capture_20d_pct": 10.03
-    }
-   ]
-  },
-  "AHCL": {
-   "events": 3,
-   "median_drop_ratio": 0.92,
-   "median_recovery_days": 31.0,
-   "quick_recovery_share": 0.5,
-   "avg_capture_10d_pct": 1.48,
-   "recent": [
-    {
-     "ex_date": "2026-10-20",
-     "last_buy_date": "2026-10-19",
-     "amount_per_share": 1.25,
-     "cum_close": 15.11,
-     "yield_pct": 8.27,
-     "drop_ratio": 0.92,
-     "recovery_days": null,
-     "recovery_known": false,
-     "capture_5d_pct": -4.3,
-     "capture_10d_pct": -6.29
-    },
-    {
-     "ex_date": "2025-10-15",
-     "last_buy_date": "2025-10-14",
-     "amount_per_share": 1.0,
-     "cum_close": 16.77,
-     "yield_pct": 5.96,
-     "drop_ratio": 0.84,
-     "recovery_days": 50,
-     "recovery_known": true,
-     "capture_5d_pct": 4.05,
-     "capture_10d_pct": 3.16,
-     "capture_20d_pct": -3.1
-    },
-    {
-     "ex_date": "2024-11-11",
-     "last_buy_date": "2024-11-08",
-     "amount_per_share": 0.7,
-     "cum_close": 6.99,
-     "yield_pct": 10.01,
-     "drop_ratio": 1.11,
-     "recovery_days": 12,
-     "recovery_known": true,
-     "capture_5d_pct": -4.58,
-     "capture_10d_pct": 7.58,
-     "capture_20d_pct": 10.59
     }
    ]
   },
@@ -4667,37 +4620,37 @@
  "diagnostics": {
   "t1_since_feb_2026": {
    "ex_0_days_before_closure": {
-    "events": 155,
-    "median_drop_ratio": 0.15
+    "events": 154,
+    "median_drop_ratio": 0.14500000000000002
    },
    "ex_1_days_before_closure": {
-    "events": 155,
+    "events": 154,
     "median_drop_ratio": 0.93
    },
    "ex_2_days_before_closure": {
-    "events": 155,
-    "median_drop_ratio": -0.04
+    "events": 154,
+    "median_drop_ratio": -0.035
    },
    "ex_3_days_before_closure": {
-    "events": 155,
+    "events": 154,
     "median_drop_ratio": -0.03
    }
   },
   "t2_before": {
    "ex_0_days_before_closure": {
-    "events": 182,
+    "events": 180,
     "median_drop_ratio": 0.13
    },
    "ex_1_days_before_closure": {
-    "events": 182,
-    "median_drop_ratio": 0.11499999999999999
+    "events": 180,
+    "median_drop_ratio": 0.11
    },
    "ex_2_days_before_closure": {
-    "events": 182,
+    "events": 180,
     "median_drop_ratio": 0.96
    },
    "ex_3_days_before_closure": {
-    "events": 182,
+    "events": 180,
     "median_drop_ratio": -0.065
    }
   }
