@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-16T19:56:13+00:00",
+  "generated_at": "2026-11-16T20:05:59+00:00",
   "period_years": 3,
   "companies": 100,
   "errors": {}
@@ -9,8 +9,8 @@
   {
    "symbol": "BAFL",
    "score": 89.2,
-   "coverage_pct": 87.1,
-   "signal": "STRONG_BUY",
+   "coverage_pct": 54.0,
+   "signal": "INSUFFICIENT_DATA",
    "factors": [
     {
      "name": "revenue_growth",
@@ -61,6 +61,30 @@
      "reasons": [
       "Price is above its 200-day average",
       "+5.0 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -361,7 +385,7 @@
   {
    "symbol": "NBP",
    "score": 83.9,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
     {
@@ -413,6 +437,30 @@
      "reasons": [
       "Price is below its 200-day average",
       "-31.5 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -616,7 +664,7 @@
   {
    "symbol": "AKBL",
    "score": 80.6,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
     {
@@ -668,6 +716,30 @@
      "reasons": [
       "Price is above its 200-day average",
       "+7.1 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -775,7 +847,7 @@
   {
    "symbol": "FABL",
    "score": 79.8,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
     {
@@ -828,6 +900,30 @@
       "Price is above its 200-day average",
       "+0.4 points vs KSE-100 over about a year"
      ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
+     ]
     }
    ],
    "red_flags": [],
@@ -838,7 +934,7 @@
   {
    "symbol": "BOP",
    "score": 79.5,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
     {
@@ -890,6 +986,30 @@
      "reasons": [
       "Price is below its 200-day average",
       "-23.8 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -998,7 +1118,7 @@
   {
    "symbol": "FHAM",
    "score": 78.3,
-   "coverage_pct": 100.0,
+   "coverage_pct": 83.8,
    "signal": "BUY",
    "factors": [
     {
@@ -1049,6 +1169,14 @@
       "Price is below its 200-day average",
       "-35.0 points vs KSE-100 over about a year"
      ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
     }
    ],
    "red_flags": [],
@@ -1059,7 +1187,7 @@
   {
    "symbol": "HBL",
    "score": 78.1,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
     {
@@ -1112,6 +1240,30 @@
       "Price is above its 200-day average",
       "-2.3 points vs KSE-100 over about a year"
      ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
+     ]
     }
    ],
    "red_flags": [],
@@ -1122,7 +1274,7 @@
   {
    "symbol": "HMB",
    "score": 78.1,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
     {
@@ -1174,6 +1326,30 @@
      "reasons": [
       "Price is below its 200-day average",
       "-22.4 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -1472,7 +1648,7 @@
   {
    "symbol": "UBL",
    "score": 76.9,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
     {
@@ -1524,6 +1700,30 @@
      "reasons": [
       "Price is above its 200-day average",
       "+4.1 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -1631,7 +1831,7 @@
   {
    "symbol": "BAHL",
    "score": 76.1,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
     {
@@ -1683,6 +1883,30 @@
      "reasons": [
       "Price is above its 200-day average",
       "-20.5 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -2169,7 +2393,7 @@
   {
    "symbol": "ABL",
    "score": 74.7,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
     {
@@ -2222,6 +2446,30 @@
       "Price is below its 200-day average",
       "-11.9 points vs KSE-100 over about a year"
      ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
+     ]
     }
    ],
    "red_flags": [],
@@ -2232,7 +2480,7 @@
   {
    "symbol": "AICL",
    "score": 74.7,
-   "coverage_pct": 80.6,
+   "coverage_pct": 67.6,
    "signal": "HOLD",
    "factors": [
     {
@@ -2284,6 +2532,14 @@
      "reasons": [
       "Price is below its 200-day average",
       "-4.0 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
      ]
     }
    ],
@@ -2485,7 +2741,7 @@
   {
    "symbol": "MEBL",
    "score": 71.8,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
     {
@@ -2537,6 +2793,30 @@
      "reasons": [
       "Price is above its 200-day average",
       "+19.5 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -2931,7 +3211,7 @@
   {
    "symbol": "MCB",
    "score": 69.0,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
     {
@@ -2983,6 +3263,30 @@
      "reasons": [
       "Price is above its 200-day average",
       "+4.7 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -5374,7 +5678,7 @@
   {
    "symbol": "SCBPL",
    "score": 58.1,
-   "coverage_pct": 100.0,
+   "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
     {
@@ -5426,6 +5730,30 @@
      "reasons": [
       "Price is below its 200-day average",
       "-16.7 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
      ]
     }
    ],
@@ -5912,7 +6240,7 @@
   {
    "symbol": "PSX",
    "score": 56.3,
-   "coverage_pct": 100.0,
+   "coverage_pct": 83.8,
    "signal": "HOLD",
    "factors": [
     {
@@ -5964,6 +6292,14 @@
      "reasons": [
       "Price is below its 200-day average",
       "-15.2 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
      ]
     }
    ],
@@ -7970,7 +8306,7 @@
   {
    "symbol": "PGLC",
    "score": 34.6,
-   "coverage_pct": 100.0,
+   "coverage_pct": 83.8,
    "signal": "SELL",
    "factors": [
     {
@@ -8021,6 +8357,14 @@
      "reasons": [
       "Price is above its 200-day average",
       "-13.7 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
      ]
     }
    ],
@@ -8506,8 +8850,8 @@
   {
    "symbol": "BML",
    "score": 24.7,
-   "coverage_pct": 80.6,
-   "signal": "SELL",
+   "coverage_pct": 50.0,
+   "signal": "INSUFFICIENT_DATA",
    "factors": [
     {
      "name": "revenue_growth",
@@ -8559,6 +8903,30 @@
       "Price is above its 200-day average",
       "-51.0 points vs KSE-100 over about a year"
      ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "asset_quality",
+     "score": null,
+     "weight": 14,
+     "reasons": [
+      "Needs the non-performing loan ratio from the annual report (manual entry)"
+     ]
+    },
+    {
+     "name": "capital_adequacy",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs the capital adequacy ratio from the annual report (manual entry)"
+     ]
     }
    ],
    "red_flags": [],
@@ -8569,7 +8937,7 @@
   {
    "symbol": "ENGROH",
    "score": 20.1,
-   "coverage_pct": 80.6,
+   "coverage_pct": 67.6,
    "signal": "STRONG_SELL",
    "factors": [
     {
@@ -8620,6 +8988,14 @@
      "reasons": [
       "Price is above its 200-day average",
       "+15.7 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs equity from the annual report (manual entry)"
      ]
     }
    ],

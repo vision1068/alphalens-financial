@@ -398,613 +398,634 @@
   "model": "claude-sonnet-5-5",
   "generated_at": "2026-11-16T19:50:02+00:00"
  },
- "BAFL": {
-  "summary": "Bank Alfalah scores 89.2/100, mainly because it looks very cheap (P/E 3.0 vs a sector median of 6.7) and pays a high dividend (13.2% yield, cash paid in each of the last 3 fiscal years on record). Sales growth is also strong at 22.8% a year over 3 years. However, 2025 profit after tax fell to about Rs 28.3bn from Rs 38.3bn in 2024, and the earnings growth factor could not be scored because EPS data is missing, so the score leans heavily on valuation and dividend.",
-  "strengths": [
-   "Valuation: P/E of 3.0 is well below the sector median of 6.7 (about 0.45x).",
-   "Income: 13.2% dividend yield, with regular cash payouts of 30% of face value announced in each recent quarter.",
-   "Growth: sales rose from about Rs 99bn in 2022 to Rs 183bn in 2025, roughly 22.8% a year."
-  ],
-  "risks": [
-   "Profit after tax dropped about 26% in 2025 (Rs 38.3bn to Rs 28.3bn) even though sales rose, so the strong revenue story is not reaching the bottom line.",
-   "A P/E of 3.0 and a 13.2% yield are unusually extreme; the scorecard itself flags possible one-off profits, bonus issues or splits, and the market may be pricing in lower future earnings.",
-   "The scorecard cannot see capital adequacy, bad loans, deposit growth, interest rate sensitivity or cash flow, which matter most for a bank. EPS data is also missing, and the price trend score is only middling (53.3)."
-  ],
-  "checks": [
-   "Compare the latest quarterly and nine-month results (Sept 30, 2026) with prior periods to see whether profit is recovering or still declining.",
-   "Confirm that the payout is sustainable relative to earnings, and check the 'Disclosure of Material Information' notice dated Nov 6, 2026, which the data does not describe.",
-   "Look at non-performing loans, capital adequacy ratio and any one-off items or share count changes that could distort P/E and yield."
-  ],
-  "key": "1ee8a50d9f33d96f",
-  "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:56:20+00:00"
- },
  "FFC": {
-  "summary": "FFC scores 84/100, mainly on very fast sales and earnings growth, a high dividend yield (9.2%) and a P/E (10.2) slightly below the sector median (10.8). The score rests on only 62% of the data. Debt, cash flow, liquidity and cash conversion could not be scored, and together they carry 38% of the weight.",
+  "summary": "FFC scores 84/100, driven by very fast sales and earnings growth, a P/E of 10.2 (slightly below the sector median of 10.8), and a 9.2% dividend yield with a payout in each of the last 3 fiscal years on record. The score rests on only 62% of the data. Debt, cash flow, liquidity and cash conversion could not be scored, and together they carry 38% of the weighting.",
   "strengths": [
-   "Sales grew about 58% a year and EPS about 49% a year over three years, with EPS rising from Rs15.76 to Rs51.69.",
-   "Dividend yield of 9.2%, with a cash dividend in each of the last 3 fiscal years on record and four cash payouts announced in 2026.",
-   "Valuation is a little cheaper than peers (P/E 10.2 vs sector median 10.8), and the price is above its 200-day average."
+   "Sales grew about 58% a year and EPS about 49% a year over three years (EPS Rs15.76 to Rs51.69).",
+   "Valuation is slightly cheaper than the sector: P/E 10.2 vs a median of 10.8.",
+   "Dividend yield of 9.2%, with cash payouts in every recorded year and recent quarterly payouts rising (85% to 145% to 185% of face value)."
   ],
   "risks": [
-   "The scorecard cannot see debt, cash flow, liquidity or working capital, so it cannot say whether profits turn into cash or whether the dividend is comfortably funded.",
-   "Net margin slipped from 18.3% to 17.0% over the period, and most of the growth came from the sharp jumps in 2023 and 2024. That pace is unlikely to repeat and the cause is not explained in the data.",
-   "The share has lagged the KSE-100 by about 2 points over a year, and the sector comparison covers only a modest valuation gap, so there is little cushion if earnings fall."
+   "The scorecard cannot see debt, cash flow, liquidity or working capital. A strong profit record does not show that earnings turn into cash or that the balance sheet is safe.",
+   "Growth is lumpy. Sales more than doubled in 2024 (Rs159bn to Rs374bn) and rose far less in 2025 (to Rs432bn), so the three-year average may overstate what is repeatable.",
+   "The 9.2% yield works out to roughly Rs52 a share, about equal to the latest full-year EPS of Rs51.69. The payout leaves little room for a profit dip. Net margin has also eased from 18.6% (2023) to 17.0%."
   ],
   "checks": [
-   "Read the cash flow statement and balance sheet: compare operating cash flow with profit, and check borrowings and cash held.",
-   "Find out why sales more than doubled between 2023 and 2024 (for example price, volume or a change in the business) and whether it is sustainable.",
-   "Compare total dividends per share with EPS and free cash flow, and read the latest quarterly report (period ended 30 Sep 2026) for margin and payout trends."
+   "Read the cash flow statement and balance sheet: operating cash flow against profit, total borrowings, cash on hand, and short-term obligations.",
+   "Find out in the annual report what caused the 2024 jump in sales and profit, and whether it is expected to continue.",
+   "Check whether the dividend is covered by earnings and cash flow, using the quarterly report for the period ended 30 Sep 2026 and the Oct 28 results."
   ],
   "key": "eb1db8abfe72de7b",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:56:30+00:00"
+  "generated_at": "2026-11-16T20:06:12+00:00"
  },
  "NBP": {
-  "summary": "NBP scores 83.9/100 mainly because it looks cheap (P/E 5.4 against a sector median of 6.7), pays a very high dividend yield (21.3%), and has grown sales and earnings strongly over three years. The one weak area is the share price, which is below its 200-day average and has lagged the KSE-100 by about 31.5 points over a year. The scorecard itself warns that the low P/E and high yield may reflect one-off effects, so the headline score should be treated cautiously.",
+  "summary": "NBP scores 83.9 out of 100, driven by fast growth (sales up about 26.6% a year and EPS about 41.4% a year over 3 years), a low P/E of 5.4 against a sector median of 6.7, and a 21.3% dividend yield. The score is held back by a weak price trend (below its 200-day average and well behind the KSE-100). Three bank-specific factors (price-to-book, bad loans, capital adequacy) carry 38% of the weight and could not be scored, so data coverage is only 62%.",
   "strengths": [
-   "Sales grew about 26.6% a year and EPS about 41.4% a year over three years, with net margin rising to 11.0% from 6.0%",
-   "Valuation looks low: P/E 5.4 versus a sector median of 6.7",
-   "Cash dividends were paid in both recorded years, with a 350% of face value payout announced in February 2026"
+   "Strong growth: sales up about 26.6% a year and EPS about 41.4% a year over 3 years, with net margin of 11.0% in 2025 versus 6.0% in 2022",
+   "Cheap on earnings: P/E of 5.4 is about 20% below the sector median of 6.7",
+   "High cash dividend yield of 21.3%, with cash payouts announced in both 2025 and 2026"
   ],
   "risks": [
-   "Earnings are uneven: EPS was Rs 14.29, 24.37, 12.63 and 40.38 from 2022 to 2025, and the 2025 jump may not repeat, which would make the P/E look cheaper than it really is",
-   "A 21.3% yield is unusually high and the payout rose sharply from 80% to 350%; it may be a one-off and may not be sustainable, and the scorecard flags possible bonus issues, splits or one-off profits",
-   "Share price is below its 200-day average and has badly trailed the KSE-100, so the market may be pricing in concerns the scorecard cannot see"
+   "Earnings have been uneven: EPS fell from Rs 24.37 in 2023 to Rs 12.63 in 2024 before jumping to Rs 40.38 in 2025, so the latest profit may not be a reliable baseline",
+   "The share price is below its 200-day average and about 31.5 points behind the KSE-100 over a year, which suggests the market is skeptical",
+   "The scorecard cannot see price-to-book, non-performing loans or capital adequacy, which are central to judging a bank, and it has no debt or cash flow data; the score could change a lot once they are added"
   ],
   "checks": [
-   "Find out what drove 2025 profit (for example one-off gains, tax items, or investment income) and whether it is repeatable",
-   "Check whether the 350% dividend was a special payout and what share of profit it represents",
-   "Read the latest quarterly report and the October 2026 shareholder resolutions and Material Information notice for capital, asset quality and any corporate actions"
+   "Check whether the 2025 profit and the 21.3% yield include one-off gains, a special dividend or a bonus issue or split, as the red flag warns; a 350% payout may not repeat",
+   "Find the non-performing loan ratio, capital adequacy ratio and book value in the latest annual report, and compare them with the regulatory minimums and other banks",
+   "Read the Sep 2026 'Material Information' notice, the October 2026 shareholder resolutions and the latest quarterly results to see what changed and whether profit is holding up"
   ],
   "key": "0c38dc50ecd4422a",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:56:36+00:00"
+  "generated_at": "2026-11-16T20:06:17+00:00"
  },
  "FABL": {
-  "summary": "Faysal Bank scores 79.8/100, mainly because of strong growth over three years (sales up about 26.5% a year, EPS up about 24.6% a year) and a 6.9% dividend yield with cash dividends paid in each of the last three years on record. Valuation is fair rather than cheap: a P/E of 6.7 is almost exactly the sector median of 6.7. The price trend is neutral, roughly in line with the KSE-100 over about a year.",
+  "summary": "Faysal Bank scores 79.8/100, driven by strong growth (sales up 26.5% a year and EPS up 24.6% a year over three years), a 6.9% dividend yield paid in each of the last three years on record, and a P/E of 6.7 that is in line with the sector median. The score rests on only 62% of the possible data: price-to-book, asset quality and capital adequacy, which together carry 38% of the weight and matter most for a bank, are missing. The 'BUY' label is therefore provisional.",
   "strengths": [
-   "Fast three-year growth: sales up about 26.5% a year and EPS up about 24.6% a year",
-   "Cash dividends paid in 3 of the last 3 fiscal years, with a 6.9% yield and several 15-20% interim payouts announced recently",
-   "Net margin of 13.08% in 2025, up from 10.75% in 2022, with 100% data coverage and no red flags"
+   "Fast three-year growth: sales up 26.5% a year and EPS up 24.6% a year, with net margin improving from 10.75% to 13.08%.",
+   "Dividend yield of 6.9%, with cash dividends in 3 of the last 3 fiscal years on record and several interim cash payouts announced in 2026.",
+   "Valuation is not stretched: P/E of 6.65 against a sector median of 6.74."
   ],
   "risks": [
-   "Growth has slowed: 2025 sales rose only about 1.4% on 2024, and profit after tax fell from Rs 23.0bn to Rs 21.7bn, with EPS down from 15.17 to 14.30",
-   "The P/E is in line with the sector median, so the stock is not cheap compared with other banks, and the price trend is flat against the market",
-   "The scorecard cannot see bank-specific risks such as bad loans, capital adequacy, deposit mix, interest-rate sensitivity or government-debt exposure, and it has no debt or cash flow data"
+   "The scorecard cannot see price-to-book, non-performing loan ratio or capital adequacy ratio, which are core measures of bank safety and value.",
+   "The most recent year shows slowing momentum: sales rose only about 1.4% in 2025, and profit after tax fell from Rs 23.0bn to Rs 21.7bn, with EPS dropping from 15.17 to 14.30. The 3-year growth figures flatter the current trend.",
+   "Price trend is neutral (score 50.3), only just above its 200-day average and +0.4 points versus the KSE-100, so the market is not showing strong confirmation. Debt, funding and cash flow data are also absent."
   ],
   "checks": [
-   "Look in the latest quarterly and annual reports for why 2025 profit and EPS fell while the margin rose, and whether that is a one-off or a trend",
-   "Check asset quality (non-performing loans and provisions), capital adequacy ratio and the effect of interest-rate changes on margins",
-   "Confirm that the dividend is covered by earnings and capital rules, and read the Tier II Sukuk and book closure notices for any effect on capital or payouts"
+   "Find the non-performing loan ratio and provisioning coverage in the latest annual report to judge loan quality.",
+   "Check the capital adequacy ratio against the regulatory minimum, and whether it comfortably supports the current dividend payouts.",
+   "Read the Q3 2026 results to see why 2025 profit declined and whether earnings have recovered, and check book value to calculate price-to-book."
   ],
   "key": "28cf6a19afb83f12",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:56:41+00:00"
+  "generated_at": "2026-11-16T20:06:23+00:00"
  },
  "FHAM": {
-  "summary": "First Habib Modaraba scores 78.3 out of 100, mainly because it looks very cheap (P/E 4.1 against a sector median of 17.8) and pays a 7.5% dividend yield. Profitability is also rated at the top. Against that, the latest year was weaker: sales and profit both fell, and the share price is well below its 200-day average and has badly lagged the KSE-100.",
+  "summary": "First Habib Modaraba scores 78.3/100, driven mainly by a very cheap valuation (P/E 4.1 against a sector median of 17.8), a 7.5% dividend yield and solid multi-year earnings growth (EPS up about 13% a year over 3 years). The weak spot is the share price, which sits below its 200-day average and has lagged the KSE-100 by about 35 points over a year. The score is built on about 84% of the data, and price-to-book (a 12% weight) is missing.",
   "strengths": [
-   "Valuation: P/E of 4.1 is about a quarter of the sector median of 17.8.",
-   "Income: a 7.5% dividend yield, with a 22.5% cash payout announced in August 2026.",
-   "Over three years, sales grew about 11% a year and EPS about 13% a year, and profitability is rated at the top."
+   "Very low P/E of 4.1, about a quarter of the sector median of 17.8",
+   "Dividend yield of 7.5% with a cash payout of 22.5% of face value announced in Aug 2026",
+   "EPS grew about 13% a year over 3 years; profitability factor scored 100"
   ],
   "risks": [
-   "The three-year growth figures start from a low 2023 base and hide the recent slide. In 2026, sales fell to Rs 5.08bn from Rs 5.21bn, profit after tax fell to Rs 748m from Rs 901m, and EPS fell to Rs 6.75 from Rs 8.13.",
-   "The share price is below its 200-day average and trails the KSE-100 by about 35 points over a year. The market may be pricing in a problem the scorecard cannot see, or the low P/E may reflect peak-like earnings.",
-   "The scorecard has no data on debt, leverage, asset quality, cash flow or the balance sheet, which matter a lot for a financing business like a modaraba. Only one year of dividend history is on record, so consistency is unproven."
+   "Latest year (2026) profit fell to Rs 747.9m from Rs 901.5m and EPS to 6.75 from 8.13, and sales have slipped two years running from the 2024 peak, so recent momentum is negative",
+   "Price is below its 200-day average and trails the KSE-100 by 35 points over a year, so the market may be pricing in something the scorecard cannot see",
+   "Price-to-book is not scored, and no debt, cash flow or asset quality data is included, which matters for a modaraba whose earnings depend on financing quality; dividend history covers only 1 year"
   ],
   "checks": [
-   "Read the quarter ended September 30, 2026 results to see whether profit is still falling or has stabilised, and why 2026 earnings dropped.",
-   "Review the balance sheet and notes for borrowings, non-performing financings and provisions, and cash flow from operations.",
-   "Check whether the 22.5% dividend is covered by earnings and cash, and look at the dividend history beyond the single year on record."
+   "Find equity and book value per share in the annual report to see whether the low P/E also holds against book value",
+   "Read the quarter to Sept 30, 2026 results (announced Oct 28) to see if the profit decline continued",
+   "Check the financing portfolio quality, borrowings and cash flow, and whether the dividend is covered by earnings and cash"
   ],
   "key": "e48c91073eb1f594",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:56:49+00:00"
+  "generated_at": "2026-11-16T20:06:28+00:00"
  },
  "JDWS": {
-  "summary": "JDW Sugar scores 77.8/100, mainly because its shares look cheap (P/E 5.2 against a sector median of 9.7) and sales have grown about 25% a year over three years. The score rests on only 62% of the data: debt, cash flow, liquidity and working capital could not be scored. Profit has also been uneven, with EPS halving in 2025 and margins falling, so the cheap P/E may partly reflect that.",
+  "summary": "JDW Sugar scores 77.8/100, mainly because its shares look cheap (P/E 5.2 against a sector median of 9.7) and sales have grown quickly, about 25% a year over three years. The score has real blind spots, though. Debt, cash flow, liquidity and working capital could not be scored, and the latest year's profit fell by about half from the previous year's peak.",
   "strengths": [
-   "Valuation is the standout: P/E of 5.2 is about 0.54x the sector median, and this factor carries the largest weight (20).",
-   "Sales rose from Rs 58.9bn in 2022 to Rs 114.7bn in 2025, and EPS grew about 18.9% a year over the period.",
-   "A cash dividend was paid in each of the last 3 fiscal years on record, with several interim payouts announced recently."
+   "Valuation: P/E of 5.2 is about 0.54x the sector median, and valuation carries the largest weight (20) in the score.",
+   "Sales rose from Rs 58.9bn in 2022 to Rs 114.7bn in 2025, and EPS grew about 18.9% a year over the same span.",
+   "Cash dividends were paid in each of the last 3 fiscal years on record, with several interim payouts announced in 2025-26."
   ],
   "risks": [
-   "Earnings are volatile: EPS went 66 \u2192 37 \u2192 225 \u2192 111 Rs over 2022-2025, and net margin fell from 11.21% to 5.59% in the last year while sales slipped slightly. Low P/E may reflect peak-like earnings that don't repeat.",
-   "The scorecard cannot see debt, cash flow, liquidity or cash conversion, which together make up 38% of the weighting. Heavy borrowing or weak cash generation would not show up in the score.",
-   "Price trend is neutral (about level with the KSE-100 over a year), so the market is not yet confirming the cheapness. The headline dividend yield of 0.5% is also low."
+   "Earnings are volatile: profit after tax fell from Rs 13.0bn in 2024 to Rs 6.4bn in 2025 and net margin from 11.2% to 5.6%, even though sales were roughly flat. A low P/E may reflect doubts that profits will hold.",
+   "Debt, cash flow quality, liquidity and cash conversion cycle (38 of 100 weight points) are unscored, so the 62% data coverage hides the balance sheet, which matters for a sugar miller.",
+   "Price trend is neutral (+0.4 points vs KSE-100 over about a year), so the market is not yet confirming the cheapness. The reported 0.5% dividend yield also looks low next to the payouts listed."
   ],
   "checks": [
-   "Read the latest balance sheet and cash flow statement for borrowings, interest cost, and whether operating cash flow supports reported profit.",
-   "Reconcile the dividend: the listed payouts (50%, 200%, 250%, 200% of face value) look large next to a 0.5% yield. Confirm the face value and the actual per-share amounts.",
-   "Review the quarter ended 30-Jun-2026 results and the 20-Aug-2026 'Material Information' notice, neither of which is reflected in the annual figures, and see whether profit is recovering or falling further."
+   "Check the balance sheet and cash flow statement for borrowings, interest cost, stock levels and whether profits turn into cash.",
+   "Read the quarter-ended 30 June 2026 results and the 20 Aug 2026 'Material Information' notice, since their contents are not in the data.",
+   "Reconcile the dividend yield with the announced payouts and the share's face value, and find out why 2025 margins fell by half."
   ],
   "key": "f42c6ea0456ca9b3",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:57:00+00:00"
+  "generated_at": "2026-11-16T20:06:38+00:00"
  },
  "BAHL": {
-  "summary": "Bank AL Habib scores 76.1 out of 100, mainly because of a very high dividend yield (9.8%, paid in each of the last 3 years on record) and strong 3-year growth in sales (17.3% a year) and EPS (22.7% a year). The valuation is ordinary: a P/E of 6.7 is level with the sector median of 6.7, so it is not cheap relative to other banks. The weakest area is price trend, because the share has lagged the KSE-100 by about 20.5 points over the past year. The growth figures also hide that 2025 was weaker than 2024.",
+  "summary": "Bank AL Habib scores 76.1/100, helped mostly by strong 3-year growth (EPS up 22.7% a year) and a 9.8% dividend yield. It trades at a P/E of 6.7, the same as the sector median, so it is not unusually cheap or expensive against other banks. The score covers only 62% of the model: price-to-book, bad loans and capital strength are missing, and those are the checks that matter most for a bank.",
   "strengths": [
-   "Dividend yield of 9.8%, with cash dividends in all 3 recent fiscal years and regular interim payouts announced in 2026",
-   "EPS rose from Rs14.91 in 2022 to Rs27.57 in 2025, and sales grew from about Rs98.5bn to Rs159.1bn",
-   "Share trades above its 200-day average at a P/E in line with other banks, so it is not priced at a premium"
+   "Dividend yield of 9.8%, with cash dividends in each of the last 3 fiscal years and four cash payouts announced in 2026",
+   "EPS grew from Rs14.91 in 2022 to Rs27.57 in 2025, and sales grew 17.3% a year over the period",
+   "P/E of 6.7 is in line with the sector median of 6.7, and the price is above its 200-day average"
   ],
   "risks": [
-   "2025 fell back from 2024: sales down about 12.5%, profit after tax down about 23% and EPS down from Rs35.87 to Rs27.57. The 3-year growth rates flatter the latest trend",
-   "The share has underperformed the KSE-100 by about 20.5 points over a year, so the market may be pricing in slower earnings",
-   "The scorecard cannot see bank-specific risks such as bad loans, capital adequacy, deposit mix, interest-rate sensitivity, or any debt and cash flow data"
+   "The 3-year growth rates start from a low 2022 base. In 2025, profit after tax fell about 23% (Rs39.9bn to Rs30.6bn), EPS fell from Rs35.87 to Rs27.57, and sales fell about 12%",
+   "The share price lagged the KSE-100 by about 20.5 points over the past year, which drags the price-trend score down to 36.4",
+   "Price-to-book, non-performing loan ratio and capital adequacy (38% of the weighting) have no data, so the score could change a lot once they are entered. Debt, cash flow and funding data are also not visible"
   ],
   "checks": [
-   "Read the nine-month 2026 results (announced Oct 22, 2026) to see whether profit is recovering or still falling from the 2024 peak",
-   "Check how much of the dividend is covered by earnings: the yield implies roughly Rs16-17 a share against 2025 EPS of Rs27.57, and confirm the payout is sustainable",
-   "Check how 'sales' and net margin are defined for this bank. The reported margins (about 8-9%) do not match profit divided by sales in the table (about 17-22%), so the margin factor may not be reliable"
+   "Find the non-performing loan ratio, provisioning coverage and capital adequacy ratio against the regulatory minimum in the latest annual report",
+   "Work out price-to-book from the annual report's equity and compare it with other listed banks",
+   "Find out why 2025 profit fell, and check the nine-month 2026 results (announced Oct 22, 2026) to see whether the decline is continuing. Also check that the reported net margins (8-9%) match profit divided by sales, which gives roughly 19-22% on the figures provided"
   ],
   "key": "8257fc91e72ce1a3",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:57:12+00:00"
+  "generated_at": "2026-11-16T20:06:49+00:00"
  },
  "MLCF": {
-  "summary": "MLCF scores 44.9/100 because the shares look expensive next to other cement companies and pay no dividend. Those two weak factors outweigh strong growth and margin scores. The growth scores flatter the picture: profit after tax fell by about half in FY2026 (Rs 8.4bn vs Rs 17.0bn), and the 3-year EPS growth figure only compares the start and end points. Debt, cash flow and liquidity could not be scored, so about 38% of the weighting is missing.",
+  "summary": "Maple Leaf Cement scores 44.9 out of 100, which maps to a SELL signal. Profit growth and margins look good on paper, but the valuation is expensive against peers and the company pays no dividend. Only 62% of the scorecard could be filled in, because debt, liquidity and cash flow data are missing.",
   "strengths": [
-   "Sales have risen every year, from Rs 62.1bn in 2023 to Rs 70.7bn in 2026 (about 4.4% a year).",
-   "Net margin of 11.94% is well above the 7.24% of 2023, even though it is far below 2025's 24.71%.",
-   "The price is above its 200-day average and slightly ahead of the KSE-100 over about a year."
+   "EPS grew about 24.5% a year over three years, from Rs 4.18 to Rs 8.06.",
+   "Net margin was 11.94% in 2026, up from 7.24% in 2023.",
+   "The price is above its 200-day average and has slightly beaten the KSE-100 over about a year."
   ],
   "risks": [
-   "Profit and EPS roughly halved in FY2026 (EPS Rs 8.06 vs Rs 16.26), so the 2025 result looks unusually high and may not repeat.",
-   "The P/E of 13.8 is about 1.6 times the sector median of 8.7, which leaves little room for earnings disappointments.",
-   "No dividend is paid (0% yield, no recent payouts), so any return depends on the share price alone."
+   "P/E of 13.8 is about 1.6x the sector median of 8.7, so the shares look expensive relative to cement peers.",
+   "Profit fell about 50% in 2026 (Rs 8.4bn versus Rs 17.0bn) and EPS halved from Rs 16.26. The 3-year growth figure flatters the trend, since 2025 looks like a peak year.",
+   "No dividend is paid (0% yield), so investors depend entirely on the share price for returns."
   ],
   "checks": [
-   "Find out why FY2025 profit was so high and FY2026 so much lower (one-off gains, tax, finance costs, or cement prices and volumes).",
-   "Read the balance sheet and cash flow statement for borrowings, interest burden and whether operating cash flow covers profit and capital spending.",
-   "Read the September 2026 quarterly results and the special resolutions passed at the 19 Oct 2026 EOGM, and find out why the earlier EOGM notice was revoked."
+   "Find out why 2025 profit was so high and why 2026 fell back. Look for one-off gains, tax effects or changes in margins in the annual report.",
+   "Review total borrowings, finance costs and interest cover in the balance sheet, plus operating cash flow versus reported profit.",
+   "Read the Q1 results (quarter ended Sep 30, 2026) and the special resolutions passed at the Oct 19 EOGM to see what changed and whether dividends are planned."
   ],
   "key": "830dc352ab3d9e2e",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:57:22+00:00"
+  "generated_at": "2026-11-16T20:06:54+00:00"
  },
  "KTML": {
-  "summary": "The score of 44.4/100 is held down by a price below its 200-day average and about 32 points behind the KSE-100 over a year, a P/E of 11.1 against a sector median of 7.4, and a falling EPS figure. Profitability is the bright spot: net profit rose to Rs 5.03bn in FY2026 and net margin to 8.62%. Sales have been flat for two years, and 38% of the scorecard's weight (debt, cash flow, liquidity, cash cycle) could not be scored, so the picture is incomplete.",
+  "summary": "The score of 44.4 out of 100 is held down by a share price that has lagged the market, a P/E above the sector median, and almost no dividend yield. Profit and margins improved strongly in FY2026, but sales have been flat for two years. Debt, cash flow and liquidity could not be scored (38% of the weighting), so the score covers only 62% of the picture.",
   "strengths": [
-   "Net margin improved to 8.62% from 5.73% at the start of the period, and FY2026 profit was up about 83% on FY2025.",
-   "Sales are about 39% higher than in FY2023 (Rs 58.3bn vs Rs 42.0bn).",
-   "A cash dividend of 20% of face value was announced in August 2025."
+   "Net margin rose to 8.62% in FY2026 from 4.63% a year earlier and 5.73% in FY2023.",
+   "Profit after tax reached Rs 5.03 billion in FY2026, up from Rs 2.41 billion in FY2023.",
+   "Sales grew about 11.5% a year over three years, from Rs 42.0 billion to Rs 58.3 billion."
   ],
   "risks": [
-   "Valuation looks expensive against peers: P/E is about 1.5x the sector median.",
-   "Sales were flat to slightly down in FY2026 (-1.8%), so the profit rebound came from margins rather than growth.",
-   "Debt, cash flow, liquidity and working capital were not scored. Textile composite companies often carry heavy borrowing, and this scorecard cannot show whether that applies here."
+   "The shares trade at a P/E of 11.1, about 1.5 times the sector median of 7.4, so the price already assumes the profit recovery lasts.",
+   "The price is below its 200-day average and has trailed the KSE-100 by about 32 points over a year, which shows weak market sentiment.",
+   "Sales fell about 1.8% in FY2026, so the profit jump came from margins rather than growth. It could be partly one-off."
   ],
   "checks": [
-   "Check the share count history. EPS fell from about Rs 8 to Rs 2-4 while profit rose, which suggests more shares were issued (bonus or rights) and earlier EPS may not be restated. If so, the -22.5% EPS decline overstates the real weakening.",
-   "Read the FY2026 annual report and the quarter to 30.09.2026 results for debt, finance costs, operating cash flow and what drove the margin jump (one-offs, exchange gains, tax).",
-   "Confirm the dividend record. The yield shows 0.0% even though a 20% cash payout was announced in 2025, and only one year of payout history is on file."
+   "EPS is shown falling from Rs 8.07 to Rs 2.04 while profit rose. Profit divided by EPS implies the share count grew about five times, possibly through a bonus issue. If so, the -22.5% EPS growth is misleading, so confirm with the annual report.",
+   "Find what drove the FY2026 margin jump, such as other income, tax, exchange gains or one-offs, and whether the latest quarter (ended 30.09.2026) continues it.",
+   "Check borrowings, finance costs and operating cash flow in the annual report. Also reconcile the 0.0% dividend yield with the 20% cash payout announced in August 2025."
   ],
   "key": "cb324890f3a7bd12",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:57:32+00:00"
+  "generated_at": "2026-11-16T20:07:05+00:00"
  },
  "CPHL": {
-  "summary": "Citi Pharma scores 40.5 out of 100, and the data covers only 62% of the scorecard. The main drags are a high valuation (P/E 17.9 against a sector median of 12.3) and a share price that is below its 200-day average and about 34 points behind the KSE-100 over a year. Growth and profitability look acceptable over three years, but the latest year shows profit and EPS falling even as sales rose. Debt, liquidity and cash flow are not scored, so the picture is incomplete.",
+  "summary": "Citi Pharma scores 40.5/100, which maps to a SELL signal. The main drags are an expensive valuation (P/E 17.9 against a sector median of 12.3), a share price well below its 200-day average and 34 points behind the KSE-100 over about a year, and a weak dividend record. Growth and margins are modest positives, but 38% of the scorecard (cash flow, debt, liquidity, cash cycle) could not be assessed, so the score rests on incomplete data.",
   "strengths": [
-   "Sales have grown about 4.1% a year over three years, and FY2026 sales rose roughly 6.5% to Rs 14.0 billion.",
-   "EPS grew about 6.0% a year over three years (Rs 2.88 to Rs 3.43), and net margin is 5.59% against 5.31% at the start of the period.",
-   "A cash dividend (35% of face value) is on record, so the company has shown it can pay one."
+   "Sales have grown every year shown, about 4.1% a year over three years, reaching Rs 14.0 billion in 2026 (up about 6.5% on 2025).",
+   "EPS grew about 6.0% a year over three years (Rs 2.88 to Rs 3.43), and net margin of 5.59% is above the 5.31% at the start of the period.",
+   "The company has a cash dividend on record (35% of face value, announced October 2025)."
   ],
   "risks": [
-   "The stock trades at 1.45x the sector median P/E, so it is priced for more growth than recent results show.",
-   "FY2026 profit after tax fell about 12% (Rs 892m to Rs 783m), EPS fell from Rs 3.90 to Rs 3.43, and net margin slipped from 6.78% to 5.59%. The scorecard's three-year view hides this recent decline.",
-   "Debt, liquidity, cash flow and cash conversion (38% of the score weight) could not be assessed. Hidden leverage or weak cash generation would not show up here."
+   "The latest year was weaker than the three-year trend suggests. Profit after tax fell about 12% from 2025 to 2026, EPS dropped from Rs 3.90 to Rs 3.43, and net margin slipped from 6.78% to 5.59%.",
+   "The shares trade at 1.45x the sector median P/E while earnings are falling, and the price trend is the weakest possible (below the 200-day average, well behind the market).",
+   "The scorecard cannot see debt, liquidity, cash flow or the cash conversion cycle, so balance sheet strain or poor cash generation could be hidden. The score would shift materially once these are known."
   ],
   "checks": [
-   "Read the FY2026 annual report and the September 2026 quarterly results to see why margins fell, and whether sales growth is turning into cash.",
-   "Check the balance sheet and cash flow statement for borrowings, interest cost, receivables and inventory days, none of which are in this score.",
-   "Read the 'Material Information' notice and the CFO change announced in late October 2026, and confirm the dividend position. The yield shows 0.0% although a 35% cash payout is on record."
+   "Read the annual report and September 2026 quarterly results for why profit and margin fell in 2026, and whether the decline continued in the new quarter.",
+   "Review the balance sheet and cash flow statement: borrowings, interest costs, cash from operations versus reported profit, and how long it takes to collect receivables.",
+   "Read the Material Information notice and the CFO change announcement, and reconcile the 0.0% dividend yield shown with the 35% cash payout on record."
   ],
   "key": "7852dcf62376dab9",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:57:42+00:00"
+  "generated_at": "2026-11-16T20:07:15+00:00"
  },
  "SYS": {
-  "summary": "Systems Limited scores 39.3/100 mainly because its shares look expensive (P/E 24.5 against a sector median of 9.1) and the price has lagged the market, sitting below its 200-day average and about 35 points behind the KSE-100 over a year. Sales growth is very strong, but the earnings-growth score is probably distorted: EPS fell from Rs 22.44 to Rs 5.46 while profit after tax rose from Rs 6.3bn to Rs 8.0bn, which suggests the share count increased (for example through a bonus issue or split). The data does not confirm this. About 38% of the scorecard's weight (debt, cash flow, liquidity, cash conversion) could not be scored, so the result is incomplete.",
+  "summary": "The score of 39.3 is held down mainly by an expensive valuation (P/E 24.5 against a sector median of 9.1) and a weak share price trend, which is below its 200-day average and about 35 points behind the KSE-100 over a year. Sales growth is very strong at about 29% a year. The earnings growth score looks unreliable: EPS fell from Rs 29.41 to Rs 4.19 in 2024 while profit after tax stayed in the Rs 6-8.5 billion range, which suggests the share count rose (for example a split or bonus issue) rather than profits collapsing. With 62% data coverage and no debt, cash flow or liquidity scores, the result is incomplete.",
   "strengths": [
-   "Sales rose from about Rs 20.6bn to Rs 44.2bn over three years, roughly 29% a year",
-   "Profit after tax is higher than in 2022 (Rs 8.0bn vs Rs 6.3bn), and net margin recovered from 15.9% in 2024 to 18.1% in 2025",
-   "Cash dividends were paid in both years on record, and the latest payout (100% of face value) is larger than the previous one (60%)"
+   "Sales grew about 29% a year, from Rs 20.6bn in 2022 to Rs 44.2bn in 2025",
+   "Profit after tax rose from Rs 6.1bn in 2024 to Rs 8.0bn in 2025, and net margin recovered from 15.9% to 18.1%",
+   "Cash dividends were paid in both years on record, with the latest at 100% of face value (yield 1.7%)"
   ],
   "risks": [
-   "Valuation is demanding at 2.7x the sector median P/E, leaving little room for disappointment, though the sector median may not be a fair peer group for a software exporter",
-   "Net margin is well below the 30.5% of 2022, so profit has grown much more slowly than sales",
-   "Weak price trend: below the 200-day average and well behind the KSE-100 over about a year"
+   "Valuation is about 2.7 times the sector median P/E, which leaves little room if growth slows",
+   "Net margin is well below the 30.5% of 2022, so faster sales have not produced proportionally higher profit",
+   "The scorecard cannot see debt, cash flow, liquidity or cash conversion (38% of the total weight), so balance sheet strength and earnings quality are unknown"
   ],
   "checks": [
-   "Check the annual report for any bonus shares or share split, and compare profit or restated EPS to see the real earnings trend",
-   "Review the balance sheet and cash flow statement for debt levels, cash generation versus reported profit, and how long customers take to pay",
-   "Read the latest quarterly results (period ended September 2026) to see whether margins are still recovering and whether the P/E is supported by current earnings"
+   "Confirm whether a share split or bonus issue explains the EPS drop, and compare EPS on an adjusted basis to see true earnings growth",
+   "Read the cash flow statement and balance sheet for operating cash flow versus profit, debt levels, and how quickly customers pay",
+   "Review the quarterly results for the period ended September 30, 2026 (announced Oct 2026) to see whether margins and growth have continued beyond the 2025 annual figures"
   ],
   "key": "1c0bd8dc2d6885c3",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:57:52+00:00"
+  "generated_at": "2026-11-16T20:07:25+00:00"
  },
  "KEL": {
-  "summary": "K-Electric scores 26.9 out of 100, which maps to a SELL signal. Sales have grown strongly, but profit has not kept up: the net margin is 0.67%, and 2023 was a large loss. The stock also looks very expensive on earnings (P/E 634 vs a sector median of about 11.6) and pays no dividend. Debt, cash flow and liquidity could not be scored, so only 62% of the picture is covered.",
+  "summary": "K-Electric scores 26.9 out of 100, which maps to a SELL signal. Sales have grown strongly, but profit has not kept up: the 2024 net margin was 0.67% after a large loss in 2023. The stock also looks very expensive on earnings (P/E 634 vs a sector median of about 11.6) and pays no dividend. Debt, liquidity and cash flow could not be scored, so about 38% of the picture is missing.",
   "strengths": [
    "Sales grew about 23.7% a year over three years, from Rs 325bn in 2021 to Rs 615bn in 2024.",
    "Returned to a profit in 2024 (Rs 4.1bn) after a Rs 39.4bn loss in 2023.",
-   "Share price has beaten the KSE-100 by about 12.4 points over roughly a year."
+   "The share price has outperformed the KSE-100 by about 12.4 points over roughly a year."
   ],
   "risks": [
-   "Earnings are thin and unstable: EPS fell about 29.6% a year over the period, and the net margin dropped from 3.69% to 0.67%. The P/E of 634 reflects a tiny profit, not a clear sign of growth.",
-   "Debt, liquidity, cash flow and cash conversion are all unscored. For a capital-heavy power utility, missing debt and cash flow data is a major blind spot.",
-   "No dividend and no recent payouts, so investors get no income while waiting for profits to improve. The price is also below its 200-day average, which signals weak momentum."
+   "Earnings are thin and unstable: EPS fell about 29.6% a year over the period, with a loss in 2023 and a net margin of only 0.67%.",
+   "Valuation looks stretched: P/E of 634 is about 54 times the sector median, so the price rests on a large profit recovery that has not yet happened.",
+   "Debt, liquidity, cash flow and working capital are not scored because the balance sheet and cash flow data were unavailable. For a capital-heavy power utility, this is a major blind spot. There is also no dividend, and the price is below its 200-day average."
   ],
   "checks": [
-   "Check total borrowings, interest costs and the repayment schedule, including the KE Sukuk, in the latest balance sheet and notes.",
-   "Check whether operating cash flow is positive and covers capital spending, or whether profit is being offset by receivables from customers or government bodies.",
-   "Read the reasons for the 2023 loss and the 2024 recovery, and see whether they were one-off items or whether regulatory tariff decisions are driving results."
+   "Read the latest balance sheet and cash flow statement for total borrowings, interest costs, and whether operations generate cash.",
+   "Find out why 2023 was a loss and whether the 2024 profit came from lasting improvements or one-off items.",
+   "Review the recent board meeting and sukuk announcements for any new financing, restructuring or management changes."
   ],
   "key": "a1cb6927efedc5fb",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:57:58+00:00"
+  "generated_at": "2026-11-16T20:07:30+00:00"
  },
  "SSGC": {
-  "summary": "SSGC scores 26.4 out of 100, which maps to a SELL signal, and the score rests on only 62% of the data. The main drags are an expensive valuation (P/E 22.2 against a sector median of about 5.1), falling sales, and a share price well below its 200-day average that has lagged the KSE-100 by about 40 points over a year. The 'earnings growth' score looks better than it should because it measures from a loss-making 2023. Profit has actually fallen in each of the last two years.",
+  "summary": "SSGC scores 26.4 out of 100, which the model reads as a SELL signal. The main drags are a high valuation (P/E of 22.2 against a sector median of about 5.1), shrinking sales, and a share price well below its 200-day average and far behind the KSE-100. A return to profit after the 2023 loss helps, but profit has fallen for two straight years and the margin is very thin at 0.27%. About 38% of the scorecard, including debt, cash flow and liquidity, could not be scored, so the picture is incomplete.",
   "strengths": [
-   "The company has been profitable for three straight years (2024 to 2026) after a loss in 2023.",
-   "A cash dividend of 5% of face value was announced in November 2025.",
-   "Net margin is positive at 0.27%, up from -0.35% in 2023, though it is thin and well below the 1.47% of 2024."
+   "Returned to profit after the FY2023 loss, so the profitability and earnings-growth factors score reasonably well (87.5 and 65.3).",
+   "Net margin of 0.27% is better than the -0.35% at the start of the period, though it is well down from 1.47% in 2024.",
+   "A 5% cash dividend was announced in November 2025, which shows some willingness to pay shareholders."
   ],
   "risks": [
-   "Profit after tax fell from Rs 6.84 billion in 2024 to Rs 0.94 billion in 2026, and EPS from Rs 7.76 to Rs 1.07. Sales fell from Rs 466 billion to Rs 349 billion over the same period.",
-   "At a P/E of 22.2 the shares cost over four times the sector median, which leaves little room if earnings stay weak.",
-   "The scorecard cannot see debt, liquidity, cash flow or working capital. Together these make up about 38% of the weight, so the score may be missing the biggest risks for a gas utility."
+   "Expensive on earnings: the P/E of 22.2 is about 4.4 times the sector median, and the valuation factor carries the heaviest weight (20%).",
+   "Sales fell from Rs 465.9bn in 2024 to Rs 349.1bn in 2026, and profit after tax dropped from Rs 6.84bn to Rs 0.94bn over the same period. EPS fell from 7.76 to 1.07.",
+   "The scorecard cannot see debt, liquidity, cash flow or working capital. For a gas utility these may matter a great deal, and their absence means the score could be materially off in either direction. The price is also about 39.6 points behind the KSE-100 over a year, and the stated dividend yield is"
   ],
   "checks": [
-   "Open the balance sheet and cash flow statement in the Annual Report 2026 and check borrowings, trade receivables and whether operating cash flow covers profit and interest.",
-   "Read why profit fell in FY2026 and why the Q1 accounts needed an extension of time. The 'Application for Extension of Time' notice and the results announcement should explain both.",
-   "Confirm the latest dividend decision and the yield. The data shows a 5% cash payout but a 0.0% yield, so check whether anything is proposed for FY2026."
+   "Look at the balance sheet and cash flow statement in the Annual Report 2026 for borrowings, overdue receivables and payables, and whether operating cash flow covers the profit reported.",
+   "Read the notes on why sales and profit fell in FY2026 and whether the thin margin is likely to hold, improve or reverse.",
+   "Confirm the dividend details in the results announcement and AGM notice, since the yield shows 0.0%. Also check why an extension was requested for the first-quarter accounts and what the new CFO appointment means."
   ],
   "key": "8833fd183b0590ad",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:58:07+00:00"
+  "generated_at": "2026-11-16T20:07:37+00:00"
  },
  "PTC": {
-  "summary": "PTC scores 25.2 out of 100 with a SELL signal, mainly because profits have fallen sharply while sales kept growing. Sales rose from Rs 83.4bn in 2022 to Rs 120.1bn in 2025, but profit after tax dropped from Rs 9.05bn to Rs 1.38bn and EPS from Rs 1.78 to Rs 0.27. At a P/E of 42.9, about 4.7 times the sector median of 9.1, and with no dividend, the valuation and income factors score zero. Only 62% of the data is covered, so the picture is incomplete.",
+  "summary": "PTC scores 25.2 out of 100, which maps to a SELL signal. Sales have grown steadily, but profit has collapsed: net margin fell from 10.85% in 2022 to 1.15% in 2025, and EPS from Rs 1.78 to Rs 0.27. The share trades at a P/E of 42.9, about 4.7 times the sector median of 9.1, and pays no dividend, so the price looks demanding for the earnings delivered.",
   "strengths": [
-   "Sales grew about 12.9% a year over three years, reaching Rs 120.1bn in 2025.",
-   "The share has beaten the KSE-100 by about 24.8 points over roughly a year.",
-   "Profit stayed positive in 2025 (Rs 1.38bn), so the company is not loss-making on the figures given."
+   "Sales grew about 12.9% a year over three years, from Rs 83.4bn to Rs 120.1bn",
+   "The share has outperformed the KSE-100 by about 24.8 points over roughly a year",
+   "No red flags were raised by the scorecard"
   ],
   "risks": [
-   "Net margin collapsed from 10.85% in 2022 to 1.15% in 2025, and EPS fell about 46.7% a year, so growth in sales is not reaching shareholders.",
-   "A P/E of 42.9 against a sector median of 9.1 prices in a strong recovery; if earnings stay weak the valuation looks stretched.",
-   "No dividend yield and no recent payouts, so there is no income cushion while waiting."
+   "Profit after tax fell from Rs 9.05bn in 2022 to Rs 1.38bn in 2025, so growth is not reaching shareholders",
+   "Valuation is very stretched: P/E of 42.9 against a sector median of 9.1, resting on depressed earnings",
+   "No dividend and no recent payouts, so there is no income cushion"
   ],
   "checks": [
-   "Read the cost lines in the annual report to see why margins fell (finance costs, depreciation, restructuring, or one-off items).",
-   "Check the balance sheet and cash flow statement for debt levels, interest burden and whether operations generate cash.",
-   "Review the September 2026 quarterly report, noting that an earlier results notice was revoked, to see whether profit is recovering and why the notice was withdrawn."
+   "Find in the annual report why margins fell (costs, finance charges, impairments, one-off items) and whether it is temporary",
+   "Review the balance sheet and cash flow statement for debt levels, cash generation and ability to fund operations",
+   "Read the latest quarterly report (period ended Sep 30, 2026) to see if profit is recovering, and note why one results announcement was revoked and reissued"
   ],
   "key": "7712c4af9aafa9f5",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:58:14+00:00"
- },
- "BML": {
-  "summary": "Bank Makramah scores 24.7/100, which maps to a SELL signal. The main drag is valuation: a P/E of 20.8 is about 3x the sector median of 6.7. There is also no dividend, and the share price has lagged the KSE-100 by about 51 points over a year. The swing from losses in 2022-2024 to a large profit in 2025 helps the score, but the figures are inconsistent and the company recently revoked and revised results, so confidence in the numbers is low.",
-  "strengths": [
-   "Turned from four years of losses (2022-2024) to a reported profit of about Rs 8.79 billion in 2025",
-   "Share price is above its 200-day average",
-   "Scorecard data coverage is reasonably high at 80.6%"
-  ],
-  "risks": [
-   "Valuation looks expensive against peers (P/E 20.8 vs sector median 6.7), and the P/E does not match the 2025 EPS of Rs 8.79 and price of Rs 63.13, which would imply roughly 7x",
-   "2025 profit after tax (Rs 8.79bn) is larger than reported sales (Rs 6.90bn), and the stated 47.25% net margin does not match these figures. The profit may include one-off or non-operating items, which the data cannot confirm",
-   "No dividend or payouts, and the stock has underperformed the KSE-100 by about 51 points over a year. The scorecard also cannot see capital adequacy, deposits, non-performing loans or cash flow, which matter most for a bank"
-  ],
-  "checks": [
-   "Find out why the year-ended June 30, 2026 results were marked REVOKED and the September 2026 quarter results REVISED, and which figures now stand",
-   "Check what drove the 2025 profit (core banking income versus one-off gains, tax credits or recoveries) and whether it repeats in the latest quarter",
-   "Review capital adequacy, non-performing loans, and the Material Information notices from September and October 2026"
-  ],
-  "key": "3cc14c056de6ffa4",
-  "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:58:22+00:00"
+  "generated_at": "2026-11-16T20:07:41+00:00"
  },
  "FCCL": {
-  "summary": "FCCL scores 75.8/100 with a HOLD signal, driven mainly by very strong earnings momentum: EPS grew about 27.8% a year over three years and net margin widened from 10.9% to 17.3%. Valuation is reasonable (P/E 8.3, slightly below the sector median of 8.7) and the share price is trending above its 200-day average. However, only 62% of the scorecard could be assessed because debt, liquidity, cash flow and working capital data are missing, so the score reflects an incomplete picture.",
+  "summary": "FCCL scores 75.8/100, which maps to a HOLD signal. The score is carried by very strong earnings growth (EPS up about 27.8% a year over three years) and a net margin that widened from 10.9% to 17.3%. Valuation is reasonable, with a P/E of 8.3 against a sector median of 8.7, and the price trend is healthy. Only 62% of the scorecard could be assessed, because debt, liquidity, cash flow and working-capital factors (about 38% of the weight) had no data, so the score is incomplete.",
   "strengths": [
-   "Profit growth is strong: EPS rose from Rs 3.16 to Rs 6.60 over three years, and profit after tax roughly doubled.",
-   "Net margin expanded to 17.27% from 10.93%, on sales growth of about 11% a year.",
-   "Shares trade at a P/E of 8.3, a small discount to the sector median, and are above their 200-day average and ahead of the KSE-100 by about 7.8 points over a year."
+   "Profit growth is strong: EPS rose from Rs 3.16 to Rs 6.60 over three years, and net margin improved from 10.93% to 17.27%.",
+   "Valuation is slightly below the sector median (P/E 8.3 vs 8.7), and the price is above its 200-day average and ahead of the KSE-100 by about 7.8 points over a year.",
+   "Cash dividends were paid in both recorded years, and the latest payout rose from 12.5% to 15% of face value."
   ],
   "risks": [
-   "Debt, liquidity, cash flow quality and cash conversion are not scored (38% of the weight), so leverage and whether profits turn into cash are unknown.",
-   "Margins rose sharply, and the data cannot show whether that is sustainable. Cement margins can fall quickly if costs, fuel prices or demand change.",
-   "Dividend yield is modest at 2.8%, and only two years of payout history are available, so the dividend record is thin. A recent announcement about early repayment of a long-term loan suggests there is debt, but its size is not in the data."
+   "Debt, liquidity, cash flow quality and cash conversion were not scored, so the scorecard cannot show whether the profit growth is backed by cash or whether the balance sheet is strained.",
+   "Revenue growth (about 11.2% a year) is much slower than profit growth, so the gains come mainly from wider margins, which could narrow again if costs or prices shift.",
+   "A dividend yield of 2.8% is modest, and only two years of dividend history are on record. A November 2026 notice about early repayment of a long-term loan suggests debt exists, but the data gives no figures for it."
   ],
   "checks": [
-   "Check the balance sheet and cash flow statement in the annual report for total borrowings, interest cover and operating cash flow compared with profit.",
-   "Read the November 2026 material information on early loan repayment, including the amount, how it is funded, and the effect on cash and finance costs.",
-   "Read the 1st quarter results (period ended 30 September 2026) to see whether margins and EPS growth are holding up."
+   "Read the latest annual report's balance sheet and cash flow statement: total borrowings, interest cover, and whether operating cash flow matches reported profit.",
+   "Open the November 10, 2026 early loan repayment notice to see the amount, how it was funded, and its effect on cash and finance costs.",
+   "Review the Q1 results (quarter ended 30 September 2026) to see whether the 17% net margin held, and what management said about cost and pricing trends in the corporate briefing."
   ],
   "key": "2abaac5510e503ae",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:58:28+00:00"
+  "generated_at": "2026-11-16T20:07:48+00:00"
  },
  "ATLH": {
-  "summary": "Atlas Honda scores 75.4/100 (HOLD), driven mainly by very strong growth: sales rose about 26% a year over three years, EPS about 62% a year, and net margin roughly doubled from 3.69% to 7.71%. A 7.1% dividend yield also helps. The score is held back by a valuation slightly above the sector median (P/E 8.7 vs 7.6) and a weak price trend, and only 62% of the data is covered, so the balance sheet and cash flow picture is missing.",
+  "summary": "Atlas Honda scores 75.4/100, mainly because of very strong growth: sales rose about 26% a year over three years, EPS rose about 62% a year, and net margin roughly doubled from 3.69% to 7.71%. A 7.1% dividend yield also helps. The score is held back by a P/E of 8.7 (about 14% above the sector median of 7.6) and a share price below its 200-day average. Four factors covering cash flow, debt and liquidity could not be scored, so about 38% of the picture is missing.",
   "strengths": [
-   "Sales grew from Rs 135.5bn to Rs 273.9bn and EPS from Rs 40.33 to Rs 170.21 over the period shown",
-   "Net margin improved each year, from 3.69% to 7.71%",
-   "Dividend yield of 7.1%, with cash payouts in each of the last 2 fiscal years on record"
+   "Sales grew from Rs 135.5bn to Rs 273.9bn over the period, and EPS rose from Rs 40.33 to Rs 170.21.",
+   "Net margin improved each year, from 3.69% to 7.71%, so profit grew faster than sales.",
+   "Dividend yield of 7.1% with cash payouts in both fiscal years on record, and recent payouts of 460% to 560% of face value."
   ],
   "risks": [
-   "Debt, liquidity, cash flow quality and cash conversion cycle are not scored, so 38% of the weight is unseen; profits may not be backing up as cash, and borrowing levels are unknown",
-   "Share price is below its 200-day average and lagged the KSE-100 by about 3.5 points over a year, suggesting weak market sentiment",
-   "Growth this fast may be hard to repeat, and P/E of 8.7 is already about 14% above the sector median"
+   "Cash flow quality, debt, liquidity and cash conversion cycle are all unscored, so the scorecard cannot see borrowing, cash generation or inventory and receivables pressure.",
+   "Valuation is somewhat above the sector median, which leaves less room for growth to disappoint.",
+   "The price is below its 200-day average and trailed the KSE-100 by about 3.5 points over a year, which shows weak market momentum. Growth this fast may also be hard to repeat, since the data covers only four years."
   ],
   "checks": [
-   "Check the cash flow statement: does operating cash flow match or exceed profit after tax?",
-   "Check the balance sheet for borrowings, cash on hand and how much inventory and receivables have grown alongside sales",
-   "Check whether the recent half-year results and dividend of 560% of face value are consistent with the annual trend, and whether payouts are covered by earnings and cash"
+   "Look at the cash flow statement to see whether profit of Rs 21.1bn is turning into real operating cash, and whether dividends are covered by it.",
+   "Check the balance sheet for borrowings, cash balances, and inventory and receivable levels.",
+   "Read the half-year results to October 2026 and the management commentary to see whether sales and margin growth are continuing, and what is driving them, such as pricing, volumes or costs."
   ],
   "key": "2316bb11b56f3be0",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:58:33+00:00"
+  "generated_at": "2026-11-16T20:07:53+00:00"
  },
  "GLAXO": {
-  "summary": "GlaxoSmithKline Pakistan scores 75.4 out of 100 (HOLD), helped by a strong earnings recovery, a higher net margin, a P/E below its sector's median, and a steady cash dividend. The weak share price trend holds the score back, and about 38% of the scorecard cannot be assessed because balance sheet and cash flow data are missing.",
+  "summary": "GlaxoSmithKline Pakistan scores 75.4/100 (HOLD), helped by a sharp recovery in profits, a P/E of 9.8 against a sector median of 12.3, and a 6.1% dividend yield. The weak spot is the share price, which sits below its 200-day average and has lagged the KSE-100 by about 26.6 points over a year. Only 62% of the data was available, and debt, liquidity and cash flow could not be scored, so the score leaves out important parts of the picture.",
   "strengths": [
-   "Profit recovered strongly: EPS rose from Rs 7.73 in 2022 to Rs 31.48 in 2025, and net margin went from 5.89% to 15.21%.",
-   "Valuation looks modest: P/E of 9.8 against a sector median of 12.3, with a 6.1% dividend yield.",
-   "Cash dividends were paid in each of the last 3 fiscal years on record, with several payouts announced recently."
+   "Earnings rebounded strongly: EPS rose from Rs 1.68 in 2023 to Rs 31.48 in 2025, and net margin reached 15.21%.",
+   "Valuation looks modest: P/E of 9.8 is about 0.80x the sector median.",
+   "Dividends were paid in each of the last 3 fiscal years on record, with a 6.1% yield."
   ],
   "risks": [
-   "The share price is below its 200-day average and has lagged the KSE-100 by about 26.6 points over a year, so the market may be seeing something the scorecard does not.",
-   "Debt, liquidity, cash conversion and cash flow quality could not be scored (about 38% of the weight), so financial strength is unverified.",
-   "The earnings jump comes from a very low 2023 base (EPS Rs 1.68), so growth rates look flattering and the 2024-2025 margins may not be sustainable."
+   "Debt, liquidity, cash flow quality and cash conversion cycle were not scored (about 38% of the weight), so balance sheet strength and the cash backing of profits are unknown.",
+   "Price trend is weak: below its 200-day average and well behind the KSE-100, which may signal the market doubts the recent profit level can last.",
+   "Profit history is volatile (net margin 5.89% in 2022, 1.08% in 2023, 15.21% in 2025), so the current margin may not be a stable baseline."
   ],
   "checks": [
-   "Review the balance sheet and cash flow statement: borrowings, cash on hand, and whether operating cash flow supports the reported profit and dividends.",
-   "Read the latest quarterly report (period ended September 30, 2026) to see if margins are holding near 15% and why the share price has lagged.",
-   "Find out why 2023 profit collapsed and what changed since, such as pricing, costs, or one-off items, and whether the new CFO appointment signals any change in direction."
+   "Check the cash flow statement to see whether operating cash flow supports the 2025 profit of about Rs 10.0 billion.",
+   "Review the balance sheet for borrowings, cash, and how quickly receivables and inventory turn over.",
+   "Read the latest quarterly report (period ended Sep 30, 2026) and the reasons for the 2023 profit dip, 2024-25 recovery, and any one-off items, plus the impact of the new CFO appointment."
   ],
   "key": "7f099991f3f6a0e9",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:58:38+00:00"
+  "generated_at": "2026-11-16T20:07:58+00:00"
  },
  "GHGL": {
-  "summary": "Ghani Glass scores 75.1 out of 100 (HOLD), carried mainly by a cheap valuation (P/E 5.3 against a sector median of 7.4), a 10.1% dividend yield and a share price trending above its 200-day average. Growth is modest: sales rose about 5.9% a year over three years while EPS slipped about 3.7% a year. Only 62% of the data is available, and debt, liquidity and cash flow could not be scored, so the score is only a partial picture.",
+  "summary": "Ghani Glass scores 75.1 out of 100 (HOLD), and the score rests mainly on cheap valuation and a strong dividend. The P/E is 5.3 against a sector median of 7.4, and the dividend yield is 10.1%. Growth is flat: sales grew about 5.9% a year over three years while EPS slipped about 3.7% a year. Four factors (cash flow, debt, liquidity and cash conversion) could not be scored, and data coverage is only 62%, so the score is incomplete.",
   "strengths": [
-   "Valuation looks low: P/E of 5.3 is about 0.71x the sector median of 7.4.",
-   "Dividend yield of 10.1%, with cash payouts in each of the last 2 fiscal years on record and four 10% cash payouts announced in 2026.",
-   "Profit recovered in FY2026: net profit Rs 7.23bn (EPS Rs 7.23) versus Rs 5.90bn (EPS Rs 5.90) the year before, and the share price is above its 200-day average and ahead of the KSE-100 by about 9.7 points over a year."
+   "Valuation looks low: P/E of 5.3 is about 0.71x the sector median of 7.4",
+   "Dividend yield of 10.1%, with cash payouts in each recent year on record and several 10% cash payouts announced in 2026",
+   "Profit recovered in FY2026: net profit rose to Rs 7.23 billion from Rs 5.90 billion, and net margin improved to 14.94% from 12.89%"
   ],
   "risks": [
-   "Debt, liquidity, cash flow quality and cash conversion cycle (38% of the scorecard weight) are unscored because balance sheet and cash flow data were not available, so borrowing levels and whether profits turn into cash are unknown.",
-   "Profitability is below its starting level: net margin was 14.94% in FY2026 versus 19.89% in FY2023, and EPS is lower than FY2023's Rs 8.10.",
-   "A very high yield and low P/E can mean the market expects earnings to fall, or the payout may be hard to sustain; the data cannot confirm either way, and the dividend record covers only 2 years."
+   "Debt, liquidity, cash flow and cash conversion are not scored, so borrowing levels and whether profits turn into cash are unknown, and these carry 38% of the scorecard weight",
+   "Earnings are below the FY2023 peak: EPS of Rs 7.23 compares with Rs 8.10, and net margin of 14.94% with 19.89%, so profitability has not fully recovered",
+   "A low P/E and high yield can mean the market expects earnings to fall, and a high payout is only safe if cash flow supports it. The data cannot confirm this."
   ],
   "checks": [
-   "In the annual report, check borrowings, finance costs and cash on hand, and whether operating cash flow covers the dividends paid.",
-   "Look at why the net margin fell from 19.89% to 14.94% (input costs such as energy and raw materials, pricing, competition) and whether the FY2026 recovery is likely to last.",
-   "Read the September 2026 quarterly results and the new CFO's comments, if any, to see whether the earnings trend and dividend payout are holding."
+   "Look at the latest annual report and the September 2026 quarterly results for borrowings, cash and cash from operations, and whether they cover the dividends",
+   "Check why the net margin fell from 19.89% to 14.94% over the period (input costs, pricing, competition) and whether it is stabilising",
+   "Check the payout history and dividend policy to see if a roughly 10% yield is sustainable, since only two fiscal years of dividend history are on record"
   ],
   "key": "f8ac66d173a35d2c",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:58:44+00:00"
+  "generated_at": "2026-11-16T20:08:04+00:00"
  },
  "ABOT": {
-  "summary": "Abbott Pakistan scores 75/100 (HOLD), driven mainly by strong profit recovery and a fairly cheap valuation. EPS rose from Rs 30.69 in 2022 to Rs 81.37 in 2025, net margin widened to 10.57%, and the P/E of 10.6 sits below the sector median of 12.3. Only 62% of the data is covered, so debt, liquidity and cash flow, which together carry 38% of the weight, are not reflected in the score.",
+  "summary": "Abbott Pakistan scores 75/100 (HOLD), driven mainly by strong profit growth, a P/E of 10.6 that sits below the sector median of 12.3, and a 4.4% dividend yield. Weak relative price performance (about 21 points behind the KSE-100 over a year) holds the score back. Only 62% of the data is covered, and debt, cash flow and liquidity could not be assessed, so the score is incomplete.",
   "strengths": [
-   "Sales grew about 15% a year over 3 years and EPS grew about 38% a year, with net margin up from 6.10% to 10.57%.",
-   "Valuation is modest: P/E of 10.6 is about 0.86x the sector median, and the dividend yield is 4.4%.",
-   "Cash dividends were paid in both of the last 2 fiscal years on record, and the latest payout (400% of face value) is larger than the previous one (100%)."
+   "Earnings recovered strongly: EPS rose from Rs 30.69 in 2022 to Rs 81.37 in 2025, and net margin improved from 6.1% to 10.57%.",
+   "Sales grew about 15% a year over three years, reaching roughly Rs 75.4 billion in 2025.",
+   "Valuation looks modest: P/E of 10.6 against a sector median of 12.3, plus a 4.4% dividend yield with a recent cash payout of 400% of face value."
   ],
   "risks": [
-   "Debt, liquidity, cash flow quality and cash conversion cycle could not be scored, so balance sheet strength and whether profits turn into cash are unknown.",
-   "Earnings are volatile: 2023 profit was only Rs 0.26 billion (0.47% margin) before rebounding, so the recent margin may not be a stable baseline.",
-   "The share has lagged the KSE-100 by about 20.8 points over roughly a year, giving a weak price trend score of 36, even though it trades above its 200-day average."
+   "The scorecard cannot see debt, liquidity, cash flow quality or the cash conversion cycle, which together carry 38% of the weight, so balance sheet strength is unknown.",
+   "Earnings are uneven: 2023 profit nearly vanished (EPS Rs 2.67, margin 0.47%), so the recent growth rate is flattered by a very low base and may not repeat.",
+   "The share price has lagged the KSE-100 by about 20.8 points over a year, which suggests the market is not rewarding the company as much as the index."
   ],
   "checks": [
-   "Look at the balance sheet and cash flow statement for borrowings, cash balances and operating cash flow compared with reported profit.",
-   "Find out why 2023 profit collapsed and what drove the margin recovery (pricing, costs, currency, one-offs), and whether it is likely to last.",
-   "Read the latest quarterly results (period ended September 30, 2026) to see whether growth and margins are holding, and confirm how sustainable the 400% dividend is relative to earnings."
+   "Check the balance sheet and cash flow statement for borrowings, cash on hand, and whether reported profit turns into operating cash.",
+   "Find out what caused the 2023 profit collapse (costs, currency, pricing or one-offs) and whether those pressures could return.",
+   "Review the latest quarterly results to see if margins near 10.6% are holding, and whether the large recent dividend is covered by earnings and cash."
   ],
   "key": "0abc951e1465339c",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:58:49+00:00"
+  "generated_at": "2026-11-16T20:08:09+00:00"
  },
  "ABL": {
-  "summary": "ABL scores 74.7/100 (HOLD), mainly because it looks cheap and pays a very high dividend. It trades at a P/E of 6.1 against a sector median of 6.7, with a 9.4% dividend yield and cash dividends in every year on record. The growth scores rest on a 3-year trend that hides a weaker latest year: 2025 sales, profit and EPS were all below 2024. The share price is also lagging the market.",
+  "summary": "Allied Bank scores 74.7/100 (HOLD), helped by a low valuation (P/E 6.1 vs sector median 6.7), a very high dividend yield of 9.4%, and strong growth in sales and EPS over three years. The weak share price trend (below its 200-day average and about 12 points behind the KSE-100) drags the score down. Only 62% of the data is covered, and the three bank-specific measures (price-to-book, bad loans, capital adequacy) are missing, so the score is incomplete for a bank.",
   "strengths": [
-   "Valuation: P/E of 6.1 is about 9% below the sector median of 6.7",
-   "Dividend: 9.4% yield, with cash payouts in each of the last 3 fiscal years and four interim cash dividends of 40% of face value announced in 2026",
-   "Growth over 3 years: sales up about 15% a year and EPS up about 18% a year, from a low 2022 base"
+   "Cheap on earnings: P/E of 6.1, about 9% below the sector median of 6.7",
+   "Dividend yield of 9.4%, with cash dividends paid in each of the last 3 fiscal years and four 40% cash payouts announced in 2026",
+   "EPS grew about 18.4% a year over 3 years and net margin rose from 9.84% to 11.83%"
   ],
   "risks": [
-   "Latest year was weaker: 2025 profit after tax fell to Rs 35.2bn from Rs 43.1bn (about -18%), EPS to Rs 30.72 from Rs 37.65, and sales fell about 7%. The 3-year growth scores partly mask this",
-   "Price trend is poor: below its 200-day average and about 12 points behind the KSE-100 over a year, so the market may be pricing in lower earnings",
-   "The scorecard cannot see bank-specific risks: bad loans, capital adequacy, deposit mix, exposure to government securities, interest-rate sensitivity, or cash flow and debt data. A high payout is not guaranteed if earnings keep falling"
+   "Profit fell in 2025: profit after tax dropped from Rs 43.1bn to Rs 35.2bn and EPS from Rs 37.65 to Rs 30.72, so the 3-year growth figure hides a recent decline",
+   "Sales also fell in 2025 (Rs 143.2bn to Rs 133.6bn), and the share price is weak, below its 200-day average and lagging the KSE-100",
+   "The scorecard cannot see price-to-book, non-performing loans or capital adequacy (about 38% of the weight), which matter most for judging a bank's safety; there is also no cash flow or debt data"
   ],
   "checks": [
-   "Confirm why 2025 profit and sales fell, and whether the 2026 quarterly reports show a recovery, using the September 2026 quarterly report",
-   "Reconcile the net margin: the stated 11.83% does not match the listed profit and sales (about 26%), so check how the source defines 'sales' and margin for a bank",
-   "Check capital adequacy, non-performing loans and whether 2026 earnings cover the Rs 16 per share of dividends declared so far. Also look into the September 2026 unusual-volume notice"
+   "Find the non-performing loan ratio and how well bad loans are covered by provisions in the latest annual or quarterly report",
+   "Check the capital adequacy ratio against the regulator's minimum, and compute price-to-book from reported equity",
+   "Read the September 2026 quarterly report to see whether profit has recovered from the 2025 decline and whether the high dividend is covered by earnings"
   ],
   "key": "2aec9524a2f2f5c3",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:58:59+00:00"
+  "generated_at": "2026-11-16T20:08:14+00:00"
  },
  "AICL": {
-  "summary": "Adamjee Insurance scores 74.7/100 (HOLD), mainly because earnings have grown quickly and the shares look cheap, at a P/E of 5.4 against a sector median of 5.8. The dividend yield of 5.3% and a steady payout record add support, while a weak price trend holds the score back. Revenue growth could not be scored because sales figures are missing, so the picture is incomplete (80.6% data coverage).",
+  "summary": "Adamjee Insurance scores 74.7/100 (HOLD), helped mainly by strong earnings growth (EPS up about 25.7% a year over three years), a low P/E of 5.4 (slightly below the sector median of 5.8), and a 5.3% dividend yield with cash paid in every year on record. Held back by a price below its 200-day average and a small lag versus the KSE-100. Two factors, revenue growth and price-to-book, could not be scored because data is missing, so about a third of the picture is unseen (67.6% coverage).",
   "strengths": [
-   "EPS grew about 25.7% a year over 3 years, from Rs 7.39 in 2022 to Rs 14.66 in 2025",
-   "Valuation is slightly below the sector median (P/E 5.4 vs 5.8) with a 5.3% dividend yield",
-   "Cash dividends paid in each of the last 3 fiscal years on record, with several payouts announced recently"
+   "EPS rose from Rs 7.39 in 2022 to Rs 14.66 in 2025, and profit after tax roughly doubled over that period.",
+   "Valuation looks modest: P/E 5.4 versus a sector median of 5.8.",
+   "Consistent cash dividends, with a 5.3% yield and recent payouts of 30% and 20% of face value."
   ],
   "risks": [
-   "Sales figures are missing, so revenue growth and the true size of the business cannot be judged, and the net margin figures cannot be checked against sales",
-   "Net margin has slipped from 15.2% in 2022 to 13.0% in 2025, and from 15.0% in 2024, so profit growth may be slowing in quality",
-   "Price is below its 200-day average and trailed the KSE-100 by about 4 points over a year; the scorecard also cannot see debt, cash flow, claims, or investment income, which matter a lot for an insurer"
+   "Net margin slipped to 12.98% in 2025 from 15.01% in 2024 and 15.22% in 2022, so profit growth is not coming from better margins.",
+   "Weak price trend: below the 200-day average and about 4 points behind the KSE-100 over a year.",
+   "The scorecard cannot see sales, equity/book value, debt, solvency or cash flow, which matter for an insurer; the low P/E could reflect earnings the market doubts will last."
   ],
   "checks": [
-   "Find premium (revenue) figures and the underwriting result in the annual report to see whether profit comes from insurance business or from investment gains",
-   "Read the quarter to 30 September 2026 results (announced Oct 28, 2026) to see whether earnings and margins are holding up",
-   "Check the solvency position, claims ratio, and how sustainable the dividend payout is relative to earnings"
+   "Find the insurance revenue and underwriting result in the annual report to see whether profit comes from core insurance or from investment income.",
+   "Check equity and book value to judge price-to-book, plus the solvency and capital position against regulatory requirements.",
+   "Read the quarterly results for the period ended 30 September 2026 to see whether the 2025 earnings level and margins are holding."
   ],
   "key": "fa3fa6e2b1d94587",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:59:04+00:00"
+  "generated_at": "2026-11-16T20:08:19+00:00"
  },
  "IMAGE": {
-  "summary": "Image Pakistan scores 74.6/100 (HOLD), driven by strong sales and margin growth and a cheap valuation: P/E of 9.2 against a sector median of 12.3. A weak price trend (below its 200-day average and lagging the KSE-100 by about 14 points) drags the score down. Coverage is only 62%, so debt, liquidity and cash flow are not assessed, and the score is less complete than it looks.",
+  "summary": "Image Pakistan scores 74.6/100 (HOLD), driven by strong sales and margin growth and a P/E of 9.2 that is below the sector median of 12.3. The weak share price trend (below its 200-day average and 14.4 points behind the KSE-100 over about a year) holds the score back. Only 62% of the data is covered, because debt, liquidity, cash flow and working capital could not be scored.",
   "strengths": [
-   "Sales grew about 21.8% a year over three years, and net margin rose from 10.07% to 14.69%.",
-   "Valuation looks modest: P/E of 9.2 is about 0.75x the sector median of 12.3.",
-   "Cash dividends were paid in both recorded years, for a yield of about 3.9%."
+   "Sales grew about 21.8% a year over 3 years, and net margin rose from 10.07% to 14.69%",
+   "Valuation looks modest: P/E 9.2 against a sector median of 12.3",
+   "Cash dividends paid in each of the last 2 fiscal years, with a 3.9% yield"
   ],
   "risks": [
-   "Debt, liquidity, cash conversion and cash flow quality are unscored because balance sheet and cash flow data are missing, and these carry 38% of the total weight.",
-   "EPS growth (7.6% a year) is far slower than profit growth, which hints that the share count increased. Sales growth also slowed sharply in the latest year, to about 2% from 24% the year before.",
-   "The price is below its 200-day average and has lagged the KSE-100 by about 14 points over a year, so the market may be seeing something the scorecard cannot."
+   "The scorecard cannot see debt, liquidity, cash flow or cash conversion, which together carry about 38% of the weight, so balance sheet strength is unknown",
+   "Earnings per share grew only 7.6% a year, much slower than sales growth of 21.8%. Profit growth may have been diluted, for example by more shares, though the data does not say",
+   "Sales rose just 2.2% in 2026 after a 23.8% jump in 2025, so growth has slowed sharply; the price is also in a downtrend and lagging the market"
   ],
   "checks": [
-   "Check the annual report's balance sheet and cash flow statement for borrowings, interest cost, and whether profits turn into operating cash.",
-   "Find out why sales growth slowed in FY2026 and why EPS grew much slower than profit (new shares issued?).",
-   "Read the September 2026 quarterly results to see whether margins near 14.7% are holding, and check receivables and inventory levels."
+   "Look in the annual report for borrowings, interest costs, and cash on hand against short-term obligations",
+   "Compare operating cash flow with reported profit, and check whether receivables and inventory are building up",
+   "Read the latest quarterly results (period ended 30/09/2026) to see whether sales growth is picking up again, and find out why EPS growth lags profit growth"
   ],
   "key": "a1d871e7e32656df",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:59:09+00:00"
+  "generated_at": "2026-11-16T20:08:24+00:00"
  },
- "MEBL": {
-  "summary": "Meezan Bank scores 71.8/100 (HOLD), helped by strong three-year growth, a 5.5% dividend yield and a share price trending well above the market. The main drag is valuation: a P/E of 10.3 is about 1.5 times the sector median of 6.7. The growth scores also hide that 2025 revenue, profit and EPS were all lower than in 2024.",
+ "HCAR": {
+  "summary": "Honda Atlas Cars scores 72.7 out of 100 (HOLD), mainly because the shares look cheap: a P/E of 6.0 against a sector median of 7.6, plus a 3.7% dividend yield and a big rise in earnings from a very low base. The weak spot is the share price, which is below its 200-day average and about 40 points behind the KSE-100 over a year. The score also rests on only 62% of the data, because debt, liquidity and cash flow could not be assessed.",
   "strengths": [
-   "Three-year growth was strong: sales up about 26.5% a year and EPS up about 25.4% a year.",
-   "Cash dividends were paid in each of the last 3 fiscal years, with the latest interim payout raised to 80% of face value from 70% a year earlier.",
-   "Net margin improved from 19.39% to 21.18% over the period, and the price is above its 200-day average and about 19.5 points ahead of the KSE-100 over roughly a year."
+   "Valuation: P/E of 6.0 is about 22% below the sector median of 7.6.",
+   "Profit recovery: EPS rose from Rs 1.82 in 2023 to Rs 22.64 in 2026, and profit after tax reached about Rs 3.2 billion.",
+   "Cash dividends of 80% and then 90% of face value were announced in May 2025 and May 2026, giving a 3.7% yield."
   ],
   "risks": [
-   "2025 sales fell about 10% (Rs 285.1bn vs Rs 315.9bn), profit after tax about 12% and EPS from Rs 56.62 to Rs 49.54. The three-year growth figures mask this recent slowdown.",
-   "The stock trades at a premium to other banks (P/E 10.3 vs 6.7), which leaves less room for disappointment if earnings keep falling.",
-   "The scorecard has no bank-specific data on loan quality, capital adequacy, deposit mix, or debt and cash flow, so balance-sheet strength cannot be judged from it."
+   "The 100/100 earnings and profitability scores flatter the picture: they measure from a very weak 2023 base. Net margin has fallen each year since 2024, from 4.24% to 3.47% to 2.64%.",
+   "Sales are volatile, falling from Rs 95.1 billion in 2023 to Rs 55.1 billion in 2024 before reaching Rs 122.3 billion in 2026. The 8.7% annual growth figure hides that swing.",
+   "The scorecard cannot see debt, liquidity, cash conversion or cash flow, which together carry 38% of the weight. The company's borrowing and its ability to turn profit into cash are unknown."
   ],
   "checks": [
-   "Find out why 2025 income and profit declined (for example lower profit rates or higher costs) and whether the September 2026 quarterly report shows a recovery.",
-   "Check non-performing loans, provisioning and capital adequacy ratio in the latest annual and quarterly reports.",
-   "Confirm that the dividend is covered by earnings, and judge whether the premium P/E is justified by the bank's franchise and growth outlook."
+   "Read the balance sheet and cash flow statement: check borrowings, short-term debt, inventory and whether operating cash flow supports the reported profit.",
+   "Find out why the net margin has fallen for two years even as sales grew, for example input costs, exchange rates, pricing or competition. Check the latest quarterly results (quarter ended June 30, 2026) for the direction.",
+   "Read the Oct 1, 2026 'Material Information' notice and the corporate briefing for anything explaining the weak share price. Also check that the dividend is covered by earnings and cash, since only a short payout history is on record."
+  ],
+  "key": "c9727df4693ca86b",
+  "model": "claude-sonnet-5-5",
+  "generated_at": "2026-11-16T20:08:35+00:00"
+ },
+ "MEBL": {
+  "summary": "Meezan Bank scores 71.8/100 (HOLD), driven by strong multi-year growth in sales and EPS, rising margins, a 5.5% dividend yield and a share price that has beaten the KSE-100. The valuation looks expensive: the P/E of 10.3 is about 1.5x the sector median of 6.7. Three bank-specific factors (price-to-book, bad loans, capital adequacy) carry 38% of the weight and are unscored, and data coverage is only 62%, so the score is incomplete.",
+  "strengths": [
+   "Sales grew about 26.5% a year and EPS about 25.4% a year over three years, with net margin up from 19.39% to 21.18%.",
+   "Cash dividends paid in each of the last 3 fiscal years on record, with a 5.5% yield and interim payouts rising from 70% to 80% of face value.",
+   "Price is above its 200-day average and has beaten the KSE-100 by about 19.5 points over roughly a year."
+  ],
+  "risks": [
+   "Valuation is the weakest scored factor (36.9/100): the stock trades at a clear premium to other banks on P/E.",
+   "Latest annual figures show a step back: 2025 sales fell to Rs 285.1bn from Rs 315.9bn, profit to Rs 89.0bn from Rs 101.5bn, and EPS to Rs 49.54 from Rs 56.62. The strong 3-year growth rates are measured from a low 2022 base and hide this decline.",
+   "The scorecard cannot see asset quality (non-performing loans), capital adequacy or price-to-book, the main measures of a bank's safety and value. Debt, funding and cash flow details are also absent."
+  ],
+  "checks": [
+   "Find the non-performing loan ratio and loan-loss provisioning in the latest annual report and the September 2026 quarterly report.",
+   "Check the capital adequacy ratio against the regulator's minimum, and the equity figure to work out price-to-book.",
+   "Read the reasons for the 2025 fall in profit and whether the nine-month 2026 results show recovery or further decline."
   ],
   "key": "6db4625db75011e2",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:59:30+00:00"
+  "generated_at": "2026-11-16T20:08:40+00:00"
  },
  "PAKT": {
-  "summary": "PAKT scores 71.7/100 (HOLD), helped mainly by a very high dividend score (yield 8.6%) and steady growth, with sales up 13.6% a year and EPS up 11.9% a year over three years. Valuation is middling: the P/E of 10.8 is exactly the sector median. The score rests on only 62% of the data, because debt, liquidity, cash flow and cash conversion could not be scored, so it says nothing about balance sheet strength.",
+  "summary": "PAKT scores 71.7/100 (HOLD). The score rests on solid sales growth, a very high dividend yield (8.6%) and a mid-range valuation (P/E 10.8, in line with the sector median). Only 62% of the scorecard could be measured. Debt, cash flow and liquidity are all missing, so the score says nothing about balance sheet strength.",
   "strengths": [
-   "Sales rose from Rs 94.9bn (2022) to Rs 139.0bn (2025), and EPS rose from Rs 83.45 to Rs 116.85.",
-   "Dividend yield of 8.6%, with cash payouts announced repeatedly in 2026 (most recently 500% of face value on Oct 27).",
-   "Net margin is still healthy at 21.5%, and the price is above its 200-day average."
+   "Sales grew about 13.6% a year over three years, from Rs 94.9bn in 2022 to Rs 139.0bn in 2025",
+   "Dividend yield of 8.6% scored 94.5, and cash dividends were paid in each fiscal year on record, with four cash payouts announced in 2026",
+   "Profit after tax of Rs 29.9bn in 2025 is the highest in the four years shown, and the net margin is still above 21%"
   ],
   "risks": [
-   "Margins have slipped from 26.3% in 2023 to 21.5% in 2025. EPS has barely moved since 2023 (Rs 113.35 to Rs 116.85), so recent growth is weaker than the 3-year figure suggests.",
-   "The 8.6% yield works out to roughly Rs 128 a share at the current price, above 2025 EPS of Rs 116.85. If that is right, the payout may be hard to sustain from earnings alone.",
-   "Debt, liquidity, cash flow quality and cash conversion are unscored (about 38% of the weight), so hidden leverage or weak cash generation would not show up here."
+   "Net margin has slipped from 26.3% in 2023 to 21.5% in 2025. The 11.9% yearly EPS growth is flattered by the low 2022 base: EPS was Rs 113.35 in 2023 and Rs 116.85 in 2025, only about 3% higher in two years",
+   "The 8.6% yield on a Rs 1,495 price implies roughly Rs 128 a share in dividends, which is above 2025 EPS of Rs 116.85. If so, the payout may not be sustainable if profits don't grow",
+   "Debt, cash flow quality, cash conversion and liquidity are not scored (38% of the weight). The shares also lagged the KSE-100 by about 17 points over the past year. The sector P/E comparison may rest on very few peers, so 'in line with the sector' tells you little"
   ],
   "checks": [
-   "Check the cash flow statement and balance sheet: is operating cash flow covering profit and dividends, and how much debt does the company carry?",
-   "Compare total dividends per share over the last 12 months with EPS, and read the latest quarter (to 30 Sep 2026) for margin and profit trends.",
-   "Find out why margins fell after 2023 (costs, pricing, taxes or volumes) and whether management expects that to continue."
+   "Look at the cash flow statement and balance sheet: is operating cash flow enough to cover dividends, and how much debt does the company carry?",
+   "Read the quarterly results for the period ended 30 September 2026 to see whether margins are still falling or have steadied",
+   "Compare dividends paid per share with EPS over several years, and ask what is driving the margin decline (costs, pricing, taxes or product mix)"
   ],
   "key": "a4ed25448b9349cc",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:59:40+00:00"
+  "generated_at": "2026-11-16T20:08:52+00:00"
  },
  "EFERT": {
-  "summary": "Engro Fertilizers scores 71.1 out of 100, which maps to a HOLD signal. Strong sales growth (about 26% a year over three years), steady EPS growth and a 6.8% dividend yield carry the score. Profit margins have slipped, the share trades slightly above its sector's typical P/E, and it has lagged the KSE-100 over the past year. Only 62% of the data is available, so the score says nothing about debt, liquidity or cash flow.",
+  "summary": "Engro Fertilizers scores 71.1 out of 100, which maps to a HOLD signal. The score is supported by strong sales growth (about 25.9% a year over three years), a high dividend yield of 6.8% and a steady dividend record. Held back by a falling net margin (16.2% in 2024 to 12.3% in 2025, with EPS down from Rs22.62 to Rs17.80), a valuation slightly above its sector, and a share price that has lagged the KSE-100 by about 14.8 points over a year. Only 62% of the data is covered, so the score is incomplete.",
   "strengths": [
-   "Sales grew about 25.9% a year over three years, from Rs 96.9bn in 2022 to Rs 193.2bn in 2025.",
-   "Dividend yield of 6.8%, with a cash dividend paid in each of the last 3 fiscal years on record and several interim payouts announced in 2026.",
-   "EPS grew about 15.5% a year over the period, so earnings have risen along with sales."
+   "Sales grew about 25.9% a year over three years, from Rs96.9bn in 2022 to Rs193.2bn in 2025",
+   "Dividend yield of 6.8%, with a cash dividend paid in each of the last 3 fiscal years on record and several interim payouts announced in 2026",
+   "EPS grew about 15.5% a year over three years, even though it dipped in the latest year"
   ],
   "risks": [
-   "Profitability is weakening: net margin fell from 16.18% in 2024 to 12.3% in 2025, and profit after tax and EPS both dropped (EPS Rs 22.62 to Rs 17.80).",
-   "Valuation is not cheap: P/E of 11.4 is 1.06x the sector median of 10.8, and the share has underperformed the KSE-100 by about 14.8 points over roughly a year.",
-   "The scorecard cannot see debt, liquidity, cash conversion or cash flow quality (about 38% of the weighting), so balance sheet strain or weak cash generation could be hidden."
+   "Profit after tax fell from Rs30.2bn in 2024 to Rs23.8bn in 2025, and net margin fell to 12.3%, so growth is not turning into profit as well as before",
+   "Debt, liquidity, cash flow quality and cash conversion are not scored because balance sheet and cash flow data are missing. These carry about 38% of the total weight, so hidden leverage or weak cash generation would not show in this score",
+   "P/E of 11.4 is a bit above the sector median of 10.8, and the stock has underperformed the KSE-100 by about 14.8 points over a year, so there is little valuation cushion if earnings keep slipping"
   ],
   "checks": [
-   "Find out in the annual and the latest quarterly report why margins and profit fell in 2025 and whether the 2026 nine-month results show recovery or further decline.",
-   "Check the balance sheet and cash flow statement for debt levels, interest costs, and whether operating cash flow covers the dividend.",
-   "Verify that the dividend is sustainable given lower EPS, by comparing 2026 payouts with earnings per share, and check any gas supply or pricing and policy risks the company discloses."
+   "Look at the latest annual and quarterly reports for borrowings, interest costs and cash on hand, since the scorecard cannot see them",
+   "Check whether operating cash flow covers the dividend, and whether the 2025 margin drop came from costs, pricing, gas supply or taxes and is likely to continue",
+   "Read the nine-month 2026 results and the Q3 briefing to see if profit is recovering and whether the 2026 dividends (which look larger than recent years' payouts) are sustainable"
   ],
   "key": "7edb232386434b04",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:59:46+00:00"
+  "generated_at": "2026-11-16T20:08:57+00:00"
  },
  "GADT": {
-  "summary": "GADT scores 70.6 out of 100, and the score leans heavily on valuation: a P/E of 2.7 against a sector median of 6.6. Sales have grown about 9.4% a year, but profit has not kept up. EPS has fallen about 7% a year and net margin is 3.46%, down from 5.68% three years earlier. Only 62% of the data was available, so the score is partial.",
+  "summary": "GADT scores 70.6 out of 100, mostly because it looks very cheap: a P/E of 2.7 against a sector median of 6.6 earns the maximum valuation score. Sales have grown about 9.4% a year, but EPS has fallen about 7.2% a year and net margin is 3.46% versus 5.68% three years earlier, so the business is not clearly improving. Four factors (cash flow, cash cycle, debt and liquidity) could not be scored, and the data covers only 62% of the scorecard.",
   "strengths": [
-   "Very cheap on earnings: P/E of 2.7 is about 0.40x the sector median of 6.6",
-   "Sales grew from Rs 58.0bn to Rs 76.0bn over the period, and profit recovered from the 2024 low to Rs 2.63bn",
-   "Price is above its 200-day average, and a cash dividend was paid (yield 1.7%)"
+   "Very low P/E of 2.7, about 0.40x the sector median of 6.6",
+   "Sales have risen from Rs 58.0bn to Rs 76.0bn over the period, and profit recovered from the 2024 low (EPS Rs 28.35 to Rs 93.78)",
+   "Price is above its 200-day average and a cash dividend was paid (yield 1.7%)"
   ],
   "risks": [
-   "Earnings are volatile: EPS was Rs 117.44 in 2023, Rs 28.35 in 2024 and Rs 93.78 in 2026, so a low P/E may reflect a peak or one-off profit",
-   "Debt, liquidity, cash flow quality and cash conversion cycle are not scored (38% of the weight), so balance sheet strength is unknown",
-   "The share has lagged the KSE-100 by about 17.9 points over a year, and margins remain below 2023 levels"
+   "Debt, liquidity, cash flow and working capital are not scored, so balance sheet strength and the quality of profits are unknown",
+   "Earnings are volatile: EPS was Rs 117.44 in 2023, Rs 28.35 in 2024 and Rs 93.78 in 2026, and margins are below the 2023 level",
+   "The shares have lagged the KSE-100 by about 17.9 points over a year, and the very low P/E may reflect a one-off profit or a market view of weak earnings quality"
   ],
   "checks": [
-   "Check the latest annual report for one-off gains, bonus issues or share splits that could be distorting EPS and the P/E, as the red flag warns",
-   "Check borrowings, finance costs, and operating cash flow against reported profit in the balance sheet and cash flow statement",
-   "Read the quarterly report to September 30, 2026 to see whether margins are recovering, and compare the 50% cash dividend with earnings"
+   "Look for one-off gains, bonus issues or share splits in the reported profit and EPS, as the red flag suggests",
+   "Read the balance sheet and cash flow statement for borrowings, finance costs, and whether profit turns into operating cash",
+   "Review the September 2026 quarterly report for margin and EPS direction, and the reasons behind the 2024 profit drop"
   ],
   "key": "9f931a2f7bfc2fa4",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:59:51+00:00"
+  "generated_at": "2026-11-16T20:09:02+00:00"
  },
  "SSOM": {
-  "summary": "S.S.Oil Mills scores 70.2/100 (HOLD), mainly because sales and earnings have grown quickly and the shares look cheaply priced at a P/E of 5.5, in line with its sector median. Weak price momentum and a modest dividend hold the score back. Only 62% of the data is available: debt, liquidity, cash flow and cash conversion could not be scored, so the picture is incomplete.",
+  "summary": "S.S.Oil Mills scores 70.2/100 (HOLD), driven mainly by very fast growth: sales rose about 30% a year over three years and EPS about 44% a year, after a loss in FY2024. The shares look cheap at a P/E of 5.5, in line with the sector median, but the price is below its 200-day average and has lagged the KSE-100 by about 16.5 points over a year. Only 62% of the data is covered, so debt, liquidity and cash flow are not reflected in the score.",
   "strengths": [
-   "Sales grew about 30% a year over three years, from Rs 6.2bn to Rs 13.7bn (figures in Rs thousands in the data).",
-   "EPS rose from a loss of Rs 21.74 in 2024 to Rs 70.94 in 2026, and net margin improved to 2.93% from 2.16% at the start of the period.",
-   "P/E of 5.5 matches the sector median, and a cash dividend was paid in both years on record."
+   "Sales grew from Rs 6.2bn (2023) to Rs 13.7bn (2026), and profit after tax reached Rs 401m in 2026.",
+   "Net margin improved to 2.93% from 2.16% at the start of the period, with EPS of Rs 70.94 in 2026.",
+   "Valuation looks modest at a P/E of 5.5, equal to the sector median, and a cash dividend was paid in both recorded years."
   ],
   "risks": [
-   "Earnings are not steady: 2024 was a loss-making year, and margins are thin at under 3.2%, so small cost or price shifts could hurt profit.",
-   "Price is below its 200-day average and has lagged the KSE-100 by about 16.5 points over a year, which suggests the market is cautious.",
-   "The scorecard cannot see debt, liquidity, cash flow or working capital (about 38% of the weight), so borrowing levels or weak cash generation could be hidden. The dividend yield is also low at 1.1%."
+   "No balance sheet or cash flow data: debt, liquidity, cash conversion and cash flow quality (38% of the weight) are unscored, so leverage and whether profits turn into cash are unknown.",
+   "Earnings are volatile: FY2024 was a loss (EPS -Rs 21.74), and margins are thin at about 3%, so small cost changes could hit profit.",
+   "Weak price trend: the price is below its 200-day average and has underperformed the KSE-100 by 16.5 points over about a year. The dividend yield is only 1.1%."
   ],
   "checks": [
-   "Check the balance sheet in the annual report for total borrowings, interest costs and the current ratio.",
-   "Check whether operating cash flow supports the reported profit, and how much cash is tied up in inventory and receivables.",
-   "Read the September 2026 quarterly results to see whether the sales growth and the roughly 3% margin are holding, and what caused the 2024 loss."
+   "Check the latest annual report's balance sheet for borrowings, interest costs and current ratio, since debt and liquidity were not scored.",
+   "Check the cash flow statement to see whether operating cash flow supports the reported profit, especially given the sharp sales growth and possible working capital build-up.",
+   "Read the September 2026 quarterly results to see whether growth and the roughly 3% margin are holding, and find out why the share price has lagged."
   ],
   "key": "9cb2790c141070cc",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T19:59:55+00:00"
+  "generated_at": "2026-11-16T20:09:07+00:00"
  },
  "MCB": {
-  "summary": "MCB scores 69/100 (HOLD), mainly because of a very high dividend yield of 9.2% and strong growth over three years. Valuation holds the score back: the P/E of 8.9 is about 1.3 times the sector median of 6.7. The three-year growth is flattered by a weak 2022 starting point, because sales, profit and EPS have all slipped since 2023.",
+  "summary": "MCB scores 69/100 (HOLD), driven by strong growth, a very high dividend yield of 9.2% and rising margins over the period. Valuation holds the score back: the P/E of 8.9 is about 1.32x the sector median of 6.7. Only 62% of the data is covered, because the three bank-specific measures (price-to-book, bad loans, capital adequacy) are missing, so the score is incomplete.",
   "strengths": [
-   "Dividend yield of 9.2%, with cash dividends paid in each of the last 3 fiscal years on record and several 90%-of-face-value payouts announced recently",
-   "EPS rose from Rs 27.63 in 2022 to Rs 45.73 in 2025, and sales rose from Rs 111.8bn to Rs 181.4bn",
-   "Price is above its 200-day average and slightly ahead of the KSE-100 over about a year (+4.7 points)"
+   "Sales grew about 17.5% a year and EPS about 18.3% a year over three years, with net margin rising from 16.3% to 18.4%.",
+   "Dividend yield of 9.2%, with a cash dividend paid in each of the last 3 fiscal years on record and regular interim payouts of 90% of face value.",
+   "Share price is above its 200-day average and slightly ahead of the KSE-100 over about a year."
   ],
   "risks": [
-   "Earnings have fallen two years in a row: EPS went from Rs 50.32 (2023) to Rs 48.62 (2024) to Rs 45.73 (2025), and profit after tax fell from Rs 59.6bn to Rs 54.2bn. The headline growth rates hide this.",
-   "Valuation is a premium to other banks (P/E 8.9 vs a 6.7 sector median), which leaves less room for disappointment",
-   "The scorecard cannot see bank-specific risks: bad loans, capital adequacy, deposit mix, interest-rate sensitivity, or exposure to government debt. It also has no cash flow data."
+   "Scorecard cannot see price-to-book, non-performing loan ratio or capital adequacy, which together carry 38% of the weight and are the key measures of bank health.",
+   "Profit has slipped for two years running: PAT fell from Rs 59.6bn (2023) to Rs 57.6bn (2024) and Rs 54.2bn (2025), and EPS from 50.32 to 45.73. The three-year growth figure is flattered by the low 2022 base.",
+   "Shares trade at a premium to the sector median P/E, leaving less room for disappointment. No debt, funding or cash flow data is provided."
   ],
   "checks": [
-   "Open the latest quarterly report (period ended 30 Sept 2026) to see whether profit is still falling or has stabilised; the figures here only run to 2025",
-   "Check non-performing loans, provisions and capital adequacy in the annual and quarterly reports, since none of these are in the scorecard",
-   "Check how the reported net margins (15.7% to 18.4%) are calculated. They do not match profit divided by the sales figures shown, so the revenue definition differs. Also confirm the dividend is comfortably covered by earnings, given the 9.2% yield."
+   "Look up the NPL ratio, loan provisioning and capital adequacy ratio against the regulatory minimum in the latest annual report.",
+   "Check price-to-book against return on equity to see whether the premium valuation is justified.",
+   "Read the September 2026 quarterly report to see why profit has declined since 2023 and whether the dividend is comfortably covered by earnings."
   ],
   "key": "8879e3f566420a02",
   "model": "claude-sonnet-5-5",
-  "generated_at": "2026-11-16T20:00:06+00:00"
+  "generated_at": "2026-11-16T20:09:12+00:00"
+ },
+ "ISL": {
+  "summary": "ISL scores 68.9/100 (HOLD), mainly because it looks cheap and pays a good dividend. Its P/E of 6.8 is about half the sector median of 12.3, and the dividend yield is 6.2%. Growth is modest (sales up 6.7% a year, EPS up 1.4% a year over three years), and the share price has lagged the market. About 38% of the scorecard weight (debt, cash flow, liquidity, cash cycle) could not be scored, so the 68.9 rests on partial data.",
+  "strengths": [
+   "Valuation: P/E of 6.8 against a sector median of 12.3 (0.55x), which is the highest-scoring factor.",
+   "Dividend: 6.2% yield, with cash payouts announced in Aug 2025, Jan 2026 and Aug 2026.",
+   "Latest year recovered strongly: sales Rs 93.3bn and EPS Rs 8.44, up from Rs 3.58 in 2025 and slightly above 2023's Rs 8.09."
+  ],
+  "risks": [
+   "Debt, liquidity, cash flow and cash conversion are unscored, so the balance sheet and the quality of the profits are unknown.",
+   "Earnings are uneven: EPS fell to Rs 3.58 in 2025 before recovering, and the net margin of 3.93% is still below 2023 (4.58%) and 2024 (5.27%). A low P/E may reflect doubts about how lasting the recovery is.",
+   "Weak price trend: the price is below its 200-day average and about 19.7 points behind the KSE-100 over roughly a year."
+  ],
+  "checks": [
+   "Read the balance sheet and cash flow statement in the annual report: borrowings, interest cost, and whether operating cash flow covers the dividend.",
+   "Open the quarterly results to 30 Sep 2026 (released Oct 2026) to see if the 2026 recovery in profit and margin is holding.",
+   "Find out what drove the 2025 profit dip and the 2026 rebound (prices, volumes, costs or one-offs), and whether the payout level looks sustainable."
+  ],
+  "key": "03af51f369261882",
+  "model": "claude-sonnet-5-5",
+  "generated_at": "2026-11-16T20:09:21+00:00"
+ },
+ "AIRLINK": {
+  "summary": "Air Link scores 68.1 out of 100 (HOLD), mainly because of very strong growth: sales rose about 40.8% a year and EPS about 57% a year over three years, helped by a jump in sales between 2023 and 2024. Valuation is middling at a P/E of 9.1, in line with the sector median. The score is held back by a weak price trend (below its 200-day average and about 49.6 points behind the KSE-100 over a year). Only 62% of the data is covered, and debt, liquidity and cash flow are not scored.",
+  "strengths": [
+   "Rapid growth: sales up about 40.8% a year and EPS up about 57% a year over three years",
+   "Net margin improved from 4.16% in 2023 to 5.92% in 2026, though it is down from 6.19% in 2025",
+   "Valuation is in line with peers: P/E of 9.1 equals the sector median"
+  ],
+  "risks": [
+   "Debt, liquidity, cash conversion and cash flow quality (about 38% of the weight) are unscored, so balance sheet strength and whether profits turn into cash are unknown",
+   "Share price is below its 200-day average and lagging the KSE-100 by about 49.6 points over a year, which suggests the market is doubtful",
+   "Growth has levelled off: sales were 56.3 bn in 2024, 56.1 bn in 2025 and 60.1 bn in 2026 (Rs thousands, shown in millions here), and the 2026 margin and EPS growth are slowing; the headline 3-year rate is driven by the 2023-24 jump"
+  ],
+  "checks": [
+   "Review the balance sheet and cash flow statement in the annual report for borrowings, cash, and operating cash flow compared with reported profit",
+   "Read the Nov 4, 2026 Material Information notice and the Chairman and CEO appointment to see whether leadership or strategy is changing",
+   "Check the dividend: the scorecard shows a 0.0% yield even though cash payouts were announced in 2025, so confirm the latest payout and whether it continues; also review the September 2026 quarterly results for the growth trend"
+  ],
+  "key": "21d3642c455d728e",
+  "model": "claude-sonnet-5-5",
+  "generated_at": "2026-11-16T20:09:27+00:00"
  }
 }
