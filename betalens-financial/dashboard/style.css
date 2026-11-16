@@ -56,3 +56,5 @@ dialog::backdrop { background: rgba(0,0,0,.45); } .close { float: right; }
 pre { background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 10px; overflow-x: auto; min-height: 40px; }
 footer { max-width: 1200px; margin: 0 auto; padding: 14px 20px 28px; }
 @media (max-width: 640px) { .hide-s { display: none; } th, td { padding: 8px 6px; } }
+tr.why td { border-bottom: 1px solid var(--line); padding-top: 0; }
+#upTable tr:not(.why) td { border-bottom: 0; }

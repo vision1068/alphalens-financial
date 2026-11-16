@@ -63,13 +63,19 @@
   </section>
 
   <section id="dividends" class="panel" hidden>
-    <h2>Upcoming book closures</h2>
-    <p class="muted">To receive a dividend you must own the share before its books close. The exact last buying day is added with the dividend agent. Amounts are before tax; tax is deducted at source.</p>
+    <h2>Upcoming dividends</h2>
+    <p id="divSummary" class="muted"></p>
     <div class="tablewrap"><table id="upTable">
-      <thead><tr><th>Symbol</th><th>Payout</th><th class="num">Per share (Rs)</th><th class="num">Yield on price</th>
-      <th>Books close</th><th class="num">Score</th><th>Signal</th></tr></thead><tbody></tbody>
+      <thead><tr><th>Symbol</th><th class="num">Per share (Rs)</th><th class="num">Yield</th><th>Last day to buy</th>
+      <th>Ex-dividend day</th><th class="num">Expected drop (Rs)</th><th class="num">Usual recovery</th><th>Signal</th><th>Verdict</th></tr></thead><tbody></tbody>
     </table></div>
-    <p id="upEmpty" class="muted" hidden>No book closures announced ahead of today.</p>
+    <p id="upEmpty" class="muted" hidden>No cash dividends with book closure ahead of today.</p>
+    <p class="muted small">Amounts are before tax; tax is deducted at source. Dates assume no public holiday in between, so check the company's notice. “Worth a look” needs a Buy signal and a record of quick price recovery after past dividends.</p>
+    <h2>How prices behaved after past dividends</h2>
+    <div class="tablewrap"><table id="histTable">
+      <thead><tr><th>Symbol</th><th class="num">Past dividends</th><th class="num">Drop as % of dividend</th><th class="num">Median days to recover</th>
+      <th class="num">Recovered in 20 days</th><th class="num">10-day result incl. dividend</th></tr></thead><tbody></tbody>
+    </table></div>
     <h2>Announced in the last 90 days</h2>
     <div class="tablewrap"><table id="recentTable">
       <thead><tr><th>Announced</th><th>Symbol</th><th>Payout</th><th class="num">Per share (Rs)</th><th>Books close</th></tr></thead><tbody></tbody>

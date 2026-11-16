@@ -154,22 +154,38 @@ function payoutLabel(p) {
   return `${kind}, ${p.stage}, ${fmt(p.percent, p.percent % 1 ? 1 : 0)}%`;
 }
 function renderDividends() {
-  const today = new Date().toISOString().slice(0, 10);
   const since = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);
-  const upcoming = state.payouts.filter((p) => p.book_closure_from && p.book_closure_from > today)
-    .sort((a, b) => a.book_closure_from.localeCompare(b.book_closure_from));
-  $("upEmpty").hidden = upcoming.length > 0;
-  $("upTable").tBodies[0].replaceChildren(...upcoming.map((p) => {
-    const k = state.bySymbol[p.symbol] || {};
-    const yieldPct = p.amount_per_share && p.price ? 100 * p.amount_per_share / p.price : null;
-    return el("tr", {}, [
-      el("td", {}, el("b", { text: p.symbol })), el("td", { text: payoutLabel(p) }),
-      el("td", { class: "num", text: fmt(p.amount_per_share) }),
-      el("td", { class: "num", text: yieldPct === null ? "–" : `${fmt(yieldPct, 1)}%` }),
-      el("td", { text: `${fmtDate(p.book_closure_from)} to ${fmtDate(p.book_closure_to)}` }),
-      el("td", { class: "num", text: fmt(k.score, 1) }), el("td", {}, k.signal ? chip(k.signal) : "–"),
-    ]);
+  const agent = state.agent || { upcoming: [], companies: {}, summary: {} };
+  const pct = (x) => (x === null || x === undefined) ? "–" : `${fmt(100 * x, 0)}%`;
+  const s = agent.summary;
+  $("divSummary").textContent = s && s.events
+    ? `Across ${s.events} past dividends, the price typically fell by ${pct(s.median_drop_ratio)} of the dividend on the `
+      + `ex-dividend day and was back to its earlier level within 20 trading days ${pct(s.quick_recovery_share)} of the time.`
+    : "";
+  $("upEmpty").hidden = agent.upcoming.length > 0;
+  $("upTable").tBodies[0].replaceChildren(...agent.upcoming.flatMap((u) => {
+    const good = u.verdict === "WORTH_A_LOOK";
+    return [el("tr", {}, [
+      el("td", {}, el("b", { text: u.symbol })), el("td", { class: "num", text: fmt(u.amount_per_share) }),
+      el("td", { class: "num", text: u.yield_pct === null ? "–" : `${fmt(u.yield_pct, 1)}%` }),
+      el("td", { text: fmtDate(u.last_buy_date) }), el("td", { text: fmtDate(u.ex_date) }),
+      el("td", { class: "num", text: u.expected_drop_rs === null ? "–" : `${fmt(u.expected_drop_rs)} (${u.expected_drop_basis})` }),
+      el("td", { class: "num", text: u.median_recovery_days === null ? "–" : `${fmt(u.median_recovery_days, 0)} days` }),
+      el("td", {}, u.signal ? chip(u.signal) : "–"),
+      el("td", {}, el("span", { class: `chip ${good ? "BUY" : "HOLD"}`, text: good ? "Worth a look" : "Skip" })),
+    ]), el("tr", { class: "why" }, el("td", { colspan: "9", class: "wrap muted small", text: u.reasons.join(" · ") }))];
   }));
+  const hist = Object.entries(agent.companies).filter(([, h]) => h.events >= 2)
+    .sort((a, b) => (b[1].quick_recovery_share ?? -1) - (a[1].quick_recovery_share ?? -1)
+      || (a[1].median_recovery_days ?? 999) - (b[1].median_recovery_days ?? 999));
+  $("histTable").tBodies[0].replaceChildren(...hist.map(([symbol, h]) => el("tr", {}, [
+    el("td", {}, el("b", { text: symbol })), el("td", { class: "num", text: h.events }),
+    el("td", { class: "num", text: pct(h.median_drop_ratio) }),
+    el("td", { class: "num", text: h.median_recovery_days === null ? "–" : fmt(h.median_recovery_days, 0) }),
+    el("td", { class: "num", text: pct(h.quick_recovery_share) }),
+    el("td", { class: `num ${h.avg_capture_10d_pct === null ? "" : h.avg_capture_10d_pct >= 0 ? "gain" : "loss"}`,
+      text: h.avg_capture_10d_pct === null ? "–" : `${h.avg_capture_10d_pct >= 0 ? "+" : ""}${fmt(h.avg_capture_10d_pct, 1)}%` }),
+  ])));
   const recent = state.payouts.filter((p) => p.announced && p.announced >= since)
     .sort((a, b) => b.announced.localeCompare(a.announced));
   $("recentTable").tBodies[0].replaceChildren(...recent.map((p) => el("tr", {}, [
@@ -292,6 +308,7 @@ async function main() {
     const sectors = [...new Set(scores.scores.map((k) => k.sector).filter(Boolean))].sort();
     $("fSector").append(...sectors.map((s) => el("option", { value: s, text: s })));
     $("symbolList").append(...scores.scores.map((k) => el("option", { value: k.symbol })));
+    try { state.agent = await getJson("latest/dividend_agent.json"); } catch { state.agent = null; }
     renderTiles(); renderScores(); renderHoldings(); renderDividends();
   } catch (err) {
     $("updated").textContent = "Data could not be loaded.";
