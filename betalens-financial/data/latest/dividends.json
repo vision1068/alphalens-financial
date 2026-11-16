@@ -1,9 +1,12 @@
 {
  "meta": {
-  "generated_at": "2026-11-16T18:45:06+00:00",
+  "generated_at": "2026-11-16T18:53:25+00:00",
   "period_years": 3,
-  "companies": 100,
-  "errors": {}
+  "companies": 98,
+  "errors": {
+   "NCPL": "PSXRateLimitError: PSX rate limit exceeded (429) on https://dps.psx.com.pk/company/payouts",
+   "NESTLE": "PSXRateLimitError: PSX rate limit exceeded (429) on https://dps.psx.com.pk/company/NESTLE"
+  }
  },
  "payouts": [
   {
@@ -3125,136 +3128,6 @@
    "book_closure_to": "2025-03-25",
    "symbol": "NBP",
    "price": 172.84
-  },
-  {
-   "announced": "2026-09-28",
-   "period_end": "2026-06-30",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 10.0,
-   "amount_per_share": 1.0,
-   "book_closure_from": "2026-10-09",
-   "book_closure_to": "2026-10-23",
-   "symbol": "NCPL",
-   "price": 52.05
-  },
-  {
-   "announced": "2026-04-28",
-   "period_end": "2026-03-31",
-   "period_type": "IIIQ",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 15.0,
-   "amount_per_share": 1.5,
-   "book_closure_from": "2026-05-11",
-   "book_closure_to": "2026-05-12",
-   "symbol": "NCPL",
-   "price": 52.05
-  },
-  {
-   "announced": "2025-04-25",
-   "period_end": "2025-03-31",
-   "period_type": "IIIQ",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 20.0,
-   "amount_per_share": 2.0,
-   "book_closure_from": "2025-05-07",
-   "book_closure_to": "2025-05-08",
-   "symbol": "NCPL",
-   "price": 52.05
-  },
-  {
-   "announced": "2024-11-13",
-   "period_end": null,
-   "period_type": null,
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 50.0,
-   "amount_per_share": 5.0,
-   "book_closure_from": "2024-11-25",
-   "book_closure_to": "2024-11-26",
-   "symbol": "NCPL",
-   "price": 52.05
-  },
-  {
-   "announced": "2026-10-22",
-   "period_end": "2026-09-30",
-   "period_type": "IIIQ",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 970.0,
-   "amount_per_share": 97.0,
-   "book_closure_from": "2026-11-02",
-   "book_closure_to": "2026-11-04",
-   "symbol": "NESTLE",
-   "price": 7008.19
-  },
-  {
-   "announced": "2026-07-23",
-   "period_end": "2026-06-30",
-   "period_type": "HYR",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 2130.0,
-   "amount_per_share": 213.0,
-   "book_closure_from": "2026-08-05",
-   "book_closure_to": "2026-08-07",
-   "symbol": "NESTLE",
-   "price": 7008.19
-  },
-  {
-   "announced": "2026-02-19",
-   "period_end": "2025-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 2560.0,
-   "amount_per_share": 256.0,
-   "book_closure_from": "2026-04-10",
-   "book_closure_to": "2026-04-17",
-   "symbol": "NESTLE",
-   "price": 7008.19
-  },
-  {
-   "announced": "2025-10-16",
-   "period_end": "2025-09-30",
-   "period_type": "IIIQ",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 780.0,
-   "amount_per_share": 78.0,
-   "book_closure_from": "2025-10-27",
-   "book_closure_to": "2025-10-29",
-   "symbol": "NESTLE",
-   "price": 7008.19
-  },
-  {
-   "announced": "2025-07-24",
-   "period_end": "2025-06-30",
-   "period_type": "HYR",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 2230.0,
-   "amount_per_share": 223.0,
-   "book_closure_from": "2025-08-06",
-   "book_closure_to": "2025-08-08",
-   "symbol": "NESTLE",
-   "price": 7008.19
-  },
-  {
-   "announced": "2025-02-13",
-   "period_end": "2024-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 300.0,
-   "amount_per_share": 30.0,
-   "book_closure_from": "2025-04-15",
-   "book_closure_to": "2025-04-22",
-   "symbol": "NESTLE",
-   "price": 7008.19
   },
   {
    "announced": "2026-09-30",
