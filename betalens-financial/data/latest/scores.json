@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-16T17:49:13+00:00",
+  "generated_at": "2026-11-16T18:45:06+00:00",
   "period_years": 3,
   "companies": 100,
   "errors": {}
@@ -64,10 +64,76 @@
      ]
     }
    ],
-   "red_flags": [],
-   "name": "Bank Alfalah Limited XD",
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
+   "name": "Bank Alfalah Limited",
    "sector": "COMMERCIAL BANKS",
    "price": 60.54
+  },
+  {
+   "symbol": "HMB",
+   "score": 86.0,
+   "coverage_pct": 90.3,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 82.8,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 19.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 80.5,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 16.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 91.2,
+     "weight": 6,
+     "reasons": [
+      "Net margin 14.18% vs 10.71% at the start of the period"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 81.5,
+     "weight": 20,
+     "reasons": [
+      "P/E 5.7",
+      "0.85x the sector median P/E of 6.7"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 100.0,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 12.3%",
+      "Paid a cash dividend in 3 of the last 3 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs at least 200 days of price history"
+     ]
+    }
+   ],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
+   "name": "Habib Metropolitan Bank Limited",
+   "sector": "COMMERCIAL BANKS",
+   "price": 103.61
   },
   {
    "symbol": "SAZEW",
@@ -159,8 +225,10 @@
      ]
     }
    ],
-   "red_flags": [],
-   "name": "Sazgar Engineering Works Limited XD",
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
+   "name": "Sazgar Engineering Works Limited",
    "sector": "AUTOMOBILE ASSEMBLER",
    "price": 1476.44
   },
@@ -350,7 +418,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Fauji Fertilizer Company Limited XD",
+   "name": "Fauji Fertilizer Company Limited",
    "sector": "FERTILIZER",
    "price": 566.59
   },
@@ -412,7 +480,9 @@
      ]
     }
    ],
-   "red_flags": [],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
    "name": "National Bank of Pakistan",
    "sector": "COMMERCIAL BANKS",
    "price": 172.84
@@ -603,7 +673,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Indus Motor Company Limited XD",
+   "name": "Indus Motor Company Limited",
    "sector": "AUTOMOBILE ASSEMBLER",
    "price": 1832.18
   },
@@ -759,7 +829,9 @@
      ]
     }
    ],
-   "red_flags": [],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
    "name": "Arif Habib Corporation Limited",
    "sector": "FERTILIZER",
    "price": 13.63
@@ -823,7 +895,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Faysal Bank Limited XD",
+   "name": "Faysal Bank Limited",
    "sector": "COMMERCIAL BANKS",
    "price": 95.85
   },
@@ -980,7 +1052,9 @@
      ]
     }
    ],
-   "red_flags": [],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
    "name": "Attock Petroleum Limited",
    "sector": "OIL & GAS MARKETING COMPANIES",
    "price": 576.38
@@ -1108,69 +1182,6 @@
    "name": "Habib Bank Limited",
    "sector": "COMMERCIAL BANKS",
    "price": 308.22
-  },
-  {
-   "symbol": "HMB",
-   "score": 78.1,
-   "coverage_pct": 100.0,
-   "signal": "BUY",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 82.8,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 19.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 80.5,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 16.6% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 91.2,
-     "weight": 6,
-     "reasons": [
-      "Net margin 14.18% vs 10.71% at the start of the period"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 81.5,
-     "weight": 20,
-     "reasons": [
-      "P/E 5.7",
-      "0.85x the sector median P/E of 6.7"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 100.0,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 12.3%",
-      "Paid a cash dividend in 3 of the last 3 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 5.0,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-22.4 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Habib Metropolitan Bank Limited",
-   "sector": "COMMERCIAL BANKS",
-   "price": 103.61
   },
   {
    "symbol": "JDWS",
@@ -1865,7 +1876,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Atlas Honda Limited XD",
+   "name": "Atlas Honda Limited",
    "sector": "AUTOMOBILE ASSEMBLER",
    "price": 1614.06
   },
@@ -2213,7 +2224,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Allied Bank Limited XD",
+   "name": "Allied Bank Limited",
    "sector": "COMMERCIAL BANKS",
    "price": 172.03
   },
@@ -2371,7 +2382,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Image Pakistan Limited XD",
+   "name": "Image Pakistan Limited",
    "sector": "APPAREL",
    "price": 21.79
   },
@@ -2529,7 +2540,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Meezan Bank Limited XD",
+   "name": "Meezan Bank Limited",
    "sector": "COMMERCIAL BANKS",
    "price": 551.25
   },
@@ -2624,7 +2635,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Pakistan Tobacco Company Limited XD",
+   "name": "Pakistan Tobacco Company Limited",
    "sector": "TOBACCO",
    "price": 1495.28
   },
@@ -2813,7 +2824,9 @@
      ]
     }
    ],
-   "red_flags": [],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
    "name": "Gadoon Textile Mills Limited",
    "sector": "TEXTILE SPINNING",
    "price": 305.11
@@ -3448,7 +3461,7 @@
     }
    ],
    "red_flags": [],
-   "name": "The Hub Power Company Limited XD",
+   "name": "The Hub Power Company Limited",
    "sector": "POWER GENERATION & DISTRIBUTION",
    "price": 207.02
   },
@@ -3733,7 +3746,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Oil & Gas Development Company Limited XD",
+   "name": "Oil & Gas Development Company Limited",
    "sector": "OIL & GAS EXPLORATION COMPANIES",
    "price": 316.21
   },
@@ -3923,7 +3936,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Bestway Cement Limited XD",
+   "name": "Bestway Cement Limited",
    "sector": "CEMENT",
    "price": 458.04
   },
@@ -4017,7 +4030,9 @@
      ]
     }
    ],
-   "red_flags": [],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
    "name": "Pakistan Oilfields Limited",
    "sector": "OIL & GAS EXPLORATION COMPANIES",
    "price": 671.25
@@ -4112,7 +4127,9 @@
      ]
     }
    ],
-   "red_flags": [],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
    "name": "Cnergyico PK  Limited",
    "sector": "REFINERY",
    "price": 11.71
@@ -4684,7 +4701,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Cherat Cement Company Limited XD",
+   "name": "Cherat Cement Company Limited",
    "sector": "CEMENT",
    "price": 300.95
   },
@@ -5602,7 +5619,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Pakistan Petroleum Limited XD",
+   "name": "Pakistan Petroleum Limited",
    "sector": "OIL & GAS EXPLORATION COMPANIES",
    "price": 227.23
   },
@@ -5884,7 +5901,9 @@
      ]
     }
    ],
-   "red_flags": [],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
    "name": "Attock Refinery Limited",
    "sector": "REFINERY",
    "price": 953.21
@@ -6425,7 +6444,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Nestle Pakistan Limited XD",
+   "name": "Nestle Pakistan Limited",
    "sector": "FOOD & PERSONAL CARE PRODUCTS",
    "price": 7008.19
   },
@@ -6994,7 +7013,9 @@
      ]
     }
    ],
-   "red_flags": [],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
    "name": "Lotte Chemical Pakistan Limited",
    "sector": "CHEMICAL",
    "price": 24.72
@@ -7751,7 +7772,7 @@
     }
    ],
    "red_flags": [],
-   "name": "Unilever Pakistan Foods Limited XD",
+   "name": "Unilever Pakistan Foods Limited",
    "sector": "FOOD & PERSONAL CARE PRODUCTS",
    "price": 25986.94
   },
