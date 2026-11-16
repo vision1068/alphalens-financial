@@ -69,7 +69,10 @@ def test_observations_and_analysis_reward_the_better_company():
     q = report["horizons"]["3m"]["by_quintile"]
     assert q["Q1"]["avg_excess_pct"] > q["Q5"]["avg_excess_pct"]
     assert report["horizons"]["3m"]["score_ic"]["mean_ic"] > 0.5
+    w = report["weightings"]
+    assert set(w) == {"current", "value_tilt", "equal"} and w["current"]["3m"]["spread_pct"] > 0
     md = bt.to_markdown(report, CFG)
+    assert "Alternative factor weightings" in md
     assert "By signal (current thresholds)" in md and "Which factors predicted" in md
 
 
@@ -77,3 +80,10 @@ def test_write_report_with_too_little_history(tmp_path):
     report = bt.write_report([pso()], CFG, tmp_path)
     assert (tmp_path / "report.md").exists() and (tmp_path / "report.json").exists()
     assert report["observations"] >= 0
+
+
+def test_variant_weights_total_matches_configured_six():
+    six = sum(CFG["weights"][n] for n in bt.VARIANTS["equal"])
+    assert all(sum(v.values()) == six for v in bt.VARIANTS.values())
+    rows = [{"factors": {"valuation": 100, "price_trend": 0}, "score": 1, "signal": "BUY"}]
+    assert bt.reweighted(rows, {"valuation": 3, "price_trend": 1})[0]["score"] == 75.0

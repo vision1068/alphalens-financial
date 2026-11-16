@@ -23,6 +23,14 @@ from betalens.scoring.engine import score_company, signal_for
 
 HORIZONS = {"3m": 63, "6m": 126}   # trading days
 RESULTS_LAG_DAYS = 90              # annual results assumed public this long after the fiscal year end
+# Alternative weightings of the six portal-data factors, compared in the report. Statement factors keep
+# their configured weights. Each set totals 62, the same as the configured weights for these six.
+VARIANTS = {
+    "value_tilt": {"valuation": 20, "revenue_growth": 12, "dividend": 10, "earnings_growth": 8,
+                   "profitability": 6, "price_trend": 6},
+    "equal": {"valuation": 10, "revenue_growth": 10, "dividend": 10, "earnings_growth": 10,
+              "profitability": 11, "price_trend": 11},
+}
 SIGNAL_ORDER = ["STRONG_BUY", "BUY", "HOLD", "SELL", "STRONG_SELL", "INSUFFICIENT_DATA"]
 
 
@@ -199,7 +207,53 @@ def analyse(rows: list[dict], cfg: dict) -> dict:
             if (ic := _mean_ic(rows, label, lambda x, n=name: x["factors"].get(n))):
                 h["factor_ic"][name] = ic
         report["horizons"][label] = h
+    report["weightings"] = variant_comparison(rows, cfg)
     return report
+
+
+def reweighted(rows: list[dict], weights: dict) -> list[dict]:
+    """The same observations re-scored with different weights. Data availability is unchanged."""
+    out = []
+    for x in rows:
+        w = {n: weights[n] for n in x["factors"] if n in weights}
+        if not w:
+            continue
+        score = sum(x["factors"][n] * wt for n, wt in w.items()) / sum(w.values())
+        out.append(dict(x, score=round(score, 1)))
+    return out
+
+
+def variant_comparison(rows: list[dict], cfg: dict) -> dict:
+    """Top-fifth minus bottom-fifth out-performance and score rank correlation for each weighting."""
+    signalled = [x for x in rows if x["signal"] != "INSUFFICIENT_DATA"]
+    sets = {"current": dict(cfg["weights"])}
+    for name, override in VARIANTS.items():
+        sets[name] = {**cfg["weights"], **override}
+    out: dict = {}
+    for name, weights in sets.items():
+        rescored = reweighted(signalled, weights)
+        out[name] = {}
+        for label in HORIZONS:
+            by_date: dict[date, list[dict]] = defaultdict(list)
+            for x in rescored:
+                if f"excess_{label}" in x:
+                    by_date[x["date"]].append(x)
+            top, bottom = [], []
+            for group in by_date.values():
+                group.sort(key=lambda x: -x["score"])
+                k = max(1, len(group) // 5)
+                top += group[:k]
+                bottom += group[-k:]
+            if not top:
+                continue
+            t_stats, b_stats = _bucket_stats(top, label), _bucket_stats(bottom, label)
+            ic = _mean_ic(rescored, label, lambda x: x["score"])
+            out[name][label] = {"top_fifth_excess_pct": t_stats["avg_excess_pct"],
+                                "bottom_fifth_excess_pct": b_stats["avg_excess_pct"],
+                                "spread_pct": round(t_stats["avg_excess_pct"] - b_stats["avg_excess_pct"], 2),
+                                "top_fifth_beat_index_pct": t_stats["beat_index_pct"],
+                                "mean_ic": ic["mean_ic"] if ic else None}
+    return out
 
 
 def _table(header: list[str], rows: list[list]) -> str:
@@ -212,8 +266,9 @@ def to_markdown(report: dict, cfg: dict) -> str:
            f"{report['observations']} company-month observations, {report['with_signal']} with enough data for a "
            f"signal, from {report['first_month']} to {report['last_month']}. Look-back setting: "
            f"{cfg['period_years']} year(s).", "",
-           "Read this as indicative, not proof. Only today's KSE-100 members are tested, the window is about two "
-           "years, returns exclude dividends, and monthly samples overlap.", ""]
+           "Read this as indicative, not proof. Only today's KSE-100 members are tested, the window is a few "
+           "years, and monthly samples overlap. Share returns here exclude dividends while the KSE-100 is a "
+           "total-return index, so out-performance is understated by roughly each share's dividend yield.", ""]
     cols = ["n", "avg_return_pct", "avg_excess_pct", "beat_index_pct", "positive_pct"]
     head = ["Observations", "Avg return %", "Avg vs KSE-100 %", "Beat index %", "Rose %"]
     for label, h in report["horizons"].items():
@@ -232,6 +287,17 @@ def to_markdown(report: dict, cfg: dict) -> str:
                 _table(["Factor", "Rank correlation", "Months", "Months positive %"],
                        [[k, v["mean_ic"], v["months"], v["months_positive_pct"]]
                         for k, v in sorted(h["factor_ic"].items(), key=lambda kv: -kv[1]["mean_ic"])]), ""]
+    if report.get("weightings"):
+        out += ["## Alternative factor weightings", "",
+                "Top fifth and bottom fifth of scores each month, average return vs the KSE-100.", ""]
+        rows = [[name, label, v["top_fifth_excess_pct"], v["bottom_fifth_excess_pct"], v["spread_pct"],
+                 v["top_fifth_beat_index_pct"], v["mean_ic"]]
+                for name, per in report["weightings"].items() for label, v in per.items()]
+        out += [_table(["Weighting", "Horizon", "Top fifth %", "Bottom fifth %", "Spread %", "Top fifth beat index %",
+                        "Rank correlation"], rows), ""]
+        for name, override in VARIANTS.items():
+            out.append(f"- `{name}`: " + ", ".join(f"{k} {v}" for k, v in override.items()))
+        out.append("")
     if report["suggested_thresholds"]:
         s, cur = report["suggested_thresholds"], cfg["signals"]
         out += ["## Suggested thresholds", "",
