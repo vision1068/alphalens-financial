@@ -39,6 +39,9 @@ def build_company(symbol: str, page_html: str, payouts_html: str, eod_text: str,
     c.price_dates = [p["date"] for p in prices]
     c.index_closes = [index_by_date[p["date"]] for p in prices] if index_by_date else []
     apply_manual(c, manual)
+    if (c.pe_ratio and 0 < c.pe_ratio < 4) or (c.dividend_yield_pct and c.dividend_yield_pct > 12):
+        c.red_flags.append("Unusually low P/E or high dividend yield: check for a recent bonus issue, "
+                           "share split or one-off profit before relying on this score")
     return c
 
 

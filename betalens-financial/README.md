@@ -14,6 +14,8 @@ Decision support only. It never places trades and is not financial advice.
 | `betalens/pipeline.py` | Daily run: fetch, score, write `data/latest/*.json` |
 | `data/manual_statements.csv` | Your own entries for the four statement-based factors |
 | `data/latest/` | Latest scores and dividend records (written by the daily job) |
+| `dashboard/` | The website: plain HTML, CSS and JS, no build step |
+| `data/signal_log.csv` | Live record of every day's scores and signals |
 | `probe/` | One-off script that saves raw portal responses when a page layout needs checking |
 
 ## How scoring works
@@ -46,6 +48,17 @@ GitHub re-runs the scoring.
 | `inventory` | Stock-in-trade |
 | `payables` | Trade and other payables |
 | `cost_of_sales` | Profit and loss: cost of sales |
+
+## Dashboard
+
+`dashboard/` is a static site. It reads `data/latest/*.json` and `data/backtest/report.json` straight from
+GitHub at page load, so daily data updates never redeploy the site. Holdings entered under "My portfolio"
+are stored in the browser only.
+
+Deploy on Netlify: import this repository, deploy branch `betalens-financial` (change to `main` after the
+final merge, and update the branch name in `dashboard/config.js`), base directory
+`betalens-financial/dashboard`, no build command. `netlify.toml` skips deploys when the dashboard folder
+has not changed.
 
 ## Run the tests
 

@@ -1,0 +1,14 @@
+# Netlify settings. In the Netlify site, set Base directory to betalens-financial/dashboard.
+# No build step: the site is plain files. Data is read at runtime from GitHub, so the daily
+# data commits must not redeploy the site (each production deploy costs credits on the free plan).
+[build]
+  publish = "."
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- ."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    Content-Security-Policy = "default-src 'self'; connect-src https://raw.githubusercontent.com; style-src 'self'; script-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'"

@@ -63,6 +63,7 @@ def parse_company_page(html: str, symbol: str) -> CompanyData:
         el = soup.find(class_=cls)
         if el:
             setattr(c, attr, el.get_text(" ", strip=True))
+    c.name = re.sub(r"(\s+X[DBRA])+$", "", c.name)  # drop ex-dividend/bonus/right markers after the name
     close = soup.find(class_="quote__close")
     if close:
         c.price = to_number(close.get_text(strip=True))

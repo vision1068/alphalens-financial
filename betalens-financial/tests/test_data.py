@@ -84,3 +84,17 @@ def test_signal_log_appends_once_per_day(tmp_path):
     assert append_signal_log(cards, date(2026, 11, 17), log) == 1
     lines = log.read_text().splitlines()
     assert lines[0].startswith("date,symbol") and lines[1] == "2026-11-16,PSO,71.2,62.0,BUY,368.01" and len(lines) == 3
+
+
+def test_extreme_valuation_raises_red_flag_and_name_markers_are_stripped():
+    html = read("company_PSO.html").replace("Pakistan State Oil Company Limited<", "Pakistan State Oil Company Limited XD<")
+    c = build_company("PSO", html, read("payouts_PSO.html"), read("eod_PSO.json"), {},
+                      {"PSO": {"sector_code": "1", "pe_ratio": 3.0, "dividend_yield_pct": 13.2}}, {}, {}, date(2026, 11, 16))
+    assert not c.name.endswith("XD") and c.name.endswith("Limited")
+    c.pe_ratio = None
+    c2 = build_company("PSO", read("company_PSO.html"), read("payouts_PSO.html"), read("eod_PSO.json"), {},
+                       {"PSO": {"sector_code": "1", "pe_ratio": 5.5, "dividend_yield_pct": 13.2}}, {}, {}, date(2026, 11, 16))
+    assert any("Unusually low P/E" in f for f in c2.red_flags)
+    c3 = build_company("PSO", read("company_PSO.html"), read("payouts_PSO.html"), read("eod_PSO.json"), {},
+                       {"PSO": {"sector_code": "1", "pe_ratio": 5.5, "dividend_yield_pct": 2.7}}, {}, {}, date(2026, 11, 16))
+    assert not any("Unusually" in f for f in c3.red_flags)
