@@ -1,4 +1,4 @@
-"""Fetch token-gated PSX portal endpoints once and save the raw responses for parser development."""
+"""Fetch PSX portal endpoints once and save the raw responses for parser development."""
 import pathlib
 
 from psxdata.constants import BASE_URL
@@ -8,12 +8,11 @@ OUT = pathlib.Path(__file__).parent / "out"
 OUT.mkdir(exist_ok=True)
 s = BaseScraper()
 CALLS = [
-    ("payouts_PSO.html", "POST", "/company/payouts", {"symbol": "PSO"}),
-    ("payouts_HBL.html", "POST", "/company/payouts", {"symbol": "HBL"}),
-    ("eod_PSO.json", "GET", "/timeseries/eod/PSO", None),
-    ("eod_KSE100.json", "GET", "/timeseries/eod/KSE100", None),
-    ("reports_PSO.html", "GET", "/company/reports/PSO", None),
-    ("calendar.html", "POST", "/calendar", {"from": "2026-11-01", "to": "2026-12-31"}),
+    ("market_watch.html", "GET", "/market-watch", None),
+    ("shariah_market_watch.html", "GET", "/shariah/market-watch", None),
+    ("shariah_symbols.json", "GET", "/shariah/symbols", None),
+    ("kmiallshr.html", "GET", "/indices/KMIALLSHR", None),
+    ("payouts_all.html", "POST", "/payouts", {"symbol": "", "count": 100, "offset": 0}),
 ]
 status = []
 for name, method, path, data in CALLS:
