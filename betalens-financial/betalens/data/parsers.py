@@ -235,3 +235,63 @@ def dividend_summary(payouts: list[dict], today: date) -> dict:
     years = {p["period_end"].year for p in cash if p["period_end"]}
     all_years = {p["period_end"].year for p in payouts if p["period_end"]}
     return {"ttm_dividend_per_share": round(ttm, 4), "years_paid": len(years), "window": max(len(all_years), 1)}
+
+
+def parse_market_watch(html: str) -> dict[str, dict]:
+    """Parse /market-watch (or /shariah/market-watch): every listed symbol with today's prices and its indices.
+
+    Symbols carry status suffixes such as 'XD' (ex-dividend) on this page; they are removed.
+    """
+    out: dict[str, dict] = {}
+    for row in _table_as_dicts(html, "LISTED IN"):
+        symbol = row["SYMBOL"].split()[0]
+        out[symbol] = {
+            "sector_code": row.get("SECTOR", ""),
+            "indices": [i for i in row.get("LISTED IN", "").split(",") if i],
+            "ldcp": to_number(row.get("LDCP", "")),
+            "open": to_number(row.get("OPEN", "")),
+            "high": to_number(row.get("HIGH", "")),
+            "low": to_number(row.get("LOW", "")),
+            "price": to_number(row.get("CURRENT", "")),
+            "change": to_number(row.get("CHANGE", "")),
+            "change_pct": to_number(row.get("CHANGE (%)", "")),
+            "volume": to_number(row.get("VOLUME", "")),
+        }
+    return out
+
+
+def parse_market_payouts(html: str, face_values: dict[str, float] | None = None, default_face: float = 10.0) -> list[dict]:
+    """Parse the market-wide /payouts list (latest announcements for all companies), newest first.
+
+    The list has no face value. Known face values are used where given; otherwise Rs 10, the usual PSX
+    face value, is assumed and `face_value_assumed` is set so the amount can be shown as approximate.
+    """
+    face_values = face_values or {}
+    out: list[dict] = []
+    for row in _table_as_dicts(html, "BOOK CLOSURE DATE"):
+        symbol = row["SYMBOL"].split()[0]
+        closure = [_dmy(p) for p in re.split(r"\s+-\s+", row.get("BOOK CLOSURE DATE", "").strip())]
+        try:
+            announced = datetime.strptime(" ".join(row.get("DATE / TIME OF ANNOUNCEMENT", "").split()),
+                                          "%B %d, %Y %I:%M %p").date()
+        except ValueError:
+            announced = None
+        face = face_values.get(symbol)
+        for pct, stage, kind in _PAYOUT.findall(row.get("DIVIDEND ANNOUNCEMENT", "")):
+            percent = float(pct)
+            is_cash = kind == "D"
+            out.append({
+                "symbol": symbol, "company": row.get("COMPANY", ""), "sector": row.get("SECTOR", ""),
+                "announced": announced, "kind": _KINDS.get(kind, kind),
+                "stage": "final" if stage.strip().upper() == "F" else "interim", "percent": percent,
+                "face_value": face or default_face, "face_value_assumed": face is None,
+                "amount_per_share": round(percent * (face or default_face) / 100, 4) if is_cash else None,
+                "book_closure_from": closure[0] if closure and closure[0] else None,
+                "book_closure_to": closure[1] if len(closure) > 1 else None,
+            })
+    return out
+
+
+def shariah_symbols(market_watch: dict[str, dict], index: str = "KMIALLSHR") -> set[str]:
+    """Symbols listed in the given Shariah index (KMI All Share by default)."""
+    return {s for s, row in market_watch.items() if index in row["indices"]}

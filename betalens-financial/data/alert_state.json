@@ -1,4 +1,5 @@
 {
+ "AHCL": "INSUFFICIENT_DATA",
  "BAFL": "INSUFFICIENT_DATA",
  "SAZEW": "BUY",
  "GHNI": "BUY",
@@ -7,7 +8,6 @@
  "MUREB": "BUY",
  "INDU": "BUY",
  "AKBL": "BUY",
- "AHCL": "INSUFFICIENT_DATA",
  "FABL": "BUY",
  "BOP": "BUY",
  "APL": "BUY",
@@ -78,7 +78,7 @@
  "NML": "HOLD",
  "JVDC": "HOLD",
  "LOTCHEM": "SELL",
- "KOHC": "SELL",
+ "KOHC": "INSUFFICIENT_DATA",
  "PKGS": "INSUFFICIENT_DATA",
  "MLCF": "SELL",
  "KTML": "SELL",

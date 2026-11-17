@@ -60,3 +60,7 @@ tr.why td { border-bottom: 1px solid var(--line); padding-top: 0; }
 #upTable tr:not(.why) td { border-bottom: 0; }
 .note { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 10px 0; }
 .note p { margin: 4px 0 8px; } .note ul { margin: 2px 0 8px; padding-left: 18px; font-size: 14px; }
+.refresh { margin-top: 6px; font-size: 13px; font-weight: 600; border-radius: 999px; padding: 5px 12px; border: 1px solid transparent; }
+.refresh.ok { background: #1f8a4c; border-color: #1f8a4c; color: #fff; }
+.refresh.busy { background: #d97706; border-color: #d97706; color: #fff; cursor: progress; }
+.refresh.fail { background: #c0392b; border-color: #c0392b; color: #fff; }

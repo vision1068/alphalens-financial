@@ -1,7 +1,7 @@
 name: BetaLens probe
 on:
   push:
-    branches: [betalens-financial]
+    branches: [main, betalens-financial]
     paths: ['betalens-financial/probe/urls.txt', 'betalens-financial/probe/probe.py']
   workflow_dispatch:
 permissions:

@@ -1,6 +1,7 @@
 # BetaLens Financial
 
-PSX decision-support system: a 100-point analyst scorecard, a dividend agent, a dashboard and email alerts.
+PSX decision-support system for Shariah-compliant companies: a 100-point analyst scorecard, a dividend agent,
+a dashboard and email alerts.
 Decision support only. It never places trades and is not financial advice.
 
 ## Layout

@@ -40,7 +40,8 @@ const fmtDate = (iso) => iso ? new Date(iso + "T00:00:00").toLocaleDateString("e
   { day: "numeric", month: "short", year: "numeric" }) : "–";
 
 async function getJson(path) {
-  const res = await fetch(`${CFG.dataBase}/${path}`, { cache: "no-store" });
+  // The query string stops GitHub's 5-minute cache from serving an older copy.
+  const res = await fetch(`${CFG.dataBase}/${path}?t=${Date.now()}`, { cache: "no-store" });
   if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
   return res.json();
 }
@@ -84,7 +85,9 @@ function renderScores() {
   $("scoreTable").tBodies[0].replaceChildren(...rows.map((k) => {
     const tr = el("tr", { tabindex: "0" }, [
       el("td", {}, el("b", { text: k.symbol })), el("td", { class: "wrap hide-s", text: k.name || "" }),
-      el("td", { class: "hide-s", text: k.sector || "" }), el("td", { class: "num", text: fmt(k.price) }),
+      el("td", { class: "hide-s", text: k.sector || "" }), el("td", { class: "num", text: fmt(k.price_now) }),
+      el("td", { class: `num ${k.change_pct > 0 ? "gain" : k.change_pct < 0 ? "loss" : ""}`,
+        text: k.change_pct === null || k.change_pct === undefined ? "–" : `${k.change_pct > 0 ? "+" : ""}${fmt(k.change_pct, 2)}%` }),
       el("td", { class: "num", text: fmt(k.score, 1) }), el("td", { class: "num hide-s", text: `${fmt(k.coverage_pct, 0)}%` }),
       el("td", {}, k.red_flags && k.red_flags.length
         ? [chip(k.signal), el("span", { class: "flag", title: k.red_flags.join("; "), text: " ⚠ check" })] : chip(k.signal)),
@@ -103,7 +106,8 @@ function renderScores() {
 function showDetail(k) {
   $("dTitle").textContent = `${k.symbol} · ${k.name || ""}`;
   $("dMeta").replaceChildren(chip(k.signal),
-    ` Score ${fmt(k.score, 1)} of 100 · data coverage ${fmt(k.coverage_pct, 0)}% · ${k.sector || ""} · Rs ${fmt(k.price)}`);
+    ` Score ${fmt(k.score, 1)} of 100 · data coverage ${fmt(k.coverage_pct, 0)}% · ${k.sector || ""} · Rs ${fmt(k.price_now)}`
+    + (k.in_base_index === false ? " · outside KSE-100, included for its upcoming dividend" : ""));
   const blocks = k.factors.map((f) => el("div", { class: "factor" }, [
     el("div", { class: "head" }, [
       el("b", { text: `${FACTOR_LABEL[f.name] || f.name} (weight ${f.weight})` }),
@@ -146,12 +150,12 @@ function renderHoldings() {
   $("holdEmpty").hidden = list.length > 0;
   $("holdTable").tBodies[0].replaceChildren(...list.map((h, i) => {
     const k = state.bySymbol[h.symbol];
-    const pl = k && k.price !== null ? (k.price - h.cost) * h.qty : null;
+    const pl = k && k.price_now !== null && k.price_now !== undefined ? (k.price_now - h.cost) * h.qty : null;
     const remove = el("button", { type: "button", class: "ghost", "aria-label": `Remove ${h.symbol}`, text: "Remove" });
     remove.addEventListener("click", () => { saveHoldings(list.filter((_, j) => j !== i)); renderHoldings(); });
     return el("tr", {}, [
       el("td", {}, el("b", { text: h.symbol })), el("td", { class: "num", text: fmt(h.qty, 0) }),
-      el("td", { class: "num", text: fmt(h.cost) }), el("td", { class: "num", text: k ? fmt(k.price) : "–" }),
+      el("td", { class: "num", text: fmt(h.cost) }), el("td", { class: "num", text: k ? fmt(k.price_now) : "–" }),
       el("td", { class: `num ${pl === null ? "" : pl >= 0 ? "gain" : "loss"}`,
         text: pl === null ? "–" : `${pl >= 0 ? "+" : ""}${fmt(pl, 0)}` }),
       el("td", { class: "num", text: k ? fmt(k.score, 1) : "–" }),
@@ -166,6 +170,47 @@ function payoutLabel(p) {
   const kind = { cash: "Cash dividend", bonus: "Bonus shares", right: "Right shares" }[p.kind] || p.kind;
   return `${kind}, ${p.stage}, ${fmt(p.percent, p.percent % 1 ? 1 : 0)}%`;
 }
+function dividendRows() {
+  // Fresh announcements come from the 30-minute live feed; the daily dividend agent adds its assessment.
+  const agent = state.agent || { upcoming: [] };
+  const key = (u) => `${u.symbol}|${u.book_closure_from}`;
+  const assessed = Object.fromEntries(agent.upcoming.map((u) => [key(u), u]));
+  const live = (state.live && state.live.upcoming) || [];
+  const rows = live.map((u) => {
+    const a = assessed[key(u)];
+    const k = state.bySymbol[u.symbol] || {};
+    return a ? { ...a, ...u, verdict: a.verdict, reasons: a.reasons }
+      : { ...u, signal: k.signal, score: k.score, expected_drop_rs: null, median_recovery_days: null, verdict: "PENDING",
+          reasons: ["Not assessed yet: the daily analysis at 09:30 Pakistan time adds the verdict"] };
+  });
+  const liveKeys = new Set(live.map(key));
+  agent.upcoming.filter((u) => !liveKeys.has(key(u))).forEach((u) => rows.push(u));
+  return rows.sort((a, b) => String(a.last_buy_date).localeCompare(String(b.last_buy_date)) || a.symbol.localeCompare(b.symbol));
+}
+
+function dividendTableRows(list) {
+  const verdictChip = (v) => {
+    const map = { WORTH_A_LOOK: ["BUY", "Worth a look"], SKIP: ["HOLD", "Skip"], PENDING: ["INSUFFICIENT_DATA", "Pending analysis"] };
+    const [cls, text] = map[v] || ["HOLD", v];
+    return el("span", { class: `chip ${cls}`, text });
+  };
+  return list.flatMap((u) => {
+    const approx = u.face_value_assumed ? "≈" : "";
+    const perShare = el("td", { class: "num", text: u.amount_per_share === null ? "–" : `${approx}${fmt(u.amount_per_share)}` });
+    if (approx) perShare.title = "Assumes the usual Rs 10 face value; check the company's notice";
+    return [el("tr", {}, [
+      el("td", {}, el("b", { text: u.symbol })), perShare,
+      el("td", { class: "num", text: u.yield_pct === null || u.yield_pct === undefined ? "–" : `${approx}${fmt(u.yield_pct, 1)}%` }),
+      el("td", { text: fmtDate(u.last_buy_date) }), el("td", { text: fmtDate(u.ex_date) }),
+      el("td", { class: "num", text: u.expected_drop_rs === null || u.expected_drop_rs === undefined ? "–"
+        : `${fmt(u.expected_drop_rs)} (${u.expected_drop_basis})` }),
+      el("td", { class: "num", text: u.median_recovery_days === null || u.median_recovery_days === undefined ? "–"
+        : `${fmt(u.median_recovery_days, 0)} days` }),
+      el("td", {}, u.signal ? chip(u.signal) : "–"), el("td", {}, verdictChip(u.verdict)),
+    ]), el("tr", { class: "why" }, el("td", { colspan: "9", class: "wrap muted small", text: (u.reasons || []).join(" · ") }))];
+  });
+}
+
 function renderDividends() {
   const since = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);
   const agent = state.agent || { upcoming: [], companies: {}, summary: {} };
@@ -175,19 +220,18 @@ function renderDividends() {
     ? `Across ${s.events} past dividends, the price typically fell by ${pct(s.median_drop_ratio)} of the dividend on the `
       + `ex-dividend day and was back to its earlier level within 20 trading days ${pct(s.quick_recovery_share)} of the time.`
     : "";
-  $("upEmpty").hidden = agent.upcoming.length > 0;
-  $("upTable").tBodies[0].replaceChildren(...agent.upcoming.flatMap((u) => {
-    const good = u.verdict === "WORTH_A_LOOK";
-    return [el("tr", {}, [
-      el("td", {}, el("b", { text: u.symbol })), el("td", { class: "num", text: fmt(u.amount_per_share) }),
-      el("td", { class: "num", text: u.yield_pct === null ? "–" : `${fmt(u.yield_pct, 1)}%` }),
-      el("td", { text: fmtDate(u.last_buy_date) }), el("td", { text: fmtDate(u.ex_date) }),
-      el("td", { class: "num", text: u.expected_drop_rs === null ? "–" : `${fmt(u.expected_drop_rs)} (${u.expected_drop_basis})` }),
-      el("td", { class: "num", text: u.median_recovery_days === null ? "–" : `${fmt(u.median_recovery_days, 0)} days` }),
-      el("td", {}, u.signal ? chip(u.signal) : "–"),
-      el("td", {}, el("span", { class: `chip ${good ? "BUY" : "HOLD"}`, text: good ? "Worth a look" : "Skip" })),
-    ]), el("tr", { class: "why" }, el("td", { colspan: "9", class: "wrap muted small", text: u.reasons.join(" · ") }))];
-  }));
+  const localIso = (d) => new Date(d.getTime() - d.getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+  const today = new Date();
+  const first = localIso(today);
+  const last = localIso(new Date(today.getFullYear(), today.getMonth(), today.getDate() + 6));
+  $("weekTitle").textContent = `Last day to buy in the next 7 days (${fmtDate(first)} to ${fmtDate(last)})`;
+  const rows = dividendRows().filter((u) => String(u.last_buy_date) >= first);
+  const week = rows.filter((u) => String(u.last_buy_date) <= last);
+  const later = rows.filter((u) => String(u.last_buy_date) > last);
+  $("weekEmpty").hidden = week.length > 0;
+  $("laterEmpty").hidden = later.length > 0;
+  $("weekTable").tBodies[0].replaceChildren(...dividendTableRows(week));
+  $("laterTable").tBodies[0].replaceChildren(...dividendTableRows(later));
   const hist = Object.entries(agent.companies).filter(([, h]) => h.events >= 2)
     .sort((a, b) => (b[1].quick_recovery_share ?? -1) - (a[1].quick_recovery_share ?? -1)
       || (a[1].median_recovery_days ?? 999) - (b[1].median_recovery_days ?? 999));
@@ -304,31 +348,74 @@ function wire() {
 }
 function showError(msg) { $("error").textContent = msg; $("error").hidden = false; }
 
-async function main() {
+function fillSelect(id, values, labels) {
+  const sel = $(id);
+  const keep = sel.value;
+  sel.replaceChildren(sel.options[0], ...values.map((v) => el("option", { value: v, text: labels ? labels[v] : v })));
+  sel.value = values.includes(keep) ? keep : "";
+}
+
+const timeFmt = (iso) => new Date(iso).toLocaleString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+
+async function loadAll() {
+  const [scores, dividends] = await Promise.all([getJson("latest/scores.json"), getJson("latest/dividends.json")]);
+  const [live, agent, notes, backtest] = await Promise.all([
+    getJson("latest/live.json").catch(() => null), getJson("latest/dividend_agent.json").catch(() => null),
+    getJson("latest/analyst_notes.json").catch(() => ({})), getJson("backtest/report.json").catch(() => null)]);
+  const prices = (live && live.prices) || {};
+  state.scores = scores.scores.map((k) => {
+    const p = prices[k.symbol];
+    return { ...k, price_now: p && p.price !== null ? p.price : k.price, change_pct: p ? p.change_pct : null };
+  });
+  state.bySymbol = Object.fromEntries(state.scores.map((k) => [k.symbol, k]));
+  state.payouts = dividends.payouts;
+  state.live = live;
+  state.agent = agent;
+  state.notes = notes;
+  const failed = Object.keys(scores.meta.errors || {}).length;
+  $("updated").textContent = `Analysis ${timeFmt(scores.meta.generated_at)}`
+    + (live ? ` · prices ${timeFmt(live.as_of)}` : "")
+    + ` · ${scores.meta.companies} Shariah-compliant companies · ${scores.meta.period_years}-year look-back`
+    + (failed ? ` · ${failed} failed to load` : "");
+  fillSelect("fSignal", SIGNALS, SIGNAL_LABEL);
+  fillSelect("fSector", [...new Set(state.scores.map((k) => k.sector).filter(Boolean))].sort());
+  $("symbolList").replaceChildren(...state.scores.map((k) => el("option", { value: k.symbol })));
+  $("error").hidden = true;
+  renderTiles(); renderScores(); renderHoldings(); renderDividends();
+  if (backtest) renderBacktest(backtest); else $("btIntro").textContent = "Back-test results could not be loaded.";
+}
+
+let refreshing = false;
+async function refresh() {
+  if (refreshing) return;
+  refreshing = true;
+  const btn = $("refreshBtn");
+  btn.className = "refresh busy";
+  btn.textContent = "Refreshing…";
+  btn.disabled = true;
+  try {
+    await loadAll();
+    btn.className = "refresh ok";
+    btn.textContent = `✓ Data refreshed ${new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" })}`;
+  } catch (err) {
+    btn.className = "refresh fail";
+    btn.textContent = "Refresh failed, tap to retry";
+    if (!state.scores.length) {
+      $("updated").textContent = "Data could not be loaded.";
+      showError(`Could not load the latest data (${err.message}). Check that the daily job ran.`);
+    }
+  } finally {
+    btn.disabled = false;
+    refreshing = false;
+  }
+}
+
+function main() {
   wire();
   state.holdings = loadHoldings().filter(validHolding);
   renderManualForm();
-  try {
-    const [scores, dividends] = await Promise.all([getJson("latest/scores.json"), getJson("latest/dividends.json")]);
-    state.scores = scores.scores;
-    state.bySymbol = Object.fromEntries(scores.scores.map((k) => [k.symbol, k]));
-    state.payouts = dividends.payouts;
-    const failed = Object.keys(scores.meta.errors || {}).length;
-    $("updated").textContent = `Updated ${new Date(scores.meta.generated_at).toLocaleString("en-GB",
-      { dateStyle: "medium", timeStyle: "short" })} · ${scores.meta.companies} companies · `
-      + `${scores.meta.period_years}-year look-back${failed ? ` · ${failed} failed to load` : ""}`;
-    $("fSignal").append(...SIGNALS.map((s) => el("option", { value: s, text: SIGNAL_LABEL[s] })));
-    const sectors = [...new Set(scores.scores.map((k) => k.sector).filter(Boolean))].sort();
-    $("fSector").append(...sectors.map((s) => el("option", { value: s, text: s })));
-    $("symbolList").append(...scores.scores.map((k) => el("option", { value: k.symbol })));
-    try { state.agent = await getJson("latest/dividend_agent.json"); } catch { state.agent = null; }
-    try { state.notes = await getJson("latest/analyst_notes.json"); } catch { state.notes = {}; }
-    renderTiles(); renderScores(); renderHoldings(); renderDividends();
-  } catch (err) {
-    $("updated").textContent = "Data could not be loaded.";
-    showError(`Could not load the latest scores (${err.message}). Check that the daily job ran.`);
-  }
-  try { renderBacktest(await getJson("backtest/report.json")); }
-  catch { $("btIntro").textContent = "Back-test results could not be loaded."; }
+  $("refreshBtn").addEventListener("click", refresh);
+  refresh();
+  setInterval(refresh, 10 * 60 * 1000);   // pick up the 30-minute price updates while the page stays open
 }
 main();
