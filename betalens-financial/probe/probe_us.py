@@ -14,14 +14,9 @@ WEB_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHT
 today = date.today()
 SEC_UA2 = {"User-Agent": "BetaLens Financial admin@example.com", "Accept-Encoding": "gzip, deflate"}
 CALLS = [
-    ("sec_tickers_ua2.json", "https://www.sec.gov/files/company_tickers.json", SEC_UA2),
-    ("sec_facts_ua2_AAPL.json", "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json", SEC_UA2),
-    ("nasdaq_hist5_AAPL.json", f"https://api.nasdaq.com/api/quote/AAPL/historical?assetclass=stocks&fromdate={today - timedelta(days=1825)}&todate={today}&limit=2000", WEB_UA),
-    ("nasdaq_hist10_AAPL.json", f"https://api.nasdaq.com/api/quote/AAPL/historical?assetclass=stocks&fromdate={today - timedelta(days=3640)}&todate={today}&limit=3000", WEB_UA),
-    ("nasdaq_hist5_SPY.json", f"https://api.nasdaq.com/api/quote/SPY/historical?assetclass=etf&fromdate={today - timedelta(days=1825)}&todate={today}&limit=2000", WEB_UA),
-    ("nasdaq_fin_AAPL_annual.json", "https://api.nasdaq.com/api/company/AAPL/financials?frequency=1", WEB_UA),
-    ("nasdaq_fin_JPM_annual.json", "https://api.nasdaq.com/api/company/JPM/financials?frequency=1", WEB_UA),
-    ("nasdaq_summary_AAPL.json", "https://api.nasdaq.com/api/quote/AAPL/summary?assetclass=stocks", WEB_UA),
+    ("screener_now.json", "https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true", WEB_UA),
+    ("info_NVDA.json", "https://api.nasdaq.com/api/quote/NVDA/info?assetclass=stocks", WEB_UA),
+    ("watchlist.json", "https://api.nasdaq.com/api/quote/watchlist?symbol=nvda%7cstocks&symbol=aapl%7cstocks&symbol=brk.b%7cstocks&symbol=msft%7cstocks", WEB_UA),
 ]
 status = []
 for name, url, headers in CALLS:
