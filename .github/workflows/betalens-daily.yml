@@ -1,7 +1,7 @@
 name: BetaLens daily scores
 on:
   schedule:
-    - cron: '17 12 * * 1-5'   # 17:17 Pakistan time, after the PSX close. Runs only from the default branch.
+    - cron: '30 4 * * *'   # 09:30 Pakistan time (GMT+5) every day. Runs only from the default branch.
   workflow_dispatch:
   push:
     branches: [main, betalens-financial]
@@ -31,6 +31,8 @@ jobs:
       - run: python -m pytest -q
       - run: python -m betalens.pipeline --backtest
         env:
+          # AI notes and email alerts run only on the scheduled daily run, not on pushes or manual runs.
+          BETALENS_DAILY_ANALYSIS: ${{ github.event_name == 'schedule' && '1' || '' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
@@ -41,10 +43,16 @@ jobs:
         run: |
           git config user.name "betalens-bot"
           git config user.email "betalens-bot@users.noreply.github.com"
-          # Move onto the latest branch tip without touching the freshly generated files, then commit
-          # only the data. An earlier run may have pushed data since this run's checkout.
-          git fetch -q origin "$GITHUB_REF_NAME"
-          git reset -q --mixed FETCH_HEAD
-          git add data/latest data/backtest data/signal_log.csv data/alert_state.json
-          git commit -m "data: daily scores" || exit 0
-          git push origin "HEAD:$GITHUB_REF_NAME"
+          # Commit only this job's files onto the latest branch tip (the 30-minute live job commits live.json
+          # separately). Retry if the other job pushed in between.
+          for attempt in 1 2 3 4; do
+            git fetch -q origin "$GITHUB_REF_NAME"
+            git reset -q --mixed FETCH_HEAD
+            git add data/latest/scores.json data/latest/dividends.json data/latest/dividend_agent.json \
+                    data/latest/analyst_notes.json data/backtest data/signal_log.csv data/alert_state.json
+            git diff --cached --quiet && exit 0
+            git commit -q -m "data: daily analysis"
+            git push -q origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            sleep $((attempt * 10))
+          done
+          exit 1

@@ -1,0 +1,5 @@
+# Which companies BetaLens covers.
+shariah_only: true
+shariah_index: KMIALLSHR          # KMI All Share Index: PSX's list of Shariah-compliant shares
+base_index: KSE100                # scored companies: Shariah-compliant members of this index...
+dividend_watch_days: 30           # ...plus any Shariah-compliant company with a cash dividend closing within this many days

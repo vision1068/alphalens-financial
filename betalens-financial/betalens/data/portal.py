@@ -36,5 +36,13 @@ class Portal:
     def index_page(self, name: str = "KSE100") -> str:
         return self._text("GET", f"/indices/{name}")
 
+    def market_watch(self, shariah: bool = True) -> str:
+        """All listed symbols with live prices; the Shariah portal's version lists Shariah-compliant ones."""
+        return self._text("GET", "/shariah/market-watch" if shariah else "/market-watch")
+
+    def market_payouts(self, count: int = 300) -> str:
+        """Latest payout announcements across all companies, newest first."""
+        return self._text("POST", "/payouts", {"symbol": "", "count": count, "offset": 0})
+
     def screener(self) -> str:
         return self._text("GET", "/screener")

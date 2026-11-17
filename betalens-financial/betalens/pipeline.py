@@ -9,7 +9,7 @@ import argparse
 import json
 import sys
 from dataclasses import asdict
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from betalens.data import parsers
@@ -87,13 +87,42 @@ def run_analyst_and_alerts(cards: list[dict], companies: list[CompanyData], upco
     return notes
 
 
+def load_universe_config() -> dict:
+    import yaml
+    return yaml.safe_load((OUT.parents[1] / "config" / "universe.yaml").read_text())
+
+
+def select_universe(base_symbols: list[str], market_watch: dict[str, dict], market_payouts: list[dict],
+                    ucfg: dict, today: date) -> tuple[list[str], set[str]]:
+    """Companies to score: Shariah-compliant members of the base index, plus Shariah-compliant companies
+    with a cash dividend whose books close within `dividend_watch_days`. Returns (symbols, extras)."""
+    if not ucfg.get("shariah_only", True):
+        return list(base_symbols), set()
+    allowed = parsers.shariah_symbols(market_watch, ucfg.get("shariah_index", "KMIALLSHR"))
+    core = [s for s in base_symbols if s in allowed]
+    horizon = today + timedelta(days=ucfg.get("dividend_watch_days", 30))
+    extras = []
+    for p in market_payouts:
+        s = p["symbol"]
+        if (s in allowed and s not in core and s not in extras and p["kind"] == "cash"
+                and p["book_closure_from"] and today < p["book_closure_from"] <= horizon):
+            extras.append(s)
+    return core + extras, set(extras)
+
+
 def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
+    import os
+
     from betalens.data.portal import Portal  # imported here so tests need no network stack
 
     portal, cfg, manual, today = Portal(), load_config(), load_manual(), date.today()
-    constituents = parsers.parse_index_constituents(portal.index_page("KSE100"))
+    ucfg = load_universe_config()
+    constituents = parsers.parse_index_constituents(portal.index_page(ucfg.get("base_index", "KSE100")))
     names = {r["symbol"]: r["name"] for r in constituents}
-    symbols = symbols or [r["symbol"] for r in constituents]
+    market_watch = parsers.parse_market_watch(portal.market_watch(shariah=True))
+    market_payouts = parsers.parse_market_payouts(portal.market_payouts())
+    universe, extras = select_universe([r["symbol"] for r in constituents], market_watch, market_payouts, ucfg, today)
+    symbols = symbols or universe
     screener = parsers.parse_screener(portal.screener())
     medians = parsers.sector_pe_medians(screener)
     index_by_date = {p["date"]: p["close"] for p in parsers.parse_eod(portal.eod("KSE100"))}
@@ -105,35 +134,47 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
                               index_by_date, screener, medians, manual, today)
             companies.append(c)
             card = asdict(score_company(c, cfg))
-            card.update(name=c.name or names.get(symbol, ""), sector=c.sector, price=c.price)
+            card.update(name=c.name or names.get(symbol, ""), sector=c.sector, price=c.price,
+                        face_value=c.face_value, in_base_index=symbol not in extras)
             cards.append(card)
             dividends += [dict(p, symbol=symbol, price=c.price) for p in c.payouts]
-        except Exception as e:  # one bad page must not stop the other 99; the run fails below if too many do
+        except Exception as e:  # one bad page must not stop the rest; the run fails below if too many do
             errors[symbol] = f"{type(e).__name__}: {e}"
             print(f"FAILED {symbol}: {errors[symbol]}", file=sys.stderr)
 
     cards.sort(key=lambda k: (k["score"] is None, -(k["score"] or 0)))
     meta = {"generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "period_years": cfg["period_years"], "companies": len(cards), "errors": errors}
+            "period_years": cfg["period_years"], "companies": len(cards), "errors": errors,
+            "universe": (f"Shariah-compliant ({ucfg.get('shariah_index')}) members of {ucfg.get('base_index')}, plus "
+                         f"Shariah-compliant companies with a cash dividend closing within "
+                         f"{ucfg.get('dividend_watch_days')} days") if ucfg.get("shariah_only", True)
+            else f"All {ucfg.get('base_index')} members",
+            "shariah_only": bool(ucfg.get("shariah_only", True))}
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "scores.json").write_text(json.dumps({"meta": meta, "scores": cards}, indent=1, default=str))
     (OUT / "dividends.json").write_text(json.dumps({"meta": meta, "payouts": dividends}, indent=1, default=str))
     from betalens.dividends import run_agent
     agent = run_agent(companies, {k["symbol"]: k for k in cards}, today)
     (OUT / "dividend_agent.json").write_text(json.dumps({"meta": meta, **agent}, indent=1, default=str))
-    notes = run_analyst_and_alerts(cards, companies, agent["upcoming"])
-    (OUT / "analyst_notes.json").write_text(json.dumps(notes, indent=1))
+    notes_path = OUT / "analyst_notes.json"
+    if os.environ.get("BETALENS_DAILY_ANALYSIS") == "1":
+        notes = run_analyst_and_alerts(cards, companies, agent["upcoming"])
+    else:  # AI notes and alerts run once a day, from the scheduled job only
+        print("AI analyst and alerts skipped: not the scheduled daily analysis run")
+        notes = json.loads(notes_path.read_text()) if notes_path.exists() else {}
+    covered = {c.symbol for c in companies}
+    notes_path.write_text(json.dumps({s: n for s, n in notes.items() if s in covered}, indent=1))
     append_signal_log(cards, today, OUT.parent / "signal_log.csv")
-    print(f"Scored {len(cards)} companies, {len(errors)} failed")
+    print(f"Scored {len(cards)} companies ({len(extras)} outside {ucfg.get('base_index')}), {len(errors)} failed")
     if backtest:
         from betalens.backtest import write_report
-        write_report(companies, cfg, OUT.parent / "backtest")
+        write_report([c for c in companies if c.symbol not in extras], cfg, OUT.parent / "backtest")
     return 1 if len(errors) > MAX_FAILURE_SHARE * len(symbols) else 0
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--symbols", help="comma-separated symbols; default is all KSE-100")
+    ap.add_argument("--symbols", help="comma-separated symbols; default is the configured universe")
     ap.add_argument("--backtest", action="store_true", help="also write data/backtest/report.md and report.json")
     args = ap.parse_args()
     sys.exit(run([s.strip().upper() for s in args.symbols.split(",")] if args.symbols else None, args.backtest))

@@ -12,8 +12,9 @@
 <body>
 <header class="top">
   <div>
-    <h1>BetaLens <span>PSX scorecard</span></h1>
+    <h1>BetaLens <span>Shariah-compliant PSX scorecard</span></h1>
     <p id="updated" class="muted">Loading…</p>
+    <button id="refreshBtn" type="button" class="refresh busy" aria-live="polite">Loading data…</button>
   </div>
   <nav id="tabs" role="tablist" aria-label="Sections">
     <button role="tab" data-tab="signals" aria-selected="true">Signals</button>
@@ -37,7 +38,7 @@
     <div class="tablewrap"><table id="scoreTable">
       <thead><tr>
         <th data-sort="symbol">Symbol</th><th data-sort="name" class="hide-s">Company</th><th data-sort="sector" class="hide-s">Sector</th>
-        <th data-sort="price" class="num">Price</th><th data-sort="score" class="num">Score</th>
+        <th data-sort="price_now" class="num">Price</th><th data-sort="change_pct" class="num">Today</th><th data-sort="score" class="num">Score</th>
         <th data-sort="coverage_pct" class="num hide-s">Data</th><th data-sort="signal">Signal</th>
       </tr></thead><tbody></tbody>
     </table></div>
@@ -63,14 +64,20 @@
   </section>
 
   <section id="dividends" class="panel" hidden>
-    <h2>Upcoming dividends</h2>
+    <h2 id="weekTitle">Last day to buy in the next 7 days</h2>
     <p id="divSummary" class="muted"></p>
-    <div class="tablewrap"><table id="upTable">
+    <div class="tablewrap"><table id="weekTable">
       <thead><tr><th>Symbol</th><th class="num">Per share (Rs)</th><th class="num">Yield</th><th>Last day to buy</th>
       <th>Ex-dividend day</th><th class="num">Expected drop (Rs)</th><th class="num">Usual recovery</th><th>Signal</th><th>Verdict</th></tr></thead><tbody></tbody>
     </table></div>
-    <p id="upEmpty" class="muted" hidden>No cash dividends with book closure ahead of today.</p>
-    <p class="muted small">Amounts are before tax; tax is deducted at source. Dates assume no public holiday in between, so check the company's notice. “Worth a look” needs a Buy signal and a record of quick price recovery after past dividends.</p>
+    <p id="weekEmpty" class="muted" hidden>No Shariah-compliant company has a last buying day in the next 7 days.</p>
+    <h2>Later dividends</h2>
+    <div class="tablewrap"><table id="laterTable">
+      <thead><tr><th>Symbol</th><th class="num">Per share (Rs)</th><th class="num">Yield</th><th>Last day to buy</th>
+      <th>Ex-dividend day</th><th class="num">Expected drop (Rs)</th><th class="num">Usual recovery</th><th>Signal</th><th>Verdict</th></tr></thead><tbody></tbody>
+    </table></div>
+    <p id="laterEmpty" class="muted" hidden>No later cash dividends announced yet.</p>
+    <p class="muted small">Shariah-compliant companies only. New announcements appear within 30 minutes during market hours; the expected drop, recovery record and verdict are added by the daily analysis at 09:30 Pakistan time. ≈ means the amount assumes the usual Rs 10 face value. Amounts are before tax; tax is deducted at source. Dates assume no public holiday in between, so check the company's notice. “Worth a look” needs a Buy signal and a record of quick price recovery after past dividends.</p>
     <h2>How prices behaved after past dividends</h2>
     <div class="tablewrap"><table id="histTable">
       <thead><tr><th>Symbol</th><th class="num">Past dividends</th><th class="num">Drop as % of dividend</th><th class="num">Median days to recover</th>
@@ -105,7 +112,7 @@
   <div id="dFactors"></div>
 </dialog>
 
-<footer class="muted small">Decision support only, not financial advice. BetaLens never places trades. Signals come from a scorecard tuned on a short back-test; check them before acting.</footer>
+<footer class="muted small">Covers Shariah-compliant companies only (PSX KMI All Share Index): those in the KSE-100, plus others with a dividend coming up. Decision support only, not financial advice. BetaLens never places trades. Signals come from a scorecard tuned on a short back-test; check them before acting.</footer>
 <script src="config.js"></script>
 <script src="app.js"></script>
 </body>
