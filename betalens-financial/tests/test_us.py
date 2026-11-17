@@ -104,11 +104,39 @@ def test_build_us_live():
     from datetime import datetime, timezone
 
     from betalens.us.live import build_us_live
-    screener = parsers.parse_nasdaq_screener(read("nasdaq_screener.json"))
+    screener = parsers.parse_nasdaq_watchlist(read("nasdaq_watchlist.json"))
     cal = [{"symbol": "AAPL", "company": "Apple", "kind": "cash", "stage": "regular", "percent": None,
             "amount_per_share": 0.27, "ex_date": date(2026, 11, 23), "book_closure_from": None},
            {"symbol": "APC", "amount_per_share": 0.5, "ex_date": date(2026, 11, 19), "kind": "cash"}]
     live = build_us_live(screener, cal, {"AAPL", "MSFT"}, datetime(2026, 11, 18, 15, 7, tzinfo=timezone.utc))
-    assert set(live["prices"]) == {"AAPL", "MSFT"} and len(live["upcoming"]) == 1
+    assert set(live["prices"]) == {"AAPL", "MSFT"} and len(live["upcoming"]) == 1 and live["market_status"] == "After Hours"
     u = live["upcoming"][0]
     assert u["last_buy_date"] == date(2026, 11, 20) and u["yield_pct"] == round(27 / screener["AAPL"]["price"], 2)
+
+
+def test_long_history_is_fetched_in_windows():
+    from betalens.us.pipeline import fetch_history
+
+    class Fake:
+        calls = []
+        variants = staticmethod(lambda s: [s])
+
+        def history(self, symbol, days, assetclass="stocks", end=None):
+            self.calls.append((days, end))
+            start = end - timedelta(days=days)
+            rows = [{"date": (start + timedelta(days=i)).strftime("%m/%d/%Y"), "close": "$1.0"} for i in range(1, days + 1)]
+            import json
+            return json.dumps({"data": {"tradesTable": {"rows": rows}}})
+
+    f = Fake()
+    rows = fetch_history(f, "X", 3650)
+    assert [d for d, _ in f.calls] == [1500, 1500, 650] and len(rows) == 3650
+    assert rows[0]["date"] < rows[-1]["date"]
+
+
+def test_watchlist_quotes_are_live_and_measured_from_previous_close():
+    q = parsers.parse_nasdaq_watchlist(read("nasdaq_watchlist.json"))
+    nvda = q["NVDA"]
+    assert nvda["price"] == 155.5601 and nvda["previous_close"] == 156.14 and nvda["market_status"] == "After Hours"
+    assert nvda["change"] == round(155.5601 - 156.14, 4) and nvda["change_pct"] == -0.37
+    assert "BRK.B" in q and parsers.parse_nasdaq_watchlist('{"data":null}') == {}

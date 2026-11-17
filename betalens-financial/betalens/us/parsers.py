@@ -168,6 +168,25 @@ def parse_nasdaq_screener(text: str) -> dict[str, dict]:
     return out
 
 
+def parse_nasdaq_watchlist(text: str) -> dict[str, dict]:
+    """Nasdaq batch quotes (/api/quote/watchlist): the latest trade per symbol, real time, including
+    pre-market and after-hours trades. Change is measured against the previous regular close."""
+    rows = (json.loads(text) or {}).get("data") or []
+    out = {}
+    for r in rows if isinstance(rows, list) else []:
+        price, prev = _money(r.get("lastSalePrice")), _money(r.get("previousClosePrice"))
+        if price is None:
+            continue
+        change = round(price - prev, 4) if prev else None
+        out[r["symbol"].replace("/", ".")] = {
+            "price": price, "previous_close": prev, "change": change,
+            "change_pct": round(100 * change / prev, 2) if prev and change is not None else None,
+            "volume": _money(r.get("volume")), "market_status": r.get("marketStatus", ""),
+            "last_trade": r.get("lastTradeTimestampDateTime") or r.get("lastTradeTimestamp"),
+        }
+    return out
+
+
 def parse_nasdaq_dividend_history(text: str) -> list[dict]:
     """Nasdaq /api/quote/{symbol}/dividends: cash dividends as payout dicts, newest first."""
     data = (json.loads(text) or {}).get("data") or {}

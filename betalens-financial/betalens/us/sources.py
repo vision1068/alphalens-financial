@@ -69,13 +69,22 @@ class UsSources:
         """Share classes (BRK.B) are written differently across Nasdaq endpoints; try each spelling."""
         return [symbol] if "." not in symbol else [symbol, symbol.replace(".", "%2F"), symbol.replace(".", "")]
 
-    def history(self, symbol: str, days: int, assetclass: str = "stocks") -> str:
-        today = date.today()
+    def history(self, symbol: str, days: int, assetclass: str = "stocks", end: date | None = None) -> str:
+        today = end or date.today()
         frm = today - timedelta(days=days)
         return self._nasdaq(f"/quote/{symbol}/historical?assetclass={assetclass}&fromdate={frm}&todate={today}"
                             f"&limit={min(int(days * 0.72) + 20, 3000)}")
 
+    def quotes(self, symbols: list[str], batch: int = 20) -> list[str]:
+        """Real-time last trade for many symbols, `batch` per request (Nasdaq's watchlist endpoint)."""
+        out = []
+        for i in range(0, len(symbols), batch):
+            query = "&".join(f"symbol={s.lower()}%7cstocks" for s in symbols[i:i + batch])
+            out.append(self._nasdaq(f"/quote/watchlist?{query}"))
+        return out
+
     def screener(self) -> str:
+        """Every US stock in one request. Its prices are the previous day's close, not live."""
         return self._nasdaq("/screener/stocks?tableonly=true&download=true")
 
     def dividend_history(self, symbol: str) -> str:

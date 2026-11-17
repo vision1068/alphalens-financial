@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-17T20:09:14+00:00",
+  "generated_at": "2026-11-17T20:54:05+00:00",
   "market": "US",
   "universe": "S&P 500",
   "period_years": 3,
@@ -77,10 +77,10 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 3,
    "score": 41.1,
-   "signal": "SELL",
+   "signal": "STRONG_SELL",
    "verdict": "SKIP",
    "reasons": [
-    "Analyst signal is Sell, not Buy",
+    "Analyst signal is Strong Sell, not Buy",
     "Data warning on this company",
     "Price recovered within 20 trading days after 62% of 8 past dividends"
    ]
@@ -147,7 +147,7 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 1.5,
    "score": 81.2,
-   "signal": "BUY",
+   "signal": "STRONG_BUY",
    "verdict": "WORTH_A_LOOK",
    "reasons": [
     "Price recovered within 20 trading days after 100% of 8 past dividends"
@@ -238,10 +238,10 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 3.0,
    "score": 35.5,
-   "signal": "SELL",
+   "signal": "STRONG_SELL",
    "verdict": "SKIP",
    "reasons": [
-    "Analyst signal is Sell, not Buy",
+    "Analyst signal is Strong Sell, not Buy",
     "Price recovered within 20 trading days after 62% of 8 past dividends"
    ]
   },
@@ -261,10 +261,10 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 0.0,
    "score": 53.0,
-   "signal": "HOLD",
+   "signal": "SELL",
    "verdict": "SKIP",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
+    "Analyst signal is Sell, not Buy",
     "Price recovered within 20 trading days after 100% of 8 past dividends"
    ]
   },
@@ -284,10 +284,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 0,
    "score": 70.2,
-   "signal": "HOLD",
-   "verdict": "SKIP",
+   "signal": "BUY",
+   "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Price recovered within 20 trading days after 88% of 8 past dividends"
    ]
   },
@@ -307,10 +306,10 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 0,
    "score": 40.8,
-   "signal": "SELL",
+   "signal": "STRONG_SELL",
    "verdict": "SKIP",
    "reasons": [
-    "Analyst signal is Sell, not Buy",
+    "Analyst signal is Strong Sell, not Buy",
     "Data warning on this company",
     "Price recovered within 20 trading days after 75% of 8 past dividends"
    ]
@@ -377,10 +376,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 0.0,
    "score": 68.4,
-   "signal": "HOLD",
-   "verdict": "SKIP",
+   "signal": "BUY",
+   "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Price recovered within 20 trading days after 100% of 8 past dividends"
    ]
   },
@@ -446,10 +444,10 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 1,
    "score": 49.7,
-   "signal": "HOLD",
+   "signal": "SELL",
    "verdict": "SKIP",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
+    "Analyst signal is Sell, not Buy",
     "Price recovered within 20 trading days after 71% of 8 past dividends"
    ]
   },
@@ -561,7 +559,7 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 2,
    "score": 80.1,
-   "signal": "BUY",
+   "signal": "STRONG_BUY",
    "verdict": "WORTH_A_LOOK",
    "reasons": [
     "Price recovered within 20 trading days after 62% of 8 past dividends"
@@ -675,10 +673,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 31,
    "score": 70.8,
-   "signal": "HOLD",
+   "signal": "BUY",
    "verdict": "SKIP",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Price recovered within 20 trading days after only 38% of past dividends"
    ]
   },
@@ -698,10 +695,10 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 1.0,
    "score": 40.6,
-   "signal": "SELL",
+   "signal": "STRONG_SELL",
    "verdict": "SKIP",
    "reasons": [
-    "Analyst signal is Sell, not Buy",
+    "Analyst signal is Strong Sell, not Buy",
     "Price recovered within 20 trading days after 89% of 9 past dividends"
    ]
   },
@@ -767,10 +764,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 0.0,
    "score": 70.9,
-   "signal": "HOLD",
-   "verdict": "SKIP",
+   "signal": "BUY",
+   "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Price recovered within 20 trading days after 100% of 6 past dividends"
    ]
   },
@@ -790,10 +786,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 1,
    "score": 73.8,
-   "signal": "HOLD",
-   "verdict": "SKIP",
+   "signal": "BUY",
+   "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Price recovered within 20 trading days after 88% of 8 past dividends"
    ]
   },
@@ -813,10 +808,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 1,
    "score": 73.7,
-   "signal": "HOLD",
-   "verdict": "SKIP",
+   "signal": "BUY",
+   "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Price recovered within 20 trading days after 88% of 8 past dividends"
    ]
   },
@@ -836,10 +830,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 0.0,
    "score": 70.5,
-   "signal": "HOLD",
-   "verdict": "SKIP",
+   "signal": "BUY",
+   "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Price recovered within 20 trading days after 78% of 9 past dividends"
    ]
   },
@@ -859,10 +852,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 1,
    "score": 71.2,
-   "signal": "HOLD",
+   "signal": "BUY",
    "verdict": "SKIP",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Data warning on this company",
     "Price recovered within 20 trading days after 75% of 8 past dividends"
    ]
@@ -975,10 +967,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 1.5,
    "score": 74.1,
-   "signal": "HOLD",
-   "verdict": "SKIP",
+   "signal": "STRONG_BUY",
+   "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Price recovered within 20 trading days after 89% of 9 past dividends"
    ]
   },
@@ -1021,10 +1012,9 @@
    "expected_drop_basis": "own history",
    "median_recovery_days": 6.0,
    "score": 68.9,
-   "signal": "HOLD",
-   "verdict": "SKIP",
+   "signal": "BUY",
+   "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Analyst signal is Hold, not Buy",
     "Price recovered within 20 trading days after 89% of 9 past dividends"
    ]
   }

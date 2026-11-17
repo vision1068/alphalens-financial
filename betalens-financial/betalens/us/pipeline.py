@@ -80,14 +80,25 @@ def sector_medians(companies: list[CompanyData]) -> dict[str, float]:
     return out
 
 
-def fetch_history(src, symbol: str, days: int) -> list[dict]:
+HISTORY_WINDOW_DAYS = 1500    # Nasdaq answers long ranges unreliably, so long histories are fetched in pieces
+
+
+def fetch_history(src, symbol: str, days: int, assetclass: str = "stocks") -> list[dict]:
     for spelling in src.variants(symbol):
+        rows: dict = {}
+        end, left = date.today(), days
         try:
-            rows = parsers.parse_nasdaq_history(src.history(spelling, days))
+            while left > 0:
+                span = min(left, HISTORY_WINDOW_DAYS)
+                part = parsers.parse_nasdaq_history(src.history(spelling, span, assetclass, end))
+                if not part:
+                    break
+                rows.update({r["date"]: r for r in part})
+                end, left = end - timedelta(days=span), left - span
         except Exception:   # another spelling of a share-class symbol may still work
-            continue
+            pass
         if rows:
-            return rows
+            return [rows[d] for d in sorted(rows)]
     return []
 
 
@@ -155,8 +166,14 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     if symbols:
         universe = [r for r in universe if r["symbol"] in symbols]
     days = BACKTEST_HISTORY_DAYS if backtest else DAILY_HISTORY_DAYS
-    live = parsers.parse_nasdaq_screener(src.screener())
-    index_by_date = {p["date"]: p["close"] for p in parsers.parse_nasdaq_history(src.history("SPY", days, "etf"))}
+    live = {}
+    try:
+        for text in src.quotes([r["symbol"] for r in universe]):
+            live.update(parsers.parse_nasdaq_watchlist(text))
+    except Exception as e:  # fall back to each company's last close from its price history
+        print(f"US quotes failed ({type(e).__name__}); using last closes", file=sys.stderr)
+    index_by_date = {p["date"]: p["close"] for p in fetch_history(src, "SPY", days, "etf")}
+    print(f"US benchmark (SPY): {len(index_by_date)} trading days")
 
     companies, errors = [], {}
     for row in universe:
@@ -172,6 +189,9 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
             errors[row["symbol"]] = f"{type(e).__name__}: {e}"
             print(f"FAILED {row['symbol']}: {errors[row['symbol']]}", file=sys.stderr)
 
+    lengths = sorted(len(c.closes) for c in companies)
+    if lengths:
+        print(f"US price history: median {lengths[len(lengths) // 2]} days, shortest {lengths[0]}, longest {lengths[-1]}")
     medians = sector_medians(companies)
     for c in companies:
         c.sector_pe_median = medians.get(c.sector)
