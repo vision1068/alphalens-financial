@@ -166,7 +166,12 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     if symbols:
         universe = [r for r in universe if r["symbol"] in symbols]
     days = BACKTEST_HISTORY_DAYS if backtest else DAILY_HISTORY_DAYS
-    live = parsers.parse_nasdaq_screener(src.screener())
+    live = {}
+    try:
+        for text in src.quotes([r["symbol"] for r in universe]):
+            live.update(parsers.parse_nasdaq_watchlist(text))
+    except Exception as e:  # fall back to each company's last close from its price history
+        print(f"US quotes failed ({type(e).__name__}); using last closes", file=sys.stderr)
     index_by_date = {p["date"]: p["close"] for p in fetch_history(src, "SPY", days, "etf")}
     print(f"US benchmark (SPY): {len(index_by_date)} trading days")
 

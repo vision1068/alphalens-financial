@@ -1,6 +1,6 @@
 """US intraday refresh, every 30 minutes in US trading hours: S&P 500 prices and dividends going ex soon.
 
-One screener request (every US stock's latest price) plus the dividend calendar for the next week.
+Real-time quotes in batches of 20 (including pre-market and after-hours trades) plus the dividend calendar.
 Writes data/latest/us_live.json; scoring and alerts stay in the once-a-day pipeline.
 """
 from __future__ import annotations
@@ -19,9 +19,10 @@ NY = ZoneInfo("America/New_York")
 LOOKAHEAD_DAYS = 8
 
 
-def build_us_live(screener: dict[str, dict], calendar: list[dict], symbols: set[str], now_utc: datetime) -> dict:
-    prices = {s: {k: row[k] for k in ("price", "change", "change_pct", "volume")}
-              for s, row in screener.items() if s in symbols}
+def build_us_live(quotes: dict[str, dict], calendar: list[dict], symbols: set[str], now_utc: datetime) -> dict:
+    prices = {s: {k: row.get(k) for k in ("price", "change", "change_pct", "volume", "previous_close", "market_status")}
+              for s, row in quotes.items() if s in symbols}
+    statuses = [row.get("market_status") for row in prices.values() if row.get("market_status")]
     upcoming = []
     for p in calendar:
         if p["symbol"] not in symbols:
@@ -30,7 +31,8 @@ def build_us_live(screener: dict[str, dict], calendar: list[dict], symbols: set[
         upcoming.append(dict(p, last_buy_date=add_business_days(p["ex_date"], -1), price=price,
                              yield_pct=round(100 * p["amount_per_share"] / price, 2) if price else None))
     upcoming.sort(key=lambda u: (u["last_buy_date"], u["symbol"]))
-    return {"as_of": now_utc.isoformat(timespec="seconds"), "prices": prices, "upcoming": upcoming}
+    return {"as_of": now_utc.isoformat(timespec="seconds"), "prices": prices, "upcoming": upcoming,
+            "market_status": max(set(statuses), key=statuses.count) if statuses else None}
 
 
 def run() -> int:
@@ -42,7 +44,9 @@ def run() -> int:
         return 1
     symbols = {k["symbol"] for k in json.loads(scores_path.read_text())["scores"]}
     src = UsSources()
-    screener = parsers.parse_nasdaq_screener(src.screener())
+    quotes = {}
+    for text in src.quotes(sorted(symbols)):
+        quotes.update(parsers.parse_nasdaq_watchlist(text))
     now = datetime.now(timezone.utc)
     today = now.astimezone(NY).date()
     calendar = []
@@ -54,7 +58,7 @@ def run() -> int:
             except Exception as e:  # keep going; the daily run covers dividends too
                 print(f"Calendar {day} failed: {type(e).__name__}: {e}", file=sys.stderr)
     calendar = [p for p in calendar if p["ex_date"] > today]
-    live = build_us_live(screener, calendar, symbols, now)
+    live = build_us_live(quotes, calendar, symbols, now)
     if not live["prices"]:
         print("No US prices parsed; keeping the previous us_live.json", file=sys.stderr)
         return 1

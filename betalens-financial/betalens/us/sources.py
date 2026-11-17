@@ -75,7 +75,16 @@ class UsSources:
         return self._nasdaq(f"/quote/{symbol}/historical?assetclass={assetclass}&fromdate={frm}&todate={today}"
                             f"&limit={min(int(days * 0.72) + 20, 3000)}")
 
+    def quotes(self, symbols: list[str], batch: int = 20) -> list[str]:
+        """Real-time last trade for many symbols, `batch` per request (Nasdaq's watchlist endpoint)."""
+        out = []
+        for i in range(0, len(symbols), batch):
+            query = "&".join(f"symbol={s.lower()}%7cstocks" for s in symbols[i:i + batch])
+            out.append(self._nasdaq(f"/quote/watchlist?{query}"))
+        return out
+
     def screener(self) -> str:
+        """Every US stock in one request. Its prices are the previous day's close, not live."""
         return self._nasdaq("/screener/stocks?tableonly=true&download=true")
 
     def dividend_history(self, symbol: str) -> str:

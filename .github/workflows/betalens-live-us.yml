@@ -1,7 +1,10 @@
 name: BetaLens live prices (US)
 on:
   schedule:
-    - cron: '7,37 13-20 * * 1-5'   # every 30 minutes, 13:07-20:37 UTC, Monday to Friday (covers US trading hours, summer and winter)
+    # Every 30 minutes from 13:07 to 00:37 UTC on US trading days: regular hours plus after-hours trading,
+    # summer and winter (00:xx UTC on Tuesday-Saturday is still the previous US evening).
+    - cron: '7,37 13-23 * * 1-5'
+    - cron: '7,37 0 * * 2-6'
   workflow_dispatch:
 permissions:
   contents: write

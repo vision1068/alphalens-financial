@@ -418,7 +418,7 @@ async function loadMarket(m) {
   st.loaded = true;
   const failed = Object.keys(scores.meta.errors || {}).length;
   $(`${m}-status`).textContent = `${scores.meta.companies} ${MARKETS[m].companies} · analysis ${timeFmt(scores.meta.generated_at)}`
-    + (live ? ` · prices ${timeFmt(live.as_of)}` : "") + ` · ${scores.meta.period_years}-year look-back`
+    + (live ? ` · prices ${timeFmt(live.as_of)}${live.market_status ? ` (${live.market_status.toLowerCase()})` : ""}` : "") + ` · ${scores.meta.period_years}-year look-back`
     + (failed ? ` · ${failed} with data problems` : "");
   fillSelect(`${m}-fSignal`, SIGNALS, SIGNAL_LABEL);
   fillSelect(`${m}-fSector`, [...new Set(st.scores.map((k) => k.sector).filter(Boolean))].sort());
