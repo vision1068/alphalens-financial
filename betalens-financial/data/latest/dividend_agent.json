@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-17T14:55:08+00:00",
+  "generated_at": "2026-11-17T18:50:08+00:00",
   "period_years": 3,
   "companies": 68,
   "errors": {},
@@ -23,6 +23,7 @@
    "yield_pct": 0.67,
    "book_closure_from": "2026-11-19",
    "book_closure_to": "2026-11-27",
+   "payment_date": null,
    "last_buy_date": "2026-11-17",
    "ex_date": "2026-11-18",
    "expected_drop_rs": 0.45,
@@ -45,6 +46,7 @@
    "yield_pct": 3.18,
    "book_closure_from": "2026-11-20",
    "book_closure_to": "2026-11-27",
+   "payment_date": null,
    "last_buy_date": "2026-11-18",
    "ex_date": "2026-11-19",
    "expected_drop_rs": 2.54,

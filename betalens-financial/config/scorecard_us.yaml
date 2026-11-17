@@ -1,0 +1,26 @@
+# BetaLens scorecard for US (S&P 500) companies. Same ten factors as PSX; valuation and dividend-yield
+# scales are set for US norms in betalens/scoring/factors.py. Thresholds are calibrated by the US back-test.
+period_years: 3
+min_coverage: 60
+signals:
+  strong_buy: 87
+  buy: 76
+  hold: 49
+  sell: 24
+weights:
+  revenue_growth: 12
+  earnings_growth: 8
+  profitability: 6
+  cash_flow_quality: 12
+  cash_conversion_cycle: 8
+  debt: 12
+  liquidity: 6
+  valuation: 20
+  dividend: 10
+  price_trend: 6
+financial_sectors: ["FINANCIALS"]
+financial_excluded_factors: [cash_flow_quality, cash_conversion_cycle, debt, liquidity]
+financial_extra_weights:
+  price_to_book: 12
+bank_sectors: []
+bank_extra_weights: {}

@@ -18,7 +18,7 @@ concurrency:
 jobs:
   score:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 75
     defaults:
       run:
         working-directory: betalens-financial
@@ -39,6 +39,15 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
           PORTFOLIO_SYMBOLS: ${{ secrets.PORTFOLIO_SYMBOLS }}
+      - name: US (S&P 500) scores, dividends and alerts
+        continue-on-error: true   # a US data problem must not stop the PSX results from being saved
+        run: python -m betalens.us.pipeline
+        env:
+          BETALENS_DAILY_ANALYSIS: ${{ github.event_name == 'schedule' && '1' || '' }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
       - name: Commit results
         run: |
           git config user.name "betalens-bot"
@@ -48,8 +57,12 @@ jobs:
           for attempt in 1 2 3 4; do
             git fetch -q origin "$GITHUB_REF_NAME"
             git reset -q --mixed FETCH_HEAD
-            git add data/latest/scores.json data/latest/dividends.json data/latest/dividend_agent.json \
-                    data/latest/analyst_notes.json data/backtest data/signal_log.csv data/alert_state.json
+            for f in data/latest/scores.json data/latest/dividends.json data/latest/dividend_agent.json \
+                     data/latest/analyst_notes.json data/backtest data/signal_log.csv data/alert_state.json \
+                     data/latest/us_scores.json data/latest/us_dividend_agent.json data/signal_log_us.csv \
+                     data/alert_state_us.json; do
+              [ -e "$f" ] && git add "$f"
+            done
             git diff --cached --quiet && exit 0
             git commit -q -m "data: daily analysis"
             git push -q origin "HEAD:$GITHUB_REF_NAME" && exit 0

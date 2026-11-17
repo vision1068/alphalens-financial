@@ -1,0 +1,40 @@
+name: BetaLens live prices (US)
+on:
+  schedule:
+    - cron: '7,37 13-20 * * 1-5'   # every 30 minutes, 13:07-20:37 UTC, Monday to Friday (covers US trading hours, summer and winter)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: betalens-live-us
+  cancel-in-progress: true
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: betalens-financial
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: betalens-financial/requirements.txt
+      - run: pip install -q -r requirements.txt
+      - run: python -m betalens.us.live
+      - name: Commit live data
+        run: |
+          git config user.name "betalens-bot"
+          git config user.email "betalens-bot@users.noreply.github.com"
+          for attempt in 1 2 3 4; do
+            git fetch -q origin "$GITHUB_REF_NAME"
+            git reset -q --mixed FETCH_HEAD
+            git add data/latest/us_live.json
+            git diff --cached --quiet && exit 0
+            git commit -q -m "data: US live prices"
+            git push -q origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            sleep $((attempt * 10))
+          done
+          exit 1

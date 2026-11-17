@@ -24,6 +24,7 @@ QUICK_RECOVERY = 20       # "recovered quickly" threshold, trading days
 MIN_EVENTS = 2            # past dividends needed before a company's own history is trusted
 MIN_QUICK_SHARE = 0.6     # share of past dividends that must have recovered quickly
 BUY_SIGNALS = {"BUY", "STRONG_BUY"}
+MAX_DROP_RATIO = 1.5      # expected drop is capped at 1.5x the dividend
 
 
 def ex_offset(book_closure_from: date) -> int:
@@ -47,15 +48,30 @@ def _adjusted_drop(c: CompanyData, ex: int) -> float | None:
     return prior * market - c.closes[ex]
 
 
+def event_date(payout: dict) -> date | None:
+    """The date that decides entitlement: the ex-date where it is published (US), else the book closure (PSX)."""
+    return payout.get("ex_date") or payout.get("book_closure_from")
+
+
 def measure_event(c: CompanyData, payout: dict, offset: int | None = None) -> dict | None:
     """Price behaviour around one past cash dividend. None if it cannot be measured from the price history."""
-    start, amount = payout.get("book_closure_from"), payout.get("amount_per_share")
-    if payout.get("kind") != "cash" or not start or not amount:
+    amount = payout.get("amount_per_share")
+    if payout.get("kind") != "cash" or not amount:
         return None
-    first_closed = bisect.bisect_left(c.price_dates, start)       # first trading day on or after books close
-    ex = first_closed - (ex_offset(start) if offset is None else offset)
+    if payout.get("ex_date"):                                      # US: ex-date published directly
+        ex = bisect.bisect_left(c.price_dates, payout["ex_date"])
+        if ex >= len(c.price_dates):
+            return None
+    else:
+        start = payout.get("book_closure_from")
+        if not start:
+            return None
+        first_closed = bisect.bisect_left(c.price_dates, start)   # first trading day on or after books close
+        if first_closed >= len(c.price_dates):
+            return None
+        ex = first_closed - (ex_offset(start) if offset is None else offset)
     drop = _adjusted_drop(c, ex)
-    if drop is None or first_closed >= len(c.price_dates):
+    if drop is None:
         return None
     cum_close = c.closes[ex - 1]
     recovery = next((d for d in range(min(RECOVERY_WINDOW, len(c.closes) - ex))
@@ -104,11 +120,17 @@ def upcoming_dates(book_closure_from: date) -> tuple[date, date]:
 
 def assess(payout: dict, card: dict, history: dict | None, universe_drop_ratio: float | None, today: date) -> dict:
     """Verdict on one upcoming cash dividend."""
-    last_buy, ex = upcoming_dates(payout["book_closure_from"])
+    if payout.get("ex_date"):          # US: buy by the close of the trading day before the ex-date
+        ex = payout["ex_date"]
+        last_buy = add_business_days(ex, -1)
+    else:
+        last_buy, ex = upcoming_dates(payout["book_closure_from"])
     price = card.get("price")
     amount = payout["amount_per_share"]
     own = history and history["events"] >= MIN_EVENTS
     ratio = history["median_drop_ratio"] if own else universe_drop_ratio
+    if ratio is not None:   # small dividends are swamped by ordinary daily moves; keep the estimate sensible
+        ratio = min(max(ratio, 0.0), MAX_DROP_RATIO)
     reasons, ok = [], True
     if last_buy < today:
         ok = False
@@ -132,7 +154,8 @@ def assess(payout: dict, card: dict, history: dict | None, universe_drop_ratio: 
     return {"symbol": payout["symbol"], "stage": payout["stage"], "percent": payout["percent"],
             "amount_per_share": amount, "price": price,
             "yield_pct": round(100 * amount / price, 2) if price else None,
-            "book_closure_from": payout["book_closure_from"], "book_closure_to": payout["book_closure_to"],
+            "book_closure_from": payout.get("book_closure_from"), "book_closure_to": payout.get("book_closure_to"),
+            "payment_date": payout.get("payment_date"),
             "last_buy_date": last_buy, "ex_date": ex,
             "expected_drop_rs": round(ratio * amount, 2) if ratio is not None else None,
             "expected_drop_basis": "own history" if own else "market average",
@@ -144,8 +167,7 @@ def assess(payout: dict, card: dict, history: dict | None, universe_drop_ratio: 
 def run_agent(companies: list[CompanyData], cards: dict[str, dict], today: date) -> dict:
     histories, all_events, diagnostics = {}, [], {}
     for c in companies:
-        events = [e for p in c.payouts if p.get("book_closure_from") and p["book_closure_from"] <= today
-                  and (e := measure_event(c, p))]
+        events = [e for p in c.payouts if event_date(p) and event_date(p) <= today and (e := measure_event(c, p))]
         if events:
             histories[c.symbol] = dict(company_history(events), recent=events[:6])
             all_events += events
@@ -159,9 +181,8 @@ def run_agent(companies: list[CompanyData], cards: dict[str, dict], today: date)
     universe_ratio = _median([e["drop_ratio"] for e in all_events])
     upcoming = [assess(dict(p, symbol=c.symbol), cards.get(c.symbol, {}), histories.get(c.symbol), universe_ratio, today)
                 for c in companies for p in c.payouts
-                if p["kind"] == "cash" and p.get("amount_per_share") and p.get("book_closure_from")
-                and p["book_closure_from"] > today]
-    upcoming.sort(key=lambda u: u["book_closure_from"])
+                if p["kind"] == "cash" and p.get("amount_per_share") and event_date(p) and event_date(p) > today]
+    upcoming.sort(key=lambda u: (u["last_buy_date"], u["symbol"]))
     known = [e for e in all_events if e["recovery_known"]]
     summary = {"events": len(all_events), "median_drop_ratio": universe_ratio,
                "quick_recovery_share": round(sum(1 for e in known if e["recovery_days"] is not None

@@ -86,3 +86,12 @@ def test_run_agent_end_to_end():
     assert len(out["upcoming"]) == 1 and out["upcoming"][0]["verdict"] == "WORTH_A_LOOK"
     assert out["diagnostics"]["t1_since_feb_2026"]["ex_1_days_before_closure"]["median_drop_ratio"] == 1.0
     assert out["summary"]["events"] == 2
+
+
+def test_expected_drop_is_capped_for_tiny_dividends():
+    p = dict(payout(date(2026, 11, 26)), symbol="TEST")
+    wild = {"events": 4, "median_drop_ratio": 6.6, "median_recovery_days": 1, "quick_recovery_share": 0.9}
+    a = dv.assess(p, {"signal": "BUY", "score": 80, "price": 100.0, "red_flags": []}, wild, 0.9, date(2026, 11, 16))
+    assert a["expected_drop_rs"] == 7.5          # 1.5 x the Rs 5 dividend
+    negative = dict(wild, median_drop_ratio=-0.4)
+    assert dv.assess(p, {"signal": "BUY", "price": 100.0, "red_flags": []}, negative, 0.9, date(2026, 11, 16))["expected_drop_rs"] == 0.0

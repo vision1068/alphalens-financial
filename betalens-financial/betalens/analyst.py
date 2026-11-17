@@ -30,9 +30,10 @@ SYSTEM = (
 
 
 def note_key(card: dict, c: CompanyData) -> str:
-    """Changes when the signal or the latest reported figures change; a stable key means the note is still valid."""
+    """Changes only when the signal, the latest annual figures or a warning flag changes."""
     latest = c.years[0] if c.years else None
-    basis = [card["signal"], round(card["score"] or 0), latest.year if latest else None,
+    # Deliberately excludes the score itself: daily price moves shift it a little without changing the story.
+    basis = [card["signal"], latest.year if latest else None,
              latest.eps if latest else None, latest.sales if latest else None, sorted(card.get("red_flags") or [])]
     return hashlib.sha256(json.dumps(basis, default=str).encode()).hexdigest()[:16]
 

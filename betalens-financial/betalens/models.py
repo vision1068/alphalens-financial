@@ -8,6 +8,7 @@ from dataclasses import dataclass, field
 class YearFigures:
     """One fiscal year. Portal fields first; statement fields are optional (need full reports)."""
     year: int
+    available_on: object = None   # date the figures were filed (US); None = estimate from fiscal year end
     sales: float | None = None
     profit_after_tax: float | None = None
     eps: float | None = None
@@ -36,6 +37,7 @@ class YearFigures:
 class CompanyData:
     symbol: str
     name: str = ""
+    market: str = "PSX"
     sector: str = ""
     price: float | None = None
     pe_ratio: float | None = None

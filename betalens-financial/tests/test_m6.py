@@ -138,3 +138,13 @@ def test_analyst_stops_after_repeated_failures():
     client = FakeClient([RuntimeError("400")] * 6)
     notes, written = analyst.write_notes(cards, companies, {}, "m", 30, client)
     assert written == 0 and notes == {} and len(client.calls) == 3
+
+
+def test_small_score_moves_do_not_trigger_a_new_note():
+    c, k = company(), card()
+    key = analyst.note_key(k, c)
+    assert analyst.note_key(dict(k, score=86.4), c) == key                 # price move, same signal
+    assert analyst.note_key(dict(k, signal="BUY"), c) != key                # signal changed
+    assert analyst.note_key(dict(k, red_flags=["Loss in the latest fiscal year"]), c) != key
+    c.years[0].eps = 6.0
+    assert analyst.note_key(k, c) != key                                    # new annual figures
