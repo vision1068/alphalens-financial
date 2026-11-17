@@ -112,3 +112,23 @@ def test_build_us_live():
     assert set(live["prices"]) == {"AAPL", "MSFT"} and len(live["upcoming"]) == 1
     u = live["upcoming"][0]
     assert u["last_buy_date"] == date(2026, 11, 20) and u["yield_pct"] == round(27 / screener["AAPL"]["price"], 2)
+
+
+def test_long_history_is_fetched_in_windows():
+    from betalens.us.pipeline import fetch_history
+
+    class Fake:
+        calls = []
+        variants = staticmethod(lambda s: [s])
+
+        def history(self, symbol, days, assetclass="stocks", end=None):
+            self.calls.append((days, end))
+            start = end - timedelta(days=days)
+            rows = [{"date": (start + timedelta(days=i)).strftime("%m/%d/%Y"), "close": "$1.0"} for i in range(1, days + 1)]
+            import json
+            return json.dumps({"data": {"tradesTable": {"rows": rows}}})
+
+    f = Fake()
+    rows = fetch_history(f, "X", 3650)
+    assert [d for d, _ in f.calls] == [1500, 1500, 650] and len(rows) == 3650
+    assert rows[0]["date"] < rows[-1]["date"]

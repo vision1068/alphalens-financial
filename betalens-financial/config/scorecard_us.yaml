@@ -2,11 +2,13 @@
 # scales are set for US norms in betalens/scoring/factors.py. Thresholds are calibrated by the US back-test.
 period_years: 3
 min_coverage: 60
+# Interim thresholds 2026-11-17: set from the spread of US scores so about 10% are Strong Buy, 20% Buy,
+# 40% Hold, 20% Sell, 10% Strong Sell. To be re-checked against the 10-year back-test.
 signals:
-  strong_buy: 87
-  buy: 76
-  hold: 49
-  sell: 24
+  strong_buy: 74
+  buy: 66
+  hold: 54
+  sell: 44
 weights:
   revenue_growth: 12
   earnings_growth: 8

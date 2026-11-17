@@ -69,8 +69,8 @@ class UsSources:
         """Share classes (BRK.B) are written differently across Nasdaq endpoints; try each spelling."""
         return [symbol] if "." not in symbol else [symbol, symbol.replace(".", "%2F"), symbol.replace(".", "")]
 
-    def history(self, symbol: str, days: int, assetclass: str = "stocks") -> str:
-        today = date.today()
+    def history(self, symbol: str, days: int, assetclass: str = "stocks", end: date | None = None) -> str:
+        today = end or date.today()
         frm = today - timedelta(days=days)
         return self._nasdaq(f"/quote/{symbol}/historical?assetclass={assetclass}&fromdate={frm}&todate={today}"
                             f"&limit={min(int(days * 0.72) + 20, 3000)}")
