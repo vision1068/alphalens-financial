@@ -24,6 +24,7 @@ QUICK_RECOVERY = 20       # "recovered quickly" threshold, trading days
 MIN_EVENTS = 2            # past dividends needed before a company's own history is trusted
 MIN_QUICK_SHARE = 0.6     # share of past dividends that must have recovered quickly
 BUY_SIGNALS = {"BUY", "STRONG_BUY"}
+MAX_DROP_RATIO = 1.5      # expected drop is capped at 1.5x the dividend
 
 
 def ex_offset(book_closure_from: date) -> int:
@@ -128,6 +129,8 @@ def assess(payout: dict, card: dict, history: dict | None, universe_drop_ratio: 
     amount = payout["amount_per_share"]
     own = history and history["events"] >= MIN_EVENTS
     ratio = history["median_drop_ratio"] if own else universe_drop_ratio
+    if ratio is not None:   # small dividends are swamped by ordinary daily moves; keep the estimate sensible
+        ratio = min(max(ratio, 0.0), MAX_DROP_RATIO)
     reasons, ok = [], True
     if last_buy < today:
         ok = False

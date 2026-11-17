@@ -12,90 +12,35 @@
 <body>
 <header class="top">
   <div>
-    <h1>BetaLens <span>Shariah-compliant PSX scorecard</span></h1>
+    <h1>BetaLens <span>PSX and US scorecards</span></h1>
     <p id="updated" class="muted">Loading…</p>
     <button id="refreshBtn" type="button" class="refresh busy" aria-live="polite">Loading data…</button>
   </div>
   <nav id="tabs" role="tablist" aria-label="Sections">
-    <button role="tab" data-tab="signals" aria-selected="true">Signals</button>
-    <button role="tab" data-tab="portfolio" aria-selected="false">My portfolio</button>
-    <button role="tab" data-tab="dividends" aria-selected="false">Dividends</button>
+    <button role="tab" data-tab="psx-signals" aria-selected="true">PSX Signals</button>
+    <button role="tab" data-tab="psx-dividends" aria-selected="false">PSX Dividends</button>
+    <button role="tab" data-tab="us-signals" aria-selected="false">International Signals</button>
+    <button role="tab" data-tab="us-dividends" aria-selected="false">International Dividends</button>
     <button role="tab" data-tab="backtest" aria-selected="false">Back-test</button>
-    <button role="tab" data-tab="manual" aria-selected="false">Add data</button>
+    <button role="tab" data-tab="manual" aria-selected="false">Add data (PSX)</button>
   </nav>
 </header>
 
 <main>
   <p id="error" class="error" hidden></p>
-
-  <section id="signals" class="panel">
-    <div id="tiles" class="tiles"></div>
-    <div class="controls">
-      <input id="search" type="search" placeholder="Search symbol or company" aria-label="Search symbol or company">
-      <select id="fSignal" aria-label="Filter by signal"><option value="">All signals</option></select>
-      <select id="fSector" aria-label="Filter by sector"><option value="">All sectors</option></select>
-    </div>
-    <div class="tablewrap"><table id="scoreTable">
-      <thead><tr>
-        <th data-sort="symbol">Symbol</th><th data-sort="name" class="hide-s">Company</th><th data-sort="sector" class="hide-s">Sector</th>
-        <th data-sort="price_now" class="num">Price</th><th data-sort="change_pct" class="num">Today</th><th data-sort="score" class="num">Score</th>
-        <th data-sort="coverage_pct" class="num hide-s">Data</th><th data-sort="signal">Signal</th>
-      </tr></thead><tbody></tbody>
-    </table></div>
-    <p class="muted small">Score is out of 100. “Data” is the share of the scorecard's weight that had figures; signals need at least 60%.</p>
-  </section>
-
-  <section id="portfolio" class="panel" hidden>
-    <p class="muted">Your holdings stay in this browser only. They are never uploaded.</p>
-    <form id="holdForm" class="controls">
-      <input id="hSymbol" list="symbolList" placeholder="Symbol" required aria-label="Symbol">
-      <datalist id="symbolList"></datalist>
-      <input id="hQty" type="number" min="1" step="1" placeholder="Shares" required aria-label="Number of shares">
-      <input id="hCost" type="number" min="0" step="0.01" placeholder="Buy price (Rs)" required aria-label="Buy price in rupees">
-      <button type="submit">Add holding</button>
-    </form>
-    <div class="tablewrap"><table id="holdTable">
-      <thead><tr><th>Symbol</th><th class="num">Shares</th><th class="num">Buy price</th><th class="num">Price now</th>
-      <th class="num">Gain / loss</th><th class="num">Score</th><th>Signal</th><th></th></tr></thead><tbody></tbody>
-    </table></div>
-    <p id="holdEmpty" class="muted">No holdings yet. Add one above to see its signal here.</p>
-    <div class="controls"><button id="exportBtn" type="button" class="ghost">Export holdings</button>
-      <label class="ghost filebtn">Import holdings<input id="importFile" type="file" accept="application/json" hidden></label></div>
-  </section>
-
-  <section id="dividends" class="panel" hidden>
-    <h2 id="weekTitle">Last day to buy in the next 7 days</h2>
-    <p id="divSummary" class="muted"></p>
-    <div class="tablewrap"><table id="weekTable">
-      <thead><tr><th>Symbol</th><th class="num">Per share (Rs)</th><th class="num">Yield</th><th>Last day to buy</th>
-      <th>Ex-dividend day</th><th class="num">Expected drop (Rs)</th><th class="num">Usual recovery</th><th>Signal</th><th>Verdict</th></tr></thead><tbody></tbody>
-    </table></div>
-    <p id="weekEmpty" class="muted" hidden>No Shariah-compliant company has a last buying day in the next 7 days.</p>
-    <h2>Later dividends</h2>
-    <div class="tablewrap"><table id="laterTable">
-      <thead><tr><th>Symbol</th><th class="num">Per share (Rs)</th><th class="num">Yield</th><th>Last day to buy</th>
-      <th>Ex-dividend day</th><th class="num">Expected drop (Rs)</th><th class="num">Usual recovery</th><th>Signal</th><th>Verdict</th></tr></thead><tbody></tbody>
-    </table></div>
-    <p id="laterEmpty" class="muted" hidden>No later cash dividends announced yet.</p>
-    <p class="muted small">Shariah-compliant companies only. New announcements appear within 30 minutes during market hours; the expected drop, recovery record and verdict are added by the daily analysis at 09:30 Pakistan time. ≈ means the amount assumes the usual Rs 10 face value. Amounts are before tax; tax is deducted at source. Dates assume no public holiday in between, so check the company's notice. “Worth a look” needs a Buy signal and a record of quick price recovery after past dividends.</p>
-    <h2>How prices behaved after past dividends</h2>
-    <div class="tablewrap"><table id="histTable">
-      <thead><tr><th>Symbol</th><th class="num">Past dividends</th><th class="num">Drop as % of dividend</th><th class="num">Median days to recover</th>
-      <th class="num">Recovered in 20 days</th><th class="num">10-day result incl. dividend</th></tr></thead><tbody></tbody>
-    </table></div>
-    <h2>Announced in the last 90 days</h2>
-    <div class="tablewrap"><table id="recentTable">
-      <thead><tr><th>Announced</th><th>Symbol</th><th>Payout</th><th class="num">Per share (Rs)</th><th>Books close</th></tr></thead><tbody></tbody>
-    </table></div>
-  </section>
+  <section id="psx-signals" class="panel"></section>
+  <section id="psx-dividends" class="panel" hidden></section>
+  <section id="us-signals" class="panel" hidden></section>
+  <section id="us-dividends" class="panel" hidden></section>
 
   <section id="backtest" class="panel" hidden>
-    <p id="btIntro" class="muted"></p>
-    <div id="btBody"></div>
+    <div id="btPsx"></div>
+    <div id="btUs"></div>
   </section>
 
   <section id="manual" class="panel" hidden>
-    <p>Four factors (cash flow quality, cash conversion cycle, debt, liquidity) need figures from a company's annual report. For banks, the equity, non-performing loan and capital adequacy figures feed the bank factors instead. Enter them here, copy the row, and paste it as a new line in the data file on GitHub. Saving the file re-scores the company.</p>
+    <p>For PSX companies, four factors (cash flow quality, cash conversion cycle, debt, liquidity) need figures from the annual report, because the free PSX data has none. For banks, the equity, non-performing loan and capital adequacy figures feed the bank factors instead. Enter them here, copy the row, and paste it as a new line in the data file on GitHub. Saving the file re-scores the company. US companies need nothing here: their full financial statements come from the SEC automatically.</p>
+    <datalist id="symbolList"></datalist>
     <form id="manualForm" class="grid"></form>
     <div class="controls">
       <button id="copyRow" type="button">Copy row</button>
@@ -112,7 +57,7 @@
   <div id="dFactors"></div>
 </dialog>
 
-<footer class="muted small">Covers Shariah-compliant companies only (PSX KMI All Share Index): those in the KSE-100, plus others with a dividend coming up. Decision support only, not financial advice. BetaLens never places trades. Signals come from a scorecard tuned on a short back-test; check them before acting.</footer>
+<footer class="muted small">PSX tabs cover Shariah-compliant companies only (KMI All Share Index): those in the KSE-100, plus others with a dividend coming up. International tabs cover the S&amp;P 500, using free SEC filings and Nasdaq prices. Decision support only, not financial advice. BetaLens never places trades. Signals come from scorecards tuned on back-tests; check them before acting.</footer>
 <script src="config.js"></script>
 <script src="app.js"></script>
 </body>

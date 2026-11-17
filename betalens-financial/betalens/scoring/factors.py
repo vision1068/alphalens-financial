@@ -103,9 +103,11 @@ def cash_flow_quality(c: CompanyData, period_years: int) -> Result:
 
 def cash_conversion_cycle(c: CompanyData, period_years: int) -> Result:
     y = c.years[0] if c.years else None
-    if not y or None in (y.receivables, y.inventory, y.payables, y.cost_of_sales, y.sales) or not y.sales or not y.cost_of_sales:
+    if not y or y.receivables is None or y.payables is None or not y.sales:
         return None, ["Needs balance sheet data (not on the free portal page)"]
-    days = 365 * (y.receivables / y.sales + y.inventory / y.cost_of_sales - y.payables / y.cost_of_sales)
+    inventory = y.inventory or 0.0          # service and software companies usually hold no stock
+    cost = y.cost_of_sales or y.sales       # some companies report no separate cost of sales
+    days = 365 * (y.receivables / y.sales + inventory / cost - y.payables / cost)
     return curve(days, [(30, 100), (60, 75), (120, 40), (200, 0)]), [f"Cash conversion cycle {days:.0f} days"]
 
 

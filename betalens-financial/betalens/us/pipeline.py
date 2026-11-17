@@ -82,7 +82,10 @@ def sector_medians(companies: list[CompanyData]) -> dict[str, float]:
 
 def fetch_history(src, symbol: str, days: int) -> list[dict]:
     for spelling in src.variants(symbol):
-        rows = parsers.parse_nasdaq_history(src.history(spelling, days))
+        try:
+            rows = parsers.parse_nasdaq_history(src.history(spelling, days))
+        except Exception:   # another spelling of a share-class symbol may still work
+            continue
         if rows:
             return rows
     return []
@@ -179,7 +182,10 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
         try:
             past = []
             for spelling in src.variants(symbol):
-                past = parsers.parse_nasdaq_dividend_history(src.dividend_history(spelling))
+                try:
+                    past = parsers.parse_nasdaq_dividend_history(src.dividend_history(spelling))
+                except Exception:
+                    continue
                 if past:
                     break
         except Exception as e:
