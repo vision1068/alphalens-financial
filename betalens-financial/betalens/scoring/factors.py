@@ -6,6 +6,12 @@ from betalens.scoring.curves import avg, cagr, curve
 
 Result = tuple[float | None, list[str]]
 
+# Market-specific scales where normal levels differ: US shares trade on higher P/Es and lower yields than PSX.
+PE_ABSOLUTE = {"PSX": [(5, 100), (10, 70), (15, 45), (25, 15), (40, 0)],
+               "US": [(10, 100), (15, 80), (20, 60), (30, 30), (50, 0)]}
+YIELD_SCALE = {"PSX": [(0, 0), (3, 50), (6, 75), (10, 100)],
+               "US": [(0, 0), (1.5, 40), (3, 65), (5, 85), (8, 100)]}
+
 
 def _window(c: CompanyData, period_years: int) -> tuple[YearFigures, YearFigures, int] | None:
     """Latest year and the year `period_years` earlier (or the oldest available, min 1 year apart)."""
@@ -132,7 +138,7 @@ def valuation(c: CompanyData, period_years: int) -> Result:
         return None, ["P/E not available"]
     if c.pe_ratio <= 0:
         return 0.0, ["No positive trailing earnings (P/E not meaningful)"]
-    absolute = curve(c.pe_ratio, [(5, 100), (10, 70), (15, 45), (25, 15), (40, 0)])
+    absolute = curve(c.pe_ratio, PE_ABSOLUTE.get(c.market, PE_ABSOLUTE["PSX"]))
     reasons = [f"P/E {c.pe_ratio:.1f}"]
     if c.sector_pe_median and c.sector_pe_median > 0:
         rel = c.pe_ratio / c.sector_pe_median
@@ -148,7 +154,7 @@ def dividend(c: CompanyData, period_years: int) -> Result:
     parts: list[tuple[float, float]] = []
     reasons: list[str] = []
     if c.dividend_yield_pct is not None:
-        parts.append((curve(c.dividend_yield_pct, [(0, 0), (3, 50), (6, 75), (10, 100)]), 0.5))
+        parts.append((curve(c.dividend_yield_pct, YIELD_SCALE.get(c.market, YIELD_SCALE["PSX"])), 0.5))
         reasons.append(f"Dividend yield {c.dividend_yield_pct:.1f}%")
     if c.dividend_years_paid is not None:
         window = max(c.dividend_window, 1)

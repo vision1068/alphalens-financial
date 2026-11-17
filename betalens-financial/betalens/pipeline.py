@@ -79,7 +79,7 @@ def run_analyst_and_alerts(cards: list[dict], companies: list[CompanyData], upco
         print("No new alerts")
     else:
         try:
-            if alerts.send(*alerts.compose(pending, notes, acfg.get("dashboard_url") or "")):
+            if alerts.send(*alerts.compose(pending, notes, acfg.get("dashboard_url") or "", market="PSX")):
                 state_path.write_text(json.dumps(new_state, indent=1))
                 print(f"Sent {len(pending)} alert(s)")
         except Exception as e:  # scores must still be saved; the alert is retried on the next run

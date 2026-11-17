@@ -47,11 +47,20 @@ def as_of(full: CompanyData, when: date) -> CompanyData | None:
     c = copy.copy(full)
     c.closes, c.index_closes, c.price_dates = full.closes[:cut], full.index_closes[:cut], full.price_dates[:cut]
     c.price = c.closes[-1]
-    c.years = [y for y in full.years if year_available_on(y.year, full.fiscal_year_end_month) <= when]
+    c.years = [y for y in full.years
+               if (y.available_on or year_available_on(y.year, full.fiscal_year_end_month)) <= when]
     c.red_flags = []
     eps = c.years[0].eps if c.years else None
     c.pe_ratio = c.price / eps if eps else None   # negative EPS gives a negative P/E, scored as no earnings
     c.sector_pe_median = None                     # filled in across the whole universe by the caller
+    if full.market == "US":                       # dividends per share come with the filed annual figures
+        recent = c.years[:5]
+        dps = recent[0].dividend_per_share if recent else None
+        c.dividend_yield_pct = 100 * dps / c.price if dps is not None and c.price else (0.0 if recent else None)
+        c.dividend_years_paid = sum(1 for y in recent if y.dividend_per_share) if recent else None
+        c.dividend_window = max(len(recent), 1)
+        c.payouts = []
+        return c
     announced = [p["announced"] for p in full.payouts if p["announced"]]
     c.payouts = [p for p in full.payouts if p["announced"] and p["announced"] <= when]
     if not full.payouts:                          # no payout on record at all: treat as a non-payer

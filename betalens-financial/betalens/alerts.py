@@ -47,7 +47,7 @@ def find_alerts(cards: list[dict], upcoming: list[dict], state: dict, cfg: dict,
     return alerts, new_state
 
 
-def compose(alerts: list[dict], notes: dict, dashboard_url: str) -> tuple[str, str, str]:
+def compose(alerts: list[dict], notes: dict, dashboard_url: str, market: str = "", currency: str = "Rs") -> tuple[str, str, str]:
     """Return (subject, plain text, HTML)."""
     counts: dict[str, int] = {}
     blocks_text, blocks_html = [], []
@@ -55,16 +55,16 @@ def compose(alerts: list[dict], notes: dict, dashboard_url: str) -> tuple[str, s
         if a["kind"] == "dividend":
             u = a["dividend"]
             counts["dividend worth a look"] = counts.get("dividend worth a look", 0) + 1
-            title = f"{u['symbol']}: dividend Rs {u['amount_per_share']:.2f} per share ({u['yield_pct']}% yield), worth a look"
+            title = f"{u['symbol']}: dividend {currency} {u['amount_per_share']:.2f} per share ({u['yield_pct']}% yield), worth a look"
             lines = [f"Last day to buy: {u['last_buy_date']}; ex-dividend day: {u['ex_date']}",
-                     f"Expected price drop on the ex-dividend day: about Rs {u['expected_drop_rs']}",
+                     f"Expected price drop on the ex-dividend day: about {currency} {u['expected_drop_rs']}",
                      f"Analyst signal: {LABEL.get(u['signal'], u['signal'])} (score {u['score']})", *u["reasons"]]
         else:
             card = a["card"]
             label = LABEL.get(card["signal"], card["signal"])
             counts[label] = counts.get(label, 0) + 1
             held = " (you hold this share)" if a["kind"] == "holding" else ""
-            title = f"{card['symbol']} {card.get('name', '')}: {label}{held}, score {card['score']} of 100, Rs {card['price']}"
+            title = f"{card['symbol']} {card.get('name', '')}: {label}{held}, score {card['score']} of 100, {currency} {card['price']}"
             lines = top_reasons(card)
             if card.get("red_flags"):
                 lines.append("Warning: " + "; ".join(card["red_flags"]))
@@ -75,7 +75,7 @@ def compose(alerts: list[dict], notes: dict, dashboard_url: str) -> tuple[str, s
         blocks_text.append(title + "\n" + "\n".join(f"  - {line}" for line in lines))
         blocks_html.append(f"<h3 style='margin:18px 0 4px'>{html.escape(title)}</h3><ul style='margin:0'>"
                            + "".join(f"<li>{html.escape(str(line))}</li>" for line in lines) + "</ul>")
-    subject = "BetaLens: " + ", ".join(f"{n} {k}" for k, n in counts.items())
+    subject = f"BetaLens{(' ' + market) if market else ''}: " + ", ".join(f"{n} {k}" for k, n in counts.items())
     link_text = f"\n\nDashboard: {dashboard_url}" if dashboard_url else ""
     link_html = f"<p><a href='{html.escape(dashboard_url, quote=True)}'>Open the dashboard</a></p>" if dashboard_url else ""
     text = "\n\n".join(blocks_text) + link_text + f"\n\n{DISCLAIMER}\n"
