@@ -159,3 +159,25 @@ def test_older_session_never_replaces_a_newer_price():
 def test_watchlist_carries_trade_date():
     q = parsers.parse_nasdaq_watchlist(read("nasdaq_watchlist.json"))
     assert q["NVDA"]["trade_date"] == "2026-11-17"
+
+
+def test_batches_behind_the_newest_session_are_fetched_again():
+    import json as _json
+
+    def answer(symbols, day, price):
+        return _json.dumps({"data": [{"symbol": s, "lastSalePrice": f"${price}", "previousClosePrice": 100,
+                                      "lastTradeTimestampDateTime": f"{day}T00:00:00", "marketStatus": "Market Closed"}
+                                     for s in symbols]})
+
+    class Flaky:   # first answer for the second batch is Monday's; Nasdaq gets it right on the next try
+        calls = 0
+
+        def quote_batch(self, symbols):
+            self.calls += 1
+            stale = symbols == ["C", "D"] and self.calls == 2
+            return answer(symbols, "2026-11-16" if stale else "2026-11-17", 110 if stale else 111)
+
+    src = Flaky()
+    q = parsers.fetch_latest_quotes(src, ["A", "B", "C", "D"], batch=2, pause=0)
+    assert {s: v["trade_date"] for s, v in q.items()} == dict.fromkeys("ABCD", "2026-11-17")
+    assert q["C"]["price"] == 111 and src.calls == 3

@@ -44,9 +44,7 @@ def run() -> int:
         return 1
     symbols = {k["symbol"] for k in json.loads(scores_path.read_text())["scores"]}
     src = UsSources()
-    quotes = {}
-    for text in src.quotes(sorted(symbols)):
-        quotes.update(parsers.parse_nasdaq_watchlist(text))
+    quotes = parsers.fetch_latest_quotes(src, sorted(symbols))
     live_path = OUT / "us_live.json"
     saved = json.loads(live_path.read_text()).get("prices", {}) if live_path.exists() else {}
     quotes, kept = parsers.keep_fresher(quotes, saved)

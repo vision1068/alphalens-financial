@@ -168,8 +168,7 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     days = BACKTEST_HISTORY_DAYS if backtest else DAILY_HISTORY_DAYS
     live = {}
     try:
-        for text in src.quotes([r["symbol"] for r in universe]):
-            live.update(parsers.parse_nasdaq_watchlist(text))
+        live = parsers.fetch_latest_quotes(src, [r["symbol"] for r in universe])
     except Exception as e:  # fall back to each company's last close from its price history
         print(f"US quotes failed ({type(e).__name__}); using last closes", file=sys.stderr)
     live_path = OUT / "us_live.json"
