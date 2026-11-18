@@ -14,9 +14,9 @@ WEB_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHT
 today = date.today()
 SEC_UA2 = {"User-Agent": "BetaLens Financial admin@example.com", "Accept-Encoding": "gzip, deflate"}
 CALLS = [
-    ("screener_now.json", "https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true", WEB_UA),
-    ("info_NVDA.json", "https://api.nasdaq.com/api/quote/NVDA/info?assetclass=stocks", WEB_UA),
-    ("watchlist.json", "https://api.nasdaq.com/api/quote/watchlist?symbol=nvda%7cstocks&symbol=aapl%7cstocks&symbol=brk.b%7cstocks&symbol=msft%7cstocks", WEB_UA),
+    ("watchlist_closed.json", "https://api.nasdaq.com/api/quote/watchlist?symbol=nem%7cstocks&symbol=nvda%7cstocks&symbol=aapl%7cstocks", WEB_UA),
+    ("info_NEM_closed.json", "https://api.nasdaq.com/api/quote/NEM/info?assetclass=stocks", WEB_UA),
+    ("hist_NEM_closed.json", f"https://api.nasdaq.com/api/quote/NEM/historical?assetclass=stocks&fromdate={today - timedelta(days=10)}&todate={today}&limit=10", WEB_UA),
 ]
 status = []
 for name, url, headers in CALLS:
