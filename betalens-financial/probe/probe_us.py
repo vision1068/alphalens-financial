@@ -1,31 +1,30 @@
-"""One-off: fetch candidate free US data endpoints and save raw responses."""
+"""One-off: does Nasdaq's watchlist serve a stale cached copy for a repeated URL? Same batch with and
+without a cache-busting parameter, plus Cache-Control: no-cache."""
 import json
 import pathlib
+import sys
 import time
-from datetime import date, timedelta
 
 import requests
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
+from betalens.us.sources import BROWSER  # noqa: E402
+
 OUT = pathlib.Path(__file__).parent / "out_us"
 OUT.mkdir(exist_ok=True)
-SEC_UA = {"User-Agent": "BetaLens research betalens-bot@users.noreply.github.com"}
-WEB_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
-          "Accept": "application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.9"}
-today = date.today()
-SEC_UA2 = {"User-Agent": "BetaLens Financial admin@example.com", "Accept-Encoding": "gzip, deflate"}
-CALLS = [
-    ("watchlist_closed.json", "https://api.nasdaq.com/api/quote/watchlist?symbol=nem%7cstocks&symbol=nvda%7cstocks&symbol=aapl%7cstocks", WEB_UA),
-    ("info_NEM_closed.json", "https://api.nasdaq.com/api/quote/NEM/info?assetclass=stocks", WEB_UA),
-    ("hist_NEM_closed.json", f"https://api.nasdaq.com/api/quote/NEM/historical?assetclass=stocks&fromdate={today - timedelta(days=10)}&todate={today}&limit=10", WEB_UA),
-]
-status = []
-for name, url, headers in CALLS:
-    try:
-        r = requests.get(url, headers=headers, timeout=60)
-        (OUT / name).write_bytes(r.content)
-        status.append(f"{name} {r.status_code} {len(r.content)}")
-    except Exception as e:  # one-off probe: record and continue
-        status.append(f"{name} ERROR {type(e).__name__}: {e}")
-    time.sleep(1)
-(OUT / "_status.txt").write_text("\n".join(status) + "\n")
-print("\n".join(status))
+syms = json.loads((OUT.parents[1] / "data" / "latest" / "us_live.json").read_text())["prices"]
+batch = sorted(syms)[:20]
+base = "https://api.nasdaq.com/api/quote/watchlist?" + "&".join(f"symbol={s.lower()}%7cstocks" for s in batch)
+lines = []
+for label, url, extra in [("same_url", base, {}), ("cache_buster", f"{base}&_={int(time.time())}", {}),
+                          ("no_cache_header", base, {"Cache-Control": "no-cache", "Pragma": "no-cache"}),
+                          ("same_url_again", base, {})]:
+    r = requests.get(url, headers={**BROWSER, **extra}, timeout=60)
+    rows = (r.json().get("data") or [])
+    dates = sorted({(x.get("lastTradeTimestampDateTime") or "")[:10] for x in rows})
+    lines.append(f"{label}: HTTP {r.status_code}, {len(rows)} rows, trade dates {dates}, "
+                 f"age={r.headers.get('Age')} cache={r.headers.get('X-Cache') or r.headers.get('x-akamai-cache')} "
+                 f"first={rows[0]['symbol'] if rows else None} {rows[0].get('lastSalePrice') if rows else None}")
+    time.sleep(2)
+(OUT / "cache_test.txt").write_text("\n".join(lines) + "\n")
+print("\n".join(lines))
