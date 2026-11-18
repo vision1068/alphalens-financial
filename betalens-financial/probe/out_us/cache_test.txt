@@ -1,0 +1,4 @@
+same_url: HTTP 200, 20 rows, trade dates ['2026-11-16'], age=None cache=None first=A $172.97
+cache_buster: HTTP 200, 20 rows, trade dates ['2026-11-16'], age=None cache=None first=A $172.97
+no_cache_header: HTTP 200, 20 rows, trade dates ['2026-11-16'], age=None cache=None first=A $172.97
+same_url_again: HTTP 200, 20 rows, trade dates ['2026-11-16'], age=None cache=None first=A $172.97
