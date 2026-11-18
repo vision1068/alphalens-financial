@@ -183,8 +183,25 @@ def parse_nasdaq_watchlist(text: str) -> dict[str, dict]:
             "change_pct": round(100 * change / prev, 2) if prev and change is not None else None,
             "volume": _money(r.get("volume")), "market_status": r.get("marketStatus", ""),
             "last_trade": r.get("lastTradeTimestampDateTime") or r.get("lastTradeTimestamp"),
+            "trade_date": (r.get("lastTradeTimestampDateTime") or "")[:10] or None,
         }
     return out
+
+
+def keep_fresher(new: dict[str, dict], old: dict[str, dict]) -> tuple[dict[str, dict], int]:
+    """Merge quotes, never letting an older trading session replace a newer one.
+
+    Late at night Nasdaq sometimes serves the previous session again (seen 18 Nov 2026 02:51 UTC: Monday's
+    prices after Tuesday's close). Each quote carries the date of its last trade; a quote whose date is older
+    than the one already saved is ignored and the saved price is kept. Returns (merged, number kept)."""
+    merged, kept = dict(new), 0
+    for symbol, saved in (old or {}).items():
+        fresh = new.get(symbol)
+        saved_date = saved.get("trade_date")
+        if fresh is None or (saved_date and (fresh.get("trade_date") or "") < saved_date):
+            merged[symbol] = saved
+            kept += fresh is not None
+    return merged, kept
 
 
 def parse_nasdaq_dividend_history(text: str) -> list[dict]:
