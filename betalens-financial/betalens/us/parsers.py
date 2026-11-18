@@ -188,21 +188,6 @@ def parse_nasdaq_watchlist(text: str) -> dict[str, dict]:
     return out
 
 
-def keep_fresher(new: dict[str, dict], old: dict[str, dict]) -> tuple[dict[str, dict], int]:
-    """Merge quotes, never letting an older trading session replace a newer one.
-
-    Late at night Nasdaq sometimes serves the previous session again (seen 18 Nov 2026 02:51 UTC: Monday's
-    prices after Tuesday's close). Each quote carries the date of its last trade; a quote whose date is older
-    than the one already saved is ignored and the saved price is kept. Returns (merged, number kept)."""
-    merged, kept = dict(new), 0
-    for symbol, saved in (old or {}).items():
-        fresh = new.get(symbol)
-        saved_date = saved.get("trade_date")
-        if fresh is None or (saved_date and (fresh.get("trade_date") or "") < saved_date):
-            merged[symbol] = saved
-            kept += fresh is not None
-    return merged, kept
-
 
 def parse_nasdaq_dividend_history(text: str) -> list[dict]:
     """Nasdaq /api/quote/{symbol}/dividends: cash dividends as payout dicts, newest first."""
@@ -241,25 +226,3 @@ def parse_nasdaq_dividend_calendar(text: str) -> list[dict]:
                     "book_closure_from": None, "book_closure_to": None})
     return out
 
-
-def fetch_latest_quotes(src, symbols: list[str], batch: int = 20, retries: int = 4, pause: float = 3.0) -> dict[str, dict]:
-    """Quotes for all symbols, re-asking any batch that comes back from an older trading session.
-
-    Nasdaq's servers are not always in step: outside trading hours the same request can return the latest
-    session one minute and the session before it the next (seen 18 Nov 2026). The newest trade date seen in
-    the run is taken as the truth; batches behind it are fetched again, up to `retries` times."""
-    import time
-
-    batches = [symbols[i:i + batch] for i in range(0, len(symbols), batch)]
-    quotes: dict[str, dict] = {}
-    for b in batches:
-        quotes.update(parse_nasdaq_watchlist(src.quote_batch(b)))
-    for _ in range(retries):
-        newest = max((q.get("trade_date") or "" for q in quotes.values()), default="")
-        behind = [b for b in batches if any((quotes.get(s, {}).get("trade_date") or "") < newest for s in b if s in quotes)]
-        if not behind:
-            break
-        time.sleep(pause)
-        for b in behind:
-            quotes, _ = keep_fresher(quotes, parse_nasdaq_watchlist(src.quote_batch(b)))  # newer answer wins
-    return quotes

@@ -60,7 +60,7 @@ jobs:
             for f in data/latest/scores.json data/latest/dividends.json data/latest/dividend_agent.json \
                      data/latest/analyst_notes.json data/backtest data/signal_log.csv data/alert_state.json \
                      data/latest/us_scores.json data/latest/us_dividend_agent.json data/signal_log_us.csv \
-                     data/alert_state_us.json; do
+                     data/alert_state_us.json data/latest/us_live.json; do
               [ -e "$f" ] && git add "$f"
             done
             git diff --cached --quiet && exit 0

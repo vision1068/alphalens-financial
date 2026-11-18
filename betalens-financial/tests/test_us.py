@@ -142,42 +142,65 @@ def test_watchlist_quotes_are_live_and_measured_from_previous_close():
     assert "BRK.B" in q and parsers.parse_nasdaq_watchlist('{"data":null}') == {}
 
 
-def test_older_session_never_replaces_a_newer_price():
-    """18 Nov 2026 02:51 UTC: Nasdaq served Monday's NEM ($110.34) after Tuesday's close ($111.26)."""
-    saved = {"NEM": {"price": 111.33, "trade_date": "2026-11-17"}, "OLD": {"price": 5.0, "trade_date": None}}
-    new = {"NEM": {"price": 110.34, "trade_date": "2026-11-16"}, "OLD": {"price": 6.0, "trade_date": "2026-11-17"},
-           "NEW": {"price": 7.0, "trade_date": "2026-11-17"}}
-    merged, kept = parsers.keep_fresher(new, saved)
-    assert merged["NEM"]["price"] == 111.33 and kept == 1
-    assert merged["OLD"]["price"] == 6.0 and merged["NEW"]["price"] == 7.0
-    same_day = parsers.keep_fresher({"NEM": {"price": 111.5, "trade_date": "2026-11-17"}}, saved)[0]
-    assert same_day["NEM"]["price"] == 111.5          # later trade on the same day still updates
-    next_day = parsers.keep_fresher({"NEM": {"price": 112.0, "trade_date": "2026-11-18"}}, saved)[0]
-    assert next_day["NEM"]["price"] == 112.0
-
-
 def test_watchlist_carries_trade_date():
     q = parsers.parse_nasdaq_watchlist(read("nasdaq_watchlist.json"))
     assert q["NVDA"]["trade_date"] == "2026-11-17"
 
 
-def test_batches_behind_the_newest_session_are_fetched_again():
+
+def _q(price, prev, status="Market Open"):
+    return {"price": price, "previous_close": prev, "change": round(price - prev, 4), "market_status": status}
+
+
+def test_closed_market_quote_never_replaces_the_saved_price():
+    """18 Nov 2026 02:51 UTC: closed market, Nasdaq served Monday's NEM ($110.34) instead of Tuesday's."""
+    from betalens.us import quotes
+    saved = {"NEM": {**_q(111.26, 110.31, "After Hours"), "session": "2026-11-17"}}
+    out, _ = quotes.choose({"NEM": _q(110.34, 113.14, "Market Closed")}, saved, "2026-11-17")
+    assert out["NEM"]["price"] == 111.26 and out["NEM"]["market_status"] == "Market Closed"
+
+
+def test_open_market_quote_from_an_older_day_is_rejected():
+    from betalens.us import quotes
+    saved = {"NEM": {**_q(111.26, 110.31), "session": "2026-11-17"}}
+    # Wednesday pre-market: a real Wednesday quote measures against Tuesday's close
+    assert quotes.acceptable(_q(112.0, 111.26, "Pre Market"), saved["NEM"], "2026-11-18")
+    # the same Tuesday answer served again on Wednesday repeats Tuesday's previous close: rejected
+    assert not quotes.acceptable(_q(111.26, 110.31), saved["NEM"], "2026-11-18")
+    # same day: a later trade is taken, an answer from the day before is not
+    assert quotes.acceptable(_q(111.5, 110.31, "After Hours"), saved["NEM"], "2026-11-17")
+    assert not quotes.acceptable(_q(110.34, 113.14, "After Hours"), saved["NEM"], "2026-11-17")
+    # nothing saved yet: take it
+    assert quotes.acceptable(_q(110.0, 109.0), None, "2026-11-17")
+
+
+def test_out_of_date_batches_are_asked_again():
     import json as _json
 
-    def answer(symbols, day, price):
-        return _json.dumps({"data": [{"symbol": s, "lastSalePrice": f"${price}", "previousClosePrice": 100,
-                                      "lastTradeTimestampDateTime": f"{day}T00:00:00", "marketStatus": "Market Closed"}
-                                     for s in symbols]})
+    from betalens.us import quotes
 
-    class Flaky:   # first answer for the second batch is Monday's; Nasdaq gets it right on the next try
+    def answer(symbols, price, prev):
+        return _json.dumps({"data": [{"symbol": s, "lastSalePrice": f"${price}", "previousClosePrice": prev,
+                                      "marketStatus": "After Hours"} for s in symbols]})
+
+    class Flaky:   # the second batch first comes back with Monday's answer, then Tuesday's
         calls = 0
 
         def quote_batch(self, symbols):
             self.calls += 1
             stale = symbols == ["C", "D"] and self.calls == 2
-            return answer(symbols, "2026-11-16" if stale else "2026-11-17", 110 if stale else 111)
+            return answer(symbols, 110.34, 113.14) if stale else answer(symbols, 111.3, 110.31)
 
+    saved = {s: {**_q(111.0, 110.31, "Market Open"), "session": "2026-11-17"} for s in "ABCD"}
     src = Flaky()
-    q = parsers.fetch_latest_quotes(src, ["A", "B", "C", "D"], batch=2, pause=0)
-    assert {s: v["trade_date"] for s, v in q.items()} == dict.fromkeys("ABCD", "2026-11-17")
-    assert q["C"]["price"] == 111 and src.calls == 3
+    out, rejected = quotes.fetch(src, list("ABCD"), saved, "2026-11-17", batch=2, pause=0)
+    assert all(out[s]["price"] == 111.3 for s in "ABCD") and rejected == 0 and src.calls == 3
+
+
+def test_official_close_from_history():
+    from betalens.us import quotes
+    hist = [{"date": date(2026, 11, 16), "close": 110.31, "volume": 5804493.0},
+            {"date": date(2026, 11, 17), "close": 111.26, "volume": 7149516.0}]
+    off = quotes.official_close(hist, {"price": 110.34, "previous_close": 113.14})
+    assert off["price"] == 111.26 and off["change_pct"] == 0.86 and off["session"] == "2026-11-17"
+    assert quotes.official_close(hist, {"session": "2026-11-18"}) is None   # never go back a day
