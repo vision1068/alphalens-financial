@@ -5,10 +5,14 @@
   publish = "."
   ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- ."
 
+# The Refresh button's helper (netlify/functions/refresh.mjs); free-plan functions are enough for this.
+[functions]
+  directory = "netlify/functions"
+
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
-    Content-Security-Policy = "default-src 'self'; connect-src https://raw.githubusercontent.com; style-src 'self'; script-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'"
+    Content-Security-Policy = "default-src 'self'; connect-src 'self' https://raw.githubusercontent.com; style-src 'self'; script-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'"

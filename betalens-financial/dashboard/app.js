@@ -428,30 +428,72 @@ async function loadMarket(m) {
 }
 
 let refreshing = false;
-async function refresh() {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const clock = () => new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+
+async function reloadAll() {
+  const results = await Promise.allSettled(Object.keys(MARKETS).map((m) => loadMarket(m)));
+  const failed = Object.keys(MARKETS).filter((m, i) => results[i].status === "rejected");
+  failed.forEach((m) => {
+    if (!state[m].loaded) $(`${m}-status`).textContent = "This data could not be loaded yet.";
+  });
+  const parts = Object.keys(MARKETS).filter((m) => state[m].meta)
+    .map((m) => `${MARKETS[m].name}: ${timeFmt(state[m].meta.generated_at)}`);
+  $("updated").textContent = parts.length ? `Daily analysis · ${parts.join(" · ")}` : "Data could not be loaded.";
+  return failed;
+}
+
+// Ask the site's helper (/api/refresh) to start the PSX and US live-price jobs now. Returns the markets
+// whose job was started or is already running, or null when the helper is not set up or not reachable.
+async function startPriceJobs() {
+  try {
+    const res = await fetch("/api/refresh", { method: "POST", signal: AbortSignal.timeout(15000) });
+    const body = await res.json();
+    if (!body.ok) return null;
+    return Object.keys(body.jobs).filter((m) => ["started", "already_running"].includes(body.jobs[m]));
+  } catch {
+    return null;
+  }
+}
+
+// fetchNew = true (the button): fetch brand-new prices, wait for them (about 1-3 minutes), then show them.
+// fetchNew = false (page load and the 10-minute timer): just reload the latest saved data.
+async function refresh(fetchNew = false) {
   if (refreshing) return;
   refreshing = true;
   const btn = $("refreshBtn");
   btn.className = "refresh busy";
-  btn.textContent = "Refreshing…";
   btn.disabled = true;
-  const results = await Promise.allSettled(Object.keys(MARKETS).map((m) => loadMarket(m)));
-  const failed = Object.keys(MARKETS).filter((m, i) => results[i].status === "rejected");
-  const time = new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+  let note = "";
+  if (fetchNew) {
+    btn.textContent = "Asking for new prices…";
+    const before = Object.fromEntries(Object.keys(MARKETS).map((m) => [m, Date.parse(state[m].live?.as_of || 0) || 0]));
+    const markets = await startPriceJobs();
+    if (markets && markets.length) {
+      const deadline = Date.now() + 6 * 60 * 1000;
+      let waiting = markets;
+      while (waiting.length && Date.now() < deadline) {
+        btn.textContent = `Fetching new prices… (${waiting.map((m) => MARKETS[m].name).join(", ")}, 1–3 min)`;
+        await sleep(20000);
+        await Promise.allSettled(waiting.map((m) => loadMarket(m)));
+        waiting = waiting.filter((m) => !(Date.parse(state[m].live?.as_of || 0) > before[m]));
+      }
+      note = waiting.length ? " · new prices still on the way" : "";
+    } else {
+      note = " · saved data (live fetch unavailable)";
+    }
+  } else {
+    btn.textContent = "Refreshing…";
+  }
+  const failed = await reloadAll();
   if (!failed.length) {
     btn.className = "refresh ok";
-    btn.textContent = `✓ Data refreshed ${time}`;
+    btn.textContent = `✓ ${fetchNew && !note ? "Prices updated" : "Data refreshed"} ${clock()}${note}`;
     $("error").hidden = true;
   } else {
     btn.className = "refresh fail";
     btn.textContent = `${failed.map((m) => MARKETS[m].name).join(" and ")} failed to refresh, tap to retry`;
-    failed.forEach((m) => {
-      if (!state[m].loaded) $(`${m}-status`).textContent = "This data could not be loaded yet.";
-    });
   }
-  const parts = Object.keys(MARKETS).filter((m) => state[m].meta)
-    .map((m) => `${MARKETS[m].name}: ${timeFmt(state[m].meta.generated_at)}`);
-  $("updated").textContent = parts.length ? `Daily analysis · ${parts.join(" · ")}` : "Data could not be loaded.";
   btn.disabled = false;
   refreshing = false;
 }
@@ -462,7 +504,7 @@ function wire() {
     document.querySelectorAll("main > section").forEach((s) => { s.hidden = s.id !== b.dataset.tab; });
   }));
   $("dClose").addEventListener("click", () => $("detail").close());
-  $("refreshBtn").addEventListener("click", refresh);
+  $("refreshBtn").addEventListener("click", () => refresh(true));
 }
 
 function main() {
@@ -470,6 +512,6 @@ function main() {
   wire();
   renderManualForm();
   refresh();
-  setInterval(refresh, 10 * 60 * 1000);   // pick up the 30-minute price updates while the page stays open
+  setInterval(() => refresh(), 10 * 60 * 1000);   // pick up the 30-minute price updates while the page stays open
 }
 main();

@@ -172,6 +172,11 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
             live.update(parsers.parse_nasdaq_watchlist(text))
     except Exception as e:  # fall back to each company's last close from its price history
         print(f"US quotes failed ({type(e).__name__}); using last closes", file=sys.stderr)
+    live_path = OUT / "us_live.json"
+    if live_path.exists():  # never price the scores with an older session than the 30-minute job already saved
+        live, kept = parsers.keep_fresher(live, json.loads(live_path.read_text()).get("prices", {}))
+        if kept:
+            print(f"Kept the saved live price for {kept} symbols (Nasdaq returned an older session)", file=sys.stderr)
     index_by_date = {p["date"]: p["close"] for p in fetch_history(src, "SPY", days, "etf")}
     print(f"US benchmark (SPY): {len(index_by_date)} trading days")
 

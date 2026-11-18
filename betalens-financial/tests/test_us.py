@@ -140,3 +140,22 @@ def test_watchlist_quotes_are_live_and_measured_from_previous_close():
     assert nvda["price"] == 155.5601 and nvda["previous_close"] == 156.14 and nvda["market_status"] == "After Hours"
     assert nvda["change"] == round(155.5601 - 156.14, 4) and nvda["change_pct"] == -0.37
     assert "BRK.B" in q and parsers.parse_nasdaq_watchlist('{"data":null}') == {}
+
+
+def test_older_session_never_replaces_a_newer_price():
+    """18 Nov 2026 02:51 UTC: Nasdaq served Monday's NEM ($110.34) after Tuesday's close ($111.26)."""
+    saved = {"NEM": {"price": 111.33, "trade_date": "2026-11-17"}, "OLD": {"price": 5.0, "trade_date": None}}
+    new = {"NEM": {"price": 110.34, "trade_date": "2026-11-16"}, "OLD": {"price": 6.0, "trade_date": "2026-11-17"},
+           "NEW": {"price": 7.0, "trade_date": "2026-11-17"}}
+    merged, kept = parsers.keep_fresher(new, saved)
+    assert merged["NEM"]["price"] == 111.33 and kept == 1
+    assert merged["OLD"]["price"] == 6.0 and merged["NEW"]["price"] == 7.0
+    same_day = parsers.keep_fresher({"NEM": {"price": 111.5, "trade_date": "2026-11-17"}}, saved)[0]
+    assert same_day["NEM"]["price"] == 111.5          # later trade on the same day still updates
+    next_day = parsers.keep_fresher({"NEM": {"price": 112.0, "trade_date": "2026-11-18"}}, saved)[0]
+    assert next_day["NEM"]["price"] == 112.0
+
+
+def test_watchlist_carries_trade_date():
+    q = parsers.parse_nasdaq_watchlist(read("nasdaq_watchlist.json"))
+    assert q["NVDA"]["trade_date"] == "2026-11-17"
