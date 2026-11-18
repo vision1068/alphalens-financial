@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated_at": "2026-11-18T05:40:06+00:00",
+  "generated_at": "2026-11-18T13:22:53+00:00",
   "period_years": 3,
-  "companies": 67,
+  "companies": 68,
   "errors": {},
   "universe": "Shariah-compliant (KMIALLSHR) members of KSE100, plus Shariah-compliant companies with a cash dividend closing within 30 days",
   "shariah_only": true
@@ -19,8 +19,8 @@
    "stage": "final",
    "percent": 25.0,
    "amount_per_share": 0.5,
-   "price": 73.01,
-   "yield_pct": 0.68,
+   "price": 72.79,
+   "yield_pct": 0.69,
    "book_closure_from": "2026-11-19",
    "book_closure_to": "2026-11-27",
    "payment_date": null,
@@ -29,7 +29,7 @@
    "expected_drop_rs": 0.45,
    "expected_drop_basis": "market average",
    "median_recovery_days": null,
-   "score": 50.3,
+   "score": 50.0,
    "signal": "HOLD",
    "verdict": "SKIP",
    "reasons": [
@@ -43,8 +43,8 @@
    "stage": "final",
    "percent": 30.0,
    "amount_per_share": 3.0,
-   "price": 94.08,
-   "yield_pct": 3.19,
+   "price": 94.75,
+   "yield_pct": 3.17,
    "book_closure_from": "2026-11-20",
    "book_closure_to": "2026-11-27",
    "payment_date": null,
@@ -53,7 +53,7 @@
    "expected_drop_rs": 2.54,
    "expected_drop_basis": "own history",
    "median_recovery_days": 9.0,
-   "score": 58.0,
+   "score": 57.8,
    "signal": "HOLD",
    "verdict": "SKIP",
    "reasons": [
@@ -1854,7 +1854,7 @@
    "median_drop_ratio": 1.04,
    "median_recovery_days": 6,
    "quick_recovery_share": 0.86,
-   "avg_capture_10d_pct": 2.22,
+   "avg_capture_10d_pct": 2.68,
    "recent": [
     {
      "ex_date": "2026-11-03",
@@ -1865,7 +1865,8 @@
      "drop_ratio": 0.68,
      "recovery_days": 1,
      "recovery_known": true,
-     "capture_5d_pct": 8.43
+     "capture_5d_pct": 8.43,
+     "capture_10d_pct": 5.47
     },
     {
      "ex_date": "2026-05-05",
@@ -2098,7 +2099,8 @@
      "recovery_days": 1,
      "recovery_known": true,
      "capture_5d_pct": 0.31,
-     "capture_10d_pct": 0.74
+     "capture_10d_pct": 0.74,
+     "capture_20d_pct": 5.37
     },
     {
      "ex_date": "2025-10-17",
@@ -2285,7 +2287,8 @@
      "yield_pct": 0.88,
      "drop_ratio": 1.12,
      "recovery_days": null,
-     "recovery_known": false
+     "recovery_known": false,
+     "capture_5d_pct": -1.33
     },
     {
      "ex_date": "2026-10-20",
@@ -2297,7 +2300,8 @@
      "recovery_days": 12,
      "recovery_known": true,
      "capture_5d_pct": 1.11,
-     "capture_10d_pct": 0.03
+     "capture_10d_pct": 0.03,
+     "capture_20d_pct": 4.58
     },
     {
      "ex_date": "2026-05-13",
@@ -2370,7 +2374,8 @@
      "recovery_days": 15,
      "recovery_known": true,
      "capture_5d_pct": -0.88,
-     "capture_10d_pct": -2.46
+     "capture_10d_pct": -2.46,
+     "capture_20d_pct": 1.1
     },
     {
      "ex_date": "2025-10-15",

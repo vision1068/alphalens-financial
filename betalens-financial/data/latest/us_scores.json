@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-18T06:03:28+00:00",
+  "generated_at": "2026-11-18T13:54:23+00:00",
   "market": "US",
   "universe": "S&P 500",
   "period_years": 3,
@@ -370,7 +370,7 @@
     },
     {
      "name": "valuation",
-     "score": 97.9,
+     "score": 98.0,
      "weight": 20,
      "reasons": [
       "P/E 11.7",
@@ -379,7 +379,7 @@
     },
     {
      "name": "dividend",
-     "score": 75.2,
+     "score": 75.4,
      "weight": 10,
      "reasons": [
       "Dividend yield 2.1%",
@@ -400,9 +400,9 @@
    "red_flags": [],
    "name": "APA Corporation",
    "sector": "ENERGY",
-   "price": 46.88,
+   "price": 46.5,
    "market": "US",
-   "change_pct": -0.89
+   "change_pct": -0.81
   },
   {
    "symbol": "ACGL",
@@ -549,7 +549,7 @@
      "weight": 20,
      "reasons": [
       "P/E 8.3",
-      "0.26x the sector median P/E of 32.5"
+      "0.26x the sector median P/E of 32.4"
      ]
     },
     {
@@ -1048,7 +1048,7 @@
      "weight": 20,
      "reasons": [
       "P/E 13.3",
-      "0.41x the sector median P/E of 32.5"
+      "0.41x the sector median P/E of 32.4"
      ]
     },
     {
@@ -2419,7 +2419,7 @@
      "weight": 20,
      "reasons": [
       "P/E 18.6",
-      "0.57x the sector median P/E of 32.5"
+      "0.57x the sector median P/E of 32.4"
      ]
     },
     {
@@ -3316,7 +3316,7 @@
      "weight": 20,
      "reasons": [
       "P/E 22.8",
-      "0.70x the sector median P/E of 32.5"
+      "0.70x the sector median P/E of 32.4"
      ]
     },
     {
@@ -3344,7 +3344,7 @@
    "sector": "HEALTH CARE",
    "price": 237.85,
    "market": "US",
-   "change_pct": -0.14
+   "change_pct": 0.0
   },
   {
    "symbol": "SYF",
@@ -4661,7 +4661,7 @@
     },
     {
      "name": "valuation",
-     "score": 83.3,
+     "score": 83.2,
      "weight": 20,
      "reasons": [
       "P/E 16.3",
@@ -4968,6 +4968,106 @@
    "price": 188.92,
    "market": "US",
    "change_pct": -1.26
+  },
+  {
+   "symbol": "GILD",
+   "score": 73.9,
+   "coverage_pct": 100.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 41.4,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 2.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 88.4,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 23.0% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 37.5%",
+      "Net margin 28.90% vs 16.83% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 8.38x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 38.5,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 123 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 70.9,
+     "weight": 12,
+     "reasons": [
+      "Debt is 1.10x equity",
+      "Profit covers interest 9.8x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 82.1,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.55"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 71.3,
+     "weight": 20,
+     "reasons": [
+      "P/E 24.8",
+      "0.76x the sector median P/E of 32.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 73.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.9%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 47% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 95.3,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+22.9 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Gilead Sciences",
+   "sector": "HEALTH CARE",
+   "price": 168.0824,
+   "market": "US",
+   "change_pct": 0.3
   },
   {
    "symbol": "GOOG",
@@ -5334,11 +5434,11 @@
     },
     {
      "name": "valuation",
-     "score": 83.4,
+     "score": 83.3,
      "weight": 20,
      "reasons": [
       "P/E 19.7",
-      "0.61x the sector median P/E of 32.5"
+      "0.61x the sector median P/E of 32.4"
      ]
     },
     {
@@ -5635,11 +5735,11 @@
     },
     {
      "name": "valuation",
-     "score": 76.5,
+     "score": 76.4,
      "weight": 20,
      "reasons": [
       "P/E 19.6",
-      "0.76x the sector median P/E of 26.0"
+      "0.76x the sector median P/E of 25.8"
      ]
     },
     {
@@ -6263,105 +6363,6 @@
    "change_pct": -1.92
   },
   {
-   "symbol": "GILD",
-   "score": 72.5,
-   "coverage_pct": 94.0,
-   "signal": "BUY",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 41.4,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 2.6% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 88.4,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 23.0% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 37.5%",
-      "Net margin 28.90% vs 16.83% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 8.38x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 38.5,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 123 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 70.9,
-     "weight": 12,
-     "reasons": [
-      "Debt is 1.10x equity",
-      "Profit covers interest 9.8x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 82.1,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.55"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 71.6,
-     "weight": 20,
-     "reasons": [
-      "P/E 24.7",
-      "0.76x the sector median P/E of 32.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 73.2,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.9%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 47% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs at least 200 days of price history"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Gilead Sciences",
-   "sector": "HEALTH CARE",
-   "price": 167.58,
-   "market": "US",
-   "change_pct": -0.3
-  },
-  {
    "symbol": "ADBE",
    "score": 72.3,
    "coverage_pct": 100.0,
@@ -6529,8 +6530,8 @@
      "score": 49.9,
      "weight": 20,
      "reasons": [
-      "P/E 32.5",
-      "1.00x the sector median P/E of 32.5"
+      "P/E 32.4",
+      "1.00x the sector median P/E of 32.4"
      ]
     },
     {
@@ -6556,9 +6557,9 @@
    "red_flags": [],
    "name": "Steris",
    "sector": "HEALTH CARE",
-   "price": 257.41,
+   "price": 257.0,
    "market": "US",
-   "change_pct": -1.72
+   "change_pct": -1.62
   },
   {
    "symbol": "VZ",
@@ -7124,11 +7125,11 @@
     },
     {
      "name": "valuation",
-     "score": 77.5,
+     "score": 77.4,
      "weight": 20,
      "reasons": [
       "P/E 22.2",
-      "0.68x the sector median P/E of 32.5"
+      "0.68x the sector median P/E of 32.4"
      ]
     },
     {
@@ -7433,6 +7434,106 @@
    "change_pct": 0.0
   },
   {
+   "symbol": "TPR",
+   "score": 71.3,
+   "coverage_pct": 100.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 50.8,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 6.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 83.3,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 23.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 96.8,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 220.7%",
+      "Net margin 19.09% vs 14.05% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 3.16x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 74.4,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 61 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 40.0,
+     "weight": 12,
+     "reasons": [
+      "Debt is 3.46x equity",
+      "Profit covers interest 16.0x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 90.1,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.75"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 81.0,
+     "weight": 20,
+     "reasons": [
+      "P/E 17.4",
+      "0.72x the sector median P/E of 24.3"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 66.8,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.3%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 22% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 28.0,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "+12.0 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Tapestry, Inc.",
+   "sector": "CONSUMER DISCRETIONARY",
+   "price": 126.7,
+   "market": "US",
+   "change_pct": -0.27
+  },
+  {
    "symbol": "BKNG",
    "score": 71.2,
    "coverage_pct": 92.0,
@@ -7533,206 +7634,6 @@
    "change_pct": -1.95
   },
   {
-   "symbol": "TPR",
-   "score": 71.2,
-   "coverage_pct": 100.0,
-   "signal": "BUY",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 50.8,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 6.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 83.3,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 23.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 96.8,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 220.7%",
-      "Net margin 19.09% vs 14.05% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 3.16x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 74.4,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 61 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 40.0,
-     "weight": 12,
-     "reasons": [
-      "Debt is 3.46x equity",
-      "Profit covers interest 16.0x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 90.1,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.75"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 80.8,
-     "weight": 20,
-     "reasons": [
-      "P/E 17.5",
-      "0.72x the sector median P/E of 24.3"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 66.8,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.3%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 22% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 28.0,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "+12.0 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Tapestry, Inc.",
-   "sector": "CONSUMER DISCRETIONARY",
-   "price": 127.04,
-   "market": "US",
-   "change_pct": -4.45
-  },
-  {
-   "symbol": "KMB",
-   "score": 71.1,
-   "coverage_pct": 100.0,
-   "signal": "BUY",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 12.0,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -6.6% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 53.3,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 2.0% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 95.0,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 134.6%",
-      "Net margin 12.29% vs 9.59% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.55x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle -24 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 88.9,
-     "weight": 12,
-     "reasons": [
-      "Debt is 0.46x equity",
-      "Profit covers interest 9.2x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 24.5,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.75"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 81.9,
-     "weight": 20,
-     "reasons": [
-      "P/E 17.8",
-      "0.69x the sector median P/E of 26.0"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 83.9,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 4.7%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 83% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 45.9,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-6.2 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Kimberly-Clark",
-   "sector": "CONSUMER STAPLES",
-   "price": 108.15,
-   "market": "US",
-   "change_pct": -2.87
-  },
-  {
    "symbol": "MDT",
    "score": 71.1,
    "coverage_pct": 100.0,
@@ -7798,11 +7699,11 @@
     },
     {
      "name": "valuation",
-     "score": 64.2,
+     "score": 64.1,
      "weight": 20,
      "reasons": [
       "P/E 27.4",
-      "0.85x the sector median P/E of 32.5"
+      "0.85x the sector median P/E of 32.4"
      ]
     },
     {
@@ -7933,8 +7834,108 @@
    "change_pct": -1.89
   },
   {
+   "symbol": "KMB",
+   "score": 71.0,
+   "coverage_pct": 100.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 12.0,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -6.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 53.3,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 2.0% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 95.0,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 134.6%",
+      "Net margin 12.29% vs 9.59% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.55x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle -24 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 88.9,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.46x equity",
+      "Profit covers interest 9.2x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 24.5,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.75"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 81.8,
+     "weight": 20,
+     "reasons": [
+      "P/E 17.8",
+      "0.69x the sector median P/E of 25.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 83.9,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 4.7%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 83% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 45.9,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-6.2 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Kimberly-Clark",
+   "sector": "CONSUMER STAPLES",
+   "price": 108.15,
+   "market": "US",
+   "change_pct": -2.87
+  },
+  {
    "symbol": "KDP",
-   "score": 70.9,
+   "score": 70.8,
    "coverage_pct": 100.0,
    "signal": "BUY",
    "factors": [
@@ -7997,11 +7998,11 @@
     },
     {
      "name": "valuation",
-     "score": 66.2,
+     "score": 65.9,
      "weight": 20,
      "reasons": [
       "P/E 22.7",
-      "0.88x the sector median P/E of 26.0"
+      "0.88x the sector median P/E of 25.8"
      ]
     },
     {
@@ -8233,33 +8234,34 @@
    "change_pct": -1.64
   },
   {
-   "symbol": "DVA",
+   "symbol": "KIM",
    "score": 70.7,
-   "coverage_pct": 88.0,
-   "signal": "BUY",
+   "coverage_pct": 58.0,
+   "signal": "INSUFFICIENT_DATA",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 48.8,
+     "score": 53.5,
      "weight": 12,
      "reasons": [
-      "Sales grew 5.5% a year over 3 year(s)"
+      "Sales grew 7.4% a year over 3 year(s)"
      ]
     },
     {
      "name": "earnings_growth",
-     "score": 84.1,
+     "score": null,
      "weight": 8,
      "reasons": [
-      "EPS grew 18.9% a year over 3 year(s)"
+      "EPS figures missing"
      ]
     },
     {
      "name": "profitability",
-     "score": 81.6,
+     "score": 57.7,
      "weight": 6,
      "reasons": [
-      "Net margin 5.47% vs 4.83% at the start of the period"
+      "Return on equity 5.6%",
+      "Net margin 27.32% vs 7.29% at the start of the period"
      ]
     },
     {
@@ -8267,67 +8269,67 @@
      "score": 100.0,
      "weight": 12,
      "reasons": [
-      "Operating cash flow is 2.55x reported profit"
+      "Operating cash flow is 2.00x reported profit"
      ]
     },
     {
      "name": "cash_conversion_cycle",
-     "score": 83.1,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 50 days"
-     ]
-    },
-    {
-     "name": "debt",
      "score": null,
-     "weight": 12,
+     "weight": 8,
      "reasons": [
       "Needs balance sheet data (not on the free portal page)"
      ]
     },
     {
+     "name": "debt",
+     "score": 58.7,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.74x equity",
+      "Profit covers interest 2.3x"
+     ]
+    },
+    {
      "name": "liquidity",
-     "score": 67.5,
+     "score": null,
      "weight": 6,
      "reasons": [
-      "Current ratio 1.29"
+      "Needs balance sheet data (not on the free portal page)"
      ]
     },
     {
      "name": "valuation",
-     "score": 89.0,
+     "score": null,
      "weight": 20,
      "reasons": [
-      "P/E 17.6",
-      "0.54x the sector median P/E of 32.5"
+      "P/E not available"
      ]
     },
     {
      "name": "dividend",
-     "score": 0.0,
+     "score": 84.4,
      "weight": 10,
      "reasons": [
-      "Dividend yield 0.0%",
-      "Paid a cash dividend in 0 of the last 5 fiscal years on record"
+      "Dividend yield 4.0%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record"
      ]
     },
     {
      "name": "price_trend",
-     "score": 70.0,
+     "score": 60.4,
      "weight": 6,
      "reasons": [
-      "Price is below its 200-day average",
-      "+37.5 points vs KSE-100 over about a year"
+      "Price is above its 200-day average",
+      "+15.6 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "DaVita",
-   "sector": "HEALTH CARE",
-   "price": 173.0,
+   "name": "Kimco Realty",
+   "sector": "REAL ESTATE",
+   "price": 25.273,
    "market": "US",
-   "change_pct": -0.7
+   "change_pct": -1.28
   },
   {
    "symbol": "NSC",
@@ -8430,34 +8432,33 @@
    "change_pct": -2.77
   },
   {
-   "symbol": "KIM",
+   "symbol": "DVA",
    "score": 70.6,
-   "coverage_pct": 58.0,
-   "signal": "INSUFFICIENT_DATA",
+   "coverage_pct": 88.0,
+   "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 53.5,
+     "score": 48.8,
      "weight": 12,
      "reasons": [
-      "Sales grew 7.4% a year over 3 year(s)"
+      "Sales grew 5.5% a year over 3 year(s)"
      ]
     },
     {
      "name": "earnings_growth",
-     "score": null,
+     "score": 84.1,
      "weight": 8,
      "reasons": [
-      "EPS figures missing"
+      "EPS grew 18.9% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 57.7,
+     "score": 81.6,
      "weight": 6,
      "reasons": [
-      "Return on equity 5.6%",
-      "Net margin 27.32% vs 7.29% at the start of the period"
+      "Net margin 5.47% vs 4.83% at the start of the period"
      ]
     },
     {
@@ -8465,67 +8466,67 @@
      "score": 100.0,
      "weight": 12,
      "reasons": [
-      "Operating cash flow is 2.00x reported profit"
+      "Operating cash flow is 2.55x reported profit"
      ]
     },
     {
      "name": "cash_conversion_cycle",
-     "score": null,
+     "score": 83.1,
      "weight": 8,
      "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
+      "Cash conversion cycle 50 days"
      ]
     },
     {
      "name": "debt",
-     "score": 58.7,
-     "weight": 12,
-     "reasons": [
-      "Debt is 0.74x equity",
-      "Profit covers interest 2.3x"
-     ]
-    },
-    {
-     "name": "liquidity",
      "score": null,
-     "weight": 6,
+     "weight": 12,
      "reasons": [
       "Needs balance sheet data (not on the free portal page)"
      ]
     },
     {
+     "name": "liquidity",
+     "score": 67.5,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.29"
+     ]
+    },
+    {
      "name": "valuation",
-     "score": null,
+     "score": 88.9,
      "weight": 20,
      "reasons": [
-      "P/E not available"
+      "P/E 17.6",
+      "0.54x the sector median P/E of 32.4"
      ]
     },
     {
      "name": "dividend",
-     "score": 84.1,
+     "score": 0.0,
      "weight": 10,
      "reasons": [
-      "Dividend yield 4.0%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record"
+      "Dividend yield 0.0%",
+      "Paid a cash dividend in 0 of the last 5 fiscal years on record"
      ]
     },
     {
      "name": "price_trend",
-     "score": 60.4,
+     "score": 70.0,
      "weight": 6,
      "reasons": [
-      "Price is above its 200-day average",
-      "+15.6 points vs KSE-100 over about a year"
+      "Price is below its 200-day average",
+      "+37.5 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "Kimco Realty",
-   "sector": "REAL ESTATE",
-   "price": 25.6,
+   "name": "DaVita",
+   "sector": "HEALTH CARE",
+   "price": 173.0,
    "market": "US",
-   "change_pct": -0.51
+   "change_pct": -0.7
   },
   {
    "symbol": "JNJ",
@@ -8592,11 +8593,11 @@
     },
     {
      "name": "valuation",
-     "score": 70.3,
+     "score": 70.2,
      "weight": 20,
      "reasons": [
       "P/E 25.3",
-      "0.78x the sector median P/E of 32.5"
+      "0.78x the sector median P/E of 32.4"
      ]
     },
     {
@@ -8800,6 +8801,105 @@
    "change_pct": -1.25
   },
   {
+   "symbol": "BF.B",
+   "score": 70.3,
+   "coverage_pct": 86.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 26.5,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -2.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 48.1,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -2.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 70.4,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 17.8%",
+      "Net margin 18.20% vs 18.52% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 80.7,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 0.91x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 83.8,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.64x equity",
+      "Profit covers interest 9.7x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 100,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 3.24"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 75.9,
+     "weight": 20,
+     "reasons": [
+      "P/E 19.8",
+      "0.76x the sector median P/E of 25.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 82.7,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 3.0%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 60% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs at least 200 days of price history"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Brown\u2013Forman",
+   "sector": "CONSUMER STAPLES",
+   "price": 30.24,
+   "market": "US",
+   "change_pct": null
+  },
+  {
    "symbol": "HII",
    "score": 70.3,
    "coverage_pct": 88.0,
@@ -8964,11 +9064,11 @@
     },
     {
      "name": "valuation",
-     "score": 35.2,
+     "score": 34.9,
      "weight": 20,
      "reasons": [
       "P/E 32.5",
-      "1.25x the sector median P/E of 26.0"
+      "1.26x the sector median P/E of 25.8"
      ]
     },
     {
@@ -9275,104 +9375,6 @@
    "change_pct": -1.14
   },
   {
-   "symbol": "CAH",
-   "score": 70.1,
-   "coverage_pct": 88.0,
-   "signal": "BUY",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 53.6,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 7.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 100.0,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 93.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 0.67% vs 0.13% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 2.99x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle -11 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 38.3,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.88"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 36.0,
-     "weight": 20,
-     "reasons": [
-      "P/E 38.6",
-      "1.19x the sector median P/E of 32.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 59.7,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 0.7%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 28% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 96.0,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+24.0 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Cardinal Health",
-   "sector": "HEALTH CARE",
-   "price": 279.25,
-   "market": "US",
-   "change_pct": -1.62
-  },
-  {
    "symbol": "ELV",
    "score": 70.1,
    "coverage_pct": 92.0,
@@ -9442,7 +9444,7 @@
      "weight": 20,
      "reasons": [
       "P/E 17.2",
-      "0.53x the sector median P/E of 32.5"
+      "0.53x the sector median P/E of 32.4"
      ]
     },
     {
@@ -9572,8 +9574,106 @@
    "change_pct": -2.2
   },
   {
+   "symbol": "CAH",
+   "score": 70.0,
+   "coverage_pct": 88.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 53.6,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 7.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 100.0,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 93.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 0.67% vs 0.13% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 2.99x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle -11 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 38.3,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.88"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 35.9,
+     "weight": 20,
+     "reasons": [
+      "P/E 38.6",
+      "1.19x the sector median P/E of 32.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 59.7,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 0.7%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 28% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 96.0,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+24.0 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Cardinal Health",
+   "sector": "HEALTH CARE",
+   "price": 279.25,
+   "market": "US",
+   "change_pct": -1.62
+  },
+  {
    "symbol": "PG",
-   "score": 69.9,
+   "score": 69.8,
    "coverage_pct": 100.0,
    "signal": "BUY",
    "factors": [
@@ -9637,11 +9737,11 @@
     },
     {
      "name": "valuation",
-     "score": 54.7,
+     "score": 54.4,
      "weight": 20,
      "reasons": [
       "P/E 25.9",
-      "1.00x the sector median P/E of 26.0"
+      "1.00x the sector median P/E of 25.8"
      ]
     },
     {
@@ -9670,106 +9770,6 @@
    "price": 171.72,
    "market": "US",
    "change_pct": -0.75
-  },
-  {
-   "symbol": "BMY",
-   "score": 69.8,
-   "coverage_pct": 100.0,
-   "signal": "BUY",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 38.6,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 1.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 57.9,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 5.5% a year over 3 year(s)",
-      "At least one loss-making year in the period"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 84.5,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 38.2%",
-      "Net margin 14.64% vs 13.71% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.87x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 83.8,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 49 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 9.0,
-     "weight": 12,
-     "reasons": [
-      "Debt is 2.55x equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 65.3,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.26"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 88.6,
-     "weight": 20,
-     "reasons": [
-      "P/E 17.7",
-      "0.55x the sector median P/E of 32.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 84.2,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 4.1%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 72% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 92.9,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+19.4 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Bristol Myers Squibb",
-   "sector": "HEALTH CARE",
-   "price": 61.35,
-   "market": "US",
-   "change_pct": -2.51
   },
   {
    "symbol": "UPS",
@@ -9870,6 +9870,106 @@
    "price": 110.31,
    "market": "US",
    "change_pct": -1.35
+  },
+  {
+   "symbol": "BMY",
+   "score": 69.7,
+   "coverage_pct": 100.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 38.6,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 1.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 57.9,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 5.5% a year over 3 year(s)",
+      "At least one loss-making year in the period"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 84.5,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 38.2%",
+      "Net margin 14.64% vs 13.71% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.87x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 83.8,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 49 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 9.0,
+     "weight": 12,
+     "reasons": [
+      "Debt is 2.55x equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 65.3,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.26"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 88.5,
+     "weight": 20,
+     "reasons": [
+      "P/E 17.7",
+      "0.55x the sector median P/E of 32.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 84.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 4.1%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 72% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 92.9,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+19.4 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Bristol Myers Squibb",
+   "sector": "HEALTH CARE",
+   "price": 61.35,
+   "market": "US",
+   "change_pct": -2.51
   },
   {
    "symbol": "TJX",
@@ -10146,105 +10246,6 @@
    "change_pct": -2.07
   },
   {
-   "symbol": "DG",
-   "score": 69.5,
-   "coverage_pct": 80.0,
-   "signal": "BUY",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 45.3,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 4.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 35.9,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -13.8% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 60.6,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 17.8%",
-      "Net margin 3.54% vs 6.38% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 2.17x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 58.1,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.13"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 76.9,
-     "weight": 20,
-     "reasons": [
-      "P/E 19.5",
-      "0.75x the sector median P/E of 26.0"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 72.2,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.8%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 34% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 92.2,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+18.3 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Dollar General",
-   "sector": "CONSUMER STAPLES",
-   "price": 133.53,
-   "market": "US",
-   "change_pct": -1.95
-  },
-  {
    "symbol": "IBM",
    "score": 69.5,
    "coverage_pct": 100.0,
@@ -10342,6 +10343,105 @@
    "price": 231.09,
    "market": "US",
    "change_pct": -4.71
+  },
+  {
+   "symbol": "DG",
+   "score": 69.4,
+   "coverage_pct": 80.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 45.3,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 4.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 35.9,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -13.8% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 60.6,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 17.8%",
+      "Net margin 3.54% vs 6.38% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 2.17x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 58.1,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.13"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 76.7,
+     "weight": 20,
+     "reasons": [
+      "P/E 19.5",
+      "0.75x the sector median P/E of 25.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 72.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.8%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 34% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 92.2,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+18.3 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Dollar General",
+   "sector": "CONSUMER STAPLES",
+   "price": 133.53,
+   "market": "US",
+   "change_pct": -1.95
   },
   {
    "symbol": "DRI",
@@ -10917,105 +11017,6 @@
    "change_pct": 0.62
   },
   {
-   "symbol": "TXT",
-   "score": 68.7,
-   "coverage_pct": 74.0,
-   "signal": "BUY",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 46.9,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 4.8% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 68.3,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 8.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 57.5,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 11.7%",
-      "Net margin 6.22% vs 6.69% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.34x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 91.7,
-     "weight": 20,
-     "reasons": [
-      "P/E 16.0",
-      "0.52x the sector median P/E of 30.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 51.3,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 0.1%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 2% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 14.2,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-8.7 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Textron",
-   "sector": "INDUSTRIALS",
-   "price": 81.63,
-   "market": "US",
-   "change_pct": -1.29
-  },
-  {
    "symbol": "CHD",
    "score": 68.5,
    "coverage_pct": 100.0,
@@ -11081,11 +11082,11 @@
     },
     {
      "name": "valuation",
-     "score": 25.5,
+     "score": 25.3,
      "weight": 20,
      "reasons": [
       "P/E 37.2",
-      "1.44x the sector median P/E of 26.0"
+      "1.44x the sector median P/E of 25.8"
      ]
     },
     {
@@ -11212,107 +11213,6 @@
    "price": 81.48,
    "market": "US",
    "change_pct": -2.37
-  },
-  {
-   "symbol": "PEG",
-   "score": 68.5,
-   "coverage_pct": 100.0,
-   "signal": "BUY",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 53.7,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 7.5% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 92.0,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 27.0% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 71.9,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 12.4%",
-      "Net margin 17.35% vs 10.52% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 90.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.42x reported profit",
-      "Free cash flow negative in at least one year"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 12 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 46.0,
-     "weight": 12,
-     "reasons": [
-      "Debt is 1.42x equity",
-      "Profit covers interest 3.0x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 30.1,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.80"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 77.3,
-     "weight": 20,
-     "reasons": [
-      "P/E 17.7",
-      "0.79x the sector median P/E of 22.4"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 84.4,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 3.4%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 60% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 6.4,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-20.4 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Public Service Enterprise Group",
-   "sector": "UTILITIES",
-   "price": 74.62,
-   "market": "US",
-   "change_pct": -1.89
   },
   {
    "symbol": "TMUS",
@@ -11578,11 +11478,11 @@
     },
     {
      "name": "valuation",
-     "score": 89.6,
+     "score": 89.4,
      "weight": 20,
      "reasons": [
       "P/E 15.3",
-      "0.59x the sector median P/E of 26.0"
+      "0.59x the sector median P/E of 25.8"
      ]
     },
     {
@@ -11611,6 +11511,206 @@
    "price": 44.73,
    "market": "US",
    "change_pct": -5.09
+  },
+  {
+   "symbol": "PEG",
+   "score": 68.3,
+   "coverage_pct": 100.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 53.7,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 7.5% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 92.0,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 27.0% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 71.9,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 12.4%",
+      "Net margin 17.35% vs 10.52% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 90.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.42x reported profit",
+      "Free cash flow negative in at least one year"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 12 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 46.0,
+     "weight": 12,
+     "reasons": [
+      "Debt is 1.42x equity",
+      "Profit covers interest 3.0x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 30.1,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.80"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 76.4,
+     "weight": 20,
+     "reasons": [
+      "P/E 17.9",
+      "0.80x the sector median P/E of 22.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 84.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 3.3%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 60% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 6.4,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-20.4 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Public Service Enterprise Group",
+   "sector": "UTILITIES",
+   "price": 75.695,
+   "market": "US",
+   "change_pct": 1.44
+  },
+  {
+   "symbol": "TXT",
+   "score": 68.3,
+   "coverage_pct": 74.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 46.9,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 4.8% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 68.3,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 8.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 57.5,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 11.7%",
+      "Net margin 6.22% vs 6.69% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.34x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 90.1,
+     "weight": 20,
+     "reasons": [
+      "P/E 16.6",
+      "0.54x the sector median P/E of 30.5"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 51.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 0.1%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 2% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 14.2,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-8.7 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Textron",
+   "sector": "INDUSTRIALS",
+   "price": 84.6,
+   "market": "US",
+   "change_pct": 3.64
   },
   {
    "symbol": "EQT",
@@ -12245,11 +12345,11 @@
     },
     {
      "name": "valuation",
-     "score": 86.3,
+     "score": 86.1,
      "weight": 20,
      "reasons": [
       "P/E 16.4",
-      "0.63x the sector median P/E of 26.0"
+      "0.63x the sector median P/E of 25.8"
      ]
     },
     {
@@ -12345,11 +12445,11 @@
     },
     {
      "name": "valuation",
-     "score": 58.0,
+     "score": 57.9,
      "weight": 20,
      "reasons": [
       "P/E 29.5",
-      "0.91x the sector median P/E of 32.5"
+      "0.91x the sector median P/E of 32.4"
      ]
     },
     {
@@ -12545,11 +12645,11 @@
     },
     {
      "name": "valuation",
-     "score": 62.0,
+     "score": 61.9,
      "weight": 20,
      "reasons": [
       "P/E 28.1",
-      "0.87x the sector median P/E of 32.5"
+      "0.87x the sector median P/E of 32.4"
      ]
     },
     {
@@ -12643,11 +12743,11 @@
     },
     {
      "name": "valuation",
-     "score": 88.7,
+     "score": 88.6,
      "weight": 20,
      "reasons": [
       "P/E 17.7",
-      "0.55x the sector median P/E of 32.5"
+      "0.55x the sector median P/E of 32.4"
      ]
     },
     {
@@ -12916,11 +13016,11 @@
     },
     {
      "name": "valuation",
-     "score": 71.4,
+     "score": 71.1,
      "weight": 20,
      "reasons": [
       "P/E 21.3",
-      "0.82x the sector median P/E of 26.0"
+      "0.82x the sector median P/E of 25.8"
      ]
     },
     {
@@ -13017,10 +13117,10 @@
     },
     {
      "name": "valuation",
-     "score": 99.5,
+     "score": 99.4,
      "weight": 20,
      "reasons": [
-      "P/E 10.4",
+      "P/E 10.5",
       "0.34x the sector median P/E of 30.5"
      ]
     },
@@ -13046,9 +13146,9 @@
    "red_flags": [],
    "name": "United Airlines Holdings",
    "sector": "INDUSTRIALS",
-   "price": 106.35,
+   "price": 106.75,
    "market": "US",
-   "change_pct": -3.98
+   "change_pct": 0.38
   },
   {
    "symbol": "WFC",
@@ -13190,11 +13290,11 @@
     },
     {
      "name": "valuation",
-     "score": 34.6,
+     "score": 34.5,
      "weight": 20,
      "reasons": [
       "P/E 39.3",
-      "1.21x the sector median P/E of 32.5"
+      "1.21x the sector median P/E of 32.4"
      ]
     },
     {
@@ -13367,7 +13467,7 @@
      "weight": 20,
      "reasons": [
       "P/E 9.7",
-      "0.30x the sector median P/E of 32.5"
+      "0.30x the sector median P/E of 32.4"
      ]
     },
     {
@@ -13561,11 +13661,11 @@
     },
     {
      "name": "valuation",
-     "score": 60.1,
+     "score": 60.0,
      "weight": 20,
      "reasons": [
       "P/E 28.8",
-      "0.89x the sector median P/E of 32.5"
+      "0.89x the sector median P/E of 32.4"
      ]
     },
     {
@@ -14229,16 +14329,16 @@
     },
     {
      "name": "valuation",
-     "score": 88.6,
+     "score": 88.8,
      "weight": 20,
      "reasons": [
-      "P/E 18.8",
+      "P/E 18.7",
       "0.52x the sector median P/E of 36.3"
      ]
     },
     {
      "name": "dividend",
-     "score": 71.6,
+     "score": 71.7,
      "weight": 10,
      "reasons": [
       "Dividend yield 1.7%",
@@ -14259,9 +14359,9 @@
    "red_flags": [],
    "name": "Gen Digital",
    "sector": "INFORMATION TECHNOLOGY",
-   "price": 29.52,
+   "price": 29.38,
    "market": "US",
-   "change_pct": -2.89
+   "change_pct": -0.47
   },
   {
    "symbol": "CRM",
@@ -14526,7 +14626,7 @@
     },
     {
      "name": "valuation",
-     "score": 69.7,
+     "score": 69.6,
      "weight": 20,
      "reasons": [
       "P/E 19.5",
@@ -14758,203 +14858,6 @@
    "change_pct": -0.39
   },
   {
-   "symbol": "BF.B",
-   "score": 66.1,
-   "coverage_pct": 56.0,
-   "signal": "INSUFFICIENT_DATA",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 26.5,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -2.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 48.1,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -2.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 70.4,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 17.8%",
-      "Net margin 18.20% vs 18.52% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 80.7,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 0.91x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 83.8,
-     "weight": 12,
-     "reasons": [
-      "Debt is 0.64x equity",
-      "Profit covers interest 9.7x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 100,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 3.24"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": null,
-     "weight": 20,
-     "reasons": [
-      "P/E not available"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": null,
-     "weight": 10,
-     "reasons": [
-      "Dividend data not available"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs at least 200 days of price history"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Brown\u2013Forman",
-   "sector": "CONSUMER STAPLES",
-   "price": null,
-   "market": "US",
-   "change_pct": null
-  },
-  {
-   "symbol": "ATO",
-   "score": 65.9,
-   "coverage_pct": 100.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 48.0,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 5.2% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 78.5,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 11.7% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 62.9,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 9.2%",
-      "Net margin 28.64% vs 20.72% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 70.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.61x reported profit",
-      "Free cash flow negative in at least one year"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle -6 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 99.7,
-     "weight": 12,
-     "reasons": [
-      "Debt is 0.01x equity",
-      "Profit covers interest 12.1x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 0,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.49"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 66.6,
-     "weight": 20,
-     "reasons": [
-      "P/E 20.2",
-      "0.90x the sector median P/E of 22.4"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 76.9,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 2.3%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 47% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 11.4,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-12.9 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Atmos Energy",
-   "sector": "UTILITIES",
-   "price": 171.91,
-   "market": "US",
-   "change_pct": -2.41
-  },
-  {
    "symbol": "GL",
    "score": 65.9,
    "coverage_pct": 100.0,
@@ -15130,6 +15033,107 @@
    "change_pct": -2.56
   },
   {
+   "symbol": "ATO",
+   "score": 65.8,
+   "coverage_pct": 100.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 48.0,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 5.2% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 78.5,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 11.7% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 62.9,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 9.2%",
+      "Net margin 28.64% vs 20.72% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 70.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.61x reported profit",
+      "Free cash flow negative in at least one year"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle -6 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 99.7,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.01x equity",
+      "Profit covers interest 12.1x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 0,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.49"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 66.4,
+     "weight": 20,
+     "reasons": [
+      "P/E 20.2",
+      "0.90x the sector median P/E of 22.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 76.9,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 2.3%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 47% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 11.4,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-12.9 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Atmos Energy",
+   "sector": "UTILITIES",
+   "price": 171.91,
+   "market": "US",
+   "change_pct": -2.41
+  },
+  {
    "symbol": "HPQ",
    "score": 65.8,
    "coverage_pct": 100.0,
@@ -15196,7 +15200,7 @@
      "score": 99.0,
      "weight": 20,
      "reasons": [
-      "P/E 10.8",
+      "P/E 10.9",
       "0.30x the sector median P/E of 36.3"
      ]
     },
@@ -15223,9 +15227,9 @@
    "red_flags": [],
    "name": "HP Inc.",
    "sector": "INFORMATION TECHNOLOGY",
-   "price": 28.71,
+   "price": 28.79,
    "market": "US",
-   "change_pct": 0.67
+   "change_pct": 0.28
   },
   {
    "symbol": "RTX",
@@ -16065,11 +16069,11 @@
     },
     {
      "name": "valuation",
-     "score": 87.9,
+     "score": 87.8,
      "weight": 20,
      "reasons": [
       "P/E 18.0",
-      "0.55x the sector median P/E of 32.5"
+      "0.56x the sector median P/E of 32.4"
      ]
     },
     {
@@ -16462,11 +16466,11 @@
     },
     {
      "name": "valuation",
-     "score": 29.0,
+     "score": 28.9,
      "weight": 20,
      "reasons": [
       "P/E 41.8",
-      "1.29x the sector median P/E of 32.5"
+      "1.29x the sector median P/E of 32.4"
      ]
     },
     {
@@ -16690,6 +16694,104 @@
    "price": 139.48,
    "market": "US",
    "change_pct": -0.74
+  },
+  {
+   "symbol": "DPZ",
+   "score": 64.7,
+   "coverage_pct": 100.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 45.7,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 4.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 74.6,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 9.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 77.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 12.18% vs 11.72% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 94.2,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.17x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 16 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 0.0,
+     "weight": 12,
+     "reasons": [
+      "Negative equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 86.0,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.65"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 73.5,
+     "weight": 20,
+     "reasons": [
+      "P/E 19.7",
+      "0.81x the sector median P/E of 24.3"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 74.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 2.0%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 40% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 33.9,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-24.2 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Domino's",
+   "sector": "CONSUMER DISCRETIONARY",
+   "price": 346.68,
+   "market": "US",
+   "change_pct": -0.91
   },
   {
    "symbol": "GDDY",
@@ -16988,105 +17090,7 @@
    "sector": "INDUSTRIALS",
    "price": 290.41,
    "market": "US",
-   "change_pct": -0.46
-  },
-  {
-   "symbol": "DPZ",
-   "score": 64.5,
-   "coverage_pct": 100.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 45.7,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 4.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 74.6,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 9.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 77.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 12.18% vs 11.72% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 94.2,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.17x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 16 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 0.0,
-     "weight": 12,
-     "reasons": [
-      "Negative equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 86.0,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.65"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 72.8,
-     "weight": 20,
-     "reasons": [
-      "P/E 19.9",
-      "0.82x the sector median P/E of 24.3"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 74.1,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 2.0%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 40% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 33.9,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-24.2 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Domino's",
-   "sector": "CONSUMER DISCRETIONARY",
-   "price": 349.86,
-   "market": "US",
-   "change_pct": 1.0
+   "change_pct": -0.35
   },
   {
    "symbol": "FRT",
@@ -17154,16 +17158,16 @@
     },
     {
      "name": "valuation",
-     "score": 74.9,
+     "score": 74.7,
      "weight": 20,
      "reasons": [
-      "P/E 24.0",
-      "0.70x the sector median P/E of 34.1"
+      "P/E 24.1",
+      "0.71x the sector median P/E of 34.1"
      ]
     },
     {
      "name": "dividend",
-     "score": 76.8,
+     "score": 76.7,
      "weight": 10,
      "reasons": [
       "Dividend yield 4.0%",
@@ -17184,9 +17188,9 @@
    "red_flags": [],
    "name": "Federal Realty Investment Trust",
    "sector": "REAL ESTATE",
-   "price": 112.4,
+   "price": 112.6201,
    "market": "US",
-   "change_pct": -1.39
+   "change_pct": 0.2
   },
   {
    "symbol": "SLB",
@@ -17551,7 +17555,7 @@
     },
     {
      "name": "valuation",
-     "score": 45.2,
+     "score": 45.0,
      "weight": 20,
      "reasons": [
       "P/E 26.0",
@@ -17684,106 +17688,6 @@
    "price": 252.93,
    "market": "US",
    "change_pct": -1.03
-  },
-  {
-   "symbol": "AEP",
-   "score": 64.0,
-   "coverage_pct": 100.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 44.2,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 3.7% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 76.7,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 14.0% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 69.5,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 11.9%",
-      "Net margin 16.90% vs 11.74% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 2.14x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle -9 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 40.4,
-     "weight": 12,
-     "reasons": [
-      "Debt is 1.59x equity",
-      "Profit covers interest 2.6x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 0,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.45"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 72.3,
-     "weight": 20,
-     "reasons": [
-      "P/E 18.9",
-      "0.84x the sector median P/E of 22.4"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 82.2,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 3.0%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 56% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 14.0,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-9.0 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "American Electric Power",
-   "sector": "UTILITIES",
-   "price": 125.97,
-   "market": "US",
-   "change_pct": -2.61
   },
   {
    "symbol": "CPRT",
@@ -17949,11 +17853,11 @@
     },
     {
      "name": "valuation",
-     "score": 38.2,
+     "score": 38.0,
      "weight": 20,
      "reasons": [
       "P/E 37.7",
-      "1.16x the sector median P/E of 32.5"
+      "1.16x the sector median P/E of 32.4"
      ]
     },
     {
@@ -17982,6 +17886,106 @@
    "price": 172.22,
    "market": "US",
    "change_pct": -0.4
+  },
+  {
+   "symbol": "AEP",
+   "score": 63.9,
+   "coverage_pct": 100.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 44.2,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 3.7% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 76.7,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 14.0% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 69.5,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 11.9%",
+      "Net margin 16.90% vs 11.74% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 2.14x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle -9 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 40.4,
+     "weight": 12,
+     "reasons": [
+      "Debt is 1.59x equity",
+      "Profit covers interest 2.6x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 0,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.45"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 72.1,
+     "weight": 20,
+     "reasons": [
+      "P/E 18.9",
+      "0.85x the sector median P/E of 22.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 82.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 3.0%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 56% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 14.0,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-9.0 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "American Electric Power",
+   "sector": "UTILITIES",
+   "price": 125.97,
+   "market": "US",
+   "change_pct": -2.61
   },
   {
    "symbol": "HBAN",
@@ -18122,11 +18126,11 @@
     },
     {
      "name": "valuation",
-     "score": 61.1,
+     "score": 61.0,
      "weight": 20,
      "reasons": [
       "P/E 28.4",
-      "0.88x the sector median P/E of 32.5"
+      "0.88x the sector median P/E of 32.4"
      ]
     },
     {
@@ -18296,7 +18300,7 @@
     },
     {
      "name": "valuation",
-     "score": 55.7,
+     "score": 55.8,
      "weight": 20,
      "reasons": [
       "P/E 23.8",
@@ -18326,9 +18330,9 @@
    "red_flags": [],
    "name": "Phillips 66",
    "sector": "ENERGY",
-   "price": 256.93,
+   "price": 256.4282,
    "market": "US",
-   "change_pct": -1.42
+   "change_pct": -1.1
   },
   {
    "symbol": "CTAS",
@@ -18496,11 +18500,11 @@
     },
     {
      "name": "valuation",
-     "score": 75.4,
+     "score": 75.3,
      "weight": 20,
      "reasons": [
       "P/E 23.1",
-      "0.71x the sector median P/E of 32.5"
+      "0.71x the sector median P/E of 32.4"
      ]
     },
     {
@@ -18928,104 +18932,6 @@
    "change_pct": -1.62
   },
   {
-   "symbol": "MO",
-   "score": 63.3,
-   "coverage_pct": 100.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 26.3,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -2.5% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 69.0,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 8.9% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 90.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 29.84% vs 22.97% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 90.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.09x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 25 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 0.0,
-     "weight": 12,
-     "reasons": [
-      "Negative equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 14.8,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.65"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 79.0,
-     "weight": 20,
-     "reasons": [
-      "P/E 18.8",
-      "0.72x the sector median P/E of 26.0"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 81.0,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 5.4%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 101% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 93.6,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+20.5 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Altria",
-   "sector": "CONSUMER STAPLES",
-   "price": 77.46,
-   "market": "US",
-   "change_pct": -1.83
-  },
-  {
    "symbol": "FITB",
    "score": 63.3,
    "coverage_pct": 83.8,
@@ -19201,6 +19107,104 @@
    "change_pct": 2.16
   },
   {
+   "symbol": "MO",
+   "score": 63.2,
+   "coverage_pct": 100.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 26.3,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -2.5% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 69.0,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 8.9% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 90.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 29.84% vs 22.97% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 90.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.09x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 25 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 0.0,
+     "weight": 12,
+     "reasons": [
+      "Negative equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 14.8,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.65"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 78.8,
+     "weight": 20,
+     "reasons": [
+      "P/E 18.8",
+      "0.73x the sector median P/E of 25.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 81.0,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 5.4%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 101% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 93.6,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+20.5 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Altria",
+   "sector": "CONSUMER STAPLES",
+   "price": 77.46,
+   "market": "US",
+   "change_pct": -1.83
+  },
+  {
    "symbol": "BAC",
    "score": 63.2,
    "coverage_pct": 100.0,
@@ -19341,7 +19345,7 @@
     },
     {
      "name": "valuation",
-     "score": 63.0,
+     "score": 62.9,
      "weight": 20,
      "reasons": [
       "P/E 21.1",
@@ -19372,7 +19376,7 @@
    "sector": "UTILITIES",
    "price": 119.23,
    "market": "US",
-   "change_pct": -2.17
+   "change_pct": 0.75
   },
   {
    "symbol": "HUM",
@@ -19444,7 +19448,7 @@
      "weight": 20,
      "reasons": [
       "P/E 45.1",
-      "1.39x the sector median P/E of 32.5"
+      "1.39x the sector median P/E of 32.4"
      ]
     },
     {
@@ -19473,106 +19477,6 @@
    "price": 443.34,
    "market": "US",
    "change_pct": -3.88
-  },
-  {
-   "symbol": "LH",
-   "score": 63.2,
-   "coverage_pct": 100.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 27.6,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -2.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 46.0,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -9.2% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 50.1,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 10.2%",
-      "Net margin 6.28% vs 8.60% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 2.39x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 88.5,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 44 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 78.1,
-     "weight": 12,
-     "reasons": [
-      "Debt is 0.65x equity",
-      "Profit covers interest 6.2x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 75.4,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.42"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 43.7,
-     "weight": 20,
-     "reasons": [
-      "P/E 35.2",
-      "1.08x the sector median P/E of 32.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 54.4,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 0.8%",
-      "Paid a cash dividend in 4 of the last 5 fiscal years on record",
-      "Pays out 28% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+30.8 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Labcorp",
-   "sector": "HEALTH CARE",
-   "price": 368.24,
-   "market": "US",
-   "change_pct": -1.13
   },
   {
    "symbol": "AMZN",
@@ -19741,7 +19645,7 @@
     },
     {
      "name": "valuation",
-     "score": 65.2,
+     "score": 65.1,
      "weight": 20,
      "reasons": [
       "P/E 20.6",
@@ -19774,6 +19678,106 @@
    "price": 129.84,
    "market": "US",
    "change_pct": -0.57
+  },
+  {
+   "symbol": "LH",
+   "score": 63.1,
+   "coverage_pct": 100.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 27.6,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -2.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 46.0,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -9.2% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 50.1,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 10.2%",
+      "Net margin 6.28% vs 8.60% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 2.39x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 88.5,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 44 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 78.1,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.65x equity",
+      "Profit covers interest 6.2x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 75.4,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.42"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 43.6,
+     "weight": 20,
+     "reasons": [
+      "P/E 35.2",
+      "1.09x the sector median P/E of 32.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 54.4,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 0.8%",
+      "Paid a cash dividend in 4 of the last 5 fiscal years on record",
+      "Pays out 28% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+30.8 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Labcorp",
+   "sector": "HEALTH CARE",
+   "price": 368.24,
+   "market": "US",
+   "change_pct": -1.13
   },
   {
    "symbol": "VMC",
@@ -20488,11 +20492,11 @@
     },
     {
      "name": "valuation",
-     "score": 58.5,
+     "score": 58.4,
      "weight": 20,
      "reasons": [
       "P/E 29.3",
-      "0.90x the sector median P/E of 32.5"
+      "0.90x the sector median P/E of 32.4"
      ]
     },
     {
@@ -20685,7 +20689,7 @@
     },
     {
      "name": "valuation",
-     "score": 47.0,
+     "score": 46.9,
      "weight": 20,
      "reasons": [
       "P/E 32.1",
@@ -20715,22 +20719,22 @@
    "red_flags": [],
    "name": "Expeditors International",
    "sector": "INDUSTRIALS",
-   "price": 190.77,
+   "price": 191.005,
    "market": "US",
-   "change_pct": -2.34
+   "change_pct": 0.12
   },
   {
-   "symbol": "BG",
-   "score": 62.3,
+   "symbol": "HRL",
+   "score": 62.4,
    "coverage_pct": 100.0,
    "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 38.8,
+     "score": 31.7,
      "weight": 12,
      "reasons": [
-      "Sales grew 1.5% a year over 3 year(s)"
+      "Sales grew -1.0% a year over 3 year(s)"
      ]
     },
     {
@@ -20738,86 +20742,86 @@
      "score": 29.3,
      "weight": 8,
      "reasons": [
-      "EPS grew -22.4% a year over 3 year(s)"
+      "EPS grew -21.8% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 33.9,
+     "score": 35.9,
      "weight": 6,
      "reasons": [
-      "Return on equity 5.1%",
-      "Net margin 1.16% vs 2.39% at the start of the period"
+      "Return on equity 6.1%",
+      "Net margin 3.95% vs 8.03% at the start of the period"
      ]
     },
     {
      "name": "cash_flow_quality",
-     "score": 90.0,
+     "score": 100.0,
      "weight": 12,
      "reasons": [
-      "Operating cash flow is 1.39x reported profit",
-      "Free cash flow negative in at least one year"
+      "Operating cash flow is 1.55x reported profit"
      ]
     },
     {
      "name": "cash_conversion_cycle",
-     "score": 71.8,
+     "score": 75.0,
      "weight": 8,
      "reasons": [
-      "Cash conversion cycle 65 days"
+      "Cash conversion cycle 60 days"
      ]
     },
     {
      "name": "debt",
-     "score": 60.8,
+     "score": 91.3,
      "weight": 12,
      "reasons": [
-      "Debt is 0.88x equity"
+      "Debt is 0.36x equity",
+      "Profit covers interest 9.2x"
      ]
     },
     {
      "name": "liquidity",
-     "score": 84.5,
+     "score": 100,
      "weight": 6,
      "reasons": [
-      "Current ratio 1.61"
+      "Current ratio 2.47"
      ]
     },
     {
      "name": "valuation",
-     "score": 77.0,
+     "score": 55.1,
      "weight": 20,
      "reasons": [
-      "P/E 19.5",
-      "0.75x the sector median P/E of 26.0"
+      "P/E 25.7",
+      "1.00x the sector median P/E of 25.8"
      ]
     },
     {
      "name": "dividend",
-     "score": 81.9,
+     "score": 73.0,
      "weight": 10,
      "reasons": [
-      "Dividend yield 2.9%",
+      "Dividend yield 5.2%",
       "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 57% of earnings"
+      "Pays out 133% of earnings"
      ]
     },
     {
      "name": "price_trend",
-     "score": 12.3,
+     "score": 13.5,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-11.5 points vs KSE-100 over about a year"
+      "-9.8 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "Bunge Global",
+   "name": "Hormel Foods",
    "sector": "CONSUMER STAPLES",
-   "price": 95.6,
+   "price": 22.4,
    "market": "US",
-   "change_pct": -3.45
+   "change_pct": -0.8
   },
   {
    "symbol": "DTE",
@@ -20884,7 +20888,7 @@
     },
     {
      "name": "valuation",
-     "score": 70.1,
+     "score": 70.0,
      "weight": 20,
      "reasons": [
       "P/E 19.4",
@@ -21120,17 +21124,17 @@
    "change_pct": 0.45
   },
   {
-   "symbol": "HRL",
-   "score": 62.3,
+   "symbol": "BG",
+   "score": 62.2,
    "coverage_pct": 100.0,
    "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 31.7,
+     "score": 38.8,
      "weight": 12,
      "reasons": [
-      "Sales grew -1.0% a year over 3 year(s)"
+      "Sales grew 1.5% a year over 3 year(s)"
      ]
     },
     {
@@ -21138,86 +21142,86 @@
      "score": 29.3,
      "weight": 8,
      "reasons": [
-      "EPS grew -21.8% a year over 3 year(s)"
+      "EPS grew -22.4% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 35.9,
+     "score": 33.9,
      "weight": 6,
      "reasons": [
-      "Return on equity 6.1%",
-      "Net margin 3.95% vs 8.03% at the start of the period"
+      "Return on equity 5.1%",
+      "Net margin 1.16% vs 2.39% at the start of the period"
      ]
     },
     {
      "name": "cash_flow_quality",
-     "score": 100.0,
+     "score": 90.0,
      "weight": 12,
      "reasons": [
-      "Operating cash flow is 1.55x reported profit"
+      "Operating cash flow is 1.39x reported profit",
+      "Free cash flow negative in at least one year"
      ]
     },
     {
      "name": "cash_conversion_cycle",
-     "score": 75.0,
+     "score": 71.8,
      "weight": 8,
      "reasons": [
-      "Cash conversion cycle 60 days"
+      "Cash conversion cycle 65 days"
      ]
     },
     {
      "name": "debt",
-     "score": 91.3,
+     "score": 60.8,
      "weight": 12,
      "reasons": [
-      "Debt is 0.36x equity",
-      "Profit covers interest 9.2x"
+      "Debt is 0.88x equity"
      ]
     },
     {
      "name": "liquidity",
-     "score": 100,
+     "score": 84.5,
      "weight": 6,
      "reasons": [
-      "Current ratio 2.47"
+      "Current ratio 1.61"
      ]
     },
     {
      "name": "valuation",
-     "score": 54.6,
+     "score": 76.8,
      "weight": 20,
      "reasons": [
-      "P/E 26.0",
-      "1.00x the sector median P/E of 26.0"
+      "P/E 19.5",
+      "0.75x the sector median P/E of 25.8"
      ]
     },
     {
      "name": "dividend",
-     "score": 72.8,
+     "score": 81.9,
      "weight": 10,
      "reasons": [
-      "Dividend yield 5.1%",
+      "Dividend yield 2.9%",
       "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 133% of earnings"
+      "Pays out 57% of earnings"
      ]
     },
     {
      "name": "price_trend",
-     "score": 13.5,
+     "score": 12.3,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-9.8 points vs KSE-100 over about a year"
+      "-11.5 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "Hormel Foods",
+   "name": "Bunge Global",
    "sector": "CONSUMER STAPLES",
-   "price": 22.58,
+   "price": 95.6,
    "market": "US",
-   "change_pct": -0.57
+   "change_pct": -2.75
   },
   {
    "symbol": "AMAT",
@@ -21489,7 +21493,7 @@
      "weight": 20,
      "reasons": [
       "P/E 25.4",
-      "0.78x the sector median P/E of 32.5"
+      "0.78x the sector median P/E of 32.4"
      ]
     },
     {
@@ -21782,11 +21786,11 @@
     },
     {
      "name": "valuation",
-     "score": 52.7,
+     "score": 52.6,
      "weight": 20,
      "reasons": [
       "P/E 23.9",
-      "1.06x the sector median P/E of 22.4"
+      "1.07x the sector median P/E of 22.4"
      ]
     },
     {
@@ -22207,7 +22211,7 @@
   },
   {
    "symbol": "MDLZ",
-   "score": 61.8,
+   "score": 61.7,
    "coverage_pct": 100.0,
    "signal": "HOLD",
    "factors": [
@@ -22271,11 +22275,11 @@
     },
     {
      "name": "valuation",
-     "score": 29.0,
+     "score": 28.8,
      "weight": 20,
      "reasons": [
       "P/E 35.3",
-      "1.36x the sector median P/E of 26.0"
+      "1.37x the sector median P/E of 25.8"
      ]
     },
     {
@@ -22405,6 +22409,105 @@
    "change_pct": -0.87
   },
   {
+   "symbol": "WELL",
+   "score": 61.7,
+   "coverage_pct": 86.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 89.1,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 22.7% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 94.7,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 66.7% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 50.4,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 2.3%",
+      "Net margin 8.87% vs 2.74% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 3.26x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 81.8,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.46x equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 0.0,
+     "weight": 20,
+     "reasons": [
+      "P/E 170.7",
+      "5.00x the sector median P/E of 34.1"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 45.9,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.2%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 203% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 88.7,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+13.0 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Welltower",
+   "sector": "REAL ESTATE",
+   "price": 237.2607,
+   "market": "US",
+   "change_pct": -3.46
+  },
+  {
    "symbol": "ZTS",
    "score": 61.7,
    "coverage_pct": 100.0,
@@ -22473,7 +22576,7 @@
      "weight": 20,
      "reasons": [
       "P/E 13.9",
-      "0.43x the sector median P/E of 32.5"
+      "0.43x the sector median P/E of 32.4"
      ]
     },
     {
@@ -22573,7 +22676,7 @@
      "weight": 20,
      "reasons": [
       "P/E 53.5",
-      "2.06x the sector median P/E of 26.0"
+      "2.07x the sector median P/E of 25.8"
      ]
     },
     {
@@ -22695,108 +22798,9 @@
    "red_flags": [],
    "name": "Verisign",
    "sector": "INFORMATION TECHNOLOGY",
-   "price": 305.7,
+   "price": 303.5,
    "market": "US",
-   "change_pct": -0.89
-  },
-  {
-   "symbol": "WELL",
-   "score": 61.6,
-   "coverage_pct": 86.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 89.1,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 22.7% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 94.7,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 66.7% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 50.4,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 2.3%",
-      "Net margin 8.87% vs 2.74% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 3.26x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 81.8,
-     "weight": 12,
-     "reasons": [
-      "Debt is 0.46x equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 0.0,
-     "weight": 20,
-     "reasons": [
-      "P/E 176.8",
-      "5.18x the sector median P/E of 34.1"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 45.3,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.1%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 203% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 88.7,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+13.0 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Welltower",
-   "sector": "REAL ESTATE",
-   "price": 245.76,
-   "market": "US",
-   "change_pct": 0.45
+   "change_pct": -1.34
   },
   {
    "symbol": "AVGO",
@@ -23237,7 +23241,7 @@
     },
     {
      "name": "valuation",
-     "score": 56.8,
+     "score": 56.7,
      "weight": 20,
      "reasons": [
       "P/E 22.7",
@@ -23772,107 +23776,6 @@
    "change_pct": -2.31
   },
   {
-   "symbol": "NRG",
-   "score": 61.2,
-   "coverage_pct": 88.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 31.9,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -0.9% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 35.8,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -8.1% a year over 3 year(s)",
-      "At least one loss-making year in the period"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 76.7,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 51.4%",
-      "Net margin 2.81% vs 3.87% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 90.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 2.13x reported profit",
-      "Free cash flow negative in at least one year"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 20 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 85.5,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.64"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 56.2,
-     "weight": 20,
-     "reasons": [
-      "P/E 22.9",
-      "1.02x the sector median P/E of 22.4"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 73.5,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.9%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 44% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 0.0,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-55.8 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "NRG Energy",
-   "sector": "UTILITIES",
-   "price": 91.76,
-   "market": "US",
-   "change_pct": -2.37
-  },
-  {
    "symbol": "IT",
    "score": 61.1,
    "coverage_pct": 100.0,
@@ -23970,105 +23873,6 @@
    "price": 183.47,
    "market": "US",
    "change_pct": -2.16
-  },
-  {
-   "symbol": "JCI",
-   "score": 61.1,
-   "coverage_pct": 88.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 30.0,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -1.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 80.6,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 20.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 87.7,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 21.0%",
-      "Net margin 11.12% vs 6.90% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 83.2,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 50 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 70.8,
-     "weight": 12,
-     "reasons": [
-      "Debt is 0.68x equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 40.4,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.90"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 54.8,
-     "weight": 20,
-     "reasons": [
-      "P/E 29.1",
-      "0.96x the sector median P/E of 30.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 65.6,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.2%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 34% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 55.4,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "+8.2 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Johnson Controls",
-   "sector": "INDUSTRIALS",
-   "price": 136.32,
-   "market": "US",
-   "change_pct": -0.41
   },
   {
    "symbol": "ODFL",
@@ -24319,6 +24123,107 @@
    "change_pct": -1.6
   },
   {
+   "symbol": "NRG",
+   "score": 61.0,
+   "coverage_pct": 88.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 31.9,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -0.9% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 35.8,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -8.1% a year over 3 year(s)",
+      "At least one loss-making year in the period"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 76.7,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 51.4%",
+      "Net margin 2.81% vs 3.87% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 90.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 2.13x reported profit",
+      "Free cash flow negative in at least one year"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 20 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 85.5,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.64"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 55.6,
+     "weight": 20,
+     "reasons": [
+      "P/E 23.0",
+      "1.03x the sector median P/E of 22.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 73.4,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.9%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 44% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 0.0,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-55.8 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "NRG Energy",
+   "sector": "UTILITIES",
+   "price": 92.3496,
+   "market": "US",
+   "change_pct": 0.64
+  },
+  {
    "symbol": "NXPI",
    "score": 61.0,
    "coverage_pct": 100.0,
@@ -24417,107 +24322,6 @@
    "price": 252.51,
    "market": "US",
    "change_pct": -0.66
-  },
-  {
-   "symbol": "AEE",
-   "score": 60.9,
-   "coverage_pct": 100.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 43.5,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 3.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 74.4,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 8.9% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 62.7,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 10.9%",
-      "Net margin 16.60% vs 13.56% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 70.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 2.28x reported profit",
-      "Free cash flow negative in at least one year"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 8 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 42.6,
-     "weight": 12,
-     "reasons": [
-      "Debt is 1.48x equity",
-      "Profit covers interest 2.6x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 15.8,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.66"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 63.8,
-     "weight": 20,
-     "reasons": [
-      "P/E 20.9",
-      "0.93x the sector median P/E of 22.4"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 78.7,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 2.5%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 53% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 47.2,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-4.3 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Ameren",
-   "sector": "UTILITIES",
-   "price": 111.94,
-   "market": "US",
-   "change_pct": -2.02
   },
   {
    "symbol": "HD",
@@ -24620,34 +24424,34 @@
    "change_pct": -2.45
   },
   {
-   "symbol": "NI",
+   "symbol": "AEE",
    "score": 60.8,
    "coverage_pct": 100.0,
    "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 45.9,
+     "score": 43.5,
      "weight": 12,
      "reasons": [
-      "Sales grew 4.4% a year over 3 year(s)"
+      "Sales grew 3.4% a year over 3 year(s)"
      ]
     },
     {
      "name": "earnings_growth",
-     "score": 62.7,
+     "score": 74.4,
      "weight": 8,
      "reasons": [
-      "EPS grew 4.7% a year over 3 year(s)"
+      "EPS grew 8.9% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 55.9,
+     "score": 62.7,
      "weight": 6,
      "reasons": [
-      "Return on equity 9.8%",
-      "Net margin 14.25% vs 14.01% at the start of the period"
+      "Return on equity 10.9%",
+      "Net margin 16.60% vs 13.56% at the start of the period"
      ]
     },
     {
@@ -24655,7 +24459,7 @@
      "score": 70.0,
      "weight": 12,
      "reasons": [
-      "Operating cash flow is 2.53x reported profit",
+      "Operating cash flow is 2.28x reported profit",
       "Free cash flow negative in at least one year"
      ]
     },
@@ -24664,61 +24468,160 @@
      "score": 100,
      "weight": 8,
      "reasons": [
-      "Cash conversion cycle 4 days"
+      "Cash conversion cycle 8 days"
      ]
     },
     {
      "name": "debt",
-     "score": 77.4,
+     "score": 42.6,
      "weight": 12,
      "reasons": [
-      "Debt is 0.16x equity",
-      "Profit covers interest 2.9x"
+      "Debt is 1.48x equity",
+      "Profit covers interest 2.6x"
      ]
     },
     {
      "name": "liquidity",
-     "score": 18.8,
+     "score": 15.8,
      "weight": 6,
      "reasons": [
-      "Current ratio 0.69"
+      "Current ratio 0.66"
      ]
     },
     {
      "name": "valuation",
-     "score": 56.7,
+     "score": 63.7,
      "weight": 20,
      "reasons": [
-      "P/E 22.8",
-      "1.01x the sector median P/E of 22.4"
+      "P/E 20.9",
+      "0.93x the sector median P/E of 22.4"
      ]
     },
     {
      "name": "dividend",
-     "score": 78.5,
+     "score": 78.7,
      "weight": 10,
      "reasons": [
       "Dividend yield 2.5%",
       "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 57% of earnings"
+      "Pays out 53% of earnings"
      ]
     },
     {
      "name": "price_trend",
-     "score": 14.7,
+     "score": 47.2,
      "weight": 6,
      "reasons": [
-      "Price is below its 200-day average",
-      "-7.9 points vs KSE-100 over about a year"
+      "Price is above its 200-day average",
+      "-4.3 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "NiSource",
+   "name": "Ameren",
    "sector": "UTILITIES",
-   "price": 44.37,
+   "price": 111.94,
    "market": "US",
-   "change_pct": -2.4
+   "change_pct": -2.02
+  },
+  {
+   "symbol": "JCI",
+   "score": 60.8,
+   "coverage_pct": 88.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 30.0,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -1.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 80.6,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 20.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 87.7,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 21.0%",
+      "Net margin 11.12% vs 6.90% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 83.2,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 50 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 70.8,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.68x equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 40.4,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.90"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 53.7,
+     "weight": 20,
+     "reasons": [
+      "P/E 29.5",
+      "0.97x the sector median P/E of 30.5"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 65.5,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.2%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 34% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 55.4,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "+8.2 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Johnson Controls",
+   "sector": "INDUSTRIALS",
+   "price": 138.0,
+   "market": "US",
+   "change_pct": 1.23
   },
   {
    "symbol": "TMO",
@@ -24786,11 +24689,11 @@
     },
     {
      "name": "valuation",
-     "score": 35.8,
+     "score": 35.7,
      "weight": 20,
      "reasons": [
       "P/E 38.7",
-      "1.19x the sector median P/E of 32.5"
+      "1.19x the sector median P/E of 32.4"
      ]
     },
     {
@@ -24989,7 +24892,7 @@
      "weight": 20,
      "reasons": [
       "P/E 29.9",
-      "1.27x the sector median P/E of 23.5"
+      "1.28x the sector median P/E of 23.5"
      ]
     },
     {
@@ -25018,6 +24921,107 @@
    "price": 395.61,
    "market": "US",
    "change_pct": -1.64
+  },
+  {
+   "symbol": "NI",
+   "score": 60.7,
+   "coverage_pct": 100.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 45.9,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 4.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 62.7,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 4.7% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 55.9,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 9.8%",
+      "Net margin 14.25% vs 14.01% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 70.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 2.53x reported profit",
+      "Free cash flow negative in at least one year"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 4 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 77.4,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.16x equity",
+      "Profit covers interest 2.9x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 18.8,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.69"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 56.5,
+     "weight": 20,
+     "reasons": [
+      "P/E 22.8",
+      "1.02x the sector median P/E of 22.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 78.5,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 2.5%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 57% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 14.7,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-7.9 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "NiSource",
+   "sector": "UTILITIES",
+   "price": 44.37,
+   "market": "US",
+   "change_pct": -2.4
   },
   {
    "symbol": "CME",
@@ -25663,106 +25667,6 @@
    "change_pct": -1.6
   },
   {
-   "symbol": "CL",
-   "score": 60.2,
-   "coverage_pct": 100.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 45.7,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 4.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 66.6,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 7.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 89.8,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 3948.1%",
-      "Net margin 10.46% vs 9.93% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.67x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 27 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 40.0,
-     "weight": 12,
-     "reasons": [
-      "Debt is 147.89x equity",
-      "Profit covers interest 12.4x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 33.3,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.83"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 24.4,
-     "weight": 20,
-     "reasons": [
-      "P/E 37.9",
-      "1.46x the sector median P/E of 26.0"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 69.2,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 2.1%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 79% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 89.7,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+14.6 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Colgate-Palmolive",
-   "sector": "CONSUMER STAPLES",
-   "price": 99.61,
-   "market": "US",
-   "change_pct": -1.37
-  },
-  {
    "symbol": "PPL",
    "score": 60.2,
    "coverage_pct": 100.0,
@@ -25829,7 +25733,7 @@
     },
     {
      "name": "valuation",
-     "score": 59.0,
+     "score": 59.2,
      "weight": 20,
      "reasons": [
       "P/E 22.1",
@@ -25838,7 +25742,7 @@
     },
     {
      "name": "dividend",
-     "score": 80.4,
+     "score": 80.5,
      "weight": 10,
      "reasons": [
       "Dividend yield 3.1%",
@@ -25859,9 +25763,109 @@
    "red_flags": [],
    "name": "PPL Corporation",
    "sector": "UTILITIES",
-   "price": 35.19,
+   "price": 35.06,
    "market": "US",
-   "change_pct": -1.7
+   "change_pct": -0.37
+  },
+  {
+   "symbol": "CL",
+   "score": 60.1,
+   "coverage_pct": 100.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 45.7,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 4.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 66.6,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 7.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 89.8,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 3948.1%",
+      "Net margin 10.46% vs 9.93% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.67x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 27 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 40.0,
+     "weight": 12,
+     "reasons": [
+      "Debt is 147.89x equity",
+      "Profit covers interest 12.4x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 33.3,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.83"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 24.2,
+     "weight": 20,
+     "reasons": [
+      "P/E 37.9",
+      "1.47x the sector median P/E of 25.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 69.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 2.1%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 79% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 89.7,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+14.6 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Colgate-Palmolive",
+   "sector": "CONSUMER STAPLES",
+   "price": 99.61,
+   "market": "US",
+   "change_pct": -1.37
   },
   {
    "symbol": "DVN",
@@ -26337,106 +26341,6 @@
    "change_pct": 2.14
   },
   {
-   "symbol": "PEP",
-   "score": 59.9,
-   "coverage_pct": 92.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 42.1,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 2.8% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 53.3,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -2.2% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 85.2,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 40.4%",
-      "Net margin 8.77% vs 10.31% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.42x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 47.1,
-     "weight": 12,
-     "reasons": [
-      "Debt is 2.41x equity",
-      "Profit covers interest 10.3x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 35.3,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.85"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 62.9,
-     "weight": 20,
-     "reasons": [
-      "P/E 23.7",
-      "0.91x the sector median P/E of 26.0"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 77.2,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 4.0%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 94% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 9.7,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-15.5 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "PepsiCo",
-   "sector": "CONSUMER STAPLES",
-   "price": 142.02,
-   "market": "US",
-   "change_pct": -3.01
-  },
-  {
    "symbol": "WMB",
    "score": 59.9,
    "coverage_pct": 100.0,
@@ -26535,6 +26439,106 @@
    "price": 67.46,
    "market": "US",
    "change_pct": -0.22
+  },
+  {
+   "symbol": "PEP",
+   "score": 59.8,
+   "coverage_pct": 92.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 42.1,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 2.8% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 53.3,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -2.2% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 85.2,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 40.4%",
+      "Net margin 8.77% vs 10.31% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.42x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 47.1,
+     "weight": 12,
+     "reasons": [
+      "Debt is 2.41x equity",
+      "Profit covers interest 10.3x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 35.3,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.85"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 62.6,
+     "weight": 20,
+     "reasons": [
+      "P/E 23.7",
+      "0.92x the sector median P/E of 25.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 77.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 4.0%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 94% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 9.7,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-15.5 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "PepsiCo",
+   "sector": "CONSUMER STAPLES",
+   "price": 142.02,
+   "market": "US",
+   "change_pct": -3.01
   },
   {
    "symbol": "NDSN",
@@ -26903,7 +26907,7 @@
     },
     {
      "name": "valuation",
-     "score": 42.7,
+     "score": 42.6,
      "weight": 20,
      "reasons": [
       "P/E 26.7",
@@ -27003,11 +27007,11 @@
     },
     {
      "name": "valuation",
-     "score": 50.6,
+     "score": 50.5,
      "weight": 20,
      "reasons": [
       "P/E 32.2",
-      "0.99x the sector median P/E of 32.5"
+      "0.99x the sector median P/E of 32.4"
      ]
     },
     {
@@ -27103,7 +27107,7 @@
     },
     {
      "name": "valuation",
-     "score": 69.0,
+     "score": 68.9,
      "weight": 20,
      "reasons": [
       "P/E 19.7",
@@ -28492,7 +28496,7 @@
     },
     {
      "name": "valuation",
-     "score": 51.7,
+     "score": 51.6,
      "weight": 20,
      "reasons": [
       "P/E 24.2",
@@ -28692,11 +28696,11 @@
     },
     {
      "name": "valuation",
-     "score": 4.2,
+     "score": 4.1,
      "weight": 20,
      "reasons": [
       "P/E 61.0",
-      "1.88x the sector median P/E of 32.5"
+      "1.88x the sector median P/E of 32.4"
      ]
     },
     {
@@ -29166,11 +29170,11 @@
     },
     {
      "name": "valuation",
-     "score": 8.5,
+     "score": 8.2,
      "weight": 20,
      "reasons": [
       "P/E 46.7",
-      "1.80x the sector median P/E of 26.0"
+      "1.81x the sector median P/E of 25.8"
      ]
     },
     {
@@ -29564,7 +29568,7 @@
     },
     {
      "name": "valuation",
-     "score": 66.1,
+     "score": 66.0,
      "weight": 20,
      "reasons": [
       "P/E 20.4",
@@ -29936,11 +29940,11 @@
     },
     {
      "name": "valuation",
-     "score": 80.4,
+     "score": 80.3,
      "weight": 20,
      "reasons": [
       "P/E 20.9",
-      "0.64x the sector median P/E of 32.5"
+      "0.65x the sector median P/E of 32.4"
      ]
     },
     {
@@ -30269,105 +30273,103 @@
    "change_pct": -2.65
   },
   {
-   "symbol": "EVRG",
+   "symbol": "ADM",
    "score": 57.1,
    "coverage_pct": 100.0,
    "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 36.4,
+     "score": 8.6,
      "weight": 12,
      "reasons": [
-      "Sales grew 0.6% a year over 3 year(s)"
+      "Sales grew -7.5% a year over 3 year(s)"
      ]
     },
     {
      "name": "earnings_growth",
-     "score": 56.1,
+     "score": 24.0,
      "weight": 8,
      "reasons": [
-      "EPS grew 3.8% a year over 3 year(s)"
+      "EPS grew -33.9% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 55.0,
+     "score": 33.1,
      "weight": 6,
      "reasons": [
-      "Return on equity 8.4%",
-      "Net margin 14.35% vs 12.85% at the start of the period"
+      "Return on equity 4.7%",
+      "Net margin 1.34% vs 4.27% at the start of the period"
      ]
     },
     {
      "name": "cash_flow_quality",
-     "score": 70.0,
+     "score": 100.0,
      "weight": 12,
      "reasons": [
-      "Operating cash flow is 2.46x reported profit",
-      "Free cash flow negative in at least one year"
+      "Operating cash flow is 2.63x reported profit"
      ]
     },
     {
      "name": "cash_conversion_cycle",
-     "score": 100,
+     "score": 92.6,
      "weight": 8,
      "reasons": [
-      "Cash conversion cycle -27 days"
+      "Cash conversion cycle 39 days"
      ]
     },
     {
      "name": "debt",
-     "score": 42.5,
+     "score": 85.2,
      "weight": 12,
      "reasons": [
-      "Debt is 1.45x equity",
-      "Profit covers interest 2.5x"
+      "Debt is 0.37x equity"
      ]
     },
     {
      "name": "liquidity",
-     "score": 0,
+     "score": 71.9,
      "weight": 6,
      "reasons": [
-      "Current ratio 0.49"
+      "Current ratio 1.37"
      ]
     },
     {
      "name": "valuation",
-     "score": 53.1,
+     "score": 39.3,
      "weight": 20,
      "reasons": [
-      "P/E 23.8",
-      "1.06x the sector median P/E of 22.4"
+      "P/E 30.9",
+      "1.19x the sector median P/E of 25.8"
      ]
     },
     {
      "name": "dividend",
-     "score": 78.9,
+     "score": 72.7,
      "weight": 10,
      "reasons": [
-      "Dividend yield 3.1%",
+      "Dividend yield 3.0%",
       "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 74% of earnings"
+      "Pays out 91% of earnings"
      ]
     },
     {
      "name": "price_trend",
-     "score": 81.6,
+     "score": 51.9,
      "weight": 6,
      "reasons": [
-      "Price is above its 200-day average",
-      "+2.5 points vs KSE-100 over about a year"
+      "Price is below its 200-day average",
+      "+2.9 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "Evergy",
-   "sector": "UTILITIES",
-   "price": 87.04,
+   "name": "Archer Daniels Midland",
+   "sector": "CONSUMER STAPLES",
+   "price": 68.8498,
    "market": "US",
-   "change_pct": -1.52
+   "change_pct": -0.15
   },
   {
    "symbol": "SBAC",
@@ -30532,11 +30534,11 @@
     },
     {
      "name": "valuation",
-     "score": 37.9,
+     "score": 37.8,
      "weight": 20,
      "reasons": [
       "P/E 37.8",
-      "1.16x the sector median P/E of 32.5"
+      "1.17x the sector median P/E of 32.4"
      ]
     },
     {
@@ -30566,103 +30568,105 @@
    "change_pct": 2.19
   },
   {
-   "symbol": "ADM",
+   "symbol": "EVRG",
    "score": 57.0,
    "coverage_pct": 100.0,
    "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 8.6,
+     "score": 36.4,
      "weight": 12,
      "reasons": [
-      "Sales grew -7.5% a year over 3 year(s)"
+      "Sales grew 0.6% a year over 3 year(s)"
      ]
     },
     {
      "name": "earnings_growth",
-     "score": 24.0,
+     "score": 56.1,
      "weight": 8,
      "reasons": [
-      "EPS grew -33.9% a year over 3 year(s)"
+      "EPS grew 3.8% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 33.1,
+     "score": 55.0,
      "weight": 6,
      "reasons": [
-      "Return on equity 4.7%",
-      "Net margin 1.34% vs 4.27% at the start of the period"
+      "Return on equity 8.4%",
+      "Net margin 14.35% vs 12.85% at the start of the period"
      ]
     },
     {
      "name": "cash_flow_quality",
-     "score": 100.0,
+     "score": 70.0,
      "weight": 12,
      "reasons": [
-      "Operating cash flow is 2.63x reported profit"
+      "Operating cash flow is 2.46x reported profit",
+      "Free cash flow negative in at least one year"
      ]
     },
     {
      "name": "cash_conversion_cycle",
-     "score": 92.6,
+     "score": 100,
      "weight": 8,
      "reasons": [
-      "Cash conversion cycle 39 days"
+      "Cash conversion cycle -27 days"
      ]
     },
     {
      "name": "debt",
-     "score": 85.2,
+     "score": 42.5,
      "weight": 12,
      "reasons": [
-      "Debt is 0.37x equity"
+      "Debt is 1.45x equity",
+      "Profit covers interest 2.5x"
      ]
     },
     {
      "name": "liquidity",
-     "score": 71.9,
+     "score": 0,
      "weight": 6,
      "reasons": [
-      "Current ratio 1.37"
+      "Current ratio 0.49"
      ]
     },
     {
      "name": "valuation",
-     "score": 38.8,
+     "score": 52.9,
      "weight": 20,
      "reasons": [
-      "P/E 31.2",
-      "1.20x the sector median P/E of 26.0"
+      "P/E 23.8",
+      "1.06x the sector median P/E of 22.4"
      ]
     },
     {
      "name": "dividend",
-     "score": 72.6,
+     "score": 78.9,
      "weight": 10,
      "reasons": [
-      "Dividend yield 2.9%",
+      "Dividend yield 3.1%",
       "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 91% of earnings"
+      "Pays out 74% of earnings"
      ]
     },
     {
      "name": "price_trend",
-     "score": 51.9,
+     "score": 81.6,
      "weight": 6,
      "reasons": [
-      "Price is below its 200-day average",
-      "+2.9 points vs KSE-100 over about a year"
+      "Price is above its 200-day average",
+      "+2.5 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "Archer Daniels Midland",
-   "sector": "CONSUMER STAPLES",
-   "price": 69.47,
+   "name": "Evergy",
+   "sector": "UTILITIES",
+   "price": 87.04,
    "market": "US",
-   "change_pct": -1.63
+   "change_pct": -1.52
   },
   {
    "symbol": "PLTR",
@@ -31059,7 +31063,7 @@
    "sector": "CONSUMER DISCRETIONARY",
    "price": 81.68,
    "market": "US",
-   "change_pct": -0.66
+   "change_pct": 0.0
   },
   {
    "symbol": "AMD",
@@ -31254,9 +31258,9 @@
    "red_flags": [],
    "name": "Garmin",
    "sector": "CONSUMER DISCRETIONARY",
-   "price": 277.32,
+   "price": 277.43,
    "market": "US",
-   "change_pct": -0.84
+   "change_pct": 0.04
   },
   {
    "symbol": "FANG",
@@ -31498,7 +31502,7 @@
     },
     {
      "name": "valuation",
-     "score": 58.2,
+     "score": 58.1,
      "weight": 20,
      "reasons": [
       "P/E 23.1",
@@ -32092,11 +32096,11 @@
     },
     {
      "name": "valuation",
-     "score": 3.5,
+     "score": 3.4,
      "weight": 20,
      "reasons": [
       "P/E 61.7",
-      "1.90x the sector median P/E of 32.5"
+      "1.90x the sector median P/E of 32.4"
      ]
     },
     {
@@ -32561,11 +32565,11 @@
     },
     {
      "name": "valuation",
-     "score": 39.7,
+     "score": 39.6,
      "weight": 20,
      "reasons": [
       "P/E 37.0",
-      "1.14x the sector median P/E of 32.5"
+      "1.14x the sector median P/E of 32.4"
      ]
     },
     {
@@ -32908,11 +32912,11 @@
     },
     {
      "name": "valuation",
-     "score": 60.8,
+     "score": 60.7,
      "weight": 20,
      "reasons": [
       "P/E 28.5",
-      "0.88x the sector median P/E of 32.5"
+      "0.88x the sector median P/E of 32.4"
      ]
     },
     {
@@ -33338,104 +33342,6 @@
    "change_pct": -3.54
   },
   {
-   "symbol": "CASY",
-   "score": 54.4,
-   "coverage_pct": 92.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 47.9,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 5.2% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 86.8,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 17.2% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 79.9,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 18.1%",
-      "Net margin 4.07% vs 2.96% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.90x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 74.2,
-     "weight": 12,
-     "reasons": [
-      "Debt is 0.62x equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 50.6,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.01"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 25.6,
-     "weight": 20,
-     "reasons": [
-      "P/E 37.2",
-      "1.43x the sector median P/E of 26.0"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 15.0,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 0.0%",
-      "Paid a cash dividend in 2 of the last 5 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 32.7,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "+19.1 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Casey's",
-   "sector": "CONSUMER STAPLES",
-   "price": 713.03,
-   "market": "US",
-   "change_pct": 1.04
-  },
-  {
    "symbol": "EXC",
    "score": 54.4,
    "coverage_pct": 64.0,
@@ -33598,11 +33504,11 @@
     },
     {
      "name": "valuation",
-     "score": 12.8,
+     "score": 12.7,
      "weight": 20,
      "reasons": [
       "P/E 53.0",
-      "1.63x the sector median P/E of 32.5"
+      "1.64x the sector median P/E of 32.4"
      ]
     },
     {
@@ -33630,6 +33536,104 @@
    "price": 288.41,
    "market": "US",
    "change_pct": -3.63
+  },
+  {
+   "symbol": "CASY",
+   "score": 54.3,
+   "coverage_pct": 92.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 47.9,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 5.2% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 86.8,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 17.2% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 79.9,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 18.1%",
+      "Net margin 4.07% vs 2.96% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.90x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 74.2,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.62x equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 50.6,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.01"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 25.4,
+     "weight": 20,
+     "reasons": [
+      "P/E 37.2",
+      "1.44x the sector median P/E of 25.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 15.0,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 0.0%",
+      "Paid a cash dividend in 2 of the last 5 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 32.7,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "+19.1 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Casey's",
+   "sector": "CONSUMER STAPLES",
+   "price": 713.03,
+   "market": "US",
+   "change_pct": 1.04
   },
   {
    "symbol": "IDXX",
@@ -33697,11 +33701,11 @@
     },
     {
      "name": "valuation",
-     "score": 13.1,
+     "score": 13.0,
      "weight": 20,
      "reasons": [
       "P/E 52.8",
-      "1.63x the sector median P/E of 32.5"
+      "1.63x the sector median P/E of 32.4"
      ]
     },
     {
@@ -33794,11 +33798,11 @@
     },
     {
      "name": "valuation",
-     "score": 52.1,
+     "score": 51.8,
      "weight": 20,
      "reasons": [
       "P/E 26.8",
-      "1.03x the sector median P/E of 26.0"
+      "1.04x the sector median P/E of 25.8"
      ]
     },
     {
@@ -33827,105 +33831,6 @@
    "price": 194.38,
    "market": "US",
    "change_pct": -0.85
-  },
-  {
-   "symbol": "COR",
-   "score": 54.2,
-   "coverage_pct": 100.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 61.1,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 10.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 55.3,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -0.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 81.3,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 103.1%",
-      "Net margin 0.48% vs 0.71% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 2.35x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle -12 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 0,
-     "weight": 12,
-     "reasons": [
-      "Debt is 5.08x equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 40.3,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.90"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 25.2,
-     "weight": 20,
-     "reasons": [
-      "P/E 44.0",
-      "1.36x the sector median P/E of 32.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 58.4,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 0.6%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 28% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 70.6,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-14.0 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Cencora",
-   "sector": "HEALTH CARE",
-   "price": 350.56,
-   "market": "US",
-   "change_pct": -1.79
   },
   {
    "symbol": "HLT",
@@ -34099,6 +34004,105 @@
    "price": 183.53,
    "market": "US",
    "change_pct": -1.1
+  },
+  {
+   "symbol": "COR",
+   "score": 54.1,
+   "coverage_pct": 100.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 61.1,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 10.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 55.3,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -0.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 81.3,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 103.1%",
+      "Net margin 0.48% vs 0.71% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 2.35x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle -12 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 0,
+     "weight": 12,
+     "reasons": [
+      "Debt is 5.08x equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 40.3,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.90"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 25.1,
+     "weight": 20,
+     "reasons": [
+      "P/E 44.0",
+      "1.36x the sector median P/E of 32.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 58.4,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 0.6%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 28% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 70.6,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-14.0 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Cencora",
+   "sector": "HEALTH CARE",
+   "price": 350.56,
+   "market": "US",
+   "change_pct": -1.79
   },
   {
    "symbol": "HON",
@@ -34374,105 +34378,6 @@
    "change_pct": -1.71
   },
   {
-   "symbol": "TRGP",
-   "score": 53.9,
-   "coverage_pct": 100.0,
-   "signal": "SELL",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 11.7,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -6.6% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 94.5,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 29.8% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 62.7%",
-      "Net margin 11.29% vs 5.71% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 2.40x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle -19 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 0,
-     "weight": 12,
-     "reasons": [
-      "Debt is 5.68x equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 16.6,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.67"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 25.9,
-     "weight": 20,
-     "reasons": [
-      "P/E 34.3",
-      "1.46x the sector median P/E of 23.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 67.2,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.3%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 44% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+60.8 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Targa Resources",
-   "sector": "ENERGY",
-   "price": 291.35,
-   "market": "US",
-   "change_pct": -0.26
-  },
-  {
    "symbol": "NEE",
    "score": 53.8,
    "coverage_pct": 92.0,
@@ -34537,7 +34442,7 @@
     },
     {
      "name": "valuation",
-     "score": 46.8,
+     "score": 46.6,
      "weight": 20,
      "reasons": [
       "P/E 25.6",
@@ -34570,6 +34475,105 @@
    "price": 84.42,
    "market": "US",
    "change_pct": -1.08
+  },
+  {
+   "symbol": "TRGP",
+   "score": 53.8,
+   "coverage_pct": 100.0,
+   "signal": "SELL",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 11.7,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -6.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 94.5,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 29.8% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 62.7%",
+      "Net margin 11.29% vs 5.71% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 2.40x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle -19 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 0,
+     "weight": 12,
+     "reasons": [
+      "Debt is 5.68x equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 16.6,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.67"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 25.8,
+     "weight": 20,
+     "reasons": [
+      "P/E 34.3",
+      "1.46x the sector median P/E of 23.5"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 67.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.3%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 44% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+60.8 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Targa Resources",
+   "sector": "ENERGY",
+   "price": 291.35,
+   "market": "US",
+   "change_pct": -0.26
   },
   {
    "symbol": "MET",
@@ -34909,7 +34913,7 @@
     },
     {
      "name": "valuation",
-     "score": 97.7,
+     "score": 97.6,
      "weight": 20,
      "reasons": [
       "P/E 11.5",
@@ -35307,7 +35311,7 @@
     },
     {
      "name": "valuation",
-     "score": 53.7,
+     "score": 53.6,
      "weight": 20,
      "reasons": [
       "P/E 23.6",
@@ -35856,11 +35860,11 @@
     },
     {
      "name": "valuation",
-     "score": 59.6,
+     "score": 59.5,
      "weight": 20,
      "reasons": [
       "P/E 28.9",
-      "0.89x the sector median P/E of 32.5"
+      "0.89x the sector median P/E of 32.4"
      ]
     },
     {
@@ -36353,11 +36357,11 @@
     },
     {
      "name": "valuation",
-     "score": 49.0,
+     "score": 48.9,
      "weight": 20,
      "reasons": [
       "P/E 32.9",
-      "1.01x the sector median P/E of 32.5"
+      "1.01x the sector median P/E of 32.4"
      ]
     },
     {
@@ -36549,7 +36553,7 @@
     },
     {
      "name": "valuation",
-     "score": 37.6,
+     "score": 37.5,
      "weight": 20,
      "reasons": [
       "P/E 28.2",
@@ -36748,7 +36752,7 @@
     },
     {
      "name": "valuation",
-     "score": 49.2,
+     "score": 49.1,
      "weight": 20,
      "reasons": [
       "P/E 24.9",
@@ -36848,11 +36852,11 @@
     },
     {
      "name": "valuation",
-     "score": 39.3,
+     "score": 39.2,
      "weight": 20,
      "reasons": [
       "P/E 37.2",
-      "1.15x the sector median P/E of 32.5"
+      "1.15x the sector median P/E of 32.4"
      ]
     },
     {
@@ -36946,7 +36950,7 @@
     },
     {
      "name": "valuation",
-     "score": 24.4,
+     "score": 24.3,
      "weight": 20,
      "reasons": [
       "P/E 35.1",
@@ -37057,7 +37061,7 @@
   },
   {
    "symbol": "COO",
-   "score": 51.5,
+   "score": 51.4,
    "coverage_pct": 100.0,
    "signal": "SELL",
    "factors": [
@@ -37121,11 +37125,11 @@
     },
     {
      "name": "valuation",
-     "score": 49.9,
+     "score": 49.8,
      "weight": 20,
      "reasons": [
       "P/E 32.5",
-      "1.00x the sector median P/E of 32.5"
+      "1.00x the sector median P/E of 32.4"
      ]
     },
     {
@@ -37622,7 +37626,7 @@
    "sector": "COMMUNICATION SERVICES",
    "price": 176.3,
    "market": "US",
-   "change_pct": -0.78
+   "change_pct": 0.0
   },
   {
    "symbol": "VRTX",
@@ -37691,11 +37695,11 @@
     },
     {
      "name": "valuation",
-     "score": 44.5,
+     "score": 44.4,
      "weight": 20,
      "reasons": [
       "P/E 34.9",
-      "1.07x the sector median P/E of 32.5"
+      "1.08x the sector median P/E of 32.4"
      ]
     },
     {
@@ -37790,11 +37794,11 @@
     },
     {
      "name": "valuation",
-     "score": 28.9,
+     "score": 28.8,
      "weight": 20,
      "reasons": [
       "P/E 41.8",
-      "1.29x the sector median P/E of 32.5"
+      "1.29x the sector median P/E of 32.4"
      ]
     },
     {
@@ -37989,11 +37993,11 @@
     },
     {
      "name": "valuation",
-     "score": 3.1,
+     "score": 2.8,
      "weight": 20,
      "reasons": [
       "P/E 49.7",
-      "1.92x the sector median P/E of 26.0"
+      "1.92x the sector median P/E of 25.8"
      ]
     },
     {
@@ -39016,7 +39020,7 @@
    "sector": "FINANCIALS",
    "price": 127.69,
    "market": "US",
-   "change_pct": -0.3
+   "change_pct": 0.48
   },
   {
    "symbol": "MRSH",
@@ -39267,7 +39271,7 @@
   },
   {
    "symbol": "GIS",
-   "score": 48.7,
+   "score": 48.8,
    "coverage_pct": 100.0,
    "signal": "SELL",
    "factors": [
@@ -39339,10 +39343,10 @@
     },
     {
      "name": "dividend",
-     "score": 97.0,
+     "score": 97.2,
      "weight": 10,
      "reasons": [
-      "Dividend yield 7.0%",
+      "Dividend yield 7.1%",
       "Paid a cash dividend in 5 of the last 5 fiscal years on record"
      ]
     },
@@ -39361,84 +39365,9 @@
    ],
    "name": "General Mills",
    "sector": "CONSUMER STAPLES",
-   "price": 34.68,
+   "price": 34.41,
    "market": "US",
-   "change_pct": -1.59
-  },
-  {
-   "symbol": "JKHY",
-   "score": 48.3,
-   "coverage_pct": 100.0,
-   "signal": "SELL",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 52.5,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 7.0% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 78.4,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 11.6% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 83.9,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 24.5%",
-      "Net margin 19.76% vs 17.65% at the start of the period"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 33.4,
-     "weight": 20,
-     "reasons": [
-      "P/E 25.2",
-      "1.43x the sector median P/E of 17.6"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 68.0,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.4%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 34% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 77.5,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-3.8 points vs KSE-100 over about a year"
-     ]
-    },
-    {
-     "name": "price_to_book",
-     "score": 0,
-     "weight": 12,
-     "reasons": [
-      "Price is 5.96x book value (2026)"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Jack Henry & Associates",
-   "sector": "FINANCIALS",
-   "price": 175.69,
-   "market": "US",
-   "change_pct": -1.8
+   "change_pct": -0.78
   },
   {
    "symbol": "TSLA",
@@ -39540,8 +39469,83 @@
    "change_pct": 0.1
   },
   {
-   "symbol": "ISRG",
+   "symbol": "JKHY",
    "score": 48.2,
+   "coverage_pct": 100.0,
+   "signal": "SELL",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 52.5,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 7.0% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 78.4,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 11.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 83.9,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 24.5%",
+      "Net margin 19.76% vs 17.65% at the start of the period"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 32.9,
+     "weight": 20,
+     "reasons": [
+      "P/E 25.3",
+      "1.44x the sector median P/E of 17.6"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 68.0,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.4%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 34% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 77.5,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-3.8 points vs KSE-100 over about a year"
+     ]
+    },
+    {
+     "name": "price_to_book",
+     "score": 0,
+     "weight": 12,
+     "reasons": [
+      "Price is 6.00x book value (2026)"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Jack Henry & Associates",
+   "sector": "FINANCIALS",
+   "price": 176.78,
+   "market": "US",
+   "change_pct": 0.62
+  },
+  {
+   "symbol": "ISRG",
+   "score": 48.1,
    "coverage_pct": 88.0,
    "signal": "SELL",
    "factors": [
@@ -39604,11 +39608,11 @@
     },
     {
      "name": "valuation",
-     "score": 11.0,
+     "score": 10.9,
      "weight": 20,
      "reasons": [
       "P/E 54.7",
-      "1.69x the sector median P/E of 32.5"
+      "1.69x the sector median P/E of 32.4"
      ]
     },
     {
@@ -39639,7 +39643,7 @@
   },
   {
    "symbol": "WY",
-   "score": 47.9,
+   "score": 48.0,
    "coverage_pct": 100.0,
    "signal": "SELL",
    "factors": [
@@ -39703,16 +39707,16 @@
     },
     {
      "name": "valuation",
-     "score": 26.6,
+     "score": 27.0,
      "weight": 20,
      "reasons": [
-      "P/E 44.6",
-      "1.31x the sector median P/E of 34.1"
+      "P/E 44.4",
+      "1.30x the sector median P/E of 34.1"
      ]
     },
     {
      "name": "dividend",
-     "score": 68.4,
+     "score": 68.5,
      "weight": 10,
      "reasons": [
       "Dividend yield 4.2%",
@@ -39733,9 +39737,9 @@
    "red_flags": [],
    "name": "Weyerhaeuser",
    "sector": "REAL ESTATE",
-   "price": 20.09,
+   "price": 19.97,
    "market": "US",
-   "change_pct": -2.85
+   "change_pct": -0.6
   },
   {
    "symbol": "AXP",
@@ -40307,6 +40311,105 @@
    "change_pct": 0.38
   },
   {
+   "symbol": "TPL",
+   "score": 47.2,
+   "coverage_pct": 80.0,
+   "signal": "SELL",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 50.4,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 6.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 24.0,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -50.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 86.4,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 33.0%",
+      "Net margin 60.31% vs 66.88% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 89.8,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.08x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 100,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 4.40"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 12.8,
+     "weight": 20,
+     "reasons": [
+      "P/E 41.0",
+      "1.75x the sector median P/E of 23.5"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 47.9,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 0.7%",
+      "Paid a cash dividend in 3 of the last 5 fiscal years on record",
+      "Pays out 31% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 8.6,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-17.1 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Texas Pacific Land Corporation",
+   "sector": "ENERGY",
+   "price": 286.0,
+   "market": "US",
+   "change_pct": -0.64
+  },
+  {
    "symbol": "DOC",
    "score": 47.1,
    "coverage_pct": 86.0,
@@ -40480,7 +40583,7 @@
     },
     {
      "name": "dividend",
-     "score": 56.3,
+     "score": 55.8,
      "weight": 10,
      "reasons": [
       "Dividend yield 1.1%",
@@ -40500,9 +40603,9 @@
    "red_flags": [],
    "name": "Hewlett Packard Enterprise",
    "sector": "INFORMATION TECHNOLOGY",
-   "price": 46.09,
+   "price": 47.3697,
    "market": "US",
-   "change_pct": -1.03
+   "change_pct": 2.78
   },
   {
    "symbol": "SJM",
@@ -40578,7 +40681,7 @@
     },
     {
      "name": "dividend",
-     "score": 80.0,
+     "score": 80.2,
      "weight": 10,
      "reasons": [
       "Dividend yield 3.3%",
@@ -40600,9 +40703,9 @@
    ],
    "name": "J.M. Smucker Company (The)",
    "sector": "CONSUMER STAPLES",
-   "price": 133.44,
+   "price": 132.16,
    "market": "US",
-   "change_pct": -1.55
+   "change_pct": -0.96
   },
   {
    "symbol": "LUV",
@@ -40706,204 +40809,6 @@
    "change_pct": -1.83
   },
   {
-   "symbol": "TPL",
-   "score": 47.1,
-   "coverage_pct": 80.0,
-   "signal": "SELL",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 50.4,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 6.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 24.0,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -50.6% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 86.4,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 33.0%",
-      "Net margin 60.31% vs 66.88% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 89.8,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.08x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 100,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 4.40"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 12.3,
-     "weight": 20,
-     "reasons": [
-      "P/E 41.3",
-      "1.76x the sector median P/E of 23.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 47.9,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 0.7%",
-      "Paid a cash dividend in 3 of the last 5 fiscal years on record",
-      "Pays out 31% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 8.6,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-17.1 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Texas Pacific Land Corporation",
-   "sector": "ENERGY",
-   "price": 287.84,
-   "market": "US",
-   "change_pct": -1.48
-  },
-  {
-   "symbol": "DHR",
-   "score": 47.0,
-   "coverage_pct": 92.0,
-   "signal": "SELL",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 7.3,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -7.9% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 24.6,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -19.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 41.0,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 6.9%",
-      "Net margin 14.71% vs 22.91% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.66x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 91.6,
-     "weight": 12,
-     "reasons": [
-      "Debt is 0.35x equity",
-      "Profit covers interest 17.7x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 95.0,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.87"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 24.2,
-     "weight": 20,
-     "reasons": [
-      "P/E 44.7",
-      "1.38x the sector median P/E of 32.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 0.0,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 0.0%",
-      "Paid a cash dividend in 0 of the last 5 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 72.8,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-10.8 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Danaher Corporation",
-   "sector": "HEALTH CARE",
-   "price": 225.77,
-   "market": "US",
-   "change_pct": -1.8
-  },
-  {
    "symbol": "ICE",
    "score": 47.0,
    "coverage_pct": 100.0,
@@ -40977,6 +40882,105 @@
    "price": 172.22,
    "market": "US",
    "change_pct": -3.4
+  },
+  {
+   "symbol": "DHR",
+   "score": 46.9,
+   "coverage_pct": 92.0,
+   "signal": "SELL",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 7.3,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -7.9% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 24.6,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -19.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 41.0,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 6.9%",
+      "Net margin 14.71% vs 22.91% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.66x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 91.6,
+     "weight": 12,
+     "reasons": [
+      "Debt is 0.35x equity",
+      "Profit covers interest 17.7x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 95.0,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.87"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 24.1,
+     "weight": 20,
+     "reasons": [
+      "P/E 44.7",
+      "1.38x the sector median P/E of 32.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 0.0,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 0.0%",
+      "Paid a cash dividend in 0 of the last 5 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 72.8,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-10.8 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Danaher Corporation",
+   "sector": "HEALTH CARE",
+   "price": 225.77,
+   "market": "US",
+   "change_pct": -1.8
   },
   {
    "symbol": "VTR",
@@ -41148,9 +41152,9 @@
    "red_flags": [],
    "name": "KKR & Co.",
    "sector": "FINANCIALS",
-   "price": 94.5,
+   "price": 94.72,
    "market": "US",
-   "change_pct": -1.02
+   "change_pct": 0.23
   },
   {
    "symbol": "SWKS",
@@ -41254,7 +41258,7 @@
   },
   {
    "symbol": "DLTR",
-   "score": 46.1,
+   "score": 46.0,
    "coverage_pct": 92.0,
    "signal": "SELL",
    "factors": [
@@ -41318,11 +41322,11 @@
     },
     {
      "name": "valuation",
-     "score": 67.2,
+     "score": 67.0,
      "weight": 20,
      "reasons": [
-      "P/E 22.5",
-      "0.87x the sector median P/E of 26.0"
+      "P/E 22.4",
+      "0.87x the sector median P/E of 25.8"
      ]
     },
     {
@@ -41347,9 +41351,9 @@
    "red_flags": [],
    "name": "Dollar Tree",
    "sector": "CONSUMER STAPLES",
-   "price": 139.71,
+   "price": 139.55,
    "market": "US",
-   "change_pct": 0.73
+   "change_pct": -0.11
   },
   {
    "symbol": "BLK",
@@ -41569,7 +41573,7 @@
     },
     {
      "name": "valuation",
-     "score": 19.6,
+     "score": 19.5,
      "weight": 20,
      "reasons": [
       "P/E 36.2",
@@ -41670,7 +41674,7 @@
     },
     {
      "name": "valuation",
-     "score": 40.0,
+     "score": 39.9,
      "weight": 20,
      "reasons": [
       "P/E 27.5",
@@ -41775,7 +41779,7 @@
      "weight": 20,
      "reasons": [
       "P/E 58.3",
-      "2.60x the sector median P/E of 22.4"
+      "2.61x the sector median P/E of 22.4"
      ]
     },
     {
@@ -41870,11 +41874,11 @@
     },
     {
      "name": "valuation",
-     "score": 2.5,
+     "score": 2.4,
      "weight": 20,
      "reasons": [
       "P/E 62.6",
-      "1.93x the sector median P/E of 32.5"
+      "1.93x the sector median P/E of 32.4"
      ]
     },
     {
@@ -41975,7 +41979,7 @@
      "weight": 20,
      "reasons": [
       "P/E 209.0",
-      "8.05x the sector median P/E of 26.0"
+      "8.09x the sector median P/E of 25.8"
      ]
     },
     {
@@ -42078,7 +42082,7 @@
    "sector": "FINANCIALS",
    "price": 111.35,
    "market": "US",
-   "change_pct": -0.82
+   "change_pct": 0.0
   },
   {
    "symbol": "EW",
@@ -42146,11 +42150,11 @@
     },
     {
      "name": "valuation",
-     "score": 7.9,
+     "score": 7.8,
      "weight": 20,
      "reasons": [
       "P/E 57.6",
-      "1.77x the sector median P/E of 32.5"
+      "1.78x the sector median P/E of 32.4"
      ]
     },
     {
@@ -42275,106 +42279,9 @@
    ],
    "name": "Alexandria Real Estate Equities",
    "sector": "REAL ESTATE",
-   "price": 42.38,
+   "price": 42.39,
    "market": "US",
-   "change_pct": -2.64
-  },
-  {
-   "symbol": "MTD",
-   "score": 44.9,
-   "coverage_pct": 100.0,
-   "signal": "SELL",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 37.2,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 0.9% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 60.3,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 3.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 73.5,
-     "weight": 6,
-     "reasons": [
-      "Net margin 21.59% vs 22.26% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 92.9,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 1.15x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 62.5,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle 81 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 0.0,
-     "weight": 12,
-     "reasons": [
-      "Negative equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 58.2,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 1.14"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 31.3,
-     "weight": 20,
-     "reasons": [
-      "P/E 40.7",
-      "1.25x the sector median P/E of 32.5"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 0.0,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 0.0%",
-      "Paid a cash dividend in 0 of the last 5 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 87.8,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+11.7 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Mettler Toledo",
-   "sector": "HEALTH CARE",
-   "price": 1712.95,
-   "market": "US",
-   "change_pct": -0.83
+   "change_pct": 0.02
   },
   {
    "symbol": "CIEN",
@@ -42550,10 +42457,10 @@
     },
     {
      "name": "dividend",
-     "score": 93.0,
+     "score": 92.9,
      "weight": 10,
      "reasons": [
-      "Dividend yield 5.8%",
+      "Dividend yield 5.7%",
       "Paid a cash dividend in 5 of the last 5 fiscal years on record"
      ]
     },
@@ -42572,9 +42479,106 @@
    ],
    "name": "International Paper",
    "sector": "MATERIALS",
-   "price": 32.17,
+   "price": 32.3,
    "market": "US",
-   "change_pct": -3.16
+   "change_pct": 0.4
+  },
+  {
+   "symbol": "MTD",
+   "score": 44.8,
+   "coverage_pct": 100.0,
+   "signal": "SELL",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 37.2,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 0.9% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 60.3,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 3.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 73.5,
+     "weight": 6,
+     "reasons": [
+      "Net margin 21.59% vs 22.26% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 92.9,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 1.15x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 62.5,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle 81 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 0.0,
+     "weight": 12,
+     "reasons": [
+      "Negative equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 58.2,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 1.14"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 31.2,
+     "weight": 20,
+     "reasons": [
+      "P/E 40.7",
+      "1.26x the sector median P/E of 32.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 0.0,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 0.0%",
+      "Paid a cash dividend in 0 of the last 5 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 87.8,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+11.7 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Mettler Toledo",
+   "sector": "HEALTH CARE",
+   "price": 1712.95,
+   "market": "US",
+   "change_pct": -0.83
   },
   {
    "symbol": "J",
@@ -42939,11 +42943,11 @@
     },
     {
      "name": "valuation",
-     "score": 3.4,
+     "score": 3.3,
      "weight": 20,
      "reasons": [
       "P/E 61.7",
-      "1.90x the sector median P/E of 32.5"
+      "1.90x the sector median P/E of 32.4"
      ]
     },
     {
@@ -43009,8 +43013,8 @@
      "score": 6.6,
      "weight": 20,
      "reasons": [
-      "P/E 35.4",
-      "2.01x the sector median P/E of 17.6"
+      "P/E 35.3",
+      "2.00x the sector median P/E of 17.6"
      ]
     },
     {
@@ -43037,16 +43041,16 @@
      "score": 0,
      "weight": 12,
      "reasons": [
-      "Price is 20.60x book value (2025)"
+      "Price is 20.55x book value (2025)"
      ]
     }
    ],
    "red_flags": [],
    "name": "Moody's Corporation",
    "sector": "FINANCIALS",
-   "price": 484.41,
+   "price": 483.12,
    "market": "US",
-   "change_pct": -4.32
+   "change_pct": -0.27
   },
   {
    "symbol": "COIN",
@@ -43193,7 +43197,7 @@
      "weight": 20,
      "reasons": [
       "P/E 71.4",
-      "2.20x the sector median P/E of 32.5"
+      "2.20x the sector median P/E of 32.4"
      ]
     },
     {
@@ -43672,105 +43676,6 @@
    "change_pct": -2.16
   },
   {
-   "symbol": "KR",
-   "score": 43.8,
-   "coverage_pct": 100.0,
-   "signal": "STRONG_SELL",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 34.5,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -0.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 29.3,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -20.5% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 58.2,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 17.1%",
-      "Net margin 0.69% vs 1.51% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 100.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 4.17x reported profit"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle -21 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 6.4,
-     "weight": 12,
-     "reasons": [
-      "Debt is 2.68x equity"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 30.1,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.80"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 9.7,
-     "weight": 20,
-     "reasons": [
-      "P/E 46.0",
-      "1.77x the sector median P/E of 26.0"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 64.9,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.9%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 89% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 46.2,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-5.8 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Kroger",
-   "sector": "CONSUMER STAPLES",
-   "price": 70.88,
-   "market": "US",
-   "change_pct": 0.3
-  },
-  {
    "symbol": "ORLY",
    "score": 43.8,
    "coverage_pct": 100.0,
@@ -43866,6 +43771,105 @@
    "price": 92.69,
    "market": "US",
    "change_pct": -0.01
+  },
+  {
+   "symbol": "KR",
+   "score": 43.7,
+   "coverage_pct": 100.0,
+   "signal": "STRONG_SELL",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 34.5,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -0.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 29.3,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -20.5% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 58.2,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 17.1%",
+      "Net margin 0.69% vs 1.51% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 100.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 4.17x reported profit"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle -21 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 6.4,
+     "weight": 12,
+     "reasons": [
+      "Debt is 2.68x equity"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 30.1,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.80"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 9.5,
+     "weight": 20,
+     "reasons": [
+      "P/E 46.0",
+      "1.78x the sector median P/E of 25.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 64.9,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.9%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 89% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 46.2,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-5.8 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Kroger",
+   "sector": "CONSUMER STAPLES",
+   "price": 70.88,
+   "market": "US",
+   "change_pct": 0.3
   },
   {
    "symbol": "LITE",
@@ -45313,7 +45317,7 @@
     },
     {
      "name": "dividend",
-     "score": 71.6,
+     "score": 71.7,
      "weight": 10,
      "reasons": [
       "Dividend yield 2.4%",
@@ -45335,9 +45339,9 @@
    ],
    "name": "Hasbro",
    "sector": "CONSUMER DISCRETIONARY",
-   "price": 118.35,
+   "price": 117.8925,
    "market": "US",
-   "change_pct": -2.21
+   "change_pct": 0.21
   },
   {
    "symbol": "VTRS",
@@ -45510,9 +45514,9 @@
    "red_flags": [],
    "name": "FactSet",
    "sector": "FINANCIALS",
-   "price": 316.1,
+   "price": 316.1026,
    "market": "US",
-   "change_pct": -4.84
+   "change_pct": 0.0
   },
   {
    "symbol": "NDAQ",
@@ -46333,7 +46337,7 @@
      "weight": 20,
      "reasons": [
       "P/E 124.1",
-      "3.82x the sector median P/E of 32.5"
+      "3.83x the sector median P/E of 32.4"
      ]
     },
     {
@@ -47441,7 +47445,7 @@
     },
     {
      "name": "dividend",
-     "score": 77.0,
+     "score": 77.1,
      "weight": 10,
      "reasons": [
       "Dividend yield 2.9%",
@@ -47463,9 +47467,9 @@
    ],
    "name": "Skydance",
    "sector": "COMMUNICATION SERVICES",
-   "price": 6.92,
+   "price": 6.9,
    "market": "US",
-   "change_pct": -1.7
+   "change_pct": -0.29
   },
   {
    "symbol": "ON",
