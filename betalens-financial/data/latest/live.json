@@ -1,11 +1,11 @@
 {
- "as_of": "2026-11-19T10:51:04+00:00",
+ "as_of": "2026-11-19T11:37:45+00:00",
  "prices": {
   "CNERGY": {
    "price": 11.83,
    "change": -0.07,
    "change_pct": -0.59,
-   "volume": 33106996.0,
+   "volume": 33107196.0,
    "ldcp": 11.9,
    "high": 12.09,
    "low": 11.75
@@ -14,7 +14,7 @@
    "price": 82.16,
    "change": -0.2,
    "change_pct": -0.24,
-   "volume": 14355792.0,
+   "volume": 14360000.0,
    "ldcp": 82.36,
    "high": 83.99,
    "low": 81.8
@@ -23,7 +23,7 @@
    "price": 25.74,
    "change": 1.19,
    "change_pct": 4.85,
-   "volume": 13925531.0,
+   "volume": 13926531.0,
    "ldcp": 24.55,
    "high": 26.38,
    "low": 24.65
@@ -41,7 +41,7 @@
    "price": 222.6,
    "change": 7.17,
    "change_pct": 3.33,
-   "volume": 8902588.0,
+   "volume": 8912588.0,
    "ldcp": 215.43,
    "high": 223.5,
    "low": 216.0
@@ -77,7 +77,7 @@
    "price": 26.78,
    "change": 0.65,
    "change_pct": 2.49,
-   "volume": 5719231.0,
+   "volume": 5720231.0,
    "ldcp": 26.13,
    "high": 26.9,
    "low": 26.01
@@ -122,7 +122,7 @@
    "price": 59.29,
    "change": -0.2,
    "change_pct": -0.34,
-   "volume": 4002576.0,
+   "volume": 4002796.0,
    "ldcp": 59.49,
    "high": 60.18,
    "low": 59.11
@@ -194,7 +194,7 @@
    "price": 22.36,
    "change": 1.96,
    "change_pct": 9.61,
-   "volume": 3075881.0,
+   "volume": 3076631.0,
    "ldcp": 20.4,
    "high": 22.44,
    "low": 20.5
@@ -221,7 +221,7 @@
    "price": 34.83,
    "change": -0.05,
    "change_pct": -0.14,
-   "volume": 2595474.0,
+   "volume": 2595744.0,
    "ldcp": 34.88,
    "high": 35.17,
    "low": 34.65
@@ -311,7 +311,7 @@
    "price": 33.14,
    "change": -0.28,
    "change_pct": -0.84,
-   "volume": 1517173.0,
+   "volume": 1517175.0,
    "ldcp": 33.42,
    "high": 33.73,
    "low": 32.9
@@ -320,7 +320,7 @@
    "price": 571.73,
    "change": 3.07,
    "change_pct": 0.54,
-   "volume": 1427676.0,
+   "volume": 1428476.0,
    "ldcp": 568.66,
    "high": 579.8,
    "low": 567.6
@@ -401,7 +401,7 @@
    "price": 109.74,
    "change": -2.31,
    "change_pct": -2.06,
-   "volume": 1115999.0,
+   "volume": 1116019.0,
    "ldcp": 112.05,
    "high": 112.78,
    "low": 108.24
@@ -482,7 +482,7 @@
    "price": 47.23,
    "change": 0.47,
    "change_pct": 1.01,
-   "volume": 802864.0,
+   "volume": 803064.0,
    "ldcp": 46.76,
    "high": 48.5,
    "low": 46.9
@@ -532,6 +532,15 @@
    "high": 194.99,
    "low": 161.89
   },
+  "LIVEN": {
+   "price": 47.64,
+   "change": 4.33,
+   "change_pct": 10.0,
+   "volume": 728578.0,
+   "ldcp": 43.31,
+   "high": 47.64,
+   "low": 47.44
+  },
   "PSO": {
    "price": 362.03,
    "change": -0.98,
@@ -540,15 +549,6 @@
    "ldcp": 363.01,
    "high": 365.5,
    "low": 361.0
-  },
-  "LIVEN": {
-   "price": 47.64,
-   "change": 4.33,
-   "change_pct": 10.0,
-   "volume": 723578.0,
-   "ldcp": 43.31,
-   "high": 47.64,
-   "low": 47.44
   },
   "ICCI": {
    "price": 21.77,
@@ -617,7 +617,7 @@
    "price": 36.39,
    "change": 0.06,
    "change_pct": 0.17,
-   "volume": 647532.0,
+   "volume": 655332.0,
    "ldcp": 36.33,
    "high": 37.14,
    "low": 35.9
@@ -689,7 +689,7 @@
    "price": 548.38,
    "change": 0.08,
    "change_pct": 0.02,
-   "volume": 548074.0,
+   "volume": 548075.0,
    "ldcp": 548.3,
    "high": 555.0,
    "low": 547.5
@@ -698,7 +698,7 @@
    "price": 312.79,
    "change": 0.06,
    "change_pct": 0.02,
-   "volume": 536355.0,
+   "volume": 536360.0,
    "ldcp": 312.73,
    "high": 314.5,
    "low": 312.01
@@ -716,7 +716,7 @@
    "price": 53.16,
    "change": -0.69,
    "change_pct": -1.28,
-   "volume": 530430.0,
+   "volume": 530630.0,
    "ldcp": 53.85,
    "high": 54.25,
    "low": 53.0
@@ -959,7 +959,7 @@
    "price": 74.15,
    "change": 3.84,
    "change_pct": 5.46,
-   "volume": 193988.0,
+   "volume": 194289.0,
    "ldcp": 70.31,
    "high": 75.0,
    "low": 69.0
@@ -1031,7 +1031,7 @@
    "price": 358.88,
    "change": 10.56,
    "change_pct": 3.03,
-   "volume": 175152.0,
+   "volume": 175153.0,
    "ldcp": 348.32,
    "high": 374.0,
    "low": 340.0
@@ -1049,7 +1049,7 @@
    "price": 24.43,
    "change": 0.0,
    "change_pct": 0.0,
-   "volume": 169595.0,
+   "volume": 169604.0,
    "ldcp": 24.43,
    "high": 24.52,
    "low": 24.28
@@ -1202,7 +1202,7 @@
    "price": 533.52,
    "change": -8.58,
    "change_pct": -1.58,
-   "volume": 129884.0,
+   "volume": 129924.0,
    "ldcp": 542.1,
    "high": 548.0,
    "low": 531.0
@@ -1382,7 +1382,7 @@
    "price": 16.0,
    "change": -0.95,
    "change_pct": -5.6,
-   "volume": 74821.0,
+   "volume": 74871.0,
    "ldcp": 16.95,
    "high": 17.5,
    "low": 15.6
@@ -1535,7 +1535,7 @@
    "price": 185.43,
    "change": -2.57,
    "change_pct": -1.37,
-   "volume": 55297.0,
+   "volume": 55397.0,
    "ldcp": 188.0,
    "high": 189.99,
    "low": 183.0
@@ -1787,7 +1787,7 @@
    "price": 850.21,
    "change": 56.89,
    "change_pct": 7.17,
-   "volume": 24095.0,
+   "volume": 24132.0,
    "ldcp": 793.32,
    "high": 872.65,
    "low": 795.01
@@ -1877,7 +1877,7 @@
    "price": 285.04,
    "change": 21.4,
    "change_pct": 8.12,
-   "volume": 18495.0,
+   "volume": 18498.0,
    "ldcp": 263.64,
    "high": 290.0,
    "low": 267.51
@@ -2539,6 +2539,15 @@
    "high": 7035.0,
    "low": 7001.88
   },
+  "SASML": {
+   "price": 301.89,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "volume": 212.0,
+   "ldcp": 301.89,
+   "high": 320.0,
+   "low": 285.52
+  },
   "ZIL": {
    "price": 283.97,
    "change": -5.35,
@@ -2583,15 +2592,6 @@
    "ldcp": 904.63,
    "high": 915.0,
    "low": 895.02
-  },
-  "SASML": {
-   "price": 301.89,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "volume": 113.0,
-   "ldcp": 301.89,
-   "high": 320.0,
-   "low": 285.52
   },
   "KCL": {
    "price": 165.45,
