@@ -20,6 +20,7 @@ from betalens.dividends import run_agent
 from betalens.models import CompanyData
 from betalens.scoring.engine import load_config, score_company
 from betalens.us import parsers
+from betalens.us import quotes as us_quotes
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data" / "latest"
@@ -166,17 +167,16 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     if symbols:
         universe = [r for r in universe if r["symbol"] in symbols]
     days = BACKTEST_HISTORY_DAYS if backtest else DAILY_HISTORY_DAYS
+    live_path = OUT / "us_live.json"
+    saved_live = json.loads(live_path.read_text()) if live_path.exists() else {}
+    saved = saved_live.get("prices", {})
     live = {}
     try:
-        for text in src.quotes([r["symbol"] for r in universe]):
-            live.update(parsers.parse_nasdaq_watchlist(text))
+        live, _ = us_quotes.fetch(src, [r["symbol"] for r in universe], saved,
+                                  us_quotes.session_of(datetime.now(timezone.utc)))
     except Exception as e:  # fall back to each company's last close from its price history
         print(f"US quotes failed ({type(e).__name__}); using last closes", file=sys.stderr)
-    live_path = OUT / "us_live.json"
-    if live_path.exists():  # never price the scores with an older session than the 30-minute job already saved
-        live, kept = parsers.keep_fresher(live, json.loads(live_path.read_text()).get("prices", {}))
-        if kept:
-            print(f"Kept the saved live price for {kept} symbols (Nasdaq returned an older session)", file=sys.stderr)
+    closed = us_quotes.mostly_closed(live)   # market closed: price everything at the official close
     index_by_date = {p["date"]: p["close"] for p in fetch_history(src, "SPY", days, "etf")}
     print(f"US benchmark (SPY): {len(index_by_date)} trading days")
 
@@ -189,6 +189,9 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
             facts = None
         try:
             history = fetch_history(src, row["symbol"], days)
+            official = us_quotes.official_close(history, saved.get(row["symbol"])) if closed else None
+            if official:
+                live[row["symbol"]] = official
             companies.append(build_us_company(row, facts, history, index_by_date, live.get(row["symbol"])))
         except Exception as e:
             errors[row["symbol"]] = f"{type(e).__name__}: {e}"
@@ -236,6 +239,13 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     (OUT / "us_scores.json").write_text(json.dumps({"meta": meta, "scores": cards}, indent=1, default=str))
     (OUT / "us_dividend_agent.json").write_text(json.dumps({"meta": meta, **agent}, indent=1, default=str))
     append_log(cards, today, ROOT / "data" / "signal_log_us.csv")
+    if closed and live:   # the dashboard's live prices become the official closes too
+        saved_live.update(as_of=meta["generated_at"], market_status="Market Closed",
+                          prices={s: {k: q.get(k) for k in ("price", "change", "change_pct", "volume", "previous_close",
+                                                             "market_status", "session")} for s, q in live.items()})
+        saved_live.setdefault("upcoming", [])
+        live_path.write_text(json.dumps(saved_live, indent=1, default=str))
+        print(f"US live prices set to official closes for {len(live)} symbols")
     if os.environ.get("BETALENS_DAILY_ANALYSIS") == "1":
         send_alerts(cards, agent["upcoming"])
     else:

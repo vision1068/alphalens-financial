@@ -75,13 +75,13 @@ class UsSources:
         return self._nasdaq(f"/quote/{symbol}/historical?assetclass={assetclass}&fromdate={frm}&todate={today}"
                             f"&limit={min(int(days * 0.72) + 20, 3000)}")
 
+    def quote_batch(self, symbols: list[str]) -> str:
+        """Real-time last trade for up to ~20 symbols (Nasdaq's watchlist endpoint)."""
+        return self._nasdaq("/quote/watchlist?" + "&".join(f"symbol={s.lower()}%7cstocks" for s in symbols))
+
     def quotes(self, symbols: list[str], batch: int = 20) -> list[str]:
-        """Real-time last trade for many symbols, `batch` per request (Nasdaq's watchlist endpoint)."""
-        out = []
-        for i in range(0, len(symbols), batch):
-            query = "&".join(f"symbol={s.lower()}%7cstocks" for s in symbols[i:i + batch])
-            out.append(self._nasdaq(f"/quote/watchlist?{query}"))
-        return out
+        """Real-time last trade for many symbols, `batch` per request."""
+        return [self.quote_batch(symbols[i:i + batch]) for i in range(0, len(symbols), batch)]
 
     def screener(self) -> str:
         """Every US stock in one request. Its prices are the previous day's close, not live."""

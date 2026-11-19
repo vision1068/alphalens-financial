@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 
 from betalens.dividends import add_business_days
 from betalens.us import parsers
+from betalens.us import quotes as us_quotes
 
 OUT = Path(__file__).resolve().parents[2] / "data" / "latest"
 NY = ZoneInfo("America/New_York")
@@ -20,7 +21,7 @@ LOOKAHEAD_DAYS = 8
 
 
 def build_us_live(quotes: dict[str, dict], calendar: list[dict], symbols: set[str], now_utc: datetime) -> dict:
-    prices = {s: {k: row.get(k) for k in ("price", "change", "change_pct", "volume", "previous_close", "market_status", "trade_date")}
+    prices = {s: {k: row.get(k) for k in ("price", "change", "change_pct", "volume", "previous_close", "market_status", "session")}
               for s, row in quotes.items() if s in symbols}
     statuses = [row.get("market_status") for row in prices.values() if row.get("market_status")]
     upcoming = []
@@ -44,15 +45,14 @@ def run() -> int:
         return 1
     symbols = {k["symbol"] for k in json.loads(scores_path.read_text())["scores"]}
     src = UsSources()
-    quotes = {}
-    for text in src.quotes(sorted(symbols)):
-        quotes.update(parsers.parse_nasdaq_watchlist(text))
     live_path = OUT / "us_live.json"
     saved = json.loads(live_path.read_text()).get("prices", {}) if live_path.exists() else {}
-    quotes, kept = parsers.keep_fresher(quotes, saved)
-    if kept:
-        print(f"Kept the saved price for {kept} symbols: Nasdaq returned an older trading session", file=sys.stderr)
     now = datetime.now(timezone.utc)
+    quotes, rejected = us_quotes.fetch(src, sorted(symbols), saved, us_quotes.session_of(now))
+    if rejected:
+        print(f"Kept the saved price for {rejected} symbols: Nasdaq still answered with an older day", file=sys.stderr)
+    if us_quotes.mostly_closed(quotes):
+        print("US market closed: saved prices kept (the daily job sets official closes)")
     today = now.astimezone(NY).date()
     calendar = []
     for i in range(0, LOOKAHEAD_DAYS + 1):

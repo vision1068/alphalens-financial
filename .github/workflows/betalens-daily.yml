@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '30 4 * * *'   # 09:30 Pakistan time (GMT+5) every day. Runs only from the default branch.
   workflow_dispatch:
+    inputs:
+      daily_analysis:
+        description: "Run AI notes and alerts (the 09:30 daily analysis; started by the Netlify timetable)"
+        type: boolean
+        default: false
   push:
     branches: [main, betalens-financial]
     paths:
@@ -32,7 +37,7 @@ jobs:
       - run: python -m betalens.pipeline --backtest
         env:
           # AI notes and email alerts run only on the scheduled daily run, not on pushes or manual runs.
-          BETALENS_DAILY_ANALYSIS: ${{ github.event_name == 'schedule' && '1' || '' }}
+          BETALENS_DAILY_ANALYSIS: ${{ (github.event_name == 'schedule' || inputs.daily_analysis) && '1' || '' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
@@ -43,7 +48,7 @@ jobs:
         continue-on-error: true   # a US data problem must not stop the PSX results from being saved
         run: python -m betalens.us.pipeline
         env:
-          BETALENS_DAILY_ANALYSIS: ${{ github.event_name == 'schedule' && '1' || '' }}
+          BETALENS_DAILY_ANALYSIS: ${{ (github.event_name == 'schedule' || inputs.daily_analysis) && '1' || '' }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
@@ -60,7 +65,7 @@ jobs:
             for f in data/latest/scores.json data/latest/dividends.json data/latest/dividend_agent.json \
                      data/latest/analyst_notes.json data/backtest data/signal_log.csv data/alert_state.json \
                      data/latest/us_scores.json data/latest/us_dividend_agent.json data/signal_log_us.csv \
-                     data/alert_state_us.json; do
+                     data/alert_state_us.json data/latest/us_live.json; do
               [ -e "$f" ] && git add "$f"
             done
             git diff --cached --quiet && exit 0
