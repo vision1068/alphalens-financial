@@ -68,9 +68,13 @@ def run_analyst_and_alerts(cards: list[dict], companies: list[CompanyData], upco
     acfg = yaml.safe_load((OUT.parents[1] / "config" / "alerts.yaml").read_text())
     notes_path, state_path = OUT / "analyst_notes.json", OUT.parent / "alert_state.json"
     cache = json.loads(notes_path.read_text()) if notes_path.exists() else {}
-    notes, written = analyst.write_notes(cards, {c.symbol: c for c in companies}, cache,
-                                         acfg["analyst_model"], acfg["analyst_notes_per_run"])
-    print(f"AI analyst wrote {written} note(s); {len(notes)} on file")
+    if acfg.get("ai_notes", True):
+        notes, written = analyst.write_notes(cards, {c.symbol: c for c in companies}, cache,
+                                             acfg["analyst_model"], acfg["analyst_notes_per_run"])
+        print(f"AI analyst wrote {written} note(s); {len(notes)} on file")
+    else:   # no Claude API calls at all; alerts go out without an AI summary
+        notes = {}
+        print("AI notes switched off (config/alerts.yaml ai_notes: false); no Claude API calls")
     state = json.loads(state_path.read_text()) if state_path.exists() else {}
     holdings = {s.strip().upper() for s in os.environ.get("PORTFOLIO_SYMBOLS", "").split(",") if s.strip()}
     pending, new_state = alerts.find_alerts(cards, upcoming, state, acfg, holdings)
@@ -162,6 +166,9 @@ def run(symbols: list[str] | None = None, backtest: bool = False) -> int:
     else:  # AI notes and alerts run once a day, from the scheduled job only
         print("AI analyst and alerts skipped: not the scheduled daily analysis run")
         notes = json.loads(notes_path.read_text()) if notes_path.exists() else {}
+        import yaml
+        if not yaml.safe_load((OUT.parents[1] / "config" / "alerts.yaml").read_text()).get("ai_notes", True):
+            notes = {}
     covered = {c.symbol for c in companies}
     notes_path.write_text(json.dumps({s: n for s, n in notes.items() if s in covered}, indent=1))
     append_signal_log(cards, today, OUT.parent / "signal_log.csv")

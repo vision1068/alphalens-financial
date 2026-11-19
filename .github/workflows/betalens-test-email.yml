@@ -1,0 +1,37 @@
+name: BetaLens test email
+# Run by hand (Actions tab → BetaLens test email → Run workflow) to check that alert emails arrive.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: betalens-financial
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Send a test email through the same code as the alerts
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime, timezone
+          from betalens import alerts
+          user, to = os.environ["SMTP_USERNAME"].strip().lower(), os.environ["ALERT_EMAIL_TO"].strip().lower()
+          print("Sender and recipient are the SAME address" if user == to else "Sender and recipient are different addresses")
+          when = datetime.now(timezone.utc).strftime("%d %b %Y %H:%M UTC")
+          text = f"This is a BetaLens test email sent {when}. If you can read it, alert emails reach you."
+          ok = alerts.send(f"BetaLens test email ({when})", text, f"<p>{text}</p><p><a href='https://betalens.netlify.app/'>Open BetaLens</a></p>")
+          print("Gmail accepted the test email" if ok else "Not sent: mail settings missing")
+          raise SystemExit(0 if ok else 1)
+          PY

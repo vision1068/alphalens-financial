@@ -1,6 +1,7 @@
 # Email alerts and the AI analyst. Secrets (API key, email addresses, SMTP password) are never stored here;
 # they come from GitHub Actions secrets.
 dashboard_url: "https://betalens.netlify.app/"   # used for the link in alert emails
+ai_notes: false               # AI notes (Claude API) switched off on 19 Nov 2026 at his request; true to turn back on
 analyst_model: "claude-sonnet-5-5"
 analyst_notes_per_run: 30      # upper limit on AI notes written in one run, to cap cost
 alert_signals: [STRONG_BUY, STRONG_SELL]
