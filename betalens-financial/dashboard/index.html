@@ -14,7 +14,10 @@
   <div>
     <h1>BetaLens <span>PSX and US scorecards</span></h1>
     <p id="updated" class="muted">Loading…</p>
-    <button id="refreshBtn" type="button" class="refresh busy" aria-live="polite">Loading data…</button>
+    <div class="refresh-row">
+      <button id="refresh-psx" type="button" class="refresh busy" aria-live="polite">PSX: loading…</button>
+      <button id="refresh-us" type="button" class="refresh busy" aria-live="polite">International: loading…</button>
+    </div>
   </div>
   <nav id="tabs" role="tablist" aria-label="Sections">
     <button role="tab" data-tab="psx-signals" aria-selected="true">PSX Signals</button>

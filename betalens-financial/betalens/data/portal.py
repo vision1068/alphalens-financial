@@ -4,10 +4,11 @@ from __future__ import annotations
 import time
 
 from psxdata.constants import BASE_URL
-from psxdata.exceptions import PSXRateLimitError
+from psxdata.exceptions import PSXConnectionError, PSXRateLimitError
 from psxdata.scrapers.base import BaseScraper
 
 RATE_LIMIT_WAITS = (20, 60, 120)   # seconds to wait after each "too many requests" reply before retrying
+DROP_WAITS = (15, 45)              # seconds to wait when the portal drops the connection (seen 19 Nov 2026)
 
 
 class Portal:
@@ -16,13 +17,18 @@ class Portal:
 
     def _text(self, method: str, path: str, data: dict | None = None) -> str:
         kwargs = {"data": data} if data else {}
-        for wait in (*RATE_LIMIT_WAITS, None):
+        busy, drops = list(RATE_LIMIT_WAITS), list(DROP_WAITS)
+        while True:
             try:
                 return self._s._request(method, BASE_URL + path, **kwargs).text
             except PSXRateLimitError:
-                if wait is None:
+                if not busy:
                     raise
-                time.sleep(wait)
+                time.sleep(busy.pop(0))
+            except PSXConnectionError:   # psxdata already tried 3 times; give the portal a moment and try again
+                if not drops:
+                    raise
+                time.sleep(drops.pop(0))
 
     def company_page(self, symbol: str) -> str:
         return self._text("GET", f"/company/{symbol}")
