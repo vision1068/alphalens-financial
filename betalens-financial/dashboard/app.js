@@ -427,7 +427,6 @@ async function loadMarket(m) {
   renderBacktest(m, backtest);
 }
 
-let refreshing = false;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const clock = () => new Date().toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
 
@@ -443,64 +442,82 @@ async function reloadAll() {
   return failed;
 }
 
-// Ask the site's helper (/api/refresh) to start the PSX and US live-price jobs now.
-// Returns { markets } for the jobs started or already running, or { reason } saying why nothing started.
-async function startPriceJobs() {
+// Ask the site's helper (/api/refresh) to start one market's live-price job now.
+// Returns { ok: true } when the job started or is already running, or { reason } saying why not.
+async function startPriceJob(m) {
   let res;
   try {
-    res = await fetch("/api/refresh", { method: "POST", signal: AbortSignal.timeout(20000) });
+    res = await fetch("/api/refresh", { method: "POST", body: JSON.stringify({ market: m }),
+      headers: { "content-type": "application/json" }, signal: AbortSignal.timeout(20000) });
   } catch {
     return { reason: "the Refresh helper did not answer" };
   }
   let body = null;
   try { body = await res.json(); } catch { /* not JSON: the helper is missing from this deploy */ }
   if (!body) return { reason: `the Refresh helper is not deployed on Netlify (HTTP ${res.status})` };
-  if (!body.ok) return { reason: body.reason || "the Refresh helper could not start the jobs" };
-  return { markets: Object.keys(body.jobs).filter((m) => ["started", "already_running"].includes(body.jobs[m])) };
+  const job = body.jobs && body.jobs[m];
+  if (job === "started" || job === "already_running") return { ok: true };
+  return { reason: job || body.reason || "the Refresh helper could not start the job" };
 }
 
-// fetchNew = true (the button): fetch brand-new prices, wait for them (about 1-3 minutes), then show them.
-// fetchNew = false (page load and the 10-minute timer): just reload the latest saved data.
-async function refresh(fetchNew = false) {
-  if (refreshing) return;
-  refreshing = true;
-  const btn = $("refreshBtn");
-  btn.className = "refresh busy";
-  btn.disabled = true;
+const LABEL = { psx: "PSX", us: "International" };
+const busy = { psx: false, us: false };
+
+function setButton(m, cls, text) {
+  const btn = $(`refresh-${m}`);
+  btn.className = `refresh ${cls}`;
+  btn.textContent = `${LABEL[m]}: ${text}`;
+  btn.disabled = cls === "busy";
+}
+
+function showErrors() {
+  const msgs = Object.keys(MARKETS).map((m) => state[m].refreshError).filter(Boolean);
+  $("error").textContent = msgs.join(" ");
+  $("error").hidden = !msgs.length;
+}
+
+// One market's button: start its live-price job, wait for the new prices (about 1-3 minutes), show them.
+async function refreshMarket(m) {
+  if (busy[m]) return;
+  busy[m] = true;
+  setButton(m, "busy", "asking for new prices…");
+  const before = Date.parse(state[m].live?.as_of || 0) || 0;
+  const { ok, reason } = await startPriceJob(m);
   let note = "";
-  if (fetchNew) {
-    btn.textContent = "Asking for new prices…";
-    const before = Object.fromEntries(Object.keys(MARKETS).map((m) => [m, Date.parse(state[m].live?.as_of || 0) || 0]));
-    const { markets, reason } = await startPriceJobs();
-    if (markets && markets.length) {
-      const deadline = Date.now() + 6 * 60 * 1000;
-      let waiting = markets;
-      while (waiting.length && Date.now() < deadline) {
-        btn.textContent = `Fetching new prices… (${waiting.map((m) => MARKETS[m].name).join(", ")}, 1–3 min)`;
-        await sleep(20000);
-        await Promise.allSettled(waiting.map((m) => loadMarket(m)));
-        waiting = waiting.filter((m) => !(Date.parse(state[m].live?.as_of || 0) > before[m]));
-      }
-      note = waiting.length ? " · new prices still on the way" : "";
-    } else {
-      note = " · saved data only";
-      $("error").textContent = `Live refresh did not start: ${reason}.`;
-      $("error").hidden = false;
+  state[m].refreshError = "";
+  if (ok) {
+    const deadline = Date.now() + 6 * 60 * 1000;
+    let fresh = false;
+    while (!fresh && Date.now() < deadline) {
+      setButton(m, "busy", "fetching new prices… (1–3 min)");
+      await sleep(20000);
+      try { await loadMarket(m); } catch { /* try again on the next round */ }
+      fresh = Date.parse(state[m].live?.as_of || 0) > before;
     }
+    note = fresh ? "" : " · new prices still on the way";
   } else {
-    btn.textContent = "Refreshing…";
+    note = " · saved data only";
+    state[m].refreshError = `${LABEL[m]} live refresh did not start: ${reason}.`;
   }
+  try {
+    await loadMarket(m);
+    setButton(m, "ok", `✓ ${ok && !note ? "prices updated" : "refreshed"} ${clock()}${note}`);
+  } catch {
+    setButton(m, "fail", "failed to refresh, tap to retry");
+  }
+  showErrors();
+  busy[m] = false;
+}
+
+// Page load and the 10-minute timer: reload the latest saved data for every market not busy refreshing.
+async function reloadSaved() {
+  const markets = Object.keys(MARKETS).filter((m) => !busy[m]);
+  markets.forEach((m) => setButton(m, "busy", "loading…"));
   const failed = await reloadAll();
-  if (!failed.length) {
-    btn.className = "refresh ok";
-    btn.textContent = `✓ ${fetchNew && !note ? "Prices updated" : "Data refreshed"} ${clock()}${note}`;
-    if (!note.includes("saved data only")) $("error").hidden = true;
-  } else {
-    btn.className = "refresh fail";
-    btn.textContent = `${failed.map((m) => MARKETS[m].name).join(" and ")} failed to refresh, tap to retry`;
-  }
-  btn.disabled = false;
-  refreshing = false;
+  markets.forEach((m) => {
+    if (failed.includes(m)) setButton(m, "fail", "failed to load, tap to retry");
+    else setButton(m, "ok", `✓ refreshed ${clock()}`);
+  });
 }
 
 function wire() {
@@ -509,14 +526,14 @@ function wire() {
     document.querySelectorAll("main > section").forEach((s) => { s.hidden = s.id !== b.dataset.tab; });
   }));
   $("dClose").addEventListener("click", () => $("detail").close());
-  $("refreshBtn").addEventListener("click", () => refresh(true));
+  Object.keys(MARKETS).forEach((m) => $(`refresh-${m}`).addEventListener("click", () => refreshMarket(m)));
 }
 
 function main() {
   Object.keys(MARKETS).forEach((m) => { buildSignalsSection(m); buildDividendsSection(m); });
   wire();
   renderManualForm();
-  refresh();
-  setInterval(() => refresh(), 10 * 60 * 1000);   // pick up the 30-minute price updates while the page stays open
+  reloadSaved();
+  setInterval(reloadSaved, 10 * 60 * 1000);   // pick up the 30-minute price updates while the page stays open
 }
 main();
