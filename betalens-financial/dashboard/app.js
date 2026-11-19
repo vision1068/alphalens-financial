@@ -443,17 +443,20 @@ async function reloadAll() {
   return failed;
 }
 
-// Ask the site's helper (/api/refresh) to start the PSX and US live-price jobs now. Returns the markets
-// whose job was started or is already running, or null when the helper is not set up or not reachable.
+// Ask the site's helper (/api/refresh) to start the PSX and US live-price jobs now.
+// Returns { markets } for the jobs started or already running, or { reason } saying why nothing started.
 async function startPriceJobs() {
+  let res;
   try {
-    const res = await fetch("/api/refresh", { method: "POST", signal: AbortSignal.timeout(15000) });
-    const body = await res.json();
-    if (!body.ok) return null;
-    return Object.keys(body.jobs).filter((m) => ["started", "already_running"].includes(body.jobs[m]));
+    res = await fetch("/api/refresh", { method: "POST", signal: AbortSignal.timeout(20000) });
   } catch {
-    return null;
+    return { reason: "the Refresh helper did not answer" };
   }
+  let body = null;
+  try { body = await res.json(); } catch { /* not JSON: the helper is missing from this deploy */ }
+  if (!body) return { reason: `the Refresh helper is not deployed on Netlify (HTTP ${res.status})` };
+  if (!body.ok) return { reason: body.reason || "the Refresh helper could not start the jobs" };
+  return { markets: Object.keys(body.jobs).filter((m) => ["started", "already_running"].includes(body.jobs[m])) };
 }
 
 // fetchNew = true (the button): fetch brand-new prices, wait for them (about 1-3 minutes), then show them.
@@ -468,7 +471,7 @@ async function refresh(fetchNew = false) {
   if (fetchNew) {
     btn.textContent = "Asking for new prices…";
     const before = Object.fromEntries(Object.keys(MARKETS).map((m) => [m, Date.parse(state[m].live?.as_of || 0) || 0]));
-    const markets = await startPriceJobs();
+    const { markets, reason } = await startPriceJobs();
     if (markets && markets.length) {
       const deadline = Date.now() + 6 * 60 * 1000;
       let waiting = markets;
@@ -480,7 +483,9 @@ async function refresh(fetchNew = false) {
       }
       note = waiting.length ? " · new prices still on the way" : "";
     } else {
-      note = " · saved data (live fetch unavailable)";
+      note = " · saved data only";
+      $("error").textContent = `Live refresh did not start: ${reason}.`;
+      $("error").hidden = false;
     }
   } else {
     btn.textContent = "Refreshing…";
@@ -489,7 +494,7 @@ async function refresh(fetchNew = false) {
   if (!failed.length) {
     btn.className = "refresh ok";
     btn.textContent = `✓ ${fetchNew && !note ? "Prices updated" : "Data refreshed"} ${clock()}${note}`;
-    $("error").hidden = true;
+    if (!note.includes("saved data only")) $("error").hidden = true;
   } else {
     btn.className = "refresh fail";
     btn.textContent = `${failed.map((m) => MARKETS[m].name).join(" and ")} failed to refresh, tap to retry`;
