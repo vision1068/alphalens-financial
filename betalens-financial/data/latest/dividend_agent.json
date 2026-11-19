@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-18T13:22:53+00:00",
+  "generated_at": "2026-11-19T05:47:57+00:00",
   "period_years": 3,
   "companies": 68,
   "errors": {},
@@ -15,36 +15,12 @@
  },
  "upcoming": [
   {
-   "symbol": "THCCL",
-   "stage": "final",
-   "percent": 25.0,
-   "amount_per_share": 0.5,
-   "price": 72.79,
-   "yield_pct": 0.69,
-   "book_closure_from": "2026-11-19",
-   "book_closure_to": "2026-11-27",
-   "payment_date": null,
-   "last_buy_date": "2026-11-17",
-   "ex_date": "2026-11-18",
-   "expected_drop_rs": 0.45,
-   "expected_drop_basis": "market average",
-   "median_recovery_days": null,
-   "score": 50.0,
-   "signal": "HOLD",
-   "verdict": "SKIP",
-   "reasons": [
-    "The last buying day has passed",
-    "Analyst signal is Hold, not Buy",
-    "Fewer than two past dividends on record to judge recovery"
-   ]
-  },
-  {
    "symbol": "SNGP",
    "stage": "final",
    "percent": 30.0,
    "amount_per_share": 3.0,
-   "price": 94.75,
-   "yield_pct": 3.17,
+   "price": 92.65,
+   "yield_pct": 3.24,
    "book_closure_from": "2026-11-20",
    "book_closure_to": "2026-11-27",
    "payment_date": null,
@@ -53,11 +29,13 @@
    "expected_drop_rs": 2.54,
    "expected_drop_basis": "own history",
    "median_recovery_days": 9.0,
-   "score": 57.8,
+   "score": 58.2,
    "signal": "HOLD",
    "verdict": "SKIP",
    "reasons": [
+    "The last buying day has passed",
     "Analyst signal is Hold, not Buy",
+    "Data warning on this company",
     "Price recovered within 20 trading days after 100% of 2 past dividends"
    ]
   }
