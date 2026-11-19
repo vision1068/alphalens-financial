@@ -1,6 +1,6 @@
 {
- "observations": 3092,
- "with_signal": 562,
+ "observations": 3139,
+ "with_signal": 569,
  "first_month": "2022-09-30",
  "last_month": "2026-07-31",
  "horizons": {
@@ -21,18 +21,18 @@
      "positive_pct": 50.0
     },
     "HOLD": {
-     "n": 268,
-     "avg_return_pct": 5.13,
+     "n": 274,
+     "avg_return_pct": 5.02,
      "avg_excess_pct": -1.18,
-     "beat_index_pct": 36.2,
+     "beat_index_pct": 36.5,
      "positive_pct": 49.6
     },
     "SELL": {
-     "n": 178,
-     "avg_return_pct": 6.33,
-     "avg_excess_pct": -1.91,
-     "beat_index_pct": 39.9,
-     "positive_pct": 55.6
+     "n": 179,
+     "avg_return_pct": 6.3,
+     "avg_excess_pct": -1.95,
+     "beat_index_pct": 39.7,
+     "positive_pct": 55.3
     },
     "STRONG_SELL": {
      "n": 54,
@@ -42,41 +42,41 @@
      "positive_pct": 53.7
     },
     "INSUFFICIENT_DATA": {
-     "n": 2530,
-     "avg_return_pct": 10.9,
-     "avg_excess_pct": -0.99,
-     "beat_index_pct": 36.6,
-     "positive_pct": 60.6
+     "n": 2570,
+     "avg_return_pct": 10.94,
+     "avg_excess_pct": -0.95,
+     "beat_index_pct": 36.8,
+     "positive_pct": 60.8
     }
    },
    "by_quintile": {
     "Q1": {
-     "n": 140,
-     "avg_return_pct": 7.72,
-     "avg_excess_pct": -0.14,
-     "beat_index_pct": 44.3,
-     "positive_pct": 52.9
+     "n": 141,
+     "avg_return_pct": 7.71,
+     "avg_excess_pct": -0.06,
+     "beat_index_pct": 44.7,
+     "positive_pct": 53.2
     },
     "Q2": {
-     "n": 112,
-     "avg_return_pct": 5.93,
-     "avg_excess_pct": -1.25,
+     "n": 115,
+     "avg_return_pct": 5.54,
+     "avg_excess_pct": -1.51,
      "beat_index_pct": 33.0,
-     "positive_pct": 51.8
+     "positive_pct": 51.3
     },
     "Q3": {
      "n": 103,
-     "avg_return_pct": 5.61,
-     "avg_excess_pct": -1.09,
-     "beat_index_pct": 39.8,
-     "positive_pct": 49.5
+     "avg_return_pct": 5.33,
+     "avg_excess_pct": -1.49,
+     "beat_index_pct": 38.8,
+     "positive_pct": 48.5
     },
     "Q4": {
-     "n": 112,
-     "avg_return_pct": 3.67,
-     "avg_excess_pct": -3.5,
-     "beat_index_pct": 33.9,
-     "positive_pct": 50.9
+     "n": 115,
+     "avg_return_pct": 4.04,
+     "avg_excess_pct": -2.99,
+     "beat_index_pct": 34.8,
+     "positive_pct": 51.3
     },
     "Q5": {
      "n": 95,
@@ -102,11 +102,11 @@
      "positive_pct": 47.8
     },
     "HOLD": {
-     "n": 220,
-     "avg_return_pct": 6.34,
-     "avg_excess_pct": -1.5,
-     "beat_index_pct": 35.0,
-     "positive_pct": 50.9
+     "n": 227,
+     "avg_return_pct": 6.16,
+     "avg_excess_pct": -1.53,
+     "beat_index_pct": 35.2,
+     "positive_pct": 50.7
     },
     "SELL": {
      "n": 117,
@@ -125,38 +125,38 @@
    },
    "factor_ic": {
     "dividend": {
-     "mean_ic": 0.039,
+     "mean_ic": 0.038,
      "months": 9,
      "months_positive_pct": 55.6
     },
     "earnings_growth": {
-     "mean_ic": -0.008,
+     "mean_ic": -0.01,
      "months": 29,
      "months_positive_pct": 41.4
     },
     "price_trend": {
-     "mean_ic": 0.021,
+     "mean_ic": 0.018,
      "months": 47,
-     "months_positive_pct": 46.8
+     "months_positive_pct": 44.7
     },
     "profitability": {
-     "mean_ic": -0.025,
+     "mean_ic": -0.026,
      "months": 41,
      "months_positive_pct": 43.9
     },
     "revenue_growth": {
-     "mean_ic": 0.021,
+     "mean_ic": 0.023,
      "months": 29,
      "months_positive_pct": 58.6
     },
     "valuation": {
-     "mean_ic": 0.062,
+     "mean_ic": 0.061,
      "months": 41,
      "months_positive_pct": 70.7
     }
    },
    "score_ic": {
-    "mean_ic": 0.151,
+    "mean_ic": 0.148,
     "months": 29,
     "months_positive_pct": 69.0
    }
@@ -178,18 +178,18 @@
      "positive_pct": 62.5
     },
     "HOLD": {
-     "n": 189,
-     "avg_return_pct": 17.84,
-     "avg_excess_pct": 1.2,
-     "beat_index_pct": 33.9,
-     "positive_pct": 60.8
+     "n": 192,
+     "avg_return_pct": 17.66,
+     "avg_excess_pct": 1.24,
+     "beat_index_pct": 34.4,
+     "positive_pct": 60.9
     },
     "SELL": {
-     "n": 150,
-     "avg_return_pct": 13.01,
-     "avg_excess_pct": -7.36,
-     "beat_index_pct": 33.3,
-     "positive_pct": 58.0
+     "n": 151,
+     "avg_return_pct": 12.87,
+     "avg_excess_pct": -7.45,
+     "beat_index_pct": 33.1,
+     "positive_pct": 57.6
     },
     "STRONG_SELL": {
      "n": 45,
@@ -199,11 +199,11 @@
      "positive_pct": 53.3
     },
     "INSUFFICIENT_DATA": {
-     "n": 2463,
-     "avg_return_pct": 26.17,
-     "avg_excess_pct": -0.85,
-     "beat_index_pct": 35.3,
-     "positive_pct": 69.2
+     "n": 2503,
+     "avg_return_pct": 26.2,
+     "avg_excess_pct": -0.81,
+     "beat_index_pct": 35.6,
+     "positive_pct": 69.5
     }
    },
    "by_quintile": {
@@ -215,25 +215,25 @@
      "positive_pct": 67.0
     },
     "Q2": {
-     "n": 86,
-     "avg_return_pct": 18.91,
-     "avg_excess_pct": 1.34,
-     "beat_index_pct": 31.4,
-     "positive_pct": 62.8
+     "n": 87,
+     "avg_return_pct": 18.97,
+     "avg_excess_pct": 1.53,
+     "beat_index_pct": 32.2,
+     "positive_pct": 64.4
     },
     "Q3": {
-     "n": 75,
-     "avg_return_pct": 10.89,
-     "avg_excess_pct": -5.83,
-     "beat_index_pct": 32.0,
-     "positive_pct": 57.3
+     "n": 77,
+     "avg_return_pct": 9.93,
+     "avg_excess_pct": -6.46,
+     "beat_index_pct": 29.9,
+     "positive_pct": 53.2
     },
     "Q4": {
-     "n": 86,
-     "avg_return_pct": 8.25,
-     "avg_excess_pct": -9.35,
-     "beat_index_pct": 27.9,
-     "positive_pct": 54.7
+     "n": 87,
+     "avg_return_pct": 8.6,
+     "avg_excess_pct": -8.86,
+     "beat_index_pct": 29.9,
+     "positive_pct": 56.3
     },
     "Q5": {
      "n": 69,
@@ -259,11 +259,11 @@
      "positive_pct": 58.1
     },
     "HOLD": {
-     "n": 173,
-     "avg_return_pct": 19.89,
-     "avg_excess_pct": 0.85,
-     "beat_index_pct": 34.7,
-     "positive_pct": 61.8
+     "n": 177,
+     "avg_return_pct": 19.5,
+     "avg_excess_pct": 0.78,
+     "beat_index_pct": 35.0,
+     "positive_pct": 61.6
     },
     "SELL": {
      "n": 98,
@@ -282,19 +282,19 @@
    },
    "factor_ic": {
     "dividend": {
-     "mean_ic": -0.042,
+     "mean_ic": -0.047,
      "months": 6,
      "months_positive_pct": 33.3
     },
     "earnings_growth": {
-     "mean_ic": -0.032,
+     "mean_ic": -0.031,
      "months": 26,
      "months_positive_pct": 42.3
     },
     "price_trend": {
-     "mean_ic": -0.011,
+     "mean_ic": -0.013,
      "months": 44,
-     "months_positive_pct": 40.9
+     "months_positive_pct": 38.6
     },
     "profitability": {
      "mean_ic": -0.023,
@@ -302,7 +302,7 @@
      "months_positive_pct": 44.7
     },
     "revenue_growth": {
-     "mean_ic": 0.016,
+     "mean_ic": 0.017,
      "months": 26,
      "months_positive_pct": 57.7
     },
@@ -313,7 +313,7 @@
     }
    },
    "score_ic": {
-    "mean_ic": 0.241,
+    "mean_ic": 0.237,
     "months": 26,
     "months_positive_pct": 65.4
    }
@@ -332,14 +332,14 @@
     "bottom_fifth_excess_pct": -0.19,
     "spread_pct": 0.84,
     "top_fifth_beat_index_pct": 45.1,
-    "mean_ic": 0.151
+    "mean_ic": 0.148
    },
    "6m": {
     "top_fifth_excess_pct": 3.5,
     "bottom_fifth_excess_pct": -0.84,
     "spread_pct": 4.34,
     "top_fifth_beat_index_pct": 44.8,
-    "mean_ic": 0.241
+    "mean_ic": 0.237
    }
   },
   "original": {
@@ -348,14 +348,14 @@
     "bottom_fifth_excess_pct": 0.53,
     "spread_pct": -0.61,
     "top_fifth_beat_index_pct": 43.4,
-    "mean_ic": 0.093
+    "mean_ic": 0.092
    },
    "6m": {
     "top_fifth_excess_pct": 1.84,
     "bottom_fifth_excess_pct": -0.59,
     "spread_pct": 2.43,
     "top_fifth_beat_index_pct": 43.7,
-    "mean_ic": 0.204
+    "mean_ic": 0.202
    }
   },
   "equal": {
@@ -371,7 +371,7 @@
     "bottom_fifth_excess_pct": -0.09,
     "spread_pct": 1.67,
     "top_fifth_beat_index_pct": 42.5,
-    "mean_ic": 0.169
+    "mean_ic": 0.168
    }
   }
  }
