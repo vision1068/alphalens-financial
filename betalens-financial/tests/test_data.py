@@ -127,3 +127,24 @@ def test_portal_waits_and_retries_when_rate_limited(monkeypatch):
     monkeypatch.setattr(p._s, "_request", always_limited)
     with pytest.raises(PSXRateLimitError):
         p.screener()
+
+
+def test_portal_retries_after_dropped_connections(monkeypatch):
+    from psxdata.exceptions import PSXConnectionError
+
+    from betalens.data import portal as portal_mod
+    monkeypatch.setattr(portal_mod.time, "sleep", lambda s: None)
+    p = portal_mod.Portal()
+    calls = []
+
+    class Resp:
+        text = "ok"
+
+    def flaky(method, url, **kw):
+        calls.append(url)
+        if len(calls) < 3:
+            raise PSXConnectionError("PSX unreachable after 3 attempts")
+        return Resp()
+
+    monkeypatch.setattr(p._s, "_request", flaky)
+    assert p.market_watch() == "ok" and len(calls) == 3
