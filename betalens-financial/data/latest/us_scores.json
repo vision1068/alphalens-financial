@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-21T05:05:33+00:00",
+  "generated_at": "2026-11-21T13:22:12+00:00",
   "market": "US",
   "universe": "S&P 500",
   "period_years": 3,
@@ -44427,8 +44427,8 @@
   },
   {
    "symbol": "GPC",
-   "score": 42.7,
-   "coverage_pct": 92.0,
+   "score": 42.8,
+   "coverage_pct": 86.0,
    "signal": "STRONG_SELL",
    "factors": [
     {
@@ -44509,11 +44509,10 @@
     },
     {
      "name": "price_trend",
-     "score": 41.7,
+     "score": null,
      "weight": 6,
      "reasons": [
-      "Price is below its 200-day average",
-      "-12.5 points vs KSE-100 over about a year"
+      "Needs at least 200 days of price history"
      ]
     }
    ],

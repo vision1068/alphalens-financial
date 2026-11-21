@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-21T05:05:33+00:00",
+  "generated_at": "2026-11-21T13:22:12+00:00",
   "market": "US",
   "universe": "S&P 500",
   "period_years": 3,
@@ -9,10 +9,10 @@
   "sec_failed": 0
  },
  "summary": {
-  "events": 308,
+  "events": 316,
   "median_drop_ratio": 0.785,
   "quick_recovery_share": 0.81,
-  "median_recovery_days": 1
+  "median_recovery_days": 1.0
  },
  "upcoming": [
   {
@@ -542,6 +542,29 @@
    "reasons": [
     "Analyst signal is Sell, not Buy",
     "Price recovered within 20 trading days after 75% of 8 past dividends"
+   ]
+  },
+  {
+   "symbol": "PEP",
+   "stage": "regular",
+   "percent": null,
+   "amount_per_share": 1.48,
+   "price": 140.54,
+   "yield_pct": 1.05,
+   "book_closure_from": null,
+   "book_closure_to": null,
+   "payment_date": "2027-01-06",
+   "last_buy_date": "2026-12-03",
+   "ex_date": "2026-12-04",
+   "expected_drop_rs": 1.49,
+   "expected_drop_basis": "own history",
+   "median_recovery_days": 2,
+   "score": 60.1,
+   "signal": "HOLD",
+   "verdict": "SKIP",
+   "reasons": [
+    "Analyst signal is Hold, not Buy",
+    "Price recovered within 20 trading days after 62% of 8 past dividends"
    ]
   },
   {
@@ -3116,6 +3139,93 @@
      "capture_5d_pct": 2.09,
      "capture_10d_pct": 1.93,
      "capture_20d_pct": -1.85
+    }
+   ]
+  },
+  "PEP": {
+   "events": 8,
+   "median_drop_ratio": 1.01,
+   "median_recovery_days": 2,
+   "quick_recovery_share": 0.62,
+   "avg_capture_10d_pct": -2.78,
+   "recent": [
+    {
+     "ex_date": "2026-09-04",
+     "last_buy_date": "2026-09-03",
+     "amount_per_share": 1.48,
+     "cum_close": 140.02,
+     "yield_pct": 1.06,
+     "drop_ratio": 1.25,
+     "recovery_days": 40,
+     "recovery_known": true,
+     "capture_5d_pct": -1.57,
+     "capture_10d_pct": -6.39,
+     "capture_20d_pct": -9.21
+    },
+    {
+     "ex_date": "2026-06-05",
+     "last_buy_date": "2026-06-04",
+     "amount_per_share": 1.48,
+     "cum_close": 142.15,
+     "yield_pct": 1.04,
+     "drop_ratio": -2.32,
+     "recovery_days": 2,
+     "recovery_known": true,
+     "capture_5d_pct": 2.53,
+     "capture_10d_pct": 0.03,
+     "capture_20d_pct": 3.03
+    },
+    {
+     "ex_date": "2026-03-06",
+     "last_buy_date": "2026-03-05",
+     "amount_per_share": 1.4225,
+     "cum_close": 160.7,
+     "yield_pct": 0.89,
+     "drop_ratio": -0.59,
+     "recovery_days": 1,
+     "recovery_known": true,
+     "capture_5d_pct": 0.37,
+     "capture_10d_pct": -5.75,
+     "capture_20d_pct": -1.59
+    },
+    {
+     "ex_date": "2025-12-05",
+     "last_buy_date": "2025-12-04",
+     "amount_per_share": 1.4225,
+     "cum_close": 146.91,
+     "yield_pct": 0.97,
+     "drop_ratio": 1.52,
+     "recovery_days": 3,
+     "recovery_known": true,
+     "capture_5d_pct": 3.51,
+     "capture_10d_pct": 1.82,
+     "capture_20d_pct": -4.44
+    },
+    {
+     "ex_date": "2025-09-05",
+     "last_buy_date": "2025-09-04",
+     "amount_per_share": 1.4225,
+     "cum_close": 146.89,
+     "yield_pct": 0.97,
+     "drop_ratio": 0.05,
+     "recovery_days": 25,
+     "recovery_known": true,
+     "capture_5d_pct": -1.32,
+     "capture_10d_pct": -2.52,
+     "capture_20d_pct": -2.37
+    },
+    {
+     "ex_date": "2025-06-06",
+     "last_buy_date": "2025-06-05",
+     "amount_per_share": 1.4225,
+     "cum_close": 131.11,
+     "yield_pct": 1.08,
+     "drop_ratio": 1.71,
+     "recovery_days": 2,
+     "recovery_known": true,
+     "capture_5d_pct": 0.89,
+     "capture_10d_pct": -0.46,
+     "capture_20d_pct": 4.08
     }
    ]
   },

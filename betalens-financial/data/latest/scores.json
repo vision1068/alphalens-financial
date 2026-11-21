@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-21T04:40:55+00:00",
+  "generated_at": "2026-11-21T12:57:52+00:00",
   "period_years": 3,
   "companies": 68,
   "errors": {},
@@ -458,102 +458,6 @@
    "name": "First Habib Modaraba",
    "sector": "MODARABAS",
    "price": 28.64,
-   "face_value": 10.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "SHFA",
-   "score": 77.7,
-   "coverage_pct": 48.0,
-   "signal": "INSUFFICIENT_DATA",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 73.4,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 15.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "EPS figures missing"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 9.22% vs 5.99% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 87.8,
-     "weight": 20,
-     "reasons": [
-      "P/E 9.9",
-      "0.57x the sector median P/E of 17.4"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 49.3,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.1%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs at least 200 days of price history"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Shifa International Hospitals Limited",
-   "sector": "MISCELLANEOUS",
-   "price": 447.02,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -1811,6 +1715,103 @@
    "name": "S.S.Oil Mills Limited",
    "sector": "VANASPATI & ALLIED INDUSTRIES",
    "price": 415.81,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "SHFA",
+   "score": 69.5,
+   "coverage_pct": 54.0,
+   "signal": "INSUFFICIENT_DATA",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 73.4,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 15.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "EPS figures missing"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 9.22% vs 5.99% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 87.8,
+     "weight": 20,
+     "reasons": [
+      "P/E 9.9",
+      "0.57x the sector median P/E of 17.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 49.3,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.1%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 3.7,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-24.4 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Shifa International Hospitals Limited",
+   "sector": "MISCELLANEOUS",
+   "price": 447.02,
    "face_value": 10.0,
    "in_base_index": true
   },
