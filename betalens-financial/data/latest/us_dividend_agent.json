@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-21T13:22:12+00:00",
+  "generated_at": "2026-11-22T05:05:53+00:00",
   "market": "US",
   "universe": "S&P 500",
   "period_years": 3,
@@ -9,8 +9,8 @@
   "sec_failed": 0
  },
  "summary": {
-  "events": 316,
-  "median_drop_ratio": 0.785,
+  "events": 310,
+  "median_drop_ratio": 0.775,
   "quick_recovery_share": 0.81,
   "median_recovery_days": 1.0
  },
@@ -510,15 +510,15 @@
    "payment_date": "2026-12-18",
    "last_buy_date": "2026-12-03",
    "ex_date": "2026-12-04",
-   "expected_drop_rs": 0.39,
+   "expected_drop_rs": 0.45,
    "expected_drop_basis": "own history",
-   "median_recovery_days": 1.0,
+   "median_recovery_days": 2,
    "score": 40.3,
    "signal": "STRONG_SELL",
    "verdict": "SKIP",
    "reasons": [
     "Analyst signal is Strong Sell, not Buy",
-    "Price recovered within 20 trading days after 89% of 9 past dividends"
+    "Price recovered within 20 trading days after 88% of 8 past dividends"
    ]
   },
   {
@@ -690,14 +690,14 @@
    "payment_date": "2027-01-01",
    "last_buy_date": "2026-12-10",
    "ex_date": "2026-12-11",
-   "expected_drop_rs": 1.5,
+   "expected_drop_rs": 1.19,
    "expected_drop_basis": "own history",
-   "median_recovery_days": 0.0,
+   "median_recovery_days": 0,
    "score": 70.7,
    "signal": "BUY",
    "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Price recovered within 20 trading days after 78% of 9 past dividends"
+    "Price recovered within 20 trading days after 75% of 8 past dividends"
    ]
   },
   {
@@ -806,13 +806,13 @@
    "ex_date": "2026-12-15",
    "expected_drop_rs": 2.98,
    "expected_drop_basis": "own history",
-   "median_recovery_days": 1.0,
+   "median_recovery_days": 1,
    "score": 64.6,
    "signal": "HOLD",
    "verdict": "SKIP",
    "reasons": [
     "Analyst signal is Hold, not Buy",
-    "Price recovered within 20 trading days after only 56% of past dividends"
+    "Price recovered within 20 trading days after only 50% of past dividends"
    ]
   },
   {
@@ -827,14 +827,14 @@
    "payment_date": "2026-12-30",
    "last_buy_date": "2026-12-14",
    "ex_date": "2026-12-15",
-   "expected_drop_rs": 0.84,
+   "expected_drop_rs": 0.69,
    "expected_drop_basis": "own history",
-   "median_recovery_days": 1.5,
+   "median_recovery_days": 2,
    "score": 73.9,
    "signal": "BUY",
    "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Price recovered within 20 trading days after 89% of 9 past dividends"
+    "Price recovered within 20 trading days after 88% of 8 past dividends"
    ]
   },
   {
@@ -851,13 +851,13 @@
    "ex_date": "2026-12-15",
    "expected_drop_rs": 0.75,
    "expected_drop_basis": "own history",
-   "median_recovery_days": 1,
+   "median_recovery_days": 6.5,
    "score": 57.7,
    "signal": "HOLD",
    "verdict": "SKIP",
    "reasons": [
     "Analyst signal is Hold, not Buy",
-    "Price recovered within 20 trading days after only 56% of past dividends"
+    "Price recovered within 20 trading days after only 50% of past dividends"
    ]
   },
   {
@@ -872,14 +872,14 @@
    "payment_date": "2026-12-29",
    "last_buy_date": "2026-12-15",
    "ex_date": "2026-12-16",
-   "expected_drop_rs": 1.47,
+   "expected_drop_rs": 1.73,
    "expected_drop_basis": "own history",
-   "median_recovery_days": 6.0,
+   "median_recovery_days": 6,
    "score": 67.2,
    "signal": "BUY",
    "verdict": "WORTH_A_LOOK",
    "reasons": [
-    "Price recovered within 20 trading days after 89% of 9 past dividends"
+    "Price recovered within 20 trading days after 88% of 8 past dividends"
    ]
   },
   {
@@ -1082,11 +1082,11 @@
    ]
   },
   "ADP": {
-   "events": 9,
-   "median_drop_ratio": 0.79,
-   "median_recovery_days": 0.0,
-   "quick_recovery_share": 0.78,
-   "avg_capture_10d_pct": -0.47,
+   "events": 8,
+   "median_drop_ratio": 0.625,
+   "median_recovery_days": 0,
+   "quick_recovery_share": 0.75,
+   "avg_capture_10d_pct": -0.34,
    "recent": [
     {
      "ex_date": "2026-09-11",
@@ -1690,11 +1690,11 @@
    ]
   },
   "DPZ": {
-   "events": 9,
-   "median_drop_ratio": 3.6,
-   "median_recovery_days": 1.0,
-   "quick_recovery_share": 0.56,
-   "avg_capture_10d_pct": -3.24,
+   "events": 8,
+   "median_drop_ratio": 4.175,
+   "median_recovery_days": 1,
+   "quick_recovery_share": 0.5,
+   "avg_capture_10d_pct": -4.41,
    "recent": [
     {
      "ex_date": "2026-09-15",
@@ -2038,11 +2038,11 @@
    ]
   },
   "GILD": {
-   "events": 9,
-   "median_drop_ratio": 1.02,
-   "median_recovery_days": 1.5,
-   "quick_recovery_share": 0.89,
-   "avg_capture_10d_pct": 0.11,
+   "events": 8,
+   "median_drop_ratio": 0.845,
+   "median_recovery_days": 2,
+   "quick_recovery_share": 0.88,
+   "avg_capture_10d_pct": -0.06,
    "recent": [
     {
      "ex_date": "2026-09-15",
@@ -2734,11 +2734,11 @@
    ]
   },
   "NDAQ": {
-   "events": 9,
-   "median_drop_ratio": 1.25,
-   "median_recovery_days": 1.0,
-   "quick_recovery_share": 0.89,
-   "avg_capture_10d_pct": -1.11,
+   "events": 8,
+   "median_drop_ratio": 1.46,
+   "median_recovery_days": 2,
+   "quick_recovery_share": 0.88,
+   "avg_capture_10d_pct": -1.3,
    "recent": [
     {
      "ex_date": "2026-09-11",
@@ -3665,11 +3665,11 @@
    ]
   },
   "TROW": {
-   "events": 9,
-   "median_drop_ratio": 1.13,
-   "median_recovery_days": 6.0,
-   "quick_recovery_share": 0.89,
-   "avg_capture_10d_pct": 1.23,
+   "events": 8,
+   "median_drop_ratio": 1.33,
+   "median_recovery_days": 6,
+   "quick_recovery_share": 0.88,
+   "avg_capture_10d_pct": 0.68,
    "recent": [
     {
      "ex_date": "2026-09-15",
@@ -3926,11 +3926,11 @@
    ]
   },
   "VRSK": {
-   "events": 9,
-   "median_drop_ratio": 5.09,
-   "median_recovery_days": 1,
-   "quick_recovery_share": 0.56,
-   "avg_capture_10d_pct": -2.85,
+   "events": 8,
+   "median_drop_ratio": 8.515,
+   "median_recovery_days": 6.5,
+   "quick_recovery_share": 0.5,
+   "avg_capture_10d_pct": -2.98,
    "recent": [
     {
      "ex_date": "2026-09-15",
