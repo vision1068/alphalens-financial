@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-22T05:05:53+00:00",
+  "generated_at": "2026-11-22T13:14:21+00:00",
   "market": "US",
   "universe": "S&P 500",
   "period_years": 3,
@@ -19109,107 +19109,6 @@
    "change_pct": 0.76
   },
   {
-   "symbol": "ES",
-   "score": 63.6,
-   "coverage_pct": 94.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 43.3,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 3.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 55.7,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 4.0% a year over 3 year(s)",
-      "At least one loss-making year in the period"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 53.3,
-     "weight": 6,
-     "reasons": [
-      "Return on equity 10.5%",
-      "Net margin 12.55% vs 11.49% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": 70.0,
-     "weight": 12,
-     "reasons": [
-      "Operating cash flow is 2.53x reported profit",
-      "Free cash flow negative in at least one year"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": 100,
-     "weight": 8,
-     "reasons": [
-      "Cash conversion cycle -0 days"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": 35.8,
-     "weight": 12,
-     "reasons": [
-      "Debt is 1.75x equity",
-      "Profit covers interest 2.4x"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": 15.0,
-     "weight": 6,
-     "reasons": [
-      "Current ratio 0.65"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 83.4,
-     "weight": 20,
-     "reasons": [
-      "P/E 15.6",
-      "0.71x the sector median P/E of 21.8"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 86.9,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 4.2%",
-      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
-      "Pays out 66% of earnings"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs at least 200 days of price history"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Eversource Energy",
-   "sector": "UTILITIES",
-   "price": 71.04,
-   "market": "US",
-   "change_pct": 0.55
-  },
-  {
    "symbol": "NCLH",
    "score": 63.6,
    "coverage_pct": 88.0,
@@ -20006,6 +19905,108 @@
    "price": 520.21,
    "market": "US",
    "change_pct": -0.33
+  },
+  {
+   "symbol": "ES",
+   "score": 63.0,
+   "coverage_pct": 100.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 43.3,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 3.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 55.7,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 4.0% a year over 3 year(s)",
+      "At least one loss-making year in the period"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 53.3,
+     "weight": 6,
+     "reasons": [
+      "Return on equity 10.5%",
+      "Net margin 12.55% vs 11.49% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": 70.0,
+     "weight": 12,
+     "reasons": [
+      "Operating cash flow is 2.53x reported profit",
+      "Free cash flow negative in at least one year"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": 100,
+     "weight": 8,
+     "reasons": [
+      "Cash conversion cycle -0 days"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": 35.8,
+     "weight": 12,
+     "reasons": [
+      "Debt is 1.75x equity",
+      "Profit covers interest 2.4x"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": 15.0,
+     "weight": 6,
+     "reasons": [
+      "Current ratio 0.65"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 83.4,
+     "weight": 20,
+     "reasons": [
+      "P/E 15.6",
+      "0.71x the sector median P/E of 21.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 86.9,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 4.2%",
+      "Paid a cash dividend in 5 of the last 5 fiscal years on record",
+      "Pays out 66% of earnings"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 53.6,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+5.4 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Eversource Energy",
+   "sector": "UTILITIES",
+   "price": 71.04,
+   "market": "US",
+   "change_pct": 0.55
   },
   {
    "symbol": "VMC",

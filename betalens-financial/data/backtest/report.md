@@ -1,6 +1,6 @@
 # BetaLens back-test
 
-3139 company-month observations, 569 with enough data for a signal, from 2022-09-30 to 2026-07-31. Look-back setting: 3 year(s).
+3138 company-month observations, 569 with enough data for a signal, from 2022-09-30 to 2026-07-31. Look-back setting: 3 year(s).
 
 Read this as indicative, not proof. Only today's KSE-100 members are tested, the window is a few years, and monthly samples overlap. Share returns here exclude dividends while the KSE-100 is a total-return index, so out-performance is understated by roughly each share's dividend yield.
 
@@ -15,7 +15,7 @@ Read this as indicative, not proof. Only today's KSE-100 members are tested, the
 | HOLD | 274 | 5.02 | -1.18 | 36.5 | 49.6 |
 | SELL | 179 | 6.3 | -1.95 | 39.7 | 55.3 |
 | STRONG_SELL | 54 | 10.2 | -0.36 | 40.7 | 53.7 |
-| INSUFFICIENT_DATA | 2570 | 10.94 | -0.95 | 36.8 | 60.8 |
+| INSUFFICIENT_DATA | 2569 | 10.94 | -0.95 | 36.8 | 60.8 |
 
 ### By score rank each month (Q1 = top fifth)
 
@@ -61,7 +61,7 @@ Overall score rank correlation with later out-performance: 0.148 (positive in 69
 | HOLD | 192 | 17.66 | 1.24 | 34.4 | 60.9 |
 | SELL | 151 | 12.87 | -7.45 | 33.1 | 57.6 |
 | STRONG_SELL | 45 | 16.52 | -4.43 | 37.8 | 53.3 |
-| INSUFFICIENT_DATA | 2503 | 26.2 | -0.81 | 35.6 | 69.5 |
+| INSUFFICIENT_DATA | 2502 | 26.22 | -0.8 | 35.6 | 69.5 |
 
 ### By score rank each month (Q1 = top fifth)
 
