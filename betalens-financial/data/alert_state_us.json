@@ -485,6 +485,7 @@
  "INTC": "STRONG_SELL",
  "IRM": "STRONG_SELL",
  "CPAY": "STRONG_SELL",
+ "FIS": "STRONG_SELL",
  "MCHP": "STRONG_SELL",
  "BAX": "STRONG_SELL",
  "IVZ": "STRONG_SELL",
@@ -492,7 +493,6 @@
  "XYZ": "STRONG_SELL",
  "CCI": "STRONG_SELL",
  "BA": "STRONG_SELL",
- "FIS": "STRONG_SELL",
  "MRNA": "STRONG_SELL",
  "SKYD": "STRONG_SELL",
  "ON": "STRONG_SELL",
@@ -511,5 +511,7 @@
  "DIV:ROST:None": "sent",
  "DIV:ADP:None": "sent",
  "DIV:GILD:None": "sent",
- "DIV:TROW:None": "sent"
+ "DIV:TROW:None": "sent",
+ "DIV:CINF:None": "sent",
+ "DIV:STX:None": "sent"
 }
