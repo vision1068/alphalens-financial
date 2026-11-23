@@ -1,643 +1,445 @@
 {
- "as_of": "2026-11-23T20:37:33+00:00",
+ "as_of": "2026-11-23T21:07:34+00:00",
  "prices": {
-  "SO": {
-   "price": 92.83,
-   "change": -0.3,
-   "change_pct": -0.32,
-   "volume": 3733219.0,
-   "previous_close": 93.13,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SHW": {
-   "price": 348.48,
-   "change": 8.74,
-   "change_pct": 2.57,
-   "volume": 1112303.0,
-   "previous_close": 339.74,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "JPM": {
-   "price": 317.485,
-   "change": 6.955,
-   "change_pct": 2.24,
-   "volume": 4742361.0,
-   "previous_close": 310.53,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ARE": {
-   "price": 41.2,
-   "change": 1.0,
-   "change_pct": 2.49,
-   "volume": 1697793.0,
-   "previous_close": 40.2,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HSIC": {
-   "price": 85.13,
-   "change": 1.61,
-   "change_pct": 1.93,
-   "volume": 1090456.0,
-   "previous_close": 83.52,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ZBH": {
-   "price": 105.66,
-   "change": 4.56,
-   "change_pct": 4.51,
-   "volume": 1672284.0,
-   "previous_close": 101.1,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "RJF": {
-   "price": 160.315,
-   "change": 4.495,
-   "change_pct": 2.88,
-   "volume": 463753.0,
-   "previous_close": 155.82,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "APH": {
-   "price": 77.37,
-   "change": 7.65,
-   "change_pct": 10.97,
-   "volume": 15927896.0,
-   "previous_close": 69.72,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MRSH": {
-   "price": 207.53,
-   "change": 1.31,
-   "change_pct": 0.64,
-   "volume": 1557998.0,
-   "previous_close": 206.22,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CLX": {
-   "price": 103.99,
-   "change": -0.74,
-   "change_pct": -0.71,
-   "volume": 1847204.0,
-   "previous_close": 104.73,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DOW": {
-   "price": 28.44,
-   "change": -0.59,
-   "change_pct": -2.03,
-   "volume": 5674360.0,
-   "previous_close": 29.03,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ROK": {
-   "price": 384.61,
-   "change": 22.68,
-   "change_pct": 6.27,
-   "volume": 759655.0,
-   "previous_close": 361.93,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NFLX": {
-   "price": 58.395,
-   "change": 1.665,
-   "change_pct": 2.93,
-   "volume": 28621650.0,
-   "previous_close": 56.73,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "RDDT": {
-   "price": 89.56,
-   "change": 4.23,
-   "change_pct": 4.96,
-   "volume": 3177735.0,
-   "previous_close": 85.33,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ABBV": {
-   "price": 288.755,
-   "change": 2.555,
-   "change_pct": 0.89,
-   "volume": 3858516.0,
-   "previous_close": 286.2,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CARR": {
-   "price": 51.995,
-   "change": 2.035,
-   "change_pct": 4.07,
-   "volume": 6011197.0,
-   "previous_close": 49.96,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FERG": {
-   "price": 240.62,
-   "change": -5.88,
-   "change_pct": -2.39,
-   "volume": 1888489.0,
-   "previous_close": 246.5,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ZTS": {
-   "price": 79.85,
-   "change": 0.74,
-   "change_pct": 0.94,
-   "volume": 1843032.0,
-   "previous_close": 79.11,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SNDK": {
-   "price": 88.68,
-   "change": 9.44,
-   "change_pct": 11.91,
-   "volume": 98545503.0,
-   "previous_close": 79.24,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EXR": {
-   "price": 156.72,
-   "change": 1.81,
-   "change_pct": 1.17,
-   "volume": 666113.0,
-   "previous_close": 154.91,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FOXA": {
-   "price": 64.33,
-   "change": 1.42,
-   "change_pct": 2.26,
-   "volume": 2915578.0,
-   "previous_close": 62.91,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CFG": {
-   "price": 60.82,
-   "change": 2.11,
-   "change_pct": 3.59,
-   "volume": 3232650.0,
-   "previous_close": 58.71,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ADP": {
-   "price": 301.855,
-   "change": 0.145,
-   "change_pct": 0.05,
-   "volume": 933847.0,
-   "previous_close": 301.71,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IBKR": {
-   "price": 76.89,
-   "change": 5.7,
-   "change_pct": 8.01,
-   "volume": 4260401.0,
-   "previous_close": 71.19,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CDNS": {
-   "price": 306.37,
-   "change": 24.79,
-   "change_pct": 8.8,
-   "volume": 1848225.0,
-   "previous_close": 281.58,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MA": {
-   "price": 636.165,
-   "change": 10.575,
-   "change_pct": 1.69,
-   "volume": 2152180.0,
-   "previous_close": 625.59,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "COP": {
-   "price": 132.22,
-   "change": -3.9,
-   "change_pct": -2.87,
-   "volume": 4102184.0,
-   "previous_close": 136.12,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AEE": {
-   "price": 112.5,
-   "change": 0.57,
-   "change_pct": 0.51,
-   "volume": 714113.0,
-   "previous_close": 111.93,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ABT": {
-   "price": 103.075,
-   "change": 0.075,
-   "change_pct": 0.07,
-   "volume": 4348182.0,
-   "previous_close": 103.0,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GE": {
-   "price": 321.255,
-   "change": 11.635,
-   "change_pct": 3.76,
-   "volume": 2863790.0,
-   "previous_close": 309.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MCK": {
-   "price": 1051.915,
-   "change": -17.515,
-   "change_pct": -1.64,
-   "volume": 436751.0,
-   "previous_close": 1069.43,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FLEX": {
-   "price": 74.92,
-   "change": 8.68,
-   "change_pct": 13.1,
-   "volume": 4558415.0,
-   "previous_close": 66.24,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
   "NRG": {
-   "price": 97.515,
-   "change": 9.715,
-   "change_pct": 11.06,
-   "volume": 2387511.0,
+   "price": 98.07,
+   "change": 10.27,
+   "change_pct": 11.7,
+   "volume": 2592820.0,
    "previous_close": 87.8,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "CMS": {
-   "price": 70.205,
-   "change": 0.085,
-   "change_pct": 0.12,
-   "volume": 2756179.0,
-   "previous_close": 70.12,
-   "market_status": "Market Open",
+  "NTRS": {
+   "price": 166.94,
+   "change": 4.74,
+   "change_pct": 2.92,
+   "volume": 451473.0,
+   "previous_close": 162.2,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "COIN": {
-   "price": 108.765,
-   "change": 6.795,
-   "change_pct": 6.66,
-   "volume": 8344151.0,
-   "previous_close": 101.97,
-   "market_status": "Market Open",
+  "WAB": {
+   "price": 284.01,
+   "change": 14.7,
+   "change_pct": 5.46,
+   "volume": 695487.0,
+   "previous_close": 269.31,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "MPWR": {
-   "price": 1332.28,
-   "change": 190.23,
-   "change_pct": 16.66,
-   "volume": 712947.0,
-   "previous_close": 1142.05,
-   "market_status": "Market Open",
+  "TSCO": {
+   "price": 37.57,
+   "change": -0.63,
+   "change_pct": -1.65,
+   "volume": 5137327.0,
+   "previous_close": 38.2,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "EXC": {
-   "price": 45.94,
-   "change": 0.24,
-   "change_pct": 0.53,
-   "volume": 3192757.0,
-   "previous_close": 45.7,
-   "market_status": "Market Open",
+  "O": {
+   "price": 58.59,
+   "change": 0.56,
+   "change_pct": 0.97,
+   "volume": 4356691.0,
+   "previous_close": 58.03,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "PH": {
-   "price": 919.915,
-   "change": 48.055,
-   "change_pct": 5.51,
-   "volume": 425815.0,
-   "previous_close": 871.86,
-   "market_status": "Market Open",
+  "APO": {
+   "price": 116.94,
+   "change": 5.78,
+   "change_pct": 5.2,
+   "volume": 2387925.0,
+   "previous_close": 111.16,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "PSA": {
-   "price": 329.945,
-   "change": 4.525,
-   "change_pct": 1.39,
-   "volume": 317062.0,
-   "previous_close": 325.42,
-   "market_status": "Market Open",
+  "CBRE": {
+   "price": 129.38,
+   "change": 2.66,
+   "change_pct": 2.1,
+   "volume": 1395327.0,
+   "previous_close": 126.72,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "TXT": {
-   "price": 81.625,
-   "change": 2.005,
-   "change_pct": 2.52,
-   "volume": 998602.0,
-   "previous_close": 79.62,
-   "market_status": "Market Open",
+  "AON": {
+   "price": 331.86,
+   "change": -1.21,
+   "change_pct": -0.36,
+   "volume": 603887.0,
+   "previous_close": 333.07,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "INCY": {
-   "price": 117.14,
-   "change": 2.515,
-   "change_pct": 2.19,
-   "volume": 755611.0,
-   "previous_close": 114.625,
-   "market_status": "Market Open",
+  "MDT": {
+   "price": 97.7,
+   "change": -2.24,
+   "change_pct": -2.24,
+   "volume": 5400958.0,
+   "previous_close": 99.94,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "PEG": {
-   "price": 74.19,
-   "change": 0.29,
-   "change_pct": 0.39,
-   "volume": 1697588.0,
-   "previous_close": 73.9,
-   "market_status": "Market Open",
+  "AIG": {
+   "price": 80.56,
+   "change": 0.88,
+   "change_pct": 1.1,
+   "volume": 1415374.0,
+   "previous_close": 79.68,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "VLTO": {
-   "price": 118.075,
-   "change": 1.445,
-   "change_pct": 1.24,
-   "volume": 1587389.0,
-   "previous_close": 116.63,
-   "market_status": "Market Open",
+  "IR": {
+   "price": 82.94,
+   "change": 4.64,
+   "change_pct": 5.93,
+   "volume": 1965941.0,
+   "previous_close": 78.3,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ALB": {
-   "price": 82.765,
-   "change": 3.065,
-   "change_pct": 3.85,
-   "volume": 1494505.0,
-   "previous_close": 79.7,
-   "market_status": "Market Open",
+  "WST": {
+   "price": 400.4196,
+   "change": 10.1196,
+   "change_pct": 2.59,
+   "volume": 365493.0,
+   "previous_close": 390.3,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "HIG": {
-   "price": 137.22,
-   "change": 0.38,
-   "change_pct": 0.28,
-   "volume": 805449.0,
-   "previous_close": 136.84,
-   "market_status": "Market Open",
+  "MPC": {
+   "price": 358.0382,
+   "change": -9.1518,
+   "change_pct": -2.49,
+   "volume": 1425424.0,
+   "previous_close": 367.19,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "DUK": {
-   "price": 129.1,
-   "change": -0.68,
-   "change_pct": -0.52,
-   "volume": 2824495.0,
-   "previous_close": 129.78,
-   "market_status": "Market Open",
+  "RL": {
+   "price": 385.29,
+   "change": 18.64,
+   "change_pct": 5.08,
+   "volume": 297844.0,
+   "previous_close": 366.65,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "EXPD": {
-   "price": 196.4616,
-   "change": 3.9016,
-   "change_pct": 2.03,
-   "volume": 763790.0,
-   "previous_close": 192.56,
-   "market_status": "Market Open",
+  "FDXF": {
+   "price": 116.81,
+   "change": -1.73,
+   "change_pct": -1.46,
+   "volume": 1029274.0,
+   "previous_close": 118.54,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "GIS": {
-   "price": 35.125,
-   "change": -0.615,
-   "change_pct": -1.72,
-   "volume": 6365178.0,
-   "previous_close": 35.74,
-   "market_status": "Market Open",
+  "CL": {
+   "price": 97.93,
+   "change": -0.78,
+   "change_pct": -0.79,
+   "volume": 3835546.0,
+   "previous_close": 98.71,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "FFIV": {
-   "price": 321.53,
-   "change": 17.54,
-   "change_pct": 5.77,
-   "volume": 395936.0,
-   "previous_close": 303.99,
-   "market_status": "Market Open",
+  "EIX": {
+   "price": 62.42,
+   "change": 0.18,
+   "change_pct": 0.29,
+   "volume": 1434967.0,
+   "previous_close": 62.24,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "RCL": {
-   "price": 309.495,
-   "change": 13.015,
-   "change_pct": 4.39,
-   "volume": 748900.0,
-   "previous_close": 296.48,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AOS": {
-   "price": 65.06,
-   "change": 1.82,
-   "change_pct": 2.88,
-   "volume": 695572.0,
-   "previous_close": 63.24,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LVS": {
-   "price": 39.33,
-   "change": 0.48,
-   "change_pct": 1.24,
-   "volume": 3186993.0,
-   "previous_close": 38.85,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NWS": {
-   "price": 28.3,
-   "change": 0.43,
-   "change_pct": 1.54,
-   "volume": 509440.0,
-   "previous_close": 27.87,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VEEV": {
-   "price": 270.08,
-   "change": 3.86,
-   "change_pct": 1.45,
-   "volume": 876724.0,
-   "previous_close": 266.22,
-   "market_status": "Market Open",
+  "VMC": {
+   "price": 281.96,
+   "change": 11.09,
+   "change_pct": 4.09,
+   "volume": 668582.0,
+   "previous_close": 270.87,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "TRV": {
-   "price": 395.21,
-   "change": 1.97,
-   "change_pct": 0.5,
-   "volume": 694040.0,
+   "price": 394.82,
+   "change": 1.58,
+   "change_pct": 0.4,
+   "volume": 660052.0,
    "previous_close": 393.24,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "HST": {
-   "price": 24.68,
-   "change": 0.58,
-   "change_pct": 2.41,
-   "volume": 3464691.0,
-   "previous_close": 24.1,
-   "market_status": "Market Open",
+  "MCHP": {
+   "price": 61.22,
+   "change": 6.235,
+   "change_pct": 11.34,
+   "volume": 11923652.0,
+   "previous_close": 54.985,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "T": {
-   "price": 22.385,
-   "change": 0.075,
-   "change_pct": 0.34,
-   "volume": 31500001.0,
-   "previous_close": 22.31,
-   "market_status": "Market Open",
+  "OXY": {
+   "price": 52.7,
+   "change": -1.2,
+   "change_pct": -2.23,
+   "volume": 7605699.0,
+   "previous_close": 53.9,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ROL": {
-   "price": 38.125,
-   "change": 0.305,
-   "change_pct": 0.81,
-   "volume": 1879969.0,
-   "previous_close": 37.82,
-   "market_status": "Market Open",
+  "ADI": {
+   "price": 378.79,
+   "change": 32.87,
+   "change_pct": 9.5,
+   "volume": 3645432.0,
+   "previous_close": 345.92,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "HLT": {
-   "price": 364.89,
-   "change": 8.64,
-   "change_pct": 2.43,
-   "volume": 983979.0,
-   "previous_close": 356.25,
-   "market_status": "Market Open",
+  "FITB": {
+   "price": 50.98,
+   "change": 1.59,
+   "change_pct": 3.22,
+   "volume": 3921483.0,
+   "previous_close": 49.39,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "GILD": {
-   "price": 170.51,
-   "change": 4.08,
-   "change_pct": 2.45,
-   "volume": 3666468.0,
-   "previous_close": 166.43,
-   "market_status": "Market Open",
+  "DVN": {
+   "price": 40.95,
+   "change": -0.59,
+   "change_pct": -1.42,
+   "volume": 9155857.0,
+   "previous_close": 41.54,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "UHS": {
-   "price": 183.88,
-   "change": 4.45,
-   "change_pct": 2.48,
-   "volume": 283187.0,
-   "previous_close": 179.43,
-   "market_status": "Market Open",
+  "FCX": {
+   "price": 49.68,
+   "change": 3.69,
+   "change_pct": 8.02,
+   "volume": 17460665.0,
+   "previous_close": 45.99,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "MTD": {
-   "price": 1734.14,
-   "change": 67.26,
-   "change_pct": 4.04,
-   "volume": 61058.0,
-   "previous_close": 1666.88,
-   "market_status": "Market Open",
+  "ROP": {
+   "price": 458.13,
+   "change": -1.7,
+   "change_pct": -0.37,
+   "volume": 499913.0,
+   "previous_close": 459.83,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "PNC": {
-   "price": 217.51,
-   "change": 4.39,
-   "change_pct": 2.06,
-   "volume": 752869.0,
-   "previous_close": 213.12,
-   "market_status": "Market Open",
+  "MSCI": {
+   "price": 627.64,
+   "change": 17.16,
+   "change_pct": 2.81,
+   "volume": 214396.0,
+   "previous_close": 610.48,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "GPC": {
-   "price": 119.97,
-   "change": 1.46,
-   "change_pct": 1.23,
-   "volume": 438223.0,
-   "previous_close": 118.51,
-   "market_status": "Market Open",
+  "C": {
+   "price": 114.2257,
+   "change": 3.6057,
+   "change_pct": 3.26,
+   "volume": 8764433.0,
+   "previous_close": 110.62,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "TXN": {
-   "price": 291.045,
-   "change": 27.295,
-   "change_pct": 10.35,
-   "volume": 6374129.0,
-   "previous_close": 263.75,
-   "market_status": "Market Open",
+  "TRGP": {
+   "price": 277.27,
+   "change": -1.03,
+   "change_pct": -0.37,
+   "volume": 415100.0,
+   "previous_close": 278.3,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "JBHT": {
-   "price": 224.49,
-   "change": 5.95,
-   "change_pct": 2.72,
-   "volume": 412082.0,
-   "previous_close": 218.54,
-   "market_status": "Market Open",
+  "PTC": {
+   "price": 196.0,
+   "change": 0.9,
+   "change_pct": 0.46,
+   "volume": 1037688.0,
+   "previous_close": 195.1,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "TROW": {
-   "price": 104.04,
-   "change": 3.05,
-   "change_pct": 3.02,
-   "volume": 1636906.0,
-   "previous_close": 100.99,
-   "market_status": "Market Open",
+  "LHX": {
+   "price": 254.83,
+   "change": 4.94,
+   "change_pct": 1.98,
+   "volume": 593888.0,
+   "previous_close": 249.89,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "RTX": {
-   "price": 191.2,
-   "change": -1.51,
-   "change_pct": -0.78,
-   "volume": 6044036.0,
-   "previous_close": 192.71,
-   "market_status": "Market Open",
+  "APD": {
+   "price": 304.18,
+   "change": 7.09,
+   "change_pct": 2.39,
+   "volume": 534325.0,
+   "previous_close": 297.09,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "SOLV": {
-   "price": 85.255,
-   "change": 0.755,
-   "change_pct": 0.89,
-   "volume": 401852.0,
-   "previous_close": 84.5,
-   "market_status": "Market Open",
+  "TFC": {
+   "price": 46.89,
+   "change": 1.08,
+   "change_pct": 2.36,
+   "volume": 4318932.0,
+   "previous_close": 45.81,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LYV": {
+   "price": 180.88,
+   "change": 5.92,
+   "change_pct": 3.38,
+   "volume": 1987587.0,
+   "previous_close": 174.96,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LIN": {
+   "price": 517.0,
+   "change": 14.17,
+   "change_pct": 2.82,
+   "volume": 1295760.0,
+   "previous_close": 502.83,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "IBKR": {
+   "price": 76.47,
+   "change": 5.28,
+   "change_pct": 7.42,
+   "volume": 4160836.0,
+   "previous_close": 71.19,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "QCOM": {
+   "price": 165.48,
+   "change": 15.54,
+   "change_pct": 10.36,
+   "volume": 8361050.0,
+   "previous_close": 149.94,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BSX": {
+   "price": 42.33,
+   "change": 0.35,
+   "change_pct": 0.83,
+   "volume": 8835081.0,
+   "previous_close": 41.98,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "RCL": {
+   "price": 307.14,
+   "change": 10.66,
+   "change_pct": 3.6,
+   "volume": 681397.0,
+   "previous_close": 296.48,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CCI": {
+   "price": 81.24,
+   "change": -1.16,
+   "change_pct": -1.41,
+   "volume": 1359123.0,
+   "previous_close": 82.4,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LH": {
+   "price": 372.56,
+   "change": 5.43,
+   "change_pct": 1.48,
+   "volume": 258420.0,
+   "previous_close": 367.13,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DRI": {
+   "price": 232.27,
+   "change": 6.53,
+   "change_pct": 2.89,
+   "volume": 659685.0,
+   "previous_close": 225.74,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MAR": {
+   "price": 415.63,
+   "change": 8.99,
+   "change_pct": 2.21,
+   "volume": 651480.0,
+   "previous_close": 406.64,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CTAS": {
+   "price": 223.68,
+   "change": 3.67,
+   "change_pct": 1.67,
+   "volume": 1320120.0,
+   "previous_close": 220.01,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DUK": {
+   "price": 129.47,
+   "change": -0.31,
+   "change_pct": -0.24,
+   "volume": 2602435.0,
+   "previous_close": 129.78,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WFC": {
+   "price": 80.15,
+   "change": 1.53,
+   "change_pct": 1.95,
+   "volume": 5852217.0,
+   "previous_close": 78.62,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "COST": {
+   "price": 1099.87,
+   "change": -2.28,
+   "change_pct": -0.21,
+   "volume": 1702198.0,
+   "previous_close": 1102.15,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "AWK": {
-   "price": 146.74,
-   "change": -2.79,
-   "change_pct": -1.87,
-   "volume": 1228321.0,
+   "price": 147.26,
+   "change": -2.27,
+   "change_pct": -1.52,
+   "volume": 1160203.0,
    "previous_close": 149.53,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "MKC": {
-   "price": 47.8,
-   "change": 0.4,
-   "change_pct": 0.84,
-   "volume": 2226605.0,
-   "previous_close": 47.4,
-   "market_status": "Market Open",
+  "HRL": {
+   "price": 23.08,
+   "change": -0.46,
+   "change_pct": -1.95,
+   "volume": 2456262.0,
+   "previous_close": 23.54,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "TEL": {
@@ -646,2059 +448,322 @@
    "change_pct": 0.75,
    "volume": 2408920.0,
    "previous_close": 210.43,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "EIX": {
-   "price": 62.29,
-   "change": 0.05,
-   "change_pct": 0.08,
-   "volume": 1551281.0,
-   "previous_close": 62.24,
-   "market_status": "Market Open",
+  "NFLX": {
+   "price": 58.0863,
+   "change": 1.3563,
+   "change_pct": 2.39,
+   "volume": 29997550.0,
+   "previous_close": 56.73,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "WFC": {
-   "price": 80.15,
-   "change": 1.53,
-   "change_pct": 1.95,
-   "volume": 5543979.0,
-   "previous_close": 78.62,
-   "market_status": "Market Open",
+  "VZ": {
+   "price": 46.58,
+   "change": 0.1,
+   "change_pct": 0.22,
+   "volume": 13098389.0,
+   "previous_close": 46.48,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "YUM": {
-   "price": 164.23,
-   "change": 3.53,
-   "change_pct": 2.2,
-   "volume": 827456.0,
-   "previous_close": 160.7,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "INVH": {
-   "price": 26.565,
-   "change": 0.335,
-   "change_pct": 1.28,
-   "volume": 4857944.0,
-   "previous_close": 26.23,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ROST": {
-   "price": 217.84,
-   "change": 4.38,
-   "change_pct": 2.05,
-   "volume": 2254248.0,
-   "previous_close": 213.46,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VMRK": {
-   "price": 63.52,
-   "change": 0.48,
-   "change_pct": 0.76,
-   "volume": 2196285.0,
-   "previous_close": 63.04,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ACGL": {
-   "price": 108.69,
-   "change": -0.13,
-   "change_pct": -0.12,
-   "volume": 744820.0,
-   "previous_close": 108.82,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HSY": {
-   "price": 173.72,
-   "change": -1.76,
-   "change_pct": -1.0,
-   "volume": 1675804.0,
-   "previous_close": 175.48,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AME": {
-   "price": 231.7,
-   "change": 8.8,
-   "change_pct": 3.95,
-   "volume": 1237622.0,
-   "previous_close": 222.9,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IR": {
-   "price": 82.88,
-   "change": 4.58,
-   "change_pct": 5.85,
-   "volume": 1858357.0,
-   "previous_close": 78.3,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EFX": {
-   "price": 179.005,
-   "change": 1.815,
-   "change_pct": 1.02,
-   "volume": 432260.0,
-   "previous_close": 177.19,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CTSH": {
-   "price": 58.5805,
-   "change": 0.5205,
-   "change_pct": 0.9,
-   "volume": 2791548.0,
-   "previous_close": 58.06,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "USB": {
-   "price": 57.445,
-   "change": 1.395,
-   "change_pct": 2.49,
-   "volume": 4683360.0,
-   "previous_close": 56.05,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "UBER": {
-   "price": 64.615,
-   "change": 1.145,
-   "change_pct": 1.8,
-   "volume": 13733775.0,
-   "previous_close": 63.47,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BX": {
-   "price": 116.44,
-   "change": 5.64,
-   "change_pct": 5.09,
-   "volume": 3031842.0,
-   "previous_close": 110.8,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "KLAC": {
-   "price": 145.29,
-   "change": 18.42,
-   "change_pct": 14.52,
-   "volume": 9789009.0,
-   "previous_close": 126.87,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "URI": {
-   "price": 1039.775,
-   "change": 66.345,
-   "change_pct": 6.82,
-   "volume": 451512.0,
-   "previous_close": 973.43,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VTRS": {
-   "price": 19.635,
-   "change": 0.125,
-   "change_pct": 0.64,
-   "volume": 6320149.0,
-   "previous_close": 19.51,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IDXX": {
-   "price": 689.9,
-   "change": 13.69,
-   "change_pct": 2.02,
-   "volume": 223984.0,
-   "previous_close": 676.21,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TSCO": {
-   "price": 37.705,
-   "change": -0.495,
-   "change_pct": -1.3,
-   "volume": 5615391.0,
-   "previous_close": 38.2,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CMCSA": {
-   "price": 24.765,
-   "change": -0.135,
-   "change_pct": -0.54,
-   "volume": 21031885.0,
-   "previous_close": 24.9,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "OKE": {
-   "price": 83.675,
-   "change": -0.695,
-   "change_pct": -0.82,
-   "volume": 1531423.0,
-   "previous_close": 84.37,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FDS": {
-   "price": 312.095,
-   "change": 0.165,
-   "change_pct": 0.05,
-   "volume": 213733.0,
-   "previous_close": 311.93,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FE": {
-   "price": 47.41,
-   "change": 0.38,
-   "change_pct": 0.81,
-   "volume": 2381278.0,
-   "previous_close": 47.03,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TJX": {
-   "price": 139.8,
-   "change": 0.18,
-   "change_pct": 0.13,
-   "volume": 5073027.0,
-   "previous_close": 139.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WMB": {
-   "price": 65.545,
-   "change": 1.235,
-   "change_pct": 1.92,
-   "volume": 5064644.0,
-   "previous_close": 64.31,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CSX": {
-   "price": 49.9201,
-   "change": 0.8201,
-   "change_pct": 1.67,
-   "volume": 5080276.0,
-   "previous_close": 49.1,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NSC": {
-   "price": 317.33,
-   "change": 6.32,
-   "change_pct": 2.03,
-   "volume": 434394.0,
-   "previous_close": 311.01,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NVR": {
-   "price": 5549.485,
-   "change": 81.445,
-   "change_pct": 1.49,
-   "volume": 32758.0,
-   "previous_close": 5468.04,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PAYX": {
-   "price": 112.385,
-   "change": -0.245,
-   "change_pct": -0.22,
-   "volume": 1218939.0,
-   "previous_close": 112.63,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EME": {
-   "price": 651.65,
-   "change": 48.33,
-   "change_pct": 8.01,
-   "volume": 262147.0,
-   "previous_close": 603.32,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LH": {
-   "price": 373.71,
-   "change": 6.58,
-   "change_pct": 1.79,
-   "volume": 273811.0,
-   "previous_close": 367.13,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MDT": {
-   "price": 100.92,
-   "change": 0.98,
-   "change_pct": 0.98,
-   "volume": 5675214.0,
-   "previous_close": 99.94,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DELL": {
-   "price": 338.64,
-   "change": 60.62,
-   "change_pct": 21.8,
-   "volume": 13237396.0,
-   "previous_close": 278.02,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "RL": {
-   "price": 386.27,
-   "change": 19.62,
-   "change_pct": 5.35,
-   "volume": 315793.0,
-   "previous_close": 366.65,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MPC": {
-   "price": 358.6,
-   "change": -8.59,
-   "change_pct": -2.34,
-   "volume": 1496628.0,
-   "previous_close": 367.19,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WTW": {
-   "price": 335.66,
-   "change": 4.65,
-   "change_pct": 1.4,
-   "volume": 254863.0,
-   "previous_close": 331.01,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ATO": {
-   "price": 168.72,
-   "change": 1.53,
-   "change_pct": 0.92,
-   "volume": 766048.0,
-   "previous_close": 167.19,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GL": {
-   "price": 155.13,
-   "change": 3.48,
-   "change_pct": 2.29,
-   "volume": 300496.0,
-   "previous_close": 151.65,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LDOS": {
-   "price": 123.46,
-   "change": 1.25,
-   "change_pct": 1.02,
-   "volume": 462198.0,
-   "previous_close": 122.21,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VMC": {
-   "price": 281.28,
-   "change": 10.41,
-   "change_pct": 3.84,
-   "volume": 602569.0,
-   "previous_close": 270.87,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LLY": {
-   "price": 1363.35,
-   "change": 16.24,
-   "change_pct": 1.21,
-   "volume": 1889505.0,
-   "previous_close": 1347.11,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WDC": {
-   "price": 299.53,
-   "change": 38.42,
-   "change_pct": 14.71,
-   "volume": 5965353.0,
-   "previous_close": 261.11,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CCL": {
-   "price": 28.085,
-   "change": 1.495,
-   "change_pct": 5.62,
-   "volume": 12098715.0,
-   "previous_close": 26.59,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MO": {
-   "price": 73.95,
-   "change": -0.92,
-   "change_pct": -1.23,
-   "volume": 5861136.0,
-   "previous_close": 74.87,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CL": {
-   "price": 98.235,
-   "change": -0.475,
-   "change_pct": -0.48,
-   "volume": 3966112.0,
-   "previous_close": 98.71,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EXPE": {
-   "price": 240.1534,
-   "change": 5.1934,
-   "change_pct": 2.21,
-   "volume": 899196.0,
-   "previous_close": 234.96,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "KR": {
-   "price": 67.155,
-   "change": -1.285,
-   "change_pct": -1.88,
-   "volume": 2974725.0,
-   "previous_close": 68.44,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TT": {
-   "price": 409.87,
-   "change": 23.58,
-   "change_pct": 6.1,
-   "volume": 896147.0,
-   "previous_close": 386.29,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SBAC": {
-   "price": 170.905,
-   "change": -2.425,
-   "change_pct": -1.4,
-   "volume": 536778.0,
-   "previous_close": 173.33,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TMUS": {
-   "price": 165.93,
-   "change": 0.33,
-   "change_pct": 0.2,
-   "volume": 2728435.0,
-   "previous_close": 165.6,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AMD": {
-   "price": 453.31,
-   "change": 28.92,
-   "change_pct": 6.81,
-   "volume": 40822273.0,
-   "previous_close": 424.39,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "OXY": {
-   "price": 52.72,
-   "change": -1.18,
-   "change_pct": -2.19,
-   "volume": 7229558.0,
-   "previous_close": 53.9,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CPAY": {
-   "price": 442.325,
-   "change": 12.485,
-   "change_pct": 2.9,
-   "volume": 309528.0,
-   "previous_close": 429.84,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ORLY": {
-   "price": 93.63,
-   "change": 0.98,
-   "change_pct": 1.06,
-   "volume": 3093319.0,
-   "previous_close": 92.65,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ED": {
-   "price": 118.14,
-   "change": -1.22,
-   "change_pct": -1.02,
-   "volume": 2060350.0,
-   "previous_close": 119.36,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NTAP": {
-   "price": 172.855,
-   "change": 15.205,
-   "change_pct": 9.64,
-   "volume": 1326500.0,
-   "previous_close": 157.65,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FIS": {
-   "price": 26.825,
-   "change": 0.995,
-   "change_pct": 3.85,
-   "volume": 6054320.0,
-   "previous_close": 25.83,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LNT": {
-   "price": 72.27,
-   "change": 0.65,
+  "AZO": {
+   "price": 3285.06,
+   "change": 29.63,
    "change_pct": 0.91,
-   "volume": 1369671.0,
-   "previous_close": 71.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CASY": {
-   "price": 685.76,
-   "change": -5.38,
-   "change_pct": -0.78,
-   "volume": 297387.0,
-   "previous_close": 691.14,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EXE": {
-   "price": 80.62,
-   "change": -0.65,
-   "change_pct": -0.8,
-   "volume": 2783730.0,
-   "previous_close": 81.27,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HPE": {
-   "price": 48.5398,
-   "change": 7.6298,
-   "change_pct": 18.65,
-   "volume": 28765445.0,
-   "previous_close": 40.91,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LUV": {
-   "price": 45.7683,
-   "change": 1.6883,
-   "change_pct": 3.83,
-   "volume": 3231173.0,
-   "previous_close": 44.08,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "A": {
-   "price": 176.04,
-   "change": 5.66,
-   "change_pct": 3.32,
-   "volume": 1369591.0,
-   "previous_close": 170.38,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AMT": {
-   "price": 179.625,
-   "change": -4.585,
-   "change_pct": -2.49,
-   "volume": 1602202.0,
-   "previous_close": 184.21,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WELL": {
-   "price": 240.74,
-   "change": 0.4,
-   "change_pct": 0.17,
-   "volume": 1777281.0,
-   "previous_close": 240.34,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ANET": {
-   "price": 179.53,
-   "change": 11.91,
-   "change_pct": 7.11,
-   "volume": 7563636.0,
-   "previous_close": 167.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NEM": {
-   "price": 101.151,
-   "change": 6.471,
-   "change_pct": 6.83,
-   "volume": 6034211.0,
-   "previous_close": 94.68,
-   "market_status": "Market Open",
+   "volume": 68751.0,
+   "previous_close": 3255.43,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "DAL": {
-   "price": 84.89,
-   "change": 4.88,
-   "change_pct": 6.1,
-   "volume": 2928427.0,
+   "price": 84.34,
+   "change": 4.33,
+   "change_pct": 5.41,
+   "volume": 2647500.0,
    "previous_close": 80.01,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "OMC": {
-   "price": 87.25,
-   "change": 2.07,
-   "change_pct": 2.43,
-   "volume": 1905114.0,
-   "previous_close": 85.18,
-   "market_status": "Market Open",
+  "MDLZ": {
+   "price": 66.25,
+   "change": -0.03,
+   "change_pct": -0.05,
+   "volume": 4990670.0,
+   "previous_close": 66.28,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "WST": {
-   "price": 401.63,
-   "change": 11.33,
-   "change_pct": 2.9,
-   "volume": 337158.0,
-   "previous_close": 390.3,
-   "market_status": "Market Open",
+  "GEV": {
+   "price": 762.73,
+   "change": 63.4,
+   "change_pct": 9.07,
+   "volume": 3349031.0,
+   "previous_close": 699.33,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "RVTY": {
-   "price": 152.61,
-   "change": 7.39,
-   "change_pct": 5.09,
-   "volume": 476832.0,
-   "previous_close": 145.22,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GWW": {
-   "price": 1388.475,
-   "change": 31.125,
-   "change_pct": 2.29,
-   "volume": 200991.0,
-   "previous_close": 1357.35,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CB": {
-   "price": 369.5,
-   "change": -2.13,
-   "change_pct": -0.57,
-   "volume": 1308959.0,
-   "previous_close": 371.63,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CMG": {
-   "price": 36.46,
-   "change": 0.91,
-   "change_pct": 2.56,
-   "volume": 11726170.0,
-   "previous_close": 35.55,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GM": {
-   "price": 82.015,
-   "change": 3.305,
-   "change_pct": 4.2,
-   "volume": 2945387.0,
-   "previous_close": 78.71,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MCHP": {
-   "price": 61.29,
-   "change": 6.305,
-   "change_pct": 11.47,
-   "volume": 12994232.0,
-   "previous_close": 54.985,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MET": {
-   "price": 99.08,
-   "change": 3.41,
-   "change_pct": 3.56,
-   "volume": 1660477.0,
-   "previous_close": 95.67,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "KMB": {
-   "price": 107.43,
-   "change": 1.05,
-   "change_pct": 0.99,
-   "volume": 2610191.0,
-   "previous_close": 106.38,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "STT": {
-   "price": 161.68,
-   "change": 6.3,
-   "change_pct": 4.05,
-   "volume": 932015.0,
-   "previous_close": 155.38,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CRL": {
-   "price": 340.205,
-   "change": 25.885,
-   "change_pct": 8.24,
-   "volume": 881895.0,
-   "previous_close": 314.32,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ETR": {
-   "price": 107.3,
-   "change": 2.92,
-   "change_pct": 2.8,
-   "volume": 2181139.0,
-   "previous_close": 104.38,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "INTU": {
-   "price": 275.24,
-   "change": 4.8,
-   "change_pct": 1.77,
-   "volume": 2804446.0,
-   "previous_close": 270.44,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NWSA": {
-   "price": 25.515,
-   "change": 0.465,
-   "change_pct": 1.86,
-   "volume": 2001546.0,
-   "previous_close": 25.05,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HAL": {
-   "price": 30.5173,
-   "change": -0.0127,
-   "change_pct": -0.04,
-   "volume": 5775597.0,
-   "previous_close": 30.53,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PFG": {
-   "price": 107.85,
-   "change": 3.27,
-   "change_pct": 3.13,
-   "volume": 598433.0,
-   "previous_close": 104.58,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ARES": {
-   "price": 129.25,
-   "change": 5.95,
-   "change_pct": 4.83,
-   "volume": 1529860.0,
-   "previous_close": 123.3,
-   "market_status": "Market Open",
+  "FDS": {
+   "price": 312.49,
+   "change": 0.56,
+   "change_pct": 0.18,
+   "volume": 229722.0,
+   "previous_close": 311.93,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "ACN": {
-   "price": 222.983,
-   "change": 1.813,
-   "change_pct": 0.82,
-   "volume": 2735418.0,
+   "price": 221.1362,
+   "change": -0.0338,
+   "change_pct": -0.02,
+   "volume": 2670447.0,
    "previous_close": 221.17,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "EQT": {
-   "price": 48.485,
-   "change": -0.405,
-   "change_pct": -0.83,
-   "volume": 5324390.0,
-   "previous_close": 48.89,
-   "market_status": "Market Open",
+  "CVS": {
+   "price": 79.7179,
+   "change": -1.1221,
+   "change_pct": -1.39,
+   "volume": 7279452.0,
+   "previous_close": 80.84,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "APA": {
-   "price": 43.78,
-   "change": -1.25,
-   "change_pct": -2.78,
-   "volume": 4333704.0,
-   "previous_close": 45.03,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BALL": {
-   "price": 63.49,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "volume": 2715455.0,
-   "previous_close": 63.49,
-   "market_status": "Market Open",
-   "session": "2026-11-20"
-  },
-  "NDAQ": {
-   "price": 105.55,
-   "change": 2.63,
-   "change_pct": 2.56,
-   "volume": 1641662.0,
-   "previous_close": 102.92,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SJM": {
-   "price": 133.465,
-   "change": -0.215,
-   "change_pct": -0.16,
-   "volume": 1515936.0,
-   "previous_close": 133.68,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "XEL": {
-   "price": 80.42,
-   "change": 1.12,
-   "change_pct": 1.41,
-   "volume": 4030858.0,
-   "previous_close": 79.3,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WEC": {
-   "price": 116.865,
-   "change": -0.205,
-   "change_pct": -0.18,
-   "volume": 1230692.0,
-   "previous_close": 117.07,
-   "market_status": "Market Open",
+  "T": {
+   "price": 22.3,
+   "change": -0.01,
+   "change_pct": -0.04,
+   "volume": 32861319.0,
+   "previous_close": 22.31,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "CPT": {
-   "price": 95.77,
-   "change": -0.03,
-   "change_pct": -0.03,
-   "volume": 449268.0,
+   "price": 95.85,
+   "change": 0.05,
+   "change_pct": 0.05,
+   "volume": 416745.0,
    "previous_close": 95.8,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "EMR": {
-   "price": 159.115,
-   "change": 8.185,
-   "change_pct": 5.42,
-   "volume": 1573426.0,
-   "previous_close": 150.93,
-   "market_status": "Market Open",
+  "LDOS": {
+   "price": 123.47,
+   "change": 1.26,
+   "change_pct": 1.03,
+   "volume": 450093.0,
+   "previous_close": 122.21,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "FCX": {
-   "price": 49.905,
-   "change": 3.915,
-   "change_pct": 8.51,
-   "volume": 16874440.0,
-   "previous_close": 45.99,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "Q": {
-   "price": 114.48,
-   "change": 11.01,
-   "change_pct": 10.64,
-   "volume": 1198999.0,
-   "previous_close": 103.47,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "REGN": {
-   "price": 930.0,
-   "change": 7.6,
-   "change_pct": 0.82,
-   "volume": 878261.0,
-   "previous_close": 922.4,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EOG": {
-   "price": 145.27,
-   "change": -3.33,
-   "change_pct": -2.24,
-   "volume": 3066775.0,
-   "previous_close": 148.6,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "STLD": {
-   "price": 215.4,
-   "change": 9.44,
-   "change_pct": 4.58,
-   "volume": 532741.0,
-   "previous_close": 205.96,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EL": {
-   "price": 103.835,
-   "change": 4.375,
-   "change_pct": 4.4,
-   "volume": 1862228.0,
-   "previous_close": 99.46,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TSLA": {
-   "price": 388.68,
-   "change": 42.86,
-   "change_pct": 12.39,
-   "volume": 33818749.0,
-   "previous_close": 345.82,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TWLO": {
-   "price": 185.84,
-   "change": 13.74,
-   "change_pct": 7.98,
-   "volume": 1361178.0,
-   "previous_close": 172.1,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CPRT": {
-   "price": 31.62,
-   "change": 0.53,
-   "change_pct": 1.7,
-   "volume": 5910761.0,
-   "previous_close": 31.09,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FOX": {
-   "price": 57.42,
-   "change": 1.28,
-   "change_pct": 2.28,
-   "volume": 468567.0,
-   "previous_close": 56.14,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PYPL": {
-   "price": 55.2,
-   "change": 1.91,
-   "change_pct": 3.58,
-   "volume": 5708661.0,
-   "previous_close": 53.29,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TECH": {
-   "price": 72.88,
-   "change": 0.21,
-   "change_pct": 0.29,
-   "volume": 3409829.0,
-   "previous_close": 72.67,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HWM": {
-   "price": 217.765,
-   "change": 8.605,
-   "change_pct": 4.11,
-   "volume": 2833006.0,
-   "previous_close": 209.16,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HUM": {
-   "price": 383.56,
-   "change": -6.44,
-   "change_pct": -1.65,
-   "volume": 1165448.0,
-   "previous_close": 390.0,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NOC": {
-   "price": 541.815,
-   "change": 7.505,
-   "change_pct": 1.4,
-   "volume": 367685.0,
-   "previous_close": 534.31,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EVRG": {
-   "price": 86.13,
-   "change": 0.3825,
-   "change_pct": 0.45,
-   "volume": 2496851.0,
-   "previous_close": 85.7475,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DD": {
-   "price": 150.82,
-   "change": 5.39,
-   "change_pct": 3.71,
-   "volume": 666700.0,
-   "previous_close": 145.43,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GDDY": {
-   "price": 101.77,
-   "change": 2.24,
-   "change_pct": 2.25,
-   "volume": 1002543.0,
-   "previous_close": 99.53,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LHX": {
-   "price": 254.825,
-   "change": 4.935,
-   "change_pct": 1.97,
-   "volume": 614227.0,
-   "previous_close": 249.89,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BMY": {
-   "price": 60.025,
-   "change": 1.225,
-   "change_pct": 2.08,
-   "volume": 5783823.0,
-   "previous_close": 58.8,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EBAY": {
-   "price": 118.0,
-   "change": 2.41,
-   "change_pct": 2.08,
-   "volume": 2704636.0,
-   "previous_close": 115.59,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FISV": {
-   "price": 56.96,
-   "change": 1.08,
-   "change_pct": 1.93,
-   "volume": 2736801.0,
-   "previous_close": 55.88,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TYL": {
-   "price": 408.71,
-   "change": 4.27,
-   "change_pct": 1.06,
-   "volume": 402418.0,
-   "previous_close": 404.44,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GS": {
-   "price": 824.4,
-   "change": 33.71,
-   "change_pct": 4.26,
-   "volume": 2569120.0,
-   "previous_close": 790.69,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GEN": {
-   "price": 30.09,
-   "change": 0.9,
-   "change_pct": 3.08,
-   "volume": 4661698.0,
-   "previous_close": 29.19,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "L": {
-   "price": 110.2,
-   "change": 0.8,
-   "change_pct": 0.73,
-   "volume": 416027.0,
-   "previous_close": 109.4,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "JNJ": {
-   "price": 270.78,
-   "change": 0.31,
-   "change_pct": 0.11,
-   "volume": 5385448.0,
-   "previous_close": 270.47,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DVN": {
-   "price": 40.83,
-   "change": -0.71,
-   "change_pct": -1.71,
-   "volume": 9859490.0,
-   "previous_close": 41.54,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IP": {
-   "price": 29.175,
-   "change": -1.185,
-   "change_pct": -3.9,
-   "volume": 8515631.0,
-   "previous_close": 30.36,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PTC": {
-   "price": 196.061,
-   "change": 0.961,
-   "change_pct": 0.49,
-   "volume": 989700.0,
-   "previous_close": 195.1,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SBUX": {
-   "price": 106.1,
-   "change": 2.97,
-   "change_pct": 2.88,
-   "volume": 4975308.0,
-   "previous_close": 103.13,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SNPS": {
-   "price": 429.86,
-   "change": 33.69,
-   "change_pct": 8.5,
-   "volume": 891283.0,
-   "previous_close": 396.17,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "APO": {
-   "price": 116.975,
-   "change": 5.815,
-   "change_pct": 5.23,
-   "volume": 2302378.0,
-   "previous_close": 111.16,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IT": {
-   "price": 176.06,
-   "change": 1.57,
-   "change_pct": 0.9,
-   "volume": 566076.0,
-   "previous_close": 174.49,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BE": {
-   "price": 169.99,
-   "change": 27.6,
-   "change_pct": 19.38,
-   "volume": 19785598.0,
-   "previous_close": 142.39,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "COF": {
-   "price": 180.465,
-   "change": 1.805,
-   "change_pct": 1.01,
-   "volume": 3658018.0,
-   "previous_close": 178.66,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GOOG": {
-   "price": 280.65,
-   "change": 16.65,
-   "change_pct": 6.31,
-   "volume": 21755044.0,
-   "previous_close": 264.0,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ROP": {
-   "price": 459.63,
-   "change": -0.2,
-   "change_pct": -0.04,
-   "volume": 535846.0,
-   "previous_close": 459.83,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BRK.B": {
-   "price": 573.2,
-   "change": 3.2,
-   "change_pct": 0.56,
-   "volume": 2934425.0,
-   "previous_close": 570.0,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ALL": {
-   "price": 265.39,
-   "change": -1.61,
-   "change_pct": -0.6,
-   "volume": 816850.0,
-   "previous_close": 267.0,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MRVL": {
-   "price": 145.73,
-   "change": 23.45,
-   "change_pct": 19.18,
-   "volume": 27412456.0,
-   "previous_close": 122.28,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "REG": {
-   "price": 73.42,
-   "change": -0.22,
-   "change_pct": -0.3,
-   "volume": 1182775.0,
-   "previous_close": 73.64,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ADM": {
-   "price": 67.28,
-   "change": 0.33,
-   "change_pct": 0.49,
-   "volume": 1504627.0,
-   "previous_close": 66.95,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NXPI": {
-   "price": 255.55,
-   "change": 20.4,
-   "change_pct": 8.68,
-   "volume": 2739482.0,
-   "previous_close": 235.15,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MCO": {
-   "price": 477.5,
-   "change": 6.69,
-   "change_pct": 1.42,
-   "volume": 871164.0,
-   "previous_close": 470.81,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "RF": {
-   "price": 27.3,
-   "change": 0.7,
-   "change_pct": 2.63,
-   "volume": 9371622.0,
-   "previous_close": 26.6,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HOOD": {
-   "price": 67.685,
-   "change": 5.515,
-   "change_pct": 8.87,
-   "volume": 16391462.0,
-   "previous_close": 62.17,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LYV": {
-   "price": 180.48,
-   "change": 5.52,
-   "change_pct": 3.16,
-   "volume": 2153735.0,
-   "previous_close": 174.96,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PM": {
-   "price": 182.57,
-   "change": -1.52,
-   "change_pct": -0.83,
-   "volume": 3866955.0,
-   "previous_close": 184.09,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NVDA": {
-   "price": 166.165,
-   "change": 40.635,
-   "change_pct": 32.37,
-   "volume": 672722692.0,
-   "previous_close": 125.53,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AVY": {
-   "price": 185.1125,
-   "change": 3.9625,
-   "change_pct": 2.19,
-   "volume": 315406.0,
-   "previous_close": 181.15,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "STE": {
-   "price": 256.865,
-   "change": 1.105,
-   "change_pct": 0.43,
-   "volume": 370650.0,
-   "previous_close": 255.76,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TGT": {
-   "price": 168.98,
-   "change": 3.15,
-   "change_pct": 1.9,
-   "volume": 2664231.0,
-   "previous_close": 165.83,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VRTX": {
-   "price": 538.865,
-   "change": 23.845,
-   "change_pct": 4.63,
-   "volume": 816571.0,
-   "previous_close": 515.02,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SPG": {
-   "price": 226.77,
-   "change": 2.42,
-   "change_pct": 1.08,
-   "volume": 520549.0,
-   "previous_close": 224.35,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "J": {
-   "price": 157.65,
-   "change": 7.03,
-   "change_pct": 4.67,
-   "volume": 876743.0,
-   "previous_close": 150.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "STX": {
-   "price": 520.53,
-   "change": 63.52,
-   "change_pct": 13.9,
-   "volume": 4185972.0,
-   "previous_close": 457.01,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "F": {
-   "price": 11.635,
-   "change": 0.465,
-   "change_pct": 4.16,
-   "volume": 38836054.0,
-   "previous_close": 11.17,
-   "market_status": "Market Open",
+  "CHD": {
+   "price": 110.87,
+   "change": 0.03,
+   "change_pct": 0.03,
+   "volume": 963250.0,
+   "previous_close": 110.84,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "AIZ": {
-   "price": 320.16,
-   "change": 3.51,
-   "change_pct": 1.11,
-   "volume": 206435.0,
+   "price": 319.05,
+   "change": 2.4,
+   "change_pct": 0.76,
+   "volume": 181504.0,
    "previous_close": 316.65,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HUBB": {
-   "price": 434.585,
-   "change": 30.925,
-   "change_pct": 7.66,
-   "volume": 486018.0,
-   "previous_close": 403.66,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BKR": {
-   "price": 46.185,
-   "change": 1.375,
-   "change_pct": 3.07,
-   "volume": 4710433.0,
-   "previous_close": 44.81,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PFE": {
-   "price": 27.465,
-   "change": 0.065,
-   "change_pct": 0.24,
-   "volume": 18725023.0,
-   "previous_close": 27.4,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NTRS": {
-   "price": 167.175,
-   "change": 4.975,
-   "change_pct": 3.07,
-   "volume": 422948.0,
-   "previous_close": 162.2,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "STZ": {
-   "price": 138.17,
-   "change": -3.7,
-   "change_pct": -2.61,
-   "volume": 1579359.0,
-   "previous_close": 141.87,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WMT": {
-   "price": 129.38,
-   "change": 1.43,
-   "change_pct": 1.12,
-   "volume": 15027050.0,
-   "previous_close": 127.95,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FDX": {
-   "price": 311.11,
-   "change": 7.12,
-   "change_pct": 2.34,
-   "volume": 653838.0,
-   "previous_close": 303.99,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WRB": {
-   "price": 78.04,
-   "change": -0.27,
-   "change_pct": -0.34,
-   "volume": 683362.0,
-   "previous_close": 78.31,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PHM": {
-   "price": 126.02,
-   "change": 1.35,
-   "change_pct": 1.08,
-   "volume": 858475.0,
-   "previous_close": 124.67,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "P": {
-   "price": 102.45,
-   "change": 10.4,
-   "change_pct": 11.3,
-   "volume": 2887825.0,
-   "previous_close": 92.05,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TPR": {
-   "price": 126.455,
-   "change": 6.435,
-   "change_pct": 5.36,
-   "volume": 1651279.0,
-   "previous_close": 120.02,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CDW": {
-   "price": 170.82,
-   "change": 9.04,
-   "change_pct": 5.59,
-   "volume": 871857.0,
-   "previous_close": 161.78,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "ORCL": {
-   "price": 114.03,
-   "change": 12.84,
-   "change_pct": 12.69,
-   "volume": 31202406.0,
+   "price": 113.68,
+   "change": 12.49,
+   "change_pct": 12.34,
+   "volume": 32387301.0,
    "previous_close": 101.19,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "TER": {
-   "price": 234.11,
-   "change": 29.465,
-   "change_pct": 14.4,
-   "volume": 2900706.0,
-   "previous_close": 204.645,
-   "market_status": "Market Open",
+  "MRSH": {
+   "price": 207.1,
+   "change": 0.88,
+   "change_pct": 0.43,
+   "volume": 1525924.0,
+   "previous_close": 206.22,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "GNRC": {
-   "price": 205.96,
-   "change": 12.74,
-   "change_pct": 6.59,
-   "volume": 889505.0,
-   "previous_close": 193.22,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NUE": {
-   "price": 248.41,
-   "change": 8.79,
-   "change_pct": 3.67,
-   "volume": 606697.0,
-   "previous_close": 239.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FITB": {
-   "price": 50.74,
-   "change": 1.35,
-   "change_pct": 2.73,
-   "volume": 4038857.0,
-   "previous_close": 49.39,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "KKR": {
-   "price": 92.475,
-   "change": 3.935,
-   "change_pct": 4.44,
-   "volume": 3400581.0,
-   "previous_close": 88.54,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HON": {
-   "price": 221.845,
-   "change": 9.205,
-   "change_pct": 4.33,
-   "volume": 1509762.0,
-   "previous_close": 212.64,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NI": {
-   "price": 45.02,
-   "change": 0.74,
-   "change_pct": 1.67,
-   "volume": 3022940.0,
-   "previous_close": 44.28,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SYK": {
-   "price": 315.71,
-   "change": 5.71,
-   "change_pct": 1.84,
-   "volume": 1345645.0,
-   "previous_close": 310.0,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SLB": {
-   "price": 46.225,
-   "change": 0.335,
-   "change_pct": 0.73,
-   "volume": 8911093.0,
-   "previous_close": 45.89,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "C": {
-   "price": 114.83,
-   "change": 4.21,
-   "change_pct": 3.81,
-   "volume": 8343985.0,
-   "previous_close": 110.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CAT": {
-   "price": 548.555,
-   "change": 38.105,
-   "change_pct": 7.46,
-   "volume": 2618543.0,
-   "previous_close": 510.45,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CSCO": {
-   "price": 96.86,
-   "change": 6.22,
-   "change_pct": 6.86,
-   "volume": 13622440.0,
-   "previous_close": 90.64,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IVZ": {
-   "price": 28.405,
-   "change": 1.895,
-   "change_pct": 7.15,
-   "volume": 3859806.0,
-   "previous_close": 26.51,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WAB": {
-   "price": 282.985,
-   "change": 13.675,
-   "change_pct": 5.08,
-   "volume": 655324.0,
-   "previous_close": 269.31,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AXP": {
-   "price": 306.93,
-   "change": 5.23,
-   "change_pct": 1.73,
-   "volume": 1961921.0,
-   "previous_close": 301.7,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ICE": {
-   "price": 172.3165,
-   "change": 2.3165,
-   "change_pct": 1.36,
-   "volume": 2102972.0,
-   "previous_close": 170.0,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TDG": {
-   "price": 1142.05,
-   "change": 20.83,
-   "change_pct": 1.86,
-   "volume": 413328.0,
-   "previous_close": 1121.22,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AON": {
-   "price": 332.07,
-   "change": -1.0,
-   "change_pct": -0.3,
-   "volume": 567655.0,
-   "previous_close": 333.07,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HBAN": {
-   "price": 14.685,
-   "change": 0.405,
-   "change_pct": 2.84,
-   "volume": 17776577.0,
-   "previous_close": 14.28,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DOC": {
-   "price": 19.8189,
-   "change": 0.5789,
-   "change_pct": 3.01,
-   "volume": 3962473.0,
-   "previous_close": 19.24,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CSGP": {
-   "price": 30.23,
-   "change": 0.62,
-   "change_pct": 2.09,
-   "volume": 2622151.0,
-   "previous_close": 29.61,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GEHC": {
-   "price": 81.27,
-   "change": 0.63,
-   "change_pct": 0.78,
-   "volume": 1908701.0,
-   "previous_close": 80.64,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "XOM": {
-   "price": 156.97,
-   "change": -3.02,
-   "change_pct": -1.89,
-   "volume": 7857850.0,
-   "previous_close": 159.99,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "META": {
-   "price": 601.14,
-   "change": 40.3,
-   "change_pct": 7.19,
-   "volume": 13766549.0,
-   "previous_close": 560.84,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AMP": {
-   "price": 496.385,
-   "change": 16.095,
-   "change_pct": 3.35,
-   "volume": 256411.0,
-   "previous_close": 480.29,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CME": {
-   "price": 304.185,
-   "change": -3.375,
-   "change_pct": -1.1,
-   "volume": 1584815.0,
-   "previous_close": 307.56,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DXCM": {
-   "price": 82.515,
-   "change": 3.195,
-   "change_pct": 4.03,
-   "volume": 1492233.0,
-   "previous_close": 79.32,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "KO": {
-   "price": 95.79,
-   "change": -1.2,
-   "change_pct": -1.24,
-   "volume": 17694171.0,
-   "previous_close": 96.99,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "KEY": {
-   "price": 19.81,
-   "change": 0.36,
-   "change_pct": 1.85,
-   "volume": 13464637.0,
-   "previous_close": 19.45,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "D": {
-   "price": 66.69,
-   "change": 0.41,
-   "change_pct": 0.62,
-   "volume": 2882319.0,
-   "previous_close": 66.28,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MNST": {
-   "price": 42.56,
-   "change": -1.13,
-   "change_pct": -2.59,
-   "volume": 11974337.0,
-   "previous_close": 43.69,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IRM": {
-   "price": 107.505,
-   "change": 5.285,
-   "change_pct": 5.17,
-   "volume": 1084153.0,
-   "previous_close": 102.22,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "JBL": {
-   "price": 244.17,
-   "change": 18.4,
-   "change_pct": 8.15,
-   "volume": 561901.0,
-   "previous_close": 225.77,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "OTIS": {
-   "price": 77.05,
-   "change": 1.0,
-   "change_pct": 1.31,
-   "volume": 2246945.0,
-   "previous_close": 76.05,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PANW": {
-   "price": 356.2,
-   "change": 12.88,
-   "change_pct": 3.75,
-   "volume": 6963200.0,
-   "previous_close": 343.32,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "COR": {
-   "price": 338.5,
-   "change": -0.59,
-   "change_pct": -0.17,
-   "volume": 504971.0,
-   "previous_close": 339.09,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "QCOM": {
-   "price": 165.22,
-   "change": 15.28,
-   "change_pct": 10.19,
-   "volume": 9242744.0,
-   "previous_close": 149.94,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CBRE": {
-   "price": 129.35,
-   "change": 2.63,
-   "change_pct": 2.08,
-   "volume": 1297693.0,
-   "previous_close": 126.72,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PKG": {
-   "price": 238.3,
-   "change": 4.12,
-   "change_pct": 1.76,
-   "volume": 235889.0,
-   "previous_close": 234.18,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BRO": {
-   "price": 72.8,
-   "change": -0.27,
-   "change_pct": -0.37,
-   "volume": 962827.0,
-   "previous_close": 73.07,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MSI": {
-   "price": 528.44,
-   "change": 8.23,
-   "change_pct": 1.58,
-   "volume": 555537.0,
-   "previous_close": 520.21,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BEN": {
-   "price": 33.59,
-   "change": 1.55,
-   "change_pct": 4.84,
-   "volume": 1834423.0,
-   "previous_close": 32.04,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TMO": {
-   "price": 689.78,
-   "change": 20.24,
-   "change_pct": 3.02,
-   "volume": 976003.0,
-   "previous_close": 669.54,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HII": {
-   "price": 287.245,
-   "change": 6.905,
-   "change_pct": 2.46,
-   "volume": 163812.0,
-   "previous_close": 280.34,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "COHR": {
-   "price": 216.85,
-   "change": 29.63,
-   "change_pct": 15.83,
-   "volume": 10131086.0,
-   "previous_close": 187.22,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HAS": {
-   "price": 114.19,
-   "change": 1.78,
-   "change_pct": 1.58,
-   "volume": 2016241.0,
-   "previous_close": 112.41,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AES": {
-   "price": 15.02,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "volume": 32989460.0,
-   "previous_close": 15.02,
-   "market_status": "Market Open",
-   "session": "2026-11-20"
-  },
-  "EG": {
-   "price": 422.98,
-   "change": 1.0,
-   "change_pct": 0.24,
-   "volume": 206538.0,
-   "previous_close": 421.98,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TFC": {
-   "price": 46.865,
-   "change": 1.055,
-   "change_pct": 2.3,
-   "volume": 4124003.0,
-   "previous_close": 45.81,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ELV": {
-   "price": 382.61,
-   "change": -11.87,
-   "change_pct": -3.01,
-   "volume": 1720665.0,
-   "previous_close": 394.48,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DASH": {
-   "price": 162.37,
-   "change": 9.77,
-   "change_pct": 6.4,
-   "volume": 5572798.0,
-   "previous_close": 152.6,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "APTV": {
-   "price": 37.59,
-   "change": 2.26,
-   "change_pct": 6.4,
-   "volume": 2540817.0,
-   "previous_close": 35.33,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DTE": {
-   "price": 136.89,
-   "change": 0.97,
-   "change_pct": 0.71,
-   "volume": 494110.0,
-   "previous_close": 135.92,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FRT": {
-   "price": 110.53,
-   "change": 0.26,
-   "change_pct": 0.24,
-   "volume": 517488.0,
-   "previous_close": 110.27,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "O": {
-   "price": 58.47,
-   "change": 0.44,
-   "change_pct": 0.76,
-   "volume": 3915544.0,
-   "previous_close": 58.03,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HPQ": {
-   "price": 28.995,
-   "change": 1.035,
-   "change_pct": 3.7,
-   "volume": 8357133.0,
-   "previous_close": 27.96,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CIEN": {
-   "price": 265.54,
-   "change": 31.17,
-   "change_pct": 13.3,
-   "volume": 3147074.0,
-   "previous_close": 234.37,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WDAY": {
-   "price": 176.115,
-   "change": 1.595,
-   "change_pct": 0.91,
-   "volume": 1538069.0,
-   "previous_close": 174.52,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MMM": {
-   "price": 184.71,
-   "change": 6.72,
+  "STT": {
+   "price": 161.25,
+   "change": 5.87,
    "change_pct": 3.78,
-   "volume": 1842378.0,
-   "previous_close": 177.99,
-   "market_status": "Market Open",
+   "volume": 978125.0,
+   "previous_close": 155.38,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CFG": {
+   "price": 60.82,
+   "change": 2.11,
+   "change_pct": 3.59,
+   "volume": 2984238.0,
+   "previous_close": 58.71,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ULTA": {
+   "price": 625.02,
+   "change": 9.28,
+   "change_pct": 1.51,
+   "volume": 218554.0,
+   "previous_close": 615.74,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WEC": {
+   "price": 115.15,
+   "change": -1.92,
+   "change_pct": -1.64,
+   "volume": 1344897.0,
+   "previous_close": 117.07,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ON": {
+   "price": 66.77,
+   "change": 5.93,
+   "change_pct": 9.75,
+   "volume": 9140343.0,
+   "previous_close": 60.84,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HAL": {
+   "price": 30.57,
+   "change": 0.04,
+   "change_pct": 0.13,
+   "volume": 5554515.0,
+   "previous_close": 30.53,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TROW": {
+   "price": 103.84,
+   "change": 2.85,
+   "change_pct": 2.82,
+   "volume": 1561802.0,
+   "previous_close": 100.99,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SOLV": {
+   "price": 85.4,
+   "change": 0.9,
+   "change_pct": 1.07,
+   "volume": 427509.0,
+   "previous_close": 84.5,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MA": {
+   "price": 635.5,
+   "change": 9.91,
+   "change_pct": 1.58,
+   "volume": 1968686.0,
+   "previous_close": 625.59,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ADBE": {
+   "price": 224.2,
+   "change": 6.49,
+   "change_pct": 2.98,
+   "volume": 2288430.0,
+   "previous_close": 217.71,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "UAL": {
+   "price": 109.37,
+   "change": 8.34,
+   "change_pct": 8.25,
+   "volume": 2978363.0,
+   "previous_close": 101.03,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BX": {
+   "price": 115.86,
+   "change": 5.06,
+   "change_pct": 4.57,
+   "volume": 3227699.0,
+   "previous_close": 110.8,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "APP": {
+   "price": 373.92,
+   "change": 25.63,
+   "change_pct": 7.36,
+   "volume": 3521782.0,
+   "previous_close": 348.29,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DHR": {
+   "price": 225.66,
+   "change": 5.3,
+   "change_pct": 2.41,
+   "volume": 2331043.0,
+   "previous_close": 220.36,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NKE": {
+   "price": 33.85,
+   "change": 0.93,
+   "change_pct": 2.83,
+   "volume": 21588663.0,
+   "previous_close": 32.92,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DGX": {
+   "price": 263.12,
+   "change": 4.84,
+   "change_pct": 1.87,
+   "volume": 534125.0,
+   "previous_close": 258.28,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "XYL": {
+   "price": 96.75,
+   "change": 2.09,
+   "change_pct": 2.21,
+   "volume": 1777762.0,
+   "previous_close": 94.66,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "RF": {
+   "price": 27.25,
+   "change": 0.65,
+   "change_pct": 2.44,
+   "volume": 8322616.0,
+   "previous_close": 26.6,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CINF": {
+   "price": 187.73,
+   "change": 1.19,
+   "change_pct": 0.64,
+   "volume": 216721.0,
+   "previous_close": 186.54,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "SNA": {
@@ -2707,340 +772,907 @@
    "change_pct": -0.61,
    "volume": 641655.0,
    "previous_close": 354.47,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "CRWD": {
-   "price": 208.36,
-   "change": -21.08,
-   "change_pct": -9.19,
-   "volume": 35828498.0,
-   "previous_close": 229.44,
-   "market_status": "Market Open",
+  "CB": {
+   "price": 368.67,
+   "change": -2.96,
+   "change_pct": -0.8,
+   "volume": 1461989.0,
+   "previous_close": 371.63,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "CBOE": {
-   "price": 352.9025,
-   "change": -4.8075,
-   "change_pct": -1.34,
-   "volume": 1155866.0,
-   "previous_close": 357.71,
-   "market_status": "Market Open",
+  "LEN": {
+   "price": 81.8,
+   "change": 1.06,
+   "change_pct": 1.31,
+   "volume": 1710346.0,
+   "previous_close": 80.74,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "EW": {
-   "price": 104.975,
-   "change": 3.125,
-   "change_pct": 3.07,
-   "volume": 1648230.0,
-   "previous_close": 101.85,
-   "market_status": "Market Open",
+  "CEG": {
+   "price": 251.72,
+   "change": 14.31,
+   "change_pct": 6.03,
+   "volume": 3139888.0,
+   "previous_close": 237.41,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "VRT": {
-   "price": 188.13,
-   "change": 21.89,
-   "change_pct": 13.17,
-   "volume": 7952882.0,
-   "previous_close": 166.24,
-   "market_status": "Market Open",
+  "EFX": {
+   "price": 179.51,
+   "change": 2.32,
+   "change_pct": 1.31,
+   "volume": 399474.0,
+   "previous_close": 177.19,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "COO": {
-   "price": 60.04,
-   "change": 1.16,
-   "change_pct": 1.97,
-   "volume": 1348764.0,
-   "previous_close": 58.88,
-   "market_status": "Market Open",
+  "AKAM": {
+   "price": 89.22,
+   "change": 4.11,
+   "change_pct": 4.83,
+   "volume": 3673636.0,
+   "previous_close": 85.11,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ON": {
-   "price": 66.79,
-   "change": 5.95,
-   "change_pct": 9.78,
-   "volume": 8486160.0,
-   "previous_close": 60.84,
-   "market_status": "Market Open",
+  "BEN": {
+   "price": 33.53,
+   "change": 1.49,
+   "change_pct": 4.65,
+   "volume": 1719984.0,
+   "previous_close": 32.04,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "WM": {
-   "price": 240.15,
-   "change": 0.52,
-   "change_pct": 0.22,
-   "volume": 1235244.0,
-   "previous_close": 239.63,
-   "market_status": "Market Open",
+  "HSIC": {
+   "price": 85.17,
+   "change": 1.65,
+   "change_pct": 1.98,
+   "volume": 1067765.0,
+   "previous_close": 83.52,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "TKO": {
-   "price": 185.665,
-   "change": 7.675,
-   "change_pct": 4.31,
-   "volume": 596911.0,
-   "previous_close": 177.99,
-   "market_status": "Market Open",
+  "DOC": {
+   "price": 20.0,
+   "change": 0.76,
+   "change_pct": 3.95,
+   "volume": 3610241.0,
+   "previous_close": 19.24,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "NDSN": {
-   "price": 322.52,
-   "change": 15.3,
-   "change_pct": 4.98,
-   "volume": 121077.0,
-   "previous_close": 307.22,
-   "market_status": "Market Open",
+  "CTSH": {
+   "price": 58.57,
+   "change": 0.51,
+   "change_pct": 0.88,
+   "volume": 2567074.0,
+   "previous_close": 58.06,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "IQV": {
-   "price": 253.715,
-   "change": 7.895,
-   "change_pct": 3.21,
-   "volume": 874368.0,
-   "previous_close": 245.82,
-   "market_status": "Market Open",
+  "NDAQ": {
+   "price": 105.39,
+   "change": 2.47,
+   "change_pct": 2.4,
+   "volume": 1761490.0,
+   "previous_close": 102.92,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "DRI": {
-   "price": 233.18,
-   "change": 7.44,
-   "change_pct": 3.3,
-   "volume": 707977.0,
-   "previous_close": 225.74,
-   "market_status": "Market Open",
+  "J": {
+   "price": 157.53,
+   "change": 6.91,
+   "change_pct": 4.59,
+   "volume": 934380.0,
+   "previous_close": 150.62,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ILMN": {
-   "price": 205.26,
-   "change": 12.44,
-   "change_pct": 6.45,
-   "volume": 796407.0,
-   "previous_close": 192.82,
-   "market_status": "Market Open",
+  "MRK": {
+   "price": 135.47,
+   "change": 1.75,
+   "change_pct": 1.31,
+   "volume": 4868612.0,
+   "previous_close": 133.72,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "INTC": {
-   "price": 59.4115,
-   "change": 8.1315,
-   "change_pct": 15.86,
-   "volume": 115244709.0,
-   "previous_close": 51.28,
-   "market_status": "Market Open",
+  "PFG": {
+   "price": 107.66,
+   "change": 3.08,
+   "change_pct": 2.95,
+   "volume": 627590.0,
+   "previous_close": 104.58,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "RMD": {
-   "price": 240.11,
-   "change": 4.48,
-   "change_pct": 1.9,
-   "volume": 580828.0,
-   "previous_close": 235.63,
-   "market_status": "Market Open",
+  "CDW": {
+   "price": 170.06,
+   "change": 8.28,
+   "change_pct": 5.12,
+   "volume": 796718.0,
+   "previous_close": 161.78,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "CVS": {
-   "price": 79.74,
-   "change": -1.1,
-   "change_pct": -1.36,
-   "volume": 7715371.0,
-   "previous_close": 80.84,
-   "market_status": "Market Open",
+  "XEL": {
+   "price": 80.58,
+   "change": 1.28,
+   "change_pct": 1.61,
+   "volume": 4224723.0,
+   "previous_close": 79.3,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "CF": {
-   "price": 115.81,
-   "change": 0.28,
-   "change_pct": 0.24,
-   "volume": 1069664.0,
-   "previous_close": 115.53,
-   "market_status": "Market Open",
+  "LNT": {
+   "price": 72.49,
+   "change": 0.87,
+   "change_pct": 1.21,
+   "volume": 1255107.0,
+   "previous_close": 71.62,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ESS": {
-   "price": 271.51,
-   "change": 1.86,
-   "change_pct": 0.69,
-   "volume": 174850.0,
-   "previous_close": 269.65,
-   "market_status": "Market Open",
+  "GNRC": {
+   "price": 204.75,
+   "change": 11.53,
+   "change_pct": 5.97,
+   "volume": 854950.0,
+   "previous_close": 193.22,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "COST": {
-   "price": 1097.51,
-   "change": -4.64,
-   "change_pct": -0.42,
-   "volume": 1802404.0,
-   "previous_close": 1102.15,
-   "market_status": "Market Open",
+  "LII": {
+   "price": 341.31,
+   "change": 6.82,
+   "change_pct": 2.04,
+   "volume": 322225.0,
+   "previous_close": 334.49,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "XYL": {
-   "price": 96.66,
-   "change": 2.0,
-   "change_pct": 2.11,
-   "volume": 1646656.0,
-   "previous_close": 94.66,
-   "market_status": "Market Open",
+  "Q": {
+   "price": 114.68,
+   "change": 11.21,
+   "change_pct": 10.83,
+   "volume": 1091095.0,
+   "previous_close": 103.47,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "CINF": {
-   "price": 187.89,
-   "change": 1.35,
-   "change_pct": 0.72,
-   "volume": 257672.0,
-   "previous_close": 186.54,
-   "market_status": "Market Open",
+  "ROK": {
+   "price": 382.47,
+   "change": 20.54,
+   "change_pct": 5.68,
+   "volume": 675426.0,
+   "previous_close": 361.93,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "TTWO": {
-   "price": 211.265,
-   "change": 1.265,
-   "change_pct": 0.6,
-   "volume": 4628239.0,
-   "previous_close": 210.0,
-   "market_status": "Market Open",
+  "FE": {
+   "price": 47.54,
+   "change": 0.51,
+   "change_pct": 1.08,
+   "volume": 2334546.0,
+   "previous_close": 47.03,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "VRSN": {
-   "price": 314.92,
-   "change": 8.05,
-   "change_pct": 2.62,
-   "volume": 501908.0,
-   "previous_close": 306.87,
-   "market_status": "Market Open",
+  "NOW": {
+   "price": 91.46,
+   "change": 3.85,
+   "change_pct": 4.39,
+   "volume": 11785031.0,
+   "previous_close": 87.61,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "PLTR": {
-   "price": 159.435,
-   "change": 15.945,
-   "change_pct": 11.11,
-   "volume": 21375242.0,
-   "previous_close": 143.49,
-   "market_status": "Market Open",
+  "PNR": {
+   "price": 69.94,
+   "change": 1.31,
+   "change_pct": 1.91,
+   "volume": 1818851.0,
+   "previous_close": 68.63,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "SKYD": {
-   "price": 6.385,
-   "change": 0.185,
-   "change_pct": 2.98,
-   "volume": 8384573.0,
-   "previous_close": 6.2,
-   "market_status": "Market Open",
+  "CDNS": {
+   "price": 304.13,
+   "change": 22.55,
+   "change_pct": 8.01,
+   "volume": 1774540.0,
+   "previous_close": 281.58,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ECHO": {
-   "price": 87.88,
-   "change": 3.62,
-   "change_pct": 4.3,
-   "volume": 2806745.0,
-   "previous_close": 84.26,
-   "market_status": "Market Open",
+  "HON": {
+   "price": 221.97,
+   "change": 9.33,
+   "change_pct": 4.39,
+   "volume": 1425555.0,
+   "previous_close": 212.64,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "BNY": {
-   "price": 145.92,
-   "change": 4.68,
-   "change_pct": 3.31,
-   "volume": 1410380.0,
-   "previous_close": 141.24,
-   "market_status": "Market Open",
+  "BDX": {
+   "price": 215.44,
+   "change": 2.66,
+   "change_pct": 1.25,
+   "volume": 1143096.0,
+   "previous_close": 212.78,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "VTR": {
-   "price": 87.15,
-   "change": 0.6,
-   "change_pct": 0.69,
-   "volume": 1879713.0,
-   "previous_close": 86.55,
-   "market_status": "Market Open",
+  "AMZN": {
+   "price": 255.39,
+   "change": 8.57,
+   "change_pct": 3.47,
+   "volume": 40187153.0,
+   "previous_close": 246.82,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "MLM": {
-   "price": 519.32,
-   "change": 18.58,
-   "change_pct": 3.71,
-   "volume": 532407.0,
-   "previous_close": 500.74,
-   "market_status": "Market Open",
+  "TYL": {
+   "price": 406.71,
+   "change": 2.27,
+   "change_pct": 0.56,
+   "volume": 380313.0,
+   "previous_close": 404.44,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "AXON": {
-   "price": 306.935,
-   "change": 15.795,
-   "change_pct": 5.43,
-   "volume": 713756.0,
-   "previous_close": 291.14,
-   "market_status": "Market Open",
+  "OTIS": {
+   "price": 77.19,
+   "change": 1.14,
+   "change_pct": 1.5,
+   "volume": 2382126.0,
+   "previous_close": 76.05,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ALGN": {
-   "price": 162.69,
-   "change": 7.52,
-   "change_pct": 4.85,
-   "volume": 485859.0,
-   "previous_close": 155.17,
-   "market_status": "Market Open",
+  "FSLR": {
+   "price": 146.53,
+   "change": 8.94,
+   "change_pct": 6.5,
+   "volume": 2223414.0,
+   "previous_close": 137.59,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "CRM": {
-   "price": 185.3,
-   "change": 4.68,
-   "change_pct": 2.59,
-   "volume": 3736486.0,
-   "previous_close": 180.62,
-   "market_status": "Market Open",
+  "ALLE": {
+   "price": 189.26,
+   "change": 5.65,
+   "change_pct": 3.08,
+   "volume": 415832.0,
+   "previous_close": 183.61,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "MTB": {
-   "price": 211.92,
-   "change": 3.62,
+  "FTNT": {
+   "price": 131.1,
+   "change": 6.54,
+   "change_pct": 5.25,
+   "volume": 2964603.0,
+   "previous_close": 124.56,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AXP": {
+   "price": 306.9,
+   "change": 5.2,
+   "change_pct": 1.72,
+   "volume": 1761738.0,
+   "previous_close": 301.7,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "JBL": {
+   "price": 242.24,
+   "change": 16.47,
+   "change_pct": 7.3,
+   "volume": 603905.0,
+   "previous_close": 225.77,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BLK": {
+   "price": 1144.52,
+   "change": 42.8,
+   "change_pct": 3.88,
+   "volume": 392754.0,
+   "previous_close": 1101.72,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EME": {
+   "price": 649.49,
+   "change": 46.17,
+   "change_pct": 7.65,
+   "volume": 241088.0,
+   "previous_close": 603.32,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EXR": {
+   "price": 157.17,
+   "change": 2.26,
+   "change_pct": 1.46,
+   "volume": 704242.0,
+   "previous_close": 154.91,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PFE": {
+   "price": 27.4505,
+   "change": 0.0505,
+   "change_pct": 0.18,
+   "volume": 19789207.0,
+   "previous_close": 27.4,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DG": {
+   "price": 134.1,
+   "change": 3.57,
+   "change_pct": 2.74,
+   "volume": 1335475.0,
+   "previous_close": 130.53,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GS": {
+   "price": 825.0,
+   "change": 34.31,
+   "change_pct": 4.34,
+   "volume": 2499388.0,
+   "previous_close": 790.69,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TWLO": {
+   "price": 184.43,
+   "change": 12.33,
+   "change_pct": 7.16,
+   "volume": 1258947.0,
+   "previous_close": 172.1,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "META": {
+   "price": 598.13,
+   "change": 37.29,
+   "change_pct": 6.65,
+   "volume": 13365675.0,
+   "previous_close": 560.84,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WYNN": {
+   "price": 83.34,
+   "change": 2.94,
+   "change_pct": 3.66,
+   "volume": 1079695.0,
+   "previous_close": 80.4,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LMT": {
+   "price": 571.67,
+   "change": 6.17,
+   "change_pct": 1.09,
+   "volume": 477704.0,
+   "previous_close": 565.5,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HIG": {
+   "price": 137.01,
+   "change": 0.17,
+   "change_pct": 0.12,
+   "volume": 792027.0,
+   "previous_close": 136.84,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CMG": {
+   "price": 36.17,
+   "change": 0.62,
    "change_pct": 1.74,
-   "volume": 428875.0,
-   "previous_close": 208.3,
-   "market_status": "Market Open",
+   "volume": 11107280.0,
+   "previous_close": 35.55,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "AAPL": {
-   "price": 351.27,
-   "change": 8.71,
-   "change_pct": 2.54,
-   "volume": 33291750.0,
-   "previous_close": 342.56,
-   "market_status": "Market Open",
+  "IDXX": {
+   "price": 687.664,
+   "change": 11.454,
+   "change_pct": 1.69,
+   "volume": 212715.0,
+   "previous_close": 676.21,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "MS": {
-   "price": 173.29,
-   "change": 7.62,
-   "change_pct": 4.6,
-   "volume": 5376604.0,
-   "previous_close": 165.67,
-   "market_status": "Market Open",
+  "TPR": {
+   "price": 126.63,
+   "change": 6.61,
+   "change_pct": 5.51,
+   "volume": 1747701.0,
+   "previous_close": 120.02,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "JKHY": {
+   "price": 171.62,
+   "change": 0.3,
+   "change_pct": 0.18,
+   "volume": 355529.0,
+   "previous_close": 171.32,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VLO": {
+   "price": 329.4,
+   "change": -4.78,
+   "change_pct": -1.43,
+   "volume": 1957323.0,
+   "previous_close": 334.18,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GIS": {
+   "price": 35.23,
+   "change": -0.51,
+   "change_pct": -1.43,
+   "volume": 6068631.0,
+   "previous_close": 35.74,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SBAC": {
+   "price": 171.0,
+   "change": -2.33,
+   "change_pct": -1.34,
+   "volume": 480107.0,
+   "previous_close": 173.33,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EMR": {
+   "price": 158.31,
+   "change": 7.38,
+   "change_pct": 4.89,
+   "volume": 1452769.0,
+   "previous_close": 150.93,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ETN": {
+   "price": 336.34,
+   "change": 25.01,
+   "change_pct": 8.03,
+   "volume": 2204565.0,
+   "previous_close": 311.33,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AJG": {
+   "price": 275.07,
+   "change": -4.19,
+   "change_pct": -1.5,
+   "volume": 952726.0,
+   "previous_close": 279.26,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CSGP": {
+   "price": 30.2,
+   "change": 0.59,
+   "change_pct": 1.99,
+   "volume": 2425647.0,
+   "previous_close": 29.61,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NUE": {
+   "price": 248.836,
+   "change": 9.216,
+   "change_pct": 3.85,
+   "volume": 643460.0,
+   "previous_close": 239.62,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EVRG": {
+   "price": 86.13,
+   "change": 0.3825,
+   "change_pct": 0.45,
+   "volume": 2496851.0,
+   "previous_close": 85.7475,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SCHW": {
+   "price": 92.37,
+   "change": 2.21,
+   "change_pct": 2.45,
+   "volume": 6637295.0,
+   "previous_close": 90.16,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "RDDT": {
+   "price": 88.82,
+   "change": 3.49,
+   "change_pct": 4.09,
+   "volume": 2943562.0,
+   "previous_close": 85.33,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "UBER": {
+   "price": 64.289,
+   "change": 0.819,
+   "change_pct": 1.29,
+   "volume": 13051791.0,
+   "previous_close": 63.47,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CHRW": {
+   "price": 137.17,
+   "change": 3.17,
+   "change_pct": 2.37,
+   "volume": 569330.0,
+   "previous_close": 134.0,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DOV": {
+   "price": 202.5,
+   "change": 8.21,
+   "change_pct": 4.23,
+   "volume": 564418.0,
+   "previous_close": 194.29,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PEP": {
+   "price": 140.21,
+   "change": -0.33,
+   "change_pct": -0.23,
+   "volume": 5132839.0,
+   "previous_close": 140.54,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TECH": {
+   "price": 72.84,
+   "change": 0.17,
+   "change_pct": 0.23,
+   "volume": 3506868.0,
+   "previous_close": 72.67,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CHTR": {
+   "price": 127.92,
+   "change": -0.81,
+   "change_pct": -0.63,
+   "volume": 1896437.0,
+   "previous_close": 128.73,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ADM": {
+   "price": 67.47,
+   "change": 0.52,
+   "change_pct": 0.78,
+   "volume": 1300219.0,
+   "previous_close": 66.95,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PLD": {
+   "price": 125.14,
+   "change": 2.64,
+   "change_pct": 2.16,
+   "volume": 2555221.0,
+   "previous_close": 122.5,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LOW": {
+   "price": 226.14,
+   "change": 5.3,
+   "change_pct": 2.4,
+   "volume": 1768701.0,
+   "previous_close": 220.84,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CNP": {
+   "price": 39.74,
+   "change": 0.63,
+   "change_pct": 1.61,
+   "volume": 3131012.0,
+   "previous_close": 39.11,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VRTX": {
+   "price": 536.9133,
+   "change": 21.8933,
+   "change_pct": 4.25,
+   "volume": 887408.0,
+   "previous_close": 515.02,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TDY": {
+   "price": 630.63,
+   "change": 32.07,
+   "change_pct": 5.36,
+   "volume": 198278.0,
+   "previous_close": 598.56,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EOG": {
+   "price": 145.34,
+   "change": -3.26,
+   "change_pct": -2.19,
+   "volume": 3272520.0,
+   "previous_close": 148.6,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "SWKS": {
-   "price": 77.215,
-   "change": 3.305,
-   "change_pct": 4.47,
-   "volume": 1345093.0,
+   "price": 77.12,
+   "change": 3.21,
+   "change_pct": 4.34,
+   "volume": 1436446.0,
    "previous_close": 73.91,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ISRG": {
-   "price": 417.445,
-   "change": 18.395,
-   "change_pct": 4.61,
-   "volume": 1217530.0,
-   "previous_close": 399.05,
-   "market_status": "Market Open",
+  "BALL": {
+   "price": 63.49,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "volume": 2715455.0,
+   "previous_close": 63.49,
+   "market_status": "After Hours",
+   "session": "2026-11-20"
+  },
+  "JBHT": {
+   "price": 224.03,
+   "change": 5.49,
+   "change_pct": 2.51,
+   "volume": 436469.0,
+   "previous_close": 218.54,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "DECK": {
-   "price": 81.67,
-   "change": 3.73,
+  "STZ": {
+   "price": 137.82,
+   "change": -4.05,
+   "change_pct": -2.85,
+   "volume": 1656909.0,
+   "previous_close": 141.87,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LUV": {
+   "price": 45.56,
+   "change": 1.48,
+   "change_pct": 3.36,
+   "volume": 2962177.0,
+   "previous_close": 44.08,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ALL": {
+   "price": 265.4994,
+   "change": -1.5006,
+   "change_pct": -0.56,
+   "volume": 885871.0,
+   "previous_close": 267.0,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MRVL": {
+   "price": 145.35,
+   "change": 23.07,
+   "change_pct": 18.87,
+   "volume": 26522505.0,
+   "previous_close": 122.28,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GD": {
+   "price": 347.84,
+   "change": 6.34,
+   "change_pct": 1.86,
+   "volume": 496718.0,
+   "previous_close": 341.5,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DXCM": {
+   "price": 82.42,
+   "change": 3.1,
+   "change_pct": 3.91,
+   "volume": 1341835.0,
+   "previous_close": 79.32,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TER": {
+   "price": 233.51,
+   "change": 28.865,
+   "change_pct": 14.1,
+   "volume": 3073450.0,
+   "previous_close": 204.645,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PEG": {
+   "price": 74.51,
+   "change": 0.61,
+   "change_pct": 0.83,
+   "volume": 1841589.0,
+   "previous_close": 73.9,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AMCR": {
+   "price": 43.46,
+   "change": 1.11,
+   "change_pct": 2.62,
+   "volume": 2471941.0,
+   "previous_close": 42.35,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PGR": {
+   "price": 230.36,
+   "change": -1.03,
+   "change_pct": -0.45,
+   "volume": 1180862.0,
+   "previous_close": 231.39,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MS": {
+   "price": 173.07,
+   "change": 7.4,
+   "change_pct": 4.47,
+   "volume": 5233307.0,
+   "previous_close": 165.67,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NEE": {
+   "price": 83.89,
+   "change": 0.44,
+   "change_pct": 0.53,
+   "volume": 8247454.0,
+   "previous_close": 83.45,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BMY": {
+   "price": 59.84,
+   "change": 1.04,
+   "change_pct": 1.77,
+   "volume": 6225519.0,
+   "previous_close": 58.8,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ALGN": {
+   "price": 162.35,
+   "change": 7.18,
+   "change_pct": 4.63,
+   "volume": 553583.0,
+   "previous_close": 155.17,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DOW": {
+   "price": 28.6,
+   "change": -0.43,
+   "change_pct": -1.48,
+   "volume": 5182265.0,
+   "previous_close": 29.03,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "P": {
+   "price": 101.01,
+   "change": 8.96,
+   "change_pct": 9.73,
+   "volume": 3032353.0,
+   "previous_close": 92.05,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CRH": {
+   "price": 92.27,
+   "change": 4.22,
    "change_pct": 4.79,
-   "volume": 2338882.0,
-   "previous_close": 77.94,
-   "market_status": "Market Open",
+   "volume": 2503922.0,
+   "previous_close": 88.05,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AME": {
+   "price": 231.17,
+   "change": 8.27,
+   "change_pct": 3.71,
+   "volume": 1331772.0,
+   "previous_close": 222.9,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GOOGL": {
+   "price": 282.3512,
+   "change": 17.0612,
+   "change_pct": 6.43,
+   "volume": 30270041.0,
+   "previous_close": 265.29,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FIS": {
+   "price": 26.73,
+   "change": 0.9,
+   "change_pct": 3.48,
+   "volume": 5834797.0,
+   "previous_close": 25.83,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HLT": {
+   "price": 364.94,
+   "change": 8.69,
+   "change_pct": 2.44,
+   "volume": 947799.0,
+   "previous_close": 356.25,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SNDK": {
+   "price": 88.5,
+   "change": 9.26,
+   "change_pct": 11.69,
+   "volume": 100359798.0,
+   "previous_close": 79.24,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LLY": {
+   "price": 1367.757,
+   "change": 20.647,
+   "change_pct": 1.53,
+   "volume": 1735355.0,
+   "previous_close": 1347.11,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MRNA": {
+   "price": 212.9,
+   "change": 17.9,
+   "change_pct": 9.18,
+   "volume": 5823712.0,
+   "previous_close": 195.0,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "BAX": {
@@ -3049,619 +1681,2653 @@
    "change_pct": 0.0,
    "volume": 4321684.0,
    "previous_close": 25.39,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-20"
   },
-  "PCG": {
-   "price": 14.02,
-   "change": 0.24,
-   "change_pct": 1.74,
-   "volume": 12740698.0,
-   "previous_close": 13.78,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LRCX": {
-   "price": 210.785,
-   "change": 27.515,
-   "change_pct": 15.01,
-   "volume": 9921377.0,
-   "previous_close": 183.27,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PRU": {
-   "price": 119.96,
-   "change": 2.23,
-   "change_pct": 1.89,
-   "volume": 1071716.0,
-   "previous_close": 117.73,
-   "market_status": "Market Open",
+  "AVGO": {
+   "price": 315.5206,
+   "change": 11.1106,
+   "change_pct": 3.65,
+   "volume": 28181908.0,
+   "previous_close": 304.41,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "DE": {
-   "price": 633.48,
-   "change": 24.23,
-   "change_pct": 3.98,
-   "volume": 975061.0,
+   "price": 633.03,
+   "change": 23.78,
+   "change_pct": 3.9,
+   "volume": 919433.0,
    "previous_close": 609.25,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "HD": {
-   "price": 346.515,
-   "change": 7.475,
-   "change_pct": 2.2,
-   "volume": 2495483.0,
-   "previous_close": 339.04,
-   "market_status": "Market Open",
+  "UDR": {
+   "price": 35.68,
+   "change": 0.23,
+   "change_pct": 0.65,
+   "volume": 1014168.0,
+   "previous_close": 35.45,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "SRE": {
-   "price": 77.51,
-   "change": 1.35,
-   "change_pct": 1.77,
-   "volume": 2074163.0,
-   "previous_close": 76.16,
-   "market_status": "Market Open",
+  "WTW": {
+   "price": 335.77,
+   "change": 4.76,
+   "change_pct": 1.44,
+   "volume": 290216.0,
+   "previous_close": 331.01,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "WAT": {
-   "price": 454.355,
-   "change": 13.905,
-   "change_pct": 3.16,
-   "volume": 683793.0,
-   "previous_close": 440.45,
-   "market_status": "Market Open",
+  "GM": {
+   "price": 81.74,
+   "change": 3.03,
+   "change_pct": 3.85,
+   "volume": 2814160.0,
+   "previous_close": 78.71,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "GRMN": {
-   "price": 280.05,
-   "change": 12.01,
-   "change_pct": 4.48,
-   "volume": 293400.0,
-   "previous_close": 268.04,
-   "market_status": "Market Open",
+  "CRM": {
+   "price": 184.147,
+   "change": 3.527,
+   "change_pct": 1.95,
+   "volume": 3536298.0,
+   "previous_close": 180.62,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "KEYS": {
-   "price": 290.355,
-   "change": 28.845,
-   "change_pct": 11.03,
-   "volume": 1992503.0,
-   "previous_close": 261.51,
-   "market_status": "Market Open",
+  "PCG": {
+   "price": 14.0198,
+   "change": 0.2398,
+   "change_pct": 1.74,
+   "volume": 13736156.0,
+   "previous_close": 13.78,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ALLE": {
-   "price": 189.575,
-   "change": 5.965,
-   "change_pct": 3.25,
-   "volume": 395806.0,
-   "previous_close": 183.61,
-   "market_status": "Market Open",
+  "ROST": {
+   "price": 219.0,
+   "change": 5.54,
+   "change_pct": 2.6,
+   "volume": 2118877.0,
+   "previous_close": 213.46,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "DG": {
-   "price": 133.29,
-   "change": 2.76,
-   "change_pct": 2.11,
-   "volume": 1408466.0,
-   "previous_close": 130.53,
-   "market_status": "Market Open",
+  "SNPS": {
+   "price": 426.99,
+   "change": 30.82,
+   "change_pct": 7.78,
+   "volume": 932460.0,
+   "previous_close": 396.17,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "LEN": {
-   "price": 81.5,
-   "change": 0.76,
-   "change_pct": 0.94,
-   "volume": 1796965.0,
-   "previous_close": 80.74,
-   "market_status": "Market Open",
+  "CIEN": {
+   "price": 264.6,
+   "change": 30.23,
+   "change_pct": 12.9,
+   "volume": 3039323.0,
+   "previous_close": 234.37,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "LIN": {
-   "price": 515.51,
-   "change": 12.68,
-   "change_pct": 2.52,
-   "volume": 1342160.0,
-   "previous_close": 502.83,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LITE": {
-   "price": 547.51,
-   "change": 86.97,
-   "change_pct": 18.88,
-   "volume": 5234009.0,
-   "previous_close": 460.54,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AMZN": {
-   "price": 256.95,
-   "change": 10.13,
-   "change_pct": 4.1,
-   "volume": 39201011.0,
-   "previous_close": 246.82,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LYB": {
-   "price": 54.315,
-   "change": -1.525,
-   "change_pct": -2.73,
-   "volume": 3430053.0,
-   "previous_close": 55.84,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CRH": {
-   "price": 92.215,
-   "change": 4.165,
-   "change_pct": 4.73,
-   "volume": 2673141.0,
-   "previous_close": 88.05,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DVA": {
-   "price": 159.29,
-   "change": -1.74,
-   "change_pct": -1.08,
-   "volume": 544557.0,
-   "previous_close": 161.03,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BAC": {
-   "price": 48.235,
-   "change": 1.195,
-   "change_pct": 2.54,
-   "volume": 20323391.0,
-   "previous_close": 47.04,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CEG": {
-   "price": 251.6034,
-   "change": 14.1934,
-   "change_pct": 5.98,
-   "volume": 3289644.0,
-   "previous_close": 237.41,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ECL": {
-   "price": 304.945,
-   "change": 10.245,
-   "change_pct": 3.48,
-   "volume": 834006.0,
-   "previous_close": 294.7,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MAS": {
-   "price": 84.86,
-   "change": 2.26,
-   "change_pct": 2.74,
-   "volume": 824727.0,
-   "previous_close": 82.6,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CHD": {
-   "price": 111.2,
-   "change": 0.36,
-   "change_pct": 0.32,
-   "volume": 1135768.0,
-   "previous_close": 110.84,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "OKTA": {
-   "price": 207.32,
-   "change": 15.86,
-   "change_pct": 8.28,
-   "volume": 2611136.0,
-   "previous_close": 191.46,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BDX": {
-   "price": 215.3102,
-   "change": 2.5302,
-   "change_pct": 1.19,
-   "volume": 1218192.0,
-   "previous_close": 212.78,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "KMI": {
-   "price": 30.6587,
-   "change": 0.2987,
-   "change_pct": 0.98,
-   "volume": 8069052.0,
-   "previous_close": 30.36,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DOV": {
-   "price": 202.465,
-   "change": 8.175,
-   "change_pct": 4.21,
-   "volume": 602628.0,
-   "previous_close": 194.29,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ZBRA": {
-   "price": 321.12,
-   "change": 19.59,
-   "change_pct": 6.5,
-   "volume": 308350.0,
-   "previous_close": 301.53,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "APP": {
-   "price": 376.99,
-   "change": 28.7,
-   "change_pct": 8.24,
-   "volume": 3434930.0,
-   "previous_close": 348.29,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AVGO": {
-   "price": 313.04,
-   "change": 8.63,
-   "change_pct": 2.83,
-   "volume": 29841844.0,
-   "previous_close": 304.41,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PG": {
-   "price": 170.07,
-   "change": 0.7,
-   "change_pct": 0.41,
-   "volume": 5636397.0,
-   "previous_close": 169.37,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AIG": {
-   "price": 80.41,
-   "change": 0.73,
-   "change_pct": 0.92,
-   "volume": 1596466.0,
-   "previous_close": 79.68,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FANG": {
-   "price": 172.76,
-   "change": -2.99,
-   "change_pct": -1.7,
-   "volume": 1577889.0,
-   "previous_close": 175.75,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IBM": {
-   "price": 234.62,
-   "change": 10.18,
-   "change_pct": 4.54,
-   "volume": 2569436.0,
-   "previous_close": 224.44,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LII": {
-   "price": 339.065,
-   "change": 4.575,
-   "change_pct": 1.37,
-   "volume": 334708.0,
-   "previous_close": 334.49,
-   "market_status": "Market Open",
+  "CSCO": {
+   "price": 96.8,
+   "change": 6.16,
+   "change_pct": 6.8,
+   "volume": 12678129.0,
+   "previous_close": 90.64,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "GLW": {
-   "price": 108.925,
-   "change": 14.545,
-   "change_pct": 15.41,
-   "volume": 10171747.0,
+   "price": 108.7032,
+   "change": 14.3232,
+   "change_pct": 15.18,
+   "volume": 9922010.0,
    "previous_close": 94.38,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ABNB": {
-   "price": 175.13,
-   "change": 4.77,
-   "change_pct": 2.8,
-   "volume": 2409467.0,
-   "previous_close": 170.36,
-   "market_status": "Market Open",
+  "ABBV": {
+   "price": 289.33,
+   "change": 3.13,
+   "change_pct": 1.09,
+   "volume": 3743986.0,
+   "previous_close": 286.2,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "AMAT": {
-   "price": 348.0,
-   "change": 45.37,
-   "change_pct": 14.99,
-   "volume": 8176536.0,
-   "previous_close": 302.63,
-   "market_status": "Market Open",
+  "HAS": {
+   "price": 113.53,
+   "change": 1.12,
+   "change_pct": 1.0,
+   "volume": 1963396.0,
+   "previous_close": 112.41,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "GEV": {
-   "price": 762.525,
-   "change": 63.195,
-   "change_pct": 9.04,
-   "volume": 3438633.0,
-   "previous_close": 699.33,
-   "market_status": "Market Open",
+  "MGM": {
+   "price": 33.69,
+   "change": 1.33,
+   "change_pct": 4.11,
+   "volume": 2544776.0,
+   "previous_close": 32.36,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "LMT": {
-   "price": 571.33,
-   "change": 5.83,
-   "change_pct": 1.03,
-   "volume": 504934.0,
-   "previous_close": 565.5,
-   "market_status": "Market Open",
+  "NXPI": {
+   "price": 256.03,
+   "change": 20.88,
+   "change_pct": 8.88,
+   "volume": 2983909.0,
+   "previous_close": 235.15,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "WSM": {
-   "price": 215.25,
-   "change": 4.55,
-   "change_pct": 2.16,
-   "volume": 1163544.0,
-   "previous_close": 210.7,
-   "market_status": "Market Open",
+  "MPWR": {
+   "price": 1333.88,
+   "change": 191.83,
+   "change_pct": 16.8,
+   "volume": 681276.0,
+   "previous_close": 1142.05,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "SYY": {
-   "price": 80.605,
-   "change": 2.435,
-   "change_pct": 3.12,
-   "volume": 2298568.0,
-   "previous_close": 78.17,
-   "market_status": "Market Open",
+  "BKNG": {
+   "price": 144.94,
+   "change": 0.03,
+   "change_pct": 0.02,
+   "volume": 7206438.0,
+   "previous_close": 144.91,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "FTNT": {
-   "price": 131.18,
-   "change": 6.62,
-   "change_pct": 5.31,
-   "volume": 3151468.0,
-   "previous_close": 124.56,
-   "market_status": "Market Open",
+  "FIX": {
+   "price": 1158.53,
+   "change": 116.06,
+   "change_pct": 11.13,
+   "volume": 544255.0,
+   "previous_close": 1042.47,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "FAST": {
-   "price": 52.25,
-   "change": 1.64,
-   "change_pct": 3.24,
-   "volume": 5999616.0,
-   "previous_close": 50.61,
-   "market_status": "Market Open",
+  "XOM": {
+   "price": 157.2318,
+   "change": -2.7582,
+   "change_pct": -1.72,
+   "volume": 8439651.0,
+   "previous_close": 159.99,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "CVNA": {
-   "price": 68.11,
-   "change": 4.26,
-   "change_pct": 6.67,
-   "volume": 7818263.0,
-   "previous_close": 63.85,
-   "market_status": "Market Open",
+  "APH": {
+   "price": 77.41,
+   "change": 7.69,
+   "change_pct": 11.03,
+   "volume": 16485921.0,
+   "previous_close": 69.72,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "CAH": {
-   "price": 272.38,
-   "change": -0.43,
-   "change_pct": -0.16,
-   "volume": 749589.0,
-   "previous_close": 272.81,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PEP": {
-   "price": 140.19,
-   "change": -0.35,
-   "change_pct": -0.25,
-   "volume": 4722498.0,
-   "previous_close": 140.54,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CTAS": {
-   "price": 223.72,
-   "change": 3.71,
-   "change_pct": 1.69,
-   "volume": 1421980.0,
-   "previous_close": 220.01,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IFF": {
-   "price": 82.52,
-   "change": 2.9,
-   "change_pct": 3.64,
-   "volume": 1519977.0,
-   "previous_close": 79.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MRK": {
-   "price": 135.52,
-   "change": 1.8,
-   "change_pct": 1.35,
-   "volume": 5079566.0,
-   "previous_close": 133.72,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FTV": {
-   "price": 65.8,
-   "change": 1.64,
-   "change_pct": 2.56,
-   "volume": 1054003.0,
-   "previous_close": 64.16,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CNC": {
-   "price": 63.17,
-   "change": -0.61,
-   "change_pct": -0.96,
-   "volume": 2825445.0,
-   "previous_close": 63.78,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TPL": {
-   "price": 260.2,
-   "change": -7.24,
-   "change_pct": -2.71,
-   "volume": 1402784.0,
-   "previous_close": 267.44,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BSX": {
-   "price": 42.35,
-   "change": 0.37,
-   "change_pct": 0.88,
-   "volume": 8384603.0,
-   "previous_close": 41.98,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "UPS": {
-   "price": 108.885,
-   "change": 2.665,
-   "change_pct": 2.51,
-   "volume": 3116287.0,
-   "previous_close": 106.22,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CHRW": {
-   "price": 137.185,
-   "change": 3.185,
-   "change_pct": 2.38,
-   "volume": 649186.0,
-   "previous_close": 134.0,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PGR": {
-   "price": 230.14,
-   "change": -1.25,
-   "change_pct": -0.54,
-   "volume": 1086969.0,
-   "previous_close": 231.39,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CNP": {
-   "price": 39.61,
-   "change": 0.5,
-   "change_pct": 1.28,
-   "volume": 3285397.0,
-   "previous_close": 39.11,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VICI": {
-   "price": 24.17,
-   "change": -0.03,
-   "change_pct": -0.12,
-   "volume": 6278241.0,
-   "previous_close": 24.2,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "XYZ": {
-   "price": 73.435,
-   "change": 3.775,
-   "change_pct": 5.42,
-   "volume": 5532912.0,
-   "previous_close": 69.66,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BF.B": {
-   "price": 29.12,
-   "change": -0.8,
-   "change_pct": -2.67,
-   "volume": 1852588.0,
-   "previous_close": 29.92,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "UNH": {
-   "price": 335.21,
-   "change": -4.64,
-   "change_pct": -1.37,
-   "volume": 10133672.0,
-   "previous_close": 339.85,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MAR": {
-   "price": 416.56,
-   "change": 9.92,
-   "change_pct": 2.44,
-   "volume": 705409.0,
-   "previous_close": 406.64,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "UAL": {
-   "price": 109.28,
-   "change": 8.25,
-   "change_pct": 8.17,
-   "volume": 3208071.0,
-   "previous_close": 101.03,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ADSK": {
-   "price": 255.99,
-   "change": 11.51,
-   "change_pct": 4.71,
-   "volume": 1077459.0,
-   "previous_close": 244.48,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MSCI": {
-   "price": 626.34,
-   "change": 15.86,
-   "change_pct": 2.6,
-   "volume": 224057.0,
-   "previous_close": 610.48,
-   "market_status": "Market Open",
+  "INVH": {
+   "price": 26.65,
+   "change": 0.42,
+   "change_pct": 1.6,
+   "volume": 5246957.0,
+   "previous_close": 26.23,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "ITW": {
-   "price": 281.22,
-   "change": 7.65,
-   "change_pct": 2.8,
-   "volume": 616621.0,
+   "price": 281.08,
+   "change": 7.51,
+   "change_pct": 2.75,
+   "volume": 668098.0,
    "previous_close": 273.57,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "NOW": {
+  "IP": {
+   "price": 29.1131,
+   "change": -1.2469,
+   "change_pct": -4.11,
+   "volume": 8978841.0,
+   "previous_close": 30.36,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MET": {
+   "price": 99.0481,
+   "change": 3.3781,
+   "change_pct": 3.53,
+   "volume": 1599225.0,
+   "previous_close": 95.67,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CPAY": {
+   "price": 439.61,
+   "change": 9.77,
+   "change_pct": 2.27,
+   "volume": 286856.0,
+   "previous_close": 429.84,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CAT": {
+   "price": 547.04,
+   "change": 36.59,
+   "change_pct": 7.17,
+   "volume": 2784498.0,
+   "previous_close": 510.45,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PSX": {
+   "price": 237.22,
+   "change": -2.11,
+   "change_pct": -0.88,
+   "volume": 1636812.0,
+   "previous_close": 239.33,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EXPD": {
+   "price": 196.2533,
+   "change": 3.6933,
+   "change_pct": 1.92,
+   "volume": 834980.0,
+   "previous_close": 192.56,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VLTO": {
+   "price": 117.78,
+   "change": 1.15,
+   "change_pct": 0.99,
+   "volume": 1680481.0,
+   "previous_close": 116.63,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CRWD": {
+   "price": 209.23,
+   "change": -20.21,
+   "change_pct": -8.81,
+   "volume": 34136277.0,
+   "previous_close": 229.44,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WAT": {
+   "price": 452.9,
+   "change": 12.45,
+   "change_pct": 2.83,
+   "volume": 719955.0,
+   "previous_close": 440.45,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DTE": {
+   "price": 137.14,
+   "change": 1.22,
+   "change_pct": 0.9,
+   "volume": 454837.0,
+   "previous_close": 135.92,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AMAT": {
+   "price": 346.87,
+   "change": 44.24,
+   "change_pct": 14.62,
+   "volume": 8624758.0,
+   "previous_close": 302.63,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GILD": {
+   "price": 170.3912,
+   "change": 3.9612,
+   "change_pct": 2.38,
+   "volume": 3536137.0,
+   "previous_close": 166.43,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GL": {
+   "price": 154.99,
+   "change": 3.34,
+   "change_pct": 2.2,
+   "volume": 288688.0,
+   "previous_close": 151.65,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VICI": {
+   "price": 24.23,
+   "change": 0.03,
+   "change_pct": 0.12,
+   "volume": 6572134.0,
+   "previous_close": 24.2,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ANET": {
+   "price": 178.31,
+   "change": 10.69,
+   "change_pct": 6.38,
+   "volume": 7789695.0,
+   "previous_close": 167.62,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BXP": {
+   "price": 61.49,
+   "change": 0.25,
+   "change_pct": 0.41,
+   "volume": 628325.0,
+   "previous_close": 61.24,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ZTS": {
+   "price": 80.5,
+   "change": 1.39,
+   "change_pct": 1.76,
+   "volume": 1633006.0,
+   "previous_close": 79.11,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "OKTA": {
+   "price": 207.2101,
+   "change": 15.7501,
+   "change_pct": 8.23,
+   "volume": 2711593.0,
+   "previous_close": 191.46,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GRMN": {
+   "price": 279.07,
+   "change": 11.03,
+   "change_pct": 4.12,
+   "volume": 281373.0,
+   "previous_close": 268.04,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "YUM": {
+   "price": 164.44,
+   "change": 3.74,
+   "change_pct": 2.33,
+   "volume": 932346.0,
+   "previous_close": 160.7,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DELL": {
+   "price": 335.99,
+   "change": 57.97,
+   "change_pct": 20.85,
+   "volume": 12757340.0,
+   "previous_close": 278.02,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PYPL": {
+   "price": 55.21,
+   "change": 1.92,
+   "change_pct": 3.6,
+   "volume": 5296143.0,
+   "previous_close": 53.29,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MTB": {
+   "price": 211.6,
+   "change": 3.3,
+   "change_pct": 1.58,
+   "volume": 451059.0,
+   "previous_close": 208.3,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "L": {
+   "price": 110.14,
+   "change": 0.74,
+   "change_pct": 0.68,
+   "volume": 404457.0,
+   "previous_close": 109.4,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CNC": {
+   "price": 63.32,
+   "change": -0.46,
+   "change_pct": -0.72,
+   "volume": 2625200.0,
+   "previous_close": 63.78,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SYY": {
+   "price": 80.3,
+   "change": 2.13,
+   "change_pct": 2.72,
+   "volume": 2453315.0,
+   "previous_close": 78.17,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CCL": {
+   "price": 27.97,
+   "change": 1.38,
+   "change_pct": 5.19,
+   "volume": 11164524.0,
+   "previous_close": 26.59,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SWK": {
+   "price": 110.74,
+   "change": 4.12,
+   "change_pct": 3.86,
+   "volume": 961566.0,
+   "previous_close": 106.62,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "OKE": {
+   "price": 83.64,
+   "change": -0.73,
+   "change_pct": -0.87,
+   "volume": 1683242.0,
+   "previous_close": 84.37,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EXC": {
+   "price": 46.05,
+   "change": 0.35,
+   "change_pct": 0.77,
+   "volume": 3399433.0,
+   "previous_close": 45.7,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ABT": {
+   "price": 103.32,
+   "change": 0.32,
+   "change_pct": 0.31,
+   "volume": 3899918.0,
+   "previous_close": 103.0,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HPE": {
+   "price": 46.2205,
+   "change": 5.3105,
+   "change_pct": 12.98,
+   "volume": 27426387.0,
+   "previous_close": 40.91,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TT": {
+   "price": 409.0949,
+   "change": 22.8049,
+   "change_pct": 5.9,
+   "volume": 854022.0,
+   "previous_close": 386.29,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NEM": {
+   "price": 100.73,
+   "change": 6.05,
+   "change_pct": 6.39,
+   "volume": 6267541.0,
+   "previous_close": 94.68,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ECHO": {
+   "price": 88.5257,
+   "change": 4.2657,
+   "change_pct": 5.06,
+   "volume": 2671831.0,
+   "previous_close": 84.26,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ZBH": {
+   "price": 105.98,
+   "change": 4.88,
+   "change_pct": 4.83,
+   "volume": 1454035.0,
+   "previous_close": 101.1,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "A": {
+   "price": 186.8,
+   "change": 16.42,
+   "change_pct": 9.64,
+   "volume": 1301727.0,
+   "previous_close": 170.38,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HOOD": {
+   "price": 67.81,
+   "change": 5.64,
+   "change_pct": 9.07,
+   "volume": 15933130.0,
+   "previous_close": 62.17,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NDSN": {
+   "price": 322.63,
+   "change": 15.41,
+   "change_pct": 5.02,
+   "volume": 135661.0,
+   "previous_close": 307.22,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NCLH": {
+   "price": 17.02,
+   "change": 1.03,
+   "change_pct": 6.44,
+   "volume": 11853246.0,
+   "previous_close": 15.99,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WM": {
+   "price": 240.59,
+   "change": 0.96,
+   "change_pct": 0.4,
+   "volume": 1364002.0,
+   "previous_close": 239.63,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BG": {
    "price": 91.97,
-   "change": 4.36,
-   "change_pct": 4.98,
-   "volume": 10976064.0,
-   "previous_close": 87.61,
-   "market_status": "Market Open",
+   "change": 1.07,
+   "change_pct": 1.18,
+   "volume": 791828.0,
+   "previous_close": 90.9,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SW": {
+   "price": 39.55,
+   "change": 1.85,
+   "change_pct": 4.91,
+   "volume": 4815976.0,
+   "previous_close": 37.7,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FLEX": {
+   "price": 73.94,
+   "change": 7.7,
+   "change_pct": 11.62,
+   "volume": 4393446.0,
+   "previous_close": 66.24,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TDG": {
+   "price": 1140.33,
+   "change": 19.11,
+   "change_pct": 1.7,
+   "volume": 434998.0,
+   "previous_close": 1121.22,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DDOG": {
+   "price": 170.0,
+   "change": 12.63,
+   "change_pct": 8.03,
+   "volume": 2316876.0,
+   "previous_close": 157.37,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "STX": {
+   "price": 521.62,
+   "change": 64.61,
+   "change_pct": 14.14,
+   "volume": 4335507.0,
+   "previous_close": 457.01,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NSC": {
+   "price": 316.65,
+   "change": 5.64,
+   "change_pct": 1.81,
+   "volume": 506553.0,
+   "previous_close": 311.01,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BIIB": {
+   "price": 256.71,
+   "change": 7.12,
+   "change_pct": 2.85,
+   "volume": 849927.0,
+   "previous_close": 249.59,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PSA": {
+   "price": 330.48,
+   "change": 5.06,
+   "change_pct": 1.55,
+   "volume": 343088.0,
+   "previous_close": 325.42,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KMI": {
+   "price": 30.5,
+   "change": 0.14,
+   "change_pct": 0.46,
+   "volume": 7805186.0,
+   "previous_close": 30.36,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BRK.B": {
+   "price": 573.2,
+   "change": 3.2,
+   "change_pct": 0.56,
+   "volume": 2934425.0,
+   "previous_close": 570.0,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EL": {
+   "price": 103.75,
+   "change": 4.29,
+   "change_pct": 4.31,
+   "volume": 1741197.0,
+   "previous_close": 99.46,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MMM": {
+   "price": 184.54,
+   "change": 6.55,
+   "change_pct": 3.68,
+   "volume": 1780497.0,
+   "previous_close": 177.99,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BKR": {
+   "price": 46.04,
+   "change": 1.23,
+   "change_pct": 2.74,
+   "volume": 4920770.0,
+   "previous_close": 44.81,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SPGI": {
+   "price": 451.96,
+   "change": 12.39,
+   "change_pct": 2.82,
+   "volume": 916567.0,
+   "previous_close": 439.57,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DHI": {
+   "price": 147.06,
+   "change": 1.62,
+   "change_pct": 1.11,
+   "volume": 1227488.0,
+   "previous_close": 145.44,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ICE": {
+   "price": 172.19,
+   "change": 2.19,
+   "change_pct": 1.29,
+   "volume": 1997526.0,
+   "previous_close": 170.0,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "RMD": {
+   "price": 239.38,
+   "change": 3.75,
+   "change_pct": 1.59,
+   "volume": 499410.0,
+   "previous_close": 235.63,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KDP": {
+   "price": 35.43,
+   "change": 0.59,
+   "change_pct": 1.69,
+   "volume": 7740557.0,
+   "previous_close": 34.84,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FERG": {
+   "price": 240.62,
+   "change": -5.88,
+   "change_pct": -2.39,
+   "volume": 1888489.0,
+   "previous_close": 246.5,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "JCI": {
+   "price": 138.02,
+   "change": 7.84,
+   "change_pct": 6.02,
+   "volume": 3218873.0,
+   "previous_close": 130.18,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SYK": {
+   "price": 317.5757,
+   "change": 7.5757,
+   "change_pct": 2.44,
+   "volume": 1403993.0,
+   "previous_close": 310.0,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ETR": {
+   "price": 107.28,
+   "change": 2.9,
+   "change_pct": 2.78,
+   "volume": 2316685.0,
+   "previous_close": 104.38,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ISRG": {
+   "price": 416.23,
+   "change": 17.18,
+   "change_pct": 4.31,
+   "volume": 1307618.0,
+   "previous_close": 399.05,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HST": {
+   "price": 24.735,
+   "change": 0.635,
+   "change_pct": 2.63,
+   "volume": 3328838.0,
+   "previous_close": 24.1,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VMRK": {
+   "price": 63.5,
+   "change": 0.46,
+   "change_pct": 0.73,
+   "volume": 2359367.0,
+   "previous_close": 63.04,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TTWO": {
+   "price": 208.9,
+   "change": -1.1,
+   "change_pct": -0.52,
+   "volume": 4444424.0,
+   "previous_close": 210.0,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NVDA": {
+   "price": 165.2943,
+   "change": 39.7643,
+   "change_pct": 31.68,
+   "volume": 687042647.0,
+   "previous_close": 125.53,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PNW": {
+   "price": 101.99,
+   "change": 0.71,
+   "change_pct": 0.7,
+   "volume": 1002868.0,
+   "previous_close": 101.28,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EG": {
+   "price": 423.11,
+   "change": 1.13,
+   "change_pct": 0.27,
+   "volume": 191914.0,
+   "previous_close": 421.98,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KEY": {
+   "price": 19.6235,
+   "change": 0.1735,
+   "change_pct": 0.89,
+   "volume": 13095572.0,
+   "previous_close": 19.45,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "COF": {
+   "price": 180.16,
+   "change": 1.5,
+   "change_pct": 0.84,
+   "volume": 3453987.0,
+   "previous_close": 178.66,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "INTC": {
+   "price": 59.7447,
+   "change": 8.4647,
+   "change_pct": 16.51,
+   "volume": 120553780.0,
+   "previous_close": 51.28,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KKR": {
+   "price": 92.62,
+   "change": 4.08,
+   "change_pct": 4.61,
+   "volume": 3197672.0,
+   "previous_close": 88.54,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GPC": {
+   "price": 120.27,
+   "change": 1.76,
+   "change_pct": 1.49,
+   "volume": 422918.0,
+   "previous_close": 118.51,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BR": {
+   "price": 181.82,
+   "change": 0.41,
+   "change_pct": 0.23,
+   "volume": 448358.0,
+   "previous_close": 181.41,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VEEV": {
+   "price": 268.65,
+   "change": 2.43,
+   "change_pct": 0.91,
+   "volume": 941837.0,
+   "previous_close": 266.22,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HWM": {
+   "price": 217.28,
+   "change": 8.12,
+   "change_pct": 3.88,
+   "volume": 2665349.0,
+   "previous_close": 209.16,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PHM": {
+   "price": 126.39,
+   "change": 1.72,
+   "change_pct": 1.38,
+   "volume": 902286.0,
+   "previous_close": 124.67,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EQT": {
+   "price": 48.61,
+   "change": -0.28,
+   "change_pct": -0.57,
+   "volume": 5582201.0,
+   "previous_close": 48.89,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CAH": {
+   "price": 271.97,
+   "change": -0.84,
+   "change_pct": -0.31,
+   "volume": 804196.0,
+   "previous_close": 272.81,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "IQV": {
+   "price": 252.7332,
+   "change": 6.9132,
+   "change_pct": 2.81,
+   "volume": 927901.0,
+   "previous_close": 245.82,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "USB": {
+   "price": 57.41,
+   "change": 1.36,
+   "change_pct": 2.43,
+   "volume": 4878578.0,
+   "previous_close": 56.05,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GDDY": {
+   "price": 101.78,
+   "change": 2.25,
+   "change_pct": 2.26,
+   "volume": 955971.0,
+   "previous_close": 99.53,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HSY": {
+   "price": 173.5718,
+   "change": -1.9082,
+   "change_pct": -1.09,
+   "volume": 1634526.0,
+   "previous_close": 175.48,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "IBM": {
+   "price": 233.37,
+   "change": 8.93,
+   "change_pct": 3.98,
+   "volume": 2456124.0,
+   "previous_close": 224.44,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AOS": {
+   "price": 65.0,
+   "change": 1.76,
+   "change_pct": 2.78,
+   "volume": 740298.0,
+   "previous_close": 63.24,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CVNA": {
+   "price": 67.8825,
+   "change": 4.0325,
+   "change_pct": 6.32,
+   "volume": 7498492.0,
+   "previous_close": 63.85,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HUBB": {
+   "price": 434.72,
+   "change": 31.06,
+   "change_pct": 7.69,
+   "volume": 463572.0,
+   "previous_close": 403.66,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KHC": {
+   "price": 25.1928,
+   "change": -0.1972,
+   "change_pct": -0.78,
+   "volume": 10929704.0,
+   "previous_close": 25.39,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ARES": {
+   "price": 129.89,
+   "change": 6.59,
+   "change_pct": 5.34,
+   "volume": 1413894.0,
+   "previous_close": 123.3,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NI": {
+   "price": 44.99,
+   "change": 0.71,
+   "change_pct": 1.6,
+   "volume": 3245147.0,
+   "previous_close": 44.28,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TJX": {
+   "price": 139.75,
+   "change": 0.13,
+   "change_pct": 0.09,
+   "volume": 5269862.0,
+   "previous_close": 139.62,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "D": {
+   "price": 66.79,
+   "change": 0.51,
+   "change_pct": 0.77,
+   "volume": 2721942.0,
+   "previous_close": 66.28,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "COP": {
+   "price": 132.21,
+   "change": -3.91,
+   "change_pct": -2.87,
+   "volume": 3559689.0,
+   "previous_close": 136.12,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ABNB": {
+   "price": 174.43,
+   "change": 4.07,
+   "change_pct": 2.39,
+   "volume": 2291987.0,
+   "previous_close": 170.36,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BAC": {
+   "price": 48.14,
+   "change": 1.1,
+   "change_pct": 2.34,
+   "volume": 19187730.0,
+   "previous_close": 47.04,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SBUX": {
+   "price": 106.36,
+   "change": 3.23,
+   "change_pct": 3.13,
+   "volume": 5336086.0,
+   "previous_close": 103.13,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CPRT": {
+   "price": 31.62,
+   "change": 0.53,
+   "change_pct": 1.7,
+   "volume": 5442316.0,
+   "previous_close": 31.09,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TMUS": {
+   "price": 166.36,
+   "change": 0.76,
+   "change_pct": 0.46,
+   "volume": 2900442.0,
+   "previous_close": 165.6,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WRB": {
+   "price": 77.9,
+   "change": -0.41,
+   "change_pct": -0.52,
+   "volume": 734493.0,
+   "previous_close": 78.31,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CSX": {
+   "price": 49.86,
+   "change": 0.76,
+   "change_pct": 1.55,
+   "volume": 4715186.0,
+   "previous_close": 49.1,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EW": {
+   "price": 105.06,
+   "change": 3.21,
+   "change_pct": 3.15,
+   "volume": 1792849.0,
+   "previous_close": 101.85,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PLTR": {
+   "price": 159.78,
+   "change": 16.29,
+   "change_pct": 11.35,
+   "volume": 22784871.0,
+   "previous_close": 143.49,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KR": {
+   "price": 67.15,
+   "change": -1.29,
+   "change_pct": -1.88,
+   "volume": 2532321.0,
+   "previous_close": 68.44,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SJM": {
+   "price": 131.01,
+   "change": -2.67,
+   "change_pct": -2.0,
+   "volume": 1636662.0,
+   "previous_close": 133.68,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TGT": {
+   "price": 168.19,
+   "change": 2.36,
+   "change_pct": 1.42,
+   "volume": 2787896.0,
+   "previous_close": 165.83,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "UPS": {
+   "price": 108.975,
+   "change": 2.755,
+   "change_pct": 2.59,
+   "volume": 3330351.0,
+   "previous_close": 106.22,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ATO": {
+   "price": 169.28,
+   "change": 2.09,
+   "change_pct": 1.25,
+   "volume": 697359.0,
+   "previous_close": 167.19,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "UNH": {
+   "price": 336.85,
+   "change": -3.0,
+   "change_pct": -0.88,
+   "volume": 9531069.0,
+   "previous_close": 339.85,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TPL": {
+   "price": 258.07,
+   "change": -9.37,
+   "change_pct": -3.5,
+   "volume": 1461354.0,
+   "previous_close": 267.44,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CBOE": {
+   "price": 354.67,
+   "change": -3.04,
+   "change_pct": -0.85,
+   "volume": 1208784.0,
+   "previous_close": 357.71,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AFL": {
+   "price": 125.0,
+   "change": 0.68,
+   "change_pct": 0.55,
+   "volume": 565457.0,
+   "previous_close": 124.32,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PCAR": {
+   "price": 105.39,
+   "change": 3.19,
+   "change_pct": 3.12,
+   "volume": 1859686.0,
+   "previous_close": 102.2,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SO": {
+   "price": 93.12,
+   "change": -0.01,
+   "change_pct": -0.01,
+   "volume": 4006501.0,
+   "previous_close": 93.13,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AES": {
+   "price": 15.02,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "volume": 32989460.0,
+   "previous_close": 15.02,
+   "market_status": "After Hours",
+   "session": "2026-11-20"
+  },
+  "PG": {
+   "price": 169.6237,
+   "change": 0.2537,
+   "change_pct": 0.15,
+   "volume": 5914221.0,
+   "previous_close": 169.37,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "OMC": {
+   "price": 87.32,
+   "change": 2.14,
+   "change_pct": 2.51,
+   "volume": 2116529.0,
+   "previous_close": 85.18,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PODD": {
+   "price": 133.3377,
+   "change": 0.1677,
+   "change_pct": 0.13,
+   "volume": 1224627.0,
+   "previous_close": 133.17,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ACGL": {
+   "price": 110.18,
+   "change": 1.36,
+   "change_pct": 1.25,
+   "volume": 674551.0,
+   "previous_close": 108.82,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FDX": {
+   "price": 310.67,
+   "change": 6.68,
+   "change_pct": 2.2,
+   "volume": 620961.0,
+   "previous_close": 303.99,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "UNP": {
+   "price": 288.89,
+   "change": 1.6,
+   "change_pct": 0.56,
+   "volume": 1882447.0,
+   "previous_close": 287.29,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ALB": {
+   "price": 82.58,
+   "change": 2.88,
+   "change_pct": 3.61,
+   "volume": 1595852.0,
+   "previous_close": 79.7,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HUM": {
+   "price": 384.0,
+   "change": -6.0,
+   "change_pct": -1.54,
+   "volume": 1131041.0,
+   "previous_close": 390.0,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DASH": {
+   "price": 161.35,
+   "change": 8.75,
+   "change_pct": 5.73,
+   "volume": 5230868.0,
+   "previous_close": 152.6,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GEHC": {
+   "price": 80.6,
+   "change": -0.04,
+   "change_pct": -0.05,
+   "volume": 1808534.0,
+   "previous_close": 80.64,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ORLY": {
+   "price": 93.62,
+   "change": 0.97,
+   "change_pct": 1.05,
+   "volume": 3264063.0,
+   "previous_close": 92.65,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "COR": {
+   "price": 338.04,
+   "change": -1.05,
+   "change_pct": -0.31,
+   "volume": 465005.0,
+   "previous_close": 339.09,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CMS": {
+   "price": 70.38,
+   "change": 0.26,
+   "change_pct": 0.37,
+   "volume": 2218041.0,
+   "previous_close": 70.12,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AMP": {
+   "price": 494.04,
+   "change": 13.75,
+   "change_pct": 2.86,
+   "volume": 275364.0,
+   "previous_close": 480.29,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HONA": {
+   "price": 154.62,
+   "change": 3.91,
+   "change_pct": 2.59,
+   "volume": 1301828.0,
+   "previous_close": 150.71,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SMCI": {
+   "price": 24.7,
+   "change": 3.05,
+   "change_pct": 14.09,
+   "volume": 54150724.0,
+   "previous_close": 21.65,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PPG": {
+   "price": 120.62,
+   "change": 3.5,
+   "change_pct": 2.99,
+   "volume": 541560.0,
+   "previous_close": 117.12,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AAPL": {
+   "price": 349.67,
+   "change": 7.11,
+   "change_pct": 2.08,
+   "volume": 32292648.0,
+   "previous_close": 342.56,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GPN": {
+   "price": 91.47,
+   "change": -0.36,
+   "change_pct": -0.39,
+   "volume": 2118370.0,
+   "previous_close": 91.83,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HCA": {
+   "price": 479.96,
+   "change": 4.39,
+   "change_pct": 0.92,
+   "volume": 764990.0,
+   "previous_close": 475.57,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KMB": {
+   "price": 107.71,
+   "change": 1.33,
+   "change_pct": 1.25,
+   "volume": 2489991.0,
+   "previous_close": 106.38,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DLTR": {
+   "price": 138.86,
+   "change": 0.9,
+   "change_pct": 0.65,
+   "volume": 2488144.0,
+   "previous_close": 137.96,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LYB": {
+   "price": 54.74,
+   "change": -1.1,
+   "change_pct": -1.97,
+   "volume": 3088360.0,
+   "previous_close": 55.84,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "RJF": {
+   "price": 159.79,
+   "change": 3.97,
+   "change_pct": 2.55,
+   "volume": 429159.0,
+   "previous_close": 155.82,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "URI": {
+   "price": 1040.0,
+   "change": 66.57,
+   "change_pct": 6.84,
+   "volume": 498914.0,
+   "previous_close": 973.43,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CLX": {
+   "price": 104.102,
+   "change": -0.628,
+   "change_pct": -0.6,
+   "volume": 1671693.0,
+   "previous_close": 104.73,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VYLR": {
+   "price": 68.0,
+   "change": -0.09,
+   "change_pct": -0.13,
+   "volume": 2139203.0,
+   "previous_close": 68.09,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FICO": {
+   "price": 723.35,
+   "change": 29.04,
+   "change_pct": 4.18,
+   "volume": 318445.0,
+   "previous_close": 694.31,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PWR": {
+   "price": 609.0,
+   "change": 49.97,
+   "change_pct": 8.94,
+   "volume": 1189109.0,
+   "previous_close": 559.03,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CMCSA": {
+   "price": 24.69,
+   "change": -0.21,
+   "change_pct": -0.84,
+   "volume": 19589016.0,
+   "previous_close": 24.9,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PH": {
+   "price": 918.18,
+   "change": 46.32,
+   "change_pct": 5.31,
+   "volume": 452279.0,
+   "previous_close": 871.86,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TSLA": {
+   "price": 385.85,
+   "change": 40.03,
+   "change_pct": 11.58,
+   "volume": 32592586.0,
+   "previous_close": 345.82,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CARR": {
+   "price": 52.03,
+   "change": 2.07,
+   "change_pct": 4.14,
+   "volume": 6459566.0,
+   "previous_close": 49.96,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DIS": {
+   "price": 119.9665,
+   "change": 1.9865,
+   "change_pct": 1.68,
+   "volume": 5499910.0,
+   "previous_close": 117.98,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CI": {
+   "price": 270.46,
+   "change": -0.44,
+   "change_pct": -0.16,
+   "volume": 958991.0,
+   "previous_close": 270.9,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EXE": {
+   "price": 80.79,
+   "change": -0.48,
+   "change_pct": -0.59,
+   "volume": 2972310.0,
+   "previous_close": 81.27,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "RTX": {
+   "price": 194.77,
+   "change": 2.06,
+   "change_pct": 1.07,
+   "volume": 6044036.0,
+   "previous_close": 192.71,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BF.B": {
+   "price": 28.83,
+   "change": -1.09,
+   "change_pct": -3.64,
+   "volume": 1642265.0,
+   "previous_close": 29.92,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PANW": {
+   "price": 351.5,
+   "change": 8.18,
+   "change_pct": 2.38,
+   "volume": 7205452.0,
+   "previous_close": 343.32,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LRCX": {
+   "price": 209.6,
+   "change": 26.33,
+   "change_pct": 14.37,
+   "volume": 9099273.0,
+   "previous_close": 183.27,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "UHS": {
+   "price": 183.33,
+   "change": 3.9,
+   "change_pct": 2.17,
+   "volume": 248328.0,
+   "previous_close": 179.43,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MCK": {
+   "price": 1048.42,
+   "change": -21.01,
+   "change_pct": -1.96,
+   "volume": 406163.0,
+   "previous_close": 1069.43,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BNY": {
+   "price": 145.82,
+   "change": 4.58,
+   "change_pct": 3.24,
+   "volume": 1471841.0,
+   "previous_close": 141.24,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DLR": {
+   "price": 167.41,
+   "change": 4.95,
+   "change_pct": 3.05,
+   "volume": 1818634.0,
+   "previous_close": 162.46,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ADSK": {
+   "price": 255.25,
+   "change": 10.77,
+   "change_pct": 4.41,
+   "volume": 1017878.0,
+   "previous_close": 244.48,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MKC": {
+   "price": 47.87,
+   "change": 0.47,
+   "change_pct": 0.99,
+   "volume": 2154982.0,
+   "previous_close": 47.4,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WDC": {
+   "price": 299.0,
+   "change": 37.89,
+   "change_pct": 14.51,
+   "volume": 6228519.0,
+   "previous_close": 261.11,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WDAY": {
+   "price": 176.6,
+   "change": 2.08,
+   "change_pct": 1.19,
+   "volume": 1607121.0,
+   "previous_close": 174.52,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ROL": {
+   "price": 38.17,
+   "change": 0.35,
+   "change_pct": 0.93,
+   "volume": 1657305.0,
+   "previous_close": 37.82,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NTAP": {
+   "price": 171.6,
+   "change": 13.95,
+   "change_pct": 8.85,
+   "volume": 1402594.0,
+   "previous_close": 157.65,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BBY": {
+   "price": 96.74,
+   "change": -1.21,
+   "change_pct": -1.24,
+   "volume": 5075951.0,
+   "previous_close": 97.95,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MAS": {
+   "price": 85.15,
+   "change": 2.55,
+   "change_pct": 3.09,
+   "volume": 761356.0,
+   "previous_close": 82.6,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DVA": {
+   "price": 159.76,
+   "change": -1.27,
+   "change_pct": -0.79,
+   "volume": 513578.0,
+   "previous_close": 161.03,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "COO": {
+   "price": 60.22,
+   "change": 1.34,
+   "change_pct": 2.28,
+   "volume": 1263048.0,
+   "previous_close": 58.88,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CME": {
+   "price": 304.43,
+   "change": -3.13,
+   "change_pct": -1.02,
+   "volume": 1463283.0,
+   "previous_close": 307.56,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SLB": {
+   "price": 46.16,
+   "change": 0.27,
+   "change_pct": 0.59,
+   "volume": 9273137.0,
+   "previous_close": 45.89,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PAYX": {
+   "price": 112.54,
+   "change": -0.09,
+   "change_pct": -0.08,
+   "volume": 1297055.0,
+   "previous_close": 112.63,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LVS": {
+   "price": 39.14,
+   "change": 0.29,
+   "change_pct": 0.75,
+   "volume": 2974913.0,
+   "previous_close": 38.85,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "JPM": {
+   "price": 317.51,
+   "change": 6.98,
+   "change_pct": 2.25,
+   "volume": 4478999.0,
+   "previous_close": 310.53,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WMT": {
+   "price": 129.58,
+   "change": 1.63,
+   "change_pct": 1.27,
+   "volume": 15865615.0,
+   "previous_close": 127.95,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SPG": {
+   "price": 227.07,
+   "change": 2.72,
+   "change_pct": 1.21,
+   "volume": 571571.0,
+   "previous_close": 224.35,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SYF": {
+   "price": 67.96,
+   "change": 0.2,
+   "change_pct": 0.3,
+   "volume": 3805737.0,
+   "previous_close": 67.76,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KIM": {
+   "price": 25.46,
+   "change": 0.09,
+   "change_pct": 0.35,
+   "volume": 3129530.0,
+   "previous_close": 25.37,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TRMB": {
+   "price": 53.63,
+   "change": 3.01,
+   "change_pct": 5.95,
+   "volume": 2167966.0,
+   "previous_close": 50.62,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "V": {
+   "price": 409.65,
+   "change": 7.78,
+   "change_pct": 1.94,
+   "volume": 4395003.0,
+   "previous_close": 401.87,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MU": {
+   "price": 709.49,
+   "change": 114.98,
+   "change_pct": 19.34,
+   "volume": 42857172.0,
+   "previous_close": 594.51,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "RVTY": {
+   "price": 151.29,
+   "change": 6.07,
+   "change_pct": 4.18,
+   "volume": 438022.0,
+   "previous_close": 145.22,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WY": {
+   "price": 19.71,
+   "change": 0.12,
+   "change_pct": 0.61,
+   "volume": 5625587.0,
+   "previous_close": 19.59,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CASY": {
+   "price": 686.0,
+   "change": -5.14,
+   "change_pct": -0.74,
+   "volume": 316400.0,
+   "previous_close": 691.14,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "IFF": {
+   "price": 82.84,
+   "change": 3.22,
+   "change_pct": 4.04,
+   "volume": 1658897.0,
+   "previous_close": 79.62,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GOOG": {
+   "price": 279.727,
+   "change": 15.727,
+   "change_pct": 5.96,
+   "volume": 21311017.0,
+   "previous_close": 264.0,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FOXA": {
+   "price": 64.01,
+   "change": 1.1,
+   "change_pct": 1.75,
+   "volume": 2755338.0,
+   "previous_close": 62.91,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DD": {
+   "price": 151.25,
+   "change": 5.82,
+   "change_pct": 4.0,
+   "volume": 604332.0,
+   "previous_close": 145.43,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MO": {
+   "price": 73.8,
+   "change": -1.07,
+   "change_pct": -1.43,
+   "volume": 5565395.0,
+   "previous_close": 74.87,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DECK": {
+   "price": 81.2722,
+   "change": 3.3322,
+   "change_pct": 4.28,
+   "volume": 2215567.0,
+   "previous_close": 77.94,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ED": {
+   "price": 118.2953,
+   "change": -1.0647,
+   "change_pct": -0.89,
+   "volume": 1965895.0,
+   "previous_close": 119.36,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "APTV": {
+   "price": 37.94,
+   "change": 2.61,
+   "change_pct": 7.39,
+   "volume": 2235168.0,
+   "previous_close": 35.33,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NWSA": {
+   "price": 25.47,
+   "change": 0.42,
+   "change_pct": 1.68,
+   "volume": 2261076.0,
+   "previous_close": 25.05,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FANG": {
+   "price": 173.2,
+   "change": -2.55,
+   "change_pct": -1.45,
+   "volume": 1642160.0,
+   "previous_close": 175.75,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AVY": {
+   "price": 185.13,
+   "change": 3.98,
+   "change_pct": 2.2,
+   "volume": 296288.0,
+   "previous_close": 181.15,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PM": {
+   "price": 182.5,
+   "change": -1.59,
+   "change_pct": -0.86,
+   "volume": 4088068.0,
+   "previous_close": 184.09,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CVX": {
+   "price": 205.97,
+   "change": -2.4,
+   "change_pct": -1.15,
+   "volume": 4979014.0,
+   "previous_close": 208.37,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "DPZ": {
+   "price": 355.25,
+   "change": 6.64,
+   "change_pct": 1.9,
+   "volume": 287432.0,
+   "previous_close": 348.61,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MOS": {
+   "price": 20.09,
+   "change": 1.43,
+   "change_pct": 7.66,
+   "volume": 5120786.0,
+   "previous_close": 18.66,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EQIX": {
+   "price": 999.4,
+   "change": 31.18,
+   "change_pct": 3.22,
+   "volume": 422030.0,
+   "previous_close": 968.22,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MCO": {
+   "price": 477.5,
+   "change": 6.69,
+   "change_pct": 1.42,
+   "volume": 871164.0,
+   "previous_close": 470.81,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KLAC": {
+   "price": 145.85,
+   "change": 18.98,
+   "change_pct": 14.96,
+   "volume": 9423280.0,
+   "previous_close": 126.87,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "COHR": {
+   "price": 217.74,
+   "change": 30.52,
+   "change_pct": 16.3,
+   "volume": 9653831.0,
+   "previous_close": 187.22,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NOC": {
+   "price": 542.14,
+   "change": 7.83,
+   "change_pct": 1.47,
+   "volume": 388019.0,
+   "previous_close": 534.31,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AXON": {
+   "price": 307.6,
+   "change": 16.46,
+   "change_pct": 5.65,
+   "volume": 676377.0,
+   "previous_close": 291.14,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BA": {
+   "price": 162.7,
+   "change": 6.81,
+   "change_pct": 4.37,
+   "volume": 5820304.0,
+   "previous_close": 155.89,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "INCY": {
+   "price": 117.35,
+   "change": 2.725,
+   "change_pct": 2.38,
+   "volume": 807823.0,
+   "previous_close": 114.625,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LITE": {
+   "price": 547.73,
+   "change": 87.19,
+   "change_pct": 18.93,
+   "volume": 4948884.0,
+   "previous_close": 460.54,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SHW": {
+   "price": 349.47,
+   "change": 9.73,
+   "change_pct": 2.86,
+   "volume": 1171531.0,
+   "previous_close": 339.74,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VRSK": {
+   "price": 199.91,
+   "change": -2.18,
+   "change_pct": -1.08,
+   "volume": 736722.0,
+   "previous_close": 202.09,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VRT": {
+   "price": 186.0,
+   "change": 19.76,
+   "change_pct": 11.89,
+   "volume": 8294266.0,
+   "previous_close": 166.24,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MSFT": {
+   "price": 492.7,
+   "change": 8.18,
+   "change_pct": 1.69,
+   "volume": 17904417.0,
+   "previous_close": 484.52,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FAST": {
+   "price": 52.06,
+   "change": 1.45,
+   "change_pct": 2.87,
+   "volume": 6246154.0,
+   "previous_close": 50.61,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WSM": {
+   "price": 212.13,
+   "change": 1.43,
+   "change_pct": 0.68,
+   "volume": 1239567.0,
+   "previous_close": 210.7,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "COIN": {
+   "price": 109.24,
+   "change": 7.27,
+   "change_pct": 7.13,
+   "volume": 8075985.0,
+   "previous_close": 101.97,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GE": {
+   "price": 321.26,
+   "change": 11.64,
+   "change_pct": 3.76,
+   "volume": 2770586.0,
+   "previous_close": 309.62,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MTD": {
+   "price": 1725.52,
+   "change": 58.64,
+   "change_pct": 3.52,
+   "volume": 66532.0,
+   "previous_close": 1666.88,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EBAY": {
+   "price": 117.64,
+   "change": 2.05,
+   "change_pct": 1.77,
+   "volume": 2545257.0,
+   "previous_close": 115.59,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ERIE": {
+   "price": 263.64,
+   "change": -8.79,
+   "change_pct": -3.23,
+   "volume": 72065.0,
+   "previous_close": 272.43,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BRO": {
+   "price": 72.73,
+   "change": -0.34,
+   "change_pct": -0.47,
+   "volume": 1062999.0,
+   "previous_close": 73.07,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "REG": {
+   "price": 73.73,
+   "change": 0.09,
+   "change_pct": 0.12,
+   "volume": 1004023.0,
+   "previous_close": 73.64,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "BE": {
+   "price": 169.41,
+   "change": 27.02,
+   "change_pct": 18.98,
+   "volume": 18899605.0,
+   "previous_close": 142.39,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ODFL": {
+   "price": 171.27,
+   "change": 3.18,
+   "change_pct": 1.89,
+   "volume": 1145069.0,
+   "previous_close": 168.09,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "STE": {
+   "price": 256.91,
+   "change": 1.15,
+   "change_pct": 0.45,
+   "volume": 420385.0,
+   "previous_close": 255.76,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "APA": {
+   "price": 44.06,
+   "change": -0.97,
+   "change_pct": -2.15,
+   "volume": 4638298.0,
+   "previous_close": 45.03,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "IVZ": {
+   "price": 28.3647,
+   "change": 1.8547,
+   "change_pct": 7.0,
+   "volume": 4087157.0,
+   "previous_close": 26.51,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VTR": {
+   "price": 87.01,
+   "change": 0.46,
+   "change_pct": 0.53,
+   "volume": 2061666.0,
+   "previous_close": 86.55,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KO": {
+   "price": 95.88,
+   "change": -1.11,
+   "change_pct": -1.14,
+   "volume": 17087357.0,
+   "previous_close": 96.99,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ECL": {
+   "price": 305.91,
+   "change": 11.21,
+   "change_pct": 3.8,
+   "volume": 772717.0,
+   "previous_close": 294.7,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TKO": {
+   "price": 185.14,
+   "change": 7.15,
+   "change_pct": 4.02,
+   "volume": 657299.0,
+   "previous_close": 177.99,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AEE": {
+   "price": 112.81,
+   "change": 0.88,
+   "change_pct": 0.79,
+   "volume": 618967.0,
+   "previous_close": 111.93,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ES": {
+   "price": 71.45,
+   "change": 0.41,
+   "change_pct": 0.58,
+   "volume": 2095627.0,
+   "previous_close": 71.04,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VTRS": {
+   "price": 19.65,
+   "change": 0.14,
+   "change_pct": 0.72,
+   "volume": 6575503.0,
+   "previous_close": 19.51,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MCD": {
+   "price": 276.38,
+   "change": 3.14,
+   "change_pct": 1.15,
+   "volume": 1909823.0,
+   "previous_close": 273.24,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MNST": {
+   "price": 42.6046,
+   "change": -1.0854,
+   "change_pct": -2.48,
+   "volume": 11508259.0,
+   "previous_close": 43.69,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CRL": {
+   "price": 347.38,
+   "change": 33.06,
+   "change_pct": 10.52,
+   "volume": 827449.0,
+   "previous_close": 314.32,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FFIV": {
+   "price": 321.26,
+   "change": 17.27,
+   "change_pct": 5.68,
+   "volume": 381820.0,
+   "previous_close": 303.99,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "GWW": {
+   "price": 1390.12,
+   "change": 32.77,
+   "change_pct": 2.41,
+   "volume": 196027.0,
+   "previous_close": 1357.35,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "CF": {
+   "price": 115.96,
+   "change": 0.43,
+   "change_pct": 0.37,
+   "volume": 967844.0,
+   "previous_close": 115.53,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HPQ": {
+   "price": 28.5687,
+   "change": 0.6087,
+   "change_pct": 2.18,
+   "volume": 8060944.0,
+   "previous_close": 27.96,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "HD": {
+   "price": 346.0847,
+   "change": 7.0447,
+   "change_pct": 2.08,
+   "volume": 2405497.0,
+   "previous_close": 339.04,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "AMD": {
+   "price": 453.46,
+   "change": 29.07,
+   "change_pct": 6.85,
+   "volume": 41837041.0,
+   "previous_close": 424.39,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "VRSN": {
+   "price": 313.95,
+   "change": 7.08,
+   "change_pct": 2.31,
+   "volume": 559133.0,
+   "previous_close": 306.87,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ARE": {
+   "price": 41.63,
+   "change": 1.43,
+   "change_pct": 3.56,
+   "volume": 1587953.0,
+   "previous_close": 40.2,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "IT": {
+   "price": 175.8,
+   "change": 1.31,
+   "change_pct": 0.75,
+   "volume": 628100.0,
+   "previous_close": 174.49,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SKYD": {
+   "price": 6.3377,
+   "change": 0.1377,
+   "change_pct": 2.22,
+   "volume": 8775442.0,
+   "previous_close": 6.2,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FISV": {
+   "price": 57.02,
+   "change": 1.14,
+   "change_pct": 2.04,
+   "volume": 2620340.0,
+   "previous_close": 55.88,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "TXN": {
+   "price": 291.03,
+   "change": 27.28,
+   "change_pct": 10.34,
+   "volume": 5932469.0,
+   "previous_close": 263.75,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "SRE": {
+   "price": 77.72,
+   "change": 1.56,
+   "change_pct": 2.05,
+   "volume": 2230709.0,
+   "previous_close": 76.16,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PPL": {
+   "price": 35.091,
+   "change": 0.441,
+   "change_pct": 1.27,
+   "volume": 5052006.0,
+   "previous_close": 34.65,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "STLD": {
+   "price": 215.52,
+   "change": 9.56,
+   "change_pct": 4.64,
+   "volume": 568561.0,
+   "previous_close": 205.96,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "NWS": {
+   "price": 28.29,
+   "change": 0.42,
+   "change_pct": 1.51,
+   "volume": 604295.0,
+   "previous_close": 27.87,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "INTU": {
+   "price": 275.89,
+   "change": 5.45,
+   "change_pct": 2.02,
+   "volume": 3035463.0,
+   "previous_close": 270.44,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "IEX": {
+   "price": 227.92,
+   "change": 8.28,
+   "change_pct": 3.77,
+   "volume": 695989.0,
+   "previous_close": 219.64,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PKG": {
+   "price": 237.86,
+   "change": 3.68,
+   "change_pct": 1.57,
+   "volume": 263332.0,
+   "previous_close": 234.18,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "REGN": {
+   "price": 942.24,
+   "change": 19.84,
+   "change_pct": 2.15,
+   "volume": 878261.0,
+   "previous_close": 922.4,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "LULU": {
+   "price": 104.63,
+   "change": 2.01,
+   "change_pct": 1.96,
+   "volume": 1602322.0,
+   "previous_close": 102.62,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "EXPE": {
+   "price": 239.46,
+   "change": 4.5,
+   "change_pct": 1.92,
+   "volume": 954162.0,
+   "previous_close": 234.96,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "KEYS": {
+   "price": 289.63,
+   "change": 28.12,
+   "change_pct": 10.75,
+   "volume": 1944977.0,
+   "previous_close": 261.51,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ILMN": {
+   "price": 205.3378,
+   "change": 12.5178,
+   "change_pct": 6.49,
+   "volume": 846016.0,
+   "previous_close": 192.82,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WELL": {
+   "price": 240.93,
+   "change": 0.59,
+   "change_pct": 0.25,
+   "volume": 1902747.0,
+   "previous_close": 240.34,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "JNJ": {
+   "price": 269.525,
+   "change": -0.945,
+   "change_pct": -0.35,
+   "volume": 5146870.0,
+   "previous_close": 270.47,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "ZBRA": {
+   "price": 320.22,
+   "change": 18.69,
+   "change_pct": 6.2,
+   "volume": 281767.0,
+   "previous_close": 301.53,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "FOX": {
+   "price": 57.33,
+   "change": 1.19,
+   "change_pct": 2.12,
+   "volume": 432817.0,
+   "previous_close": 56.14,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "IRM": {
+   "price": 107.0,
+   "change": 4.78,
+   "change_pct": 4.68,
+   "volume": 1166672.0,
+   "previous_close": 102.22,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "F": {
+   "price": 11.64,
+   "change": 0.47,
+   "change_pct": 4.21,
+   "volume": 39957282.0,
+   "previous_close": 11.17,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "PRU": {
+   "price": 119.46,
+   "change": 1.73,
+   "change_pct": 1.47,
+   "volume": 1136048.0,
+   "previous_close": 117.73,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "MLM": {
+   "price": 521.31,
+   "change": 20.57,
+   "change_pct": 4.11,
+   "volume": 508507.0,
+   "previous_close": 500.74,
+   "market_status": "After Hours",
+   "session": "2026-11-23"
+  },
+  "WMB": {
+   "price": 65.43,
+   "change": 1.12,
+   "change_pct": 1.74,
+   "volume": 5327522.0,
+   "previous_close": 64.31,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "CMI": {
@@ -3670,466 +4336,142 @@
    "change_pct": 0.84,
    "volume": 2232009.0,
    "previous_close": 418.99,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "MCD": {
-   "price": 276.53,
-   "change": 3.29,
-   "change_pct": 1.2,
-   "volume": 2030331.0,
-   "previous_close": 273.24,
-   "market_status": "Market Open",
+  "ESS": {
+   "price": 272.34,
+   "change": 2.69,
+   "change_pct": 1.0,
+   "volume": 196202.0,
+   "previous_close": 269.65,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ADBE": {
-   "price": 224.21,
-   "change": 6.5,
-   "change_pct": 2.99,
-   "volume": 2398896.0,
-   "previous_close": 217.71,
-   "market_status": "Market Open",
+  "AEP": {
+   "price": 127.19,
+   "change": 2.05,
+   "change_pct": 1.64,
+   "volume": 1350091.0,
+   "previous_close": 125.14,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "PSX": {
-   "price": 237.07,
-   "change": -2.26,
-   "change_pct": -0.94,
-   "volume": 1546633.0,
-   "previous_close": 239.33,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AJG": {
-   "price": 276.32,
-   "change": -2.94,
-   "change_pct": -1.05,
-   "volume": 1059217.0,
-   "previous_close": 279.26,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DHR": {
-   "price": 226.34,
-   "change": 5.98,
-   "change_pct": 2.71,
-   "volume": 2486178.0,
-   "previous_close": 220.36,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VZ": {
-   "price": 46.42,
-   "change": -0.06,
-   "change_pct": -0.13,
-   "volume": 12371074.0,
-   "previous_close": 46.48,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ODFL": {
-   "price": 171.69,
-   "change": 3.6,
-   "change_pct": 2.14,
-   "volume": 1085191.0,
-   "previous_close": 168.09,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VLO": {
-   "price": 331.3,
-   "change": -2.88,
-   "change_pct": -0.86,
-   "volume": 1792110.0,
-   "previous_close": 334.18,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CCI": {
-   "price": 81.3099,
-   "change": -1.0901,
-   "change_pct": -1.32,
-   "volume": 1591914.0,
-   "previous_close": 82.4,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FIX": {
-   "price": 1165.03,
-   "change": 122.56,
-   "change_pct": 11.76,
-   "volume": 561237.0,
-   "previous_close": 1042.47,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SPGI": {
-   "price": 452.0,
-   "change": 12.43,
-   "change_pct": 2.83,
-   "volume": 872726.0,
-   "previous_close": 439.57,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "RSG": {
-   "price": 246.66,
-   "change": 0.07,
-   "change_pct": 0.03,
-   "volume": 905386.0,
-   "previous_close": 246.59,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VRSK": {
-   "price": 199.455,
-   "change": -2.635,
-   "change_pct": -1.3,
-   "volume": 705252.0,
-   "previous_close": 202.09,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LULU": {
-   "price": 105.22,
-   "change": 2.6,
-   "change_pct": 2.53,
-   "volume": 1740929.0,
-   "previous_close": 102.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "V": {
-   "price": 409.875,
-   "change": 8.005,
-   "change_pct": 1.99,
-   "volume": 4155732.0,
-   "previous_close": 401.87,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SWK": {
-   "price": 110.2575,
-   "change": 3.6375,
-   "change_pct": 3.41,
-   "volume": 913345.0,
-   "previous_close": 106.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BLK": {
-   "price": 1149.982,
-   "change": 48.262,
-   "change_pct": 4.38,
-   "volume": 368099.0,
-   "previous_close": 1101.72,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TRGP": {
-   "price": 277.515,
-   "change": -0.785,
-   "change_pct": -0.28,
-   "volume": 482689.0,
-   "previous_close": 278.3,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WY": {
-   "price": 19.68,
-   "change": 0.09,
-   "change_pct": 0.46,
-   "volume": 5347759.0,
-   "previous_close": 19.59,
-   "market_status": "Market Open",
+  "FRT": {
+   "price": 110.54,
+   "change": 0.27,
+   "change_pct": 0.24,
+   "volume": 494133.0,
+   "previous_close": 110.27,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "TSN": {
-   "price": 62.81,
-   "change": -2.31,
-   "change_pct": -3.55,
-   "volume": 2400743.0,
+   "price": 62.9202,
+   "change": -2.1998,
+   "change_pct": -3.38,
+   "volume": 2249315.0,
    "previous_close": 65.12,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "AMCR": {
-   "price": 43.465,
-   "change": 1.115,
-   "change_pct": 2.63,
-   "volume": 2275284.0,
-   "previous_close": 42.35,
-   "market_status": "Market Open",
+  "TXT": {
+   "price": 81.4786,
+   "change": 1.8586,
+   "change_pct": 2.33,
+   "volume": 933759.0,
+   "previous_close": 79.62,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "HRL": {
-   "price": 23.075,
-   "change": -0.465,
-   "change_pct": -1.98,
-   "volume": 2550977.0,
-   "previous_close": 23.54,
-   "market_status": "Market Open",
+  "TMO": {
+   "price": 688.08,
+   "change": 18.54,
+   "change_pct": 2.77,
+   "volume": 1023313.0,
+   "previous_close": 669.54,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "ERIE": {
-   "price": 269.38,
-   "change": -3.05,
-   "change_pct": -1.12,
-   "volume": 67943.0,
-   "previous_close": 272.43,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CI": {
-   "price": 270.94,
-   "change": 0.04,
-   "change_pct": 0.01,
-   "volume": 1082910.0,
-   "previous_close": 270.9,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HCA": {
-   "price": 482.5,
-   "change": 6.93,
-   "change_pct": 1.46,
-   "volume": 785654.0,
-   "previous_close": 475.57,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BXP": {
-   "price": 61.395,
-   "change": 0.155,
-   "change_pct": 0.25,
-   "volume": 580359.0,
-   "previous_close": 61.24,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CHTR": {
-   "price": 127.235,
-   "change": -1.495,
-   "change_pct": -1.16,
-   "volume": 1965377.0,
-   "previous_close": 128.73,
-   "market_status": "Market Open",
+  "AMT": {
+   "price": 179.31,
+   "change": -4.9,
+   "change_pct": -2.66,
+   "volume": 1714780.0,
+   "previous_close": 184.21,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "MAA": {
-   "price": 112.855,
-   "change": -0.055,
-   "change_pct": -0.05,
-   "volume": 799851.0,
+   "price": 113.19,
+   "change": 0.28,
+   "change_pct": 0.25,
+   "volume": 720798.0,
    "previous_close": 112.91,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "NKE": {
-   "price": 33.81,
-   "change": 0.89,
-   "change_pct": 2.7,
-   "volume": 20595004.0,
-   "previous_close": 32.92,
-   "market_status": "Market Open",
+  "ADP": {
+   "price": 302.11,
+   "change": 0.4,
+   "change_pct": 0.13,
+   "volume": 890988.0,
+   "previous_close": 301.71,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "PNW": {
-   "price": 101.895,
-   "change": 0.615,
-   "change_pct": 0.61,
-   "volume": 934011.0,
-   "previous_close": 101.28,
-   "market_status": "Market Open",
+  "XYZ": {
+   "price": 73.24,
+   "change": 3.58,
+   "change_pct": 5.14,
+   "volume": 5781253.0,
+   "previous_close": 69.66,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "PWR": {
-   "price": 610.15,
-   "change": 51.12,
-   "change_pct": 9.14,
-   "volume": 1321377.0,
-   "previous_close": 559.03,
-   "market_status": "Market Open",
+  "FTV": {
+   "price": 65.73,
+   "change": 1.57,
+   "change_pct": 2.45,
+   "volume": 999042.0,
+   "previous_close": 64.16,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "KIM": {
-   "price": 25.425,
-   "change": 0.055,
-   "change_pct": 0.22,
-   "volume": 3253336.0,
-   "previous_close": 25.37,
-   "market_status": "Market Open",
+  "HBAN": {
+   "price": 14.72,
+   "change": 0.44,
+   "change_pct": 3.08,
+   "volume": 16486375.0,
+   "previous_close": 14.28,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "SMCI": {
-   "price": 24.7155,
-   "change": 3.0655,
-   "change_pct": 14.16,
-   "volume": 52060929.0,
-   "previous_close": 21.65,
-   "market_status": "Market Open",
+  "HII": {
+   "price": 286.57,
+   "change": 6.23,
+   "change_pct": 2.22,
+   "volume": 154816.0,
+   "previous_close": 280.34,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "JKHY": {
-   "price": 171.62,
-   "change": 0.3,
-   "change_pct": 0.18,
-   "volume": 305066.0,
-   "previous_close": 171.32,
-   "market_status": "Market Open",
+  "VST": {
+   "price": 124.1,
+   "change": 8.85,
+   "change_pct": 7.68,
+   "volume": 3939841.0,
+   "previous_close": 115.25,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "PODD": {
-   "price": 133.07,
-   "change": -0.1,
-   "change_pct": -0.08,
-   "volume": 1135435.0,
-   "previous_close": 133.17,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NCLH": {
-   "price": 17.055,
-   "change": 1.065,
-   "change_pct": 6.66,
-   "volume": 10983192.0,
-   "previous_close": 15.99,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AFL": {
-   "price": 125.02,
-   "change": 0.7,
-   "change_pct": 0.56,
-   "volume": 636753.0,
-   "previous_close": 124.32,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MDLZ": {
-   "price": 66.3445,
-   "change": 0.0645,
-   "change_pct": 0.1,
-   "volume": 5352755.0,
-   "previous_close": 66.28,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SCHW": {
-   "price": 92.53,
-   "change": 2.37,
-   "change_pct": 2.63,
-   "volume": 6386962.0,
-   "previous_close": 90.16,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "KDP": {
-   "price": 35.465,
-   "change": 0.625,
-   "change_pct": 1.79,
-   "volume": 8263313.0,
-   "previous_close": 34.84,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PLD": {
-   "price": 125.565,
-   "change": 3.065,
-   "change_pct": 2.5,
-   "volume": 2452414.0,
-   "previous_close": 122.5,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "EQIX": {
-   "price": 1002.605,
-   "change": 34.385,
-   "change_pct": 3.55,
-   "volume": 404217.0,
-   "previous_close": 968.22,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VYLR": {
-   "price": 68.365,
-   "change": 0.275,
-   "change_pct": 0.4,
-   "volume": 1883494.0,
-   "previous_close": 68.09,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "CVX": {
-   "price": 205.92,
-   "change": -2.45,
-   "change_pct": -1.18,
-   "volume": 5294051.0,
-   "previous_close": 208.37,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MRNA": {
-   "price": 211.84,
-   "change": 16.84,
-   "change_pct": 8.64,
-   "volume": 6018105.0,
-   "previous_close": 195.0,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DDOG": {
-   "price": 170.55,
-   "change": 13.18,
-   "change_pct": 8.38,
-   "volume": 2525773.0,
-   "previous_close": 157.37,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BG": {
-   "price": 91.67,
-   "change": 0.77,
-   "change_pct": 0.85,
-   "volume": 851545.0,
-   "previous_close": 90.9,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DPZ": {
-   "price": 353.875,
-   "change": 5.265,
-   "change_pct": 1.51,
-   "volume": 311193.0,
-   "previous_close": 348.61,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SYF": {
-   "price": 68.03,
-   "change": 0.27,
-   "change_pct": 0.4,
-   "volume": 3569579.0,
-   "previous_close": 67.76,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GD": {
-   "price": 347.99,
-   "change": 6.49,
-   "change_pct": 1.9,
-   "volume": 516745.0,
-   "previous_close": 341.5,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "WYNN": {
-   "price": 83.685,
-   "change": 3.285,
-   "change_pct": 4.09,
-   "volume": 958690.0,
-   "previous_close": 80.4,
-   "market_status": "Market Open",
+  "PNC": {
+   "price": 217.13,
+   "change": 4.01,
+   "change_pct": 1.88,
+   "volume": 793980.0,
+   "previous_close": 213.12,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
   "AMGN": {
@@ -4138,394 +4480,52 @@
    "change_pct": 0.62,
    "volume": 4942537.0,
    "previous_close": 436.3,
-   "market_status": "Market Open",
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "KHC": {
-   "price": 25.23,
-   "change": -0.16,
-   "change_pct": -0.63,
-   "volume": 11339190.0,
-   "previous_close": 25.39,
-   "market_status": "Market Open",
+  "MSI": {
+   "price": 529.87,
+   "change": 9.66,
+   "change_pct": 1.86,
+   "volume": 540280.0,
+   "previous_close": 520.21,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "MOS": {
-   "price": 19.99,
-   "change": 1.33,
-   "change_pct": 7.13,
-   "volume": 5256811.0,
-   "previous_close": 18.66,
-   "market_status": "Market Open",
+  "RSG": {
+   "price": 247.69,
+   "change": 1.1,
+   "change_pct": 0.45,
+   "volume": 779966.0,
+   "previous_close": 246.59,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "MGM": {
-   "price": 33.735,
-   "change": 1.375,
-   "change_pct": 4.25,
-   "volume": 2695375.0,
-   "previous_close": 32.36,
-   "market_status": "Market Open",
+  "GEN": {
+   "price": 30.04,
+   "change": 0.85,
+   "change_pct": 2.91,
+   "volume": 4516200.0,
+   "previous_close": 29.19,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "DGX": {
-   "price": 263.65,
-   "change": 5.37,
-   "change_pct": 2.08,
-   "volume": 565140.0,
-   "previous_close": 258.28,
-   "market_status": "Market Open",
+  "NVR": {
+   "price": 5530.7013,
+   "change": 62.6613,
+   "change_pct": 1.15,
+   "volume": 33525.0,
+   "previous_close": 5468.04,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   },
-  "TDY": {
-   "price": 630.53,
-   "change": 31.97,
-   "change_pct": 5.34,
-   "volume": 186378.0,
-   "previous_close": 598.56,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PNR": {
-   "price": 69.97,
-   "change": 1.34,
-   "change_pct": 1.95,
-   "volume": 1706264.0,
-   "previous_close": 68.63,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PCAR": {
-   "price": 105.675,
-   "change": 3.475,
-   "change_pct": 3.4,
-   "volume": 1711161.0,
-   "previous_close": 102.2,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FICO": {
-   "price": 720.405,
-   "change": 26.095,
-   "change_pct": 3.76,
-   "volume": 329463.0,
-   "previous_close": 694.31,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DIS": {
-   "price": 120.16,
-   "change": 2.18,
-   "change_pct": 1.85,
-   "volume": 5854352.0,
-   "previous_close": 117.98,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "IEX": {
-   "price": 226.98,
-   "change": 7.34,
-   "change_pct": 3.34,
-   "volume": 662825.0,
-   "previous_close": 219.64,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MSFT": {
-   "price": 497.385,
-   "change": 12.865,
-   "change_pct": 2.66,
-   "volume": 18752669.0,
-   "previous_close": 484.52,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ULTA": {
-   "price": 624.75,
-   "change": 9.01,
-   "change_pct": 1.46,
-   "volume": 239324.0,
-   "previous_close": 615.74,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GPN": {
-   "price": 91.45,
-   "change": -0.38,
-   "change_pct": -0.41,
-   "volume": 2235602.0,
-   "previous_close": 91.83,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BA": {
-   "price": 162.535,
-   "change": 6.645,
-   "change_pct": 4.26,
-   "volume": 6092808.0,
-   "previous_close": 155.89,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "JCI": {
-   "price": 138.74,
-   "change": 8.56,
-   "change_pct": 6.58,
-   "volume": 2973888.0,
-   "previous_close": 130.18,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AKAM": {
-   "price": 89.8,
-   "change": 4.69,
-   "change_pct": 5.51,
-   "volume": 3805895.0,
-   "previous_close": 85.11,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ADI": {
-   "price": 377.01,
-   "change": 31.09,
-   "change_pct": 8.99,
-   "volume": 3904898.0,
-   "previous_close": 345.92,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "GOOGL": {
-   "price": 283.32,
-   "change": 18.03,
-   "change_pct": 6.8,
-   "volume": 31150342.0,
-   "previous_close": 265.29,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "UDR": {
-   "price": 35.635,
-   "change": 0.185,
-   "change_pct": 0.52,
-   "volume": 1121419.0,
-   "previous_close": 35.45,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AZO": {
-   "price": 3292.325,
-   "change": 36.895,
-   "change_pct": 1.13,
-   "volume": 76149.0,
-   "previous_close": 3255.43,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "NEE": {
-   "price": 83.955,
-   "change": 0.505,
-   "change_pct": 0.61,
-   "volume": 7913108.0,
-   "previous_close": 83.45,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "AEP": {
-   "price": 127.05,
-   "change": 1.91,
-   "change_pct": 1.53,
-   "volume": 1426718.0,
-   "previous_close": 125.14,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BBY": {
-   "price": 96.7,
-   "change": -1.25,
-   "change_pct": -1.28,
-   "volume": 5622020.0,
-   "previous_close": 97.95,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BR": {
-   "price": 182.02,
-   "change": 0.61,
-   "change_pct": 0.34,
-   "volume": 412607.0,
-   "previous_close": 181.41,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BIIB": {
-   "price": 256.93,
-   "change": 7.34,
-   "change_pct": 2.94,
-   "volume": 811501.0,
-   "previous_close": 249.59,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "LOW": {
-   "price": 226.835,
-   "change": 5.995,
-   "change_pct": 2.71,
-   "volume": 1908541.0,
-   "previous_close": 220.84,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PPG": {
-   "price": 120.475,
-   "change": 3.355,
-   "change_pct": 2.86,
-   "volume": 504852.0,
-   "previous_close": 117.12,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "TRMB": {
-   "price": 53.89,
-   "change": 3.27,
-   "change_pct": 6.46,
-   "volume": 2437086.0,
-   "previous_close": 50.62,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DLR": {
-   "price": 167.5801,
-   "change": 5.1201,
-   "change_pct": 3.15,
-   "volume": 1928295.0,
-   "previous_close": 162.46,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "APD": {
-   "price": 302.981,
-   "change": 5.891,
-   "change_pct": 1.98,
-   "volume": 502372.0,
-   "previous_close": 297.09,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "PPL": {
-   "price": 35.165,
-   "change": 0.515,
-   "change_pct": 1.49,
-   "volume": 4764029.0,
-   "previous_close": 34.65,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "BKNG": {
-   "price": 145.57,
-   "change": 0.66,
-   "change_pct": 0.46,
-   "volume": 6713955.0,
-   "previous_close": 144.91,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "MU": {
-   "price": 709.526,
-   "change": 115.016,
-   "change_pct": 19.35,
-   "volume": 42037957.0,
-   "previous_close": 594.51,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "VST": {
-   "price": 125.025,
-   "change": 9.775,
-   "change_pct": 8.48,
-   "volume": 3743571.0,
-   "previous_close": 115.25,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FSLR": {
-   "price": 146.25,
-   "change": 8.66,
-   "change_pct": 6.29,
-   "volume": 2303042.0,
-   "previous_close": 137.59,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ES": {
-   "price": 71.285,
-   "change": 0.245,
-   "change_pct": 0.34,
-   "volume": 1990328.0,
-   "previous_close": 71.04,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "HONA": {
-   "price": 154.325,
-   "change": 3.615,
-   "change_pct": 2.4,
-   "volume": 1344860.0,
-   "previous_close": 150.71,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "SW": {
-   "price": 39.41,
-   "change": 1.71,
-   "change_pct": 4.54,
-   "volume": 4573592.0,
-   "previous_close": 37.7,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "UNP": {
-   "price": 289.26,
-   "change": 1.97,
-   "change_pct": 0.69,
-   "volume": 2036593.0,
-   "previous_close": 287.29,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "ETN": {
-   "price": 337.18,
-   "change": 25.85,
-   "change_pct": 8.3,
-   "volume": 2116104.0,
-   "previous_close": 311.33,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DLTR": {
-   "price": 138.11,
-   "change": 0.15,
-   "change_pct": 0.11,
-   "volume": 2640429.0,
-   "previous_close": 137.96,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "DHI": {
-   "price": 147.09,
-   "change": 1.65,
-   "change_pct": 1.13,
-   "volume": 1294987.0,
-   "previous_close": 145.44,
-   "market_status": "Market Open",
-   "session": "2026-11-23"
-  },
-  "FDXF": {
-   "price": 117.38,
-   "change": -1.16,
-   "change_pct": -0.98,
-   "volume": 1064055.0,
-   "previous_close": 118.54,
-   "market_status": "Market Open",
+  "ELV": {
+   "price": 379.55,
+   "change": -14.93,
+   "change_pct": -3.78,
+   "volume": 1607007.0,
+   "previous_close": 394.48,
+   "market_status": "After Hours",
    "session": "2026-11-23"
   }
  },
@@ -4545,7 +4545,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-11-23",
-   "price": 1097.51,
+   "price": 1099.87,
    "yield_pct": 2.73
   },
   {
@@ -4563,7 +4563,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-11-24",
-   "price": 170.82,
+   "price": 170.06,
    "yield_pct": 0.4
   },
   {
@@ -4581,8 +4581,8 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-11-24",
-   "price": 165.93,
-   "yield_pct": 0.71
+   "price": 166.36,
+   "yield_pct": 0.7
   },
   {
    "symbol": "CSX",
@@ -4599,7 +4599,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-11-27",
-   "price": 49.9201,
+   "price": 49.86,
    "yield_pct": 0.28
   },
   {
@@ -4617,7 +4617,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-11-30",
-   "price": 364.89,
+   "price": 364.94,
    "yield_pct": 0.04
   },
   {
@@ -4635,9 +4635,9 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-11-30",
-   "price": 76.89,
+   "price": 76.47,
    "yield_pct": 0.2
   }
  ],
- "market_status": "Market Open"
+ "market_status": "After Hours"
 }
