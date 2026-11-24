@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated_at": "2026-11-24T04:41:05+00:00",
+  "generated_at": "2026-11-24T15:08:19+00:00",
   "period_years": 3,
-  "companies": 63,
+  "companies": 68,
   "errors": {},
   "universe": "Shariah-compliant (KMIALLSHR) members of KSE100, plus Shariah-compliant companies with a cash dividend closing within 30 days",
   "shariah_only": true
@@ -76,7 +76,7 @@
      "weight": 20,
      "reasons": [
       "P/E 3.8",
-      "0.49x the sector median P/E of 7.8"
+      "0.49x the sector median P/E of 7.7"
      ]
     },
     {
@@ -90,11 +90,11 @@
     },
     {
      "name": "price_trend",
-     "score": 4.3,
+     "score": 4.1,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-23.6 points vs KSE-100 over about a year"
+      "-23.9 points vs KSE-100 over about a year"
      ]
     }
    ],
@@ -103,13 +103,13 @@
    ],
    "name": "Sazgar Engineering Works Limited",
    "sector": "AUTOMOBILE ASSEMBLER",
-   "price": 1471.0,
+   "price": 1461.37,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "GHNI",
-   "score": 85.9,
+   "score": 85.8,
    "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
@@ -171,11 +171,11 @@
     },
     {
      "name": "valuation",
-     "score": 81.7,
+     "score": 81.5,
      "weight": 20,
      "reasons": [
       "P/E 6.4",
-      "0.83x the sector median P/E of 7.8"
+      "0.83x the sector median P/E of 7.7"
      ]
     },
     {
@@ -193,20 +193,20 @@
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+41.4 points vs KSE-100 over about a year"
+      "+41.3 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Ghandhara Industries Limited",
    "sector": "AUTOMOBILE ASSEMBLER",
-   "price": 1197.0,
+   "price": 1191.88,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "FFC",
-   "score": 83.8,
+   "score": 83.7,
    "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
@@ -268,11 +268,11 @@
     },
     {
      "name": "valuation",
-     "score": 67.5,
+     "score": 67.3,
      "weight": 20,
      "reasons": [
       "P/E 10.3",
-      "0.93x the sector median P/E of 11.1"
+      "0.93x the sector median P/E of 11.0"
      ]
     },
     {
@@ -286,24 +286,24 @@
     },
     {
      "name": "price_trend",
-     "score": 74.1,
+     "score": 74.6,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-8.8 points vs KSE-100 over about a year"
+      "-8.2 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Fauji Fertilizer Company Limited",
    "sector": "FERTILIZER",
-   "price": 576.0,
+   "price": 573.82,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "FABL",
-   "score": 83.2,
+   "score": 83.5,
    "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
@@ -333,11 +333,11 @@
     },
     {
      "name": "valuation",
-     "score": 70.9,
+     "score": 71.7,
      "weight": 20,
      "reasons": [
       "P/E 6.5",
-      "0.98x the sector median P/E of 6.7"
+      "0.97x the sector median P/E of 6.7"
      ]
     },
     {
@@ -351,11 +351,11 @@
     },
     {
      "name": "price_trend",
-     "score": 82.4,
+     "score": 82.3,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+3.6 points vs KSE-100 over about a year"
+      "+3.5 points vs KSE-100 over about a year"
      ]
     },
     {
@@ -386,13 +386,13 @@
    "red_flags": [],
    "name": "Faysal Bank Limited",
    "sector": "COMMERCIAL BANKS",
-   "price": 94.45,
+   "price": 93.55,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "FHAM",
-   "score": 78.5,
+   "score": 78.4,
    "coverage_pct": 83.8,
    "signal": "BUY",
    "factors": [
@@ -438,11 +438,11 @@
     },
     {
      "name": "price_trend",
-     "score": 1.6,
+     "score": 0.9,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-27.6 points vs KSE-100 over about a year"
+      "-28.6 points vs KSE-100 over about a year"
      ]
     },
     {
@@ -458,6 +458,103 @@
    "name": "First Habib Modaraba",
    "sector": "MODARABAS",
    "price": 28.75,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "ABOT",
+   "score": 77.9,
+   "coverage_pct": 62.0,
+   "signal": "BUY",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 73.1,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 15.2% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 94.7,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 38.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 10.57% vs 6.10% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 70.6,
+     "weight": 20,
+     "reasons": [
+      "P/E 10.8",
+      "0.87x the sector median P/E of 12.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 75.8,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 4.4%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 70.4,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-14.5 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Abbott Laboratories (Pakistan) Limited",
+   "sector": "PHARMACEUTICALS",
+   "price": 1024.26,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -526,11 +623,11 @@
     },
     {
      "name": "valuation",
-     "score": 67.0,
+     "score": 66.9,
      "weight": 20,
      "reasons": [
-      "P/E 7.8",
-      "1.00x the sector median P/E of 7.8"
+      "P/E 7.7",
+      "1.00x the sector median P/E of 7.7"
      ]
     },
     {
@@ -544,49 +641,49 @@
     },
     {
      "name": "price_trend",
-     "score": 69.8,
+     "score": 70.4,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-15.3 points vs KSE-100 over about a year"
+      "-14.4 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Ghandhara Automobiles Limited",
    "sector": "AUTOMOBILE ASSEMBLER",
-   "price": 532.0,
+   "price": 528.78,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
-   "symbol": "GLAXO",
-   "score": 76.0,
+   "symbol": "JDWS",
+   "score": 77.0,
    "coverage_pct": 62.0,
    "signal": "BUY",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 75.9,
+     "score": 92.3,
      "weight": 12,
      "reasons": [
-      "Sales grew 16.3% a year over 3 year(s)"
+      "Sales grew 24.9% a year over 3 year(s)"
      ]
     },
     {
      "name": "earnings_growth",
-     "score": 94.7,
+     "score": 78.6,
      "weight": 8,
      "reasons": [
-      "EPS grew 59.7% a year over 3 year(s)"
+      "EPS grew 18.9% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 100.0,
+     "score": 66.7,
      "weight": 6,
      "reasons": [
-      "Net margin 15.21% vs 5.89% at the start of the period"
+      "Net margin 5.59% vs 6.71% at the start of the period"
      ]
     },
     {
@@ -623,236 +720,42 @@
     },
     {
      "name": "valuation",
-     "score": 78.8,
+     "score": 94.9,
      "weight": 20,
      "reasons": [
-      "P/E 9.7",
-      "0.77x the sector median P/E of 12.6"
+      "P/E 5.2",
+      "0.60x the sector median P/E of 8.6"
      ]
     },
     {
      "name": "dividend",
-     "score": 84.6,
+     "score": 43.0,
      "weight": 10,
      "reasons": [
-      "Dividend yield 6.1%",
+      "Dividend yield 0.5%",
       "Paid a cash dividend in 3 of the last 3 fiscal years on record"
      ]
     },
     {
      "name": "price_trend",
-     "score": 4.1,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-23.8 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "GlaxoSmithKline Pakistan Limited",
-   "sector": "PHARMACEUTICALS",
-   "price": 335.0,
-   "face_value": 10.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "ABOT",
-   "score": 75.3,
-   "coverage_pct": 62.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 73.1,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 15.2% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 94.7,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 38.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 10.57% vs 6.10% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 71.7,
-     "weight": 20,
-     "reasons": [
-      "P/E 10.8",
-      "0.86x the sector median P/E of 12.6"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 75.8,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 4.4%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 40.3,
+     "score": 51.4,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-14.5 points vs KSE-100 over about a year"
+      "+2.1 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "Abbott Laboratories (Pakistan) Limited",
-   "sector": "PHARMACEUTICALS",
-   "price": 1024.0,
-   "face_value": 10.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "GHGL",
-   "score": 74.9,
-   "coverage_pct": 62.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 49.8,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 5.9% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 46.4,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -3.7% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 62.6,
-     "weight": 6,
-     "reasons": [
-      "Net margin 14.94% vs 19.89% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 89.2,
-     "weight": 20,
-     "reasons": [
-      "P/E 5.3",
-      "0.72x the sector median P/E of 7.4"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 100.0,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 10.1%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 85.5,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "+8.3 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Ghani Glass Limited",
-   "sector": "GLASS & CERAMICS",
-   "price": 40.5,
+   "name": "JDW Sugar Mills Limited",
+   "sector": "SUGAR & ALLIED INDUSTRIES",
+   "price": 900.18,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "FCCL",
-   "score": 74.8,
+   "score": 75.9,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -914,11 +817,11 @@
     },
     {
      "name": "valuation",
-     "score": 66.5,
+     "score": 69.5,
      "weight": 20,
      "reasons": [
-      "P/E 8.5",
-      "0.99x the sector median P/E of 8.6"
+      "P/E 8.4",
+      "0.95x the sector median P/E of 8.8"
      ]
     },
     {
@@ -932,49 +835,49 @@
     },
     {
      "name": "price_trend",
-     "score": 83.0,
+     "score": 83.6,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+4.5 points vs KSE-100 over about a year"
+      "+5.4 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Fauji Cement Company Limited",
    "sector": "CEMENT",
-   "price": 61.85,
+   "price": 61.01,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
-   "symbol": "IMAGE",
-   "score": 73.6,
+   "symbol": "GLAXO",
+   "score": 75.8,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 87.6,
+     "score": 75.9,
      "weight": 12,
      "reasons": [
-      "Sales grew 21.8% a year over 3 year(s)"
+      "Sales grew 16.3% a year over 3 year(s)"
      ]
     },
     {
      "name": "earnings_growth",
-     "score": 72.4,
+     "score": 94.7,
      "weight": 8,
      "reasons": [
-      "EPS grew 7.6% a year over 3 year(s)"
+      "EPS grew 59.7% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 97.9,
+     "score": 100.0,
      "weight": 6,
      "reasons": [
-      "Net margin 14.69% vs 10.07% at the start of the period"
+      "Net margin 15.21% vs 5.89% at the start of the period"
      ]
     },
     {
@@ -1011,42 +914,236 @@
     },
     {
      "name": "valuation",
-     "score": 77.5,
+     "score": 78.1,
      "weight": 20,
      "reasons": [
-      "P/E 9.3",
-      "0.81x the sector median P/E of 11.5"
+      "P/E 9.7",
+      "0.79x the sector median P/E of 12.4"
      ]
     },
     {
      "name": "dividend",
-     "score": 73.5,
+     "score": 84.6,
      "weight": 10,
      "reasons": [
-      "Dividend yield 3.9%",
+      "Dividend yield 6.1%",
+      "Paid a cash dividend in 3 of the last 3 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 4.0,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-24.0 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "GlaxoSmithKline Pakistan Limited",
+   "sector": "PHARMACEUTICALS",
+   "price": 335.68,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "TGL",
+   "score": 74.9,
+   "coverage_pct": 50.0,
+   "signal": "INSUFFICIENT_DATA",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Sales figures missing"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 80.9,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 16.8% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 98.7,
+     "weight": 6,
+     "reasons": [
+      "Net margin 13.06% vs 8.86% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 70.9,
+     "weight": 20,
+     "reasons": [
+      "P/E 7.0",
+      "0.97x the sector median P/E of 7.2"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 85.8,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 6.4%",
       "Paid a cash dividend in 2 of the last 2 fiscal years on record"
      ]
     },
     {
      "name": "price_trend",
-     "score": 10.3,
+     "score": 38.2,
      "weight": 6,
      "reasons": [
-      "Price is below its 200-day average",
-      "-14.6 points vs KSE-100 over about a year"
+      "Price is above its 200-day average",
+      "-17.7 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "Image Pakistan Limited",
-   "sector": "APPAREL",
-   "price": 22.0,
+   "name": "Tariq Glass Industries Limited",
+   "sector": "GLASS & CERAMICS",
+   "price": 187.33,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "GHGL",
+   "score": 74.2,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 49.8,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 5.9% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 46.4,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -3.7% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 62.6,
+     "weight": 6,
+     "reasons": [
+      "Net margin 14.94% vs 19.89% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 88.7,
+     "weight": 20,
+     "reasons": [
+      "P/E 5.3",
+      "0.73x the sector median P/E of 7.2"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 100.0,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 10.1%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 80.2,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+0.4 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Ghani Glass Limited",
+   "sector": "GLASS & CERAMICS",
+   "price": 40.35,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "HCAR",
-   "score": 72.9,
+   "score": 72.4,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -1108,11 +1205,11 @@
     },
     {
      "name": "valuation",
-     "score": 85.5,
+     "score": 84.1,
      "weight": 20,
      "reasons": [
-      "P/E 6.0",
-      "0.77x the sector median P/E of 7.8"
+      "P/E 6.1",
+      "0.80x the sector median P/E of 7.7"
      ]
     },
     {
@@ -1130,20 +1227,117 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-37.6 points vs KSE-100 over about a year"
+      "-35.9 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Honda Atlas Cars (Pakistan) Limited",
    "sector": "AUTOMOBILE ASSEMBLER",
-   "price": 205.7,
+   "price": 210.38,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "IMAGE",
+   "score": 72.3,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 87.6,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 21.8% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 72.4,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 7.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 97.9,
+     "weight": 6,
+     "reasons": [
+      "Net margin 14.69% vs 10.07% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 73.5,
+     "weight": 20,
+     "reasons": [
+      "P/E 9.3",
+      "0.87x the sector median P/E of 10.7"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 73.5,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 3.9%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 10.4,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-14.4 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Image Pakistan Limited",
+   "sector": "APPAREL",
+   "price": 21.9,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "MEBL",
-   "score": 71.8,
+   "score": 71.9,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -1173,11 +1367,11 @@
     },
     {
      "name": "valuation",
-     "score": 36.9,
+     "score": 36.6,
      "weight": 20,
      "reasons": [
       "P/E 10.3",
-      "1.53x the sector median P/E of 6.7"
+      "1.54x the sector median P/E of 6.7"
      ]
     },
     {
@@ -1191,11 +1385,11 @@
     },
     {
      "name": "price_trend",
-     "score": 93.2,
+     "score": 94.5,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+19.8 points vs KSE-100 over about a year"
+      "+21.8 points vs KSE-100 over about a year"
      ]
     },
     {
@@ -1226,13 +1420,13 @@
    "red_flags": [],
    "name": "Meezan Bank Limited",
    "sector": "COMMERCIAL BANKS",
-   "price": 549.0,
+   "price": 551.39,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "EFERT",
-   "score": 70.9,
+   "score": 71.1,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -1294,11 +1488,11 @@
     },
     {
      "name": "valuation",
-     "score": 56.0,
+     "score": 56.4,
      "weight": 20,
      "reasons": [
-      "P/E 11.9",
-      "1.07x the sector median P/E of 11.1"
+      "P/E 11.8",
+      "1.07x the sector median P/E of 11.0"
      ]
     },
     {
@@ -1312,24 +1506,24 @@
     },
     {
      "name": "price_trend",
-     "score": 44.0,
+     "score": 43.9,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-9.0 points vs KSE-100 over about a year"
+      "-9.1 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Engro Fertilizers Limited",
    "sector": "FERTILIZER",
-   "price": 219.44,
+   "price": 217.28,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "HUBC",
-   "score": 70.7,
+   "score": 70.8,
    "coverage_pct": 50.0,
    "signal": "INSUFFICIENT_DATA",
    "factors": [
@@ -1391,11 +1585,11 @@
     },
     {
      "name": "valuation",
-     "score": 64.5,
+     "score": 65.2,
      "weight": 20,
      "reasons": [
-      "P/E 11.3",
-      "0.95x the sector median P/E of 11.9"
+      "P/E 11.2",
+      "0.94x the sector median P/E of 11.8"
      ]
     },
     {
@@ -1409,18 +1603,117 @@
     },
     {
      "name": "price_trend",
-     "score": 43.9,
+     "score": 42.6,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-9.2 points vs KSE-100 over about a year"
+      "-11.1 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "The Hub Power Company Limited",
    "sector": "POWER GENERATION & DISTRIBUTION",
-   "price": 214.58,
+   "price": 212.54,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "GADT",
+   "score": 70.3,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 58.6,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 9.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 48.1,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -7.2% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 55.5,
+     "weight": 6,
+     "reasons": [
+      "Net margin 3.46% vs 5.68% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 100.0,
+     "weight": 20,
+     "reasons": [
+      "P/E 2.6",
+      "0.39x the sector median P/E of 6.7"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 54.8,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.7%",
+      "Paid a cash dividend in 1 of the last 1 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 64.8,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-22.8 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [
+    "Unusually low P/E or high dividend yield: check for a recent bonus issue, share split or one-off profit before relying on this score"
+   ],
+   "name": "Gadoon Textile Mills Limited",
+   "sector": "TEXTILE SPINNING",
+   "price": 299.94,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -1489,11 +1782,11 @@
     },
     {
      "name": "valuation",
-     "score": 71.1,
+     "score": 71.2,
      "weight": 20,
      "reasons": [
-      "P/E 5.5",
-      "1.00x the sector median P/E of 5.5"
+      "P/E 5.4",
+      "1.00x the sector median P/E of 5.4"
      ]
     },
     {
@@ -1507,18 +1800,115 @@
     },
     {
      "name": "price_trend",
-     "score": 9.2,
+     "score": 8.7,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-16.3 points vs KSE-100 over about a year"
+      "-17.0 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "S.S.Oil Mills Limited",
    "sector": "VANASPATI & ALLIED INDUSTRIES",
-   "price": 420.95,
+   "price": 415.13,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "SHFA",
+   "score": 69.8,
+   "coverage_pct": 54.0,
+   "signal": "INSUFFICIENT_DATA",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 73.4,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 15.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "EPS figures missing"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 9.22% vs 5.99% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 88.2,
+     "weight": 20,
+     "reasons": [
+      "P/E 10.0",
+      "0.56x the sector median P/E of 17.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 49.3,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.1%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 4.8,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-22.9 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Shifa International Hospitals Limited",
+   "sector": "MISCELLANEOUS",
+   "price": 449.85,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -1586,7 +1976,7 @@
     },
     {
      "name": "valuation",
-     "score": 96.0,
+     "score": 96.1,
      "weight": 20,
      "reasons": [
       "P/E 6.9",
@@ -1608,45 +1998,45 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-18.8 points vs KSE-100 over about a year"
+      "-18.7 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "International Steels Limited",
    "sector": "ENGINEERING",
-   "price": 83.0,
+   "price": 82.9,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
-   "symbol": "SHFA",
-   "score": 69.4,
-   "coverage_pct": 54.0,
-   "signal": "INSUFFICIENT_DATA",
+   "symbol": "HINOON",
+   "score": 69.0,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 73.4,
+     "score": 79.3,
      "weight": 12,
      "reasons": [
-      "Sales grew 15.4% a year over 3 year(s)"
+      "Sales grew 17.7% a year over 3 year(s)"
      ]
     },
     {
      "name": "earnings_growth",
-     "score": null,
+     "score": 84.8,
      "weight": 8,
      "reasons": [
-      "EPS figures missing"
+      "EPS grew 19.4% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 100.0,
+     "score": 77.3,
      "weight": 6,
      "reasons": [
-      "Net margin 9.22% vs 5.99% at the start of the period"
+      "Net margin 15.97% vs 15.28% at the start of the period"
      ]
     },
     {
@@ -1683,36 +2073,36 @@
     },
     {
      "name": "valuation",
-     "score": 87.1,
+     "score": 58.2,
      "weight": 20,
      "reasons": [
-      "P/E 10.0",
-      "0.58x the sector median P/E of 17.1"
+      "P/E 12.6",
+      "1.02x the sector median P/E of 12.4"
      ]
     },
     {
      "name": "dividend",
-     "score": 49.3,
+     "score": 81.0,
      "weight": 10,
      "reasons": [
-      "Dividend yield 1.1%",
+      "Dividend yield 5.4%",
       "Paid a cash dividend in 2 of the last 2 fiscal years on record"
      ]
     },
     {
      "name": "price_trend",
-     "score": 5.0,
+     "score": 34.9,
      "weight": 6,
      "reasons": [
-      "Price is below its 200-day average",
-      "-22.5 points vs KSE-100 over about a year"
+      "Price is above its 200-day average",
+      "-22.6 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "Shifa International Hospitals Limited",
-   "sector": "MISCELLANEOUS",
-   "price": 451.03,
+   "name": "Highnoon Laboratories Limited",
+   "sector": "PHARMACEUTICALS",
+   "price": 974.99,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -1780,11 +2170,11 @@
     },
     {
      "name": "valuation",
-     "score": 60.2,
+     "score": 60.4,
      "weight": 20,
      "reasons": [
-      "P/E 12.4",
-      "0.99x the sector median P/E of 12.6"
+      "P/E 12.2",
+      "0.99x the sector median P/E of 12.4"
      ]
     },
     {
@@ -1798,18 +2188,18 @@
     },
     {
      "name": "price_trend",
-     "score": 3.6,
+     "score": 2.2,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-24.6 points vs KSE-100 over about a year"
+      "-26.7 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Haleon Pakistan Limited",
    "sector": "PHARMACEUTICALS",
-   "price": 692.1,
+   "price": 680.7,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -1877,7 +2267,7 @@
     },
     {
      "name": "valuation",
-     "score": 65.1,
+     "score": 65.0,
      "weight": 20,
      "reasons": [
       "P/E 8.9",
@@ -1899,14 +2289,14 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-45.2 points vs KSE-100 over about a year"
+      "-46.4 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Air Link Communication Limited",
    "sector": "TECHNOLOGY & COMMUNICATION",
-   "price": 110.75,
+   "price": 111.29,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -1974,7 +2364,7 @@
     },
     {
      "name": "valuation",
-     "score": 68.7,
+     "score": 68.8,
      "weight": 20,
      "reasons": [
       "P/E 6.8",
@@ -1992,18 +2382,115 @@
     },
     {
      "name": "price_trend",
-     "score": 87.9,
+     "score": 87.4,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+11.8 points vs KSE-100 over about a year"
+      "+11.1 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Dolmen City REIT",
    "sector": "REAL ESTATE INVESTMENT TRUST",
-   "price": 39.15,
+   "price": 39.03,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "OGDC",
+   "score": 65.7,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 42.0,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 2.8% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 54.2,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 2.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 74.7,
+     "weight": 6,
+     "reasons": [
+      "Net margin 53.96% vs 54.31% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 78.5,
+     "weight": 20,
+     "reasons": [
+      "P/E 5.1",
+      "0.90x the sector median P/E of 5.7"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 76.6,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 4.5%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 58.3,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "+12.5 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Oil & Gas Development Company Limited",
+   "sector": "OIL & GAS EXPLORATION COMPANIES",
+   "price": 311.77,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -2093,7 +2580,7 @@
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+36.8 points vs KSE-100 over about a year"
+      "+37.3 points vs KSE-100 over about a year"
      ]
     }
    ],
@@ -2102,110 +2589,13 @@
    ],
    "name": "Cnergyico PK  Limited",
    "sector": "REFINERY",
-   "price": 11.66,
-   "face_value": 10.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "COLG",
-   "score": 64.9,
-   "coverage_pct": 62.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 62.6,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 11.0% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 92.3,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 21.4% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 90.4,
-     "weight": 6,
-     "reasons": [
-      "Net margin 14.88% vs 11.38% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 45.7,
-     "weight": 20,
-     "reasons": [
-      "P/E 14.8",
-      "1.17x the sector median P/E of 12.6"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 83.4,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 5.8%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 40.7,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-14.0 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Colgate-Palmolive (Pakistan) Limited",
-   "sector": "FOOD & PERSONAL CARE PRODUCTS",
-   "price": 1157.13,
+   "price": 11.65,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "PIBTL",
-   "score": 64.2,
+   "score": 64.3,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -2268,10 +2658,10 @@
     },
     {
      "name": "valuation",
-     "score": 96.6,
+     "score": 96.8,
      "weight": 20,
      "reasons": [
-      "P/E 6.9",
+      "P/E 6.8",
       "0.48x the sector median P/E of 14.2"
      ]
     },
@@ -2285,24 +2675,24 @@
     },
     {
      "name": "price_trend",
-     "score": 4.7,
+     "score": 4.9,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-23.0 points vs KSE-100 over about a year"
+      "-22.7 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Pakistan International Bulk Terminal",
    "sector": "TRANSPORT",
-   "price": 13.7,
+   "price": 13.49,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "CHCC",
-   "score": 63.6,
+   "score": 64.2,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -2364,11 +2754,11 @@
     },
     {
      "name": "valuation",
-     "score": 73.9,
+     "score": 76.3,
      "weight": 20,
      "reasons": [
-      "P/E 7.8",
-      "0.90x the sector median P/E of 8.6"
+      "P/E 7.7",
+      "0.87x the sector median P/E of 8.8"
      ]
     },
     {
@@ -2382,218 +2772,24 @@
     },
     {
      "name": "price_trend",
-     "score": 38.6,
+     "score": 37.0,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-17.2 points vs KSE-100 over about a year"
+      "-19.4 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Cherat Cement Company Limited",
    "sector": "CEMENT",
-   "price": 294.99,
-   "face_value": 10.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "SRVI",
-   "score": 63.1,
-   "coverage_pct": 62.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 0,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -46.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 91.2,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 26.1% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 10.62% vs 0.83% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 70.9,
-     "weight": 20,
-     "reasons": [
-      "P/E 6.5",
-      "0.98x the sector median P/E of 6.7"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 99.1,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 9.8%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 29.1,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "+13.6 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Service Industries Limited",
-   "sector": "LEATHER & TANNERIES",
-   "price": 176.85,
-   "face_value": 1.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "OGDC",
-   "score": 62.9,
-   "coverage_pct": 62.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 42.0,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 2.8% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 54.2,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 2.6% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 74.7,
-     "weight": 6,
-     "reasons": [
-      "Net margin 53.96% vs 54.31% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 78.5,
-     "weight": 20,
-     "reasons": [
-      "P/E 5.1",
-      "0.90x the sector median P/E of 5.7"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 76.6,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 4.5%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 29.5,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "+14.2 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Oil & Gas Development Company Limited",
-   "sector": "OIL & GAS EXPLORATION COMPANIES",
-   "price": 312.2,
+   "price": 291.94,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "DGKC",
-   "score": 62.4,
+   "score": 63.4,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -2656,11 +2852,11 @@
     },
     {
      "name": "valuation",
-     "score": 72.5,
+     "score": 75.5,
      "weight": 20,
      "reasons": [
-      "P/E 7.9",
-      "0.92x the sector median P/E of 8.6"
+      "P/E 7.8",
+      "0.88x the sector median P/E of 8.8"
      ]
     },
     {
@@ -2678,15 +2874,209 @@
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-17.3 points vs KSE-100 over about a year"
+      "-17.2 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "D.G. Khan Cement Company Limited",
    "sector": "CEMENT",
-   "price": 208.99,
+   "price": 205.38,
    "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "COLG",
+   "score": 63.1,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 62.6,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 11.0% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 92.3,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 21.4% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 90.4,
+     "weight": 6,
+     "reasons": [
+      "Net margin 14.88% vs 11.38% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 40.0,
+     "weight": 20,
+     "reasons": [
+      "P/E 15.6",
+      "1.26x the sector median P/E of 12.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 83.4,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 5.8%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 40.9,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-13.6 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Colgate-Palmolive (Pakistan) Limited",
+   "sector": "FOOD & PERSONAL CARE PRODUCTS",
+   "price": 1220.07,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "SRVI",
+   "score": 63.0,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 0,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -46.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 91.2,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 26.1% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 10.62% vs 0.83% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 70.0,
+     "weight": 20,
+     "reasons": [
+      "P/E 6.6",
+      "0.99x the sector median P/E of 6.7"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 99.1,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 9.8%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 30.9,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "+16.3 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Service Industries Limited",
+   "sector": "LEATHER & TANNERIES",
+   "price": 177.71,
+   "face_value": 1.0,
    "in_base_index": true
   },
   {
@@ -2757,7 +3147,7 @@
      "weight": 20,
      "reasons": [
       "P/E 9.6",
-      "0.43x the sector median P/E of 22.2"
+      "0.45x the sector median P/E of 21.5"
      ]
     },
     {
@@ -2774,20 +3164,20 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-45.0 points vs KSE-100 over about a year"
+      "-44.1 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Pak Elektron Limited",
    "sector": "CABLE & ELECTRICAL GOODS",
-   "price": 34.55,
+   "price": 34.58,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "PIOC",
-   "score": 60.6,
+   "score": 61.0,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -2849,11 +3239,11 @@
     },
     {
      "name": "valuation",
-     "score": 66.1,
+     "score": 67.7,
      "weight": 20,
      "reasons": [
-      "P/E 8.5",
-      "0.99x the sector median P/E of 8.6"
+      "P/E 8.6",
+      "0.97x the sector median P/E of 8.8"
      ]
     },
     {
@@ -2867,24 +3257,24 @@
     },
     {
      "name": "price_trend",
-     "score": 36.7,
+     "score": 35.5,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-19.9 points vs KSE-100 over about a year"
+      "-21.8 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Pioneer Cement Limited",
    "sector": "CEMENT",
-   "price": 283.0,
+   "price": 283.56,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "POWER",
-   "score": 60.1,
+   "score": 61.0,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -2947,11 +3337,11 @@
     },
     {
      "name": "valuation",
-     "score": 78.7,
+     "score": 81.0,
      "weight": 20,
      "reasons": [
-      "P/E 7.3",
-      "0.85x the sector median P/E of 8.6"
+      "P/E 7.2",
+      "0.82x the sector median P/E of 8.8"
      ]
     },
     {
@@ -2964,24 +3354,24 @@
     },
     {
      "name": "price_trend",
-     "score": 87.5,
+     "score": 88.7,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+11.3 points vs KSE-100 over about a year"
+      "+13.1 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Power Cement Limited",
    "sector": "CEMENT",
-   "price": 22.25,
+   "price": 22.03,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "ILP",
-   "score": 59.7,
+   "score": 59.8,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -3043,7 +3433,7 @@
     },
     {
      "name": "valuation",
-     "score": 46.0,
+     "score": 46.1,
      "weight": 20,
      "reasons": [
       "P/E 9.7",
@@ -3061,24 +3451,24 @@
     },
     {
      "name": "price_trend",
-     "score": 94.6,
+     "score": 94.9,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+21.9 points vs KSE-100 over about a year"
+      "+22.4 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Interloop Limited",
    "sector": "TEXTILE COMPOSITE",
-   "price": 101.39,
+   "price": 101.36,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "MTL",
-   "score": 59.7,
+   "score": 59.5,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -3140,11 +3530,11 @@
     },
     {
      "name": "valuation",
-     "score": 14.9,
+     "score": 14.0,
      "weight": 20,
      "reasons": [
       "P/E 15.2",
-      "1.95x the sector median P/E of 7.8"
+      "1.98x the sector median P/E of 7.7"
      ]
     },
     {
@@ -3158,24 +3548,121 @@
     },
     {
      "name": "price_trend",
-     "score": 84.2,
+     "score": 85.0,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+6.3 points vs KSE-100 over about a year"
+      "+7.5 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Millat Tractors Limited",
    "sector": "AUTOMOBILE ASSEMBLER",
-   "price": 297.0,
+   "price": 297.96,
    "face_value": 5.0,
    "in_base_index": true
   },
   {
+   "symbol": "PSO",
+   "score": 58.6,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 22.8,
+     "weight": 12,
+     "reasons": [
+      "Sales grew -3.5% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 94.7,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 38.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 0.49% vs 0.17% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 66.5,
+     "weight": 20,
+     "reasons": [
+      "P/E 5.4",
+      "1.08x the sector median P/E of 5.0"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 67.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 2.9%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 0.0,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-30.5 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Pakistan State Oil Company Limited",
+   "sector": "OIL & GAS MARKETING COMPANIES",
+   "price": 358.68,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
    "symbol": "SEARL",
-   "score": 58.4,
+   "score": 58.5,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -3238,11 +3725,11 @@
     },
     {
      "name": "valuation",
-     "score": 59.3,
+     "score": 59.5,
      "weight": 20,
      "reasons": [
-      "P/E 12.6",
-      "1.00x the sector median P/E of 12.6"
+      "P/E 12.4",
+      "1.00x the sector median P/E of 12.4"
      ]
     },
     {
@@ -3260,117 +3747,20 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-30.5 points vs KSE-100 over about a year"
+      "-30.6 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "The Searle Company Limited",
    "sector": "PHARMACEUTICALS",
-   "price": 83.0,
-   "face_value": 10.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "PSO",
-   "score": 58.3,
-   "coverage_pct": 62.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 22.8,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -3.5% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 94.7,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 38.6% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 0.49% vs 0.17% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 65.5,
-     "weight": 20,
-     "reasons": [
-      "P/E 5.4",
-      "1.10x the sector median P/E of 4.9"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 67.2,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 2.9%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 0.2,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-29.7 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Pakistan State Oil Company Limited",
-   "sector": "OIL & GAS MARKETING COMPANIES",
-   "price": 359.6,
+   "price": 81.71,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "SNGP",
-   "score": 58.1,
+   "score": 58.3,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -3432,11 +3822,11 @@
     },
     {
      "name": "valuation",
-     "score": 86.2,
+     "score": 86.7,
      "weight": 20,
      "reasons": [
       "P/E 3.9",
-      "0.80x the sector median P/E of 4.9"
+      "0.79x the sector median P/E of 5.0"
      ]
     },
     {
@@ -3454,7 +3844,7 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-31.7 points vs KSE-100 over about a year"
+      "-32.3 points vs KSE-100 over about a year"
      ]
     }
    ],
@@ -3463,110 +3853,13 @@
    ],
    "name": "Sui Northern Gas Pipelines Limited",
    "sector": "OIL & GAS MARKETING COMPANIES",
-   "price": 91.3,
-   "face_value": 10.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "FATIMA",
-   "score": 56.8,
-   "coverage_pct": 62.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 40.8,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 2.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 93.5,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 28.7% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 17.92% vs 9.01% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 50.5,
-     "weight": 20,
-     "reasons": [
-      "P/E 12.7",
-      "1.14x the sector median P/E of 11.1"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 55.2,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.7%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 20.2,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "+0.4 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Fatima Fertilizer Company Limited",
-   "sector": "FERTILIZER",
-   "price": 146.5,
+   "price": 91.29,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "PPL",
-   "score": 56.8,
+   "score": 56.7,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -3628,7 +3921,7 @@
     },
     {
      "name": "valuation",
-     "score": 68.0,
+     "score": 67.8,
      "weight": 20,
      "reasons": [
       "P/E 5.9",
@@ -3646,24 +3939,121 @@
     },
     {
      "name": "price_trend",
-     "score": 20.8,
+     "score": 20.2,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "+1.2 points vs KSE-100 over about a year"
+      "+0.3 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Pakistan Petroleum Limited",
    "sector": "OIL & GAS EXPLORATION COMPANIES",
-   "price": 223.8,
+   "price": 224.71,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "FATIMA",
+   "score": 56.4,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 40.8,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 2.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 93.5,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 28.7% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 17.92% vs 9.01% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 49.3,
+     "weight": 20,
+     "reasons": [
+      "P/E 12.8",
+      "1.16x the sector median P/E of 11.0"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 55.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.7%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 19.9,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-0.2 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Fatima Fertilizer Company Limited",
+   "sector": "FERTILIZER",
+   "price": 147.7,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "ATRL",
-   "score": 53.7,
+   "score": 53.9,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -3725,11 +4115,11 @@
     },
     {
      "name": "valuation",
-     "score": 68.2,
+     "score": 68.7,
      "weight": 20,
      "reasons": [
       "P/E 2.5",
-      "1.07x the sector median P/E of 2.4"
+      "1.06x the sector median P/E of 2.4"
      ]
     },
     {
@@ -3747,7 +4137,7 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "+25.5 points vs KSE-100 over about a year"
+      "+25.6 points vs KSE-100 over about a year"
      ]
     }
    ],
@@ -3756,207 +4146,13 @@
    ],
    "name": "Attock Refinery Limited",
    "sector": "REFINERY",
-   "price": 925.0,
-   "face_value": 10.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "LUCK",
-   "score": 51.5,
-   "coverage_pct": 62.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 66.3,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 12.5% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 45.6,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -9.6% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 34.15% vs 14.32% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 33.6,
-     "weight": 20,
-     "reasons": [
-      "P/E 13.0",
-      "1.51x the sector median P/E of 8.6"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 50.0,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 1.2%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 43.9,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-9.1 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Lucky Cement Limited",
-   "sector": "CEMENT",
-   "price": 435.8,
-   "face_value": 2.0,
-   "in_base_index": true
-  },
-  {
-   "symbol": "AGP",
-   "score": 51.3,
-   "coverage_pct": 62.0,
-   "signal": "HOLD",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 94.1,
-     "weight": 12,
-     "reasons": [
-      "Sales grew 26.0% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 83.0,
-     "weight": 8,
-     "reasons": [
-      "EPS grew 18.2% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 66.3,
-     "weight": 6,
-     "reasons": [
-      "Net margin 11.49% vs 13.92% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 9.0,
-     "weight": 20,
-     "reasons": [
-      "P/E 23.9",
-      "1.90x the sector median P/E of 12.6"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 79.8,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 5.1%",
-      "Paid a cash dividend in 3 of the last 3 fiscal years on record"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 1.8,
-     "weight": 6,
-     "reasons": [
-      "Price is below its 200-day average",
-      "-27.3 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "AGP Limited",
-   "sector": "PHARMACEUTICALS",
-   "price": 152.76,
+   "price": 918.14,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "MARI",
-   "score": 50.9,
+   "score": 53.8,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -4018,11 +4214,11 @@
     },
     {
      "name": "valuation",
-     "score": 33.9,
+     "score": 34.4,
      "weight": 20,
      "reasons": [
-      "P/E 9.4",
-      "1.66x the sector median P/E of 5.7"
+      "P/E 9.3",
+      "1.65x the sector median P/E of 5.7"
      ]
     },
     {
@@ -4036,24 +4232,218 @@
     },
     {
      "name": "price_trend",
-     "score": 46.5,
+     "score": 74.9,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-5.2 points vs KSE-100 over about a year"
+      "-7.6 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Mari Energies Limited",
    "sector": "OIL & GAS EXPLORATION COMPANIES",
-   "price": 728.55,
+   "price": 724.52,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "LUCK",
+   "score": 52.2,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 66.3,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 12.5% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 45.6,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -9.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 100.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 34.15% vs 14.32% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 35.4,
+     "weight": 20,
+     "reasons": [
+      "P/E 12.9",
+      "1.46x the sector median P/E of 8.8"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 50.0,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.2%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 44.2,
+     "weight": 6,
+     "reasons": [
+      "Price is above its 200-day average",
+      "-8.7 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Lucky Cement Limited",
+   "sector": "CEMENT",
+   "price": 433.68,
+   "face_value": 2.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "AGP",
+   "score": 50.9,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 94.1,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 26.0% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 83.0,
+     "weight": 8,
+     "reasons": [
+      "EPS grew 18.2% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 66.3,
+     "weight": 6,
+     "reasons": [
+      "Net margin 11.49% vs 13.92% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 7.6,
+     "weight": 20,
+     "reasons": [
+      "P/E 24.0",
+      "1.94x the sector median P/E of 12.4"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 79.8,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 5.1%",
+      "Paid a cash dividend in 3 of the last 3 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 2.0,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-27.0 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "AGP Limited",
+   "sector": "PHARMACEUTICALS",
+   "price": 153.13,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "NESTLE",
-   "score": 50.5,
+   "score": 50.2,
    "coverage_pct": 62.0,
    "signal": "HOLD",
    "factors": [
@@ -4115,11 +4505,11 @@
     },
     {
      "name": "valuation",
-     "score": 30.9,
+     "score": 30.0,
      "weight": 20,
      "reasons": [
       "P/E 18.0",
-      "1.43x the sector median P/E of 12.6"
+      "1.45x the sector median P/E of 12.4"
      ]
     },
     {
@@ -4144,7 +4534,104 @@
    "red_flags": [],
    "name": "Nestle Pakistan Limited",
    "sector": "FOOD & PERSONAL CARE PRODUCTS",
-   "price": 6999.73,
+   "price": 7010.16,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "NML",
+   "score": 50.2,
+   "coverage_pct": 62.0,
+   "signal": "HOLD",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 56.5,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 8.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 24.0,
+     "weight": 8,
+     "reasons": [
+      "EPS grew -23.3% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 50.0,
+     "weight": 6,
+     "reasons": [
+      "Net margin 3.02% vs 8.58% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": 67.5,
+     "weight": 20,
+     "reasons": [
+      "P/E 7.5",
+      "1.00x the sector median P/E of 7.5"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 53.2,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 1.5%",
+      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 10.0,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-15.0 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [],
+   "name": "Nishat Mills Limited",
+   "sector": "TEXTILE COMPOSITE",
+   "price": 133.9,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -4212,11 +4699,11 @@
     },
     {
      "name": "valuation",
-     "score": 18.8,
+     "score": 18.3,
      "weight": 20,
      "reasons": [
-      "P/E 15.7",
-      "1.83x the sector median P/E of 8.6"
+      "P/E 16.2",
+      "1.83x the sector median P/E of 8.8"
      ]
     },
     {
@@ -4230,18 +4717,18 @@
     },
     {
      "name": "price_trend",
-     "score": 63.8,
+     "score": 65.6,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-24.3 points vs KSE-100 over about a year"
+      "-21.5 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Thatta Cement Company Limited",
    "sector": "CEMENT",
-   "price": 74.61,
+   "price": 76.7,
    "face_value": 2.0,
    "in_base_index": true
   },
@@ -4309,7 +4796,7 @@
     },
     {
      "name": "valuation",
-     "score": 63.2,
+     "score": 63.4,
      "weight": 20,
      "reasons": [
       "P/E 9.8",
@@ -4331,45 +4818,45 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-48.8 points vs KSE-100 over about a year"
+      "-48.9 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Lucky Core Industries Limited",
    "sector": "CHEMICAL",
-   "price": 186.5,
+   "price": 185.79,
    "face_value": 2.0,
    "in_base_index": true
   },
   {
-   "symbol": "NML",
-   "score": 50.1,
+   "symbol": "KOHC",
+   "score": 47.5,
    "coverage_pct": 62.0,
-   "signal": "HOLD",
+   "signal": "SELL",
    "factors": [
     {
      "name": "revenue_growth",
-     "score": 56.5,
+     "score": 33.8,
      "weight": 12,
      "reasons": [
-      "Sales grew 8.6% a year over 3 year(s)"
+      "Sales grew -0.3% a year over 3 year(s)"
      ]
     },
     {
      "name": "earnings_growth",
-     "score": 24.0,
+     "score": 29.3,
      "weight": 8,
      "reasons": [
-      "EPS grew -23.3% a year over 3 year(s)"
+      "EPS grew -26.2% a year over 3 year(s)"
      ]
     },
     {
      "name": "profitability",
-     "score": 50.0,
+     "score": 100.0,
      "weight": 6,
      "reasons": [
-      "Net margin 3.02% vs 8.58% at the start of the period"
+      "Net margin 27.76% vs 14.96% at the start of the period"
      ]
     },
     {
@@ -4406,37 +4893,36 @@
     },
     {
      "name": "valuation",
-     "score": 67.6,
+     "score": 73.5,
      "weight": 20,
      "reasons": [
-      "P/E 7.5",
-      "1.00x the sector median P/E of 7.5"
+      "P/E 8.0",
+      "0.90x the sector median P/E of 8.8"
      ]
     },
     {
      "name": "dividend",
-     "score": 53.2,
+     "score": 0.0,
      "weight": 10,
      "reasons": [
-      "Dividend yield 1.5%",
-      "Paid a cash dividend in 2 of the last 2 fiscal years on record"
+      "Dividend yield 0.0%"
      ]
     },
     {
      "name": "price_trend",
-     "score": 8.9,
+     "score": 39.0,
      "weight": 6,
      "reasons": [
-      "Price is below its 200-day average",
-      "-16.6 points vs KSE-100 over about a year"
+      "Price is above its 200-day average",
+      "-16.5 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
-   "name": "Nishat Mills Limited",
-   "sector": "TEXTILE COMPOSITE",
-   "price": 133.55,
-   "face_value": 10.0,
+   "name": "Kohat Cement Company Limited",
+   "sector": "CEMENT",
+   "price": 95.92,
+   "face_value": 2.0,
    "in_base_index": true
   },
   {
@@ -4503,11 +4989,11 @@
     },
     {
      "name": "valuation",
-     "score": 82.7,
+     "score": 82.2,
      "weight": 20,
      "reasons": [
-      "P/E 7.5",
-      "0.77x the sector median P/E of 9.8"
+      "P/E 7.6",
+      "0.78x the sector median P/E of 9.8"
      ]
     },
     {
@@ -4521,11 +5007,11 @@
     },
     {
      "name": "price_trend",
-     "score": 6.5,
+     "score": 7.6,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-20.2 points vs KSE-100 over about a year"
+      "-18.6 points vs KSE-100 over about a year"
      ]
     }
    ],
@@ -4534,111 +5020,15 @@
    ],
    "name": "Lotte Chemical Pakistan Limited",
    "sector": "CHEMICAL",
-   "price": 25.6,
+   "price": 25.83,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
-   "symbol": "KOHC",
-   "score": 47.0,
-   "coverage_pct": 62.0,
-   "signal": "SELL",
-   "factors": [
-    {
-     "name": "revenue_growth",
-     "score": 33.8,
-     "weight": 12,
-     "reasons": [
-      "Sales grew -0.3% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "earnings_growth",
-     "score": 29.3,
-     "weight": 8,
-     "reasons": [
-      "EPS grew -26.2% a year over 3 year(s)"
-     ]
-    },
-    {
-     "name": "profitability",
-     "score": 100.0,
-     "weight": 6,
-     "reasons": [
-      "Net margin 27.76% vs 14.96% at the start of the period"
-     ]
-    },
-    {
-     "name": "cash_flow_quality",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs cash flow statement data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "cash_conversion_cycle",
-     "score": null,
-     "weight": 8,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "debt",
-     "score": null,
-     "weight": 12,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "liquidity",
-     "score": null,
-     "weight": 6,
-     "reasons": [
-      "Needs balance sheet data (not on the free portal page)"
-     ]
-    },
-    {
-     "name": "valuation",
-     "score": 71.8,
-     "weight": 20,
-     "reasons": [
-      "P/E 8.0",
-      "0.93x the sector median P/E of 8.6"
-     ]
-    },
-    {
-     "name": "dividend",
-     "score": 0.0,
-     "weight": 10,
-     "reasons": [
-      "Dividend yield 0.0%"
-     ]
-    },
-    {
-     "name": "price_trend",
-     "score": 40.0,
-     "weight": 6,
-     "reasons": [
-      "Price is above its 200-day average",
-      "-15.0 points vs KSE-100 over about a year"
-     ]
-    }
-   ],
-   "red_flags": [],
-   "name": "Kohat Cement Company Limited",
-   "sector": "CEMENT",
-   "price": 96.0,
-   "face_value": 2.0,
-   "in_base_index": true
-  },
-  {
    "symbol": "JVDC",
-   "score": 46.1,
-   "coverage_pct": 62.0,
-   "signal": "SELL",
+   "score": 46.8,
+   "coverage_pct": 56.0,
+   "signal": "INSUFFICIENT_DATA",
    "factors": [
     {
      "name": "revenue_growth",
@@ -4698,7 +5088,7 @@
     },
     {
      "name": "valuation",
-     "score": 58.0,
+     "score": 57.9,
      "weight": 20,
      "reasons": [
       "P/E 13.4",
@@ -4716,24 +5106,23 @@
     },
     {
      "name": "price_trend",
-     "score": 40.0,
+     "score": null,
      "weight": 6,
      "reasons": [
-      "Price is below its 200-day average",
-      "+70.6 points vs KSE-100 over about a year"
+      "Needs at least 200 days of price history"
      ]
     }
    ],
    "red_flags": [],
    "name": "Javedan Corporation Limited",
    "sector": "PROPERTY",
-   "price": 133.02,
+   "price": 133.34,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "MLCF",
-   "score": 46.0,
+   "score": 46.6,
    "coverage_pct": 62.0,
    "signal": "SELL",
    "factors": [
@@ -4795,11 +5184,11 @@
     },
     {
      "name": "valuation",
-     "score": 26.5,
+     "score": 28.6,
      "weight": 20,
      "reasons": [
-      "P/E 14.3",
-      "1.66x the sector median P/E of 8.6"
+      "P/E 14.2",
+      "1.60x the sector median P/E of 8.8"
      ]
     },
     {
@@ -4812,24 +5201,24 @@
     },
     {
      "name": "price_trend",
-     "score": 75.2,
+     "score": 74.9,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-7.2 points vs KSE-100 over about a year"
+      "-7.6 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Maple Leaf Cement Factory Limited",
    "sector": "CEMENT",
-   "price": 108.7,
+   "price": 107.79,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "PKGS",
-   "score": 45.9,
+   "score": 46.5,
    "coverage_pct": 50.0,
    "signal": "INSUFFICIENT_DATA",
    "factors": [
@@ -4889,11 +5278,11 @@
     },
     {
      "name": "valuation",
-     "score": 36.6,
+     "score": 37.9,
      "weight": 20,
      "reasons": [
-      "P/E 17.6",
-      "1.28x the sector median P/E of 13.7"
+      "P/E 17.5",
+      "1.26x the sector median P/E of 13.9"
      ]
     },
     {
@@ -4907,24 +5296,24 @@
     },
     {
      "name": "price_trend",
-     "score": 3.5,
+     "score": 3.7,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-24.7 points vs KSE-100 over about a year"
+      "-24.5 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Packages Limited",
    "sector": "PAPER, BOARD & PACKAGING",
-   "price": 633.99,
+   "price": 631.41,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "INIL",
-   "score": 45.2,
+   "score": 44.8,
    "coverage_pct": 62.0,
    "signal": "SELL",
    "factors": [
@@ -4986,11 +5375,11 @@
     },
     {
      "name": "valuation",
-     "score": 43.2,
+     "score": 41.6,
      "weight": 20,
      "reasons": [
-      "P/E 16.0",
-      "1.20x the sector median P/E of 13.4"
+      "P/E 16.3",
+      "1.22x the sector median P/E of 13.4"
      ]
     },
     {
@@ -5004,24 +5393,24 @@
     },
     {
      "name": "price_trend",
-     "score": 1.3,
+     "score": 2.7,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-28.1 points vs KSE-100 over about a year"
+      "-26.0 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "International Industries Limited",
    "sector": "ENGINEERING",
-   "price": 155.0,
+   "price": 157.92,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "KTML",
-   "score": 44.5,
+   "score": 44.6,
    "coverage_pct": 62.0,
    "signal": "SELL",
    "factors": [
@@ -5083,11 +5472,11 @@
     },
     {
      "name": "valuation",
-     "score": 37.1,
+     "score": 37.4,
      "weight": 20,
      "reasons": [
-      "P/E 11.2",
-      "1.49x the sector median P/E of 7.5"
+      "P/E 11.1",
+      "1.48x the sector median P/E of 7.5"
      ]
     },
     {
@@ -5105,20 +5494,20 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-41.8 points vs KSE-100 over about a year"
+      "-40.7 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Kohinoor Textile Mills Limited",
    "sector": "TEXTILE COMPOSITE",
-   "price": 42.5,
+   "price": 42.37,
    "face_value": 2.0,
    "in_base_index": true
   },
   {
    "symbol": "UPFL",
-   "score": 43.1,
+   "score": 42.9,
    "coverage_pct": 42.0,
    "signal": "INSUFFICIENT_DATA",
    "factors": [
@@ -5180,11 +5569,11 @@
     },
     {
      "name": "valuation",
-     "score": 16.4,
+     "score": 16.2,
      "weight": 20,
      "reasons": [
-      "P/E 21.9",
-      "1.74x the sector median P/E of 12.6"
+      "P/E 21.7",
+      "1.75x the sector median P/E of 12.4"
      ]
     },
     {
@@ -5198,24 +5587,24 @@
     },
     {
      "name": "price_trend",
-     "score": 66.2,
+     "score": 65.5,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-20.7 points vs KSE-100 over about a year"
+      "-21.8 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Unilever Pakistan Foods Limited",
    "sector": "FOOD & PERSONAL CARE PRODUCTS",
-   "price": 26519.0,
+   "price": 26247.5,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "PSEL",
-   "score": 41.3,
+   "score": 41.1,
    "coverage_pct": 62.0,
    "signal": "SELL",
    "factors": [
@@ -5281,8 +5670,8 @@
      "score": 0.0,
      "weight": 20,
      "reasons": [
-      "P/E 60.3",
-      "3.52x the sector median P/E of 17.1"
+      "P/E 59.3",
+      "3.33x the sector median P/E of 17.8"
      ]
     },
     {
@@ -5295,24 +5684,24 @@
     },
     {
      "name": "price_trend",
-     "score": 67.6,
+     "score": 64.9,
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "-18.7 points vs KSE-100 over about a year"
+      "-22.7 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Pakistan Services Limited",
    "sector": "MISCELLANEOUS",
-   "price": 1270.0,
+   "price": 1249.19,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "CPHL",
-   "score": 40.9,
+   "score": 40.8,
    "coverage_pct": 62.0,
    "signal": "SELL",
    "factors": [
@@ -5374,11 +5763,11 @@
     },
     {
      "name": "valuation",
-     "score": 31.5,
+     "score": 31.4,
      "weight": 20,
      "reasons": [
-      "P/E 17.8",
-      "1.41x the sector median P/E of 12.6"
+      "P/E 17.6",
+      "1.42x the sector median P/E of 12.4"
      ]
     },
     {
@@ -5396,14 +5785,14 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-32.7 points vs KSE-100 over about a year"
+      "-33.0 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Citi Pharma Ltd.",
    "sector": "PHARMACEUTICALS",
-   "price": 63.29,
+   "price": 62.6,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -5474,8 +5863,8 @@
      "score": 5.6,
      "weight": 20,
      "reasons": [
-      "P/E 23.8",
-      "2.69x the sector median P/E of 8.9"
+      "P/E 23.7",
+      "2.67x the sector median P/E of 8.9"
      ]
     },
     {
@@ -5493,14 +5882,14 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-34.6 points vs KSE-100 over about a year"
+      "-35.0 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Systems Limited",
    "sector": "TECHNOLOGY & COMMUNICATION",
-   "price": 111.1,
+   "price": 110.82,
    "face_value": 2.0,
    "in_base_index": true
   },
@@ -5573,7 +5962,7 @@
      "weight": 20,
      "reasons": [
       "P/E 38.1",
-      "3.02x the sector median P/E of 12.6"
+      "3.08x the sector median P/E of 12.4"
      ]
     },
     {
@@ -5590,14 +5979,112 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-31.0 points vs KSE-100 over about a year"
+      "-30.2 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Fauji Foods Limited",
    "sector": "FOOD & PERSONAL CARE PRODUCTS",
-   "price": 14.85,
+   "price": 14.88,
+   "face_value": 10.0,
+   "in_base_index": true
+  },
+  {
+   "symbol": "BNWM",
+   "score": 28.5,
+   "coverage_pct": 42.0,
+   "signal": "INSUFFICIENT_DATA",
+   "factors": [
+    {
+     "name": "revenue_growth",
+     "score": 54.1,
+     "weight": 12,
+     "reasons": [
+      "Sales grew 7.6% a year over 3 year(s)"
+     ]
+    },
+    {
+     "name": "earnings_growth",
+     "score": 11.3,
+     "weight": 8,
+     "reasons": [
+      "Loss-making across the period",
+      "At least one loss-making year in the period"
+     ]
+    },
+    {
+     "name": "profitability",
+     "score": 62.5,
+     "weight": 6,
+     "reasons": [
+      "Net margin -9.32% vs -33.04% at the start of the period"
+     ]
+    },
+    {
+     "name": "cash_flow_quality",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs cash flow statement data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "cash_conversion_cycle",
+     "score": null,
+     "weight": 8,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "debt",
+     "score": null,
+     "weight": 12,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "liquidity",
+     "score": null,
+     "weight": 6,
+     "reasons": [
+      "Needs balance sheet data (not on the free portal page)"
+     ]
+    },
+    {
+     "name": "valuation",
+     "score": null,
+     "weight": 20,
+     "reasons": [
+      "P/E not available"
+     ]
+    },
+    {
+     "name": "dividend",
+     "score": 0.0,
+     "weight": 10,
+     "reasons": [
+      "Dividend yield 0.0%"
+     ]
+    },
+    {
+     "name": "price_trend",
+     "score": 14.0,
+     "weight": 6,
+     "reasons": [
+      "Price is below its 200-day average",
+      "-9.0 points vs KSE-100 over about a year"
+     ]
+    }
+   ],
+   "red_flags": [
+    "Loss in the latest fiscal year"
+   ],
+   "name": "Bannu Woollen Mills Limited",
+   "sector": "WOOLLEN",
+   "price": 62.85,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -5670,7 +6157,7 @@
      "weight": 20,
      "reasons": [
       "P/E 22.1",
-      "4.51x the sector median P/E of 4.9"
+      "4.43x the sector median P/E of 5.0"
      ]
     },
     {
@@ -5688,14 +6175,14 @@
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-38.4 points vs KSE-100 over about a year"
+      "-39.1 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Sui Southern Gas Company Limited",
    "sector": "OIL & GAS MARKETING COMPANIES",
-   "price": 23.68,
+   "price": 23.63,
    "face_value": 10.0,
    "in_base_index": true
   },
@@ -5767,8 +6254,8 @@
      "score": 0.0,
      "weight": 20,
      "reasons": [
-      "P/E 612.0",
-      "51.60x the sector median P/E of 11.9"
+      "P/E 609.0",
+      "51.44x the sector median P/E of 11.8"
      ]
     },
     {
@@ -5781,24 +6268,24 @@
     },
     {
      "name": "price_trend",
-     "score": 18.2,
+     "score": 18.1,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-2.7 points vs KSE-100 over about a year"
+      "-2.9 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "K-Electric Limited",
    "sector": "POWER GENERATION & DISTRIBUTION",
-   "price": 6.12,
+   "price": 6.09,
    "face_value": 3.5,
    "in_base_index": true
   },
   {
    "symbol": "IBFL",
-   "score": 24.6,
+   "score": 24.5,
    "coverage_pct": 42.0,
    "signal": "INSUFFICIENT_DATA",
    "factors": [
@@ -5876,24 +6363,24 @@
     },
     {
      "name": "price_trend",
-     "score": 36.5,
+     "score": 35.9,
      "weight": 6,
      "reasons": [
       "Price is below its 200-day average",
-      "-20.3 points vs KSE-100 over about a year"
+      "-21.1 points vs KSE-100 over about a year"
      ]
     }
    ],
    "red_flags": [],
    "name": "Ibrahim Fibres Limited",
    "sector": "SYNTHETIC & RAYON",
-   "price": 265.0,
+   "price": 245.53,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "ENGROH",
-   "score": 20.9,
+   "score": 20.8,
    "coverage_pct": 67.6,
    "signal": "STRONG_SELL",
    "factors": [
@@ -5923,11 +6410,11 @@
     },
     {
      "name": "valuation",
-     "score": 0.3,
+     "score": 0.2,
      "weight": 20,
      "reasons": [
-      "P/E 39.2",
-      "5.35x the sector median P/E of 7.3"
+      "P/E 39.4",
+      "5.49x the sector median P/E of 7.2"
      ]
     },
     {
@@ -5944,7 +6431,7 @@
      "weight": 6,
      "reasons": [
       "Price is above its 200-day average",
-      "+33.3 points vs KSE-100 over about a year"
+      "+35.1 points vs KSE-100 over about a year"
      ]
     },
     {
@@ -5959,13 +6446,13 @@
    "red_flags": [],
    "name": "Engro Holdings Limited",
    "sector": "INV. BANKS / INV. COS. / SECURITIES COS.",
-   "price": 306.61,
+   "price": 308.23,
    "face_value": 10.0,
    "in_base_index": true
   },
   {
    "symbol": "TPLRF1",
-   "score": 6.8,
+   "score": 15.2,
    "coverage_pct": 22.0,
    "signal": "INSUFFICIENT_DATA",
    "factors": [
@@ -6043,11 +6530,11 @@
     },
     {
      "name": "price_trend",
-     "score": 0.0,
+     "score": 30.6,
      "weight": 6,
      "reasons": [
-      "Price is below its 200-day average",
-      "-34.8 points vs KSE-100 over about a year"
+      "Price is above its 200-day average",
+      "-29.0 points vs KSE-100 over about a year"
      ]
     }
    ],
@@ -6056,7 +6543,7 @@
    ],
    "name": "TPL REIT Fund I",
    "sector": "REAL ESTATE INVESTMENT TRUST",
-   "price": 8.67,
+   "price": 9.28,
    "face_value": 10.0,
    "in_base_index": true
   }
