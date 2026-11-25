@@ -1,14 +1,14 @@
 {
  "meta": {
-  "generated_at": "2026-11-25T04:41:15+00:00",
+  "generated_at": "2026-11-25T14:48:26+00:00",
   "period_years": 3,
-  "companies": 61,
+  "companies": 68,
   "errors": {},
   "universe": "Shariah-compliant (KMIALLSHR) members of KSE100, plus Shariah-compliant companies with a cash dividend closing within 30 days",
   "shariah_only": true
  },
  "summary": {
-  "events": 175,
+  "events": 193,
   "median_drop_ratio": 0.89,
   "quick_recovery_share": 0.7,
   "median_recovery_days": 4.0
@@ -836,6 +836,28 @@
     }
    ]
   },
+  "GADT": {
+   "events": 1,
+   "median_drop_ratio": 1.74,
+   "median_recovery_days": 7,
+   "quick_recovery_share": 1.0,
+   "avg_capture_10d_pct": -0.85,
+   "recent": [
+    {
+     "ex_date": "2026-09-18",
+     "last_buy_date": "2026-09-17",
+     "amount_per_share": 5.0,
+     "cum_close": 300.99,
+     "yield_pct": 1.66,
+     "drop_ratio": 1.74,
+     "recovery_days": 7,
+     "recovery_known": true,
+     "capture_5d_pct": -0.27,
+     "capture_10d_pct": -0.85,
+     "capture_20d_pct": -2.61
+    }
+   ]
+  },
   "GAL": {
    "events": 2,
    "median_drop_ratio": 0.8049999999999999,
@@ -1162,6 +1184,41 @@
     }
    ]
   },
+  "HINOON": {
+   "events": 2,
+   "median_drop_ratio": 1.24,
+   "median_recovery_days": 46.5,
+   "quick_recovery_share": 0.0,
+   "avg_capture_10d_pct": -3.38,
+   "recent": [
+    {
+     "ex_date": "2026-04-22",
+     "last_buy_date": "2026-04-21",
+     "amount_per_share": 50.0,
+     "cum_close": 1035.7,
+     "yield_pct": 4.83,
+     "drop_ratio": 1.23,
+     "recovery_days": 46,
+     "recovery_known": true,
+     "capture_5d_pct": -4.4,
+     "capture_10d_pct": -2.53,
+     "capture_20d_pct": -4.09
+    },
+    {
+     "ex_date": "2025-04-18",
+     "last_buy_date": "2025-04-17",
+     "amount_per_share": 40.0,
+     "cum_close": 986.21,
+     "yield_pct": 4.06,
+     "drop_ratio": 1.25,
+     "recovery_days": 47,
+     "recovery_known": true,
+     "capture_5d_pct": -3.73,
+     "capture_10d_pct": -4.24,
+     "capture_20d_pct": -3.1
+    }
+   ]
+  },
   "HUBC": {
    "events": 7,
    "median_drop_ratio": 0.93,
@@ -1437,6 +1494,80 @@
      "capture_5d_pct": -2.77,
      "capture_10d_pct": 1.19,
      "capture_20d_pct": -19.46
+    }
+   ]
+  },
+  "JDWS": {
+   "events": 5,
+   "median_drop_ratio": 0.69,
+   "median_recovery_days": 0.5,
+   "quick_recovery_share": 0.8,
+   "avg_capture_10d_pct": 1.98,
+   "recent": [
+    {
+     "ex_date": "2026-05-22",
+     "last_buy_date": "2026-05-21",
+     "amount_per_share": 5.0,
+     "cum_close": 900.66,
+     "yield_pct": 0.56,
+     "drop_ratio": -1.67,
+     "recovery_days": 0,
+     "recovery_known": true,
+     "capture_5d_pct": 2.14,
+     "capture_10d_pct": 4.71,
+     "capture_20d_pct": 3.77
+    },
+    {
+     "ex_date": "2026-05-06",
+     "last_buy_date": "2026-05-05",
+     "amount_per_share": 20.0,
+     "cum_close": 880.03,
+     "yield_pct": 2.27,
+     "drop_ratio": 1.4,
+     "recovery_days": 0,
+     "recovery_known": true,
+     "capture_5d_pct": 4.11,
+     "capture_10d_pct": 6.23,
+     "capture_20d_pct": 7.82
+    },
+    {
+     "ex_date": "2026-01-14",
+     "last_buy_date": "2026-01-13",
+     "amount_per_share": 25.0,
+     "cum_close": 906.5,
+     "yield_pct": 2.76,
+     "drop_ratio": 0.38,
+     "recovery_days": 9,
+     "recovery_known": true,
+     "capture_5d_pct": 0.33,
+     "capture_10d_pct": 2.6,
+     "capture_20d_pct": 0.66
+    },
+    {
+     "ex_date": "2025-08-01",
+     "last_buy_date": "2025-07-31",
+     "amount_per_share": 20.0,
+     "cum_close": 980,
+     "yield_pct": 2.04,
+     "drop_ratio": 0.98,
+     "recovery_days": 1,
+     "recovery_known": true,
+     "capture_5d_pct": -1.65,
+     "capture_10d_pct": -3.0,
+     "capture_20d_pct": -4.67
+    },
+    {
+     "ex_date": "2025-01-20",
+     "last_buy_date": "2025-01-17",
+     "amount_per_share": 30.0,
+     "cum_close": 889.21,
+     "yield_pct": 3.37,
+     "drop_ratio": 0.69,
+     "recovery_days": null,
+     "recovery_known": true,
+     "capture_5d_pct": -3.09,
+     "capture_10d_pct": -0.64,
+     "capture_20d_pct": -3.75
     }
    ]
   },
@@ -1823,6 +1954,92 @@
     }
    ]
   },
+  "NESTLE": {
+   "events": 6,
+   "median_drop_ratio": 0.685,
+   "median_recovery_days": 15,
+   "quick_recovery_share": 0.4,
+   "avg_capture_10d_pct": 0.6,
+   "recent": [
+    {
+     "ex_date": "2026-10-30",
+     "last_buy_date": "2026-10-29",
+     "amount_per_share": 97.0,
+     "cum_close": 7168.57,
+     "yield_pct": 1.35,
+     "drop_ratio": 0.93,
+     "recovery_days": null,
+     "recovery_known": false,
+     "capture_5d_pct": -2.4,
+     "capture_10d_pct": -0.88
+    },
+    {
+     "ex_date": "2026-08-04",
+     "last_buy_date": "2026-08-03",
+     "amount_per_share": 213.0,
+     "cum_close": 7771.24,
+     "yield_pct": 2.74,
+     "drop_ratio": 0.62,
+     "recovery_days": null,
+     "recovery_known": true,
+     "capture_5d_pct": -0.46,
+     "capture_10d_pct": -1.07,
+     "capture_20d_pct": -0.58
+    },
+    {
+     "ex_date": "2026-04-09",
+     "last_buy_date": "2026-04-08",
+     "amount_per_share": 256.0,
+     "cum_close": 7699.95,
+     "yield_pct": 3.32,
+     "drop_ratio": 0.75,
+     "recovery_days": 21,
+     "recovery_known": true,
+     "capture_5d_pct": 0.48,
+     "capture_10d_pct": -0.36,
+     "capture_20d_pct": 0.74
+    },
+    {
+     "ex_date": "2025-10-23",
+     "last_buy_date": "2025-10-22",
+     "amount_per_share": 78.0,
+     "cum_close": 8158.71,
+     "yield_pct": 0.96,
+     "drop_ratio": -0.78,
+     "recovery_days": null,
+     "recovery_known": true,
+     "capture_5d_pct": -1.9,
+     "capture_10d_pct": -0.57,
+     "capture_20d_pct": -1.05
+    },
+    {
+     "ex_date": "2025-08-04",
+     "last_buy_date": "2025-08-01",
+     "amount_per_share": 223.0,
+     "cum_close": 7888.3,
+     "yield_pct": 2.83,
+     "drop_ratio": 0.17,
+     "recovery_days": 0,
+     "recovery_known": true,
+     "capture_5d_pct": 15.04,
+     "capture_10d_pct": 8.7,
+     "capture_20d_pct": 9.09
+    },
+    {
+     "ex_date": "2025-04-11",
+     "last_buy_date": "2025-04-10",
+     "amount_per_share": 30.0,
+     "cum_close": 7183.48,
+     "yield_pct": 0.42,
+     "drop_ratio": 1.0,
+     "recovery_days": 15,
+     "recovery_known": true,
+     "capture_5d_pct": -0.74,
+     "capture_10d_pct": -2.22,
+     "capture_20d_pct": 0.16
+    }
+   ]
+  },
   "NML": {
    "events": 2,
    "median_drop_ratio": 0.71,
@@ -2019,7 +2236,7 @@
    "median_drop_ratio": 0.02999999999999997,
    "median_recovery_days": 0,
    "quick_recovery_share": 1.0,
-   "avg_capture_10d_pct": 6.21,
+   "avg_capture_10d_pct": 5.31,
    "recent": [
     {
      "ex_date": "2026-11-11",
@@ -2030,7 +2247,8 @@
      "drop_ratio": 1.12,
      "recovery_days": null,
      "recovery_known": false,
-     "capture_5d_pct": -1.33
+     "capture_5d_pct": -1.33,
+     "capture_10d_pct": -0.98
     },
     {
      "ex_date": "2026-10-20",
@@ -2242,6 +2460,41 @@
     }
    ]
   },
+  "SHFA": {
+   "events": 2,
+   "median_drop_ratio": 0.11000000000000001,
+   "median_recovery_days": 2.0,
+   "quick_recovery_share": 1.0,
+   "avg_capture_10d_pct": -3.33,
+   "recent": [
+    {
+     "ex_date": "2026-10-15",
+     "last_buy_date": "2026-10-14",
+     "amount_per_share": 5.0,
+     "cum_close": 447.61,
+     "yield_pct": 1.12,
+     "drop_ratio": 0.05,
+     "recovery_days": 0,
+     "recovery_known": true,
+     "capture_5d_pct": 0.55,
+     "capture_10d_pct": -1.84,
+     "capture_20d_pct": 0.79
+    },
+    {
+     "ex_date": "2025-10-15",
+     "last_buy_date": "2025-10-14",
+     "amount_per_share": 5.0,
+     "cum_close": 540.07,
+     "yield_pct": 0.93,
+     "drop_ratio": 0.17,
+     "recovery_days": 4,
+     "recovery_known": true,
+     "capture_5d_pct": 2.76,
+     "capture_10d_pct": -4.83,
+     "capture_20d_pct": -5.58
+    }
+   ]
+  },
   "SNGP": {
    "events": 3,
    "median_drop_ratio": 1.2,
@@ -2344,6 +2597,41 @@
     }
    ]
   },
+  "SSOM": {
+   "events": 2,
+   "median_drop_ratio": -0.44000000000000006,
+   "median_recovery_days": 2.5,
+   "quick_recovery_share": 1.0,
+   "avg_capture_10d_pct": 14.33,
+   "recent": [
+    {
+     "ex_date": "2026-10-21",
+     "last_buy_date": "2026-10-20",
+     "amount_per_share": 5.0,
+     "cum_close": 397.62,
+     "yield_pct": 1.26,
+     "drop_ratio": 1.22,
+     "recovery_days": 5,
+     "recovery_known": true,
+     "capture_5d_pct": 5.16,
+     "capture_10d_pct": 3.3,
+     "capture_20d_pct": 6.41
+    },
+    {
+     "ex_date": "2025-10-20",
+     "last_buy_date": "2025-10-17",
+     "amount_per_share": 5.0,
+     "cum_close": 382.13,
+     "yield_pct": 1.31,
+     "drop_ratio": -2.1,
+     "recovery_days": 0,
+     "recovery_known": true,
+     "capture_5d_pct": 3.85,
+     "capture_10d_pct": 25.35,
+     "capture_20d_pct": 22.87
+    }
+   ]
+  },
   "SYS": {
    "events": 2,
    "median_drop_ratio": 0.75,
@@ -2442,7 +2730,8 @@
      "yield_pct": 0.67,
      "drop_ratio": 2.15,
      "recovery_days": 4,
-     "recovery_known": true
+     "recovery_known": true,
+     "capture_5d_pct": 6.33
     },
     {
      "ex_date": "2025-02-06",
@@ -2549,37 +2838,37 @@
  "diagnostics": {
   "t1_since_feb_2026": {
    "ex_0_days_before_closure": {
-    "events": 80,
-    "median_drop_ratio": 0.08
+    "events": 89,
+    "median_drop_ratio": 0.11
    },
    "ex_1_days_before_closure": {
-    "events": 80,
-    "median_drop_ratio": 0.875
+    "events": 89,
+    "median_drop_ratio": 0.89
    },
    "ex_2_days_before_closure": {
-    "events": 80,
-    "median_drop_ratio": -0.09
+    "events": 89,
+    "median_drop_ratio": -0.06
    },
    "ex_3_days_before_closure": {
-    "events": 80,
-    "median_drop_ratio": -0.11499999999999999
+    "events": 89,
+    "median_drop_ratio": -0.11
    }
   },
   "t2_before": {
    "ex_0_days_before_closure": {
-    "events": 95,
-    "median_drop_ratio": 0.2
+    "events": 104,
+    "median_drop_ratio": 0.195
    },
    "ex_1_days_before_closure": {
-    "events": 95,
+    "events": 104,
     "median_drop_ratio": 0.11
    },
    "ex_2_days_before_closure": {
-    "events": 95,
-    "median_drop_ratio": 0.93
+    "events": 104,
+    "median_drop_ratio": 0.905
    },
    "ex_3_days_before_closure": {
-    "events": 95,
+    "events": 104,
     "median_drop_ratio": -0.1
    }
   }
