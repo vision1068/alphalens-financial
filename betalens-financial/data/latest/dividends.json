@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated_at": "2026-11-25T14:48:26+00:00",
+  "generated_at": "2026-11-26T04:39:23+00:00",
   "period_years": 3,
-  "companies": 68,
+  "companies": 57,
   "errors": {},
   "universe": "Shariah-compliant (KMIALLSHR) members of KSE100, plus Shariah-compliant companies with a cash dividend closing within 30 days",
   "shariah_only": true
@@ -45,7 +45,7 @@
    "book_closure_from": "2026-09-03",
    "book_closure_to": "2026-09-04",
    "symbol": "AGP",
-   "price": 154.96
+   "price": 154.26
   },
   {
    "announced": "2026-03-24",
@@ -58,7 +58,7 @@
    "book_closure_from": "2026-04-14",
    "book_closure_to": "2026-04-20",
    "symbol": "AGP",
-   "price": 154.96
+   "price": 154.26
   },
   {
    "announced": "2025-08-27",
@@ -71,7 +71,7 @@
    "book_closure_from": "2025-09-04",
    "book_closure_to": "2025-09-05",
    "symbol": "AGP",
-   "price": 154.96
+   "price": 154.26
   },
   {
    "announced": "2025-02-28",
@@ -84,7 +84,7 @@
    "book_closure_from": "2025-04-03",
    "book_closure_to": "2025-04-10",
    "symbol": "AGP",
-   "price": 154.96
+   "price": 154.26
   },
   {
    "announced": "2025-10-23",
@@ -97,7 +97,7 @@
    "book_closure_from": "2025-11-04",
    "book_closure_to": "2025-11-06",
    "symbol": "AIRLINK",
-   "price": 111.06
+   "price": 110.98
   },
   {
    "announced": "2025-09-29",
@@ -110,7 +110,7 @@
    "book_closure_from": "2025-10-16",
    "book_closure_to": "2025-10-22",
    "symbol": "AIRLINK",
-   "price": 111.06
+   "price": 110.98
   },
   {
    "announced": "2025-02-28",
@@ -123,7 +123,7 @@
    "book_closure_from": "2025-03-12",
    "book_closure_to": "2025-03-14",
    "symbol": "AIRLINK",
-   "price": 111.06
+   "price": 110.98
   },
   {
    "announced": "2026-08-27",
@@ -136,7 +136,7 @@
    "book_closure_from": "2026-10-13",
    "book_closure_to": "2026-10-19",
    "symbol": "ATRL",
-   "price": 919.24
+   "price": 926.49
   },
   {
    "announced": "2026-02-24",
@@ -149,7 +149,7 @@
    "book_closure_from": "2025-03-09",
    "book_closure_to": "2025-03-11",
    "symbol": "ATRL",
-   "price": 919.24
+   "price": 926.49
   },
   {
    "announced": "2025-08-11",
@@ -162,7 +162,7 @@
    "book_closure_from": "2025-10-21",
    "book_closure_to": "2025-10-27",
    "symbol": "ATRL",
-   "price": 919.24
+   "price": 926.49
   },
   {
    "announced": "2025-01-27",
@@ -175,7 +175,7 @@
    "book_closure_from": "2025-02-10",
    "book_closure_to": "2025-02-12",
    "symbol": "ATRL",
-   "price": 919.24
+   "price": 926.49
   },
   {
    "announced": "2026-08-21",
@@ -188,7 +188,7 @@
    "book_closure_from": "2026-10-06",
    "book_closure_to": "2026-10-13",
    "symbol": "CHCC",
-   "price": 294.28
+   "price": 294.0
   },
   {
    "announced": "2026-08-21",
@@ -201,7 +201,7 @@
    "book_closure_from": "2026-10-06",
    "book_closure_to": "2026-10-13",
    "symbol": "CHCC",
-   "price": 294.28
+   "price": 294.0
   },
   {
    "announced": "2026-02-18",
@@ -214,7 +214,7 @@
    "book_closure_from": "2026-02-28",
    "book_closure_to": "2026-03-02",
    "symbol": "CHCC",
-   "price": 294.28
+   "price": 294.0
   },
   {
    "announced": "2025-08-21",
@@ -227,7 +227,7 @@
    "book_closure_from": "2025-10-02",
    "book_closure_to": "2025-10-09",
    "symbol": "CHCC",
-   "price": 294.28
+   "price": 294.0
   },
   {
    "announced": "2025-02-21",
@@ -240,33 +240,7 @@
    "book_closure_from": "2025-03-03",
    "book_closure_to": "2025-03-04",
    "symbol": "CHCC",
-   "price": 294.28
-  },
-  {
-   "announced": "2026-02-02",
-   "period_end": "2025-12-31",
-   "period_type": "HYR",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 290.0,
-   "amount_per_share": 29.0,
-   "book_closure_from": "2026-03-03",
-   "book_closure_to": "2026-03-10",
-   "symbol": "COLG",
-   "price": 1218.77
-  },
-  {
-   "announced": "2025-01-27",
-   "period_end": "2024-12-31",
-   "period_type": "HYR",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 320.0,
-   "amount_per_share": 32.0,
-   "book_closure_from": "2025-02-07",
-   "book_closure_to": "2025-02-09",
-   "symbol": "COLG",
-   "price": 1218.77
+   "price": 294.0
   },
   {
    "announced": "2025-10-02",
@@ -279,7 +253,7 @@
    "book_closure_from": "2025-10-21",
    "book_closure_to": "2025-10-27",
    "symbol": "CPHL",
-   "price": 62.57
+   "price": 62.4
   },
   {
    "announced": "2026-07-15",
@@ -292,7 +266,7 @@
    "book_closure_from": "2026-07-25",
    "book_closure_to": "2026-07-27",
    "symbol": "DCR",
-   "price": 38.99
+   "price": 39.0
   },
   {
    "announced": "2026-03-31",
@@ -305,7 +279,7 @@
    "book_closure_from": "2026-04-10",
    "book_closure_to": "2026-04-12",
    "symbol": "DCR",
-   "price": 38.99
+   "price": 39.0
   },
   {
    "announced": "2025-12-18",
@@ -318,7 +292,7 @@
    "book_closure_from": "2025-12-30",
    "book_closure_to": "2026-01-01",
    "symbol": "DCR",
-   "price": 38.99
+   "price": 39.0
   },
   {
    "announced": "2025-10-10",
@@ -331,7 +305,7 @@
    "book_closure_from": "2025-10-22",
    "book_closure_to": "2025-10-21",
    "symbol": "DCR",
-   "price": 38.99
+   "price": 39.0
   },
   {
    "announced": "2025-03-27",
@@ -344,7 +318,7 @@
    "book_closure_from": "2025-04-10",
    "book_closure_to": "2025-04-12",
    "symbol": "DCR",
-   "price": 38.99
+   "price": 39.0
   },
   {
    "announced": "2025-01-07",
@@ -357,7 +331,7 @@
    "book_closure_from": "2025-01-17",
    "book_closure_to": "2025-01-19",
    "symbol": "DCR",
-   "price": 38.99
+   "price": 39.0
   },
   {
    "announced": "2026-08-27",
@@ -370,7 +344,7 @@
    "book_closure_from": "2026-10-20",
    "book_closure_to": "2026-10-27",
    "symbol": "DGKC",
-   "price": 205.05
+   "price": 204.5
   },
   {
    "announced": "2025-08-28",
@@ -383,7 +357,7 @@
    "book_closure_from": "2025-10-15",
    "book_closure_to": "2025-10-28",
    "symbol": "DGKC",
-   "price": 205.05
+   "price": 204.5
   },
   {
    "announced": "2026-10-19",
@@ -396,7 +370,7 @@
    "book_closure_from": "2026-11-02",
    "book_closure_to": "2026-11-03",
    "symbol": "EFERT",
-   "price": 215.98
+   "price": 216.0
   },
   {
    "announced": "2026-07-30",
@@ -409,7 +383,7 @@
    "book_closure_from": "2026-08-11",
    "book_closure_to": "2026-08-12",
    "symbol": "EFERT",
-   "price": 215.98
+   "price": 216.0
   },
   {
    "announced": "2026-04-20",
@@ -422,7 +396,7 @@
    "book_closure_from": "2026-05-05",
    "book_closure_to": "2026-05-06",
    "symbol": "EFERT",
-   "price": 215.98
+   "price": 216.0
   },
   {
    "announced": "2026-02-12",
@@ -435,7 +409,7 @@
    "book_closure_from": "2026-03-17",
    "book_closure_to": "2026-03-25",
    "symbol": "EFERT",
-   "price": 215.98
+   "price": 216.0
   },
   {
    "announced": "2025-10-15",
@@ -448,7 +422,7 @@
    "book_closure_from": "2025-10-28",
    "book_closure_to": "2025-10-29",
    "symbol": "EFERT",
-   "price": 215.98
+   "price": 216.0
   },
   {
    "announced": "2025-07-30",
@@ -461,7 +435,7 @@
    "book_closure_from": "2025-08-12",
    "book_closure_to": "2025-08-14",
    "symbol": "EFERT",
-   "price": 215.98
+   "price": 216.0
   },
   {
    "announced": "2025-04-22",
@@ -474,7 +448,7 @@
    "book_closure_from": "2025-05-05",
    "book_closure_to": "2025-06-06",
    "symbol": "EFERT",
-   "price": 215.98
+   "price": 216.0
   },
   {
    "announced": "2025-02-10",
@@ -487,7 +461,7 @@
    "book_closure_from": "2025-03-18",
    "book_closure_to": "2025-03-24",
    "symbol": "EFERT",
-   "price": 215.98
+   "price": 216.0
   },
   {
    "announced": "2026-10-22",
@@ -500,7 +474,7 @@
    "book_closure_from": "2026-11-05",
    "book_closure_to": "2026-11-07",
    "symbol": "FABL",
-   "price": 93.64
+   "price": 93.7
   },
   {
    "announced": "2026-08-06",
@@ -513,7 +487,7 @@
    "book_closure_from": "2026-08-20",
    "book_closure_to": "2026-08-22",
    "symbol": "FABL",
-   "price": 93.64
+   "price": 93.7
   },
   {
    "announced": "2026-04-23",
@@ -526,7 +500,7 @@
    "book_closure_from": "2026-05-01",
    "book_closure_to": "2026-05-03",
    "symbol": "FABL",
-   "price": 93.64
+   "price": 93.7
   },
   {
    "announced": "2026-02-19",
@@ -539,7 +513,7 @@
    "book_closure_from": "2026-03-20",
    "book_closure_to": "2026-03-26",
    "symbol": "FABL",
-   "price": 93.64
+   "price": 93.7
   },
   {
    "announced": "2025-10-23",
@@ -552,7 +526,7 @@
    "book_closure_from": "2025-11-06",
    "book_closure_to": "2025-11-08",
    "symbol": "FABL",
-   "price": 93.64
+   "price": 93.7
   },
   {
    "announced": "2025-08-28",
@@ -565,7 +539,7 @@
    "book_closure_from": "2025-09-11",
    "book_closure_to": "2025-09-13",
    "symbol": "FABL",
-   "price": 93.64
+   "price": 93.7
   },
   {
    "announced": "2025-04-24",
@@ -578,7 +552,7 @@
    "book_closure_from": "2025-05-08",
    "book_closure_to": "2025-05-10",
    "symbol": "FABL",
-   "price": 93.64
+   "price": 93.7
   },
   {
    "announced": "2025-02-20",
@@ -591,7 +565,7 @@
    "book_closure_from": "2025-03-19",
    "book_closure_to": "2025-03-25",
    "symbol": "FABL",
-   "price": 93.64
+   "price": 93.7
   },
   {
    "announced": "2026-03-09",
@@ -604,7 +578,7 @@
    "book_closure_from": "2026-04-10",
    "book_closure_to": "2026-04-17",
    "symbol": "FATIMA",
-   "price": 147.44
+   "price": 148.78
   },
   {
    "announced": "2025-08-27",
@@ -617,7 +591,7 @@
    "book_closure_from": "2025-09-09",
    "book_closure_to": "2025-09-10",
    "symbol": "FATIMA",
-   "price": 147.44
+   "price": 148.78
   },
   {
    "announced": "2025-03-14",
@@ -630,7 +604,7 @@
    "book_closure_from": "2025-04-11",
    "book_closure_to": "2025-04-18",
    "symbol": "FATIMA",
-   "price": 147.44
+   "price": 148.78
   },
   {
    "announced": "2026-08-11",
@@ -643,7 +617,7 @@
    "book_closure_from": "2026-08-22",
    "book_closure_to": "2026-08-28",
    "symbol": "FCCL",
-   "price": 60.92
+   "price": 60.8
   },
   {
    "announced": "2025-08-11",
@@ -656,7 +630,7 @@
    "book_closure_from": "2025-09-24",
    "book_closure_to": "2025-09-30",
    "symbol": "FCCL",
-   "price": 60.92
+   "price": 60.8
   },
   {
    "announced": "2026-10-28",
@@ -669,7 +643,7 @@
    "book_closure_from": "2026-11-09",
    "book_closure_to": "2026-11-11",
    "symbol": "FFC",
-   "price": 574.19
+   "price": 573.95
   },
   {
    "announced": "2026-07-29",
@@ -682,7 +656,7 @@
    "book_closure_from": "2026-08-11",
    "book_closure_to": "2026-08-13",
    "symbol": "FFC",
-   "price": 574.19
+   "price": 573.95
   },
   {
    "announced": "2026-04-29",
@@ -695,7 +669,7 @@
    "book_closure_from": "2026-05-12",
    "book_closure_to": "2026-05-14",
    "symbol": "FFC",
-   "price": 574.19
+   "price": 573.95
   },
   {
    "announced": "2026-01-29",
@@ -708,7 +682,7 @@
    "book_closure_from": "2026-03-09",
    "book_closure_to": "2026-03-16",
    "symbol": "FFC",
-   "price": 574.19
+   "price": 573.95
   },
   {
    "announced": "2025-10-23",
@@ -721,7 +695,7 @@
    "book_closure_from": "2025-11-05",
    "book_closure_to": "2025-11-07",
    "symbol": "FFC",
-   "price": 574.19
+   "price": 573.95
   },
   {
    "announced": "2025-07-29",
@@ -734,7 +708,7 @@
    "book_closure_from": "2025-08-11",
    "book_closure_to": "2025-08-13",
    "symbol": "FFC",
-   "price": 574.19
+   "price": 573.95
   },
   {
    "announced": "2025-04-28",
@@ -747,7 +721,7 @@
    "book_closure_from": "2025-05-11",
    "book_closure_to": "2025-05-13",
    "symbol": "FFC",
-   "price": 574.19
+   "price": 573.95
   },
   {
    "announced": "2025-01-29",
@@ -760,33 +734,7 @@
    "book_closure_from": "2025-03-23",
    "book_closure_to": "2025-03-25",
    "symbol": "FFC",
-   "price": 574.19
-  },
-  {
-   "announced": "2026-08-06",
-   "period_end": "2026-06-30",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 22.5,
-   "amount_per_share": 2.25,
-   "book_closure_from": "2026-10-01",
-   "book_closure_to": "2026-10-09",
-   "symbol": "FHAM",
-   "price": 28.75
-  },
-  {
-   "announced": "2026-08-05",
-   "period_end": "2026-06-30",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 50.0,
-   "amount_per_share": 5.0,
-   "book_closure_from": "2026-09-21",
-   "book_closure_to": "2026-09-28",
-   "symbol": "GADT",
-   "price": 297.39
+   "price": 573.95
   },
   {
    "announced": "2026-09-17",
@@ -799,7 +747,7 @@
    "book_closure_from": "2026-10-06",
    "book_closure_to": "2026-10-13",
    "symbol": "GAL",
-   "price": 533.99
+   "price": 535.5
   },
   {
    "announced": "2025-09-29",
@@ -812,7 +760,7 @@
    "book_closure_from": "2025-10-17",
    "book_closure_to": "2025-10-25",
    "symbol": "GAL",
-   "price": 533.99
+   "price": 535.5
   },
   {
    "announced": "2026-10-28",
@@ -825,7 +773,7 @@
    "book_closure_from": "2026-11-10",
    "book_closure_to": "2026-11-12",
    "symbol": "GHGL",
-   "price": 40.63
+   "price": 38.7
   },
   {
    "announced": "2026-08-27",
@@ -838,7 +786,7 @@
    "book_closure_from": "2026-10-22",
    "book_closure_to": "2026-10-28",
    "symbol": "GHGL",
-   "price": 40.63
+   "price": 38.7
   },
   {
    "announced": "2026-07-01",
@@ -851,7 +799,7 @@
    "book_closure_from": "2026-07-04",
    "book_closure_to": "2026-07-07",
    "symbol": "GHGL",
-   "price": 40.63
+   "price": 38.7
   },
   {
    "announced": "2026-02-25",
@@ -864,7 +812,7 @@
    "book_closure_from": "2025-03-11",
    "book_closure_to": "2025-03-13",
    "symbol": "GHGL",
-   "price": 40.63
+   "price": 38.7
   },
   {
    "announced": "2025-10-28",
@@ -877,7 +825,7 @@
    "book_closure_from": "2025-11-11",
    "book_closure_to": null,
    "symbol": "GHGL",
-   "price": 40.63
+   "price": 38.7
   },
   {
    "announced": "2025-09-30",
@@ -890,7 +838,7 @@
    "book_closure_from": "2025-10-22",
    "book_closure_to": "2025-10-28",
    "symbol": "GHGL",
-   "price": 40.63
+   "price": 38.7
   },
   {
    "announced": "2026-09-17",
@@ -903,7 +851,7 @@
    "book_closure_from": "2026-10-06",
    "book_closure_to": "2026-10-13",
    "symbol": "GHNI",
-   "price": 1218.51
+   "price": 1219.98
   },
   {
    "announced": "2025-09-29",
@@ -916,7 +864,7 @@
    "book_closure_from": "2025-10-17",
    "book_closure_to": "2025-10-25",
    "symbol": "GHNI",
-   "price": 1218.51
+   "price": 1219.98
   },
   {
    "announced": "2026-08-25",
@@ -981,7 +929,7 @@
    "book_closure_from": "2026-09-08",
    "book_closure_to": "2026-09-09",
    "symbol": "HALEON",
-   "price": 677.16
+   "price": 674.1
   },
   {
    "announced": "2026-03-03",
@@ -994,7 +942,7 @@
    "book_closure_from": "2026-04-22",
    "book_closure_to": "2026-04-28",
    "symbol": "HALEON",
-   "price": 677.16
+   "price": 674.1
   },
   {
    "announced": "2025-10-27",
@@ -1007,7 +955,7 @@
    "book_closure_from": "2025-11-06",
    "book_closure_to": "2025-11-07",
    "symbol": "HALEON",
-   "price": 677.16
+   "price": 674.1
   },
   {
    "announced": "2025-08-26",
@@ -1020,7 +968,7 @@
    "book_closure_from": "2025-09-04",
    "book_closure_to": "2025-09-05",
    "symbol": "HALEON",
-   "price": 677.16
+   "price": 674.1
   },
   {
    "announced": "2025-02-06",
@@ -1033,7 +981,7 @@
    "book_closure_from": "2025-03-13",
    "book_closure_to": "2025-03-20",
    "symbol": "HALEON",
-   "price": 677.16
+   "price": 674.1
   },
   {
    "announced": "2026-05-19",
@@ -1046,7 +994,7 @@
    "book_closure_from": "2026-06-16",
    "book_closure_to": "2026-06-29",
    "symbol": "HCAR",
-   "price": 208.58
+   "price": 208.6
   },
   {
    "announced": "2025-05-23",
@@ -1059,33 +1007,7 @@
    "book_closure_from": "2025-06-12",
    "book_closure_to": "2025-06-24",
    "symbol": "HCAR",
-   "price": 208.58
-  },
-  {
-   "announced": "2026-04-07",
-   "period_end": "2025-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 500.0,
-   "amount_per_share": 50.0,
-   "book_closure_from": "2026-04-23",
-   "book_closure_to": "2026-04-30",
-   "symbol": "HINOON",
-   "price": 979.75
-  },
-  {
-   "announced": "2025-03-26",
-   "period_end": "2024-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 400.0,
-   "amount_per_share": 40.0,
-   "book_closure_from": "2025-04-22",
-   "book_closure_to": "2025-04-29",
-   "symbol": "HINOON",
-   "price": 979.75
+   "price": 208.6
   },
   {
    "announced": "2026-10-28",
@@ -1098,7 +1020,7 @@
    "book_closure_from": "2026-11-10",
    "book_closure_to": "2026-11-12",
    "symbol": "HUBC",
-   "price": 211.43
+   "price": 211.55
   },
   {
    "announced": "2026-08-27",
@@ -1111,7 +1033,7 @@
    "book_closure_from": "2026-10-13",
    "book_closure_to": "2026-10-20",
    "symbol": "HUBC",
-   "price": 211.43
+   "price": 211.55
   },
   {
    "announced": "2026-04-22",
@@ -1124,7 +1046,7 @@
    "book_closure_from": "2026-05-06",
    "book_closure_to": "2026-05-08",
    "symbol": "HUBC",
-   "price": 211.43
+   "price": 211.55
   },
   {
    "announced": "2026-02-24",
@@ -1137,7 +1059,7 @@
    "book_closure_from": "2025-03-09",
    "book_closure_to": "2025-03-11",
    "symbol": "HUBC",
-   "price": 211.43
+   "price": 211.55
   },
   {
    "announced": "2025-10-30",
@@ -1150,7 +1072,7 @@
    "book_closure_from": "2025-11-12",
    "book_closure_to": "2025-11-14",
    "symbol": "HUBC",
-   "price": 211.43
+   "price": 211.55
   },
   {
    "announced": "2025-09-03",
@@ -1163,7 +1085,7 @@
    "book_closure_from": "2025-10-08",
    "book_closure_to": "2025-10-15",
    "symbol": "HUBC",
-   "price": 211.43
+   "price": 211.55
   },
   {
    "announced": "2025-02-26",
@@ -1176,7 +1098,7 @@
    "book_closure_from": "2025-03-11",
    "book_closure_to": "2025-03-13",
    "symbol": "HUBC",
-   "price": 211.43
+   "price": 211.55
   },
   {
    "announced": "2026-09-10",
@@ -1189,7 +1111,7 @@
    "book_closure_from": "2026-10-07",
    "book_closure_to": "2026-10-14",
    "symbol": "ILP",
-   "price": 101.1
+   "price": 102.75
   },
   {
    "announced": "2026-02-06",
@@ -1202,7 +1124,7 @@
    "book_closure_from": "2026-02-17",
    "book_closure_to": "2026-02-18",
    "symbol": "ILP",
-   "price": 101.1
+   "price": 102.75
   },
   {
    "announced": "2025-09-10",
@@ -1215,7 +1137,7 @@
    "book_closure_from": "2025-10-03",
    "book_closure_to": "2025-10-10",
    "symbol": "ILP",
-   "price": 101.1
+   "price": 102.75
   },
   {
    "announced": "2026-10-06",
@@ -1228,7 +1150,7 @@
    "book_closure_from": "2026-10-23",
    "book_closure_to": "2026-10-30",
    "symbol": "IMAGE",
-   "price": 22.42
+   "price": 22.5
   },
   {
    "announced": "2025-10-07",
@@ -1241,7 +1163,7 @@
    "book_closure_from": "2025-10-23",
    "book_closure_to": "2025-10-28",
    "symbol": "IMAGE",
-   "price": 22.42
+   "price": 22.5
   },
   {
    "announced": "2025-04-28",
@@ -1254,46 +1176,7 @@
    "book_closure_from": "2025-05-13",
    "book_closure_to": "2025-05-15",
    "symbol": "IMAGE",
-   "price": 22.42
-  },
-  {
-   "announced": "2026-08-21",
-   "period_end": "2026-06-30",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 50.0,
-   "amount_per_share": 5.0,
-   "book_closure_from": "2026-09-29",
-   "book_closure_to": "2026-10-07",
-   "symbol": "INIL",
-   "price": 156.61
-  },
-  {
-   "announced": "2026-01-29",
-   "period_end": "2025-12-31",
-   "period_type": "HYR",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 20.0,
-   "amount_per_share": 2.0,
-   "book_closure_from": "2026-02-10",
-   "book_closure_to": "2026-02-12",
-   "symbol": "INIL",
-   "price": 156.61
-  },
-  {
-   "announced": "2025-08-22",
-   "period_end": "2025-06-30",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 40.0,
-   "amount_per_share": 4.0,
-   "book_closure_from": "2025-09-18",
-   "book_closure_to": "2025-09-26",
-   "symbol": "INIL",
-   "price": 156.61
+   "price": 22.5
   },
   {
    "announced": "2026-08-20",
@@ -1345,7 +1228,7 @@
    "book_closure_from": "2026-05-25",
    "book_closure_to": "2026-05-26",
    "symbol": "JDWS",
-   "price": 932.29
+   "price": 932.01
   },
   {
    "announced": "2026-04-29",
@@ -1358,7 +1241,7 @@
    "book_closure_from": "2026-05-07",
    "book_closure_to": "2026-05-08",
    "symbol": "JDWS",
-   "price": 932.29
+   "price": 932.01
   },
   {
    "announced": "2025-12-22",
@@ -1371,7 +1254,7 @@
    "book_closure_from": "2026-01-16",
    "book_closure_to": "2026-01-24",
    "symbol": "JDWS",
-   "price": 932.29
+   "price": 932.01
   },
   {
    "announced": "2025-07-28",
@@ -1384,7 +1267,7 @@
    "book_closure_from": "2025-08-05",
    "book_closure_to": "2025-08-07",
    "symbol": "JDWS",
-   "price": 932.29
+   "price": 932.01
   },
   {
    "announced": "2025-01-03",
@@ -1397,7 +1280,7 @@
    "book_closure_from": "2025-01-22",
    "book_closure_to": "2025-01-28",
    "symbol": "JDWS",
-   "price": 932.29
+   "price": 932.01
   },
   {
    "announced": "2026-09-15",
@@ -1410,7 +1293,7 @@
    "book_closure_from": "2026-09-30",
    "book_closure_to": "2026-10-17",
    "symbol": "JVDC",
-   "price": 132.89
+   "price": 132.5
   },
   {
    "announced": "2025-09-09",
@@ -1423,7 +1306,7 @@
    "book_closure_from": "2025-10-10",
    "book_closure_to": "2025-10-18",
    "symbol": "JVDC",
-   "price": 132.89
+   "price": 132.5
   },
   {
    "announced": "2025-08-08",
@@ -1436,59 +1319,7 @@
    "book_closure_from": "2025-10-10",
    "book_closure_to": "2025-10-16",
    "symbol": "KTML",
-   "price": 43.33
-  },
-  {
-   "announced": "2026-08-04",
-   "period_end": "2026-06-30",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 262.5,
-   "amount_per_share": 5.25,
-   "book_closure_from": "2026-09-19",
-   "book_closure_to": "2026-09-25",
-   "symbol": "LCI",
-   "price": 184.98
-  },
-  {
-   "announced": "2026-01-27",
-   "period_end": "2025-12-31",
-   "period_type": "HYR",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 262.5,
-   "amount_per_share": 5.25,
-   "book_closure_from": "2026-02-09",
-   "book_closure_to": "2026-02-11",
-   "symbol": "LCI",
-   "price": 184.98
-  },
-  {
-   "announced": "2025-08-01",
-   "period_end": "2025-06-30",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 310.0,
-   "amount_per_share": 6.2,
-   "book_closure_from": "2025-09-20",
-   "book_closure_to": "2025-09-26",
-   "symbol": "LCI",
-   "price": 184.98
-  },
-  {
-   "announced": "2025-01-28",
-   "period_end": "2024-12-31",
-   "period_type": "HYR",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 340.0,
-   "amount_per_share": 6.8,
-   "book_closure_from": "2025-02-10",
-   "book_closure_to": "2025-02-12",
-   "symbol": "LCI",
-   "price": 184.98
+   "price": 44.48
   },
   {
    "announced": "2026-07-16",
@@ -1501,7 +1332,7 @@
    "book_closure_from": "2026-07-27",
    "book_closure_to": "2026-07-29",
    "symbol": "LOTCHEM",
-   "price": 25.64
+   "price": 25.6
   },
   {
    "announced": "2026-01-21",
@@ -1514,7 +1345,7 @@
    "book_closure_from": "2026-02-04",
    "book_closure_to": "2026-02-06",
    "symbol": "LOTCHEM",
-   "price": 25.64
+   "price": 25.6
   },
   {
    "announced": "2026-08-10",
@@ -1527,7 +1358,7 @@
    "book_closure_from": "2026-09-18",
    "book_closure_to": "2026-09-25",
    "symbol": "LUCK",
-   "price": 430.21
+   "price": 430.0
   },
   {
    "announced": "2025-08-11",
@@ -1540,7 +1371,7 @@
    "book_closure_from": "2025-09-19",
    "book_closure_to": "2025-09-26",
    "symbol": "LUCK",
-   "price": 430.21
+   "price": 430.0
   },
   {
    "announced": "2026-08-07",
@@ -1553,7 +1384,7 @@
    "book_closure_from": "2026-09-22",
    "book_closure_to": "2026-09-25",
    "symbol": "MARI",
-   "price": 723.72
+   "price": 725.0
   },
   {
    "announced": "2026-01-26",
@@ -1566,7 +1397,7 @@
    "book_closure_from": "2026-02-03",
    "book_closure_to": "2026-02-05",
    "symbol": "MARI",
-   "price": 723.72
+   "price": 725.0
   },
   {
    "announced": "2025-08-11",
@@ -1579,7 +1410,7 @@
    "book_closure_from": "2025-09-22",
    "book_closure_to": "2025-09-26",
    "symbol": "MARI",
-   "price": 723.72
+   "price": 725.0
   },
   {
    "announced": "2026-10-22",
@@ -1592,7 +1423,7 @@
    "book_closure_from": "2026-11-04",
    "book_closure_to": "2026-11-05",
    "symbol": "MEBL",
-   "price": 552.54
+   "price": 552.58
   },
   {
    "announced": "2026-04-23",
@@ -1605,7 +1436,7 @@
    "book_closure_from": "2026-05-06",
    "book_closure_to": "2026-05-07",
    "symbol": "MEBL",
-   "price": 552.54
+   "price": 552.58
   },
   {
    "announced": "2026-02-09",
@@ -1618,7 +1449,7 @@
    "book_closure_from": "2026-03-25",
    "book_closure_to": "2026-03-27",
    "symbol": "MEBL",
-   "price": 552.54
+   "price": 552.58
   },
   {
    "announced": "2025-10-27",
@@ -1631,7 +1462,7 @@
    "book_closure_from": "2025-11-05",
    "book_closure_to": "2025-11-07",
    "symbol": "MEBL",
-   "price": 552.54
+   "price": 552.58
   },
   {
    "announced": "2025-08-13",
@@ -1644,7 +1475,7 @@
    "book_closure_from": "2025-08-27",
    "book_closure_to": "2025-08-28",
    "symbol": "MEBL",
-   "price": 552.54
+   "price": 552.58
   },
   {
    "announced": "2025-04-21",
@@ -1657,7 +1488,7 @@
    "book_closure_from": "2025-05-02",
    "book_closure_to": "2025-05-04",
    "symbol": "MEBL",
-   "price": 552.54
+   "price": 552.58
   },
   {
    "announced": "2025-02-13",
@@ -1670,7 +1501,7 @@
    "book_closure_from": "2025-03-24",
    "book_closure_to": "2025-03-27",
    "symbol": "MEBL",
-   "price": 552.54
+   "price": 552.58
   },
   {
    "announced": "2026-09-16",
@@ -1683,7 +1514,7 @@
    "book_closure_from": "2026-10-20",
    "book_closure_to": "2026-10-27",
    "symbol": "MTL",
-   "price": 298.35
+   "price": 299.0
   },
   {
    "announced": "2026-02-17",
@@ -1696,7 +1527,7 @@
    "book_closure_from": "2026-03-04",
    "book_closure_to": "2026-04-06",
    "symbol": "MTL",
-   "price": 298.35
+   "price": 299.0
   },
   {
    "announced": "2025-09-15",
@@ -1709,7 +1540,7 @@
    "book_closure_from": "2025-10-17",
    "book_closure_to": "2025-10-24",
    "symbol": "MTL",
-   "price": 298.35
+   "price": 299.0
   },
   {
    "announced": "2025-02-19",
@@ -1722,7 +1553,7 @@
    "book_closure_from": "2025-03-05",
    "book_closure_to": "2025-03-07",
    "symbol": "MTL",
-   "price": 298.35
+   "price": 299.0
   },
   {
    "announced": "2026-10-22",
@@ -1735,7 +1566,7 @@
    "book_closure_from": "2026-11-02",
    "book_closure_to": "2026-11-04",
    "symbol": "NESTLE",
-   "price": 7023.33
+   "price": 6971.46
   },
   {
    "announced": "2026-07-23",
@@ -1748,7 +1579,7 @@
    "book_closure_from": "2026-08-05",
    "book_closure_to": "2026-08-07",
    "symbol": "NESTLE",
-   "price": 7023.33
+   "price": 6971.46
   },
   {
    "announced": "2026-02-19",
@@ -1761,7 +1592,7 @@
    "book_closure_from": "2026-04-10",
    "book_closure_to": "2026-04-17",
    "symbol": "NESTLE",
-   "price": 7023.33
+   "price": 6971.46
   },
   {
    "announced": "2025-10-16",
@@ -1774,7 +1605,7 @@
    "book_closure_from": "2025-10-27",
    "book_closure_to": "2025-10-29",
    "symbol": "NESTLE",
-   "price": 7023.33
+   "price": 6971.46
   },
   {
    "announced": "2025-07-24",
@@ -1787,7 +1618,7 @@
    "book_closure_from": "2025-08-06",
    "book_closure_to": "2025-08-08",
    "symbol": "NESTLE",
-   "price": 7023.33
+   "price": 6971.46
   },
   {
    "announced": "2025-02-13",
@@ -1800,7 +1631,7 @@
    "book_closure_from": "2025-04-15",
    "book_closure_to": "2025-04-22",
    "symbol": "NESTLE",
-   "price": 7023.33
+   "price": 6971.46
   },
   {
    "announced": "2026-09-30",
@@ -1813,7 +1644,7 @@
    "book_closure_from": "2026-10-21",
    "book_closure_to": "2026-10-28",
    "symbol": "NML",
-   "price": 133.59
+   "price": 133.99
   },
   {
    "announced": "2025-09-30",
@@ -1826,7 +1657,7 @@
    "book_closure_from": "2025-10-21",
    "book_closure_to": "2025-10-28",
    "symbol": "NML",
-   "price": 133.59
+   "price": 133.99
   },
   {
    "announced": "2026-10-30",
@@ -1839,7 +1670,7 @@
    "book_closure_from": "2026-11-11",
    "book_closure_to": "2026-11-12",
    "symbol": "OGDC",
-   "price": 311.45
+   "price": 311.7
   },
   {
    "announced": "2026-09-08",
@@ -1852,7 +1683,7 @@
    "book_closure_from": "2026-10-09",
    "book_closure_to": "2026-10-16",
    "symbol": "OGDC",
-   "price": 311.45
+   "price": 311.7
   },
   {
    "announced": "2026-04-29",
@@ -1865,7 +1696,7 @@
    "book_closure_from": "2026-05-12",
    "book_closure_to": "2026-05-13",
    "symbol": "OGDC",
-   "price": 311.45
+   "price": 311.7
   },
   {
    "announced": "2026-02-23",
@@ -1878,7 +1709,7 @@
    "book_closure_from": "2026-03-07",
    "book_closure_to": "2026-03-09",
    "symbol": "OGDC",
-   "price": 311.45
+   "price": 311.7
   },
   {
    "announced": "2025-10-29",
@@ -1891,7 +1722,7 @@
    "book_closure_from": "2025-11-11",
    "book_closure_to": "2025-11-12",
    "symbol": "OGDC",
-   "price": 311.45
+   "price": 311.7
   },
   {
    "announced": "2025-09-23",
@@ -1904,7 +1735,7 @@
    "book_closure_from": "2025-10-23",
    "book_closure_to": "2025-10-24",
    "symbol": "OGDC",
-   "price": 311.45
+   "price": 311.7
   },
   {
    "announced": "2025-04-30",
@@ -1917,7 +1748,7 @@
    "book_closure_from": "2025-05-13",
    "book_closure_to": "2025-05-15",
    "symbol": "OGDC",
-   "price": 311.45
+   "price": 311.7
   },
   {
    "announced": "2025-09-29",
@@ -1930,7 +1761,7 @@
    "book_closure_from": "2025-10-21",
    "book_closure_to": "2025-10-28",
    "symbol": "PIOC",
-   "price": 284.9
+   "price": 284.0
   },
   {
    "announced": "2025-02-28",
@@ -1943,33 +1774,7 @@
    "book_closure_from": "2025-03-10",
    "book_closure_to": "2025-03-12",
    "symbol": "PIOC",
-   "price": 284.9
-  },
-  {
-   "announced": "2026-03-26",
-   "period_end": "2025-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 160.0,
-   "amount_per_share": 16.0,
-   "book_closure_from": "2026-04-23",
-   "book_closure_to": "2026-04-30",
-   "symbol": "PKGS",
-   "price": 637.0
-  },
-  {
-   "announced": "2025-03-26",
-   "period_end": "2024-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 150.0,
-   "amount_per_share": 15.0,
-   "book_closure_from": "2025-04-23",
-   "book_closure_to": "2025-04-30",
-   "symbol": "PKGS",
-   "price": 637.0
+   "price": 284.0
   },
   {
    "announced": "2026-10-29",
@@ -1982,7 +1787,7 @@
    "book_closure_from": "2026-11-12",
    "book_closure_to": "2026-11-16",
    "symbol": "PPL",
-   "price": 223.67
+   "price": 224.03
   },
   {
    "announced": "2026-09-15",
@@ -1995,7 +1800,7 @@
    "book_closure_from": "2026-10-21",
    "book_closure_to": "2026-10-19",
    "symbol": "PPL",
-   "price": 223.67
+   "price": 224.03
   },
   {
    "announced": "2026-04-29",
@@ -2008,7 +1813,7 @@
    "book_closure_from": "2026-05-14",
    "book_closure_to": "2026-05-18",
    "symbol": "PPL",
-   "price": 223.67
+   "price": 224.03
   },
   {
    "announced": "2026-02-13",
@@ -2021,7 +1826,7 @@
    "book_closure_from": "2026-02-27",
    "book_closure_to": "2026-03-03",
    "symbol": "PPL",
-   "price": 223.67
+   "price": 224.03
   },
   {
    "announced": "2025-10-29",
@@ -2034,7 +1839,7 @@
    "book_closure_from": "2025-11-12",
    "book_closure_to": "2025-11-14",
    "symbol": "PPL",
-   "price": 223.67
+   "price": 224.03
   },
   {
    "announced": "2025-09-19",
@@ -2047,7 +1852,7 @@
    "book_closure_from": "2025-10-21",
    "book_closure_to": "2025-10-27",
    "symbol": "PPL",
-   "price": 223.67
+   "price": 224.03
   },
   {
    "announced": "2025-04-29",
@@ -2060,7 +1865,7 @@
    "book_closure_from": "2025-05-13",
    "book_closure_to": "2025-05-15",
    "symbol": "PPL",
-   "price": 223.67
+   "price": 224.03
   },
   {
    "announced": "2025-02-28",
@@ -2073,7 +1878,7 @@
    "book_closure_from": "2025-03-14",
    "book_closure_to": "2025-03-18",
    "symbol": "PPL",
-   "price": 223.67
+   "price": 224.03
   },
   {
    "announced": "2026-09-25",
@@ -2086,7 +1891,7 @@
    "book_closure_from": "2026-10-21",
    "book_closure_to": "2026-10-28",
    "symbol": "PSO",
-   "price": 356.91
+   "price": 359.0
   },
   {
    "announced": "2025-08-19",
@@ -2099,7 +1904,7 @@
    "book_closure_from": "2025-10-17",
    "book_closure_to": "2025-10-24",
    "symbol": "PSO",
-   "price": 356.91
+   "price": 359.0
   },
   {
    "announced": "2026-10-27",
@@ -2112,7 +1917,7 @@
    "book_closure_from": "2026-11-09",
    "book_closure_to": "2026-11-11",
    "symbol": "SAZEW",
-   "price": 1444.59
+   "price": 1449.0
   },
   {
    "announced": "2026-04-20",
@@ -2125,7 +1930,7 @@
    "book_closure_from": "2026-05-01",
    "book_closure_to": "2026-05-03",
    "symbol": "SAZEW",
-   "price": 1444.59
+   "price": 1449.0
   },
   {
    "announced": "2026-01-27",
@@ -2138,7 +1943,7 @@
    "book_closure_from": "2026-02-10",
    "book_closure_to": "2026-02-12",
    "symbol": "SAZEW",
-   "price": 1444.59
+   "price": 1449.0
   },
   {
    "announced": "2025-10-15",
@@ -2151,7 +1956,7 @@
    "book_closure_from": "2025-10-29",
    "book_closure_to": "2025-10-31",
    "symbol": "SAZEW",
-   "price": 1444.59
+   "price": 1449.0
   },
   {
    "announced": "2025-09-01",
@@ -2164,7 +1969,7 @@
    "book_closure_from": "2025-09-19",
    "book_closure_to": "2025-09-25",
    "symbol": "SAZEW",
-   "price": 1444.59
+   "price": 1449.0
   },
   {
    "announced": "2025-02-24",
@@ -2177,7 +1982,7 @@
    "book_closure_from": "2025-03-10",
    "book_closure_to": "2025-03-12",
    "symbol": "SAZEW",
-   "price": 1444.59
+   "price": 1449.0
   },
   {
    "announced": "2026-09-25",
@@ -2190,7 +1995,7 @@
    "book_closure_from": "2026-10-15",
    "book_closure_to": "2026-10-22",
    "symbol": "SEARL",
-   "price": 81.45
+   "price": 81.05
   },
   {
    "announced": "2026-09-15",
@@ -2203,7 +2008,7 @@
    "book_closure_from": "2026-10-16",
    "book_closure_to": "2026-10-24",
    "symbol": "SHFA",
-   "price": 435.89
+   "price": 435.0
   },
   {
    "announced": "2025-09-08",
@@ -2216,7 +2021,7 @@
    "book_closure_from": "2025-10-17",
    "book_closure_to": "2025-10-25",
    "symbol": "SHFA",
-   "price": 435.89
+   "price": 435.0
   },
   {
    "announced": "2026-11-06",
@@ -2229,7 +2034,7 @@
    "book_closure_from": "2026-11-20",
    "book_closure_to": "2026-11-27",
    "symbol": "SNGP",
-   "price": 91.04
+   "price": 91.4
   },
   {
    "announced": "2025-11-03",
@@ -2242,7 +2047,7 @@
    "book_closure_from": "2025-11-21",
    "book_closure_to": "2025-11-27",
    "symbol": "SNGP",
-   "price": 91.04
+   "price": 91.4
   },
   {
    "announced": "2025-04-28",
@@ -2255,33 +2060,7 @@
    "book_closure_from": "2025-05-15",
    "book_closure_to": "2025-05-22",
    "symbol": "SNGP",
-   "price": 91.04
-  },
-  {
-   "announced": "2026-03-18",
-   "period_end": "2025-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 175.0,
-   "amount_per_share": 1.75,
-   "book_closure_from": "2026-04-23",
-   "book_closure_to": "2026-04-29",
-   "symbol": "SRVI",
-   "price": 178.72
-  },
-  {
-   "announced": "2025-03-26",
-   "period_end": "2024-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 150.0,
-   "amount_per_share": 1.5,
-   "book_closure_from": "2025-04-22",
-   "book_closure_to": "2025-04-28",
-   "symbol": "SRVI",
-   "price": 178.72
+   "price": 91.4
   },
   {
    "announced": "2025-11-05",
@@ -2294,33 +2073,7 @@
    "book_closure_from": "2025-11-20",
    "book_closure_to": "2025-11-27",
    "symbol": "SSGC",
-   "price": 23.99
-  },
-  {
-   "announced": "2026-10-06",
-   "period_end": "2026-06-30",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 50.0,
-   "amount_per_share": 5.0,
-   "book_closure_from": "2026-10-22",
-   "book_closure_to": "2026-10-28",
-   "symbol": "SSOM",
-   "price": 416.89
-  },
-  {
-   "announced": "2025-10-06",
-   "period_end": "2025-06-30",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 50.0,
-   "amount_per_share": 5.0,
-   "book_closure_from": "2025-10-22",
-   "book_closure_to": "2025-10-28",
-   "symbol": "SSOM",
-   "price": 416.89
+   "price": 24.0
   },
   {
    "announced": "2026-04-07",
@@ -2333,7 +2086,7 @@
    "book_closure_from": "2026-05-04",
    "book_closure_to": "2026-05-11",
    "symbol": "SYS",
-   "price": 111.26
+   "price": 111.5
   },
   {
    "announced": "2025-03-24",
@@ -2346,7 +2099,7 @@
    "book_closure_from": "2025-04-22",
    "book_closure_to": "2025-04-28",
    "symbol": "SYS",
-   "price": 111.26
+   "price": 111.5
   },
   {
    "announced": "2026-02-24",
@@ -2359,7 +2112,7 @@
    "book_closure_from": "2025-03-06",
    "book_closure_to": "2025-03-09",
    "symbol": "TGL",
-   "price": 186.45
+   "price": 187.63
   },
   {
    "announced": "2025-04-25",
@@ -2372,7 +2125,7 @@
    "book_closure_from": "2025-05-09",
    "book_closure_to": "2025-05-13",
    "symbol": "TGL",
-   "price": 186.45
+   "price": 187.63
   },
   {
    "announced": "2025-02-21",
@@ -2385,7 +2138,7 @@
    "book_closure_from": "2025-03-06",
    "book_closure_to": "2025-03-10",
    "symbol": "TGL",
-   "price": 186.45
+   "price": 187.63
   },
   {
    "announced": "2026-11-06",
@@ -2398,7 +2151,7 @@
    "book_closure_from": "2026-11-19",
    "book_closure_to": "2026-11-27",
    "symbol": "THCCL",
-   "price": 78.6
+   "price": 79.25
   },
   {
    "announced": "2025-02-03",
@@ -2411,111 +2164,7 @@
    "book_closure_from": "2025-02-10",
    "book_closure_to": "2025-02-12",
    "symbol": "THCCL",
-   "price": 78.6
-  },
-  {
-   "announced": "2026-10-23",
-   "period_end": null,
-   "period_type": null,
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 3120.0,
-   "amount_per_share": 312.0,
-   "book_closure_from": "2026-11-05",
-   "book_closure_to": "2026-11-07",
-   "symbol": "UPFL",
-   "price": 26325.5
-  },
-  {
-   "announced": "2026-08-27",
-   "period_end": "2026-06-30",
-   "period_type": "HYR",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 3500.0,
-   "amount_per_share": 350.0,
-   "book_closure_from": "2026-09-08",
-   "book_closure_to": null,
-   "symbol": "UPFL",
-   "price": 26325.5
-  },
-  {
-   "announced": "2026-04-28",
-   "period_end": "2026-03-31",
-   "period_type": "IQ",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 3310.0,
-   "amount_per_share": 331.0,
-   "book_closure_from": "2026-05-11",
-   "book_closure_to": "2026-05-13",
-   "symbol": "UPFL",
-   "price": 26325.5
-  },
-  {
-   "announced": "2026-02-24",
-   "period_end": "2025-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 2160.0,
-   "amount_per_share": 216.0,
-   "book_closure_from": "2026-04-18",
-   "book_closure_to": "2026-04-22",
-   "symbol": "UPFL",
-   "price": 26325.5
-  },
-  {
-   "announced": "2025-10-23",
-   "period_end": "2025-09-30",
-   "period_type": "IIIQ",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 4660.0,
-   "amount_per_share": 466.0,
-   "book_closure_from": "2025-11-05",
-   "book_closure_to": "2025-11-07",
-   "symbol": "UPFL",
-   "price": 26325.5
-  },
-  {
-   "announced": "2025-08-20",
-   "period_end": "2025-06-30",
-   "period_type": "HYR",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 4440.0,
-   "amount_per_share": 444.0,
-   "book_closure_from": "2025-09-03",
-   "book_closure_to": "2025-09-05",
-   "symbol": "UPFL",
-   "price": 26325.5
-  },
-  {
-   "announced": "2025-04-24",
-   "period_end": "2025-03-31",
-   "period_type": "IQ",
-   "kind": "cash",
-   "stage": "interim",
-   "percent": 5250.0,
-   "amount_per_share": 525.0,
-   "book_closure_from": "2025-05-09",
-   "book_closure_to": "2025-05-11",
-   "symbol": "UPFL",
-   "price": 26325.5
-  },
-  {
-   "announced": "2025-03-03",
-   "period_end": "2024-12-31",
-   "period_type": "YR",
-   "kind": "cash",
-   "stage": "final",
-   "percent": 6000.0,
-   "amount_per_share": 600.0,
-   "book_closure_from": "2025-04-18",
-   "book_closure_to": "2025-04-22",
-   "symbol": "UPFL",
-   "price": 26325.5
+   "price": 79.25
   }
  ]
 }
