@@ -1,1452 +1,255 @@
 {
- "as_of": "2026-11-27T15:37:32+00:00",
+ "as_of": "2026-11-27T16:07:33+00:00",
  "prices": {
-  "ARES": {
-   "price": 135.835,
-   "change": 1.895,
-   "change_pct": 1.41,
-   "volume": 154954.0,
-   "previous_close": 133.94,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CRH": {
-   "price": 97.415,
-   "change": 0.115,
-   "change_pct": 0.12,
-   "volume": 628507.0,
-   "previous_close": 97.3,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TXT": {
-   "price": 82.53,
-   "change": 1.65,
-   "change_pct": 2.04,
-   "volume": 213310.0,
-   "previous_close": 80.88,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GEN": {
-   "price": 30.44,
-   "change": 0.27,
-   "change_pct": 0.89,
-   "volume": 973942.0,
-   "previous_close": 30.17,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MRK": {
-   "price": 141.0484,
-   "change": 0.7584,
-   "change_pct": 0.54,
-   "volume": 2206385.0,
-   "previous_close": 140.29,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "COR": {
-   "price": 353.79,
-   "change": -0.26,
-   "change_pct": -0.07,
-   "volume": 104054.0,
-   "previous_close": 354.05,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ISRG": {
-   "price": 427.845,
-   "change": 0.665,
-   "change_pct": 0.16,
-   "volume": 239306.0,
-   "previous_close": 427.18,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CTAS": {
-   "price": 228.04,
-   "change": 0.39,
-   "change_pct": 0.17,
-   "volume": 191221.0,
-   "previous_close": 227.65,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "T": {
-   "price": 23.135,
-   "change": 0.165,
-   "change_pct": 0.72,
-   "volume": 5446140.0,
-   "previous_close": 22.97,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TSLA": {
-   "price": 399.65,
-   "change": 19.51,
-   "change_pct": 5.13,
-   "volume": 11354525.0,
-   "previous_close": 380.14,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FOX": {
-   "price": 58.84,
-   "change": 0.85,
-   "change_pct": 1.47,
-   "volume": 95585.0,
-   "previous_close": 57.99,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GLW": {
-   "price": 102.585,
-   "change": 2.345,
-   "change_pct": 2.34,
-   "volume": 1495217.0,
-   "previous_close": 100.24,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LYB": {
-   "price": 57.485,
-   "change": 0.525,
-   "change_pct": 0.92,
-   "volume": 302643.0,
-   "previous_close": 56.96,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ACGL": {
-   "price": 110.32,
-   "change": 0.03,
-   "change_pct": 0.03,
-   "volume": 160539.0,
-   "previous_close": 110.29,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CMS": {
-   "price": 71.86,
-   "change": 0.26,
-   "change_pct": 0.36,
-   "volume": 284379.0,
-   "previous_close": 71.6,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CB": {
-   "price": 379.945,
-   "change": -0.565,
-   "change_pct": -0.15,
-   "volume": 161324.0,
-   "previous_close": 380.51,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ICE": {
-   "price": 178.0,
-   "change": 0.19,
-   "change_pct": 0.11,
-   "volume": 411494.0,
-   "previous_close": 177.81,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BXP": {
-   "price": 64.39,
-   "change": 0.37,
-   "change_pct": 0.58,
-   "volume": 79357.0,
-   "previous_close": 64.02,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MAR": {
-   "price": 417.88,
-   "change": 2.11,
-   "change_pct": 0.51,
-   "volume": 84879.0,
-   "previous_close": 415.77,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CRM": {
-   "price": 198.05,
-   "change": 0.84,
-   "change_pct": 0.43,
-   "volume": 729839.0,
-   "previous_close": 197.21,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GEHC": {
-   "price": 84.53,
-   "change": 1.2,
-   "change_pct": 1.44,
-   "volume": 296873.0,
-   "previous_close": 83.33,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VTRS": {
-   "price": 19.94,
-   "change": 0.11,
-   "change_pct": 0.55,
-   "volume": 636425.0,
-   "previous_close": 19.83,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "OMC": {
-   "price": 92.1,
-   "change": 1.4,
-   "change_pct": 1.54,
-   "volume": 252520.0,
-   "previous_close": 90.7,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "META": {
-   "price": 633.0,
-   "change": 23.11,
-   "change_pct": 3.79,
-   "volume": 4180703.0,
-   "previous_close": 609.89,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ADBE": {
-   "price": 233.685,
-   "change": 0.855,
-   "change_pct": 0.37,
-   "volume": 593490.0,
-   "previous_close": 232.83,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "JNJ": {
-   "price": 274.72,
-   "change": 0.78,
-   "change_pct": 0.28,
-   "volume": 802986.0,
-   "previous_close": 273.94,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VYLR": {
-   "price": 70.09,
-   "change": 0.62,
-   "change_pct": 0.89,
-   "volume": 279882.0,
-   "previous_close": 69.47,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PSA": {
-   "price": 338.61,
-   "change": 0.63,
-   "change_pct": 0.19,
-   "volume": 49989.0,
-   "previous_close": 337.98,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BSX": {
-   "price": 45.135,
-   "change": 0.015,
-   "change_pct": 0.03,
-   "volume": 1265603.0,
-   "previous_close": 45.12,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SCHW": {
-   "price": 93.99,
-   "change": 0.54,
-   "change_pct": 0.58,
-   "volume": 1430062.0,
-   "previous_close": 93.45,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "INVH": {
-   "price": 27.825,
-   "change": 0.005,
-   "change_pct": 0.02,
-   "volume": 399928.0,
-   "previous_close": 27.82,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LITE": {
-   "price": 509.02,
-   "change": 32.44,
-   "change_pct": 6.81,
-   "volume": 1350290.0,
-   "previous_close": 476.58,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AJG": {
-   "price": 292.34,
-   "change": -0.05,
-   "change_pct": -0.02,
-   "volume": 173017.0,
-   "previous_close": 292.39,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AMCR": {
-   "price": 45.42,
-   "change": 1.38,
-   "change_pct": 3.13,
-   "volume": 4032248.0,
-   "previous_close": 44.04,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EQT": {
-   "price": 52.27,
-   "change": 0.74,
-   "change_pct": 1.44,
-   "volume": 1070078.0,
-   "previous_close": 51.53,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ADP": {
-   "price": 318.9,
-   "change": 2.18,
-   "change_pct": 0.69,
-   "volume": 205246.0,
-   "previous_close": 316.72,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DRI": {
-   "price": 243.75,
-   "change": 2.59,
-   "change_pct": 1.07,
-   "volume": 93635.0,
-   "previous_close": 241.16,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PAYX": {
-   "price": 118.425,
-   "change": -0.065,
-   "change_pct": -0.05,
-   "volume": 165075.0,
-   "previous_close": 118.49,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ETR": {
-   "price": 108.56,
-   "change": 1.24,
-   "change_pct": 1.16,
-   "volume": 342037.0,
-   "previous_close": 107.32,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "UNP": {
-   "price": 298.71,
-   "change": 0.33,
-   "change_pct": 0.11,
-   "volume": 366054.0,
-   "previous_close": 298.38,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TRMB": {
-   "price": 55.5,
-   "change": 0.25,
-   "change_pct": 0.45,
-   "volume": 283799.0,
-   "previous_close": 55.25,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NFLX": {
-   "price": 60.72,
-   "change": 1.31,
-   "change_pct": 2.21,
-   "volume": 8432421.0,
-   "previous_close": 59.41,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CPRT": {
-   "price": 33.2975,
-   "change": 0.1325,
-   "change_pct": 0.4,
-   "volume": 1527931.0,
-   "previous_close": 33.165,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DTE": {
-   "price": 137.66,
-   "change": -0.1,
-   "change_pct": -0.07,
-   "volume": 69776.0,
-   "previous_close": 137.76,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EVRG": {
-   "price": 87.7,
-   "change": -0.07,
-   "change_pct": -0.08,
-   "volume": 123186.0,
-   "previous_close": 87.77,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "F": {
-   "price": 12.365,
-   "change": 0.195,
-   "change_pct": 1.6,
-   "volume": 4434463.0,
-   "previous_close": 12.17,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GPC": {
-   "price": 124.58,
-   "change": 0.7,
-   "change_pct": 0.57,
-   "volume": 70613.0,
-   "previous_close": 123.88,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ALGN": {
-   "price": 165.62,
-   "change": 0.22,
+  "PANW": {
+   "price": 356.59,
+   "change": 0.45,
    "change_pct": 0.13,
-   "volume": 44786.0,
-   "previous_close": 165.4,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PCG": {
-   "price": 14.44,
-   "change": 0.18,
-   "change_pct": 1.26,
-   "volume": 1966275.0,
-   "previous_close": 14.26,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ROL": {
-   "price": 38.46,
-   "change": 0.01,
-   "change_pct": 0.03,
-   "volume": 551563.0,
-   "previous_close": 38.45,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PNW": {
-   "price": 103.4,
-   "change": 0.16,
-   "change_pct": 0.15,
-   "volume": 90864.0,
-   "previous_close": 103.24,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VST": {
-   "price": 122.175,
-   "change": 0.855,
-   "change_pct": 0.7,
-   "volume": 490110.0,
-   "previous_close": 121.32,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FICO": {
-   "price": 702.08,
-   "change": 2.27,
-   "change_pct": 0.32,
-   "volume": 33655.0,
-   "previous_close": 699.81,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AIZ": {
-   "price": 328.07,
-   "change": 2.34,
-   "change_pct": 0.72,
-   "volume": 34640.0,
-   "previous_close": 325.73,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HLT": {
-   "price": 368.41,
-   "change": 2.21,
-   "change_pct": 0.6,
-   "volume": 106179.0,
-   "previous_close": 366.2,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WMB": {
-   "price": 67.33,
-   "change": 0.88,
-   "change_pct": 1.32,
-   "volume": 585934.0,
-   "previous_close": 66.45,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AME": {
-   "price": 228.64,
-   "change": 1.15,
-   "change_pct": 0.51,
-   "volume": 109791.0,
-   "previous_close": 227.49,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AMZN": {
-   "price": 252.83,
-   "change": 8.4,
-   "change_pct": 3.44,
-   "volume": 9001428.0,
-   "previous_close": 244.43,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BA": {
-   "price": 166.61,
-   "change": 2.08,
-   "change_pct": 1.26,
-   "volume": 1047485.0,
-   "previous_close": 164.53,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TFC": {
-   "price": 48.495,
-   "change": 0.605,
-   "change_pct": 1.26,
-   "volume": 712096.0,
-   "previous_close": 47.89,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KEY": {
-   "price": 20.5084,
-   "change": 0.2884,
-   "change_pct": 1.43,
-   "volume": 1349071.0,
-   "previous_close": 20.22,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PFG": {
-   "price": 110.44,
-   "change": 1.4,
-   "change_pct": 1.28,
-   "volume": 67417.0,
-   "previous_close": 109.04,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AFL": {
-   "price": 127.51,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "volume": 146229.0,
-   "previous_close": 127.51,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DVA": {
-   "price": 164.41,
-   "change": 1.64,
-   "change_pct": 1.01,
-   "volume": 37440.0,
-   "previous_close": 162.77,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KHC": {
-   "price": 26.44,
-   "change": -0.07,
-   "change_pct": -0.26,
-   "volume": 1881821.0,
-   "previous_close": 26.51,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CDNS": {
-   "price": 298.765,
-   "change": 3.875,
-   "change_pct": 1.31,
-   "volume": 272959.0,
-   "previous_close": 294.89,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WAB": {
-   "price": 293.76,
-   "change": 6.17,
-   "change_pct": 2.15,
-   "volume": 219084.0,
-   "previous_close": 287.59,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LIN": {
-   "price": 530.02,
-   "change": 5.41,
-   "change_pct": 1.03,
-   "volume": 358042.0,
-   "previous_close": 524.61,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "IEX": {
-   "price": 226.58,
-   "change": 1.33,
-   "change_pct": 0.59,
-   "volume": 41784.0,
-   "previous_close": 225.25,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ATO": {
-   "price": 173.77,
-   "change": 0.51,
-   "change_pct": 0.29,
-   "volume": 96790.0,
-   "previous_close": 173.26,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CLX": {
-   "price": 111.635,
-   "change": 0.695,
-   "change_pct": 0.63,
-   "volume": 214175.0,
-   "previous_close": 110.94,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NCLH": {
-   "price": 16.9441,
-   "change": -0.0559,
-   "change_pct": -0.33,
-   "volume": 1569653.0,
-   "previous_close": 17.0,
+   "volume": 2468055.0,
+   "previous_close": 356.14,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
   "ALB": {
-   "price": 82.68,
-   "change": 1.18,
-   "change_pct": 1.45,
-   "volume": 333709.0,
+   "price": 82.61,
+   "change": 1.11,
+   "change_pct": 1.36,
+   "volume": 419444.0,
    "previous_close": 81.5,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "DOW": {
-   "price": 30.135,
-   "change": 0.475,
-   "change_pct": 1.6,
-   "volume": 1072853.0,
-   "previous_close": 29.66,
+  "FSLR": {
+   "price": 150.145,
+   "change": 2.265,
+   "change_pct": 1.53,
+   "volume": 406454.0,
+   "previous_close": 147.88,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "TDY": {
-   "price": 643.345,
-   "change": 14.225,
-   "change_pct": 2.26,
-   "volume": 42762.0,
-   "previous_close": 629.12,
+  "RTX": {
+   "price": 196.4,
+   "change": 0.21,
+   "change_pct": 0.11,
+   "volume": 543966.0,
+   "previous_close": 196.19,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "APP": {
-   "price": 396.94,
-   "change": 17.99,
-   "change_pct": 4.75,
-   "volume": 874130.0,
-   "previous_close": 378.95,
+  "OMC": {
+   "price": 91.505,
+   "change": 0.805,
+   "change_pct": 0.89,
+   "volume": 346268.0,
+   "previous_close": 90.7,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "WSM": {
-   "price": 212.31,
-   "change": -0.08,
-   "change_pct": -0.04,
-   "volume": 96718.0,
-   "previous_close": 212.39,
+  "SNDK": {
+   "price": 82.89,
+   "change": 9.28,
+   "change_pct": 12.61,
+   "volume": 57772943.0,
+   "previous_close": 73.61,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "EOG": {
-   "price": 151.025,
-   "change": 2.715,
-   "change_pct": 1.83,
-   "volume": 516614.0,
-   "previous_close": 148.31,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EXPD": {
-   "price": 199.02,
-   "change": 0.83,
-   "change_pct": 0.42,
-   "volume": 107850.0,
-   "previous_close": 198.19,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "YUM": {
-   "price": 166.66,
-   "change": 0.29,
-   "change_pct": 0.17,
-   "volume": 165612.0,
-   "previous_close": 166.37,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "JCI": {
-   "price": 137.1,
-   "change": 0.6,
-   "change_pct": 0.44,
-   "volume": 629131.0,
-   "previous_close": 136.5,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KDP": {
-   "price": 35.565,
-   "change": -0.065,
-   "change_pct": -0.18,
-   "volume": 2030021.0,
-   "previous_close": 35.63,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MS": {
-   "price": 171.1634,
-   "change": 3.6134,
-   "change_pct": 2.16,
-   "volume": 991156.0,
-   "previous_close": 167.55,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "RL": {
-   "price": 399.5,
-   "change": -1.21,
-   "change_pct": -0.3,
-   "volume": 40711.0,
-   "previous_close": 400.71,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WYNN": {
-   "price": 87.36,
-   "change": 1.28,
-   "change_pct": 1.49,
-   "volume": 201780.0,
-   "previous_close": 86.08,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NSC": {
-   "price": 327.205,
-   "change": 0.695,
-   "change_pct": 0.21,
-   "volume": 80482.0,
-   "previous_close": 326.51,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EME": {
-   "price": 628.305,
-   "change": -0.415,
-   "change_pct": -0.07,
-   "volume": 46697.0,
-   "previous_close": 628.72,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LULU": {
-   "price": 108.685,
-   "change": 1.245,
-   "change_pct": 1.16,
-   "volume": 336634.0,
-   "previous_close": 107.44,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FDX": {
-   "price": 311.59,
-   "change": 2.72,
-   "change_pct": 0.88,
-   "volume": 81480.0,
-   "previous_close": 308.87,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EFX": {
-   "price": 183.51,
-   "change": 1.4,
-   "change_pct": 0.77,
-   "volume": 1442506.0,
-   "previous_close": 182.11,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TWLO": {
-   "price": 185.91,
-   "change": 5.12,
-   "change_pct": 2.83,
-   "volume": 150835.0,
-   "previous_close": 180.79,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "RCL": {
-   "price": 314.19,
-   "change": 0.08,
-   "change_pct": 0.03,
-   "volume": 195180.0,
-   "previous_close": 314.11,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NEE": {
-   "price": 85.085,
-   "change": 0.2982,
-   "change_pct": 0.35,
-   "volume": 1238119.0,
-   "previous_close": 84.7868,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CASY": {
-   "price": 709.11,
-   "change": 10.85,
-   "change_pct": 1.55,
-   "volume": 34046.0,
-   "previous_close": 698.26,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "IT": {
-   "price": 186.92,
-   "change": 2.12,
-   "change_pct": 1.15,
-   "volume": 50738.0,
-   "previous_close": 184.8,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GE": {
-   "price": 321.67,
-   "change": 4.69,
-   "change_pct": 1.48,
-   "volume": 322320.0,
-   "previous_close": 316.98,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MDLZ": {
-   "price": 67.6,
-   "change": -0.21,
-   "change_pct": -0.31,
-   "volume": 813883.0,
-   "previous_close": 67.81,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MTB": {
-   "price": 216.9,
-   "change": 1.4,
-   "change_pct": 0.65,
-   "volume": 55272.0,
-   "previous_close": 215.5,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MRSH": {
-   "price": 218.01,
-   "change": 1.35,
-   "change_pct": 0.62,
-   "volume": 397473.0,
-   "previous_close": 216.66,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VMC": {
-   "price": 292.32,
-   "change": 1.34,
-   "change_pct": 0.46,
-   "volume": 129795.0,
-   "previous_close": 290.98,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LUV": {
-   "price": 46.64,
-   "change": 0.69,
-   "change_pct": 1.5,
-   "volume": 318792.0,
-   "previous_close": 45.95,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MET": {
-   "price": 101.45,
-   "change": 1.67,
-   "change_pct": 1.67,
-   "volume": 463546.0,
-   "previous_close": 99.78,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DDOG": {
-   "price": 165.0,
-   "change": -1.46,
-   "change_pct": -0.88,
-   "volume": 4982383.0,
-   "previous_close": 166.46,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LLY": {
-   "price": 1391.1301,
-   "change": -1.0899,
-   "change_pct": -0.08,
-   "volume": 647433.0,
-   "previous_close": 1392.22,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "UPS": {
-   "price": 112.4,
-   "change": 0.93,
-   "change_pct": 0.83,
-   "volume": 717335.0,
-   "previous_close": 111.47,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FFIV": {
-   "price": 317.29,
-   "change": 0.24,
-   "change_pct": 0.08,
-   "volume": 47941.0,
-   "previous_close": 317.05,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MMM": {
-   "price": 191.0,
-   "change": 1.17,
-   "change_pct": 0.62,
-   "volume": 408506.0,
-   "previous_close": 189.83,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BALL": {
-   "price": 66.91,
-   "change": -0.27,
-   "change_pct": -0.4,
-   "volume": 157682.0,
-   "previous_close": 67.18,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GIS": {
-   "price": 36.105,
-   "change": -0.145,
-   "change_pct": -0.4,
-   "volume": 648789.0,
-   "previous_close": 36.25,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CPT": {
-   "price": 98.925,
-   "change": -0.325,
-   "change_pct": -0.33,
-   "volume": 65865.0,
-   "previous_close": 99.25,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DG": {
-   "price": 131.08,
-   "change": -2.78,
-   "change_pct": -2.08,
-   "volume": 1866481.0,
-   "previous_close": 133.86,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "IBKR": {
-   "price": 77.13,
-   "change": 2.39,
-   "change_pct": 3.2,
-   "volume": 532490.0,
-   "previous_close": 74.74,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BNY": {
-   "price": 149.524,
-   "change": 2.364,
-   "change_pct": 1.61,
-   "volume": 316266.0,
-   "previous_close": 147.16,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FISV": {
-   "price": 61.41,
-   "change": 1.63,
-   "change_pct": 2.73,
-   "volume": 763901.0,
-   "previous_close": 59.78,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LEN": {
-   "price": 86.62,
-   "change": -0.17,
-   "change_pct": -0.2,
-   "volume": 563639.0,
-   "previous_close": 86.79,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MSCI": {
-   "price": 633.01,
+  "ATO": {
+   "price": 173.27,
    "change": 0.01,
-   "change_pct": 0.0,
-   "volume": 30002.0,
-   "previous_close": 633.0,
+   "change_pct": 0.01,
+   "volume": 182657.0,
+   "previous_close": 173.26,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "STX": {
-   "price": 498.39,
-   "change": 26.06,
-   "change_pct": 5.52,
-   "volume": 736017.0,
-   "previous_close": 472.33,
+  "TER": {
+   "price": 216.54,
+   "change": 4.39,
+   "change_pct": 2.07,
+   "volume": 1127459.0,
+   "previous_close": 212.15,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "INTU": {
-   "price": 274.42,
-   "change": 2.7,
-   "change_pct": 0.99,
-   "volume": 613783.0,
-   "previous_close": 271.72,
+  "LDOS": {
+   "price": 131.51,
+   "change": 0.89,
+   "change_pct": 0.68,
+   "volume": 135349.0,
+   "previous_close": 130.62,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "MTD": {
-   "price": 1674.265,
-   "change": 9.715,
-   "change_pct": 0.58,
-   "volume": 12489.0,
-   "previous_close": 1664.55,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CFG": {
-   "price": 62.685,
-   "change": 0.925,
-   "change_pct": 1.5,
-   "volume": 440216.0,
-   "previous_close": 61.76,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ROP": {
-   "price": 485.2,
-   "change": 2.11,
-   "change_pct": 0.44,
-   "volume": 83637.0,
-   "previous_close": 483.09,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CSX": {
-   "price": 51.425,
-   "change": 0.265,
-   "change_pct": 0.52,
-   "volume": 1277367.0,
-   "previous_close": 51.16,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "IRM": {
-   "price": 103.845,
-   "change": -0.215,
-   "change_pct": -0.21,
-   "volume": 295941.0,
-   "previous_close": 104.06,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SPG": {
-   "price": 235.59,
-   "change": 1.61,
-   "change_pct": 0.69,
-   "volume": 140057.0,
-   "previous_close": 233.98,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GILD": {
-   "price": 175.925,
-   "change": -0.815,
-   "change_pct": -0.46,
-   "volume": 938964.0,
-   "previous_close": 176.74,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MAA": {
-   "price": 117.705,
-   "change": 0.105,
-   "change_pct": 0.09,
-   "volume": 121400.0,
-   "previous_close": 117.6,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FERG": {
-   "price": 260.13,
-   "change": 3.14,
-   "change_pct": 1.22,
-   "volume": 169002.0,
-   "previous_close": 256.99,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NUE": {
-   "price": 256.45,
-   "change": 8.11,
-   "change_pct": 3.27,
-   "volume": 155843.0,
-   "previous_close": 248.34,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GDDY": {
-   "price": 105.345,
-   "change": 0.205,
-   "change_pct": 0.19,
-   "volume": 141389.0,
-   "previous_close": 105.14,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "IR": {
-   "price": 84.7325,
-   "change": 1.5925,
-   "change_pct": 1.92,
-   "volume": 902553.0,
-   "previous_close": 83.14,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ALL": {
-   "price": 272.29,
-   "change": 0.9,
-   "change_pct": 0.33,
-   "volume": 177251.0,
-   "previous_close": 271.39,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AVGO": {
-   "price": 310.92,
-   "change": 10.06,
-   "change_pct": 3.34,
-   "volume": 5879652.0,
-   "previous_close": 300.86,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KIM": {
-   "price": 26.0805,
-   "change": 0.0305,
-   "change_pct": 0.12,
-   "volume": 491217.0,
-   "previous_close": 26.05,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LOW": {
-   "price": 234.83,
-   "change": -0.82,
-   "change_pct": -0.35,
-   "volume": 321140.0,
-   "previous_close": 235.65,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PLTR": {
-   "price": 170.85,
-   "change": 7.26,
-   "change_pct": 4.44,
-   "volume": 5730654.0,
-   "previous_close": 163.59,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SWKS": {
-   "price": 87.185,
-   "change": 5.175,
-   "change_pct": 6.31,
-   "volume": 434110.0,
-   "previous_close": 82.01,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ANET": {
-   "price": 171.93,
-   "change": 7.94,
-   "change_pct": 4.84,
-   "volume": 1107514.0,
-   "previous_close": 163.99,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MPC": {
-   "price": 361.57,
-   "change": 15.3,
-   "change_pct": 4.42,
-   "volume": 481603.0,
-   "previous_close": 346.27,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DXCM": {
-   "price": 85.23,
-   "change": 0.39,
-   "change_pct": 0.46,
-   "volume": 260266.0,
-   "previous_close": 84.84,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HON": {
-   "price": 227.85,
-   "change": 2.75,
-   "change_pct": 1.22,
-   "volume": 254798.0,
-   "previous_close": 225.1,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LMT": {
-   "price": 602.585,
-   "change": 3.345,
-   "change_pct": 0.56,
-   "volume": 157812.0,
-   "previous_close": 599.24,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MNST": {
-   "price": 42.55,
-   "change": -0.05,
-   "change_pct": -0.12,
-   "volume": 960387.0,
-   "previous_close": 42.6,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HSIC": {
-   "price": 89.27,
-   "change": 0.54,
-   "change_pct": 0.61,
-   "volume": 227695.0,
-   "previous_close": 88.73,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "UDR": {
-   "price": 36.77,
-   "change": 0.1,
-   "change_pct": 0.27,
-   "volume": 249114.0,
-   "previous_close": 36.67,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BIIB": {
-   "price": 262.44,
-   "change": 1.0,
-   "change_pct": 0.38,
-   "volume": 137940.0,
-   "previous_close": 261.44,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CINF": {
-   "price": 192.565,
-   "change": 0.245,
-   "change_pct": 0.13,
-   "volume": 30383.0,
-   "previous_close": 192.32,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PEG": {
-   "price": 75.15,
-   "change": -0.04,
-   "change_pct": -0.05,
-   "volume": 153721.0,
-   "previous_close": 75.19,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ES": {
-   "price": 72.69,
-   "change": 0.14,
-   "change_pct": 0.19,
-   "volume": 170511.0,
-   "previous_close": 72.55,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DPZ": {
-   "price": 361.32,
-   "change": -0.21,
-   "change_pct": -0.06,
-   "volume": 80246.0,
-   "previous_close": 361.53,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PG": {
-   "price": 172.585,
-   "change": -0.645,
-   "change_pct": -0.37,
-   "volume": 909756.0,
-   "previous_close": 173.23,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TTWO": {
-   "price": 230.78,
-   "change": 3.44,
-   "change_pct": 1.51,
-   "volume": 1333869.0,
-   "previous_close": 227.34,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VMRK": {
-   "price": 65.71,
-   "change": 0.38,
-   "change_pct": 0.58,
-   "volume": 327352.0,
-   "previous_close": 65.33,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FLEX": {
-   "price": 69.755,
-   "change": 2.525,
-   "change_pct": 3.76,
-   "volume": 514610.0,
-   "previous_close": 67.23,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MRNA": {
-   "price": 220.26,
-   "change": -0.58,
-   "change_pct": -0.26,
-   "volume": 1644760.0,
-   "previous_close": 220.84,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HSY": {
-   "price": 182.12,
-   "change": -0.45,
-   "change_pct": -0.25,
-   "volume": 112802.0,
-   "previous_close": 182.57,
+  "CHTR": {
+   "price": 155.155,
+   "change": 7.885,
+   "change_pct": 5.35,
+   "volume": 1315147.0,
+   "previous_close": 147.27,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
   "GM": {
-   "price": 85.83,
-   "change": 1.84,
-   "change_pct": 2.19,
-   "volume": 529247.0,
+   "price": 85.4699,
+   "change": 1.4799,
+   "change_pct": 1.76,
+   "volume": 677564.0,
    "previous_close": 83.99,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "RVTY": {
-   "price": 150.96,
-   "change": 0.14,
-   "change_pct": 0.09,
-   "volume": 50559.0,
-   "previous_close": 150.82,
+  "PSA": {
+   "price": 337.9,
+   "change": -0.08,
+   "change_pct": -0.02,
+   "volume": 64422.0,
+   "previous_close": 337.98,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "OXY": {
-   "price": 54.56,
-   "change": 0.61,
-   "change_pct": 1.13,
-   "volume": 1356160.0,
-   "previous_close": 53.95,
+  "TROW": {
+   "price": 106.48,
+   "change": 2.93,
+   "change_pct": 2.83,
+   "volume": 295813.0,
+   "previous_close": 103.55,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "AXP": {
-   "price": 316.075,
-   "change": 3.685,
-   "change_pct": 1.18,
-   "volume": 263782.0,
-   "previous_close": 312.39,
+  "WY": {
+   "price": 20.905,
+   "change": 0.385,
+   "change_pct": 1.88,
+   "volume": 3203117.0,
+   "previous_close": 20.52,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "EXC": {
-   "price": 46.6,
-   "change": 0.09,
-   "change_pct": 0.19,
-   "volume": 652548.0,
-   "previous_close": 46.51,
+  "FOX": {
+   "price": 58.51,
+   "change": 0.52,
+   "change_pct": 0.9,
+   "volume": 130861.0,
+   "previous_close": 57.99,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "EXPE": {
-   "price": 248.325,
-   "change": 7.055,
-   "change_pct": 2.92,
-   "volume": 147702.0,
-   "previous_close": 241.27,
+  "PH": {
+   "price": 906.855,
+   "change": 8.955,
+   "change_pct": 1.0,
+   "volume": 79141.0,
+   "previous_close": 897.9,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VRTX": {
+   "price": 529.14,
+   "change": -34.98,
+   "change_pct": -6.2,
+   "volume": 1309795.0,
+   "previous_close": 564.12,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "C": {
+   "price": 115.84,
+   "change": 2.51,
+   "change_pct": 2.21,
+   "volume": 3965766.0,
+   "previous_close": 113.33,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PCAR": {
+   "price": 109.05,
+   "change": 1.1,
+   "change_pct": 1.02,
+   "volume": 377799.0,
+   "previous_close": 107.95,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ES": {
+   "price": 72.71,
+   "change": 0.16,
+   "change_pct": 0.22,
+   "volume": 258244.0,
+   "previous_close": 72.55,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ERIE": {
+   "price": 276.62,
+   "change": -3.2,
+   "change_pct": -1.14,
+   "volume": 19056.0,
+   "previous_close": 279.82,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VEEV": {
+   "price": 271.18,
+   "change": -0.72,
+   "change_pct": -0.26,
+   "volume": 273239.0,
+   "previous_close": 271.9,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ILMN": {
+   "price": 202.84,
+   "change": 2.45,
+   "change_pct": 1.22,
+   "volume": 242002.0,
+   "previous_close": 200.39,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FDX": {
+   "price": 310.8966,
+   "change": 2.0266,
+   "change_pct": 0.66,
+   "volume": 113876.0,
+   "previous_close": 308.87,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CSGP": {
+   "price": 34.83,
+   "change": 0.81,
+   "change_pct": 2.38,
+   "volume": 858056.0,
+   "previous_close": 34.02,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NCLH": {
+   "price": 16.97,
+   "change": -0.03,
+   "change_pct": -0.18,
+   "volume": 2132412.0,
+   "previous_close": 17.0,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EQIX": {
+   "price": 974.77,
+   "change": -3.45,
+   "change_pct": -0.35,
+   "volume": 63435.0,
+   "previous_close": 978.22,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GWW": {
+   "price": 1426.55,
+   "change": 10.65,
+   "change_pct": 0.75,
+   "volume": 47895.0,
+   "previous_close": 1415.9,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
@@ -1459,6 +262,60 @@
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
+  "LII": {
+   "price": 349.365,
+   "change": -0.605,
+   "change_pct": -0.17,
+   "volume": 87703.0,
+   "previous_close": 349.97,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BE": {
+   "price": 161.31,
+   "change": 8.42,
+   "change_pct": 5.51,
+   "volume": 5984902.0,
+   "previous_close": 152.89,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BKR": {
+   "price": 47.035,
+   "change": 0.675,
+   "change_pct": 1.46,
+   "volume": 1042160.0,
+   "previous_close": 46.36,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HUM": {
+   "price": 404.09,
+   "change": -2.42,
+   "change_pct": -0.6,
+   "volume": 104235.0,
+   "previous_close": 406.51,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TT": {
+   "price": 404.375,
+   "change": 0.895,
+   "change_pct": 0.22,
+   "volume": 323528.0,
+   "previous_close": 403.48,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AIZ": {
+   "price": 327.2525,
+   "change": 1.5225,
+   "change_pct": 0.47,
+   "volume": 50462.0,
+   "previous_close": 325.73,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
   "DIS": {
    "price": 118.4187,
    "change": -3.9413,
@@ -1468,273 +325,327 @@
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "MCHP": {
-   "price": 58.99,
-   "change": 1.335,
-   "change_pct": 2.32,
-   "volume": 2670132.0,
-   "previous_close": 57.655,
+  "HWM": {
+   "price": 214.095,
+   "change": 3.025,
+   "change_pct": 1.43,
+   "volume": 297903.0,
+   "previous_close": 211.07,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "COST": {
-   "price": 1097.74,
-   "change": 10.93,
-   "change_pct": 1.01,
-   "volume": 314307.0,
-   "previous_close": 1086.81,
+  "STX": {
+   "price": 496.13,
+   "change": 23.8,
+   "change_pct": 5.04,
+   "volume": 909248.0,
+   "previous_close": 472.33,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "CVX": {
-   "price": 209.0692,
-   "change": 3.1892,
-   "change_pct": 1.55,
-   "volume": 8587964.0,
-   "previous_close": 205.88,
+  "JCI": {
+   "price": 137.17,
+   "change": 0.67,
+   "change_pct": 0.49,
+   "volume": 839556.0,
+   "previous_close": 136.5,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "SPGI": {
-   "price": 463.99,
-   "change": 9.79,
-   "change_pct": 2.16,
-   "volume": 1539869.0,
-   "previous_close": 454.2,
+  "A": {
+   "price": 179.36,
+   "change": 0.92,
+   "change_pct": 0.52,
+   "volume": 309959.0,
+   "previous_close": 178.44,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "JBHT": {
-   "price": 230.0,
-   "change": 2.08,
-   "change_pct": 0.91,
-   "volume": 47324.0,
-   "previous_close": 227.92,
+  "DUK": {
+   "price": 131.81,
+   "change": -0.09,
+   "change_pct": -0.07,
+   "volume": 393958.0,
+   "previous_close": 131.9,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "TKO": {
-   "price": 193.04,
-   "change": 1.6,
-   "change_pct": 0.84,
-   "volume": 96535.0,
-   "previous_close": 191.44,
+  "ICE": {
+   "price": 177.77,
+   "change": -0.04,
+   "change_pct": -0.02,
+   "volume": 536945.0,
+   "previous_close": 177.81,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "SWK": {
-   "price": 111.05,
-   "change": 1.83,
-   "change_pct": 1.68,
-   "volume": 139540.0,
-   "previous_close": 109.22,
+  "NKE": {
+   "price": 37.295,
+   "change": 0.635,
+   "change_pct": 1.73,
+   "volume": 8508085.0,
+   "previous_close": 36.66,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "HIG": {
-   "price": 139.885,
-   "change": 0.105,
-   "change_pct": 0.08,
-   "volume": 125513.0,
-   "previous_close": 139.78,
+  "MTB": {
+   "price": 216.412,
+   "change": 0.912,
+   "change_pct": 0.42,
+   "volume": 75719.0,
+   "previous_close": 215.5,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "CCL": {
-   "price": 28.045,
-   "change": 0.045,
-   "change_pct": 0.16,
-   "volume": 1892901.0,
-   "previous_close": 28.0,
+  "FITB": {
+   "price": 52.15,
+   "change": 0.44,
+   "change_pct": 0.85,
+   "volume": 801499.0,
+   "previous_close": 51.71,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "SMCI": {
-   "price": 23.4685,
-   "change": 0.1585,
-   "change_pct": 0.68,
-   "volume": 10697476.0,
-   "previous_close": 23.31,
+  "TSN": {
+   "price": 63.21,
+   "change": -0.31,
+   "change_pct": -0.49,
+   "volume": 405717.0,
+   "previous_close": 63.52,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "IP": {
-   "price": 34.15,
-   "change": 2.07,
-   "change_pct": 6.45,
-   "volume": 2008514.0,
-   "previous_close": 32.08,
+  "PYPL": {
+   "price": 59.28,
+   "change": 1.47,
+   "change_pct": 2.54,
+   "volume": 2292002.0,
+   "previous_close": 57.81,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "IQV": {
-   "price": 250.93,
-   "change": -0.19,
-   "change_pct": -0.08,
-   "volume": 165272.0,
-   "previous_close": 251.12,
+  "VRT": {
+   "price": 177.125,
+   "change": 3.755,
+   "change_pct": 2.17,
+   "volume": 2026329.0,
+   "previous_close": 173.37,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "TMO": {
-   "price": 680.355,
-   "change": -5.165,
-   "change_pct": -0.75,
-   "volume": 299479.0,
-   "previous_close": 685.52,
+  "KMB": {
+   "price": 109.52,
+   "change": 0.07,
+   "change_pct": 0.06,
+   "volume": 689255.0,
+   "previous_close": 109.45,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "AEP": {
-   "price": 127.695,
-   "change": 0.105,
-   "change_pct": 0.08,
-   "volume": 241066.0,
-   "previous_close": 127.59,
+  "PLTR": {
+   "price": 171.19,
+   "change": 7.6,
+   "change_pct": 4.65,
+   "volume": 7167933.0,
+   "previous_close": 163.59,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "NI": {
-   "price": 45.195,
-   "change": 0.085,
-   "change_pct": 0.19,
-   "volume": 386652.0,
-   "previous_close": 45.11,
+  "LMT": {
+   "price": 600.235,
+   "change": 0.995,
+   "change_pct": 0.17,
+   "volume": 210882.0,
+   "previous_close": 599.24,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "OKE": {
-   "price": 88.23,
-   "change": 1.78,
-   "change_pct": 2.06,
-   "volume": 355248.0,
-   "previous_close": 86.45,
+  "CL": {
+   "price": 99.75,
+   "change": 0.09,
+   "change_pct": 0.09,
+   "volume": 724781.0,
+   "previous_close": 99.66,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "C": {
-   "price": 115.35,
-   "change": 2.02,
-   "change_pct": 1.78,
-   "volume": 3440720.0,
-   "previous_close": 113.33,
+  "META": {
+   "price": 632.55,
+   "change": 22.66,
+   "change_pct": 3.72,
+   "volume": 5307588.0,
+   "previous_close": 609.89,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "BG": {
-   "price": 90.96,
-   "change": 2.81,
-   "change_pct": 3.19,
-   "volume": 181593.0,
-   "previous_close": 88.15,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "COO": {
-   "price": 61.93,
-   "change": -0.36,
-   "change_pct": -0.58,
-   "volume": 295107.0,
-   "previous_close": 62.29,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ETN": {
-   "price": 322.995,
-   "change": 5.185,
-   "change_pct": 1.63,
-   "volume": 472749.0,
-   "previous_close": 317.81,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TXN": {
-   "price": 276.8,
-   "change": 6.61,
-   "change_pct": 2.45,
-   "volume": 1712597.0,
-   "previous_close": 270.19,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BX": {
-   "price": 120.98,
-   "change": 2.03,
-   "change_pct": 1.71,
-   "volume": 434045.0,
-   "previous_close": 118.95,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MDT": {
-   "price": 95.3001,
-   "change": -0.7599,
-   "change_pct": -0.79,
-   "volume": 1087028.0,
-   "previous_close": 96.06,
+  "KIM": {
+   "price": 26.01,
+   "change": -0.04,
+   "change_pct": -0.15,
+   "volume": 637767.0,
+   "previous_close": 26.05,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
   "CBRE": {
-   "price": 139.925,
-   "change": 2.035,
-   "change_pct": 1.48,
-   "volume": 265054.0,
+   "price": 139.74,
+   "change": 1.85,
+   "change_pct": 1.34,
+   "volume": 426591.0,
    "previous_close": 137.89,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "RTX": {
-   "price": 196.6101,
-   "change": 0.4201,
-   "change_pct": 0.21,
-   "volume": 414609.0,
-   "previous_close": 196.19,
+  "VYLR": {
+   "price": 69.87,
+   "change": 0.4,
+   "change_pct": 0.58,
+   "volume": 392826.0,
+   "previous_close": 69.47,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "COIN": {
-   "price": 107.1,
-   "change": 3.38,
-   "change_pct": 3.26,
-   "volume": 1972411.0,
-   "previous_close": 103.72,
+  "FERG": {
+   "price": 260.8635,
+   "change": 3.8735,
+   "change_pct": 1.51,
+   "volume": 227854.0,
+   "previous_close": 256.99,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "AXON": {
-   "price": 365.905,
-   "change": 22.855,
-   "change_pct": 6.66,
-   "volume": 278491.0,
-   "previous_close": 343.05,
+  "ANET": {
+   "price": 172.745,
+   "change": 8.755,
+   "change_pct": 5.34,
+   "volume": 1628715.0,
+   "previous_close": 163.99,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "WMT": {
-   "price": 132.2099,
-   "change": 0.2699,
-   "change_pct": 0.2,
-   "volume": 3251642.0,
-   "previous_close": 131.94,
+  "VMRK": {
+   "price": 65.56,
+   "change": 0.23,
+   "change_pct": 0.35,
+   "volume": 445730.0,
+   "previous_close": 65.33,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "OKTA": {
-   "price": 205.71,
-   "change": 3.94,
-   "change_pct": 1.95,
-   "volume": 430782.0,
-   "previous_close": 201.77,
+  "PNC": {
+   "price": 222.8,
+   "change": 2.47,
+   "change_pct": 1.12,
+   "volume": 231987.0,
+   "previous_close": 220.33,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "CMI": {
-   "price": 430.83,
-   "change": 10.11,
-   "change_pct": 2.4,
-   "volume": 164153.0,
-   "previous_close": 420.72,
+  "INTC": {
+   "price": 56.05,
+   "change": 1.58,
+   "change_pct": 2.9,
+   "volume": 37447555.0,
+   "previous_close": 54.47,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "JNJ": {
+   "price": 275.225,
+   "change": 1.285,
+   "change_pct": 0.47,
+   "volume": 1057701.0,
+   "previous_close": 273.94,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BR": {
+   "price": 186.945,
+   "change": -0.195,
+   "change_pct": -0.1,
+   "volume": 103493.0,
+   "previous_close": 187.14,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GOOGL": {
+   "price": 273.23,
+   "change": 0.13,
+   "change_pct": 0.05,
+   "volume": 10403693.0,
+   "previous_close": 273.1,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "UPS": {
+   "price": 112.39,
+   "change": 0.92,
+   "change_pct": 0.83,
+   "volume": 877553.0,
+   "previous_close": 111.47,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "J": {
+   "price": 147.9,
+   "change": 2.41,
+   "change_pct": 1.66,
+   "volume": 322028.0,
+   "previous_close": 145.49,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FANG": {
+   "price": 183.065,
+   "change": 2.915,
+   "change_pct": 1.62,
+   "volume": 266473.0,
+   "previous_close": 180.15,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "COP": {
+   "price": 137.14,
+   "change": 2.12,
+   "change_pct": 1.57,
+   "volume": 1152555.0,
+   "previous_close": 135.02,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DVN": {
+   "price": 43.09,
+   "change": 0.64,
+   "change_pct": 1.51,
+   "volume": 2103351.0,
+   "previous_close": 42.45,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "XOM": {
+   "price": 160.61,
+   "change": 2.53,
+   "change_pct": 1.6,
+   "volume": 2514127.0,
+   "previous_close": 158.08,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CRL": {
+   "price": 336.27,
+   "change": 4.19,
+   "change_pct": 1.26,
+   "volume": 95403.0,
+   "previous_close": 332.08,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CPT": {
+   "price": 98.585,
+   "change": -0.665,
+   "change_pct": -0.67,
+   "volume": 103243.0,
+   "previous_close": 99.25,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
@@ -1747,174 +658,66 @@
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "PSX": {
-   "price": 242.82,
-   "change": 6.74,
-   "change_pct": 2.85,
-   "volume": 583023.0,
-   "previous_close": 236.08,
+  "APA": {
+   "price": 46.41,
+   "change": 0.93,
+   "change_pct": 2.04,
+   "volume": 750983.0,
+   "previous_close": 45.48,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "BAX": {
-   "price": 27.07,
-   "change": -0.18,
-   "change_pct": -0.66,
-   "volume": 674273.0,
-   "previous_close": 27.25,
+  "OXY": {
+   "price": 54.39,
+   "change": 0.44,
+   "change_pct": 0.82,
+   "volume": 1697144.0,
+   "previous_close": 53.95,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "ORCL": {
-   "price": 105.955,
-   "change": 2.075,
-   "change_pct": 2.0,
-   "volume": 6639804.0,
-   "previous_close": 103.88,
+  "RL": {
+   "price": 399.08,
+   "change": -1.63,
+   "change_pct": -0.41,
+   "volume": 55110.0,
+   "previous_close": 400.71,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "PLD": {
-   "price": 127.14,
-   "change": 0.11,
-   "change_pct": 0.09,
-   "volume": 291859.0,
-   "previous_close": 127.03,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TSCO": {
-   "price": 39.99,
-   "change": -0.38,
-   "change_pct": -0.94,
-   "volume": 1118743.0,
-   "previous_close": 40.37,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AEE": {
-   "price": 114.82,
-   "change": -0.06,
-   "change_pct": -0.05,
-   "volume": 291008.0,
-   "previous_close": 114.88,
+  "ROL": {
+   "price": 38.41,
+   "change": -0.04,
+   "change_pct": -0.1,
+   "volume": 731781.0,
+   "previous_close": 38.45,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
   "AMAT": {
-   "price": 314.74,
-   "change": 3.56,
-   "change_pct": 1.14,
-   "volume": 1546410.0,
+   "price": 314.43,
+   "change": 3.25,
+   "change_pct": 1.04,
+   "volume": 1863537.0,
    "previous_close": 311.18,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "LHX": {
-   "price": 263.315,
-   "change": 1.425,
-   "change_pct": 0.54,
-   "volume": 149964.0,
-   "previous_close": 261.89,
+  "FRT": {
+   "price": 114.19,
+   "change": -0.06,
+   "change_pct": -0.05,
+   "volume": 374455.0,
+   "previous_close": 114.25,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "APH": {
-   "price": 74.695,
-   "change": 1.615,
-   "change_pct": 2.21,
-   "volume": 2865901.0,
-   "previous_close": 73.08,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "RF": {
-   "price": 28.16,
-   "change": 0.38,
-   "change_pct": 1.37,
-   "volume": 1246023.0,
-   "previous_close": 27.78,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "STLD": {
-   "price": 221.935,
-   "change": 5.075,
-   "change_pct": 2.34,
-   "volume": 117291.0,
-   "previous_close": 216.86,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FIX": {
-   "price": 1118.45,
-   "change": 18.87,
-   "change_pct": 1.72,
-   "volume": 92569.0,
-   "previous_close": 1099.58,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "IDXX": {
-   "price": 713.93,
-   "change": 4.47,
-   "change_pct": 0.63,
-   "volume": 69190.0,
-   "previous_close": 709.46,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CL": {
-   "price": 99.78,
-   "change": 0.12,
-   "change_pct": 0.12,
-   "volume": 567691.0,
-   "previous_close": 99.66,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ZBRA": {
-   "price": 331.25,
-   "change": 12.88,
-   "change_pct": 4.05,
-   "volume": 47398.0,
-   "previous_close": 318.37,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WRB": {
-   "price": 79.27,
-   "change": -0.07,
-   "change_pct": -0.09,
-   "volume": 101772.0,
-   "previous_close": 79.34,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CMCSA": {
-   "price": 26.125,
-   "change": 0.395,
-   "change_pct": 1.54,
-   "volume": 2895434.0,
-   "previous_close": 25.73,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LDOS": {
-   "price": 131.365,
-   "change": 0.745,
-   "change_pct": 0.57,
-   "volume": 109621.0,
-   "previous_close": 130.62,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "INTC": {
-   "price": 56.4958,
-   "change": 2.0258,
-   "change_pct": 3.72,
-   "volume": 29517202.0,
-   "previous_close": 54.47,
+  "EXC": {
+   "price": 46.5213,
+   "change": 0.0113,
+   "change_pct": 0.02,
+   "volume": 839571.0,
+   "previous_close": 46.51,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
@@ -1927,732 +730,201 @@
    "market_status": "Market Open",
    "session": "2026-11-25"
   },
-  "MSI": {
-   "price": 545.36,
-   "change": 4.36,
-   "change_pct": 0.81,
-   "volume": 177093.0,
-   "previous_close": 541.0,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SOLV": {
-   "price": 87.255,
-   "change": 0.095,
-   "change_pct": 0.11,
-   "volume": 38284.0,
-   "previous_close": 87.16,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NVR": {
-   "price": 6027.015,
-   "change": 10.045,
-   "change_pct": 0.17,
-   "volume": 4383.0,
-   "previous_close": 6016.97,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "COHR": {
-   "price": 217.3701,
-   "change": 21.1801,
-   "change_pct": 10.8,
-   "volume": 3250824.0,
-   "previous_close": 196.19,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BBY": {
-   "price": 103.29,
-   "change": 0.71,
-   "change_pct": 0.69,
-   "volume": 375991.0,
-   "previous_close": 102.58,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TRGP": {
-   "price": 281.08,
-   "change": -4.45,
-   "change_pct": -1.56,
-   "volume": 300114.0,
-   "previous_close": 285.53,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "XYL": {
-   "price": 96.4786,
-   "change": 0.0586,
-   "change_pct": 0.06,
-   "volume": 223570.0,
-   "previous_close": 96.42,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LII": {
-   "price": 350.08,
-   "change": 0.11,
-   "change_pct": 0.03,
-   "volume": 62085.0,
-   "previous_close": 349.97,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ADI": {
-   "price": 340.28,
-   "change": 7.175,
-   "change_pct": 2.15,
-   "volume": 909943.0,
-   "previous_close": 333.105,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KMI": {
-   "price": 32.15,
-   "change": 0.46,
-   "change_pct": 1.45,
-   "volume": 1482454.0,
-   "previous_close": 31.69,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NVDA": {
-   "price": 148.04,
-   "change": -1.26,
-   "change_pct": -0.84,
-   "volume": 85237785.0,
-   "previous_close": 149.3,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MCO": {
-   "price": 486.0,
-   "change": 0.31,
-   "change_pct": 0.06,
-   "volume": 109189.0,
-   "previous_close": 485.69,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TEL": {
-   "price": 218.325,
-   "change": 6.845,
+  "MOS": {
+   "price": 21.01,
+   "change": 0.66,
    "change_pct": 3.24,
-   "volume": 396393.0,
-   "previous_close": 211.48,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "JKHY": {
-   "price": 182.7851,
-   "change": 0.7051,
-   "change_pct": 0.39,
-   "volume": 39373.0,
-   "previous_close": 182.08,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ALLE": {
-   "price": 192.2,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "volume": 95252.0,
-   "previous_close": 192.2,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AON": {
-   "price": 348.61,
-   "change": 1.12,
-   "change_pct": 0.32,
-   "volume": 244179.0,
-   "previous_close": 347.49,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AOS": {
-   "price": 67.375,
-   "change": 0.095,
-   "change_pct": 0.14,
-   "volume": 104359.0,
-   "previous_close": 67.28,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ODFL": {
-   "price": 175.495,
-   "change": 0.835,
-   "change_pct": 0.48,
-   "volume": 139975.0,
-   "previous_close": 174.66,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FANG": {
-   "price": 183.975,
-   "change": 3.825,
-   "change_pct": 2.12,
-   "volume": 188493.0,
-   "previous_close": 180.15,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FCX": {
-   "price": 50.29,
-   "change": 1.74,
-   "change_pct": 3.58,
-   "volume": 2694477.0,
-   "previous_close": 48.55,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LRCX": {
-   "price": 188.6996,
-   "change": 3.6896,
-   "change_pct": 1.99,
-   "volume": 2262171.0,
-   "previous_close": 185.01,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "Q": {
-   "price": 111.12,
-   "change": 2.7,
-   "change_pct": 2.49,
-   "volume": 181849.0,
-   "previous_close": 108.42,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "COP": {
-   "price": 138.06,
-   "change": 3.04,
-   "change_pct": 2.25,
-   "volume": 916450.0,
-   "previous_close": 135.02,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ESS": {
-   "price": 280.39,
-   "change": 1.18,
-   "change_pct": 0.42,
-   "volume": 49491.0,
-   "previous_close": 279.21,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LVS": {
-   "price": 40.815,
-   "change": 1.055,
-   "change_pct": 2.65,
-   "volume": 1051682.0,
-   "previous_close": 39.76,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HRL": {
-   "price": 22.976,
-   "change": -0.114,
-   "change_pct": -0.49,
-   "volume": 689196.0,
-   "previous_close": 23.09,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FRT": {
-   "price": 114.545,
-   "change": 0.295,
-   "change_pct": 0.26,
-   "volume": 347073.0,
-   "previous_close": 114.25,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SYF": {
-   "price": 69.905,
-   "change": 1.175,
-   "change_pct": 1.71,
-   "volume": 178322.0,
-   "previous_close": 68.73,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CAH": {
-   "price": 283.0,
-   "change": 0.09,
-   "change_pct": 0.03,
-   "volume": 101757.0,
-   "previous_close": 282.91,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WAT": {
-   "price": 461.1001,
-   "change": 6.1701,
-   "change_pct": 1.36,
-   "volume": 178752.0,
-   "previous_close": 454.93,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PWR": {
-   "price": 576.63,
-   "change": 11.16,
-   "change_pct": 1.97,
-   "volume": 218876.0,
-   "previous_close": 565.47,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SBUX": {
-   "price": 109.18,
-   "change": 1.44,
-   "change_pct": 1.34,
-   "volume": 1234246.0,
-   "previous_close": 107.74,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CCI": {
-   "price": 84.1875,
-   "change": 0.5575,
-   "change_pct": 0.67,
-   "volume": 310204.0,
-   "previous_close": 83.63,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ADM": {
-   "price": 67.735,
-   "change": 1.075,
-   "change_pct": 1.61,
-   "volume": 272320.0,
-   "previous_close": 66.66,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VICI": {
-   "price": 25.13,
-   "change": 0.01,
-   "change_pct": 0.04,
-   "volume": 860691.0,
-   "previous_close": 25.12,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NDAQ": {
-   "price": 108.945,
-   "change": 1.875,
-   "change_pct": 1.75,
-   "volume": 396168.0,
-   "previous_close": 107.07,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KO": {
-   "price": 97.37,
-   "change": -0.22,
-   "change_pct": -0.23,
-   "volume": 3691838.0,
-   "previous_close": 97.59,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DHI": {
-   "price": 145.51,
-   "change": 1.12,
-   "change_pct": 0.78,
-   "volume": 2847418.0,
-   "previous_close": 144.39,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "REG": {
-   "price": 75.94,
-   "change": 0.42,
-   "change_pct": 0.56,
-   "volume": 155779.0,
-   "previous_close": 75.52,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ABBV": {
-   "price": 291.57,
-   "change": -2.91,
-   "change_pct": -0.99,
-   "volume": 1490040.0,
-   "previous_close": 294.48,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "J": {
-   "price": 148.17,
-   "change": 2.68,
-   "change_pct": 1.84,
-   "volume": 242641.0,
-   "previous_close": 145.49,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GEV": {
-   "price": 724.755,
-   "change": 9.755,
-   "change_pct": 1.36,
-   "volume": 789387.0,
-   "previous_close": 715.0,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CIEN": {
-   "price": 249.945,
-   "change": 7.155,
-   "change_pct": 2.95,
-   "volume": 526953.0,
-   "previous_close": 242.79,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HUBB": {
-   "price": 432.395,
-   "change": 3.655,
-   "change_pct": 0.85,
-   "volume": 112309.0,
-   "previous_close": 428.74,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EG": {
-   "price": 436.445,
-   "change": 2.805,
-   "change_pct": 0.65,
-   "volume": 51088.0,
-   "previous_close": 433.64,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TT": {
-   "price": 404.785,
-   "change": 1.305,
-   "change_pct": 0.32,
-   "volume": 263354.0,
-   "previous_close": 403.48,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "D": {
-   "price": 68.35,
-   "change": 0.96,
-   "change_pct": 1.42,
-   "volume": 6899867.0,
-   "previous_close": 67.39,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "QCOM": {
-   "price": 176.81,
-   "change": 8.15,
-   "change_pct": 4.83,
-   "volume": 1815252.0,
-   "previous_close": 168.66,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EXE": {
-   "price": 87.705,
-   "change": 0.935,
-   "change_pct": 1.08,
-   "volume": 507619.0,
-   "previous_close": 86.77,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BE": {
-   "price": 159.625,
-   "change": 6.735,
-   "change_pct": 4.41,
-   "volume": 4497324.0,
-   "previous_close": 152.89,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SYY": {
-   "price": 83.135,
-   "change": 1.365,
-   "change_pct": 1.67,
-   "volume": 416904.0,
-   "previous_close": 81.77,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CRL": {
-   "price": 335.965,
-   "change": 3.885,
-   "change_pct": 1.17,
-   "volume": 76342.0,
-   "previous_close": 332.08,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EL": {
-   "price": 110.8,
-   "change": 1.19,
-   "change_pct": 1.09,
-   "volume": 618935.0,
-   "previous_close": 109.61,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SHW": {
-   "price": 362.26,
-   "change": 1.24,
-   "change_pct": 0.34,
-   "volume": 173278.0,
-   "previous_close": 361.02,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NXPI": {
-   "price": 252.545,
-   "change": 9.585,
-   "change_pct": 3.95,
-   "volume": 543995.0,
-   "previous_close": 242.96,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "UNH": {
-   "price": 351.6,
-   "change": 5.41,
-   "change_pct": 1.56,
-   "volume": 889284.0,
-   "previous_close": 346.19,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DECK": {
-   "price": 78.48,
-   "change": -5.12,
-   "change_pct": -6.12,
-   "volume": 3822887.0,
-   "previous_close": 83.6,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "XEL": {
-   "price": 81.32,
-   "change": 0.21,
-   "change_pct": 0.26,
-   "volume": 864047.0,
-   "previous_close": 81.11,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EQIX": {
-   "price": 977.03,
-   "change": -1.19,
-   "change_pct": -0.12,
-   "volume": 46162.0,
-   "previous_close": 978.22,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NRG": {
-   "price": 93.15,
-   "change": 1.21,
-   "change_pct": 1.32,
-   "volume": 212650.0,
-   "previous_close": 91.94,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "UAL": {
-   "price": 106.85,
-   "change": 2.33,
-   "change_pct": 2.23,
-   "volume": 506839.0,
-   "previous_close": 104.52,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NTRS": {
-   "price": 168.875,
-   "change": 0.865,
-   "change_pct": 0.51,
-   "volume": 72731.0,
-   "previous_close": 168.01,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MRVL": {
-   "price": 138.31,
-   "change": 7.38,
-   "change_pct": 5.64,
-   "volume": 7948147.0,
-   "previous_close": 130.93,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HBAN": {
-   "price": 15.0699,
-   "change": 0.1899,
-   "change_pct": 1.28,
-   "volume": 1545433.0,
-   "previous_close": 14.88,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "APD": {
-   "price": 316.04,
-   "change": 1.78,
-   "change_pct": 0.57,
-   "volume": 86740.0,
-   "previous_close": 314.26,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CNP": {
-   "price": 40.34,
-   "change": -0.05,
-   "change_pct": -0.12,
-   "volume": 261289.0,
-   "previous_close": 40.39,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CSCO": {
-   "price": 96.345,
-   "change": 2.145,
-   "change_pct": 2.28,
-   "volume": 1887522.0,
-   "previous_close": 94.2,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SW": {
-   "price": 43.19,
-   "change": 1.54,
-   "change_pct": 3.7,
-   "volume": 484562.0,
-   "previous_close": 41.65,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FTNT": {
-   "price": 136.545,
-   "change": 1.585,
-   "change_pct": 1.17,
-   "volume": 545975.0,
-   "previous_close": 134.96,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "IBM": {
-   "price": 246.58,
-   "change": 3.11,
-   "change_pct": 1.28,
-   "volume": 561987.0,
-   "previous_close": 243.47,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PPG": {
-   "price": 124.18,
-   "change": -0.43,
-   "change_pct": -0.35,
-   "volume": 297449.0,
-   "previous_close": 124.61,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HAL": {
-   "price": 32.545,
-   "change": 0.935,
-   "change_pct": 2.96,
-   "volume": 813700.0,
-   "previous_close": 31.61,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MLM": {
-   "price": 538.18,
-   "change": 1.64,
-   "change_pct": 0.31,
-   "volume": 65113.0,
-   "previous_close": 536.54,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TECH": {
-   "price": 72.845,
-   "change": 0.195,
-   "change_pct": 0.27,
-   "volume": 1049661.0,
-   "previous_close": 72.65,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MAS": {
-   "price": 87.215,
-   "change": 0.285,
-   "change_pct": 0.33,
-   "volume": 155021.0,
-   "previous_close": 86.93,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CVS": {
-   "price": 80.2,
-   "change": -1.15,
-   "change_pct": -1.41,
-   "volume": 15944964.0,
-   "previous_close": 81.35,
+   "volume": 920468.0,
+   "previous_close": 20.35,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
   "JBL": {
-   "price": 235.41,
-   "change": 7.27,
-   "change_pct": 3.19,
-   "volume": 104053.0,
+   "price": 234.28,
+   "change": 6.14,
+   "change_pct": 2.69,
+   "volume": 140804.0,
    "previous_close": 228.14,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "VRSK": {
-   "price": 204.75,
-   "change": -0.01,
-   "change_pct": -0.0,
-   "volume": 85717.0,
-   "previous_close": 204.76,
+  "NRG": {
+   "price": 93.06,
+   "change": 1.12,
+   "change_pct": 1.22,
+   "volume": 281944.0,
+   "previous_close": 91.94,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "VLTO": {
-   "price": 120.675,
-   "change": 0.485,
-   "change_pct": 0.4,
-   "volume": 115451.0,
-   "previous_close": 120.19,
+  "NWSA": {
+   "price": 26.145,
+   "change": 0.065,
+   "change_pct": 0.25,
+   "volume": 352597.0,
+   "previous_close": 26.08,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "MKC": {
-   "price": 50.11,
-   "change": 0.26,
-   "change_pct": 0.52,
-   "volume": 641822.0,
-   "previous_close": 49.85,
+  "MA": {
+   "price": 667.665,
+   "change": 7.695,
+   "change_pct": 1.17,
+   "volume": 663538.0,
+   "previous_close": 659.97,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "BRK.B": {
-   "price": 579.6601,
-   "change": 0.3401,
-   "change_pct": 0.06,
-   "volume": 614645.0,
-   "previous_close": 579.32,
+  "FCX": {
+   "price": 50.385,
+   "change": 1.835,
+   "change_pct": 3.78,
+   "volume": 3479967.0,
+   "previous_close": 48.55,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "RMD": {
+   "price": 244.54,
+   "change": -1.16,
+   "change_pct": -0.47,
+   "volume": 216493.0,
+   "previous_close": 245.7,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "JKHY": {
+   "price": 181.69,
+   "change": -0.39,
+   "change_pct": -0.21,
+   "volume": 73782.0,
+   "previous_close": 182.08,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EXPE": {
+   "price": 247.21,
+   "change": 5.94,
+   "change_pct": 2.46,
+   "volume": 201281.0,
+   "previous_close": 241.27,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LULU": {
+   "price": 108.11,
+   "change": 0.67,
+   "change_pct": 0.62,
+   "volume": 463417.0,
+   "previous_close": 107.44,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FOXA": {
+   "price": 65.53,
+   "change": 0.9,
+   "change_pct": 1.39,
+   "volume": 763905.0,
+   "previous_close": 64.63,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MAR": {
+   "price": 417.98,
+   "change": 2.21,
+   "change_pct": 0.53,
+   "volume": 113222.0,
+   "previous_close": 415.77,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PSX": {
+   "price": 242.27,
+   "change": 6.19,
+   "change_pct": 2.62,
+   "volume": 689120.0,
+   "previous_close": 236.08,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "STZ": {
+   "price": 140.61,
+   "change": 0.64,
+   "change_pct": 0.46,
+   "volume": 226210.0,
+   "previous_close": 139.97,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "XYL": {
+   "price": 96.34,
+   "change": -0.08,
+   "change_pct": -0.08,
+   "volume": 367132.0,
+   "previous_close": 96.42,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LIN": {
+   "price": 529.83,
+   "change": 5.22,
+   "change_pct": 1.0,
+   "volume": 427215.0,
+   "previous_close": 524.61,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LOW": {
+   "price": 235.1828,
+   "change": -0.4672,
+   "change_pct": -0.2,
+   "volume": 502336.0,
+   "previous_close": 235.65,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "INCY": {
+   "price": 122.79,
+   "change": 0.44,
+   "change_pct": 0.36,
+   "volume": 235541.0,
+   "previous_close": 122.35,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "RJF": {
+   "price": 165.2224,
+   "change": 2.3824,
+   "change_pct": 1.46,
+   "volume": 141202.0,
+   "previous_close": 162.84,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MNST": {
+   "price": 42.545,
+   "change": -0.055,
+   "change_pct": -0.13,
+   "volume": 1204109.0,
+   "previous_close": 42.6,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WELL": {
+   "price": 248.145,
+   "change": 1.965,
+   "change_pct": 0.8,
+   "volume": 416421.0,
+   "previous_close": 246.18,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "UNH": {
+   "price": 351.68,
+   "change": 5.49,
+   "change_pct": 1.59,
+   "volume": 1102655.0,
+   "previous_close": 346.19,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
@@ -2665,30 +937,1650 @@
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
+  "BX": {
+   "price": 121.085,
+   "change": 2.135,
+   "change_pct": 1.79,
+   "volume": 631024.0,
+   "previous_close": 118.95,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "YUM": {
+   "price": 166.142,
+   "change": -0.228,
+   "change_pct": -0.14,
+   "volume": 213745.0,
+   "previous_close": 166.37,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "APH": {
+   "price": 74.68,
+   "change": 1.6,
+   "change_pct": 2.19,
+   "volume": 3945208.0,
+   "previous_close": 73.08,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AXON": {
+   "price": 366.04,
+   "change": 22.99,
+   "change_pct": 6.7,
+   "volume": 403094.0,
+   "previous_close": 343.05,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "APTV": {
+   "price": 38.3425,
+   "change": 0.7925,
+   "change_pct": 2.11,
+   "volume": 714724.0,
+   "previous_close": 37.55,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EFX": {
+   "price": 183.51,
+   "change": 1.4,
+   "change_pct": 0.77,
+   "volume": 1442506.0,
+   "previous_close": 182.11,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WYNN": {
+   "price": 88.095,
+   "change": 2.015,
+   "change_pct": 2.34,
+   "volume": 313498.0,
+   "previous_close": 86.08,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DELL": {
+   "price": 285.7,
+   "change": -27.41,
+   "change_pct": -8.75,
+   "volume": 7163223.0,
+   "previous_close": 313.11,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "OKTA": {
+   "price": 205.3825,
+   "change": 3.6125,
+   "change_pct": 1.79,
+   "volume": 534626.0,
+   "previous_close": 201.77,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "XYZ": {
+   "price": 78.5,
+   "change": 2.4,
+   "change_pct": 3.15,
+   "volume": 788054.0,
+   "previous_close": 76.1,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CRH": {
+   "price": 97.605,
+   "change": 0.305,
+   "change_pct": 0.31,
+   "volume": 838254.0,
+   "previous_close": 97.3,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BA": {
+   "price": 166.66,
+   "change": 2.13,
+   "change_pct": 1.29,
+   "volume": 1477637.0,
+   "previous_close": 164.53,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HLT": {
+   "price": 368.67,
+   "change": 2.47,
+   "change_pct": 0.67,
+   "volume": 158096.0,
+   "previous_close": 366.2,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "RSG": {
+   "price": 253.05,
+   "change": -1.11,
+   "change_pct": -0.44,
+   "volume": 176792.0,
+   "previous_close": 254.16,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MDT": {
+   "price": 95.68,
+   "change": -0.38,
+   "change_pct": -0.4,
+   "volume": 1631561.0,
+   "previous_close": 96.06,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BRK.B": {
+   "price": 580.175,
+   "change": 0.855,
+   "change_pct": 0.15,
+   "volume": 748580.0,
+   "previous_close": 579.32,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
   "USB": {
-   "price": 59.42,
-   "change": 0.87,
+   "price": 59.425,
+   "change": 0.875,
    "change_pct": 1.49,
-   "volume": 962635.0,
+   "volume": 1253262.0,
    "previous_close": 58.55,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "PNR": {
-   "price": 73.44,
-   "change": 0.56,
+  "DRI": {
+   "price": 243.01,
+   "change": 1.85,
    "change_pct": 0.77,
-   "volume": 173470.0,
-   "previous_close": 72.88,
+   "volume": 128850.0,
+   "previous_close": 241.16,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "TER": {
-   "price": 217.65,
-   "change": 5.5,
-   "change_pct": 2.59,
-   "volume": 985411.0,
-   "previous_close": 212.15,
+  "CHD": {
+   "price": 112.98,
+   "change": -0.33,
+   "change_pct": -0.29,
+   "volume": 123236.0,
+   "previous_close": 113.31,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MO": {
+   "price": 76.5,
+   "change": 0.22,
+   "change_pct": 0.29,
+   "volume": 3691975.0,
+   "previous_close": 76.28,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BDX": {
+   "price": 220.14,
+   "change": -1.1,
+   "change_pct": -0.5,
+   "volume": 235822.0,
+   "previous_close": 221.24,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "URI": {
+   "price": 1042.81,
+   "change": 27.09,
+   "change_pct": 2.67,
+   "volume": 91688.0,
+   "previous_close": 1015.72,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "COIN": {
+   "price": 107.76,
+   "change": 4.04,
+   "change_pct": 3.9,
+   "volume": 2498692.0,
+   "previous_close": 103.72,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PLD": {
+   "price": 126.875,
+   "change": -0.155,
+   "change_pct": -0.12,
+   "volume": 402805.0,
+   "previous_close": 127.03,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VRSN": {
+   "price": 319.875,
+   "change": 0.405,
+   "change_pct": 0.13,
+   "volume": 1173650.0,
+   "previous_close": 319.47,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PWR": {
+   "price": 579.55,
+   "change": 14.08,
+   "change_pct": 2.49,
+   "volume": 307117.0,
+   "previous_close": 565.47,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BXP": {
+   "price": 64.14,
+   "change": 0.12,
+   "change_pct": 0.19,
+   "volume": 107128.0,
+   "previous_close": 64.02,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LNT": {
+   "price": 73.07,
+   "change": -0.07,
+   "change_pct": -0.1,
+   "volume": 179054.0,
+   "previous_close": 73.14,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ECHO": {
+   "price": 88.655,
+   "change": 2.915,
+   "change_pct": 3.4,
+   "volume": 1966702.0,
+   "previous_close": 85.74,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DG": {
+   "price": 131.08,
+   "change": -2.78,
+   "change_pct": -2.08,
+   "volume": 1866481.0,
+   "previous_close": 133.86,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NUE": {
+   "price": 256.64,
+   "change": 8.3,
+   "change_pct": 3.34,
+   "volume": 195077.0,
+   "previous_close": 248.34,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WSM": {
+   "price": 211.52,
+   "change": -0.87,
+   "change_pct": -0.41,
+   "volume": 130010.0,
+   "previous_close": 212.39,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DPZ": {
+   "price": 359.64,
+   "change": -1.89,
+   "change_pct": -0.52,
+   "volume": 100762.0,
+   "previous_close": 361.53,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DLR": {
+   "price": 161.1977,
+   "change": -17.1123,
+   "change_pct": -9.6,
+   "volume": 1886568.0,
+   "previous_close": 178.31,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AAPL": {
+   "price": 358.745,
+   "change": 3.165,
+   "change_pct": 0.89,
+   "volume": 8385859.0,
+   "previous_close": 355.58,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "Q": {
+   "price": 110.38,
+   "change": 1.96,
+   "change_pct": 1.81,
+   "volume": 256797.0,
+   "previous_close": 108.42,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PODD": {
+   "price": 139.305,
+   "change": -3.375,
+   "change_pct": -2.37,
+   "volume": 226973.0,
+   "previous_close": 142.68,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GOOG": {
+   "price": 271.23,
+   "change": 0.25,
+   "change_pct": 0.09,
+   "volume": 6733239.0,
+   "previous_close": 270.98,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ADSK": {
+   "price": 252.195,
+   "change": 5.41,
+   "change_pct": 2.19,
+   "volume": 370271.0,
+   "previous_close": 246.785,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CCL": {
+   "price": 28.08,
+   "change": 0.08,
+   "change_pct": 0.29,
+   "volume": 2337024.0,
+   "previous_close": 28.0,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PPG": {
+   "price": 123.965,
+   "change": -0.645,
+   "change_pct": -0.52,
+   "volume": 368083.0,
+   "previous_close": 124.61,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CMG": {
+   "price": 37.4376,
+   "change": 0.0376,
+   "change_pct": 0.1,
+   "volume": 2428466.0,
+   "previous_close": 37.4,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VZ": {
+   "price": 47.71,
+   "change": 0.43,
+   "change_pct": 0.91,
+   "volume": 2819336.0,
+   "previous_close": 47.28,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CB": {
+   "price": 379.91,
+   "change": -0.6,
+   "change_pct": -0.16,
+   "volume": 210357.0,
+   "previous_close": 380.51,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TYL": {
+   "price": 420.955,
+   "change": 0.675,
+   "change_pct": 0.16,
+   "volume": 85233.0,
+   "previous_close": 420.28,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TDY": {
+   "price": 641.51,
+   "change": 12.39,
+   "change_pct": 1.97,
+   "volume": 55659.0,
+   "previous_close": 629.12,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EL": {
+   "price": 111.31,
+   "change": 1.7,
+   "change_pct": 1.55,
+   "volume": 789063.0,
+   "previous_close": 109.61,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "INTU": {
+   "price": 273.85,
+   "change": 2.13,
+   "change_pct": 0.78,
+   "volume": 821353.0,
+   "previous_close": 271.72,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GL": {
+   "price": 157.2368,
+   "change": 1.5368,
+   "change_pct": 0.99,
+   "volume": 59765.0,
+   "previous_close": 155.7,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "IR": {
+   "price": 84.68,
+   "change": 1.54,
+   "change_pct": 1.85,
+   "volume": 1180908.0,
+   "previous_close": 83.14,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "STE": {
+   "price": 261.45,
+   "change": 0.28,
+   "change_pct": 0.11,
+   "volume": 95020.0,
+   "previous_close": 261.17,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HSIC": {
+   "price": 88.86,
+   "change": 0.13,
+   "change_pct": 0.15,
+   "volume": 292874.0,
+   "previous_close": 88.73,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AMCR": {
+   "price": 45.42,
+   "change": 1.38,
+   "change_pct": 3.13,
+   "volume": 4032248.0,
+   "previous_close": 44.04,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MMM": {
+   "price": 190.64,
+   "change": 0.81,
+   "change_pct": 0.43,
+   "volume": 560335.0,
+   "previous_close": 189.83,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "IBM": {
+   "price": 247.235,
+   "change": 3.765,
+   "change_pct": 1.55,
+   "volume": 730274.0,
+   "previous_close": 243.47,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AFL": {
+   "price": 127.595,
+   "change": 0.085,
+   "change_pct": 0.07,
+   "volume": 190086.0,
+   "previous_close": 127.51,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BMY": {
+   "price": 61.24,
+   "change": -0.32,
+   "change_pct": -0.52,
+   "volume": 1422891.0,
+   "previous_close": 61.56,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MAS": {
+   "price": 87.19,
+   "change": 0.26,
+   "change_pct": 0.3,
+   "volume": 207907.0,
+   "previous_close": 86.93,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CTSH": {
+   "price": 58.19,
+   "change": 1.88,
+   "change_pct": 3.34,
+   "volume": 7994047.0,
+   "previous_close": 56.31,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CMI": {
+   "price": 429.97,
+   "change": 9.25,
+   "change_pct": 2.2,
+   "volume": 206711.0,
+   "previous_close": 420.72,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "COR": {
+   "price": 353.875,
+   "change": -0.175,
+   "change_pct": -0.05,
+   "volume": 128648.0,
+   "previous_close": 354.05,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WMT": {
+   "price": 131.93,
+   "change": -0.01,
+   "change_pct": -0.01,
+   "volume": 3876923.0,
+   "previous_close": 131.94,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SPGI": {
+   "price": 463.99,
+   "change": 9.79,
+   "change_pct": 2.16,
+   "volume": 1539869.0,
+   "previous_close": 454.2,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SMCI": {
+   "price": 23.78,
+   "change": 0.47,
+   "change_pct": 2.02,
+   "volume": 13117809.0,
+   "previous_close": 23.31,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WFC": {
+   "price": 82.39,
+   "change": 1.45,
+   "change_pct": 1.79,
+   "volume": 1389939.0,
+   "previous_close": 80.94,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EMR": {
+   "price": 161.745,
+   "change": 4.515,
+   "change_pct": 2.87,
+   "volume": 443969.0,
+   "previous_close": 157.23,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VRSK": {
+   "price": 204.08,
+   "change": -0.68,
+   "change_pct": -0.33,
+   "volume": 117402.0,
+   "previous_close": 204.76,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ALGN": {
+   "price": 165.11,
+   "change": -0.29,
+   "change_pct": -0.18,
+   "volume": 65852.0,
+   "previous_close": 165.4,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AMT": {
+   "price": 184.555,
+   "change": -0.035,
+   "change_pct": -0.02,
+   "volume": 431204.0,
+   "previous_close": 184.59,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GE": {
+   "price": 322.58,
+   "change": 5.6,
+   "change_pct": 1.77,
+   "volume": 428606.0,
+   "previous_close": 316.98,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WAT": {
+   "price": 462.27,
+   "change": 7.34,
+   "change_pct": 1.61,
+   "volume": 258013.0,
+   "previous_close": 454.93,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FICO": {
+   "price": 702.14,
+   "change": 2.33,
+   "change_pct": 0.33,
+   "volume": 46424.0,
+   "previous_close": 699.81,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CAT": {
+   "price": 560.21,
+   "change": 16.52,
+   "change_pct": 3.04,
+   "volume": 781119.0,
+   "previous_close": 543.69,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "KHC": {
+   "price": 26.275,
+   "change": -0.235,
+   "change_pct": -0.89,
+   "volume": 2442143.0,
+   "previous_close": 26.51,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MCK": {
+   "price": 1071.08,
+   "change": -6.24,
+   "change_pct": -0.58,
+   "volume": 73932.0,
+   "previous_close": 1077.32,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "COO": {
+   "price": 62.18,
+   "change": -0.11,
+   "change_pct": -0.18,
+   "volume": 441428.0,
+   "previous_close": 62.29,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AVY": {
+   "price": 192.485,
+   "change": 0.845,
+   "change_pct": 0.44,
+   "volume": 59069.0,
+   "previous_close": 191.64,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TJX": {
+   "price": 142.33,
+   "change": -3.76,
+   "change_pct": -2.57,
+   "volume": 1197058.0,
+   "previous_close": 146.09,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WAB": {
+   "price": 292.55,
+   "change": 4.96,
+   "change_pct": 1.72,
+   "volume": 268648.0,
+   "previous_close": 287.59,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CFG": {
+   "price": 62.6903,
+   "change": 0.9303,
+   "change_pct": 1.51,
+   "volume": 636342.0,
+   "previous_close": 61.76,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PAYX": {
+   "price": 117.98,
+   "change": -0.51,
+   "change_pct": -0.43,
+   "volume": 219372.0,
+   "previous_close": 118.49,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VICI": {
+   "price": 25.095,
+   "change": -0.025,
+   "change_pct": -0.1,
+   "volume": 1141186.0,
+   "previous_close": 25.12,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "KO": {
+   "price": 97.275,
+   "change": -0.315,
+   "change_pct": -0.32,
+   "volume": 4413990.0,
+   "previous_close": 97.59,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AZO": {
+   "price": 3373.695,
+   "change": -30.765,
+   "change_pct": -0.9,
+   "volume": 32517.0,
+   "previous_close": 3404.46,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GDDY": {
+   "price": 104.8,
+   "change": -0.34,
+   "change_pct": -0.32,
+   "volume": 221785.0,
+   "previous_close": 105.14,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "F": {
+   "price": 12.3246,
+   "change": 0.1546,
+   "change_pct": 1.27,
+   "volume": 6318864.0,
+   "previous_close": 12.17,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MCHP": {
+   "price": 58.93,
+   "change": 1.275,
+   "change_pct": 2.21,
+   "volume": 3159263.0,
+   "previous_close": 57.655,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "COST": {
+   "price": 1094.89,
+   "change": 8.08,
+   "change_pct": 0.74,
+   "volume": 373103.0,
+   "previous_close": 1086.81,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BIIB": {
+   "price": 262.0213,
+   "change": 0.5813,
+   "change_pct": 0.22,
+   "volume": 187468.0,
+   "previous_close": 261.44,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DGX": {
+   "price": 259.1403,
+   "change": -0.5497,
+   "change_pct": -0.21,
+   "volume": 1108550.0,
+   "previous_close": 259.69,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MTD": {
+   "price": 1675.55,
+   "change": 11.0,
+   "change_pct": 0.66,
+   "volume": 17458.0,
+   "previous_close": 1664.55,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SLB": {
+   "price": 49.69,
+   "change": 1.17,
+   "change_pct": 2.41,
+   "volume": 1266511.0,
+   "previous_close": 48.52,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CAH": {
+   "price": 282.995,
+   "change": 0.085,
+   "change_pct": 0.03,
+   "volume": 209147.0,
+   "previous_close": 282.91,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MU": {
+   "price": 638.94,
+   "change": 37.69,
+   "change_pct": 6.27,
+   "volume": 15249173.0,
+   "previous_close": 601.25,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "RDDT": {
+   "price": 94.685,
+   "change": 3.175,
+   "change_pct": 3.47,
+   "volume": 907490.0,
+   "previous_close": 91.51,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VTRS": {
+   "price": 20.1,
+   "change": 0.27,
+   "change_pct": 1.36,
+   "volume": 987358.0,
+   "previous_close": 19.83,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "QCOM": {
+   "price": 176.12,
+   "change": 7.46,
+   "change_pct": 4.42,
+   "volume": 2247534.0,
+   "previous_close": 168.66,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NEM": {
+   "price": 105.61,
+   "change": 6.18,
+   "change_pct": 6.22,
+   "volume": 7992031.0,
+   "previous_close": 99.43,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "REG": {
+   "price": 75.71,
+   "change": 0.19,
+   "change_pct": 0.25,
+   "volume": 219871.0,
+   "previous_close": 75.52,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AMD": {
+   "price": 416.94,
+   "change": 10.91,
+   "change_pct": 2.69,
+   "volume": 11997381.0,
+   "previous_close": 406.03,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AVGO": {
+   "price": 311.295,
+   "change": 10.435,
+   "change_pct": 3.47,
+   "volume": 7053249.0,
+   "previous_close": 300.86,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GILD": {
+   "price": 176.065,
+   "change": -0.675,
+   "change_pct": -0.38,
+   "volume": 1149669.0,
+   "previous_close": 176.74,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "T": {
+   "price": 23.1263,
+   "change": 0.1563,
+   "change_pct": 0.68,
+   "volume": 7358873.0,
+   "previous_close": 22.97,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HOOD": {
+   "price": 67.56,
+   "change": 1.78,
+   "change_pct": 2.71,
+   "volume": 5563322.0,
+   "previous_close": 65.78,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ROK": {
+   "price": 392.99,
+   "change": 8.08,
+   "change_pct": 2.1,
+   "volume": 172179.0,
+   "previous_close": 384.91,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ORCL": {
+   "price": 106.48,
+   "change": 2.6,
+   "change_pct": 2.5,
+   "volume": 7961980.0,
+   "previous_close": 103.88,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "KDP": {
+   "price": 35.43,
+   "change": -0.2,
+   "change_pct": -0.56,
+   "volume": 2508445.0,
+   "previous_close": 35.63,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EIX": {
+   "price": 63.3372,
+   "change": -0.0528,
+   "change_pct": -0.08,
+   "volume": 238084.0,
+   "previous_close": 63.39,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LH": {
+   "price": 369.7205,
+   "change": 0.7705,
+   "change_pct": 0.21,
+   "volume": 51670.0,
+   "previous_close": 368.95,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CASY": {
+   "price": 706.96,
+   "change": 8.7,
+   "change_pct": 1.25,
+   "volume": 41478.0,
+   "previous_close": 698.26,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "UAL": {
+   "price": 107.345,
+   "change": 2.825,
+   "change_pct": 2.7,
+   "volume": 663793.0,
+   "previous_close": 104.52,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "APP": {
+   "price": 399.65,
+   "change": 20.7,
+   "change_pct": 5.46,
+   "volume": 1178206.0,
+   "previous_close": 378.95,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "STT": {
+   "price": 165.1038,
+   "change": 3.0738,
+   "change_pct": 1.9,
+   "volume": 189332.0,
+   "previous_close": 162.03,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VLO": {
+   "price": 328.4,
+   "change": 5.4,
+   "change_pct": 1.67,
+   "volume": 379590.0,
+   "previous_close": 323.0,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EOG": {
+   "price": 150.155,
+   "change": 1.845,
+   "change_pct": 1.24,
+   "volume": 650841.0,
+   "previous_close": 148.31,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PG": {
+   "price": 172.55,
+   "change": -0.68,
+   "change_pct": -0.39,
+   "volume": 1114029.0,
+   "previous_close": 173.23,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HAS": {
+   "price": 108.955,
+   "change": -1.625,
+   "change_pct": -1.47,
+   "volume": 445196.0,
+   "previous_close": 110.58,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SYK": {
+   "price": 332.795,
+   "change": -0.105,
+   "change_pct": -0.03,
+   "volume": 399484.0,
+   "previous_close": 332.9,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ADI": {
+   "price": 341.18,
+   "change": 8.075,
+   "change_pct": 2.42,
+   "volume": 1185768.0,
+   "previous_close": 333.105,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ARES": {
+   "price": 136.298,
+   "change": 2.358,
+   "change_pct": 1.76,
+   "volume": 213128.0,
+   "previous_close": 133.94,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EVRG": {
+   "price": 87.4572,
+   "change": -0.3128,
+   "change_pct": -0.36,
+   "volume": 170457.0,
+   "previous_close": 87.77,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "IRM": {
+   "price": 103.57,
+   "change": -0.49,
+   "change_pct": -0.47,
+   "volume": 363828.0,
+   "previous_close": 104.06,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NOC": {
+   "price": 556.6,
+   "change": 0.81,
+   "change_pct": 0.15,
+   "volume": 81968.0,
+   "previous_close": 555.79,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WEC": {
+   "price": 118.905,
+   "change": -0.185,
+   "change_pct": -0.16,
+   "volume": 197408.0,
+   "previous_close": 119.09,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MRNA": {
+   "price": 218.54,
+   "change": -2.3,
+   "change_pct": -1.04,
+   "volume": 1916176.0,
+   "previous_close": 220.84,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DHI": {
+   "price": 145.51,
+   "change": 1.12,
+   "change_pct": 0.78,
+   "volume": 2847418.0,
+   "previous_close": 144.39,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CSCO": {
+   "price": 96.395,
+   "change": 2.195,
+   "change_pct": 2.33,
+   "volume": 2478344.0,
+   "previous_close": 94.2,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NI": {
+   "price": 45.18,
+   "change": 0.07,
+   "change_pct": 0.16,
+   "volume": 521827.0,
+   "previous_close": 45.11,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CF": {
+   "price": 119.57,
+   "change": 2.07,
+   "change_pct": 1.76,
+   "volume": 283158.0,
+   "previous_close": 117.5,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TKO": {
+   "price": 192.66,
+   "change": 1.22,
+   "change_pct": 0.64,
+   "volume": 145834.0,
+   "previous_close": 191.44,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ADP": {
+   "price": 318.225,
+   "change": 1.505,
+   "change_pct": 0.48,
+   "volume": 289201.0,
+   "previous_close": 316.72,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EBAY": {
+   "price": 115.22,
+   "change": -0.32,
+   "change_pct": -0.28,
+   "volume": 812034.0,
+   "previous_close": 115.54,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LEN": {
+   "price": 86.535,
+   "change": -0.255,
+   "change_pct": -0.29,
+   "volume": 784233.0,
+   "previous_close": 86.79,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "IFF": {
+   "price": 85.41,
+   "change": -0.7,
+   "change_pct": -0.81,
+   "volume": 284136.0,
+   "previous_close": 86.11,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MSFT": {
+   "price": 490.575,
+   "change": 0.645,
+   "change_pct": 0.13,
+   "volume": 4204336.0,
+   "previous_close": 489.93,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CEG": {
+   "price": 235.82,
+   "change": 0.54,
+   "change_pct": 0.23,
+   "volume": 853560.0,
+   "previous_close": 235.28,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LYV": {
+   "price": 182.425,
+   "change": 0.695,
+   "change_pct": 0.38,
+   "volume": 191433.0,
+   "previous_close": 181.73,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DASH": {
+   "price": 153.28,
+   "change": -13.52,
+   "change_pct": -8.11,
+   "volume": 5193432.0,
+   "previous_close": 166.8,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FTV": {
+   "price": 65.86,
+   "change": -0.18,
+   "change_pct": -0.27,
+   "volume": 253440.0,
+   "previous_close": 66.04,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WST": {
+   "price": 367.98,
+   "change": -4.96,
+   "change_pct": -1.33,
+   "volume": 198975.0,
+   "previous_close": 372.94,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SNA": {
+   "price": 362.14,
+   "change": 1.7,
+   "change_pct": 0.47,
+   "volume": 34747.0,
+   "previous_close": 360.44,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FIS": {
+   "price": 28.244,
+   "change": 0.604,
+   "change_pct": 2.19,
+   "volume": 941431.0,
+   "previous_close": 27.64,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "RF": {
+   "price": 28.095,
+   "change": 0.315,
+   "change_pct": 1.13,
+   "volume": 1929106.0,
+   "previous_close": 27.78,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HPQ": {
+   "price": 32.24,
+   "change": 1.09,
+   "change_pct": 3.5,
+   "volume": 5460245.0,
+   "previous_close": 31.15,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GEHC": {
+   "price": 84.325,
+   "change": 0.995,
+   "change_pct": 1.19,
+   "volume": 379841.0,
+   "previous_close": 83.33,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BRO": {
+   "price": 78.0,
+   "change": -0.43,
+   "change_pct": -0.55,
+   "volume": 423661.0,
+   "previous_close": 78.43,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CCI": {
+   "price": 84.18,
+   "change": 0.55,
+   "change_pct": 0.66,
+   "volume": 393985.0,
+   "previous_close": 83.63,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "OTIS": {
+   "price": 79.12,
+   "change": 0.22,
+   "change_pct": 0.28,
+   "volume": 342575.0,
+   "previous_close": 78.9,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DECK": {
+   "price": 78.48,
+   "change": -5.12,
+   "change_pct": -6.12,
+   "volume": 3822887.0,
+   "previous_close": 83.6,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LLY": {
+   "price": 1389.98,
+   "change": -2.24,
+   "change_pct": -0.16,
+   "volume": 754121.0,
+   "previous_close": 1392.22,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "RVTY": {
+   "price": 150.715,
+   "change": -0.105,
+   "change_pct": -0.07,
+   "volume": 71176.0,
+   "previous_close": 150.82,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HUBB": {
+   "price": 431.665,
+   "change": 2.925,
+   "change_pct": 0.68,
+   "volume": 132760.0,
+   "previous_close": 428.74,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "KEYS": {
+   "price": 276.95,
+   "change": 9.26,
+   "change_pct": 3.46,
+   "volume": 333758.0,
+   "previous_close": 267.69,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WDC": {
+   "price": 285.3,
+   "change": 12.85,
+   "change_pct": 4.72,
+   "volume": 1670066.0,
+   "previous_close": 272.45,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ZTS": {
+   "price": 82.05,
+   "change": -0.55,
+   "change_pct": -0.67,
+   "volume": 377895.0,
+   "previous_close": 82.6,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "KMI": {
+   "price": 32.055,
+   "change": 0.365,
+   "change_pct": 1.15,
+   "volume": 1911487.0,
+   "previous_close": 31.69,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DAL": {
+   "price": 80.57,
+   "change": -4.31,
+   "change_pct": -5.08,
+   "volume": 7235663.0,
+   "previous_close": 84.88,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TSCO": {
+   "price": 39.725,
+   "change": -0.645,
+   "change_pct": -1.6,
+   "volume": 1532833.0,
+   "previous_close": 40.37,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FE": {
+   "price": 47.315,
+   "change": -0.305,
+   "change_pct": -0.64,
+   "volume": 540620.0,
+   "previous_close": 47.62,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VTR": {
+   "price": 88.17,
+   "change": 0.81,
+   "change_pct": 0.93,
+   "volume": 461355.0,
+   "previous_close": 87.36,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CNC": {
+   "price": 65.567,
+   "change": 0.827,
+   "change_pct": 1.28,
+   "volume": 284843.0,
+   "previous_close": 64.74,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "APO": {
+   "price": 122.885,
+   "change": 2.405,
+   "change_pct": 2.0,
+   "volume": 627575.0,
+   "previous_close": 120.48,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "IVZ": {
+   "price": 28.925,
+   "change": 0.825,
+   "change_pct": 2.94,
+   "volume": 510601.0,
+   "previous_close": 28.1,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MAA": {
+   "price": 117.2,
+   "change": -0.4,
+   "change_pct": -0.34,
+   "volume": 152086.0,
+   "previous_close": 117.6,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SWK": {
+   "price": 110.49,
+   "change": 1.27,
+   "change_pct": 1.16,
+   "volume": 166148.0,
+   "previous_close": 109.22,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PGR": {
+   "price": 239.27,
+   "change": 0.57,
+   "change_pct": 0.24,
+   "volume": 327389.0,
+   "previous_close": 238.7,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HSY": {
+   "price": 181.55,
+   "change": -1.02,
+   "change_pct": -0.56,
+   "volume": 156558.0,
+   "previous_close": 182.57,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "P": {
+   "price": 100.28,
+   "change": 5.59,
+   "change_pct": 5.9,
+   "volume": 630917.0,
+   "previous_close": 94.69,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NSC": {
+   "price": 326.08,
+   "change": -0.43,
+   "change_pct": -0.13,
+   "volume": 106006.0,
+   "previous_close": 326.51,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LYB": {
+   "price": 57.405,
+   "change": 0.445,
+   "change_pct": 0.78,
+   "volume": 422871.0,
+   "previous_close": 56.96,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TPL": {
+   "price": 262.04,
+   "change": 0.67,
+   "change_pct": 0.26,
+   "volume": 88336.0,
+   "previous_close": 261.37,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AJG": {
+   "price": 291.91,
+   "change": -0.48,
+   "change_pct": -0.16,
+   "volume": 204892.0,
+   "previous_close": 292.39,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NVDA": {
+   "price": 148.265,
+   "change": -1.035,
+   "change_pct": -0.69,
+   "volume": 102885173.0,
+   "previous_close": 149.3,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BEN": {
+   "price": 34.138,
+   "change": 0.538,
+   "change_pct": 1.6,
+   "volume": 279603.0,
+   "previous_close": 33.6,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CTAS": {
+   "price": 227.855,
+   "change": 0.205,
+   "change_pct": 0.09,
+   "volume": 244067.0,
+   "previous_close": 227.65,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BG": {
+   "price": 90.6907,
+   "change": 2.5407,
+   "change_pct": 2.88,
+   "volume": 215852.0,
+   "previous_close": 88.15,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CRWD": {
+   "price": 213.84,
+   "change": 4.54,
+   "change_pct": 2.17,
+   "volume": 3316816.0,
+   "previous_close": 209.3,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TTWO": {
+   "price": 230.765,
+   "change": 3.425,
+   "change_pct": 1.51,
+   "volume": 1700016.0,
+   "previous_close": 227.34,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TGT": {
+   "price": 171.95,
+   "change": -0.27,
+   "change_pct": -0.16,
+   "volume": 530493.0,
+   "previous_close": 172.22,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TDG": {
+   "price": 1164.065,
+   "change": 13.335,
+   "change_pct": 1.16,
+   "volume": 31865.0,
+   "previous_close": 1150.73,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "KLAC": {
+   "price": 136.495,
+   "change": 2.295,
+   "change_pct": 1.71,
+   "volume": 2866029.0,
+   "previous_close": 134.2,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "IP": {
+   "price": 34.03,
+   "change": 1.95,
+   "change_pct": 6.08,
+   "volume": 2393129.0,
+   "previous_close": 32.08,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "UDR": {
+   "price": 36.64,
+   "change": -0.03,
+   "change_pct": -0.08,
+   "volume": 334689.0,
+   "previous_close": 36.67,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
@@ -2701,65 +2593,875 @@
    "market_status": "Market Open",
    "session": "2026-11-25"
   },
-  "BEN": {
-   "price": 34.06,
-   "change": 0.46,
-   "change_pct": 1.37,
-   "volume": 215242.0,
-   "previous_close": 33.6,
+  "HONA": {
+   "price": 166.6,
+   "change": 8.76,
+   "change_pct": 5.55,
+   "volume": 711868.0,
+   "previous_close": 157.84,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "PPL": {
-   "price": 35.363,
-   "change": -0.017,
-   "change_pct": -0.05,
-   "volume": 435800.0,
-   "previous_close": 35.38,
+  "ESS": {
+   "price": 279.78,
+   "change": 0.57,
+   "change_pct": 0.2,
+   "volume": 66644.0,
+   "previous_close": 279.21,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "RSG": {
-   "price": 253.215,
-   "change": -0.945,
-   "change_pct": -0.37,
-   "volume": 136468.0,
-   "previous_close": 254.16,
+  "DOC": {
+   "price": 19.24,
+   "change": -0.1,
+   "change_pct": -0.52,
+   "volume": 6923152.0,
+   "previous_close": 19.34,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "DUK": {
-   "price": 132.0267,
-   "change": 0.1267,
-   "change_pct": 0.1,
-   "volume": 322843.0,
-   "previous_close": 131.9,
+  "PCG": {
+   "price": 14.38,
+   "change": 0.12,
+   "change_pct": 0.84,
+   "volume": 2851150.0,
+   "previous_close": 14.26,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "STT": {
-   "price": 164.935,
-   "change": 2.905,
-   "change_pct": 1.79,
-   "volume": 144734.0,
-   "previous_close": 162.03,
+  "AON": {
+   "price": 348.605,
+   "change": 1.115,
+   "change_pct": 0.32,
+   "volume": 317272.0,
+   "previous_close": 347.49,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SJM": {
+   "price": 127.27,
+   "change": -2.79,
+   "change_pct": -2.15,
+   "volume": 282720.0,
+   "previous_close": 130.06,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ELV": {
+   "price": 393.34,
+   "change": 3.64,
+   "change_pct": 0.93,
+   "volume": 138276.0,
+   "previous_close": 389.7,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "XEL": {
+   "price": 81.235,
+   "change": 0.125,
+   "change_pct": 0.15,
+   "volume": 1139501.0,
+   "previous_close": 81.11,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
   "SKYD": {
-   "price": 6.65,
-   "change": 0.12,
-   "change_pct": 1.84,
-   "volume": 1725783.0,
+   "price": 6.635,
+   "change": 0.105,
+   "change_pct": 1.61,
+   "volume": 2559501.0,
    "previous_close": 6.53,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
+  "IQV": {
+   "price": 250.8,
+   "change": -0.32,
+   "change_pct": -0.13,
+   "volume": 270543.0,
+   "previous_close": 251.12,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VLTO": {
+   "price": 120.24,
+   "change": 0.05,
+   "change_pct": 0.04,
+   "volume": 161431.0,
+   "previous_close": 120.19,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TRV": {
+   "price": 405.9325,
+   "change": -0.9275,
+   "change_pct": -0.23,
+   "volume": 158225.0,
+   "previous_close": 406.86,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SNPS": {
+   "price": 418.115,
+   "change": 13.025,
+   "change_pct": 3.22,
+   "volume": 415683.0,
+   "previous_close": 405.09,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ARE": {
+   "price": 43.245,
+   "change": 0.155,
+   "change_pct": 0.36,
+   "volume": 120980.0,
+   "previous_close": 43.09,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ON": {
+   "price": 65.27,
+   "change": 2.79,
+   "change_pct": 4.47,
+   "volume": 1708386.0,
+   "previous_close": 62.48,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MRSH": {
+   "price": 217.53,
+   "change": 0.87,
+   "change_pct": 0.4,
+   "volume": 500010.0,
+   "previous_close": 216.66,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HBAN": {
+   "price": 15.085,
+   "change": 0.205,
+   "change_pct": 1.38,
+   "volume": 1894960.0,
+   "previous_close": 14.88,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DD": {
+   "price": 145.43,
+   "change": -4.8,
+   "change_pct": -3.2,
+   "volume": 1574765.0,
+   "previous_close": 150.23,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TMO": {
+   "price": 680.54,
+   "change": -4.98,
+   "change_pct": -0.73,
+   "volume": 388822.0,
+   "previous_close": 685.52,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CNP": {
+   "price": 40.245,
+   "change": -0.145,
+   "change_pct": -0.36,
+   "volume": 372311.0,
+   "previous_close": 40.39,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CRM": {
+   "price": 197.61,
+   "change": 0.4,
+   "change_pct": 0.2,
+   "volume": 952700.0,
+   "previous_close": 197.21,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ABBV": {
+   "price": 291.76,
+   "change": -2.72,
+   "change_pct": -0.92,
+   "volume": 1815130.0,
+   "previous_close": 294.48,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TRMB": {
+   "price": 55.305,
+   "change": 0.055,
+   "change_pct": 0.1,
+   "volume": 398779.0,
+   "previous_close": 55.25,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SBUX": {
+   "price": 108.95,
+   "change": 1.21,
+   "change_pct": 1.12,
+   "volume": 1458425.0,
+   "previous_close": 107.74,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "JPM": {
+   "price": 323.9,
+   "change": 7.16,
+   "change_pct": 2.26,
+   "volume": 1152081.0,
+   "previous_close": 316.74,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MKC": {
+   "price": 49.7933,
+   "change": -0.0567,
+   "change_pct": -0.11,
+   "volume": 870665.0,
+   "previous_close": 49.85,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "RCL": {
+   "price": 314.96,
+   "change": 0.85,
+   "change_pct": 0.27,
+   "volume": 239232.0,
+   "previous_close": 314.11,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "STLD": {
+   "price": 221.79,
+   "change": 4.93,
+   "change_pct": 2.27,
+   "volume": 185044.0,
+   "previous_close": 216.86,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LITE": {
+   "price": 507.2,
+   "change": 30.62,
+   "change_pct": 6.42,
+   "volume": 1613066.0,
+   "previous_close": 476.58,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DOV": {
+   "price": 206.87,
+   "change": 1.52,
+   "change_pct": 0.74,
+   "volume": 239135.0,
+   "previous_close": 205.35,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PHM": {
+   "price": 133.93,
+   "change": -0.91,
+   "change_pct": -0.67,
+   "volume": 304700.0,
+   "previous_close": 134.84,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "VMC": {
+   "price": 292.57,
+   "change": 1.59,
+   "change_pct": 0.55,
+   "volume": 173258.0,
+   "previous_close": 290.98,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NOW": {
+   "price": 92.43,
+   "change": 0.27,
+   "change_pct": 0.29,
+   "volume": 3597951.0,
+   "previous_close": 92.16,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FFIV": {
+   "price": 317.95,
+   "change": 0.9,
+   "change_pct": 0.28,
+   "volume": 63017.0,
+   "previous_close": 317.05,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CME": {
+   "price": 312.13,
+   "change": 0.39,
+   "change_pct": 0.13,
+   "volume": 272398.0,
+   "previous_close": 311.74,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GPC": {
+   "price": 124.78,
+   "change": 0.9,
+   "change_pct": 0.73,
+   "volume": 108168.0,
+   "previous_close": 123.88,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SO": {
+   "price": 94.84,
+   "change": -0.16,
+   "change_pct": -0.17,
+   "volume": 656121.0,
+   "previous_close": 95.0,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CPRT": {
+   "price": 33.265,
+   "change": 0.1,
+   "change_pct": 0.3,
+   "volume": 1965074.0,
+   "previous_close": 33.165,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ODFL": {
+   "price": 174.96,
+   "change": 0.3,
+   "change_pct": 0.17,
+   "volume": 200858.0,
+   "previous_close": 174.66,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CMCSA": {
+   "price": 26.075,
+   "change": 0.345,
+   "change_pct": 1.34,
+   "volume": 4499957.0,
+   "previous_close": 25.73,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BNY": {
+   "price": 149.7681,
+   "change": 2.6081,
+   "change_pct": 1.77,
+   "volume": 412269.0,
+   "previous_close": 147.16,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ALLE": {
+   "price": 191.33,
+   "change": -0.87,
+   "change_pct": -0.45,
+   "volume": 137580.0,
+   "previous_close": 192.2,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "IT": {
+   "price": 185.57,
+   "change": 0.77,
+   "change_pct": 0.42,
+   "volume": 76595.0,
+   "previous_close": 184.8,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MRVL": {
+   "price": 138.225,
+   "change": 7.295,
+   "change_pct": 5.57,
+   "volume": 9926746.0,
+   "previous_close": 130.93,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CARR": {
+   "price": 54.505,
+   "change": 0.605,
+   "change_pct": 1.12,
+   "volume": 1033489.0,
+   "previous_close": 53.9,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AMGN": {
+   "price": 470.255,
+   "change": 1.015,
+   "change_pct": 0.22,
+   "volume": 297378.0,
+   "previous_close": 469.24,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ZBRA": {
+   "price": 332.35,
+   "change": 13.98,
+   "change_pct": 4.39,
+   "volume": 80358.0,
+   "previous_close": 318.37,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ULTA": {
+   "price": 641.51,
+   "change": -1.13,
+   "change_pct": -0.18,
+   "volume": 48847.0,
+   "previous_close": 642.64,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ADM": {
+   "price": 67.485,
+   "change": 0.825,
+   "change_pct": 1.24,
+   "volume": 361029.0,
+   "previous_close": 66.66,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EG": {
+   "price": 436.405,
+   "change": 2.765,
+   "change_pct": 0.64,
+   "volume": 69252.0,
+   "previous_close": 433.64,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GNRC": {
+   "price": 210.865,
+   "change": 6.875,
+   "change_pct": 3.37,
+   "volume": 168704.0,
+   "previous_close": 203.99,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ACN": {
+   "price": 242.39,
+   "change": 1.9,
+   "change_pct": 0.79,
+   "volume": 713290.0,
+   "previous_close": 240.49,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AMZN": {
+   "price": 254.14,
+   "change": 9.71,
+   "change_pct": 3.97,
+   "volume": 11576287.0,
+   "previous_close": 244.43,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HPE": {
+   "price": 42.86,
+   "change": 2.04,
+   "change_pct": 5.0,
+   "volume": 4935705.0,
+   "previous_close": 40.82,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SBAC": {
+   "price": 177.55,
+   "change": 2.82,
+   "change_pct": 1.61,
+   "volume": 130314.0,
+   "previous_close": 174.73,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GPN": {
+   "price": 97.375,
+   "change": 1.345,
+   "change_pct": 1.4,
+   "volume": 500153.0,
+   "previous_close": 96.03,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "KR": {
+   "price": 69.29,
+   "change": -0.54,
+   "change_pct": -0.77,
+   "volume": 535900.0,
+   "previous_close": 69.83,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CIEN": {
+   "price": 251.55,
+   "change": 8.76,
+   "change_pct": 3.61,
+   "volume": 713274.0,
+   "previous_close": 242.79,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FISV": {
+   "price": 61.805,
+   "change": 2.025,
+   "change_pct": 3.39,
+   "volume": 1100358.0,
+   "previous_close": 59.78,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LHX": {
+   "price": 262.83,
+   "change": 0.94,
+   "change_pct": 0.36,
+   "volume": 177614.0,
+   "previous_close": 261.89,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CVX": {
+   "price": 209.0692,
+   "change": 3.1892,
+   "change_pct": 1.55,
+   "volume": 8587964.0,
+   "previous_close": 205.88,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EME": {
+   "price": 631.61,
+   "change": 2.89,
+   "change_pct": 0.46,
+   "volume": 67400.0,
+   "previous_close": 628.72,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WMB": {
+   "price": 67.26,
+   "change": 0.81,
+   "change_pct": 1.22,
+   "volume": 845125.0,
+   "previous_close": 66.45,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HRL": {
+   "price": 22.855,
+   "change": -0.235,
+   "change_pct": -1.02,
+   "volume": 1099685.0,
+   "previous_close": 23.09,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "REGN": {
+   "price": 983.729,
+   "change": 1.859,
+   "change_pct": 0.19,
+   "volume": 238211.0,
+   "previous_close": 981.87,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DE": {
+   "price": 656.49,
+   "change": 15.47,
+   "change_pct": 2.41,
+   "volume": 708045.0,
+   "previous_close": 641.02,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NFLX": {
+   "price": 60.86,
+   "change": 1.45,
+   "change_pct": 2.44,
+   "volume": 10023140.0,
+   "previous_close": 59.41,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NEE": {
+   "price": 84.93,
+   "change": 0.1432,
+   "change_pct": 0.17,
+   "volume": 1696164.0,
+   "previous_close": 84.7868,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PM": {
+   "price": 187.555,
+   "change": 3.235,
+   "change_pct": 1.76,
+   "volume": 1155113.0,
+   "previous_close": 184.32,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TPR": {
+   "price": 128.13,
+   "change": -1.47,
+   "change_pct": -1.13,
+   "volume": 619949.0,
+   "previous_close": 129.6,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "COHR": {
+   "price": 217.315,
+   "change": 21.125,
+   "change_pct": 10.77,
+   "volume": 3862684.0,
+   "previous_close": 196.19,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AXP": {
+   "price": 316.935,
+   "change": 4.545,
+   "change_pct": 1.45,
+   "volume": 339630.0,
+   "previous_close": 312.39,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LRCX": {
+   "price": 188.2829,
+   "change": 3.2729,
+   "change_pct": 1.77,
+   "volume": 2763250.0,
+   "previous_close": 185.01,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ADBE": {
+   "price": 234.1975,
+   "change": 1.3675,
+   "change_pct": 0.59,
+   "volume": 747681.0,
+   "previous_close": 232.83,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ETR": {
+   "price": 108.29,
+   "change": 0.97,
+   "change_pct": 0.9,
+   "volume": 467121.0,
+   "previous_close": 107.32,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MPWR": {
+   "price": 1236.95,
+   "change": 42.32,
+   "change_pct": 3.54,
+   "volume": 142045.0,
+   "previous_close": 1194.63,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DVA": {
+   "price": 164.275,
+   "change": 1.505,
+   "change_pct": 0.92,
+   "volume": 58511.0,
+   "previous_close": 162.77,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NTRS": {
+   "price": 169.0,
+   "change": 0.99,
+   "change_pct": 0.59,
+   "volume": 93845.0,
+   "previous_close": 168.01,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PEG": {
+   "price": 75.06,
+   "change": -0.13,
+   "change_pct": -0.17,
+   "volume": 236440.0,
+   "previous_close": 75.19,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MLM": {
+   "price": 538.2375,
+   "change": 1.6975,
+   "change_pct": 0.32,
+   "volume": 78821.0,
+   "previous_close": 536.54,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TRGP": {
+   "price": 280.885,
+   "change": -4.645,
+   "change_pct": -1.63,
+   "volume": 369076.0,
+   "previous_close": 285.53,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EQT": {
+   "price": 51.93,
+   "change": 0.4,
+   "change_pct": 0.78,
+   "volume": 1346785.0,
+   "previous_close": 51.53,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BAX": {
+   "price": 26.905,
+   "change": -0.345,
+   "change_pct": -1.27,
+   "volume": 880515.0,
+   "previous_close": 27.25,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DDOG": {
+   "price": 165.0,
+   "change": -1.46,
+   "change_pct": -0.88,
+   "volume": 4982383.0,
+   "previous_close": 166.46,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TECH": {
+   "price": 72.835,
+   "change": 0.185,
+   "change_pct": 0.25,
+   "volume": 1142917.0,
+   "previous_close": 72.65,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PNR": {
+   "price": 73.19,
+   "change": 0.31,
+   "change_pct": 0.43,
+   "volume": 238613.0,
+   "previous_close": 72.88,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HII": {
+   "price": 302.69,
+   "change": 4.76,
+   "change_pct": 1.6,
+   "volume": 62662.0,
+   "previous_close": 297.93,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DXCM": {
+   "price": 85.14,
+   "change": 0.3,
+   "change_pct": 0.35,
+   "volume": 335677.0,
+   "previous_close": 84.84,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HON": {
+   "price": 227.94,
+   "change": 2.84,
+   "change_pct": 1.26,
+   "volume": 324323.0,
+   "previous_close": 225.1,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MET": {
+   "price": 101.335,
+   "change": 1.555,
+   "change_pct": 1.56,
+   "volume": 591360.0,
+   "previous_close": 99.78,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MGM": {
+   "price": 35.095,
+   "change": 0.445,
+   "change_pct": 1.28,
+   "volume": 577164.0,
+   "previous_close": 34.65,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MRK": {
+   "price": 141.09,
+   "change": 0.8,
+   "change_pct": 0.57,
+   "volume": 2521881.0,
+   "previous_close": 140.29,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CHRW": {
+   "price": 146.64,
+   "change": 1.82,
+   "change_pct": 1.26,
+   "volume": 266401.0,
+   "previous_close": 144.82,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GLW": {
+   "price": 103.03,
+   "change": 2.79,
+   "change_pct": 2.78,
+   "volume": 2187559.0,
+   "previous_close": 100.24,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PNW": {
+   "price": 103.035,
+   "change": -0.205,
+   "change_pct": -0.2,
+   "volume": 124064.0,
+   "previous_close": 103.24,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BALL": {
+   "price": 67.0095,
+   "change": -0.1705,
+   "change_pct": -0.25,
+   "volume": 202071.0,
+   "previous_close": 67.18,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
   "BF.B": {
-   "price": 29.37,
-   "change": -0.25,
-   "change_pct": -0.84,
-   "volume": 125851.0,
+   "price": 29.405,
+   "change": -0.215,
+   "change_pct": -0.73,
+   "volume": 240757.0,
    "previous_close": 29.62,
    "market_status": "Market Open",
    "session": "2026-11-27"
@@ -2773,1551 +3475,219 @@
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "TPR": {
-   "price": 128.095,
-   "change": -1.505,
-   "change_pct": -1.16,
-   "volume": 447439.0,
-   "previous_close": 129.6,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GPN": {
-   "price": 97.77,
-   "change": 1.74,
-   "change_pct": 1.81,
-   "volume": 382684.0,
-   "previous_close": 96.03,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CARR": {
-   "price": 54.54,
-   "change": 0.64,
-   "change_pct": 1.19,
-   "volume": 670894.0,
-   "previous_close": 53.9,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ERIE": {
-   "price": 278.47,
-   "change": -1.35,
-   "change_pct": -0.48,
-   "volume": 12157.0,
-   "previous_close": 279.82,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GL": {
-   "price": 157.205,
-   "change": 1.505,
-   "change_pct": 0.97,
-   "volume": 40628.0,
-   "previous_close": 155.7,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PRU": {
-   "price": 122.315,
-   "change": 2.095,
-   "change_pct": 1.74,
-   "volume": 173699.0,
-   "previous_close": 120.22,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BKR": {
-   "price": 47.3,
-   "change": 0.94,
-   "change_pct": 2.03,
-   "volume": 781718.0,
-   "previous_close": 46.36,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ED": {
-   "price": 119.78,
-   "change": -0.59,
-   "change_pct": -0.49,
-   "volume": 192686.0,
-   "previous_close": 120.37,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PYPL": {
-   "price": 59.3599,
-   "change": 1.5499,
-   "change_pct": 2.68,
-   "volume": 1862664.0,
-   "previous_close": 57.81,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GOOGL": {
-   "price": 272.32,
-   "change": -0.78,
-   "change_pct": -0.29,
-   "volume": 8169929.0,
-   "previous_close": 273.1,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AVY": {
-   "price": 192.375,
-   "change": 0.735,
-   "change_pct": 0.38,
-   "volume": 39188.0,
-   "previous_close": 191.64,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "IVZ": {
-   "price": 28.895,
-   "change": 0.795,
-   "change_pct": 2.83,
-   "volume": 401864.0,
-   "previous_close": 28.1,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AWK": {
-   "price": 153.54,
-   "change": 0.7,
-   "change_pct": 0.46,
-   "volume": 299109.0,
-   "previous_close": 152.84,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KR": {
-   "price": 69.59,
-   "change": -0.24,
-   "change_pct": -0.34,
-   "volume": 406665.0,
-   "previous_close": 69.83,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ECHO": {
-   "price": 88.58,
-   "change": 2.84,
-   "change_pct": 3.31,
-   "volume": 1854997.0,
-   "previous_close": 85.74,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EW": {
-   "price": 106.31,
-   "change": -0.05,
-   "change_pct": -0.05,
-   "volume": 320143.0,
-   "previous_close": 106.36,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BDX": {
-   "price": 220.42,
-   "change": -0.82,
-   "change_pct": -0.37,
-   "volume": 169919.0,
-   "previous_close": 221.24,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SNDK": {
-   "price": 83.08,
-   "change": 9.47,
-   "change_pct": 12.87,
-   "volume": 45576954.0,
-   "previous_close": 73.61,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FE": {
-   "price": 47.39,
-   "change": -0.23,
-   "change_pct": -0.48,
-   "volume": 402226.0,
-   "previous_close": 47.62,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "INCY": {
-   "price": 123.125,
-   "change": 0.775,
-   "change_pct": 0.63,
-   "volume": 178388.0,
-   "previous_close": 122.35,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PKG": {
-   "price": 248.18,
-   "change": 1.31,
-   "change_pct": 0.53,
-   "volume": 132700.0,
-   "previous_close": 246.87,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HST": {
-   "price": 25.05,
-   "change": 0.17,
-   "change_pct": 0.68,
-   "volume": 466137.0,
-   "previous_close": 24.88,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ABNB": {
-   "price": 177.84,
-   "change": 5.69,
-   "change_pct": 3.31,
-   "volume": 627048.0,
-   "previous_close": 172.15,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "UHS": {
-   "price": 192.31,
-   "change": 1.74,
-   "change_pct": 0.91,
-   "volume": 40245.0,
-   "previous_close": 190.57,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "APO": {
-   "price": 122.855,
-   "change": 2.375,
-   "change_pct": 1.97,
-   "volume": 422268.0,
-   "previous_close": 120.48,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BRO": {
-   "price": 78.405,
-   "change": -0.025,
-   "change_pct": -0.03,
-   "volume": 309838.0,
-   "previous_close": 78.43,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FTV": {
-   "price": 66.095,
-   "change": 0.055,
-   "change_pct": 0.08,
-   "volume": 178525.0,
-   "previous_close": 66.04,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "COF": {
-   "price": 185.15,
-   "change": 2.63,
-   "change_pct": 1.44,
-   "volume": 455394.0,
-   "previous_close": 182.52,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HOOD": {
-   "price": 67.44,
-   "change": 1.66,
-   "change_pct": 2.52,
-   "volume": 4389498.0,
-   "previous_close": 65.78,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BMY": {
-   "price": 61.13,
-   "change": -0.43,
-   "change_pct": -0.7,
-   "volume": 981737.0,
-   "previous_close": 61.56,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VRSN": {
-   "price": 319.495,
-   "change": 0.025,
-   "change_pct": 0.01,
-   "volume": 1094757.0,
-   "previous_close": 319.47,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MCD": {
-   "price": 282.41,
-   "change": -1.09,
-   "change_pct": -0.38,
-   "volume": 481823.0,
-   "previous_close": 283.5,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EIX": {
-   "price": 63.425,
-   "change": 0.035,
-   "change_pct": 0.06,
-   "volume": 178537.0,
-   "previous_close": 63.39,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ZBH": {
-   "price": 110.19,
-   "change": 0.13,
-   "change_pct": 0.12,
-   "volume": 292274.0,
-   "previous_close": 110.06,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PH": {
-   "price": 906.71,
-   "change": 8.81,
-   "change_pct": 0.98,
-   "volume": 64282.0,
-   "previous_close": 897.9,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HCA": {
-   "price": 504.27,
-   "change": 13.26,
-   "change_pct": 2.7,
-   "volume": 178076.0,
-   "previous_close": 491.01,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MGM": {
-   "price": 35.15,
-   "change": 0.5,
-   "change_pct": 1.44,
-   "volume": 392360.0,
-   "previous_close": 34.65,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BR": {
-   "price": 187.53,
-   "change": 0.39,
-   "change_pct": 0.21,
-   "volume": 83152.0,
-   "previous_close": 187.14,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FAST": {
-   "price": 52.98,
-   "change": 0.05,
-   "change_pct": 0.09,
-   "volume": 539214.0,
-   "previous_close": 52.93,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "XOM": {
-   "price": 161.03,
-   "change": 2.95,
-   "change_pct": 1.87,
-   "volume": 2033898.0,
-   "previous_close": 158.08,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WST": {
-   "price": 368.395,
-   "change": -4.545,
-   "change_pct": -1.22,
-   "volume": 139262.0,
-   "previous_close": 372.94,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CF": {
-   "price": 119.52,
-   "change": 2.02,
-   "change_pct": 1.72,
-   "volume": 208845.0,
-   "previous_close": 117.5,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PGR": {
-   "price": 239.0,
-   "change": 0.3,
-   "change_pct": 0.13,
-   "volume": 245456.0,
-   "previous_close": 238.7,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VEEV": {
-   "price": 271.295,
-   "change": -0.605,
-   "change_pct": -0.22,
-   "volume": 200699.0,
-   "previous_close": 271.9,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NKE": {
-   "price": 37.225,
-   "change": 0.565,
-   "change_pct": 1.54,
-   "volume": 7242252.0,
-   "previous_close": 36.66,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FIS": {
-   "price": 28.32,
-   "change": 0.68,
-   "change_pct": 2.46,
-   "volume": 682782.0,
-   "previous_close": 27.64,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PEP": {
-   "price": 144.2375,
-   "change": 0.3075,
-   "change_pct": 0.21,
-   "volume": 701730.0,
-   "previous_close": 143.93,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "UBER": {
-   "price": 67.31,
-   "change": 0.96,
-   "change_pct": 1.45,
-   "volume": 2820443.0,
-   "previous_close": 66.35,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CHTR": {
-   "price": 155.68,
-   "change": 8.41,
-   "change_pct": 5.71,
-   "volume": 1060726.0,
-   "previous_close": 147.27,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NEM": {
-   "price": 105.61,
-   "change": 6.18,
-   "change_pct": 6.22,
-   "volume": 7992031.0,
-   "previous_close": 99.43,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TDG": {
-   "price": 1164.27,
-   "change": 13.54,
-   "change_pct": 1.18,
-   "volume": 23203.0,
-   "previous_close": 1150.73,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CSGP": {
-   "price": 34.965,
-   "change": 0.945,
-   "change_pct": 2.78,
-   "volume": 588238.0,
-   "previous_close": 34.02,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DOC": {
-   "price": 19.24,
-   "change": -0.1,
-   "change_pct": -0.52,
-   "volume": 6923152.0,
-   "previous_close": 19.34,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DLTR": {
-   "price": 139.39,
-   "change": -3.05,
-   "change_pct": -2.14,
-   "volume": 1758206.0,
-   "previous_close": 142.44,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SO": {
-   "price": 95.01,
-   "change": 0.01,
-   "change_pct": 0.01,
-   "volume": 510882.0,
-   "previous_close": 95.0,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CAT": {
-   "price": 559.49,
-   "change": 15.8,
-   "change_pct": 2.91,
-   "volume": 593730.0,
-   "previous_close": 543.69,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "IFF": {
-   "price": 85.2,
-   "change": -0.91,
-   "change_pct": -1.06,
-   "volume": 240165.0,
-   "previous_close": 86.11,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LH": {
-   "price": 369.585,
-   "change": 0.635,
-   "change_pct": 0.17,
-   "volume": 35305.0,
-   "previous_close": 368.95,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SYK": {
-   "price": 333.105,
-   "change": 0.205,
-   "change_pct": 0.06,
-   "volume": 296024.0,
-   "previous_close": 332.9,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NWS": {
-   "price": 29.07,
-   "change": 0.13,
-   "change_pct": 0.45,
-   "volume": 115009.0,
-   "previous_close": 28.94,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KEYS": {
-   "price": 277.79,
-   "change": 10.1,
-   "change_pct": 3.77,
-   "volume": 244400.0,
-   "previous_close": 267.69,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ACN": {
-   "price": 241.62,
-   "change": 1.13,
-   "change_pct": 0.47,
-   "volume": 589072.0,
-   "previous_close": 240.49,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "RJF": {
-   "price": 165.28,
-   "change": 2.44,
-   "change_pct": 1.5,
-   "volume": 104316.0,
-   "previous_close": 162.84,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "XYZ": {
-   "price": 78.53,
-   "change": 2.43,
-   "change_pct": 3.19,
-   "volume": 615345.0,
-   "previous_close": 76.1,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FITB": {
-   "price": 52.14,
-   "change": 0.43,
-   "change_pct": 0.83,
-   "volume": 640507.0,
-   "previous_close": 51.71,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TPL": {
-   "price": 263.51,
-   "change": 2.14,
-   "change_pct": 0.82,
-   "volume": 70426.0,
-   "previous_close": 261.37,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "A": {
-   "price": 179.43,
-   "change": 0.99,
-   "change_pct": 0.55,
-   "volume": 243033.0,
-   "previous_close": 178.44,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TRV": {
-   "price": 405.665,
-   "change": -1.195,
-   "change_pct": -0.29,
-   "volume": 116564.0,
-   "previous_close": 406.86,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DLR": {
-   "price": 161.1977,
-   "change": -17.1123,
-   "change_pct": -9.6,
-   "volume": 1886568.0,
-   "previous_close": 178.31,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CI": {
-   "price": 273.655,
-   "change": 2.235,
-   "change_pct": 0.82,
-   "volume": 265886.0,
-   "previous_close": 271.42,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DE": {
-   "price": 656.055,
-   "change": 15.035,
-   "change_pct": 2.35,
-   "volume": 486728.0,
-   "previous_close": 641.02,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VRT": {
-   "price": 176.95,
-   "change": 3.58,
-   "change_pct": 2.06,
-   "volume": 1324552.0,
-   "previous_close": 173.37,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FSLR": {
-   "price": 150.68,
-   "change": 2.8,
-   "change_pct": 1.89,
-   "volume": 262732.0,
-   "previous_close": 147.88,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WDC": {
-   "price": 286.1,
-   "change": 13.65,
-   "change_pct": 5.01,
-   "volume": 1330485.0,
-   "previous_close": 272.45,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AMP": {
-   "price": 506.79,
-   "change": 1.81,
-   "change_pct": 0.36,
-   "volume": 67634.0,
-   "previous_close": 504.98,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DOV": {
-   "price": 207.195,
-   "change": 1.845,
-   "change_pct": 0.9,
-   "volume": 176671.0,
-   "previous_close": 205.35,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GD": {
-   "price": 361.47,
-   "change": 1.2,
-   "change_pct": 0.33,
-   "volume": 141138.0,
-   "previous_close": 360.27,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "REGN": {
-   "price": 983.425,
-   "change": 1.555,
-   "change_pct": 0.16,
-   "volume": 210774.0,
-   "previous_close": 981.87,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "RMD": {
-   "price": 245.055,
-   "change": -0.645,
-   "change_pct": -0.26,
-   "volume": 172526.0,
-   "previous_close": 245.7,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KKR": {
-   "price": 95.74,
-   "change": 1.64,
-   "change_pct": 1.74,
-   "volume": 424242.0,
-   "previous_close": 94.1,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EXR": {
-   "price": 161.665,
-   "change": 0.275,
-   "change_pct": 0.17,
-   "volume": 88054.0,
-   "previous_close": 161.39,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BKNG": {
-   "price": 150.35,
-   "change": 0.85,
-   "change_pct": 0.57,
-   "volume": 1507119.0,
-   "previous_close": 149.5,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BAC": {
-   "price": 49.145,
-   "change": 0.605,
-   "change_pct": 1.25,
-   "volume": 4988346.0,
-   "previous_close": 48.54,
+  "AOS": {
+   "price": 67.1,
+   "change": -0.18,
+   "change_pct": -0.27,
+   "volume": 144778.0,
+   "previous_close": 67.28,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
   "O": {
-   "price": 60.31,
-   "change": 0.06,
-   "change_pct": 0.1,
-   "volume": 1012619.0,
+   "price": 60.33,
+   "change": 0.08,
+   "change_pct": 0.13,
+   "volume": 1251538.0,
    "previous_close": 60.25,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "ORLY": {
-   "price": 95.51,
-   "change": -1.18,
-   "change_pct": -1.22,
-   "volume": 670103.0,
-   "previous_close": 96.69,
+  "CI": {
+   "price": 274.07,
+   "change": 2.65,
+   "change_pct": 0.98,
+   "volume": 376438.0,
+   "previous_close": 271.42,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "CEG": {
-   "price": 235.7,
-   "change": 0.42,
-   "change_pct": 0.18,
-   "volume": 669731.0,
-   "previous_close": 235.28,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ADSK": {
-   "price": 252.735,
-   "change": 5.95,
-   "change_pct": 2.41,
-   "volume": 319678.0,
-   "previous_close": 246.785,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GRMN": {
-   "price": 286.0,
-   "change": 6.25,
-   "change_pct": 2.23,
-   "volume": 54935.0,
-   "previous_close": 279.75,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NWSA": {
-   "price": 26.195,
-   "change": 0.115,
-   "change_pct": 0.44,
-   "volume": 273158.0,
-   "previous_close": 26.08,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NOC": {
-   "price": 558.22,
-   "change": 2.43,
-   "change_pct": 0.44,
-   "volume": 60350.0,
-   "previous_close": 555.79,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GOOG": {
-   "price": 270.55,
-   "change": -0.43,
-   "change_pct": -0.16,
-   "volume": 5574810.0,
-   "previous_close": 270.98,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KMB": {
-   "price": 109.675,
-   "change": 0.225,
-   "change_pct": 0.21,
-   "volume": 557724.0,
-   "previous_close": 109.45,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MSFT": {
-   "price": 491.8,
-   "change": 1.87,
-   "change_pct": 0.38,
-   "volume": 3452405.0,
-   "previous_close": 489.93,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SRE": {
-   "price": 79.46,
-   "change": 0.37,
-   "change_pct": 0.47,
-   "volume": 334222.0,
-   "previous_close": 79.09,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AIG": {
-   "price": 82.63,
-   "change": 0.4,
-   "change_pct": 0.49,
-   "volume": 199454.0,
-   "previous_close": 82.23,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MPWR": {
-   "price": 1234.18,
-   "change": 39.55,
-   "change_pct": 3.31,
-   "volume": 110509.0,
-   "previous_close": 1194.63,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WELL": {
-   "price": 248.95,
-   "change": 2.77,
-   "change_pct": 1.13,
-   "volume": 331909.0,
-   "previous_close": 246.18,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TGT": {
-   "price": 172.425,
-   "change": 0.205,
-   "change_pct": 0.12,
-   "volume": 375452.0,
-   "previous_close": 172.22,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MO": {
-   "price": 76.2757,
-   "change": -0.0043,
-   "change_pct": -0.01,
-   "volume": 3352035.0,
-   "previous_close": 76.28,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MOS": {
-   "price": 21.03,
-   "change": 0.68,
-   "change_pct": 3.34,
-   "volume": 669835.0,
-   "previous_close": 20.35,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WFC": {
-   "price": 82.24,
-   "change": 1.3,
-   "change_pct": 1.61,
-   "volume": 1074851.0,
-   "previous_close": 80.94,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ULTA": {
-   "price": 643.03,
-   "change": 0.39,
-   "change_pct": 0.06,
-   "volume": 36203.0,
-   "previous_close": 642.64,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "KLAC": {
-   "price": 137.42,
-   "change": 3.22,
-   "change_pct": 2.4,
-   "volume": 2249041.0,
-   "previous_close": 134.2,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "NTAP": {
-   "price": 171.69,
-   "change": 6.69,
-   "change_pct": 4.05,
-   "volume": 225578.0,
-   "previous_close": 165.0,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "FOXA": {
-   "price": 66.0,
-   "change": 1.37,
-   "change_pct": 2.12,
-   "volume": 573360.0,
-   "previous_close": 64.63,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HUM": {
-   "price": 402.615,
-   "change": -3.895,
-   "change_pct": -0.96,
-   "volume": 70349.0,
-   "previous_close": 406.51,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VTR": {
-   "price": 88.35,
-   "change": 0.99,
-   "change_pct": 1.13,
-   "volume": 327162.0,
-   "previous_close": 87.36,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ELV": {
-   "price": 393.18,
-   "change": 3.48,
-   "change_pct": 0.89,
-   "volume": 105571.0,
-   "previous_close": 389.7,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DVN": {
-   "price": 43.23,
-   "change": 0.78,
-   "change_pct": 1.84,
-   "volume": 1598324.0,
-   "previous_close": 42.45,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AMD": {
-   "price": 416.04,
-   "change": 10.01,
-   "change_pct": 2.47,
-   "volume": 9386963.0,
-   "previous_close": 406.03,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TJX": {
-   "price": 142.85,
-   "change": -3.24,
-   "change_pct": -2.22,
-   "volume": 938796.0,
-   "previous_close": 146.09,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CHRW": {
-   "price": 146.505,
-   "change": 1.685,
-   "change_pct": 1.16,
-   "volume": 149732.0,
-   "previous_close": 144.82,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CMG": {
-   "price": 37.63,
-   "change": 0.23,
-   "change_pct": 0.61,
-   "volume": 1839145.0,
-   "previous_close": 37.4,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "MCK": {
-   "price": 1072.11,
-   "change": -5.21,
-   "change_pct": -0.48,
-   "volume": 58244.0,
-   "previous_close": 1077.32,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VLO": {
-   "price": 329.14,
-   "change": 6.14,
-   "change_pct": 1.9,
-   "volume": 316054.0,
-   "previous_close": 323.0,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PCAR": {
-   "price": 109.16,
-   "change": 1.21,
-   "change_pct": 1.12,
-   "volume": 262557.0,
-   "previous_close": 107.95,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PHM": {
-   "price": 133.91,
-   "change": -0.93,
-   "change_pct": -0.69,
-   "volume": 237709.0,
-   "previous_close": 134.84,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PODD": {
-   "price": 139.495,
-   "change": -3.185,
-   "change_pct": -2.23,
-   "volume": 184434.0,
-   "previous_close": 142.68,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "PNC": {
-   "price": 222.93,
-   "change": 2.6,
-   "change_pct": 1.18,
-   "volume": 173024.0,
-   "previous_close": 220.33,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LYV": {
-   "price": 183.01,
-   "change": 1.28,
-   "change_pct": 0.7,
-   "volume": 146161.0,
-   "previous_close": 181.73,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CTSH": {
-   "price": 58.19,
-   "change": 1.88,
-   "change_pct": 3.34,
-   "volume": 7994047.0,
-   "previous_close": 56.31,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DELL": {
-   "price": 285.7,
-   "change": -27.41,
-   "change_pct": -8.75,
-   "volume": 7163223.0,
-   "previous_close": 313.11,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SJM": {
-   "price": 127.9,
-   "change": -2.16,
-   "change_pct": -1.66,
-   "volume": 216230.0,
-   "previous_close": 130.06,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ARE": {
-   "price": 43.33,
-   "change": 0.24,
-   "change_pct": 0.56,
-   "volume": 80806.0,
-   "previous_close": 43.09,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "BLK": {
-   "price": 1166.36,
-   "change": 24.5,
-   "change_pct": 2.15,
-   "volume": 79354.0,
-   "previous_close": 1141.86,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HD": {
-   "price": 359.61,
-   "change": -1.65,
-   "change_pct": -0.46,
-   "volume": 411914.0,
-   "previous_close": 361.26,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TROW": {
-   "price": 106.31,
-   "change": 2.76,
-   "change_pct": 2.67,
-   "volume": 232807.0,
-   "previous_close": 103.55,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AZO": {
-   "price": 3374.3,
-   "change": -30.16,
-   "change_pct": -0.89,
-   "volume": 23282.0,
-   "previous_close": 3404.46,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GNRC": {
-   "price": 210.18,
-   "change": 6.19,
-   "change_pct": 3.03,
-   "volume": 137452.0,
-   "previous_close": 203.99,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CME": {
-   "price": 311.98,
-   "change": 0.24,
-   "change_pct": 0.08,
-   "volume": 215601.0,
-   "previous_close": 311.74,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ITW": {
-   "price": 285.0,
-   "change": -0.08,
-   "change_pct": -0.03,
-   "volume": 87127.0,
-   "previous_close": 285.08,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ECL": {
-   "price": 310.48,
-   "change": 1.59,
-   "change_pct": 0.51,
-   "volume": 154547.0,
-   "previous_close": 308.89,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "STZ": {
-   "price": 141.32,
-   "change": 1.35,
+  "SCHW": {
+   "price": 94.35,
+   "change": 0.9,
    "change_pct": 0.96,
-   "volume": 161540.0,
-   "previous_close": 139.97,
+   "volume": 1925201.0,
+   "previous_close": 93.45,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "HPQ": {
-   "price": 32.22,
-   "change": 1.07,
-   "change_pct": 3.43,
-   "volume": 3992850.0,
-   "previous_close": 31.15,
+  "EW": {
+   "price": 106.39,
+   "change": 0.03,
+   "change_pct": 0.03,
+   "volume": 468797.0,
+   "previous_close": 106.36,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "DD": {
-   "price": 145.43,
-   "change": -4.8,
-   "change_pct": -3.2,
-   "volume": 1574765.0,
-   "previous_close": 150.23,
+  "SWKS": {
+   "price": 86.46,
+   "change": 4.45,
+   "change_pct": 5.43,
+   "volume": 674094.0,
+   "previous_close": 82.01,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "VRTX": {
-   "price": 525.445,
-   "change": -38.675,
-   "change_pct": -6.86,
-   "volume": 1132837.0,
-   "previous_close": 564.12,
+  "SPG": {
+   "price": 234.96,
+   "change": 0.98,
+   "change_pct": 0.42,
+   "volume": 196324.0,
+   "previous_close": 233.98,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "PANW": {
-   "price": 357.01,
-   "change": 0.87,
-   "change_pct": 0.24,
-   "volume": 2132569.0,
-   "previous_close": 356.14,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SBAC": {
-   "price": 178.43,
-   "change": 3.7,
-   "change_pct": 2.12,
-   "volume": 90638.0,
-   "previous_close": 174.73,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "EMR": {
-   "price": 161.95,
-   "change": 4.72,
-   "change_pct": 3.0,
-   "volume": 347674.0,
-   "previous_close": 157.23,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "LNT": {
-   "price": 73.215,
-   "change": 0.075,
-   "change_pct": 0.1,
-   "volume": 136269.0,
-   "previous_close": 73.14,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "TYL": {
-   "price": 421.7975,
-   "change": 1.5175,
-   "change_pct": 0.36,
-   "volume": 58776.0,
-   "previous_close": 420.28,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "DASH": {
-   "price": 153.28,
-   "change": -13.52,
-   "change_pct": -8.11,
-   "volume": 5193432.0,
-   "previous_close": 166.8,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "SNPS": {
-   "price": 418.01,
-   "change": 12.92,
-   "change_pct": 3.19,
-   "volume": 341203.0,
-   "previous_close": 405.09,
+  "TWLO": {
+   "price": 185.185,
+   "change": 4.395,
+   "change_pct": 2.43,
+   "volume": 205705.0,
+   "previous_close": 180.79,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
   "FDS": {
-   "price": 324.06,
-   "change": -0.49,
-   "change_pct": -0.15,
-   "volume": 38112.0,
+   "price": 323.38,
+   "change": -1.17,
+   "change_pct": -0.36,
+   "volume": 52576.0,
    "previous_close": 324.55,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "DGX": {
-   "price": 259.1403,
-   "change": -0.5497,
-   "change_pct": -0.21,
-   "volume": 1108550.0,
-   "previous_close": 259.69,
+  "VST": {
+   "price": 122.02,
+   "change": 0.7,
+   "change_pct": 0.58,
+   "volume": 635693.0,
+   "previous_close": 121.32,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "FDXF": {
-   "price": 121.545,
-   "change": 2.835,
-   "change_pct": 2.39,
-   "volume": 65300.0,
-   "previous_close": 118.71,
+  "CVS": {
+   "price": 80.2,
+   "change": -1.15,
+   "change_pct": -1.41,
+   "volume": 15944964.0,
+   "previous_close": 81.35,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "ILMN": {
-   "price": 203.0,
-   "change": 2.61,
-   "change_pct": 1.3,
-   "volume": 179140.0,
-   "previous_close": 200.39,
+  "TXN": {
+   "price": 277.21,
+   "change": 7.02,
+   "change_pct": 2.6,
+   "volume": 2292514.0,
+   "previous_close": 270.19,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "CVNA": {
-   "price": 64.56,
-   "change": -7.22,
-   "change_pct": -10.06,
-   "volume": 8946103.0,
-   "previous_close": 71.78,
+  "IEX": {
+   "price": 226.04,
+   "change": 0.79,
+   "change_pct": 0.35,
+   "volume": 58741.0,
+   "previous_close": 225.25,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "SLB": {
-   "price": 49.94,
-   "change": 1.42,
-   "change_pct": 2.93,
-   "volume": 948746.0,
-   "previous_close": 48.52,
+  "V": {
+   "price": 430.63,
+   "change": 6.24,
+   "change_pct": 1.47,
+   "volume": 1697639.0,
+   "previous_close": 424.39,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "HII": {
-   "price": 304.085,
-   "change": 6.155,
-   "change_pct": 2.07,
-   "volume": 32755.0,
-   "previous_close": 297.93,
+  "WDAY": {
+   "price": 180.16,
+   "change": -0.28,
+   "change_pct": -0.16,
+   "volume": 535490.0,
+   "previous_close": 180.44,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "HWM": {
-   "price": 213.885,
-   "change": 2.815,
-   "change_pct": 1.33,
-   "volume": 217487.0,
-   "previous_close": 211.07,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "HPE": {
-   "price": 42.75,
-   "change": 1.93,
-   "change_pct": 4.73,
-   "volume": 3949933.0,
-   "previous_close": 40.82,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CBOE": {
-   "price": 351.89,
-   "change": 0.09,
-   "change_pct": 0.03,
-   "volume": 191909.0,
-   "previous_close": 351.8,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "VZ": {
-   "price": 47.64,
-   "change": 0.36,
-   "change_pct": 0.76,
-   "volume": 2244242.0,
-   "previous_close": 47.28,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CNC": {
-   "price": 65.16,
-   "change": 0.42,
-   "change_pct": 0.65,
-   "volume": 204726.0,
-   "previous_close": 64.74,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "OTIS": {
-   "price": 79.3,
-   "change": 0.4,
-   "change_pct": 0.51,
-   "volume": 278880.0,
-   "previous_close": 78.9,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ROST": {
-   "price": 223.4794,
-   "change": 0.2194,
-   "change_pct": 0.1,
-   "volume": 366460.0,
-   "previous_close": 223.26,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "GWW": {
-   "price": 1425.58,
-   "change": 9.68,
-   "change_pct": 0.68,
-   "volume": 37466.0,
-   "previous_close": 1415.9,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CHD": {
-   "price": 113.225,
-   "change": -0.085,
-   "change_pct": -0.08,
-   "volume": 92664.0,
-   "previous_close": 113.31,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AKAM": {
-   "price": 89.475,
-   "change": 0.815,
-   "change_pct": 0.92,
-   "volume": 411379.0,
-   "previous_close": 88.66,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "AMT": {
-   "price": 184.57,
-   "change": -0.02,
-   "change_pct": -0.01,
-   "volume": 347759.0,
-   "previous_close": 184.59,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "JPM": {
-   "price": 323.555,
-   "change": 6.815,
-   "change_pct": 2.15,
-   "volume": 918696.0,
-   "previous_close": 316.74,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "WEC": {
-   "price": 118.935,
-   "change": -0.155,
-   "change_pct": -0.13,
-   "volume": 145867.0,
-   "previous_close": 119.09,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "ABT": {
-   "price": 107.86,
-   "change": -0.14,
-   "change_pct": -0.13,
-   "volume": 960353.0,
-   "previous_close": 108.0,
-   "market_status": "Market Open",
-   "session": "2026-11-27"
-  },
-  "CRWD": {
-   "price": 212.28,
-   "change": 2.98,
+  "D": {
+   "price": 68.35,
+   "change": 0.96,
    "change_pct": 1.42,
-   "volume": 2650730.0,
-   "previous_close": 209.3,
+   "volume": 6899867.0,
+   "previous_close": 67.39,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "AMGN": {
-   "price": 471.7612,
-   "change": 2.5212,
-   "change_pct": 0.54,
-   "volume": 219407.0,
-   "previous_close": 469.24,
+  "MCD": {
+   "price": 282.11,
+   "change": -1.39,
+   "change_pct": -0.49,
+   "volume": 592076.0,
+   "previous_close": 283.5,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "GS": {
-   "price": 811.225,
-   "change": 10.195,
-   "change_pct": 1.27,
-   "volume": 406443.0,
-   "previous_close": 801.03,
+  "FAST": {
+   "price": 52.93,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "volume": 699138.0,
+   "previous_close": 52.93,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "WM": {
-   "price": 246.4,
-   "change": -0.89,
-   "change_pct": -0.36,
-   "volume": 202747.0,
-   "previous_close": 247.29,
+  "CINF": {
+   "price": 192.5,
+   "change": 0.18,
+   "change_pct": 0.09,
+   "volume": 44336.0,
+   "previous_close": 192.32,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "NDSN": {
-   "price": 323.345,
-   "change": 2.325,
-   "change_pct": 0.72,
-   "volume": 22566.0,
-   "previous_close": 321.02,
+  "HIG": {
+   "price": 139.795,
+   "change": 0.015,
+   "change_pct": 0.01,
+   "volume": 187302.0,
+   "previous_close": 139.78,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "AAPL": {
-   "price": 358.655,
-   "change": 3.075,
-   "change_pct": 0.86,
-   "volume": 6520588.0,
-   "previous_close": 355.58,
+  "INVH": {
+   "price": 27.785,
+   "change": -0.035,
+   "change_pct": -0.13,
+   "volume": 550731.0,
+   "previous_close": 27.82,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "WY": {
-   "price": 20.86,
-   "change": 0.34,
-   "change_pct": 1.66,
-   "volume": 2494826.0,
-   "previous_close": 20.52,
+  "WRB": {
+   "price": 79.14,
+   "change": -0.2,
+   "change_pct": -0.25,
+   "volume": 170505.0,
+   "previous_close": 79.34,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "NOW": {
-   "price": 92.715,
-   "change": 0.555,
-   "change_pct": 0.6,
-   "volume": 3002423.0,
-   "previous_close": 92.16,
+  "NDAQ": {
+   "price": 108.805,
+   "change": 1.735,
+   "change_pct": 1.62,
+   "volume": 527483.0,
+   "previous_close": 107.07,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SRE": {
+   "price": 78.99,
+   "change": -0.1,
+   "change_pct": -0.13,
+   "volume": 532269.0,
+   "previous_close": 79.09,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
@@ -4330,201 +3700,831 @@
    "market_status": "Market Open",
    "session": "2026-11-25"
   },
-  "CPAY": {
-   "price": 457.975,
-   "change": 3.645,
-   "change_pct": 0.8,
-   "volume": 34457.0,
-   "previous_close": 454.33,
+  "EXPD": {
+   "price": 198.62,
+   "change": 0.43,
+   "change_pct": 0.22,
+   "volume": 140289.0,
+   "previous_close": 198.19,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "HONA": {
-   "price": 166.7221,
-   "change": 8.8821,
-   "change_pct": 5.63,
-   "volume": 499673.0,
-   "previous_close": 157.84,
+  "PPL": {
+   "price": 35.345,
+   "change": -0.035,
+   "change_pct": -0.1,
+   "volume": 730061.0,
+   "previous_close": 35.38,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "ON": {
-   "price": 65.3,
-   "change": 2.82,
-   "change_pct": 4.51,
-   "volume": 1220688.0,
-   "previous_close": 62.48,
+  "MDLZ": {
+   "price": 67.45,
+   "change": -0.36,
+   "change_pct": -0.53,
+   "volume": 1014962.0,
+   "previous_close": 67.81,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "TSN": {
-   "price": 63.305,
-   "change": -0.215,
-   "change_pct": -0.34,
-   "volume": 313436.0,
-   "previous_close": 63.52,
+  "AME": {
+   "price": 228.63,
+   "change": 1.14,
+   "change_pct": 0.5,
+   "volume": 146620.0,
+   "previous_close": 227.49,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "RDDT": {
-   "price": 95.19,
-   "change": 3.68,
-   "change_pct": 4.02,
-   "volume": 612686.0,
-   "previous_close": 91.51,
+  "SYF": {
+   "price": 70.075,
+   "change": 1.345,
+   "change_pct": 1.96,
+   "volume": 252716.0,
+   "previous_close": 68.73,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "EBAY": {
-   "price": 116.07,
-   "change": 0.53,
-   "change_pct": 0.46,
-   "volume": 610261.0,
-   "previous_close": 115.54,
+  "BLK": {
+   "price": 1168.545,
+   "change": 26.685,
+   "change_pct": 2.34,
+   "volume": 103125.0,
+   "previous_close": 1141.86,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "MU": {
-   "price": 636.075,
-   "change": 34.825,
-   "change_pct": 5.79,
-   "volume": 12552954.0,
-   "previous_close": 601.25,
+  "MCO": {
+   "price": 486.61,
+   "change": 0.92,
+   "change_pct": 0.19,
+   "volume": 127530.0,
+   "previous_close": 485.69,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "ZTS": {
-   "price": 82.235,
-   "change": -0.365,
+  "DTE": {
+   "price": 137.415,
+   "change": -0.345,
+   "change_pct": -0.25,
+   "volume": 122546.0,
+   "previous_close": 137.76,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CSX": {
+   "price": 51.22,
+   "change": 0.06,
+   "change_pct": 0.12,
+   "volume": 1636612.0,
+   "previous_close": 51.16,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ISRG": {
+   "price": 429.71,
+   "change": 2.53,
+   "change_pct": 0.59,
+   "volume": 314510.0,
+   "previous_close": 427.18,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AKAM": {
+   "price": 89.355,
+   "change": 0.695,
+   "change_pct": 0.78,
+   "volume": 519153.0,
+   "previous_close": 88.66,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GEN": {
+   "price": 30.355,
+   "change": 0.185,
+   "change_pct": 0.61,
+   "volume": 1404268.0,
+   "previous_close": 30.17,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ROST": {
+   "price": 222.825,
+   "change": -0.435,
+   "change_pct": -0.19,
+   "volume": 428421.0,
+   "previous_close": 223.26,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ED": {
+   "price": 119.76,
+   "change": -0.61,
+   "change_pct": -0.51,
+   "volume": 276933.0,
+   "previous_close": 120.37,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NXPI": {
+   "price": 250.88,
+   "change": 7.92,
+   "change_pct": 3.26,
+   "volume": 766770.0,
+   "previous_close": 242.96,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EXR": {
+   "price": 161.645,
+   "change": 0.255,
+   "change_pct": 0.16,
+   "volume": 113242.0,
+   "previous_close": 161.39,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "KKR": {
+   "price": 95.91,
+   "change": 1.81,
+   "change_pct": 1.92,
+   "volume": 567110.0,
+   "previous_close": 94.1,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GD": {
+   "price": 360.45,
+   "change": 0.18,
+   "change_pct": 0.05,
+   "volume": 200749.0,
+   "previous_close": 360.27,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ORLY": {
+   "price": 95.33,
+   "change": -1.36,
+   "change_pct": -1.41,
+   "volume": 869793.0,
+   "previous_close": 96.69,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "KEY": {
+   "price": 20.51,
+   "change": 0.29,
+   "change_pct": 1.43,
+   "volume": 1905304.0,
+   "previous_close": 20.22,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CBOE": {
+   "price": 350.78,
+   "change": -1.02,
+   "change_pct": -0.29,
+   "volume": 245050.0,
+   "previous_close": 351.8,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FLEX": {
+   "price": 69.59,
+   "change": 2.36,
+   "change_pct": 3.51,
+   "volume": 833669.0,
+   "previous_close": 67.23,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CDNS": {
+   "price": 298.84,
+   "change": 3.95,
+   "change_pct": 1.34,
+   "volume": 342120.0,
+   "previous_close": 294.89,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "UNP": {
+   "price": 297.9,
+   "change": -0.48,
+   "change_pct": -0.16,
+   "volume": 496920.0,
+   "previous_close": 298.38,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BSX": {
+   "price": 45.245,
+   "change": 0.125,
+   "change_pct": 0.28,
+   "volume": 2017554.0,
+   "previous_close": 45.12,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CLX": {
+   "price": 111.6,
+   "change": 0.66,
+   "change_pct": 0.59,
+   "volume": 278179.0,
+   "previous_close": 110.94,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CMS": {
+   "price": 71.67,
+   "change": 0.07,
+   "change_pct": 0.1,
+   "volume": 398595.0,
+   "previous_close": 71.6,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CVNA": {
+   "price": 64.56,
+   "change": -7.22,
+   "change_pct": -10.06,
+   "volume": 8946103.0,
+   "previous_close": 71.78,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ETN": {
+   "price": 324.085,
+   "change": 6.275,
+   "change_pct": 1.97,
+   "volume": 562387.0,
+   "previous_close": 317.81,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ECL": {
+   "price": 310.875,
+   "change": 1.985,
+   "change_pct": 0.64,
+   "volume": 223777.0,
+   "previous_close": 308.89,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TXT": {
+   "price": 82.2,
+   "change": 1.32,
+   "change_pct": 1.63,
+   "volume": 291164.0,
+   "previous_close": 80.88,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SW": {
+   "price": 43.25,
+   "change": 1.6,
+   "change_pct": 3.84,
+   "volume": 651751.0,
+   "previous_close": 41.65,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SHW": {
+   "price": 362.52,
+   "change": 1.5,
+   "change_pct": 0.42,
+   "volume": 220599.0,
+   "previous_close": 361.02,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TEL": {
+   "price": 217.54,
+   "change": 6.06,
+   "change_pct": 2.87,
+   "volume": 487794.0,
+   "previous_close": 211.48,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TFC": {
+   "price": 48.5,
+   "change": 0.61,
+   "change_pct": 1.27,
+   "volume": 966452.0,
+   "previous_close": 47.89,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AWK": {
+   "price": 153.16,
+   "change": 0.32,
+   "change_pct": 0.21,
+   "volume": 510400.0,
+   "previous_close": 152.84,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "WM": {
+   "price": 246.065,
+   "change": -1.225,
+   "change_pct": -0.5,
+   "volume": 303790.0,
+   "previous_close": 247.29,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NVR": {
+   "price": 6017.99,
+   "change": 1.02,
+   "change_pct": 0.02,
+   "volume": 7531.0,
+   "previous_close": 6016.97,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ALL": {
+   "price": 272.26,
+   "change": 0.87,
+   "change_pct": 0.32,
+   "volume": 232568.0,
+   "previous_close": 271.39,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FIX": {
+   "price": 1119.2,
+   "change": 19.62,
+   "change_pct": 1.78,
+   "volume": 121052.0,
+   "previous_close": 1099.58,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BBY": {
+   "price": 103.46,
+   "change": 0.88,
+   "change_pct": 0.86,
+   "volume": 470918.0,
+   "previous_close": 102.58,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "UHS": {
+   "price": 191.35,
+   "change": 0.78,
+   "change_pct": 0.41,
+   "volume": 54463.0,
+   "previous_close": 190.57,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HD": {
+   "price": 359.6738,
+   "change": -1.5862,
    "change_pct": -0.44,
-   "volume": 286260.0,
-   "previous_close": 82.6,
+   "volume": 537827.0,
+   "previous_close": 361.26,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "PM": {
-   "price": 187.085,
-   "change": 2.765,
-   "change_pct": 1.5,
-   "volume": 875535.0,
-   "previous_close": 184.32,
+  "PKG": {
+   "price": 248.819,
+   "change": 1.949,
+   "change_pct": 0.79,
+   "volume": 174593.0,
+   "previous_close": 246.87,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "URI": {
-   "price": 1053.06,
-   "change": 37.34,
-   "change_pct": 3.68,
-   "volume": 72716.0,
-   "previous_close": 1015.72,
+  "SOLV": {
+   "price": 87.29,
+   "change": 0.13,
+   "change_pct": 0.15,
+   "volume": 60001.0,
+   "previous_close": 87.16,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "WDAY": {
-   "price": 180.52,
-   "change": 0.08,
-   "change_pct": 0.04,
-   "volume": 426601.0,
-   "previous_close": 180.44,
+  "APD": {
+   "price": 316.135,
+   "change": 1.875,
+   "change_pct": 0.6,
+   "volume": 114789.0,
+   "previous_close": 314.26,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "HAS": {
-   "price": 109.2,
-   "change": -1.38,
-   "change_pct": -1.25,
-   "volume": 327071.0,
-   "previous_close": 110.58,
+  "PRU": {
+   "price": 122.4,
+   "change": 2.18,
+   "change_pct": 1.81,
+   "volume": 225742.0,
+   "previous_close": 120.22,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "APA": {
-   "price": 46.59,
-   "change": 1.11,
-   "change_pct": 2.44,
-   "volume": 549011.0,
-   "previous_close": 45.48,
+  "BAC": {
+   "price": 49.225,
+   "change": 0.685,
+   "change_pct": 1.41,
+   "volume": 6609690.0,
+   "previous_close": 48.54,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
   "WTW": {
-   "price": 355.9,
-   "change": 3.34,
-   "change_pct": 0.95,
-   "volume": 48331.0,
+   "price": 355.56,
+   "change": 3.0,
+   "change_pct": 0.85,
+   "volume": 62007.0,
    "previous_close": 352.56,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "MA": {
-   "price": 668.6,
-   "change": 8.63,
-   "change_pct": 1.31,
-   "volume": 533262.0,
-   "previous_close": 659.97,
+  "NWS": {
+   "price": 29.025,
+   "change": 0.085,
+   "change_pct": 0.29,
+   "volume": 151196.0,
+   "previous_close": 28.94,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "APTV": {
-   "price": 38.275,
+  "MS": {
+   "price": 171.49,
+   "change": 3.94,
+   "change_pct": 2.35,
+   "volume": 1418506.0,
+   "previous_close": 167.55,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AEP": {
+   "price": 127.37,
+   "change": -0.22,
+   "change_pct": -0.17,
+   "volume": 304720.0,
+   "previous_close": 127.59,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HAL": {
+   "price": 32.335,
    "change": 0.725,
-   "change_pct": 1.93,
-   "volume": 535961.0,
-   "previous_close": 37.55,
+   "change_pct": 2.29,
+   "volume": 1037479.0,
+   "previous_close": 31.61,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "P": {
-   "price": 100.245,
-   "change": 5.555,
-   "change_pct": 5.87,
-   "volume": 445565.0,
-   "previous_close": 94.69,
+  "ZBH": {
+   "price": 110.11,
+   "change": 0.05,
+   "change_pct": 0.05,
+   "volume": 381667.0,
+   "previous_close": 110.06,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "SNA": {
-   "price": 362.245,
-   "change": 1.805,
+  "MSCI": {
+   "price": 633.32,
+   "change": 0.32,
+   "change_pct": 0.05,
+   "volume": 40623.0,
+   "previous_close": 633.0,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ABNB": {
+   "price": 178.6,
+   "change": 6.45,
+   "change_pct": 3.75,
+   "volume": 1047375.0,
+   "previous_close": 172.15,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ITW": {
+   "price": 284.35,
+   "change": -0.73,
+   "change_pct": -0.26,
+   "volume": 125089.0,
+   "previous_close": 285.08,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AMP": {
+   "price": 506.93,
+   "change": 1.95,
+   "change_pct": 0.39,
+   "volume": 92138.0,
+   "previous_close": 504.98,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "COF": {
+   "price": 186.265,
+   "change": 3.745,
+   "change_pct": 2.05,
+   "volume": 598343.0,
+   "previous_close": 182.52,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DOW": {
+   "price": 30.055,
+   "change": 0.395,
+   "change_pct": 1.33,
+   "volume": 1423018.0,
+   "previous_close": 29.66,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AEE": {
+   "price": 114.645,
+   "change": -0.235,
+   "change_pct": -0.2,
+   "volume": 352157.0,
+   "previous_close": 114.88,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "PFG": {
+   "price": 110.72,
+   "change": 1.68,
+   "change_pct": 1.54,
+   "volume": 84018.0,
+   "previous_close": 109.04,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ACGL": {
+   "price": 110.44,
+   "change": 0.15,
+   "change_pct": 0.14,
+   "volume": 255018.0,
+   "previous_close": 110.29,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MSI": {
+   "price": 545.27,
+   "change": 4.27,
+   "change_pct": 0.79,
+   "volume": 244843.0,
+   "previous_close": 541.0,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "IBKR": {
+   "price": 77.26,
+   "change": 2.52,
+   "change_pct": 3.37,
+   "volume": 759833.0,
+   "previous_close": 74.74,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GRMN": {
+   "price": 285.75,
+   "change": 6.0,
+   "change_pct": 2.14,
+   "volume": 74107.0,
+   "previous_close": 279.75,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "ROP": {
+   "price": 483.14,
+   "change": 0.05,
+   "change_pct": 0.01,
+   "volume": 105230.0,
+   "previous_close": 483.09,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NTAP": {
+   "price": 171.12,
+   "change": 6.12,
+   "change_pct": 3.71,
+   "volume": 279578.0,
+   "previous_close": 165.0,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GS": {
+   "price": 813.755,
+   "change": 12.725,
+   "change_pct": 1.59,
+   "volume": 529135.0,
+   "previous_close": 801.03,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HST": {
+   "price": 25.02,
+   "change": 0.14,
+   "change_pct": 0.56,
+   "volume": 621370.0,
+   "previous_close": 24.88,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "HCA": {
+   "price": 503.01,
+   "change": 12.0,
+   "change_pct": 2.44,
+   "volume": 259946.0,
+   "previous_close": 491.01,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "NDSN": {
+   "price": 322.98,
+   "change": 1.96,
+   "change_pct": 0.61,
+   "volume": 33557.0,
+   "previous_close": 321.02,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "GIS": {
+   "price": 36.025,
+   "change": -0.225,
+   "change_pct": -0.62,
+   "volume": 876523.0,
+   "previous_close": 36.25,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LVS": {
+   "price": 40.94,
+   "change": 1.18,
+   "change_pct": 2.97,
+   "volume": 1334799.0,
+   "previous_close": 39.76,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "MPC": {
+   "price": 361.4,
+   "change": 15.13,
+   "change_pct": 4.37,
+   "volume": 624177.0,
+   "previous_close": 346.27,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FDXF": {
+   "price": 121.525,
+   "change": 2.815,
+   "change_pct": 2.37,
+   "volume": 91149.0,
+   "previous_close": 118.71,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "TSLA": {
+   "price": 398.78,
+   "change": 18.64,
+   "change_pct": 4.9,
+   "volume": 14522963.0,
+   "previous_close": 380.14,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "FTNT": {
+   "price": 136.83,
+   "change": 1.87,
+   "change_pct": 1.39,
+   "volume": 676041.0,
+   "previous_close": 134.96,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "BKNG": {
+   "price": 149.87,
+   "change": 0.37,
+   "change_pct": 0.25,
+   "volume": 1893605.0,
+   "previous_close": 149.5,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "LUV": {
+   "price": 46.825,
+   "change": 0.875,
+   "change_pct": 1.9,
+   "volume": 462091.0,
+   "previous_close": 45.95,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "CPAY": {
+   "price": 457.36,
+   "change": 3.03,
+   "change_pct": 0.67,
+   "volume": 42629.0,
+   "previous_close": 454.33,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "DLTR": {
+   "price": 139.39,
+   "change": -3.05,
+   "change_pct": -2.14,
+   "volume": 1758206.0,
+   "previous_close": 142.44,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "EXE": {
+   "price": 87.32,
+   "change": 0.55,
+   "change_pct": 0.63,
+   "volume": 646648.0,
+   "previous_close": 86.77,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "IDXX": {
+   "price": 714.4,
+   "change": 4.94,
+   "change_pct": 0.7,
+   "volume": 83253.0,
+   "previous_close": 709.46,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "UBER": {
+   "price": 67.3,
+   "change": 0.95,
+   "change_pct": 1.43,
+   "volume": 3401492.0,
+   "previous_close": 66.35,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "JBHT": {
+   "price": 230.815,
+   "change": 2.895,
+   "change_pct": 1.27,
+   "volume": 67358.0,
+   "previous_close": 227.92,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "SYY": {
+   "price": 82.835,
+   "change": 1.065,
+   "change_pct": 1.3,
+   "volume": 593584.0,
+   "previous_close": 81.77,
+   "market_status": "Market Open",
+   "session": "2026-11-27"
+  },
+  "AIG": {
+   "price": 82.64,
+   "change": 0.41,
    "change_pct": 0.5,
-   "volume": 29172.0,
-   "previous_close": 360.44,
+   "volume": 293530.0,
+   "previous_close": 82.23,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "DAL": {
-   "price": 80.57,
-   "change": -4.31,
-   "change_pct": -5.08,
-   "volume": 7235663.0,
-   "previous_close": 84.88,
+  "PEP": {
+   "price": 144.005,
+   "change": 0.075,
+   "change_pct": 0.05,
+   "volume": 934759.0,
+   "previous_close": 143.93,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "ROK": {
-   "price": 393.0,
-   "change": 8.09,
-   "change_pct": 2.1,
-   "volume": 123299.0,
-   "previous_close": 384.91,
+  "GEV": {
+   "price": 726.59,
+   "change": 11.59,
+   "change_pct": 1.62,
+   "volume": 1004804.0,
+   "previous_close": 715.0,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "V": {
-   "price": 431.425,
-   "change": 7.035,
-   "change_pct": 1.66,
-   "volume": 1303737.0,
-   "previous_close": 424.39,
+  "OKE": {
+   "price": 87.915,
+   "change": 1.465,
+   "change_pct": 1.69,
+   "volume": 517959.0,
+   "previous_close": 86.45,
    "market_status": "Market Open",
    "session": "2026-11-27"
   },
-  "STE": {
-   "price": 261.405,
-   "change": 0.235,
-   "change_pct": 0.09,
-   "volume": 77640.0,
-   "previous_close": 261.17,
+  "ABT": {
+   "price": 107.895,
+   "change": -0.105,
+   "change_pct": -0.1,
+   "volume": 1223910.0,
+   "previous_close": 108.0,
    "market_status": "Market Open",
    "session": "2026-11-27"
   }
@@ -4545,7 +4545,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-11-27",
-   "price": 51.425,
+   "price": 51.22,
    "yield_pct": 0.27
   },
   {
@@ -4563,7 +4563,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-11-30",
-   "price": 368.41,
+   "price": 368.67,
    "yield_pct": 0.04
   },
   {
@@ -4581,7 +4581,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-11-30",
-   "price": 77.13,
+   "price": 77.26,
    "yield_pct": 0.19
   },
   {
@@ -4599,8 +4599,8 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-01",
-   "price": 188.6996,
-   "yield_pct": 0.17
+   "price": 188.2829,
+   "yield_pct": 0.18
   },
   {
    "symbol": "NVDA",
@@ -4617,7 +4617,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-01",
-   "price": 148.04,
+   "price": 148.265,
    "yield_pct": 0.17
   },
   {
@@ -4635,7 +4635,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-01",
-   "price": 175.495,
+   "price": 174.96,
    "yield_pct": 0.17
   },
   {
@@ -4653,7 +4653,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-01",
-   "price": 110.44,
+   "price": 110.72,
    "yield_pct": 0.77
   },
   {
@@ -4671,7 +4671,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-02",
-   "price": 530.02,
+   "price": 529.83,
    "yield_pct": 0.3
   },
   {
@@ -4689,7 +4689,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-02",
-   "price": 176.81,
+   "price": 176.12,
    "yield_pct": 0.52
   },
   {
@@ -4707,7 +4707,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 146.505,
+   "price": 146.64,
    "yield_pct": 0.44
   },
   {
@@ -4725,7 +4725,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 116.07,
+   "price": 115.22,
    "yield_pct": 0.27
   },
   {
@@ -4743,7 +4743,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 46.6,
+   "price": 46.5213,
    "yield_pct": 0.9
   },
   {
@@ -4761,7 +4761,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 85.83,
+   "price": 85.4699,
    "yield_pct": 0.21
   },
   {
@@ -4779,7 +4779,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 109.675,
+   "price": 109.52,
    "yield_pct": 1.17
   },
   {
@@ -4797,7 +4797,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 108.945,
+   "price": 108.805,
    "yield_pct": 0.28
   },
   {
@@ -4815,7 +4815,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 168.875,
+   "price": 169.0,
    "yield_pct": 0.52
   },
   {
@@ -4833,7 +4833,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 144.2375,
+   "price": 144.005,
    "yield_pct": 1.03
   },
   {
@@ -4851,7 +4851,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 59.3599,
+   "price": 59.28,
    "yield_pct": 0.24
   },
   {
@@ -4869,7 +4869,7 @@
    "book_closure_from": null,
    "book_closure_to": null,
    "last_buy_date": "2026-12-03",
-   "price": 286.1,
+   "price": 285.3,
    "yield_pct": 0.06
   }
  ],
