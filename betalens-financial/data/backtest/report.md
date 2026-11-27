@@ -1,6 +1,6 @@
 # BetaLens back-test
 
-3004 company-month observations, 539 with enough data for a signal, from 2022-09-30 to 2026-07-31. Look-back setting: 3 year(s).
+3203 company-month observations, 627 with enough data for a signal, from 2022-09-30 to 2026-08-31. Look-back setting: 3 year(s).
 
 Read this as indicative, not proof. Only today's KSE-100 members are tested, the window is a few years, and monthly samples overlap. Share returns here exclude dividends while the KSE-100 is a total-return index, so out-performance is understated by roughly each share's dividend yield.
 
@@ -10,45 +10,45 @@ Read this as indicative, not proof. Only today's KSE-100 members are tested, the
 
 | Signal | Observations | Avg return % | Avg vs KSE-100 % | Beat index % | Rose % |
 |---|---|---|---|---|---|
-| STRONG_BUY | 36 | 4.84 | -0.85 | 50.0 | 50.0 |
-| BUY | 26 | 4.55 | 1.24 | 53.8 | 50.0 |
-| HOLD | 251 | 4.31 | -1.43 | 37.5 | 51.0 |
-| SELL | 183 | 6.21 | -2.13 | 39.3 | 54.6 |
-| STRONG_SELL | 43 | 12.87 | 0.16 | 39.5 | 53.5 |
-| INSUFFICIENT_DATA | 2465 | 11.26 | -0.43 | 37.4 | 61.3 |
+| STRONG_BUY | 39 | 3.48 | -1.81 | 46.2 | 46.2 |
+| BUY | 30 | 3.74 | 0.82 | 53.3 | 50.0 |
+| HOLD | 308 | 4.02 | -1.54 | 35.4 | 47.4 |
+| SELL | 192 | 5.49 | -2.23 | 38.5 | 53.1 |
+| STRONG_SELL | 57 | 9.51 | -0.52 | 40.4 | 52.6 |
+| INSUFFICIENT_DATA | 2576 | 10.9 | -0.94 | 36.8 | 60.7 |
 
 ### By score rank each month (Q1 = top fifth)
 
 | Quintile | Observations | Avg return % | Avg vs KSE-100 % | Beat index % | Rose % |
 |---|---|---|---|---|---|
-| Q1 | 139 | 7.37 | -0.36 | 43.2 | 53.2 |
-| Q2 | 96 | 5.19 | -1.09 | 36.5 | 51.0 |
-| Q3 | 115 | 5.9 | -1.79 | 38.3 | 52.2 |
-| Q4 | 96 | 2.01 | -4.25 | 35.4 | 51.0 |
-| Q5 | 93 | 7.19 | 0.31 | 45.2 | 53.8 |
+| Q1 | 153 | 6.62 | -0.57 | 43.1 | 51.0 |
+| Q2 | 126 | 5.05 | -1.42 | 34.9 | 51.6 |
+| Q3 | 115 | 3.94 | -2.21 | 34.8 | 43.5 |
+| Q4 | 126 | 3.38 | -3.07 | 34.9 | 50.8 |
+| Q5 | 106 | 5.23 | -0.68 | 43.4 | 50.9 |
 
 ### By signal (suggested thresholds)
 
 | Signal | Observations | Avg return % | Avg vs KSE-100 % | Beat index % | Rose % |
 |---|---|---|---|---|---|
-| STRONG_BUY | 52 | 4.48 | -0.09 | 50.0 | 50.0 |
-| BUY | 111 | 3.25 | -1.65 | 38.7 | 47.7 |
-| HOLD | 211 | 5.03 | -1.96 | 36.5 | 52.1 |
-| SELL | 112 | 7.24 | -0.79 | 42.9 | 58.0 |
-| STRONG_SELL | 53 | 11.25 | -0.94 | 39.6 | 52.8 |
+| STRONG_BUY | 63 | 3.76 | -0.81 | 47.6 | 47.6 |
+| BUY | 127 | 2.21 | -1.69 | 38.6 | 48.0 |
+| HOLD | 246 | 5.0 | -1.94 | 33.7 | 47.6 |
+| SELL | 130 | 6.02 | -1.48 | 41.5 | 54.6 |
+| STRONG_SELL | 60 | 9.22 | -0.68 | 40.0 | 53.3 |
 
-Overall score rank correlation with later out-performance: 0.157 (positive in 69.0% of 29 months).
+Overall score rank correlation with later out-performance: 0.145 (positive in 70.0% of 30 months).
 
 ### Which factors predicted out-performance
 
 | Factor | Rank correlation | Months | Months positive % |
 |---|---|---|---|
-| valuation | 0.067 | 41 | 75.6 |
-| dividend | 0.047 | 9 | 55.6 |
-| revenue_growth | 0.018 | 29 | 51.7 |
-| price_trend | 0.013 | 47 | 46.8 |
-| earnings_growth | -0.009 | 29 | 41.4 |
-| profitability | -0.029 | 41 | 43.9 |
+| valuation | 0.061 | 42 | 71.4 |
+| dividend | 0.046 | 10 | 60.0 |
+| revenue_growth | 0.023 | 30 | 60.0 |
+| price_trend | 0.015 | 48 | 43.8 |
+| earnings_growth | -0.005 | 30 | 43.3 |
+| profitability | -0.023 | 42 | 45.2 |
 
 ## 6m after the signal
 
@@ -58,43 +58,43 @@ Overall score rank correlation with later out-performance: 0.157 (positive in 69
 |---|---|---|---|---|---|
 | STRONG_BUY | 28 | 15.62 | 0.77 | 53.6 | 67.9 |
 | BUY | 16 | 3.28 | -2.46 | 43.8 | 62.5 |
-| HOLD | 172 | 15.31 | 0.08 | 33.7 | 61.6 |
-| SELL | 155 | 13.41 | -7.28 | 33.5 | 58.1 |
-| STRONG_SELL | 37 | 20.32 | -4.69 | 37.8 | 56.8 |
-| INSUFFICIENT_DATA | 2401 | 27.04 | 0.35 | 36.7 | 70.0 |
+| HOLD | 192 | 17.66 | 1.24 | 34.4 | 60.9 |
+| SELL | 151 | 12.87 | -7.45 | 33.1 | 57.6 |
+| STRONG_SELL | 45 | 16.52 | -4.43 | 37.8 | 53.3 |
+| INSUFFICIENT_DATA | 2499 | 26.26 | -0.75 | 35.6 | 69.6 |
 
 ### By score rank each month (Q1 = top fifth)
 
 | Quintile | Observations | Avg return % | Avg vs KSE-100 % | Beat index % | Rose % |
 |---|---|---|---|---|---|
-| Q1 | 111 | 21.96 | 2.14 | 44.1 | 67.6 |
-| Q2 | 70 | 16.29 | -0.03 | 31.4 | 64.3 |
-| Q3 | 89 | 9.82 | -8.33 | 28.1 | 56.2 |
-| Q4 | 70 | 8.13 | -8.22 | 31.4 | 57.1 |
-| Q5 | 68 | 13.72 | -3.29 | 41.2 | 52.9 |
+| Q1 | 112 | 21.99 | 2.25 | 43.8 | 67.0 |
+| Q2 | 87 | 18.97 | 1.53 | 32.2 | 64.4 |
+| Q3 | 77 | 9.93 | -6.46 | 29.9 | 53.2 |
+| Q4 | 87 | 8.6 | -8.86 | 29.9 | 56.3 |
+| Q5 | 69 | 13.64 | -3.19 | 42.0 | 52.2 |
 
 ### By signal (suggested thresholds)
 
 | Signal | Observations | Avg return % | Avg vs KSE-100 % | Beat index % | Rose % |
 |---|---|---|---|---|---|
-| STRONG_BUY | 36 | 12.02 | -0.68 | 50.0 | 63.9 |
-| BUY | 71 | 11.64 | -2.34 | 33.8 | 59.2 |
-| HOLD | 162 | 16.65 | -0.84 | 34.0 | 63.0 |
-| SELL | 93 | 11.93 | -8.01 | 34.4 | 59.1 |
-| STRONG_SELL | 46 | 19.3 | -5.09 | 37.0 | 52.2 |
+| STRONG_BUY | 38 | 12.17 | -0.47 | 50.0 | 65.8 |
+| BUY | 70 | 10.55 | -2.48 | 31.4 | 58.6 |
+| HOLD | 172 | 20.17 | 1.45 | 36.0 | 62.2 |
+| SELL | 105 | 11.12 | -8.92 | 33.3 | 57.1 |
+| STRONG_SELL | 47 | 15.52 | -4.78 | 36.2 | 51.1 |
 
-Overall score rank correlation with later out-performance: 0.254 (positive in 61.5% of 26 months).
+Overall score rank correlation with later out-performance: 0.237 (positive in 65.4% of 26 months).
 
 ### Which factors predicted out-performance
 
 | Factor | Rank correlation | Months | Months positive % |
 |---|---|---|---|
-| valuation | 0.078 | 38 | 71.1 |
-| revenue_growth | 0.019 | 26 | 57.7 |
-| price_trend | -0.022 | 44 | 36.4 |
-| profitability | -0.026 | 38 | 42.1 |
-| earnings_growth | -0.028 | 26 | 38.5 |
-| dividend | -0.045 | 6 | 33.3 |
+| valuation | 0.078 | 38 | 73.7 |
+| revenue_growth | 0.017 | 26 | 57.7 |
+| price_trend | -0.013 | 44 | 38.6 |
+| profitability | -0.023 | 38 | 44.7 |
+| earnings_growth | -0.031 | 26 | 42.3 |
+| dividend | -0.047 | 6 | 33.3 |
 
 ## Alternative factor weightings
 
@@ -102,12 +102,12 @@ Top fifth and bottom fifth of scores each month, average return vs the KSE-100.
 
 | Weighting | Horizon | Top fifth % | Bottom fifth % | Spread % | Top fifth beat index % | Rank correlation |
 |---|---|---|---|---|---|---|
-| current | 3m | 0.89 | 0.16 | 0.73 | 45.9 | 0.157 |
-| current | 6m | 3.74 | -0.89 | 4.63 | 45.3 | 0.254 |
-| original | 3m | 0.11 | 1.25 | -1.14 | 43.2 | 0.12 |
-| original | 6m | 2.1 | 0.36 | 1.74 | 44.2 | 0.219 |
-| equal | 3m | 0.12 | 0.66 | -0.54 | 43.2 | 0.115 |
-| equal | 6m | 1.8 | 0.91 | 0.89 | 43.0 | 0.199 |
+| current | 3m | 0.1 | -0.67 | 0.77 | 43.5 | 0.145 |
+| current | 6m | 3.5 | -0.84 | 4.34 | 44.8 | 0.237 |
+| original | 3m | -0.66 | -0.04 | -0.62 | 42.7 | 0.091 |
+| original | 6m | 1.84 | -0.59 | 2.43 | 43.7 | 0.202 |
+| equal | 3m | -0.77 | -0.33 | -0.44 | 41.9 | 0.08 |
+| equal | 6m | 1.58 | -0.09 | 1.67 | 42.5 | 0.168 |
 
 - `original`: valuation 12, revenue_growth 10, dividend 8, earnings_growth 12, profitability 12, price_trend 8
 - `equal`: valuation 10, revenue_growth 10, dividend 10, earnings_growth 10, profitability 11, price_trend 11
@@ -118,7 +118,7 @@ Set so that about 10% of scores are Strong Buy, 20% Buy, 40% Hold, 20% Sell, 10%
 
 | Band | Current | Suggested |
 |---|---|---|
-| strong_buy | 87 | 80 |
-| buy | 76 | 64 |
-| hold | 49 | 41 |
-| sell | 24 | 27 |
+| strong_buy | 87 | 78 |
+| buy | 76 | 65 |
+| hold | 49 | 42 |
+| sell | 24 | 26 |
